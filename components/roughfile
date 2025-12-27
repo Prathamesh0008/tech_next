@@ -1,0 +1,83 @@
+// import React, { useState } from "react";
+// import { Swiper, SwiperSlide } from "swiper/react";
+// import { Autoplay, Navigation, Pagination } from "swiper/modules";
+
+// import "swiper/css";
+// import "swiper/css/navigation";
+// import "swiper/css/pagination";
+
+// export default function BannerSlider({ banners }) {
+//   const [imageLoaded, setImageLoaded] = useState({});
+
+//   const handleImageLoad = (index) => {
+//     setImageLoaded((prev) => ({ ...prev, [index]: true }));
+//   };
+
+//   return (
+//     <Swiper
+//       modules={[Autoplay, Navigation, Pagination]}
+//       slidesPerView={1}
+//       loop={true}
+//       autoplay={{ delay: 4000, disableOnInteraction: false }}
+//       navigation
+//       pagination={{ clickable: true }}
+//       className="w-full h-[45vh] sm:h-[55vh] md:h-[70vh] lg:h-[55vh] bg-white relative overflow-hidden"
+//     >
+//       {banners.map((banner, idx) => (
+//         <SwiperSlide key={idx}>
+//           <div className="relative w-full h-full overflow-hidden">
+
+//             {/* Loader */}
+//             {!imageLoaded[idx] && (
+//               <div className="absolute inset-0 bg-gray-200 animate-pulse z-10" />
+//             )}
+
+//             {/* Banner Image */}
+//             <img
+//               src={banner.image}
+//               alt={banner.alt || `Banner ${idx + 1}`}
+//               onLoad={() => handleImageLoad(idx)}
+//               className={`
+//                 absolute inset-0 w-full h-full object-cover 
+//                 transition-all duration-[1500ms]
+//                 ${imageLoaded[idx] ? "opacity-100 scale-105" : "opacity-0 scale-110"}
+//               `}
+//             />
+
+//             {/* Text Layer */}
+//             <div
+//               className={`absolute inset-0 flex flex-col items-center justify-center text-white px-4 md:px-10 text-center`}
+//             >
+//               <h1 className="text-3xl md:text-6xl font-extrabold drop-shadow-lg animate-fadeInUp">
+//                 {banner.title}
+//               </h1>
+
+//               {banner.subtitle && (
+//                 <p
+//                   className="text-sm md:text-xl mt-3 text-white/90 animate-fadeInUp"
+//                   style={{ animationDelay: "0.6s" }}
+//                 >
+//                   {banner.subtitle}
+//                 </p>
+//               )}
+//             </div>
+//           </div>
+//         </SwiperSlide>
+//       ))}
+
+//       <style>
+//         {`
+//           @keyframes fadeInUp {
+//             0% { opacity: 0; transform: translateY(20px); }
+//             100% { opacity: 1; transform: translateY(0); }
+//           }
+
+//           .animate-fadeInUp {
+//             opacity: 0;
+//             animation: fadeInUp 1s ease forwards;
+//           }
+//         `}
+//       </style>
+//     </Swiper>
+//   );
+// }
