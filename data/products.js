@@ -1511,7 +1511,7 @@ export const tablets = [
 ,
 {
   id: "tab-novameth-10",
-  name: "NOVAMETH ",
+  name: "NOVAMETH",
   category: "Tablets",
   cas: "72-63-9",
   description: "NOVAMETH (Methandienone 10 mg) is a high-potency anabolic steroid used to support rapid muscle mass gain, strength improvement, and enhanced training performance. Ideal for advanced users seeking accelerated physique development under professional supervision.",
@@ -1567,7 +1567,7 @@ export const tablets = [
 ,
 {
   id: "tab-spiroclen-40mcg",
-  name: "SPIROCLEN ",
+  name: "SPIROCLEN",
   category: "Tablets",
   cas: "21898-19-1",
   description: "SPIROCLEN (Clenbuterol 40 mcg) is a high-purity anabolic and thermogenic tablet used for fat loss, muscle definition, and performance enhancement. Popular in cutting cycles, it supports lean muscle preservation, enhanced thermogenesis, and improved respiratory efficiency.",
@@ -1620,62 +1620,62 @@ export const tablets = [
     }
   ]
 }
-,
-{
-  id: "tab-spiroclen-40mcg",
-  name: "SPIROCLEN ",
-  category: "Tablets",
-  cas: "21898-19-1",
-  description: "SPIROCLEN (Clenbuterol 40 mcg) is a high-purity anabolic and thermogenic tablet used for fat loss, muscle definition, and performance enhancement. Popular in cutting cycles, it supports lean muscle preservation, enhanced thermogenesis, and improved respiratory efficiency.",
+// ,
+// {
+//   id: "tab-spiroclen-40mcg",
+//   name: "SPIROCLEN",
+//   category: "Tablets",
+//   cas: "21898-19-1",
+//   description: "SPIROCLEN (Clenbuterol 40 mcg) is a high-purity anabolic and thermogenic tablet used for fat loss, muscle definition, and performance enhancement. Popular in cutting cycles, it supports lean muscle preservation, enhanced thermogenesis, and improved respiratory efficiency.",
 
-  indication: "SPIROCLEN (Clenbuterol 40 mcg) is indicated for bronchodilation and therapeutic support. It is also widely used in cutting cycles for fat loss, lean muscle preservation, and enhanced metabolism. Athletes and bodybuilders use SPIROCLEN to improve thermogenesis, endurance, and overall performance.",
+//   indication: "SPIROCLEN (Clenbuterol 40 mcg) is indicated for bronchodilation and therapeutic support. It is also widely used in cutting cycles for fat loss, lean muscle preservation, and enhanced metabolism. Athletes and bodybuilders use SPIROCLEN to improve thermogenesis, endurance, and overall performance.",
 
-  presentation: "Form: Oral tablet\nStrength: 40 mcg Clenbuterol Hydrochloride per tablet\nPack Size: 10 tablets per pack\nPackaging: Compact, secure, and pharmaceutical-grade\nUsage: Cutting cycles, fat-loss, metabolic enhancement, and muscle preservation\nStorage: Store in a cool, dry place away from sunlight.",
+//   presentation: "Form: Oral tablet\nStrength: 40 mcg Clenbuterol Hydrochloride per tablet\nPack Size: 10 tablets per pack\nPackaging: Compact, secure, and pharmaceutical-grade\nUsage: Cutting cycles, fat-loss, metabolic enhancement, and muscle preservation\nStorage: Store in a cool, dry place away from sunlight.",
 
-  shortDescription: "Clenbuterol 40 mcg tablets for fat loss, thermogenesis, and cutting-cycle performance enhancement.",
+//   shortDescription: "Clenbuterol 40 mcg tablets for fat loss, thermogenesis, and cutting-cycle performance enhancement.",
 
-  precautions: "Use only under medical guidance.\nDo not exceed recommended dosage.\nAvoid alcohol and stimulant substances.\nConsult your doctor if taking other medications or supplements.\nKeep out of reach of children.\nDiscontinue and seek medical help if unusual cardiovascular or respiratory symptoms occur.",
+//   precautions: "Use only under medical guidance.\nDo not exceed recommended dosage.\nAvoid alcohol and stimulant substances.\nConsult your doctor if taking other medications or supplements.\nKeep out of reach of children.\nDiscontinue and seek medical help if unusual cardiovascular or respiratory symptoms occur.",
 
-  contraindications: "Do not use if allergic to Clenbuterol or tablet ingredients.\nNot recommended for individuals with heart conditions, arrhythmia, hypertension, hyperthyroidism, or severe liver/kidney disorders.\nAvoid during pregnancy or breastfeeding.\nDo not combine with other stimulants or fat-burners without supervision.",
+//   contraindications: "Do not use if allergic to Clenbuterol or tablet ingredients.\nNot recommended for individuals with heart conditions, arrhythmia, hypertension, hyperthyroidism, or severe liver/kidney disorders.\nAvoid during pregnancy or breastfeeding.\nDo not combine with other stimulants or fat-burners without supervision.",
 
-  images: [  ],
+//   images: [  ],
 
-  // SEO
-  seoTitle: "Spiroclen Clenbuterol 40 mcg – Fat Loss & Cutting Support Tablet",
-  seoDescription: "Buy Spiroclen (Clenbuterol 40 mcg) tablets for fat loss, thermogenesis, lean muscle preservation, and cutting-cycle performance enhancement. Premium pharmaceutical-grade Clenbuterol.",
-  seoKeywords: "Spiroclen, Clenbuterol 40 mcg, Buy Clenbuterol tablets, Cutting cycle fat-loss, Thermogenic supplement",
-  seoRobots: "index, follow",
-  seoCanonical: "https://novatechsciences.com/products/tablets/spiroclen",
+//   // SEO
+//   seoTitle: "Spiroclen Clenbuterol 40 mcg – Fat Loss & Cutting Support Tablet",
+//   seoDescription: "Buy Spiroclen (Clenbuterol 40 mcg) tablets for fat loss, thermogenesis, lean muscle preservation, and cutting-cycle performance enhancement. Premium pharmaceutical-grade Clenbuterol.",
+//   seoKeywords: "Spiroclen, Clenbuterol 40 mcg, Buy Clenbuterol tablets, Cutting cycle fat-loss, Thermogenic supplement",
+//   seoRobots: "index, follow",
+//   seoCanonical: "https://novatechsciences.com/products/tablets/spiroclen",
 
-  // Product Schema Fields
-  schemaBrand: "Nova TechSciences",
-  schemaCategory: "Anabolic & Thermogenic Tablets",
-  schemaType: "Product",
+//   // Product Schema Fields
+//   schemaBrand: "Nova TechSciences",
+//   schemaCategory: "Anabolic & Thermogenic Tablets",
+//   schemaType: "Product",
 
-  // FAQ
-  faq: [
-    {
-      question: "How fast does SPIROCLEN start working?",
-      answer: "SPIROCLEN (Clenbuterol 40 mcg) typically begins working within 30–60 minutes, enhancing airflow and thermogenesis. Users may notice improved breathing and energy early, with fat-burning effects appearing in 1–2 weeks when combined with diet and exercise."
-    },
-    {
-      question: "Can SPIROCLEN help with muscle definition during cutting cycles?",
-      answer: "Yes, SPIROCLEN is used during cutting cycles to support fat loss while preserving lean muscle. Its thermogenic effect helps improve muscle definition and overall physique, with best results achieved alongside resistance training and a calorie-controlled diet."
-    },
-    {
-      question: "Is SPIROCLEN suitable for beginners?",
-      answer: "SPIROCLEN should be used cautiously by beginners due to its stimulant effect. New users should start with the lowest effective dose, monitor their body's response, and follow medical guidance to avoid overstimulation or elevated heart rate."
-    },
-    {
-      question: "Can I work out after taking SPIROCLEN?",
-      answer: "Many athletes take SPIROCLEN before workouts to enhance endurance, breathing, and training intensity. Users should avoid overtraining, monitor heart rate, and stay hydrated during exercise."
-    },
-    {
-      question: "Will I lose weight without exercising while using SPIROCLEN?",
-      answer: "SPIROCLEN increases metabolism and may support fat burning even at rest, but results are better with proper training and nutrition. Without exercise, weight-loss effects are moderate, and overall fitness improvements are limited."
-    }
-  ]
-}
+//   // FAQ
+//   faq: [
+//     {
+//       question: "How fast does SPIROCLEN start working?",
+//       answer: "SPIROCLEN (Clenbuterol 40 mcg) typically begins working within 30–60 minutes, enhancing airflow and thermogenesis. Users may notice improved breathing and energy early, with fat-burning effects appearing in 1–2 weeks when combined with diet and exercise."
+//     },
+//     {
+//       question: "Can SPIROCLEN help with muscle definition during cutting cycles?",
+//       answer: "Yes, SPIROCLEN is used during cutting cycles to support fat loss while preserving lean muscle. Its thermogenic effect helps improve muscle definition and overall physique, with best results achieved alongside resistance training and a calorie-controlled diet."
+//     },
+//     {
+//       question: "Is SPIROCLEN suitable for beginners?",
+//       answer: "SPIROCLEN should be used cautiously by beginners due to its stimulant effect. New users should start with the lowest effective dose, monitor their body's response, and follow medical guidance to avoid overstimulation or elevated heart rate."
+//     },
+//     {
+//       question: "Can I work out after taking SPIROCLEN?",
+//       answer: "Many athletes take SPIROCLEN before workouts to enhance endurance, breathing, and training intensity. Users should avoid overtraining, monitor heart rate, and stay hydrated during exercise."
+//     },
+//     {
+//       question: "Will I lose weight without exercising while using SPIROCLEN?",
+//       answer: "SPIROCLEN increases metabolism and may support fat burning even at rest, but results are better with proper training and nutrition. Without exercise, weight-loss effects are moderate, and overall fitness improvements are limited."
+//     }
+//   ]
+// }
 ,
 {
   id: "tab-stanova-10",
@@ -1735,7 +1735,7 @@ export const tablets = [
 ,
 {
   id: "tab-clominova-50mg",
-  name: "CLOMINOVA ",
+  name: "CLOMINOVA",
   category: "Tablets",
   cas: "50-41-9",
   description: "CLOMINOVA (Clomiphene Citrate 50 mg) is a pharmaceutical-grade tablet used for ovulation induction, post-cycle therapy (PCT), and hormonal recovery. Popular among bodybuilders and athletes, it helps restore natural testosterone levels and supports endocrine function after anabolic steroid use.",
@@ -1848,7 +1848,7 @@ export const injectables = [
 ,
 {
   id: "inj-sustova-250mgml",
-  name: "SUSTOVA ",
+  name: "SUSTOVA",
   category: "Injectables",
   cas: "58-22-0",
   description: "SUSTOVA (Testosterone Blend 250 mg/ml) is a pharmaceutical-grade injectable testosterone designed to support hormone replacement therapy (HRT). It helps restore testosterone levels, improve vitality, enhance strength, and maintain male hormonal balance.",
@@ -1904,7 +1904,7 @@ export const injectables = [
 ,
 {
   id: "inj-testova-c-250mgml",
-  name: "TESTOVA C ",
+  name: "TESTOVA C",
   category: "Injectables",
   cas: "58-20-8",
   description: "TESTOVA C (Testosterone Cypionate 250 mg/ml) is a pharmaceutical-grade injectable steroid used for testosterone replacement therapy (TRT). It supports testosterone balance, muscle strength, vitality, and overall male hormonal health.",
@@ -1960,7 +1960,7 @@ export const injectables = [
 ,
 {
   id: "inj-testova-e-250mgml",
-  name: "TESTOVA E ",
+  name: "TESTOVA E",
   category: "Injectables",
   cas: "315-37-7",
   description: "TESTOVA E (Testosterone Enanthate 250 mg/ml) is a pharmaceutical-grade injectable steroid used for hormone replacement therapy (TRT) and bulking cycles. It supports muscle growth, strength, recovery, and stable hormonal balance under professional supervision.",
@@ -2016,7 +2016,7 @@ export const injectables = [
 ,
 {
   id: "inj-boldenova-250mgml",
-  name: "BOLDENOVA  ",
+  name: "BOLDENOVA ",
   category: "Injectables",
   cas: "13103-34-9",
   description: "Boldenova (Boldenone Undecylenate 250 mg/ml) is a pharmaceutical-grade injectable steroid designed for lean muscle gains, enhanced endurance, increased vascularity, and steady performance improvement. Popular among athletes for clean, high-quality bulking cycles.",
@@ -2072,7 +2072,7 @@ export const injectables = [
 ,
 {
   id: "inj-nandrova-d-250mgml",
-  name: "NANDROVA D ",
+  name: "NANDROVA D",
   category: "Injectables",
   cas: "360-70-3",
   description: "Nandrova D (Nandrolone Decanoate 250 mg/ml) is a pharmaceutical-grade injectable steroid designed for lean muscle growth, enhanced recovery, joint support, and sustained performance improvement. Ideal for long bulking cycles under professional supervision.",
@@ -2128,7 +2128,7 @@ export const injectables = [
 ,
 {
   id: "inj-nandrova-p-100mgml",
-  name: "NANDROVA P ",
+  name: "NANDROVA P",
   category: "Injectables",
   cas: "62-90-8",
   description: "Nandrova P (Nandrolone Phenylpropionate 100 mg/ml) is a fast-acting injectable anabolic steroid designed for medical use. It supports muscle recovery, nitrogen retention, red blood cell production, and rehabilitation-related therapy under professional supervision.",
@@ -2184,7 +2184,7 @@ export const injectables = [
 ,
 {
   id: "inj-trenova-a-100mgml",
-  name: "TRENOVA A ",
+  name: "TRENOVA A",
   category: "Injectables",
   cas: "10161-34-9",
   description: "Trenova A (Trenbolone Acetate 100 mg/ml) is a fast-acting injectable anabolic steroid intended for advanced research or veterinary-supervised applications. It supports lean muscle development, enhanced nitrogen retention, and improved protein synthesis under professional supervision.",
@@ -2240,7 +2240,7 @@ export const injectables = [
 ,
 {
   id: "inj-trenova-e-200mgml",
-  name: "TRENOVA E ",
+  name: "TRENOVA E",
   category: "Injectables",
   cas: "10161-34-9",
   description: "Trenova E (Trenbolone Enanthate 200 mg/ml) is a long-acting injectable anabolic steroid used in controlled medical and research environments. It supports sustained anabolic activity, lean muscle preservation, nitrogen retention, and protein synthesis under professional supervision.",
@@ -2296,7 +2296,7 @@ export const injectables = [
 ,
 {
   id: "inj-trenova-hexa-76-5mgml",
-  name: "TRENOVA HEXA ",
+  name: "TRENOVA HEXA",
   category: "Injectables",
   cas: "23454-33-3",
 
@@ -2353,7 +2353,7 @@ export const injectables = [
 ,
 {
   id: "inj-drostanova-p-100mgml",
-  name: "DROSTANOVA P ",
+  name: "DROSTANOVA P",
   category: "Injectables",
   cas: "521-12-0",
 
@@ -2410,7 +2410,7 @@ export const injectables = [
 ,
 {
   id: "inj-primonova-100mgml",
-  name: "PRIMONOVA ",
+  name: "PRIMONOVA",
   category: "Injectables",
   cas: "303-40-4",
 
@@ -2467,7 +2467,7 @@ export const injectables = [
 ,
 {
   id: "inj-roxonova-50mgml",
-  name: "ROXONOVA ",
+  name: "ROXONOVA",
   category: "Injectables",
   cas: "10418-03-8",
 
@@ -2524,7 +2524,7 @@ export const injectables = [
 ,
 {
   id: "inj-testova-pp-100mgml",
-  name: "TESTOVA PP ",
+  name: "TESTOVA PP",
   category: "Injectables",
   cas: "1255-49-8",
 
@@ -2581,7 +2581,7 @@ export const injectables = [
 ,
 {
   id: "inj-testova-base-100mgml",
-  name: "TESTOVA BASE ",
+  name: "TESTOVA BASE",
   category: "Injectables",
   cas: "58-22-0",
   description: "Testova Base (Testosterone Suspension 100 mg/ml) is a fast-acting water-based injectable testosterone steroid used for hypogonadism, delayed puberty, hormone imbalance, and medically supervised muscle-wasting disorders. It provides rapid testosterone absorption for immediate anabolic effects.",
@@ -2637,7 +2637,7 @@ export const injectables = [
 ,
 {
   id: "inj-nova-gain-c-650mgml",
-  name: "NOVA GAIN C ",
+  name: "NOVA GAIN C",
   category: "Injectables",
   cas: "Varies (multi-compound blend)",
   description: "Nova Gain C is a high-potency injectable anabolic steroid blend containing testosterone, nandrolone, and boldenone. It supports lean muscle growth, nitrogen retention, strength enhancement, and physical recovery under medical supervision in clinical or performance-based protocols.",
@@ -2693,7 +2693,7 @@ export const injectables = [
 ,
 {
   id: "inj-nova-cut-mix-450mgml",
-  name: "NOVA CUT MIX ",
+  name: "NOVA CUT MIX",
   category: "Injectables",
   cas: "Varies (multi-compound blend)",
   description: "Nova Cut Mix is a high-potency cutting steroid injection combining testosterone propionate, trenbolone acetate, and drostanolone propionate. It supports fat loss, lean muscle preservation, strength enhancement, and aggressive muscle definition during pre-contest or recomp cycles under professional supervision.",

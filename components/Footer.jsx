@@ -31,7 +31,7 @@ export default function Footer() {
         {/* Column 1 - Logo + Intro */}
         <div className="space-y-4">
           <img
-            src="/assets/logo_footer.png"
+            src="/assets/footer.png"
             alt="NovaTech Logo"
             className="h-20 w-auto object-contain hover:scale-105 transition-transform duration-300"
           />

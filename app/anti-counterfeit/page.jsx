@@ -4,6 +4,7 @@ import { useState } from "react";
 import Breadcrumbs from "../../components/Breadcrumbs";
 import { ShieldCheck, AlertTriangle } from "lucide-react";
 
+
 export default function AntiCounterfeit() {
   const [serialNumber, setSerialNumber] = useState("");
   const [authCode, setAuthCode] = useState("");
@@ -29,7 +30,7 @@ export default function AntiCounterfeit() {
   return (
     <>
       {/* Basic SEO tags – optional, these will be rendered in body but are safe */}
-      <head>
+      {/* <head>
         <title>NovaTech Anti-Counterfeit | Verify Genuine Steroid Products</title>
         <meta
           name="description"
@@ -67,7 +68,7 @@ export default function AntiCounterfeit() {
             }),
           }}
         />
-      </head>
+      </head> */}
 
       <div className="min-h-screen bg-gradient-to-b from-[#f5f9fb] via-[#f3f8fa] to-[#e8f3f8] mt-20">
         {/* Header */}

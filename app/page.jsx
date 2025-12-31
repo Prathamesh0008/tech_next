@@ -134,7 +134,7 @@ export default function Home() {
       {/* ✅ Banner Section */}
       <BannerSlider banners={banners} />
 
-      <div className="max-w-7xl w-full mx-auto px-4 md:px-8">
+      <div className="max-w-7xl w-full mx-auto px-4 md:px-8 -mt-12">
         {/* ✅ Hero */}
         <section className="relative py-20 md:py-28 overflow-hidden" data-aos="fade-up">
   {/* Background decorative elements */}

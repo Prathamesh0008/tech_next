@@ -3,6 +3,15 @@ import Footer from "../components/Footer";
 import "./globals.css";
 
 export const metadata = {
+  alternates: {
+    languages: {
+      en: "https://novatechsciences.com/en/",
+      es: "https://novatechsciences.com/es/",
+      fr: "https://novatechsciences.com/fr/",
+      de: "https://novatechsciences.com/de/",
+      "x-default": "https://novatechsciences.com/",
+    },
+  },
   title: "Novatech Sciences – Premium Steroids & Performance Medicines Online",
   description:
     "Buy high-quality steroid medicines and performance-enhancing products online in India.",

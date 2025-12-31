@@ -1,10 +1,10 @@
 "use client"
 
 import React from "react";
-import iso from "../public/assets/certificates/iso.png"
-import gmp from "../public/assets/certificates/gmp.png"
-import production from "../public/assets/certificates/production.jpg"
-import recycle from "../public/assets/certificates/Recycle.png"
+const iso = "/assets/certificates/iso.png"
+const gmp = "/assets/certificates/gmp.png"
+const production = "/assets/certificates/production.jpg"
+const recycle = "/assets/certificates/Recycle.png"
 
 
 

@@ -8,8 +8,8 @@ import { motion, AnimatePresence } from "framer-motion";
 import { HiMenu, HiX } from "react-icons/hi";
 
 // Make sure these paths are correct
-import logoDark from "/public/assets/nova_new-removebg-preview.png";
-import logoLight from "/public/assets/logo_footer.png";
+const logoDark = "/assets/nova_new-removebg-preview.png";
+const logoLight = "/assets/footer.png";
 
 const links = [
   { name: "Home", path: "/" },
@@ -78,7 +78,7 @@ export default function Navbar() {
   };
 
   const logoSize = {
-    width: 180, // Adjust based on your logo aspect ratio
+    width: 140, // Adjust based on your logo aspect ratio
     height: 60,
   };
 
