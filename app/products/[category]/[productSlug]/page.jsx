@@ -190,7 +190,7 @@ const productImages = useMemo(
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-[#f5f9fb] via-[#f3f8fa] to-[#e8f3f8]">
+    <div className="min-h-screen pt-10 bg-gradient-to-b from-[#f5f9fb] via-[#f3f8fa] to-[#e8f3f8]">
       {/* ===== SEO META TAGS ===== */}
    <Head>
   <title>{product.seoTitle || product.name}</title>

@@ -3,7 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import { usePathname, useParams } from "next/navigation";
-import { ChevronRight } from "lucide-react";
+import { ChevronRight, Home } from "lucide-react";
 
 function cleanLabel(text = "") {
   return decodeURIComponent(text)
@@ -23,7 +23,7 @@ export default function Breadcrumbs() {
   const parts = path.split("/").filter(Boolean);
   if (parts.length === 0) return null;
 
-  const crumbs = [{ label: "Home", to: "/" }];
+  const crumbs = [{ label: "Home", to: "/", icon: Home }];
 
   // ------------------------------
   // MATCH EXACT ROUTES
@@ -93,35 +93,57 @@ export default function Breadcrumbs() {
   }
 
   return (
-    <div className="relative z-50 pointer-events-auto w-full bg-gradient-to-r from-[#0b1e39] via-[#18487d] to-[#3386bc] shadow-md py-3 sm:py-4 px-3 sm:px-6">
-      <nav className="max-w-7xl mx-auto">
-        <ol className="flex flex-wrap items-center gap-1 sm:gap-2 text-xs sm:text-sm md:text-base text-white">
-          {crumbs.map((c, i) => {
-            const isLast = i === crumbs.length - 1;
+    <div className="relative z-40 w-full bg-gradient-to-r from-[#0b1e39] via-[#18487d] to-[#3386bc] shadow-lg">
+      {/* Decorative Top Border */}
+      <div className="h-1 bg-gradient-to-r from-transparent via-white/30 to-transparent"></div>
+      
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav className="py-3 sm:py-4">
+          <ol className="flex flex-wrap items-center gap-1 sm:gap-2">
+            {crumbs.map((c, i) => {
+              const isLast = i === crumbs.length - 1;
+              const Icon = c.icon;
 
-            return (
-              <li key={i} className="flex items-center">
-                {i > 0 && (
-                  <ChevronRight className="w-3 h-3 sm:w-4 sm:h-4 text-white/70 mx-1 sm:mx-2" />
-                )}
+              return (
+                <li key={i} className="flex items-center">
+                  {i > 0 && (
+                    <ChevronRight className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-white/50 mx-1.5 sm:mx-2 flex-shrink-0" />
+                  )}
 
-                {isLast ? (
-                  <span className="px-2 sm:px-4 py-1 sm:py-2 bg-white/30 text-white font-semibold rounded-lg backdrop-blur-md">
-                    {c.label}
-                  </span>
-                ) : (
-                  <Link
-                    href={c.to}
-                    className="px-2 sm:px-4 py-1 sm:py-2 bg-white/15 hover:bg-white/25 rounded-lg font-medium backdrop-blur-md"
-                  >
-                    {c.label}
-                  </Link>
-                )}
-              </li>
-            );
-          })}
-        </ol>
-      </nav>
+                  {isLast ? (
+                    <div className="flex items-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-1.5 sm:py-2 bg-white/20 backdrop-blur-sm rounded-lg border border-white/20 shadow-sm">
+                      {Icon && <Icon className="w-3.5 h-3.5 sm:w-4 sm:h-4 flex-shrink-0" />}
+                      <span className="text-sm sm:text-base font-semibold text-white truncate max-w-[150px] sm:max-w-xs">
+                        {c.label}
+                      </span>
+                    </div>
+                  ) : (
+                    <Link
+                      href={c.to}
+                      className="group flex items-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-1.5 sm:py-2 bg-white/10 hover:bg-white/20 backdrop-blur-sm rounded-lg border border-white/10 hover:border-white/20 transition-all duration-200 hover:scale-[1.02] active:scale-[0.98] shadow-sm"
+                    >
+                      {Icon && <Icon className="w-3.5 h-3.5 sm:w-4 sm:h-4 flex-shrink-0 group-hover:scale-110 transition-transform" />}
+                      <span className="text-sm sm:text-base font-medium text-white/90 group-hover:text-white truncate max-w-[120px] sm:max-w-xs">
+                        {c.label}
+                      </span>
+                    </Link>
+                  )}
+                </li>
+              );
+            })}
+          </ol>
+          
+          {/* Current Page Title (Desktop) */}
+          {/* <div className="mt-2 hidden sm:block">
+            <h1 className="text-lg md:text-xl font-bold text-white/90 truncate">
+              {crumbs[crumbs.length - 1]?.label}
+            </h1>
+          </div> */}
+        </nav>
+      </div>
+      
+      {/* Decorative Bottom Border */}
+      <div className="h-0.5 bg-gradient-to-r from-transparent via-white/20 to-transparent"></div>
     </div>
   );
 }

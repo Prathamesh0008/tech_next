@@ -136,30 +136,132 @@ export default function Home() {
 
       <div className="max-w-7xl w-full mx-auto px-4 md:px-8">
         {/* ✅ Hero */}
-        <section className="text-center py-16" data-aos="fade-up">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
-            Innovative Healthcare Solutions
-          </h1>
-          <p className="text-gray-600 max-w-2xl mx-auto mb-8 text-lg">
-            NovaTech Sciences brings you trusted medicines, diagnostics, and health solutions
-            to help you live healthier and stronger every day.
-          </p>
-          <div className="flex justify-center gap-4">
-            <Link
-              href="/products"
-              className="bg-[#314977] text-white px-6 py-3 rounded-lg shadow-md hover:bg-[#0d1b4b] hover:scale-105 transition-all duration-300"
-            >
-              Explore Products
-            </Link>
+        <section className="relative py-20 md:py-28 overflow-hidden" data-aos="fade-up">
+  {/* Background decorative elements */}
+  <div className="absolute inset-0 -z-10">
+    <div className="absolute top-10 left-10 w-72 h-72 bg-[#3386bc]/5 rounded-full blur-3xl"></div>
+    <div className="absolute bottom-10 right-10 w-96 h-96 bg-[#18487d]/5 rounded-full blur-3xl"></div>
+    <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-gradient-to-br from-[#3386bc]/10 to-[#18487d]/10 rounded-full blur-3xl"></div>
+  </div>
 
-            <Link
-              href="/contact"
-              className="bg-[#3386bc] text-white px-6 py-3 rounded-lg shadow-md hover:bg-[#4bb2e5] hover:scale-105 transition-all duration-300"
-            >
-              Contact Us
-            </Link>
-          </div>
-        </section>
+  {/* Simplified background pattern */}
+  <div className="absolute inset-0 -z-5 opacity-5">
+    <div className="absolute inset-0" style={{
+      backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%233386bc' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
+      backgroundSize: '60px 60px'
+    }}></div>
+  </div>
+
+  <div className="max-w-6xl mx-auto px-4">
+    {/* Pre-header with animation */}
+    <div className="flex items-center justify-center gap-3 mb-6">
+      <div className="w-12 h-0.5 bg-gradient-to-r from-transparent via-[#3386bc] to-transparent"></div>
+      <span className="text-sm font-semibold uppercase tracking-wider text-[#18487d] animate-pulse">
+        Welcome to NovaTech
+      </span>
+      <div className="w-12 h-0.5 bg-gradient-to-l from-transparent via-[#18487d] to-transparent"></div>
+    </div>
+
+    {/* Main heading with gradient effect */}
+    <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 tracking-tight">
+      <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#18487d] via-[#3386bc] to-[#4bb2e5]">
+        Innovative Healthcare Solutions
+      </span>
+    </h1>
+
+    {/* Subtitle with decorative underline */}
+    <div className="relative inline-block mb-10">
+      <p className="text-xl md:text-2xl text-gray-700 max-w-3xl mx-auto leading-relaxed font-light">
+        NovaTech Sciences brings you trusted medicines, diagnostics, and health solutions
+        to help you live healthier and stronger every day.
+      </p>
+      <div className="absolute -bottom-3 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-gradient-to-r from-[#18487d] to-[#3386bc] rounded-full"></div>
+    </div>
+
+    {/* Stats showcase (optional) */}
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12 max-w-4xl mx-auto">
+      <div className="text-center p-4">
+        <div className="text-3xl md:text-4xl font-bold text-[#18487d] mb-1">100+</div>
+        <div className="text-sm text-gray-600">Products</div>
+      </div>
+      <div className="text-center p-4">
+        <div className="text-3xl md:text-4xl font-bold text-[#3386bc] mb-1">50+</div>
+        <div className="text-sm text-gray-600">Countries</div>
+      </div>
+      <div className="text-center p-4">
+        <div className="text-3xl md:text-4xl font-bold text-[#18487d] mb-1">25+</div>
+        <div className="text-sm text-gray-600">Years Experience</div>
+      </div>
+      <div className="text-center p-4">
+        <div className="text-3xl md:text-4xl font-bold text-[#3386bc] mb-1">GMP</div>
+        <div className="text-sm text-gray-600">Certified</div>
+      </div>
+    </div>
+
+    {/* Buttons with enhanced design */}
+    <div className="flex flex-col sm:flex-row items-center justify-center gap-4 md:gap-6">
+      <Link
+        href="/products"
+        className="group relative inline-flex items-center justify-center px-8 py-4 md:px-10 md:py-5 text-lg font-semibold text-white rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-500 overflow-hidden min-w-[200px]"
+      >
+        {/* Button background gradient */}
+        <div className="absolute inset-0 bg-gradient-to-r from-[#18487d] via-[#2a5c9c] to-[#3386bc] group-hover:from-[#3386bc] group-hover:via-[#18487d] group-hover:to-[#2a5c9c] transition-all duration-500"></div>
+        
+        {/* Shine effect */}
+        <div className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-1000">
+          <div className="w-full h-full bg-gradient-to-r from-transparent via-white/20 to-transparent"></div>
+        </div>
+        
+        {/* Button content */}
+        <div className="relative flex items-center gap-3">
+          <svg className="w-5 h-5 group-hover:rotate-90 transition-transform duration-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+          </svg>
+          <span>Explore Products</span>
+          <svg className="w-5 h-5 transform group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+          </svg>
+        </div>
+      </Link>
+
+      <Link
+        href="/contact"
+        className="group relative inline-flex items-center justify-center px-8 py-4 md:px-10 md:py-5 text-lg font-semibold rounded-2xl border-2 border-[#3386bc] bg-white text-[#3386bc] shadow-lg hover:shadow-xl transition-all duration-500 hover:bg-[#3386bc] hover:text-white min-w-[200px]"
+      >
+        <span className="relative flex items-center gap-3">
+          <svg className="w-5 h-5 group-hover:animate-pulse" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+          </svg>
+          Contact Us
+        </span>
+      </Link>
+    </div>
+
+    {/* Trust indicators */}
+    <div className="mt-16 pt-8 border-t border-gray-100">
+      <p className="text-sm text-gray-500 uppercase tracking-wider mb-6">Trusted By</p>
+      <div className="flex flex-wrap items-center justify-center gap-8 md:gap-12 opacity-70">
+        <div className="text-xl font-bold text-[#18487d]">Hospitals</div>
+        <div className="text-xl font-bold text-[#3386bc]">Clinics</div>
+        <div className="text-xl font-bold text-[#18487d]">Pharmacies</div>
+        <div className="text-xl font-bold text-[#3386bc]">Healthcare Providers</div>
+        <div className="text-xl font-bold text-[#18487d]">Research Centers</div>
+      </div>
+    </div>
+  </div>
+
+  {/* Scroll indicator (outside container to position absolutely) */}
+  {/* <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 hidden md:block">
+    <motion.div
+      animate={{ y: [0, 10, 0] }}
+      transition={{ duration: 2, repeat: Infinity }}
+    >
+      <div className="w-6 h-10 border-2 border-[#3386bc]/30 rounded-full flex justify-center">
+        <div className="w-1 h-3 bg-[#3386bc] rounded-full mt-2"></div>
+      </div>
+    </motion.div>
+  </div> */}
+</section>
 
         {/* ✅ Why Choose Us */}
         <section
@@ -188,82 +290,250 @@ export default function Home() {
         </section>
 
         {/* ✅ Categories */}
-        <section className="my-20" data-aos="fade-up">
-          <div className="text-center mb-10">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-3">
-              Our Therapeutic Divisions
-            </h2>
-            <p className="text-gray-600 max-w-2xl mx-auto text-base">
-              NovaTech Sciences specializes in two core pharmaceutical divisions — precision-formulated{" "}
-              <span className="font-semibold text-[#18487d]">Tablets</span> and
-              {" "}
-              <span className="font-semibold text-[#3386bc]">Injectables</span>,
-              designed to meet the highest standards of global healthcare and manufacturing quality.
-            </p>
-          </div>
+       <section className="my-24 md:my-32" data-aos="fade-up">
+  <div className="text-center mb-16">
+    <div className="inline-flex items-center justify-center gap-2 mb-4">
+      <div className="w-10 h-0.5 bg-gradient-to-r from-transparent to-[#18487d]"></div>
+      <span className="text-sm font-semibold uppercase tracking-wider text-[#3386bc]">
+        Our Expertise
+      </span>
+      <div className="w-10 h-0.5 bg-gradient-to-l from-transparent to-[#3386bc]"></div>
+    </div>
+    
+    <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-5">
+      Our Therapeutic Divisions
+    </h2>
+    <div className="w-24 h-1 bg-gradient-to-r from-[#18487d] to-[#3386bc] mx-auto mb-6 rounded-full"></div>
+    
+    <p className="text-gray-700 max-w-3xl mx-auto text-lg md:text-xl leading-relaxed px-4">
+      NovaTech Sciences specializes in two core pharmaceutical divisions — precision-formulated{" "}
+      <span className="font-bold text-[#18487d] relative px-1">
+        <span className="relative z-10">Tablets</span>
+        <span className="absolute inset-0 bg-[#18487d]/10 -skew-x-6 rounded"></span>
+      </span> and{" "}
+      <span className="font-bold text-[#3386bc] relative px-1">
+        <span className="relative z-10">Injectables</span>
+        <span className="absolute inset-0 bg-[#3386bc]/10 -skew-x-6 rounded"></span>
+      </span>,
+      designed to meet the highest standards of global healthcare and manufacturing excellence.
+    </p>
+  </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-5xl mx-auto">
-            {/* Tablets Division */}
-            <motion.div
-              initial={{ opacity: 0, y: 40 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5 }}
-              viewport={{ once: true }}
-              className="relative group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-2xl border border-gray-100 transition-all duration-500 hover:-translate-y-2 cursor-pointer"
-            >
-              <img
-                src="/assets/smallBanners/Tablets-box.png"
-                alt="Tablets Division"
-                className="w-full h-94 object-cover group-hover:scale-105 transition-transform duration-500"
-              />
-              <div className="absolute inset-0 bg-[#18487d]/60 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">
-                <a
-                  onClick={(e) => handleCtrlClick(e, "/products/tablets")}
-                  className="bg-white text-[#18487d] px-6 py-2 rounded-lg font-semibold shadow-md hover:bg-[#e6f3fa] transition-all"
-                >
-                  Explore Tablets
-                </a>
-              </div>
-              <div className="p-6 text-center">
-                <h3 className="text-2xl font-bold text-[#18487d] mb-2">Tablets Division</h3>
-                <p className="text-gray-600 text-sm">
-                  Oral solid dosage forms including hormones, anabolic, and therapeutic formulations
-                  designed for precision and reliability.
-                </p>
-              </div>
-            </motion.div>
-
-            {/* Injectables Division */}
-            <motion.div
-              initial={{ opacity: 0, y: 40 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.2 }}
-              viewport={{ once: true }}
-              className="relative group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-2xl border border-gray-100 transition-all duration-500 hover:-translate-y-2 cursor-pointer"
-            >
-              <img
-                src="/assets/smallBanners/Injectable-box.png"
-                alt="Injectables Division"
-                className="w-full h-94 object-cover group-hover:scale-105 transition-transform duration-500"
-              />
-              <div className="absolute inset-0 bg-[#3386bc]/60 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">
-                <a
-                  onClick={(e) => handleCtrlClick(e, "/products/injectables")}
-                  className="bg-white text-[#3386bc] px-6 py-2 rounded-lg font-semibold shadow-md hover:bg-[#e6f4fa] transition-all"
-                >
-                  Explore Injectables
-                </a>
-              </div>
-              <div className="p-6 text-center">
-                <h3 className="text-2xl font-bold text-[#3386bc] mb-2">Injectables Division</h3>
-                <p className="text-gray-600 text-sm">
-                  Sterile formulations including testosterone blends, anabolic esters, and specialized
-                  therapeutic injectables ensuring purity and precision.
-                </p>
-              </div>
-            </motion.div>
+  <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 max-w-6xl mx-auto px-4">
+    {/* Tablets Division - Enhanced */}
+    <motion.div
+      initial={{ opacity: 0, x: -40 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      transition={{ duration: 0.6, ease: "easeOut" }}
+      viewport={{ once: true, amount: 0.3 }}
+      className="relative group"
+    >
+      <div className="absolute -inset-0.5 bg-gradient-to-br from-[#18487d] via-transparent to-[#4bb2e5] rounded-3xl blur opacity-0 group-hover:opacity-70 transition duration-500 group-hover:duration-300"></div>
+      
+      <div className="relative bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl border border-gray-100 transition-all duration-500 hover:-translate-y-3 cursor-pointer">
+        <div className="relative overflow-hidden">
+          <div className="absolute top-4 left-4 z-10">
+            <span className="inline-flex items-center px-4 py-1.5 rounded-full bg-[#18487d]/90 text-white text-xs font-semibold tracking-wide backdrop-blur-sm">
+              <span className="w-2 h-2 bg-white rounded-full mr-2 animate-pulse"></span>
+              Tablets
+            </span>
           </div>
-        </section>
+          
+          <div className="absolute top-4 right-4 z-10">
+            <span className="inline-flex items-center px-3 py-1 rounded-full bg-white/90 text-[#18487d] text-xs font-semibold backdrop-blur-sm">
+              <svg className="w-3 h-3 mr-1" fill="currentColor" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+              </svg>
+              GMP Certified
+            </span>
+          </div>
+          
+          <img
+            src="/assets/smallBanners/Tablets-box.png"
+            alt="Tablets Division"
+            className="w-full h-80 md:h-96 object-cover group-hover:scale-110 transition-transform duration-700"
+            loading="lazy"
+          />
+          
+          {/* Gradient Overlay */}
+          <div className="absolute inset-0 bg-gradient-to-t from-[#18487d]/90 via-[#18487d]/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-8">
+            <div className="transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+              <h3 className="text-2xl font-bold text-white mb-3">Explore Our Tablets</h3>
+              <ul className="space-y-2 text-white/90 text-sm">
+                <li className="flex items-center">
+                  <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                  </svg>
+                  Hormone Therapies
+                </li>
+                <li className="flex items-center">
+                  <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                  </svg>
+                  Anabolic Formulations
+                </li>
+                <li className="flex items-center">
+                  <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                  </svg>
+                  Therapeutic Solutions
+                </li>
+              </ul>
+              <button
+                onClick={(e) => handleCtrlClick(e, "/products/tablets")}
+                className="mt-6 inline-flex items-center bg-white text-[#18487d] px-6 py-3 rounded-xl font-semibold shadow-lg hover:shadow-xl hover:bg-[#e6f3fa] transition-all duration-300 group/btn"
+              >
+                <span>Explore Tablets</span>
+                <svg className="w-5 h-5 ml-2 transform group-hover/btn:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        
+        <div className="p-8">
+          <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4 flex items-center">
+            <div className="w-3 h-8 bg-gradient-to-b from-[#18487d] to-[#4bb2e5] rounded-full mr-3"></div>
+            Tablets Division
+          </h3>
+          <p className="text-gray-700 text-base md:text-lg leading-relaxed">
+            Advanced oral solid dosage forms featuring hormone therapies, anabolic compounds, and specialized 
+            therapeutic formulations. Each tablet is engineered with precision coating technology and 
+            bioavailability optimization for consistent therapeutic outcomes.
+          </p>
+          
+          <div className="mt-6 pt-6 border-t border-gray-100">
+            <div className="flex items-center justify-between">
+              <span className="text-sm font-medium text-gray-600">Key Features</span>
+              <span className="text-xs text-[#18487d] font-semibold">✓ Quality Assured</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </motion.div>
+
+    {/* Injectables Division - Enhanced */}
+    <motion.div
+      initial={{ opacity: 0, x: 40 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      transition={{ duration: 0.6, delay: 0.1, ease: "easeOut" }}
+      viewport={{ once: true, amount: 0.3 }}
+      className="relative group"
+    >
+      <div className="absolute -inset-0.5 bg-gradient-to-br from-[#3386bc] via-transparent to-[#67c1f5] rounded-3xl blur opacity-0 group-hover:opacity-70 transition duration-500 group-hover:duration-300"></div>
+      
+      <div className="relative bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl border border-gray-100 transition-all duration-500 hover:-translate-y-3 cursor-pointer">
+        <div className="relative overflow-hidden">
+          <div className="absolute top-4 left-4 z-10">
+            <span className="inline-flex items-center px-4 py-1.5 rounded-full bg-[#3386bc]/90 text-white text-xs font-semibold tracking-wide backdrop-blur-sm">
+              <span className="w-2 h-2 bg-white rounded-full mr-2 animate-pulse"></span>
+              Injectables
+            </span>
+          </div>
+          
+          <div className="absolute top-4 right-4 z-10">
+            <span className="inline-flex items-center px-3 py-1 rounded-full bg-white/90 text-[#3386bc] text-xs font-semibold backdrop-blur-sm">
+              <svg className="w-3 h-3 mr-1" fill="currentColor" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+              </svg>
+              Sterile Facility
+            </span>
+          </div>
+          
+          <img
+            src="/assets/smallBanners/Injectable-box.png"
+            alt="Injectables Division"
+            className="w-full h-80 md:h-96 object-cover group-hover:scale-110 transition-transform duration-700"
+            loading="lazy"
+          />
+          
+          {/* Gradient Overlay */}
+          <div className="absolute inset-0 bg-gradient-to-t from-[#3386bc]/90 via-[#3386bc]/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-8">
+            <div className="transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+              <h3 className="text-2xl font-bold text-white mb-3">Explore Our Injectables</h3>
+              <ul className="space-y-2 text-white/90 text-sm">
+                <li className="flex items-center">
+                  <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                  </svg>
+                  Testosterone Blends
+                </li>
+                <li className="flex items-center">
+                  <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                  </svg>
+                  Anabolic Esters
+                </li>
+                <li className="flex items-center">
+                  <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                  </svg>
+                  Therapeutic Injectables
+                </li>
+              </ul>
+              <button
+                onClick={(e) => handleCtrlClick(e, "/products/injectables")}
+                className="mt-6 inline-flex items-center bg-white text-[#3386bc] px-6 py-3 rounded-xl font-semibold shadow-lg hover:shadow-xl hover:bg-[#e6f4fa] transition-all duration-300 group/btn"
+              >
+                <span>Explore Injectables</span>
+                <svg className="w-5 h-5 ml-2 transform group-hover/btn:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        
+        <div className="p-8">
+          <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4 flex items-center">
+            <div className="w-3 h-8 bg-gradient-to-b from-[#3386bc] to-[#67c1f5] rounded-full mr-3"></div>
+            Injectables Division
+          </h3>
+          <p className="text-gray-700 text-base md:text-lg leading-relaxed">
+            Premium sterile injectable formulations including testosterone blends, anabolic esters, and 
+            specialized therapeutic solutions. Manufactured in ISO-certified sterile facilities ensuring 
+            maximum purity, safety, and precise dosage accuracy.
+          </p>
+          
+          <div className="mt-6 pt-6 border-t border-gray-100">
+            <div className="flex items-center justify-between">
+              <span className="text-sm font-medium text-gray-600">Key Features</span>
+              <span className="text-xs text-[#3386bc] font-semibold">✓ Sterility Guaranteed</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </motion.div>
+  </div>
+
+  {/* Additional Info Banner */}
+  <motion.div
+    initial={{ opacity: 0, y: 20 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    transition={{ duration: 0.5, delay: 0.3 }}
+    viewport={{ once: true }}
+    className="max-w-4xl mx-auto mt-16 md:mt-20"
+  >
+    <div className="bg-gradient-to-r from-[#18487d]/5 via-[#3386bc]/5 to-[#18487d]/5 rounded-2xl p-6 md:p-8 border border-gray-100">
+      <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+        <div className="text-center md:text-left">
+          <h4 className="text-xl font-bold text-gray-900 mb-2">Need Help Choosing?</h4>
+          <p className="text-gray-600">Consult with our pharmaceutical experts for personalized guidance.</p>
+        </div>
+        <button
+          onClick={(e) => handleCtrlClick(e, "/contact")}
+          className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-[#18487d] to-[#3386bc] text-white rounded-xl font-semibold shadow-md hover:shadow-lg transition-all duration-300 hover:scale-105"
+        >
+          <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+          </svg>
+          Contact Our Experts
+        </button>
+      </div>
+    </div>
+  </motion.div>
+</section>
 
         {/* ✅ Disease Highlight */}
         <DiseaseFeaturedSection />

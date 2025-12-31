@@ -118,11 +118,11 @@ export default function ProductsPage() {
     <div className="min-h-screen bg-gradient-to-b from-[#f5f9fb] via-[#f3f8fa] to-[#e8f3f8] mt-20">
       {/* ⭐ Page Meta */}
  
-
+     <Breadcrumbs />
       {/* ===== Header ===== */}
       <div className="bg-gradient-to-r from-[#0b1e39] via-[#18487d] to-[#3386bc] text-white py-10 shadow-md">
         <div className="max-w-7xl mx-auto px-6">
-          <Breadcrumbs />
+         
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
             <div>
               <h1 className="text-3xl md:text-4xl font-bold mt-2">

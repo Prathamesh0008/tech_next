@@ -65,7 +65,7 @@ export default function DiseaseFeaturedSection() {
         </h2>
         <p className="text-gray-600 max-w-2xl mx-auto text-base">
           Explore NovaTech's specialized divisions built to meet the highest
-          standards in pharmaceutical excellence — from solid formulations to sterile injectables.
+          standards in pharmaceutical excellence from solid formulations to sterile injectables.
         </p>
       </div>
 
