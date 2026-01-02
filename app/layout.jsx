@@ -13,9 +13,20 @@ export const metadata = {
       "x-default": "https://novatechsciences.com/",
     },
   },
-  title: "Best Testosterone Boosters & Legal Steroids for Muscle Growth",
+
+  title: {
+    default: "Nova Techsciences | Advanced Pharmaceutical & Performance Health",
+    template: "%s | Nova Techsciences",
+  },
+
   description:
-    "Explore the best testosterone supplements, natural steroids, and anabolic muscle builders designed for strength, performance, and lean muscle development.",
+    "Nova Techsciences is a science-driven pharmaceutical platform delivering high-quality supplements, performance healthcare products, and globally compliant formulations.",
+
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon-32x32.png",
+    apple: "/apple-touch-icon.png",
+  },
 };
 
 export default function RootLayout({ children }) {
@@ -38,7 +49,7 @@ export default function RootLayout({ children }) {
           }}
         />
 
-        {/* --- Organization Schema --- */}
+        {/* --- Organization Schema (FIXED LOGO) --- */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -46,39 +57,18 @@ export default function RootLayout({ children }) {
               "@context": "https://schema.org",
               "@type": "Organization",
               "@id": "https://www.novatechsciences.com/#organization",
-              "name": "Nova Techsciences",
-              "url": "https://www.novatechsciences.com/",
-              "description":
-                "Nova Techsciences provides innovative technology and science-based solutions across pharmaceutical, nutraceutical, and performance healthcare domains.",
-              "logo": {
-                "@type": "ImageObject",
-                "url": "https://www.novatechsciences.com/assets/footer.png",
-                "width": 500,
-                "height": 500,
-              },
-              "sameAs": [
+              name: "Nova Techsciences",
+              url: "https://www.novatechsciences.com/",
+              description:
+                "Nova Techsciences delivers science-backed pharmaceutical, nutraceutical, and performance healthcare solutions worldwide.",
+              logo: "https://www.novatechsciences.com/apple-touch-icon.png",
+              sameAs: [
                 "https://www.facebook.com/profile.php?id=61583956722731",
                 "https://x.com/NovaTechScience",
                 "https://www.instagram.com/novatechsciences/",
                 "https://in.pinterest.com/novatechscience/",
-                "https://www.tumblr.com/novatechsciences/804353639006322688/best-testosterone-booster-supplements-for-men",
-                "https://medium.com/@novaseo59/testosterone-phenylpropionate-100-mg-ml-injection-supply-premium-injectable-solution-8442d9381674",
-              ],
-              "contactPoint": [
-                {
-                  "@type": "ContactPoint",
-                  "contactType": "Customer Support",
-                  "url": "https://www.novatechsciences.com/contact",
-                  "availableLanguage": [
-                    "English",
-                    "Portuguese",
-                    "Italian",
-                    "German",
-                    "Dutch",
-                    "French",
-                    "Spanish"
-                  ],
-                },
+                "https://www.tumblr.com/novatechsciences/804353639006322688",
+                "https://medium.com/@novaseo59",
               ],
             }),
           }}
@@ -89,15 +79,34 @@ export default function RootLayout({ children }) {
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
-              "@context": "https://schema.org/",
+              "@context": "https://schema.org",
               "@type": "BreadcrumbList",
-              "itemListElement": [
-                { "@type": "ListItem", position: 1, name: "Home", item: "https://www.novatechsciences.com/" },
-                { "@type": "ListItem", position: 2, name: "About Us", item: "https://www.novatechsciences.com/about" },
-                { "@type": "ListItem", position: 3, name: "Products", item: "https://www.novatechsciences.com/products" },
-                { "@type": "ListItem", position: 4, name: "Blog", item: "https://www.novatechsciences.com/blog" },
-                { "@type": "ListItem", position: 5, name: "Contact", item: "https://www.novatechsciences.com/contact" }
-              ]
+              itemListElement: [
+                {
+                  "@type": "ListItem",
+                  position: 1,
+                  name: "Home",
+                  item: "https://www.novatechsciences.com/",
+                },
+                {
+                  "@type": "ListItem",
+                  position: 2,
+                  name: "Products",
+                  item: "https://www.novatechsciences.com/products",
+                },
+                {
+                  "@type": "ListItem",
+                  position: 3,
+                  name: "Blog",
+                  item: "https://www.novatechsciences.com/blog",
+                },
+                {
+                  "@type": "ListItem",
+                  position: 4,
+                  name: "Contact",
+                  item: "https://www.novatechsciences.com/contact",
+                },
+              ],
             }),
           }}
         />
@@ -114,7 +123,7 @@ export default function RootLayout({ children }) {
           ></iframe>
         </noscript>
 
-        {/* Google Tag Manager script */}
+        {/* Google Tag Manager */}
         <script
           dangerouslySetInnerHTML={{
             __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -125,7 +134,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           }}
         />
 
-        {/* Main Layout */}
         <LanguageProvider>
           <Navbar />
           <main className="flex-1">{children}</main>
