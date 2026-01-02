@@ -233,7 +233,7 @@ export default function Home() {
                   <div className="w-full h-full bg-gradient-to-r from-transparent via-white/20 to-transparent"></div>
                 </div>
                 <div className="relative flex items-center gap-3">
-                  <svg
+                  {/* <svg
                     className="w-5 h-5 group-hover:rotate-90 transition-transform duration-500"
                     fill="none"
                     stroke="currentColor"
@@ -245,7 +245,7 @@ export default function Home() {
                       strokeWidth={2}
                       d="M19 9l-7 7-7-7"
                     />
-                  </svg>
+                  </svg> */}
                   <span>Explore Products</span>
                   <svg
                     className="w-5 h-5 transform group-hover:translate-x-1 transition-transform duration-300"
