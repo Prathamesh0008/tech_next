@@ -23,9 +23,9 @@ export const metadata = {
     "Nova Techsciences is a science-driven pharmaceutical platform delivering high-quality supplements, performance healthcare products, and globally compliant formulations.",
 
   icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon-32x32.png",
-    apple: "/apple-touch-icon.png",
+    icon: "/webicon.png",
+    shortcut: "/webicon.png",
+    apple: "/webicon.png",
   },
 };
 
