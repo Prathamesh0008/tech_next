@@ -35,7 +35,7 @@ export default function BannerSlider({ banners = [] }) {
         lg:h-[65vh]
         xl:h-[90vh]
         xl:mt-20
-        
+        mt-10
         laptop-small-height
         relative
         overflow-hidden

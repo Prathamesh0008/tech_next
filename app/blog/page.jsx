@@ -4,9 +4,15 @@ import Link from "next/link";
 import Image from "next/image";
 import Breadcrumbs from "../../components/Breadcrumbs";
 import { Calendar, ArrowRight } from "lucide-react";
+import { useLanguage } from "../../contexts/LanguageContext"; // Adjust path as needed
 import { blogs } from "../../data/blogs";
 
 export default function Blog() {
+  const { translations } = useLanguage();
+  if (!translations?.blog) return null; // Safety check
+
+  const t = translations.blog;
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-[#f5f9fb] via-[#f3f8fa] to-[#e8f3f8] mt-20">
       {/* ===== HEADER ===== */}
@@ -14,11 +20,10 @@ export default function Blog() {
         <div className="max-w-6xl mx-auto px-6">
           <Breadcrumbs />
           <h1 className="text-3xl md:text-4xl font-bold mt-2">
-            Our Blog
+            {t.header.title}
           </h1>
           <p className="text-white/80 mt-2 max-w-2xl">
-            Stay informed with healthcare insights, innovation stories, and
-            updates from NovaTech Sciences.
+            {t.header.subtitle}
           </p>
         </div>
       </div>
@@ -45,11 +50,11 @@ export default function Blog() {
               <div className="p-6 text-left">
                 <div className="flex items-center justify-between mb-3 text-sm text-gray-500">
                   <span className="bg-[#e6f4fa] text-[#3386bc] px-3 py-1 rounded-full font-medium">
-                    Blog
+                    {t.badge}
                   </span>
                   <div className="flex items-center gap-1">
                     <Calendar className="w-4 h-4 text-gray-400" />
-                    <span>Updated</span>
+                    <span>{t.dateLabel}</span>
                   </div>
                 </div>
 
@@ -71,7 +76,7 @@ export default function Blog() {
                     }
                   }}
                 >
-                  Read More <ArrowRight className="ml-1 w-4 h-4" />
+                  {t.readMore} <ArrowRight className="ml-1 w-4 h-4" />
                 </Link>
               </div>
             </div>

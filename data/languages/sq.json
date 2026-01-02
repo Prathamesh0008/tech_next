@@ -1,0 +1,107 @@
+{
+  "nav": {
+    "home": "Kryefaqja",
+    "about": "Rreth nesh",
+    "products": "Produkte",
+    "antiCounterfeit": "Anti-Falsifikim",
+    "blog": "Blog",
+    "contact": "Kontakt"
+  },
+  "footer": {
+    "intro": "NovaTech Sciences avancen shëndetësinë përmes saktësisë, inovacionit dhe besimit.",
+    "quickLinks": "Lidhje të Shpejta",
+    "newsletter": {
+      "title": "Abonohu për Përditësime",
+      "description": "Lajme, kërkime dhe lançime produktesh direkt në inbox-in tënd."
+    },
+    "social": {
+      "title": "Lidhu me Ne",
+      "description": "Ndjek na në rrjetet sociale për përditësime."
+    },
+    "copyright": {
+      "line1": "© {year} <span class=\"font-medium text-[#b2e3e1]\">NovaTech Sciences</span>. Të gjitha të drejtat e rezervuara.",
+      "line2": "Projektuar me 💙 për inovacion shëndetësor."
+    }
+  },
+  "contact": {
+    "header": {
+      "title": "Na Kontaktoni",
+      "subtitle": "Lidhuni me ekipin tonë për pyetje, mbështetje ose bashkëpunim."
+    },
+    "left": {
+      "title": "Gati për t'u lidhur?",
+      "description": "Ne jemi këtu për t'ju ndihmuar me pyetjet tuaja. Na dërgoni një mesazh!"
+    },
+    "form": {
+      "name": {
+        "label": "Emri i Plotë",
+        "placeholder": "Vendosni emrin tuaj të plotë"
+      },
+      "email": {
+        "label": "Adresa e Email-it",
+        "placeholder": "your.email@example.com"
+      },
+      "message": {
+        "label": "Mesazh",
+        "placeholder": "Tregoni na si mund t'ju ndihmojmë..."
+      },
+      "submit": "Dërgo Mesazh"
+    },
+    "status": {
+      "sending": "Po dërgohet...",
+      "success": "Mesazhi u dërgua me sukses!",
+      "error": "Gabim në dërgim. Provoni përsëri."
+    }
+  },
+  "blog": {
+    "header": {
+      "title": "Blogu Jonë",
+      "subtitle": "Qëndro i informuar me njohuri shëndetësore, histori inovacioni dhe përditësime NovaTech."
+    },
+    "badge": "Blog",
+    "dateLabel": "Përditësuar",
+    "readMore": "Lexo Më Shumë"
+  },
+   "antiCounterfeit": {
+    "header": {
+      "title": "Verifikimi Kundër Falsifikimit",
+      "subtitle": "Verifikoni origjinalitetin e produktit tuaj NovaTech duke përdorur detajet e prodhimit dhe autentifikimit të shtypura në paketim."
+    },
+    "form": {
+      "title": "Formulari i Verifikimit të Produktit",
+      "mfgDate": {
+        "label": "Data e Prodhimit",
+        "placeholder": "p.sh. 02 / 2022 ose më herët"
+      },
+      "serialNumber": {
+        "label": "Numri Serial",
+        "placeholder": "Vendosni numrin serial"
+      },
+      "authCode": {
+        "label": "Kodi i Autentifikimit",
+        "placeholder": "Vendosni kodin e autentifikimit"
+      },
+      "submit": "Dërgo"
+    },
+    "result": {
+      "success": "✅ Ky produkt duket të jetë origjinal dhe është verifikuar me sukses.",
+      "error": "⚠️ Të dhëna të pavlefshme ose të paplota. Ju lutemi kontrolloni informacionin e futur."
+    },
+    "note": {
+      "title": "Shënim:",
+      "text": "Çdo produkt mund të verifikohet vetëm një herë. Të gjitha fushat janë të ndjeshme ndaj shkronjave të mëdha dhe të vogla."
+    },
+    "warning": {
+      "title": "Paralajmërim:",
+      "text": "Ne nuk rekomandojmë blerjen e ampulave, blisterave ose paketimeve të ndara pa kuti origjinale."
+    }
+  },
+  "breadcrumbs": {
+    "home": "Kreu",
+    "about": "Rreth Nesh",
+    "contact": "Kontakt",
+    "products": "Produkte",
+    "blog": "Blog",
+    "antiCounterfeit": "Kundër Falsifikimit"
+  }
+}

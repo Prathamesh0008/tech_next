@@ -1,0 +1,154 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "products": "Products",
+    "antiCounterfeit": "Anti-Counterfeit",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "contact": {
+    "header": {
+      "title": "Contact Us",
+      "subtitle": "Get in touch with our team for inquiries, support, or collaboration."
+    },
+    "left": {
+      "title": "Ready to Connect?",
+      "description": "We're here to help with your questions. Send us a message and we'll respond promptly."
+    },
+    "form": {
+      "name": {
+        "label": "Your Name",
+        "placeholder": "Enter your full name"
+      },
+      "email": {
+        "label": "Your Email",
+        "placeholder": "Enter your email address"
+      },
+      "message": {
+        "label": "Your Message",
+        "placeholder": "Tell us how we can help you"
+      },
+      "submit": "Send Message"
+    },
+    "status": {
+      "sending": "Sending...",
+      "success": "Message sent successfully! We'll reply soon.",
+      "error": "Failed to send message. Please try again."
+    }
+  },
+  "footer": {
+    "intro": "NovaTech Sciences advances healthcare through precision, innovation, and trust.",
+    "quickLinks": "Quick Links",
+    "newsletter": {
+      "title": "Subscribe to Updates",
+      "description": "Latest news, research, and product launches in your inbox."
+    },
+    "social": {
+      "title": "Connect With Us",
+      "description": "Follow us on social media for updates."
+    },
+    "copyright": {
+      "line1": "© {year} <span class=\"font-medium text-[#b2e3e1]\">NovaTech Sciences</span>. All rights reserved.",
+      "line2": "Designed & Developed with 💙 for healthcare innovation."
+    }
+  },
+  "blog": {
+    "header": {
+      "title": "Our Blog",
+      "subtitle": "Stay informed with healthcare insights, innovation stories, and NovaTech Sciences updates."
+    },
+    "badge": "Blog",
+    "dateLabel": "Updated",
+    "readMore": "Read More"
+  },
+  "antiCounterfeit": {
+    "header": {
+      "title": "Anti-Counterfeit Verification",
+      "description": "Verify the authenticity of your NovaTech product using the manufacturing and authentication details printed on your carton."
+    },
+    "form": {
+      "title": "Product Verification Form",
+      "mfgDate": {
+        "label": "Mfg. Date",
+        "placeholder": "e.g., 02 / 2022 or before"
+      },
+      "serialNumber": {
+        "label": "Serial Number",
+        "placeholder": "Enter serial number"
+      },
+      "authCode": {
+        "label": "Authentication Code",
+        "placeholder": "Enter authentication code"
+      },
+      "submit": "Submit"
+    },
+    "result": {
+      "success": "✅ This product appears to be genuine and verified.",
+      "error": "⚠️ Invalid or incomplete data. Please check your inputs."
+    },
+    "note": {
+      "title": "Note:",
+      "text": "Each product can only be authenticated once. All fields are case sensitive. Please enter the exact serial number and authentication code printed on your pack."
+    },
+    "warning": {
+      "title": "Warning:",
+      "text": "We strongly discourage purchasing loose ampoules, trays, or blisters without cartons. Genuine NovaTech products are always supplied in tamper-proof cartons with intact silver scratch fields, except Oral Strips which do not include authentication features."
+    }
+  },
+  "breadcrumbs": {
+    "home": "Home",
+    "about": "About Us",
+    "contact": "Contact Us",
+    "products": "Products",
+    "blog": "Blog",
+    "antiCounterfeit": "Anti-Counterfeit"
+  },
+  "aboutBackground": {
+    "hero": {
+      "title": "About NovaTech Sciences",
+      "description": "NovaTech Sciences is a forward-thinking pharmaceutical and nutraceutical organization committed to innovation, purity, and progress in healthcare. Our mission is to deliver world-class quality medicines and wellness products that enhance lives across the globe. With a presence in multiple therapeutic segments and strong international partnerships, we are driven by a deep commitment to science, safety, and sustainability."
+    },
+    "who": {
+      "title": "Who We Are",
+      "p1": "Founded with a vision to redefine pharmaceutical standards, NovaTech Sciences specializes in developing, manufacturing, and exporting high-quality formulations that meet stringent international compliance benchmarks. Our facilities operate under WHO-GMP and ISO standards, ensuring consistency and precision in every batch.",
+      "p2": {
+        "before": "With over ",
+        "products": "80+ pharmaceutical and nutraceutical products",
+        "middle": ", NovaTech Sciences serves a broad spectrum of healthcare needs including general therapeutics, hormonal preparations, nutraceuticals, and wellness solutions. Our team of professionals ensures that every product reflects our core values —",
+        "values": " Quality, Integrity, and Innovation.",
+        "after": ""
+      }
+    },
+    "mission": {
+      "title": "Our Mission",
+      "text": "To advance global health through innovative pharmaceutical and nutraceutical products that deliver proven efficacy, safety, and affordability."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "text": "To be recognized as a global healthcare partner of choice — combining research, innovation, and sustainable practices to serve humanity."
+    },
+    "values": {
+      "title": "Core Values",
+      "list": [
+        "Quality and Compliance First",
+        "Innovation through Science",
+        "Ethics and Transparency",
+        "Commitment to Sustainability",
+        "Patient-Centric Approach"
+      ]
+    },
+    "global": {
+      "title": "Global Reach and Future Expansion",
+      "text": "With a rapidly expanding presence in Asia, Europe, and the Middle East, NovaTech Sciences is building a strong foundation of trust and excellence. Our focus on strategic partnerships, advanced R&D, and sustainable manufacturing ensures we continue to meet the evolving demands of the global healthcare landscape."
+    },
+    "certifications": {
+      "title": "Our Certifications",
+      "whoGmp": { "title": "WHO-GMP Certified" },
+      "iso9001": { "title": "ISO 9001:2015" },
+      "environmental": { "title": "Environmental Compliance" },
+      "sustainable": { "title": "Sustainable Manufacturing" }
+    }
+  }
+
+}

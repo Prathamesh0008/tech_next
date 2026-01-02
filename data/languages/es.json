@@ -1,0 +1,153 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "products": "Productos",
+    "antiCounterfeit": "Antifalsificación",
+    "blog": "Blog",
+    "contact": "Contacto"
+  },
+  "contact": {
+    "header": {
+      "title": "Contáctanos",
+      "subtitle": "Ponte en contacto con nuestro equipo para consultas, soporte o colaboración."
+    },
+    "left": {
+      "title": "¿Listo para conectar?",
+      "description": "Estamos aquí para ayudarte con tus preguntas. ¡Envíanos un mensaje!"
+    },
+    "form": {
+      "name": {
+        "label": "Nombre Completo",
+        "placeholder": "Introduce tu nombre completo"
+      },
+      "email": {
+        "label": "Dirección de Email",
+        "placeholder": "your.email@example.com"
+      },
+      "message": {
+        "label": "Mensaje",
+        "placeholder": "Cuéntanos cómo podemos ayudarte..."
+      },
+      "submit": "Enviar Mensaje"
+    },
+    "status": {
+      "sending": "Enviando...",
+      "success": "¡Mensaje enviado con éxito!",
+      "error": "Error al enviar. Inténtalo de nuevo."
+    }
+  },
+  "footer": {
+    "intro": "NovaTech Sciences avanza en salud mediante precisión, innovación y confianza.",
+    "quickLinks": "Enlaces Rápidos",
+    "newsletter": {
+      "title": "Suscríbete a Actualizaciones",
+      "description": "Últimas noticias, investigaciones y lanzamientos en tu bandeja."
+    },
+    "social": {
+      "title": "Conéctate con Nosotros",
+      "description": "Síguenos en redes sociales para actualizaciones."
+    },
+    "copyright": {
+      "line1": "© {year} <span class=\"font-medium text-[#b2e3e1]\">NovaTech Sciences</span>. Todos los derechos reservados.",
+      "line2": "Diseñado con 💙 para innovación en salud."
+    }
+  },
+  "blog": {
+    "header": {
+      "title": "Nuestro Blog",
+      "subtitle": "Mantente informado con perspectivas de salud, historias de innovación y actualizaciones de NovaTech."
+    },
+    "badge": "Blog",
+    "dateLabel": "Actualizado",
+    "readMore": "Leer más"
+  },
+  "antiCounterfeit": {
+    "header": {
+      "title": "Verificación Anticontrafacción",
+      "description": "Verifique la autenticidad de su producto NovaTech utilizando los detalles de fabricación e autenticación impresos en su cartón."
+    },
+    "form": {
+      "title": "Formulario de Verificación de Producto",
+      "mfgDate": {
+        "label": "Fecha de Fabr.",
+        "placeholder": "p. ej., 02 / 2022 o anterior"
+      },
+      "serialNumber": {
+        "label": "Número de Serie",
+        "placeholder": "Ingrese número de serie"
+      },
+      "authCode": {
+        "label": "Código de Autenticación",
+        "placeholder": "Ingrese código de autenticación"
+      },
+      "submit": "Enviar"
+    },
+    "result": {
+      "success": "✅ Este producto parece ser genuino y verificado.",
+      "error": "⚠️ Datos inválidos o incompletos. Verifique sus entradas."
+    },
+    "note": {
+      "title": "Nota:",
+      "text": "Cada producto solo se puede autenticar una vez. Todos los campos distinguen entre mayúsculas y minúsculas. Ingrese el número de serie y código de autenticación exactos impresos en su paquete."
+    },
+    "warning": {
+      "title": "Advertencia:",
+      "text": "Desaconsejamos encarecidamente comprar ampollas, bandejas o blísteres sueltos sin cartones. Los productos NovaTech genuinos siempre se suministran en cartones a prueba de manipulaciones con campos de rascado plateados intactos, excepto las Tiras Orales que no incluyen funciones de autenticación."
+    }
+  },
+   "breadcrumbs": {
+    "home": "Inicio",
+    "about": "Sobre Nosotros",
+    "contact": "Contáctanos",
+    "products": "Productos",
+    "blog": "Blog",
+    "antiCounterfeit": "Antifalsificación"
+  },
+   "aboutBackground": {
+    "hero": {
+      "title": "Acerca de NovaTech Sciences",
+      "description": "NovaTech Sciences es una organización farmacéutica y nutracéutica con visión de futuro, comprometida con la innovación, la pureza y el progreso en la atención sanitaria. Nuestra misión es ofrecer medicamentos y productos de bienestar de calidad mundial que mejoren la vida en todo el mundo. Con presencia en múltiples áreas terapéuticas y sólidas alianzas internacionales, nos impulsa un profundo compromiso con la ciencia, la seguridad y la sostenibilidad."
+    },
+    "who": {
+      "title": "Quiénes somos",
+      "p1": "Fundada con la visión de redefinir los estándares farmacéuticos, NovaTech Sciences se especializa en desarrollar, fabricar y exportar formulaciones de alta calidad que cumplen estrictos estándares internacionales de cumplimiento. Nuestras instalaciones operan bajo estándares WHO-GMP e ISO, garantizando consistencia y precisión en cada lote.",
+      "p2": {
+        "before": "Con más de ",
+        "products": "80+ productos farmacéuticos y nutracéuticos",
+        "middle": ", NovaTech Sciences atiende un amplio espectro de necesidades de salud, incluyendo terapéutica general, preparados hormonales, nutracéuticos y soluciones de bienestar. Nuestro equipo de profesionales garantiza que cada producto refleje nuestros valores fundamentales —",
+        "values": " Calidad, Integridad e Innovación.",
+        "after": ""
+      }
+    },
+    "mission": {
+      "title": "Nuestra misión",
+      "text": "Impulsar la salud global mediante productos farmacéuticos y nutracéuticos innovadores que ofrezcan eficacia comprobada, seguridad y asequibilidad."
+    },
+    "vision": {
+      "title": "Nuestra visión",
+      "text": "Ser reconocidos como un socio global de salud preferido, combinando investigación, innovación y prácticas sostenibles para servir a la humanidad."
+    },
+    "values": {
+      "title": "Valores fundamentales",
+      "list": [
+        "Calidad y cumplimiento ante todo",
+        "Innovación a través de la ciencia",
+        "Ética y transparencia",
+        "Compromiso con la sostenibilidad",
+        "Enfoque centrado en el paciente"
+      ]
+    },
+    "global": {
+      "title": "Alcance global y futura expansión",
+      "text": "Con una presencia en rápida expansión en Asia, Europa y Oriente Medio, NovaTech Sciences está construyendo una sólida base de confianza y excelencia. Nuestro enfoque en alianzas estratégicas, I+D avanzada y fabricación sostenible garantiza que sigamos satisfaciendo las demandas cambiantes del panorama sanitario global."
+    },
+    "certifications": {
+      "title": "Nuestras certificaciones",
+      "whoGmp": { "title": "Certificación WHO-GMP" },
+      "iso9001": { "title": "ISO 9001:2015" },
+      "environmental": { "title": "Cumplimiento ambiental" },
+      "sustainable": { "title": "Fabricación sostenible" }
+    }
+  }
+}

@@ -102,7 +102,7 @@ export default function DiseaseFeaturedSection() {
             "/assets/banners/default.jpg"
           }
           alt={selected}
-          className="w-full h-72 object-cover"
+          className="w-full  object-cover md:h-60"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/30 to-transparent flex flex-col justify-end p-6">
           {/* Content commented out in original */}

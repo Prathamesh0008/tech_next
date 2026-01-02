@@ -1,0 +1,153 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "products": "Produkte",
+    "antiCounterfeit": "Fälschungsschutz",
+    "blog": "Blog",
+    "contact": "Kontakt"
+  },
+  "contact": {
+    "header": {
+      "title": "Kontaktieren Sie uns",
+      "subtitle": "Kontaktieren Sie unser Team für Anfragen, Support oder Zusammenarbeit."
+    },
+    "left": {
+      "title": "Bereit zum Verbinden?",
+      "description": "Wir helfen bei Ihren Fragen. Senden Sie uns eine Nachricht!"
+    },
+    "form": {
+      "name": {
+        "label": "Vollständiger Name",
+        "placeholder": "Geben Sie Ihren vollständigen Namen ein"
+      },
+      "email": {
+        "label": "E-Mail-Adresse",
+        "placeholder": "your.email@example.com"
+      },
+      "message": {
+        "label": "Nachricht",
+        "placeholder": "Sagen Sie uns, wie wir helfen können..."
+      },
+      "submit": "Nachricht senden"
+    },
+    "status": {
+      "sending": "Wird gesendet...",
+      "success": "Nachricht erfolgreich gesendet!",
+      "error": "Fehler beim Senden. Erneut versuchen."
+    }
+  },
+  "footer": {
+    "intro": "NovaTech Sciences fördert Gesundheitswesen durch Präzision, Innovation und Vertrauen.",
+    "quickLinks": "Schnelllinks",
+    "newsletter": {
+      "title": "Newsletter abonnieren",
+      "description": "Neueste Nachrichten, Forschung und Produktlaunches per E-Mail."
+    },
+    "social": {
+      "title": "Mit uns verbinden",
+      "description": "Folgen Sie uns in sozialen Medien für Updates."
+    },
+    "copyright": {
+      "line1": "© {year} <span class=\"font-medium text-[#b2e3e1]\">NovaTech Sciences</span>. Alle Rechte vorbehalten.",
+      "line2": "Entwickelt mit 💙 für Gesundheitsinnovation."
+    }
+  },
+  "blog": {
+    "header": {
+      "title": "Unser Blog",
+      "subtitle": "Bleiben Sie über Gesundheitseinsichten, Innovationsgeschichten und NovaTech-Updates informiert."
+    },
+    "badge": "Blog",
+    "dateLabel": "Aktualisiert",
+    "readMore": "Mehr lesen"
+  },
+   "antiCounterfeit": {
+    "header": {
+      "title": "Fälschungsschutz-Verifizierung",
+      "subtitle": "Überprüfen Sie die Echtheit Ihres NovaTech-Produkts anhand der Verpackungsdaten."
+    },
+    "form": {
+      "title": "Produktverifizierungsformular",
+      "mfgDate": {
+        "label": "Herstellungsdatum",
+        "placeholder": "z. B. 02 / 2022 oder früher"
+      },
+      "serialNumber": {
+        "label": "Seriennummer",
+        "placeholder": "Seriennummer eingeben"
+      },
+      "authCode": {
+        "label": "Authentifizierungscode",
+        "placeholder": "Authentifizierungscode eingeben"
+      },
+      "submit": "Absenden"
+    },
+    "result": {
+      "success": "✅ Dieses Produkt scheint echt zu sein.",
+      "error": "⚠️ Ungültige oder unvollständige Daten."
+    },
+    "note": {
+      "title": "Hinweis:",
+      "text": "Jedes Produkt kann nur einmal überprüft werden."
+    },
+    "warning": {
+      "title": "Warnung:",
+      "text": "Der Kauf von Produkten ohne Originalverpackung wird nicht empfohlen."
+    }
+  },
+   "breadcrumbs": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "products": "Produkte",
+    "blog": "Blog",
+    "antiCounterfeit": "Fälschungsschutz"
+  },
+  "aboutBackground": {
+    "hero": {
+      "title": "Über NovaTech Sciences",
+      "description": "NovaTech Sciences ist ein zukunftsorientiertes pharmazeutisches und nutrazeutisches Unternehmen, das sich Innovation, Reinheit und Fortschritt im Gesundheitswesen verpflichtet. Unsere Mission ist es, Medikamente und Wellness-Produkte von Weltklassequalität bereitzustellen, die Leben weltweit verbessern. Mit Präsenz in mehreren Therapiebereichen und starken internationalen Partnerschaften werden wir von einem tiefen Engagement für Wissenschaft, Sicherheit und Nachhaltigkeit angetrieben."
+    },
+    "who": {
+      "title": "Wer wir sind",
+      "p1": "Mit der Vision gegründet, pharmazeutische Standards neu zu definieren, ist NovaTech Sciences auf die Entwicklung, Herstellung und den Export hochwertiger Formulierungen spezialisiert, die strenge internationale Compliance-Anforderungen erfüllen. Unsere Anlagen arbeiten nach WHO-GMP- und ISO-Standards und gewährleisten Konsistenz und Präzision in jeder Charge.",
+      "p2": {
+        "before": "Mit über ",
+        "products": "80+ pharmazeutischen und nutrazeutischen Produkten",
+        "middle": " bedient NovaTech Sciences ein breites Spektrum an Gesundheitsbedürfnissen, darunter allgemeine Therapeutika, hormonelle Präparate, Nutrazeutika und Wellness-Lösungen. Unser Team stellt sicher, dass jedes Produkt unsere Kernwerte widerspiegelt —",
+        "values": " Qualität, Integrität und Innovation.",
+        "after": ""
+      }
+    },
+    "mission": {
+      "title": "Unsere Mission",
+      "text": "Die globale Gesundheit durch innovative pharmazeutische und nutrazeutische Produkte voranzubringen, die nachweisliche Wirksamkeit, Sicherheit und Bezahlbarkeit bieten."
+    },
+    "vision": {
+      "title": "Unsere Vision",
+      "text": "Als bevorzugter globaler Gesundheitspartner anerkannt zu werden — durch die Verbindung von Forschung, Innovation und nachhaltigen Praktiken im Dienst der Menschheit."
+    },
+    "values": {
+      "title": "Kernwerte",
+      "list": [
+        "Qualität und Compliance zuerst",
+        "Innovation durch Wissenschaft",
+        "Ethik und Transparenz",
+        "Engagement für Nachhaltigkeit",
+        "Patientenzentrierter Ansatz"
+      ]
+    },
+    "global": {
+      "title": "Globale Reichweite und zukünftige Expansion",
+      "text": "Mit einer schnell wachsenden Präsenz in Asien, Europa und dem Nahen Osten schafft NovaTech Sciences eine starke Basis aus Vertrauen und Exzellenz. Unser Fokus auf strategische Partnerschaften, fortschrittliche F&E und nachhaltige Herstellung stellt sicher, dass wir den sich wandelnden Anforderungen der globalen Gesundheitslandschaft weiterhin gerecht werden."
+    },
+    "certifications": {
+      "title": "Unsere Zertifizierungen",
+      "whoGmp": { "title": "WHO-GMP zertifiziert" },
+      "iso9001": { "title": "ISO 9001:2015" },
+      "environmental": { "title": "Umweltkonformität" },
+      "sustainable": { "title": "Nachhaltige Herstellung" }
+    }
+  }
+}

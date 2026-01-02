@@ -11,11 +11,11 @@ export default function AboutUs() {
   return (
     <>
       <Head>
-        <title>About NovaTech Sciences | Pharmaceutical Steroid Products</title>
+        <title>About NovaTech Sciences | Best Testosterone Supplements Brand</title>
 
         <meta
           name="description"
-          content="Discover NovaTech Sciences, a leader in premium steroid formulations and performance-enhancing medicines, delivering trusted quality, innovation, and pharmaceutical excellence worldwide."
+          content="NovaTech Sciences develops the best testosterone supplements and boosters for men, including natural solutions designed to support strength and performance."
         />
         <meta
           name="keywords"

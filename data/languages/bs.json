@@ -1,0 +1,101 @@
+{
+  "nav": {
+    "home": "Početna",
+    "about": "O nama",
+    "products": "Proizvodi",
+    "antiCounterfeit": "Protiv krivotvorenja",
+    "blog": "Blog",
+    "contact": "Kontakt"
+  },
+  "footer": {
+    "intro": "NovaTech Sciences napreduje zdravlje kroz preciznost, inovacije i povjerenje.",
+    "quickLinks": "Brzi linkovi",
+    "newsletter": {
+      "title": "Pretplati se na ažuriranja",
+      "description": "Najnovije vijesti, istraživanja i lansiranja proizvoda direktno u inbox."
+    },
+    "social": {
+      "title": "Poveži se s nama",
+      "description": "Prati nas na društvenim mrežama za novosti."
+    },
+    "copyright": {
+      "line1": "© {year} <span class=\"font-medium text-[#b2e3e1]\">NovaTech Sciences</span>. Sva prava zadržana.",
+      "line2": "Dizajnirano sa 💙 za inovacije u zdravstvu."
+    }
+  },
+  "contact": {
+    "header": {
+      "title": "Kontaktirajte nas",
+      "subtitle": "Kontaktirajte naš tim za pitanja, podršku ili saradnju."
+    },
+    "left": {
+      "title": "Spremni za povezivanje?",
+      "description": "Mi smo tu da vam pomognemo sa vašim pitanjima. Pošaljite nam poruku!"
+    },
+    "form": {
+      "name": { "label": "Puno ime", "placeholder": "Unesite svoje puno ime" },
+      "email": {
+        "label": "Email adresa",
+        "placeholder": "your.email@example.com"
+      },
+      "message": {
+        "label": "Poruka",
+        "placeholder": "Reci nam kako možemo pomoći..."
+      },
+      "submit": "Pošalji poruku"
+    },
+    "status": {
+      "sending": "Šalje se...",
+      "success": "Poruka uspješno poslana!",
+      "error": "Greška pri slanju. Pokušajte ponovno."
+    }
+  },
+  "blog": {
+    "header": {
+      "title": "Naš Blog",
+      "subtitle": "Ostanite informirani o zdravstvenim uvidima, pričama o inovacijama i ažuriranjima NovaTech."
+    },
+    "badge": "Blog",
+    "dateLabel": "Ažurirano",
+    "readMore": "Pročitaj više"
+  },
+  "antiCounterfeit": {
+    "header": {
+      "title": "Provjera protiv lažiranja",
+      "description": "Provjerite autentičnost vašeg NovaTech proizvoda koristeći podatke o proizvodnji."
+    },
+    "form": {
+      "title": "Obrazac za verifikaciju proizvoda",
+      "mfgDate": { "label": "Datum proizv.", "placeholder": "npr. 02/2022" },
+      "serialNumber": {
+        "label": "Serijski broj",
+        "placeholder": "Unesite serijski broj"
+      },
+      "authCode": {
+        "label": "Kod autentifikacije",
+        "placeholder": "Unesite kod"
+      },
+      "submit": "Pošalji"
+    },
+    "result": {
+      "success": "✅ Proizvod je originalan.",
+      "error": "⚠️ Neispravni podaci."
+    },
+    "note": {
+      "title": "Napomena:",
+      "text": "Svaki proizvod samo jednom. Sva polja su <strong>osetljiva na velika/mala slova</strong>."
+    },
+    "warning": {
+      "title": "Upozorenje:",
+      "text": "Ne kupujte labave ampule bez kutija. Originalni proizvodi u <strong>tamper-proof kutijama</strong>."
+    }
+  },
+  "breadcrumbs": {
+    "home": "Početna",
+    "about": "O nama",
+    "contact": "Kontakt",
+    "products": "Proizvodi",
+    "blog": "Blog",
+    "antiCounterfeit": "Protiv falsifikata"
+  }
+}

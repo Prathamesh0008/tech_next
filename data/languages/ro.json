@@ -1,0 +1,107 @@
+{
+  "nav": {
+    "home": "Acasă",
+    "about": "Despre noi",
+    "products": "Produse",
+    "antiCounterfeit": "Anti-Contrafacere",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "footer": {
+    "intro": "NovaTech Sciences avansează sănătatea prin precizie, inovație și încredere.",
+    "quickLinks": "Linkuri Rapide",
+    "newsletter": {
+      "title": "Abonează-te la Actualizări",
+      "description": "Știri, cercetări și lansări de produse direct în inbox."
+    },
+    "social": {
+      "title": "Conectează-te cu Noi",
+      "description": "Urmărește-ne pe rețelele sociale pentru update-uri."
+    },
+    "copyright": {
+      "line1": "© {year} <span class=\"font-medium text-[#b2e3e1]\">NovaTech Sciences</span>. Toate drepturile rezervate.",
+      "line2": "Proiectat cu 💙 pentru inovație în sănătate."
+    }
+  },
+  "contact": {
+    "header": {
+      "title": "Contactați-ne",
+      "subtitle": "Luați legătura cu echipa noastră pentru întrebări, suport sau colaborare."
+    },
+    "left": {
+      "title": "Gata să vă conectați?",
+      "description": "Suntem aici să vă ajutăm cu întrebările dumneavoastră. Trimiteți-ne un mesaj!"
+    },
+    "form": {
+      "name": {
+        "label": "Nume Complet",
+        "placeholder": "Introduceți numele complet"
+      },
+      "email": {
+        "label": "Adresă Email",
+        "placeholder": "your.email@example.com"
+      },
+      "message": {
+        "label": "Mesaj",
+        "placeholder": "Spuneți-ne cum vă putem ajuta..."
+      },
+      "submit": "Trimite Mesaj"
+    },
+    "status": {
+      "sending": "Se trimite...",
+      "success": "Mesaj trimis cu succes!",
+      "error": "Eroare la trimitere. Încercați din nou."
+    }
+  },
+  "blog": {
+    "header": {
+      "title": "Blogul Nostru",
+      "subtitle": "Fiți la curent cu perspective medicale, povești de inovație și actualizări NovaTech."
+    },
+    "badge": "Blog",
+    "dateLabel": "Actualizat",
+    "readMore": "Citește Mai Mult"
+  },
+   "antiCounterfeit": {
+    "header": {
+      "title": "Verificare Anti-Contrafacere",
+      "subtitle": "Verificați autenticitatea produsului dumneavoastră NovaTech folosind detaliile de fabricație și autentificare tipărite pe ambalaj."
+    },
+    "form": {
+      "title": "Formular de Verificare a Produsului",
+      "mfgDate": {
+        "label": "Data Fabricației",
+        "placeholder": "ex.: 02 / 2022 sau mai devreme"
+      },
+      "serialNumber": {
+        "label": "Număr de Serie",
+        "placeholder": "Introduceți numărul de serie"
+      },
+      "authCode": {
+        "label": "Cod de Autentificare",
+        "placeholder": "Introduceți codul de autentificare"
+      },
+      "submit": "Trimite"
+    },
+    "result": {
+      "success": "✅ Acest produs pare a fi autentic și a fost verificat cu succes.",
+      "error": "⚠️ Date invalide sau incomplete. Vă rugăm să verificați informațiile introduse."
+    },
+    "note": {
+      "title": "Notă:",
+      "text": "Fiecare produs poate fi verificat o singură dată. Toate câmpurile sunt sensibile la litere mari și mici."
+    },
+    "warning": {
+      "title": "Avertisment:",
+      "text": "Descurajăm ferm achiziționarea de fiole, blistere sau ambalaje fără cutii originale."
+    }
+  },
+   "breadcrumbs": {
+    "home": "Acasă",
+    "about": "Despre",
+    "contact": "Contact",
+    "products": "Produse",
+    "blog": "Blog",
+    "antiCounterfeit": "Anti-contrafacere"
+  }
+}

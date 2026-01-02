@@ -121,9 +121,9 @@ export const tablets = [
   ],
 
   // ⭐ SEO FIELDS
-  seoTitle: "Premium Femanova Tablets | Performance & Strength",
+  seoTitle: "FEMANOVA Letrozole 2.5 mg Tablets | NovaTech Sciences",
   seoDescription:
-    "Discover Femanova by NovaTech Sciences — a premium performance-enhancing aromatase inhibitor engineered for estrogen control, hormone balance, and reliable results.",
+    "Discover FEMANOVA (Letrozole 2.5 mg) tablets by NovaTech Sciences, designed for accurate estrogen control and dependable hormone balance.",
   seoKeywords:
     "Femanova tablets, Letrozole 2.5 mg, steroid estrogen control, aromatase inhibitor, pharmaceutical-grade hormonal regulator",
   seoRobots: "index, follow",
@@ -199,9 +199,9 @@ export const tablets = [
   images: [  ],
 
   // ⭐ SEO FIELDS
-  seoTitle: "Buy Tamonova Tamoxifen 20mg – Trusted PCT & Estrogen Blocker",
+  seoTitle: "Tamonova 20 mg | Tamoxifen Citrate Tablets by NovaTech",
   seoDescription:
-    "Buy Tamonova (Tamoxifen 20mg) for safe estrogen control, PCT recovery, and hormone balance. Premium pharma-grade tablets designed for trusted post-cycle support.",
+    "Tamonova (Tamoxifen Citrate 20 mg) tablets formulated for estrogen control and post-cycle hormone balance with trusted pharmaceutical quality.",
   seoKeywords:
     "Tamoxifen 20mg, Buy Tamoxifen tablets, Hormone balance tablets, Post Cycle Therapy, PCT tablets, Estrogen blocker",
   seoRobots: "index, follow",
@@ -284,9 +284,9 @@ export const tablets = [
   images: [  ],
 
   // ⭐ SEO FIELDS
-  seoTitle: "Buy Novazole Anastrozole 1mg – Trusted Estrogen Blocker & PCT Support",
+  seoTitle: "Novazole Anastrozole 1 mg | Estrogen Control Tablets",
   seoDescription:
-    "Buy NOVAZOLE (Anastrozole 1 mg) for safe estrogen control, post-cycle therapy (PCT), and hormonal balance. Premium pharma-grade tablets for athletes and bodybuilders.",
+    "Novazole (Anastrozole 1 mg) tablets for effective estrogen management and hormonal balance. Trusted pharma-grade formulation for controlled use.",
   seoKeywords:
     "Anastrozole 1 mg, NOVAZOLE tablets, Estrogen control, Aromatase inhibitor, PCT support, Hormone balance",
   seoRobots: "index, follow",
@@ -365,9 +365,9 @@ export const tablets = [
   images: [  ],
 
   // ⭐ SEO FIELDS
-  seoTitle: "Buy AROMANOVA Exemestane 25mg – Advanced Aromatase Inhibitor & PCT Support",
+  seoTitle: "AROMANOVA (Exemestane 25 mg) by NovaTech Sciences",
   seoDescription:
-    "Buy AROMANOVA (Exemestane 25mg) for advanced estrogen control, post-cycle therapy (PCT), and hormone balance. Premium pharma-grade tablets for athletes and bodybuilders.",
+    "Discover AROMANOVA Exemestane 25 mg tablets from NovaTech Sciences, developed with pharma-grade quality for controlled estrogen support.",
   seoKeywords:
     "Exemestane 25mg, AROMANOVA tablets, Aromatase inhibitor, Estrogen control, Post Cycle Therapy, PCT support",
   seoRobots: "index, follow",
@@ -449,9 +449,9 @@ export const tablets = [
   images: [  ],
 
   // ⭐ SEO FIELDS
-  seoTitle: "Buy Enclominova 25mg – Powerful PCT & Testosterone Booster",
+  seoTitle: "ENCLOMINOVA 25mg | Enclomiphene Citrate Tablets Online",
   seoDescription:
-    "Buy ENCLOMINOVA (Enclomiphene 25mg) for testosterone recovery, hormonal balance, and advanced post-cycle therapy (PCT) support. Premium pharmaceutical-grade tablets for athletes and steroid users.",
+    "ENCLOMINOVA (Enclomiphene Citrate 25 mg) tablets support natural testosterone recovery and hormonal balance with pharmaceutical-grade quality.",
   seoKeywords:
     "Enclominova, Enclomiphene 25mg, Testosterone booster tablets, PCT support, Hormone balance",
   seoRobots: "index, follow",
@@ -532,9 +532,9 @@ export const tablets = [
   images: [  ],
 
   // ⭐ SEO FIELDS
-  seoTitle: "Primonova Primobolan Tablets - Muscle & Cutting Support",
+  seoTitle: "Primonova (Metenolone Acetate 25 mg) Tablets",
   seoDescription:
-    "Buy Primonova Primobolan tablets for lean muscle growth, cutting cycles, and enhanced performance. Trusted steroid alternative for clean gains with minimal side effects.",
+    "Primonova tablets feature Metenolone Acetate 25 mg, formulated to support lean muscle development and cutting-focused performance goals.",
   seoKeywords:
     "Primonova, Primobolan tablets, Buy Primobolan online, Methenolone Acetate tablets, Lean muscle growth, Cutting cycles",
   seoRobots: "index, follow",
@@ -619,9 +619,9 @@ export const tablets = [
   images: [  ],
 
   // ⭐ SEO FIELDS
-  seoTitle: "Supernova Methandienone – Powerful Muscle Gain Tablets",
+  seoTitle: "SUPERNOVA Methyldrostanolone 10 mg | Nova Techsciences",
   seoDescription:
-    "Buy Supernova (Methandienone tablets) for rapid muscle growth, strength enhancement, and bulk cycles. Top-performing anabolic option for serious bodybuilders.",
+    "SUPERNOVA Methyldrostanolone 10 mg tablets are designed to support strength and muscle development. Premium-quality formulation for advanced users.",
   seoKeywords:
     "Methandienone tablets, Buy Methandienone online, Muscle gain steroid, SUPERNOVA, Strength enhancement tablets",
   seoRobots: "index, follow",
@@ -705,9 +705,9 @@ export const tablets = [
   images: [  ],
 
   // ⭐ SEO FIELDS
-  seoTitle: "Telinova Tadalafil 20mg – Strong Performance & Wellness Boost",
+  seoTitle: "Telinova Telmisartan 20 mg Tablets | NovaTech Sciences",
   seoDescription:
-    "Buy Telinova (Tadalafil 20mg) for enhanced performance, improved blood flow, and better endurance. Premium pharmaceutical tablets designed for reliable wellness support.",
+    "Telinova contains Telmisartan 20 mg, a pharmaceutical tablet used to support blood pressure management. Manufactured by NovaTech Sciences with quality assurance.",
   seoKeywords:
     "Tadalafil 20mg, Buy Tadalafil tablets, Telinova tablets, Blood flow booster, Performance enhancer, Wellness support",
   seoRobots: "index, follow",
@@ -790,9 +790,9 @@ export const tablets = [
   images: [  ],
 
   // ⭐ SEO FIELDS
-  seoTitle: "Turinova Turinabol – Lean Muscle & Strength Gain Tablets",
+  seoTitle: "Turinova Turinabol 10 mg | Chlorodehydromethyltestosterone",
   seoDescription:
-    "Buy Turinova (Turinabol tablets) for lean muscle growth, strength enhancement, and clean performance gains. Top-choice anabolic for cutting and recomposition cycles.",
+    "Explore Turinova Turinabol tablets containing Chlorodehydromethyltestosterone 10 mg, developed with a focus on quality, consistency, and performance support.",
   seoKeywords:
     "Turinabol tablets, Buy Turinabol online, Clean muscle gains, Strength enhancement, TURINOVA tablets",
   seoRobots: "index, follow",
@@ -875,9 +875,9 @@ export const tablets = [
   images: [  ],
 
   // ⭐ SEO FIELDS
-  seoTitle: "Nova-T4 Levothyroxine – Thyroid Support & Metabolism Boost",
+  seoTitle: "NOVA-T4 (Levothyroxine Sodium 50 mcg) Tablets by Nova Techsciences",
   seoDescription:
-    "Buy Nova-T4 (Levothyroxine tablets) for thyroid hormone support, improved metabolism, fat-loss assistance, and enhanced energy. Trusted pharma-grade T4 tablets.",
+    "NOVA-T4 is a Levothyroxine Sodium T4 50 mcg tablet formulated for thyroid hormone supplementation and endocrine balance under medical guidance.",
   seoKeywords:
     "Levothyroxine tablets, Buy Levothyroxine online, T4 thyroid hormone tablets, Weight-loss thyroid support, NOVA_T4",
   seoRobots: "index, follow",
@@ -960,9 +960,9 @@ export const tablets = [
   images: [  ],
 
   // ⭐ SEO FIELDS
-  seoTitle: "Cabernova Cabergoline – Prolactin Control & Hormone Support",
+  seoTitle: "CABERNOVA (Cabergoline 0.5 mg) Tablets – Advanced Prolactin Support",
   seoDescription:
-    "Buy Cabernova (Cabergoline tablets) for powerful prolactin control, hormone balance, and enhanced recovery during steroid cycles. Premium pharma-grade dopamine agonist.",
+    "Order CABERNOVA (Cabergoline 0.5 mg) tablets for reliable prolactin management and hormone regulation. Trusted pharmaceutical-grade formulation.",
   seoKeywords:
     "Cabergoline tablets, Buy Cabergoline online, Reduce prolactin levels, Cabergoline 0.5mg, Hormone balance, PCT support",
   seoRobots: "index, follow",
@@ -1045,9 +1045,9 @@ export const tablets = [
   images: [  ],
 
   // ⭐ SEO FIELDS
-  seoTitle: "Halonova Halotestin – Extreme Strength & Cutting Power",
+  seoTitle: "HALONOVA (Fluoxymesterone 5 mg) | Nova Techsciences Halotestin Tablets",
   seoDescription:
-    "Buy Halonova (Halotestin tablets) for explosive strength, hard muscle definition, and peak performance. Powerful anabolic for cutting and competition prep.",
+    "Buy HALONOVA (Fluoxymesterone 5 mg) by Nova Techsciences for intense strength, muscle hardness, and cutting performance. Premium Halotestin tablets for serious athletes.",
   seoKeywords:
     "Halotestin tablets, Buy Halotestin online, Halotestin for performance, Oral Halotestin, HALONOVA tablets",
   seoRobots: "index, follow",
@@ -1129,9 +1129,9 @@ export const tablets = [
   images: [  ],
 
   // ⭐ SEO FIELDS
-  seoTitle: "Nova-T3 Liothyronine – Fast Metabolism & Fat-Loss Support",
+  seoTitle: "NOVA T3 (Liothyronine Sodium T3 50 mcg) Tablets by Nova Techsciences",
   seoDescription:
-    "Buy Nova-T3 (Liothyronine tablets) for rapid metabolism boost, fat-loss enhancement, thyroid support, and improved energy. Premium pharma-grade T3 for cutting cycles.",
+    "Buy NOVA-T3 (Liothyronine Sodium T3 50 mcg) tablets for effective thyroid hormone support, enhanced metabolism, fat loss, and improved energy levels.",
   seoKeywords:
     "Liothyronine tablets, Buy Liothyronine online, Best T3 for fat loss, Weight-loss thyroid medicine, NOVA_T3",
   seoRobots: "index, follow",
@@ -1213,9 +1213,9 @@ export const tablets = [
   images: [  ],
 
   // ⭐ SEO FIELDS
-  seoTitle: "Novabol Anavar 10mg – Lean Muscle, Strength & Fat-Loss Support",
+  seoTitle: "NOVABOL (Oxandrolone USP 10 mg) | By Nova Techsciences",
   seoDescription:
-    "Buy Novabol (Oxandrolone/Anavar 10mg) for lean muscle growth, strength improvement, fat-loss enhancement, and safe cutting cycles. Premium pharma-grade anabolic support.",
+    "Shop NOVABOL (Oxandrolone USP 10 mg) tablets for clean lean muscle development, enhanced strength, and effective cutting support. Trusted pharma-grade Oxandrolone for controlled performance cycles.",
   seoKeywords:
     "Anavar 10mg tablets, Oxandrolone tablets, Buy Anavar online, Novabol, Lean muscle support",
   seoRobots: "index, follow",
@@ -1297,9 +1297,9 @@ export const tablets = [
   images: [  ],
 
   // ⭐ SEO FIELDS
-  seoTitle: "Provinova Proviron 25mg – Testosterone Protection & Androgen Support",
+  seoTitle: "HALONOVA (Fluoxymesterone 5 mg) Tablets | Nova Techsciences",
   seoDescription:
-    "Buy Provinova (Mesterolone 25mg) for androgen balance, testosterone maintenance, and strength support. Trusted pharmaceutical-grade androgen tablet.",
+    "HALONOVA (Fluoxymesterone 5 mg) tablets contain fluoxymesterone in a fixed oral dosage form. This page provides product composition, tablet strength, and general pharmaceutical information.",
   seoKeywords:
     "Provinova, Mesterolone 25mg, Buy Proviron tablet, Pharma-grade Mesterolone, Testosterone support",
   seoRobots: "index, follow",
@@ -1383,9 +1383,9 @@ export const tablets = [
   images: [  ],
 
   // ⭐ SEO FIELDS
-  seoTitle: "Oxydrol Oxymetholone – Rapid Mass & Strength Gains",
+  seoTitle: "OXYDROL (Oxymetholone USP 50 mg) Tablets | Nova Techsciences",
   seoDescription:
-    "Buy Oxydrol (Oxymetholone) tablets for powerful muscle gains, enhanced strength, and fast bulking. Premium anabolic support from pharmaceutical-grade sources.",
+    "OXYDROL (Oxymetholone USP 50 mg) tablets by Nova Techsciences are a standardized pharmaceutical formulation. Product details include composition, dosage strength, and quality-controlled manufacturing information.",
   seoKeywords:
     "Oxydrol, Oxymetholone tablets, Buy Anadrol online, Mass gaining steroid",
   seoRobots: "index, follow",
@@ -1468,7 +1468,7 @@ export const tablets = [
   // ⭐ SEO FIELDS
   seoTitle: "Novamoren Ibutamoren MK-677 – Growth Hormone Support Tablet",
   seoDescription:
-    "Buy Novamoren (Ibutamoren MK-677) for sustained GH release, lean muscle growth, and improved recovery. Trusted pharmaceutical-grade GH secretagogue.",
+    "NOVAMOREN (MK-677 10mg) is an oral tablet formulation by Nova Techsciences containing ibutamoren. Listed with standardized strength, pharmaceutical specifications, and controlled manufacturing information.",
   seoKeywords:
     "Novamoren, Ibutamoren MK-677, Buy MK-677 tablet, Growth hormone support",
   seoRobots: "index, follow",
@@ -1529,8 +1529,8 @@ export const tablets = [
   images: [  ],
 
   // SEO
-  seoTitle: "Novameth Methandienone – Dianabol-like Muscle & Strength Tablet",
-  seoDescription: "Buy Novameth (Methandienone) tablets for powerful anabolic growth, rapid strength gains, and mass building. Premium oral steroid for serious bodybuilding.",
+  seoTitle: "NOVAMETH (Methandienone 10 mg) | Oral Tablet Formulation – Nova Techsciences",
+  seoDescription: "NOVAMETH (Methandienone 10 mg) is a tablet dosage form manufactured by Nova Techsciences. This page outlines product strength, active ingredient composition, and general pharmaceutical specifications for regulated markets.",
   seoKeywords: "Novameth, Methandienone 10mg, Buy Methandienone tablet, Dianabol-like anabolic steroid",
   seoRobots: "index, follow",
   seoCanonical: "https://novatechsciences.com/products/tablets/novameth",
@@ -1585,8 +1585,8 @@ export const tablets = [
   images: [  ],
 
   // SEO
-  seoTitle: "Spiroclen Clenbuterol 40 mcg – Fat Loss & Cutting Support Tablet",
-  seoDescription: "Buy Spiroclen (Clenbuterol 40 mcg) tablets for fat loss, thermogenesis, lean muscle preservation, and cutting-cycle performance enhancement. Premium pharmaceutical-grade Clenbuterol.",
+  seoTitle: "SPIROCLEN (Clenbuterol 40 mcg) | Oral Tablet by Nova Techsciences",
+  seoDescription: "SPIROCLEN (Clenbuterol 40 mcg) tablets from Nova Techsciences are manufactured under controlled standards, providing consistent dosage, composition, and quality assurance.",
   seoKeywords: "Spiroclen, Clenbuterol 40 mcg, Buy Clenbuterol tablets, Cutting cycle fat-loss, Thermogenic supplement",
   seoRobots: "index, follow",
   seoCanonical: "https://novatechsciences.com/products/tablets/spiroclen",
@@ -1641,8 +1641,8 @@ export const tablets = [
 //   images: [  ],
 
 //   // SEO
-//   seoTitle: "Spiroclen Clenbuterol 40 mcg – Fat Loss & Cutting Support Tablet",
-//   seoDescription: "Buy Spiroclen (Clenbuterol 40 mcg) tablets for fat loss, thermogenesis, lean muscle preservation, and cutting-cycle performance enhancement. Premium pharmaceutical-grade Clenbuterol.",
+//   seoTitle: "SPIROCLEN (Clenbuterol 40 mcg) | Oral Tablet by Nova Techsciences",
+//   seoDescription: "SPIROCLEN (Clenbuterol 40 mcg) tablets from Nova Techsciences are manufactured under controlled standards, providing consistent dosage, composition, and quality assurance.",
 //   seoKeywords: "Spiroclen, Clenbuterol 40 mcg, Buy Clenbuterol tablets, Cutting cycle fat-loss, Thermogenic supplement",
 //   seoRobots: "index, follow",
 //   seoCanonical: "https://novatechsciences.com/products/tablets/spiroclen",
@@ -1697,8 +1697,8 @@ export const tablets = [
   images: [  ],
 
   // SEO
-  seoTitle: "Stanova-10 Stanozolol 10mg – Lean Strength & Cutting Power",
-  seoDescription: "Buy Stanova-10 (Stanozolol 10mg) for lean muscle gains, strength, and shredded definition. Ideal for cutting and recomp phases with trusted pharma-quality.",
+  seoTitle: "Stanova (Stanozolol 10mg) Tablets | Nova Techsciences",
+  seoDescription: "Stanova (Stanozolol 10mg) tablets from Nova Techsciences contain a fixed oral dosage form. This page outlines composition, strength, and product classification.",
   seoKeywords: "Stanozolol 10mg, Winstrol 10mg tablet, Performance strength pill",
   seoRobots: "index, follow",
   seoCanonical: "https://novatechsciences.com/products/tablets/stanova-10",
@@ -1753,8 +1753,8 @@ export const tablets = [
   images: [  ],
 
   // SEO
-  seoTitle: "Clominova Clomiphene 50mg – Trusted PCT & Hormone Recovery",
-  seoDescription: "Buy Clominova (Clomiphene 50mg) for reliable post-cycle therapy (PCT), natural testosterone recovery, and hormonal balance. Pharma-grade Clomiphene Citrate tablets for athletes and bodybuilders.",
+  seoTitle: "Clominova (Clomiphene 50mg) Tablets | Hormonal Therapy Product – Nova Techsciences",
+  seoDescription: "Clominova (Clomiphene 50mg) by Nova Techsciences is a pharmaceutical tablet formulated for hormonal regulation reference, featuring defined strength and standardized composition.",
   seoKeywords: "Clomiphene 50mg, Buy Clomiphene tablets, Testosterone recovery tablet, PCT support",
   seoRobots: "index, follow",
   seoCanonical: "https://novatechsciences.com/products/tablets/clominova",
@@ -1810,8 +1810,8 @@ export const injectables = [
   images: [  ],
 
   // SEO
-  seoTitle: "TESTOVA P Testosterone Propionate 100 mg/ml – Fast-Acting Injectable",
-  seoDescription: "Buy TESTOVA P Testosterone Propionate 100 mg/ml injectable for muscle growth, strength, and hormone replacement therapy. Premium pharmaceutical-grade testosterone propionate ampoule for men.",
+  seoTitle: "TESTOVA P (Testosterone Propionate 100 mg/ml Injectable) | Nova Techsciences",
+  seoDescription: "TESTOVA P (Testosterone Propionate 100 mg/ml injectable) by Nova Techsciences is a sterile injectable formulation with defined strength, composition, and pharmaceutical quality standards.",
   seoKeywords: "TESTOVA P, Testosterone Propionate 100 mg/ml, Injectable testosterone, Buy testosterone propionate, HRT injection, Muscle growth injection, Pharma-grade testosterone",
   seoRobots: "index, follow",
   seoCanonical: "https://novatechsciences.com/products/injectables/testova-p",
@@ -1866,8 +1866,8 @@ export const injectables = [
   images: [  ],
 
   // SEO
-  seoTitle: "SUSTOVA Testosterone Blend 250 mg/ml Injection – HRT & Performance Support",
-  seoDescription: "Buy SUSTOVA testosterone blend 250 mg/ml injection for hormone replacement therapy, muscle growth, strength, and vitality. Pharmaceutical-grade injectable testosterone with secure packaging.",
+  seoTitle: "TESTOVA P (Testosterone Propionate 100 mg/ml Injectable) | Nova Techsciences",
+  seoDescription: "TESTOVA P (Testosterone Propionate 100 mg/ml injectable) by Nova Techsciences is a sterile injectable formulation with defined strength, composition, and pharmaceutical quality standards.",
   seoKeywords: "SUSTOVA, Testosterone Blend 250 mg/ml, Injectable testosterone, Buy testosterone blend, HRT injection, Muscle growth injection",
   seoRobots: "index, follow",
   seoCanonical: "https://novatechsciences.com/products/injectables/sustova",
@@ -1922,8 +1922,8 @@ export const injectables = [
   images: [  ],
 
   // SEO
-  seoTitle: "TESTOVA C Testosterone Cypionate 250 mg/ml Injection – TRT & Performance Support",
-  seoDescription: "Buy TESTOVA C testosterone cypionate 250 mg/ml injection for testosterone replacement therapy, muscle growth, strength, and overall hormonal balance. Pharmaceutical-grade injectable with secure packaging.",
+  seoTitle: "TESTOVA C | Testosterone Cypionate 250 mg/ml Injection | Nova Techsciences",
+  seoDescription: "TESTOVA C by Nova Techsciences is a testosterone cypionate 250 mg/ml injectable formulation manufactured under controlled standards, offering consistent dosage and pharmaceutical-grade quality.",
   seoKeywords: "TESTOVA C, Testosterone Cypionate 250 mg/ml, Injectable testosterone, Buy testosterone cypionate, TRT injection, Muscle growth injection",
   seoRobots: "index, follow",
   seoCanonical: "https://novatechsciences.com/products/injectables/testova-c",
@@ -1978,8 +1978,8 @@ export const injectables = [
   images: [  ],
 
   // SEO
-  seoTitle: "TESTOVA E Testosterone Enanthate 250 mg/ml Injection – TRT & Bulking Support",
-  seoDescription: "Buy TESTOVA E testosterone enanthate 250 mg/ml injection for hormone replacement therapy, muscle growth, strength, and performance enhancement. Premium pharmaceutical-grade injectable with secure packaging.",
+  seoTitle: "TESTOVA E | Testosterone Enanthate 250 mg/ml Injection | Nova Techsciences",
+  seoDescription: "TESTOVA E (testosterone enanthate 250 mg/ml injection) is a sterile injectable product by Nova Techsciences, supplied in standardized concentration for pharmaceutical reference and distribution.",
   seoKeywords: "TESTOVA E, Testosterone Enanthate 250 mg/ml, Injectable testosterone, Buy testosterone enanthate, TRT injection, Bulking steroid injection",
   seoRobots: "index, follow",
   seoCanonical: "https://novatechsciences.com/products/injectables/testova-e",
@@ -2016,7 +2016,7 @@ export const injectables = [
 ,
 {
   id: "inj-boldenova-250mgml",
-  name: "BOLDENOVA ",
+  name: "BOLDENOVA",
   category: "Injectables",
   cas: "13103-34-9",
   description: "Boldenova (Boldenone Undecylenate 250 mg/ml) is a pharmaceutical-grade injectable steroid designed for lean muscle gains, enhanced endurance, increased vascularity, and steady performance improvement. Popular among athletes for clean, high-quality bulking cycles.",
@@ -2034,8 +2034,8 @@ export const injectables = [
   images: [  ],
 
   // SEO
-  seoTitle: "Boldenova Boldenone Undecylenate 250 mg/ml Injection – Lean Muscle & Endurance",
-  seoDescription: "Buy Boldenova (Boldenone Undecylenate 250 mg/ml) injectable for lean muscle growth, enhanced endurance, vascularity, and steady performance. Premium pharmaceutical-grade anabolic steroid.",
+  seoTitle: "Boldenova (Undecylenate 250 mg/ml Injectable) – Nova Techsciences",
+  seoDescription: "Boldenova (Undecylenate 250 mg/ml injectable) from Nova Techsciences is listed as an injectable pharmaceutical product with standardized formulation, labeling, and controlled manufacturing process.",
   seoKeywords: "Boldenone Undecylenate, Boldenova injection, Buy Boldenone online, Lean bulking injection, Anabolic steroid injection, Muscle growth injection",
   seoRobots: "index, follow",
   seoCanonical: "https://novatechsciences.com/products/injectables/boldenova",
@@ -2090,8 +2090,8 @@ export const injectables = [
   images: [  ],
 
   // SEO
-  seoTitle: "Nandrova D Nandrolone Decanoate 250 mg/ml Injection – Lean Muscle & Recovery",
-  seoDescription: "Buy Nandrova D (Nandrolone Decanoate 250 mg/ml) injectable for lean muscle growth, recovery, joint support, and sustained performance. Premium pharmaceutical-grade anabolic steroid.",
+  seoTitle: "Nandrova D Injection – Nandrolone Decanoate 250 mg/ml | Nova Techsciences",
+  seoDescription: "Nandrova D (Nandrolone Decanoate 250 mg/ml injectable) is a pharmaceutical injection presented for product reference, including composition, concentration, and formulation information.",
   seoKeywords: "Nandrolone Decanoate, Nandrova D injection, Buy Nandrolone online, Lean bulking steroid injection, Anabolic steroid injection, Muscle growth injection",
   seoRobots: "index, follow",
   seoCanonical: "https://novatechsciences.com/products/injectables/nandrova-d",
@@ -2146,8 +2146,8 @@ export const injectables = [
   images: [  ],
 
   // SEO
-  seoTitle: "Nandrova P Nandrolone Phenylpropionate 100 mg/ml Injection – Muscle Recovery & Nitrogen Support",
-  seoDescription: "Buy Nandrova P (Nandrolone Phenylpropionate 100 mg/ml) injectable for muscle recovery, nitrogen retention, rehabilitation therapy, and lean muscle support. Premium pharmaceutical-grade anabolic steroid.",
+  seoTitle: "Nandrova P Injection 100 mg/ml | Nandrolone Phenylpropionate – Nova Techsciences",
+  seoDescription: "Nandrova P (Nandrolone Phenylpropionate 100 mg/ml injectable) from Nova Techsciences is manufactured under controlled conditions and listed with clear dosage strength and formulation details.",
   seoKeywords: "Nandrolone Phenylpropionate, Nandrova-P injection, Buy NPP online, Fast-acting anabolic steroid injection, Muscle recovery injection, Pharmaceutical-grade steroid",
   seoRobots: "index, follow",
   seoCanonical: "https://novatechsciences.com/products/injectables/nandrova-p",
@@ -2202,8 +2202,8 @@ export const injectables = [
   images: [  ],
 
   // SEO
-  seoTitle: "Trenova A Trenbolone Acetate 100 mg/ml Injection – Advanced Injectable Steroid",
-  seoDescription: "Buy Trenova A (Trenbolone Acetate 100 mg/ml) injectable for muscle growth, cutting, nitrogen retention, and strength improvement. Premium pharmaceutical-grade anabolic steroid.",
+  seoTitle: "Trenova A (Trenbolone Acetate 100 mg/ml) | Injectable Product Info",
+  seoDescription: "Trenova A (Trenbolone Acetate 100 mg/ml injectable) provides standardized concentration and formulation details. Manufactured by Nova Techsciences for regulated pharmaceutical reference.",
   seoKeywords: "Trenbolone Acetate, Trenova-A injection, buy trenbolone injection, advanced anabolic steroid, cutting cycle injection, lean muscle support",
   seoRobots: "index, follow",
   seoCanonical: "https://novatechsciences.com/products/injectables/trenova-a",
@@ -2258,8 +2258,8 @@ export const injectables = [
   images: [  ],
 
   // SEO
-  seoTitle: "Trenova E Trenbolone Enanthate 200 mg/ml Injection – Long-Acting Anabolic Steroid",
-  seoDescription: "Buy Trenova E (Trenbolone Enanthate 200 mg/ml) injectable for muscle growth, strength, cutting support, and nitrogen retention. Pharmaceutical-grade steroid for controlled medical and research use.",
+  seoTitle: "Trenova E Injectable 200 mg/ml | Trenbolone Enanthate – Nova Techsciences",
+  seoDescription: "Manufactured by Nova Techsciences, Trenova E (Trenbolone Enanthate 200 mg/ml injectable) is a long-acting injectable product produced under controlled quality and formulation guidelines.",
   seoKeywords: "Trenbolone Enanthate, Trenova-E injection, buy trenbolone injection, long-acting anabolic steroid, muscle growth support, cutting cycle injection",
   seoRobots: "index, follow",
   seoCanonical: "https://novatechsciences.com/products/injectables/trenova-e",
@@ -2296,7 +2296,7 @@ export const injectables = [
 ,
 {
   id: "inj-trenova-hexa-76-5mgml",
-  name: "TRENOVA HEXA",
+  name: "TRENOVA HEXA", 
   category: "Injectables",
   cas: "23454-33-3",
 
@@ -2315,8 +2315,8 @@ export const injectables = [
   images: [  ],
 
   // SEO
-  seoTitle: "Trenbolone Hexa 76.5 mg/ml Injection Supply",
-  seoDescription: "Buy Trenbolone Hexa 76.5 mg/ml injection for muscle growth, strength and cutting support. Pharmaceutical quality, secure packaging and worldwide supply.",
+  seoTitle: "TRENOVA HEXA Injection (Trenbolone Hexa 76.5 mg/ml) | Nova Techsciences",
+  seoDescription: "Manufactured by Nova Techsciences, TRENOVA HEXA is a trenbolone hexa hydrobenzylcarbonate 76.5 mg/ml injectable supplied with standardized formulation and quality-controlled packaging.",
   seoKeywords: "Trenbolone Hexa 76.5 mg/ml, Trenova Hexa injection, trenbolone hexahydrobenzylcarbonate, buy trenbolone hexa online, trenbolone worldwide, cutting cycle injection",
   seoRobots: "index, follow",
   seoCanonical: "https://novatechsciences.com/products/injectables/trenovahexa",
@@ -2372,8 +2372,8 @@ export const injectables = [
   images: [  ],
 
   // SEO
-  seoTitle: "Drostanolone Propionate 100 mg/ml Injection",
-  seoDescription: "Buy Drostanolone Propionate 100 mg/ml injection for cutting, lean muscle and strength enhancement. Pharmaceutical quality, secure packaging and worldwide supply.",
+  seoTitle: "DROSTANOVA P – Drostanolone Propionate 100 mg/ml Injection | Nova Techsciences ",
+  seoDescription: "DROSTANOVA P (Drostanolone Propionate 100 mg/ml injection) from Nova Techsciences is listed with standardized formulation details, injectable strength, and controlled pharmaceutical quality.",
   seoKeywords: "Drostanolone Propionate 100 mg/ml, Drostanova-P injection, drostanolone injection, buy drostanolone online, masteron propionate worldwide, cutting cycle injection",
   seoRobots: "index, follow",
   seoCanonical: "https://novatechsciences.com/products/injectables/drostanova-p",

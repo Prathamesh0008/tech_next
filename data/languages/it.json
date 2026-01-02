@@ -1,0 +1,107 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "Chi siamo",
+    "products": "Prodotti",
+    "antiCounterfeit": "Anticontraffazione",
+    "blog": "Blog",
+    "contact": "Contatto"
+  },
+  "contact": {
+    "header": {
+      "title": "Contattaci",
+      "subtitle": "Contatta il nostro team per domande, supporto o collaborazioni."
+    },
+    "left": {
+      "title": "Pronto a connetterti?",
+      "description": "Siamo qui per aiutarti con le tue domande. Inviaci un messaggio!"
+    },
+    "form": {
+      "name": {
+        "label": "Nome Completo",
+        "placeholder": "Inserisci il tuo nome completo"
+      },
+      "email": {
+        "label": "Indirizzo Email",
+        "placeholder": "your.email@example.com"
+      },
+      "message": {
+        "label": "Messaggio",
+        "placeholder": "Dimmi come possiamo aiutarti..."
+      },
+      "submit": "Invia Messaggio"
+    },
+    "status": {
+      "sending": "Invio in corso...",
+      "success": "Messaggio inviato con successo!",
+      "error": "Errore nell'invio. Riprova."
+    }
+  },
+  "footer": {
+    "intro": "NovaTech Sciences avanza la sanità attraverso precisione, innovazione e fiducia.",
+    "quickLinks": "Link Rapidi",
+    "newsletter": {
+      "title": "Iscriviti agli Aggiornamenti",
+      "description": "Ultime notizie, ricerche e lanci prodotti nella tua casella."
+    },
+    "social": {
+      "title": "Connettiti con Noi",
+      "description": "Seguici sui social per gli aggiornamenti."
+    },
+    "copyright": {
+      "line1": "© {year} <span class=\"font-medium text-[#b2e3e1]\">NovaTech Sciences</span>. Tutti i diritti riservati.",
+      "line2": "Progettato con 💙 per l'innovazione sanitaria."
+    }
+  },
+  "blog": {
+    "header": {
+      "title": "Il Nostro Blog",
+      "subtitle": "Rimani informato su insight sanitari, storie di innovazione e aggiornamenti NovaTech."
+    },
+    "badge": "Blog",
+    "dateLabel": "Aggiornato",
+    "readMore": "Leggi di più"
+  },
+  "antiCounterfeit": {
+    "header": {
+      "title": "Verifica Anti-Contraffazione",
+      "subtitle": "Verifica l’autenticità del tuo prodotto NovaTech tramite i dati sulla confezione."
+    },
+    "form": {
+      "title": "Modulo di verifica del prodotto",
+      "mfgDate": {
+        "label": "Data di produzione",
+        "placeholder": "es. 02 / 2022 o prima"
+      },
+      "serialNumber": {
+        "label": "Numero di serie",
+        "placeholder": "Inserisci il numero di serie"
+      },
+      "authCode": {
+        "label": "Codice di autenticazione",
+        "placeholder": "Inserisci il codice"
+      },
+      "submit": "Invia"
+    },
+    "result": {
+      "success": "✅ Prodotto autentico.",
+      "error": "⚠️ Dati non validi."
+    },
+    "note": {
+      "title": "Nota:",
+      "text": "Ogni prodotto può essere verificato una sola volta."
+    },
+    "warning": {
+      "title": "Avviso:",
+      "text": "Non acquistare prodotti senza confezione originale."
+    }
+  },
+    "breadcrumbs": {
+    "home": "Home",
+    "about": "Chi siamo",
+    "contact": "Contatti",
+    "products": "Prodotti",
+    "blog": "Blog",
+    "antiCounterfeit": "Anti-contraffazione"
+  }
+}
