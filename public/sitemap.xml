@@ -7,62 +7,253 @@
     http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
   <!-- Main Pages -->
-  <url>
-    <loc>https://www.novatechsciences.com/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-
-  <url>
-    <loc>https://www.novatechsciences.com/about</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://www.novatechsciences.com/anti-counterfeit</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.novatechsciences.com/contact</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://www.novatechsciences.com/blog</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Blog Posts -->
-  <url>
-    <loc>https://www.novatechsciences.com/blog/best-steroids-muscle-growth-2025</loc>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.novatechsciences.com/blog/why-testosterone-levels-are-dropping-worldwide</loc>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.novatechsciences.com/blog/best-testosterone-supplements-for-men</loc>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- Tablet Products -->
-  <url>
-    <loc>https://www.novatechsciences.com/products/tablets/provinova</loc>
-    <priority>0.6</priority>
-  </url>
-
-  <!-- Injectable Products -->
-  <url>
-    <loc>https://www.novatechsciences.com/products/injectables/nova-cut-mix</loc>
-    <priority>0.6</priority>
-  </url>
+ <url>
+<loc>https://www.novatechsciences.com/</loc>
+<changefreq>weekly</changefreq>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>https://www.novatechsciences.com/about</loc>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.novatechsciences.com/anti-counterfeit</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://www.novatechsciences.com/contact</loc>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.novatechsciences.com/blog</loc>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<!--  Blog Posts  -->
+<url>
+<loc>https://www.novatechsciences.com/blog/best-steroids-muscle-growth-2025</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://www.novatechsciences.com/blog/why-testosterone-levels-are-dropping-worldwide</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://www.novatechsciences.com/blog/best-testosterone-supplements-for-men</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://www.novatechsciences.com/blog/pharmaceutical-grade-steroids-quality-safety-compliance</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://www.novatechsciences.com/blog/testosterone-products-manufactured-under-who-gmp-standards</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://www.novatechsciences.com/blog/testosterone-therapy-benefits-energy-mood-muscle-growth</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<!--  Tablet Products  -->
+<url>
+<loc>https://www.novatechsciences.com/products/tablets/femanova</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://www.novatechsciences.com/products/tablets/tamonova</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://www.novatechsciences.com/products/tablets/novazole</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://www.novatechsciences.com/products/tablets/aromanova</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://www.novatechsciences.com/products/tablets/enclominova</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://www.novatechsciences.com/products/tablets/primonova</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://www.novatechsciences.com/products/tablets/supernova</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://www.novatechsciences.com/products/tablets/telinova</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://www.novatechsciences.com/products/tablets/turinova</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://www.novatechsciences.com/products/tablets/nova-t4</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://www.novatechsciences.com/products/tablets/cabernova</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://www.novatechsciences.com/products/tablets/halonova</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://www.novatechsciences.com/products/tablets/nova-t3</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://www.novatechsciences.com/products/tablets/novabol</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://www.novatechsciences.com/products/tablets/provinova</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://www.novatechsciences.com/products/tablets/oxydrol</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://www.novatechsciences.com/products/tablets/novamoren</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://www.novatechsciences.com/products/tablets/novameth</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://www.novatechsciences.com/products/tablets/spiroclen</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://www.novatechsciences.com/products/tablets/stanova-10</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://www.novatechsciences.com/products/tablets/clominova</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<!--  Injectable Products  -->
+<url>
+<loc>https://www.novatechsciences.com/products/injectables/testova-p</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://www.novatechsciences.com/products/injectables/sustova</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://www.novatechsciences.com/products/injectables/testova-c</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://www.novatechsciences.com/products/injectables/testova-e</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://www.novatechsciences.com/products/injectables/boldenova</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://www.novatechsciences.com/products/injectables/nandrova-d</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://www.novatechsciences.com/products/injectables/nandrova-p</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://www.novatechsciences.com/products/injectables/trenova-a</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://www.novatechsciences.com/products/injectables/trenova-e</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://www.novatechsciences.com/products/injectables/trenova-hexa</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://www.novatechsciences.com/products/injectables/drostanova-p</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://www.novatechsciences.com/products/injectables/primonova</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://www.novatechsciences.com/products/injectables/roxonova</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://www.novatechsciences.com/products/injectables/testova-pp</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://www.novatechsciences.com/products/injectables/testova-base</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://www.novatechsciences.com/products/injectables/nova-gain-c</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://www.novatechsciences.com/products/injectables/nova-cut-mix</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
 
 </urlset>
