@@ -2,6 +2,8 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import "./globals.css";
 import { LanguageProvider } from "../contexts/LanguageContext";
+import "flag-icons/css/flag-icons.min.css";
+
 
 export const metadata = {
   alternates: {

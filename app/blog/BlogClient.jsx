@@ -5,13 +5,14 @@ import Image from "next/image";
 import Breadcrumbs from "../../components/Breadcrumbs";
 import { Calendar, ArrowRight } from "lucide-react";
 import { useLanguage } from "../../contexts/LanguageContext";
-import { blogs } from "../../data/blogs";
+import { getBlogs } from "../../lib/getBlogs"; // ✅ NEW
 
 export default function BlogClient() {
-  const { translations } = useLanguage();
+  const { translations, lang } = useLanguage(); // ✅ UPDATED
   if (!translations?.blog) return null;
 
   const t = translations.blog;
+  const blogs = getBlogs(lang)?.blogs || []; // 🔥 LANGUAGE-BASED BLOG DATA
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-[#f5f9fb] via-[#f3f8fa] to-[#e8f3f8] mt-20">

@@ -149,6 +149,90 @@
       "environmental": { "title": "Environmental Compliance" },
       "sustainable": { "title": "Sustainable Manufacturing" }
     }
+  },
+  "home": {
+    "preHeader": "Welcome to NovaTech",
+    "heroTitle": "Innovative Healthcare Solutions",
+    "heroSubtitle": "NovaTech Sciences brings you trusted medicines, diagnostics, and health solutions to help you live healthier and stronger every day.",
+    "statsMini": {
+      "products": "Products",
+      "countries": "Countries",
+      "years": "Years Experience",
+      "certified": "Certified"
+    },
+    "cta": {
+      "exploreProducts": "Explore Products",
+      "contactUs": "Contact Us"
+    },
+    "trustedBy": "Trusted By",
+    "trustedByList": ["Hospitals", "Clinics", "Pharmacies", "Healthcare Providers", "Research Centers"],
+    "whyChoose": [
+      {
+        "title": "✔ WHO-GMP Certified",
+        "text": "Our manufacturing facilities follow WHO-GMP, ISO, and stringent quality standards."
+      },
+      {
+        "title": "🌍 Global Reach",
+        "text": "Trusted by healthcare professionals across multiple countries with continuous expansion."
+      },
+      {
+        "title": "🔬 Research-Driven",
+        "text": "We focus on science, innovation, and clinical efficacy for every product we deliver."
+      }
+    ],
+    "expertiseTag": "Our Expertise",
+    "divisionsTitle": "Our Therapeutic Divisions",
+    "divisionsDesc": "NovaTech Sciences specializes in two core pharmaceutical divisions — precision-formulated Tablets and Injectables, designed to meet the highest standards of global healthcare and manufacturing excellence.",
+    "tablets": {
+      "badge": "Tablets",
+      "coverTitle": "Explore Our Tablets",
+      "btn": "Explore Tablets",
+      "divisionTitle": "Tablets Division",
+      "features": ["Hormone Therapies", "Anabolic Formulations", "Therapeutic Solutions"],
+      "desc": "Advanced oral solid dosage forms featuring hormone therapies, anabolic compounds, and specialized therapeutic formulations. Each tablet is engineered with precision coating technology and bioavailability optimization for consistent therapeutic outcomes.",
+      "keyFeatures": "Key Features",
+      "qualityAssured": "✓ Quality Assured"
+    },
+    "injectables": {
+      "badge": "Injectables",
+      "facility": "Sterile Facility",
+      "coverTitle": "Explore Our Injectables",
+      "btn": "Explore Injectables",
+      "divisionTitle": "Injectables Division",
+      "features": ["Testosterone Blends", "Anabolic Esters", "Therapeutic Injectables"],
+      "desc": "Premium sterile injectable formulations including testosterone blends, anabolic esters, and specialized therapeutic solutions. Manufactured in ISO-certified sterile facilities ensuring maximum purity, safety, and precise dosage accuracy.",
+      "keyFeatures": "Key Features",
+      "sterilityGuaranteed": "✓ Sterility Guaranteed"
+    },
+    "help": {
+      "title": "Need Help Choosing?",
+      "text": "Consult with our pharmaceutical experts for personalized guidance.",
+      "btn": "Contact Our Experts"
+    },
+    "about": {
+      "title": "About NovaTech",
+      "text": "NovaTech Sciences is dedicated to providing innovative healthcare solutions and trusted medicines. Our mission is to improve the quality of life with advanced, affordable, and reliable healthcare products."
+    },
+    "blog": {
+      "title": "Health Tips & Blog",
+      "cards": [
+        { "title": "Managing Diabetes Naturally", "text": "Lifestyle tips and precautions to manage your blood sugar effectively." },
+        { "title": "Asthma Care Tips", "text": "Guidelines to control asthma and prevent attacks." },
+        { "title": "Safe Weight Loss", "text": "Achieve your health goals through safe and sustainable practices." }
+      ]
+    },
+    "partner": {
+      "title": "Partner with NovaTech Sciences",
+      "text": "Collaborate with us to bring cutting-edge pharmaceutical and nutraceutical solutions to global markets.",
+      "btn": "Get in Touch"
+    },
+    "statsBlock": {
+      "countriesServed": "Countries Served",
+      "productsFormulated": "Products Formulated",
+      "therapeuticSegments": "Therapeutic Segments",
+      "qualityCommitment": "Quality Commitment"
+    },
+    "categories": ["Asthma", "Thyrocare", "Weight Loss", "High Sugar", "BP"]
   }
 
 }

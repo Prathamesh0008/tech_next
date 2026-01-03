@@ -103,5 +103,118 @@
     "products": "Produkte",
     "blog": "Blog",
     "antiCounterfeit": "Kundër Falsifikimit"
+  },
+  "home": {
+    "preHeader": "Mirë se vini në NovaTech",
+    "heroTitle": "Zgjidhje inovative shëndetësore",
+    "heroSubtitle": "NovaTech Sciences ju ofron barna të besueshme, zgjidhje diagnostike dhe shëndetësore për t’ju ndihmuar të jetoni çdo ditë më shëndetshëm dhe më të fortë.",
+    "statsMini": {
+      "products": "Produkte",
+      "countries": "Shtete",
+      "years": "Vite përvojë",
+      "certified": "E certifikuar"
+    },
+    "cta": {
+      "exploreProducts": "Shikoni produktet",
+      "contactUs": "Na kontaktoni"
+    },
+    "trustedBy": "Të besuar nga",
+    "trustedByList": [
+      "Spitale",
+      "Klinika",
+      "Farmaci",
+      "Ofrues të kujdesit shëndetësor",
+      "Qendra kërkimore"
+    ],
+    "whyChoose": [
+      {
+        "title": "✔ Certifikuar WHO-GMP",
+        "text": "Njësitë tona prodhuese ndjekin standardet WHO-GMP, ISO dhe standarde strikte të cilësisë."
+      },
+      {
+        "title": "🌍 Prani globale",
+        "text": "E besuar nga profesionistë të shëndetësisë në shumë vende me zgjerim të vazhdueshëm."
+      },
+      {
+        "title": "🔬 E drejtuar nga kërkimi",
+        "text": "Fokusohemi në shkencë, inovacion dhe efikasitet klinik për çdo produkt."
+      }
+    ],
+    "expertiseTag": "Ekspertiza jonë",
+    "divisionsTitle": "Divizionet tona terapeutike",
+    "divisionsDesc": "NovaTech Sciences specializohet në dy divizione kryesore farmaceutike — tableta dhe injeksione të formuluara me precizion për të përmbushur standardet më të larta globale të shëndetësisë.",
+    "tablets": {
+      "badge": "Tableta",
+      "coverTitle": "Zbuloni tabletat tona",
+      "btn": "Shikoni tabletat",
+      "divisionTitle": "Divizioni i tabletave",
+      "features": [
+        "Terapitë hormonale",
+        "Formulime anabolike",
+        "Zgjidhje terapeutike"
+      ],
+      "desc": "Forma të avancuara orale të dozimit që përfshijnë terapi hormonale, përbërës anabolikë dhe formulime terapeutike të specializuara, të dizajnuara për rezultate të qëndrueshme terapeutike.",
+      "keyFeatures": "Karakteristikat kryesore",
+      "qualityAssured": "✓ Cilësi e garantuar"
+    },
+    "injectables": {
+      "badge": "Injeksione",
+      "facility": "Objekt steril",
+      "coverTitle": "Zbuloni injeksionet tona",
+      "btn": "Shikoni injeksionet",
+      "divisionTitle": "Divizioni i injeksioneve",
+      "features": [
+        "Përzierje testosteroni",
+        "Esterë anabolikë",
+        "Injeksione terapeutike"
+      ],
+      "desc": "Formulime injeksionesh sterile me cilësi të lartë, të prodhuara në ambiente të certifikuara ISO për siguri dhe saktësi maksimale të dozimit.",
+      "keyFeatures": "Karakteristikat kryesore",
+      "sterilityGuaranteed": "✓ Sterilitet i garantuar"
+    },
+    "help": {
+      "title": "Keni nevojë për ndihmë në zgjedhje?",
+      "text": "Konsultohuni me ekspertët tanë farmaceutikë për udhëzime të personalizuara.",
+      "btn": "Kontaktoni ekspertët"
+    },
+    "about": {
+      "title": "Rreth NovaTech",
+      "text": "NovaTech Sciences është e përkushtuar të ofrojë zgjidhje inovative shëndetësore dhe barna të besueshme."
+    },
+    "blog": {
+      "title": "Këshilla shëndetësore & Blog",
+      "cards": [
+        {
+          "title": "Menaxhimi natyral i diabetit",
+          "text": "Këshilla mbi stilin e jetesës për të kontrolluar në mënyrë efektive nivelin e sheqerit në gjak."
+        },
+        {
+          "title": "Këshilla për kujdesin ndaj astmës",
+          "text": "Udhëzime për kontrollin e astmës dhe parandalimin e sulmeve."
+        },
+        {
+          "title": "Humbje peshe e sigurt",
+          "text": "Arrini qëllimet tuaja shëndetësore përmes praktikave të sigurta dhe të qëndrueshme."
+        }
+      ]
+    },
+    "partner": {
+      "title": "Bëhuni partner me NovaTech Sciences",
+      "text": "Bashkëpunoni me ne për të sjellë zgjidhje farmaceutike dhe nutraceutike inovative në tregjet globale.",
+      "btn": "Na kontaktoni"
+    },
+    "statsBlock": {
+      "countriesServed": "Shtete të shërbyera",
+      "productsFormulated": "Produkte të zhvilluara",
+      "therapeuticSegments": "Segmente terapeutike",
+      "qualityCommitment": "Përkushtim ndaj cilësisë"
+    },
+    "categories": [
+      "Astma",
+      "Kujdesi për tiroiden",
+      "Humbje peshe",
+      "Sheqer i lartë",
+      "Presioni i gjakut"
+    ]
   }
 }

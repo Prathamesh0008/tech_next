@@ -79,46 +79,44 @@ export default function Navbar() {
           </button>
 
           {/* Desktop nav */}
-          <div className="hidden md:flex gap-8 relative items-center">
-            {links.map((l, i) => (
-              <button
-                key={l.path}
-                ref={(el) => (linkRefs.current[i] = el)}
-                onClick={(e) => navigate(e, l.path)}
-                className={`font-medium transition-colors ${
-                  scrolled ? "text-white" : "text-[#3386bc]"
-                }`}
-              >
-                {l.name}
-              </button>
-            ))}
+          {/* Desktop nav */}
+<div className="hidden md:flex items-center gap-8">
 
-           <LanguageSwitcher variant={scrolled || menuOpen ? "dark" : "light"} />
+  {/* NAV LINKS + UNDERLINE */}
+  <div className="relative flex gap-8">
+    {links.map((l, i) => (
+      <button
+        key={l.path}
+        ref={(el) => (linkRefs.current[i] = el)}
+        onClick={(e) => navigate(e, l.path)}
+        className={`font-medium transition-colors ${
+          scrolled ? "text-white" : "text-[#3386bc]"
+        }`}
+      >
+        {l.name}
+      </button>
+    ))}
 
+    {underline.width > 0 && (
+      <motion.div
+        className={`absolute bottom-0 h-0.5 ${
+          scrolled ? "bg-[#4bb2e5]" : "bg-[#18487d]"
+        }`}
+        animate={underline}
+      />
+    )}
+  </div>
 
-            {underline.width > 0 && (
-              <motion.div
-                className={`absolute bottom-0 h-0.5 ${
-                  scrolled ? "bg-[#4bb2e5]" : "bg-[#18487d]"
-                }`}
-                animate={underline}
-              />
-            )}
-          </div>
+  {/* LANGUAGE SWITCHER – OUTSIDE underline */}
+  <LanguageSwitcher variant={scrolled || menuOpen ? "dark" : "light"} />
+
+</div>
+
 
           {/* Mobile actions: language icon + menu */}
           <div className="md:hidden flex items-center gap-2">
             {/* If your LanguageSwitcher is a dropdown, it can render here too */}
-            <button
-              type="button"
-              aria-label="Language"
-              onClick={() => setMenuOpen(true)} // optional: open menu first
-              className={`p-2 rounded ${
-                menuOpen || scrolled ? "text-white" : "text-[#3386bc]"
-              }`}
-            >
-              <FiGlobe className="w-6 h-6" />
-            </button>
+          
 
             <button
               type="button"

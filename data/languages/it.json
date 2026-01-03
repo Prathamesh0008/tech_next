@@ -103,5 +103,118 @@
     "products": "Prodotti",
     "blog": "Blog",
     "antiCounterfeit": "Anti-contraffazione"
+  },
+  "home": {
+    "preHeader": "Benvenuti in NovaTech",
+    "heroTitle": "Soluzioni sanitarie innovative",
+    "heroSubtitle": "NovaTech Sciences offre medicinali affidabili, soluzioni diagnostiche e sanitarie per aiutarti a vivere ogni giorno in modo più sano e forte.",
+    "statsMini": {
+      "products": "Prodotti",
+      "countries": "Paesi",
+      "years": "Anni di esperienza",
+      "certified": "Certificato"
+    },
+    "cta": {
+      "exploreProducts": "Scopri i prodotti",
+      "contactUs": "Contattaci"
+    },
+    "trustedBy": "Scelto da",
+    "trustedByList": [
+      "Ospedali",
+      "Cliniche",
+      "Farmacie",
+      "Operatori sanitari",
+      "Centri di ricerca"
+    ],
+    "whyChoose": [
+      {
+        "title": "✔ Certificazione WHO-GMP",
+        "text": "I nostri stabilimenti produttivi rispettano gli standard WHO-GMP, ISO e rigorosi criteri di qualità."
+      },
+      {
+        "title": "🌍 Presenza globale",
+        "text": "Fiducia da parte di professionisti sanitari in numerosi paesi con espansione continua."
+      },
+      {
+        "title": "🔬 Orientati alla ricerca",
+        "text": "Ci concentriamo su scienza, innovazione ed efficacia clinica per ogni prodotto."
+      }
+    ],
+    "expertiseTag": "La nostra esperienza",
+    "divisionsTitle": "Le nostre divisioni terapeutiche",
+    "divisionsDesc": "NovaTech Sciences è specializzata in due principali divisioni farmaceutiche — compresse e iniettabili formulati con precisione secondo i più alti standard globali.",
+    "tablets": {
+      "badge": "Compresse",
+      "coverTitle": "Scopri le nostre compresse",
+      "btn": "Scopri le compresse",
+      "divisionTitle": "Divisione compresse",
+      "features": [
+        "Terapie ormonali",
+        "Formulazioni anaboliche",
+        "Soluzioni terapeutiche"
+      ],
+      "desc": "Forme solide orali avanzate progettate per risultati terapeutici costanti ed efficaci.",
+      "keyFeatures": "Caratteristiche principali",
+      "qualityAssured": "✓ Qualità garantita"
+    },
+    "injectables": {
+      "badge": "Iniettabili",
+      "facility": "Struttura sterile",
+      "coverTitle": "Scopri i nostri iniettabili",
+      "btn": "Scopri gli iniettabili",
+      "divisionTitle": "Divisione iniettabili",
+      "features": [
+        "Miscele di testosterone",
+        "Esteri anabolici",
+        "Iniezioni terapeutiche"
+      ],
+      "desc": "Formulazioni iniettabili sterili prodotte in strutture certificate ISO per garantire massima sicurezza e precisione.",
+      "keyFeatures": "Caratteristiche principali",
+      "sterilityGuaranteed": "✓ Sterilità garantita"
+    },
+    "help": {
+      "title": "Hai bisogno di aiuto nella scelta?",
+      "text": "Consulta i nostri esperti farmaceutici per una guida personalizzata.",
+      "btn": "Contatta gli esperti"
+    },
+    "about": {
+      "title": "Chi siamo",
+      "text": "NovaTech Sciences è dedicata a fornire soluzioni sanitarie innovative e affidabili."
+    },
+    "blog": {
+      "title": "Consigli di salute & Blog",
+      "cards": [
+        {
+          "title": "Gestire il diabete in modo naturale",
+          "text": "Suggerimenti per controllare efficacemente la glicemia."
+        },
+        {
+          "title": "Consigli per l’asma",
+          "text": "Linee guida per prevenire le crisi."
+        },
+        {
+          "title": "Perdita di peso sicura",
+          "text": "Raggiungi i tuoi obiettivi con metodi sicuri."
+        }
+      ]
+    },
+    "partner": {
+      "title": "Collabora con NovaTech Sciences",
+      "text": "Collabora con noi per portare soluzioni farmaceutiche e nutraceutiche innovative nei mercati globali.",
+      "btn": "Contattaci"
+    },
+    "statsBlock": {
+      "countriesServed": "Paesi serviti",
+      "productsFormulated": "Prodotti sviluppati",
+      "therapeuticSegments": "Aree terapeutiche",
+      "qualityCommitment": "Impegno per la qualità"
+    },
+    "categories": [
+      "Asma",
+      "Cura della tiroide",
+      "Perdita di peso",
+      "Alto livello di zucchero",
+      "Pressione sanguigna"
+    ]
   }
 }

@@ -103,5 +103,118 @@
     "products": "Produtos",
     "blog": "Blog",
     "antiCounterfeit": "Antifalsificação"
+  },
+  "home": {
+    "preHeader": "Bem-vindo à NovaTech",
+    "heroTitle": "Soluções de saúde inovadoras",
+    "heroSubtitle": "A NovaTech Sciences oferece medicamentos confiáveis, soluções diagnósticas e de saúde para ajudá-lo a viver de forma mais saudável e forte todos os dias.",
+    "statsMini": {
+      "products": "Produtos",
+      "countries": "Países",
+      "years": "Anos de experiência",
+      "certified": "Certificado"
+    },
+    "cta": {
+      "exploreProducts": "Explorar produtos",
+      "contactUs": "Entre em contato"
+    },
+    "trustedBy": "Confiado por",
+    "trustedByList": [
+      "Hospitais",
+      "Clínicas",
+      "Farmácias",
+      "Prestadores de cuidados de saúde",
+      "Centros de pesquisa"
+    ],
+    "whyChoose": [
+      {
+        "title": "✔ Certificação WHO-GMP",
+        "text": "Nossas unidades de fabricação seguem os padrões WHO-GMP, ISO e rigorosos critérios de qualidade."
+      },
+      {
+        "title": "🌍 Presença global",
+        "text": "Confiada por profissionais de saúde em diversos países, com expansão contínua."
+      },
+      {
+        "title": "🔬 Orientada pela pesquisa",
+        "text": "Focamos em ciência, inovação e eficácia clínica em cada produto."
+      }
+    ],
+    "expertiseTag": "Nossa expertise",
+    "divisionsTitle": "Nossas divisões terapêuticas",
+    "divisionsDesc": "A NovaTech Sciences é especializada em duas divisões farmacêuticas principais — comprimidos e injetáveis formulados com precisão segundo os mais altos padrões globais.",
+    "tablets": {
+      "badge": "Comprimidos",
+      "coverTitle": "Explore nossos comprimidos",
+      "btn": "Ver comprimidos",
+      "divisionTitle": "Divisão de comprimidos",
+      "features": [
+        "Terapias hormonais",
+        "Formulações anabólicas",
+        "Soluções terapêuticas"
+      ],
+      "desc": "Formas sólidas orais avançadas desenvolvidas para biodisponibilidade otimizada e resultados terapêuticos consistentes.",
+      "keyFeatures": "Principais características",
+      "qualityAssured": "✓ Qualidade garantida"
+    },
+    "injectables": {
+      "badge": "Injetáveis",
+      "facility": "Instalação estéril",
+      "coverTitle": "Explore nossos injetáveis",
+      "btn": "Ver injetáveis",
+      "divisionTitle": "Divisão de injetáveis",
+      "features": [
+        "Misturas de testosterona",
+        "Ésteres anabólicos",
+        "Injeções terapêuticas"
+      ],
+      "desc": "Formulações injetáveis estéreis de alta qualidade produzidas em instalações certificadas ISO para máxima segurança e precisão.",
+      "keyFeatures": "Principais características",
+      "sterilityGuaranteed": "✓ Esterilidade garantida"
+    },
+    "help": {
+      "title": "Precisa de ajuda para escolher?",
+      "text": "Consulte nossos especialistas farmacêuticos para orientação personalizada.",
+      "btn": "Falar com especialistas"
+    },
+    "about": {
+      "title": "Sobre a NovaTech",
+      "text": "A NovaTech Sciences dedica-se a fornecer soluções de saúde inovadoras e medicamentos confiáveis."
+    },
+    "blog": {
+      "title": "Dicas de saúde e Blog",
+      "cards": [
+        {
+          "title": "Gerenciamento natural do diabetes",
+          "text": "Dicas de estilo de vida para controlar eficazmente a glicemia."
+        },
+        {
+          "title": "Cuidados com a asma",
+          "text": "Diretrizes para controlar a asma e prevenir crises."
+        },
+        {
+          "title": "Perda de peso segura",
+          "text": "Alcance seus objetivos com práticas seguras e sustentáveis."
+        }
+      ]
+    },
+    "partner": {
+      "title": "Faça parceria com a NovaTech Sciences",
+      "text": "Colabore conosco para levar soluções farmacêuticas e nutracêuticas inovadoras aos mercados globais.",
+      "btn": "Entrar em contato"
+    },
+    "statsBlock": {
+      "countriesServed": "Países atendidos",
+      "productsFormulated": "Produtos desenvolvidos",
+      "therapeuticSegments": "Áreas terapêuticas",
+      "qualityCommitment": "Compromisso com a qualidade"
+    },
+    "categories": [
+      "Asma",
+      "Cuidados com a tireoide",
+      "Perda de peso",
+      "Açúcar elevado",
+      "Pressão arterial"
+    ]
   }
 }

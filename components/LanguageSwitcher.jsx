@@ -1,73 +1,167 @@
 "use client";
 
-import { FiGlobe } from "react-icons/fi";
+import { FiGlobe, FiChevronDown } from "react-icons/fi";
+import { useState, useRef, useEffect } from "react";
 import { useLanguage } from "../contexts/LanguageContext";
 
+/* ================= LANGUAGES ================= */
 const languages = [
-  { code: "en", label: "EN" },
-  { code: "es", label: "ES" },
-  { code: "fr", label: "FR" },
-  { code: "de", label: "DE" },
-  { code: "it", label: "IT" },
-  { code: "pt", label: "PT" },
-  { code: "ar", label: "AR" },
-  { code: "ru", label: "RU" },
-  { code: "zh", label: "ZH" },
-  { code: "ro", label: "RO" },
-  { code: "sq", label: "SQ" },
-  { code: "el", label: "EL" },
-  { code: "bg", label: "BG" },
-  { code: "mk", label: "MK" },
-  { code: "sr", label: "SR" },
-  { code: "hr", label: "HR" },
-  { code: "bs", label: "BS" },
+  { code: "en", label: "English", country: "gb" },
+  { code: "es", label: "Español", country: "es" },
+  { code: "fr", label: "Français", country: "fr" },
+  { code: "de", label: "Deutsch", country: "de" },
+  { code: "it", label: "Italiano", country: "it" },
+  { code: "pt", label: "Português", country: "pt" },
+  { code: "ar", label: "العربية", country: "sa" },
+  { code: "ru", label: "Русский", country: "ru" },
+  { code: "zh", label: "中文", country: "cn" },
+  { code: "ro", label: "Română", country: "ro" },
+  { code: "sq", label: "Shqip", country: "al" },
+  { code: "el", label: "Ελληνικά", country: "gr" },
+  { code: "bg", label: "Български", country: "bg" },
+  { code: "mk", label: "Македонски", country: "mk" },
+  { code: "sr", label: "Српски", country: "rs" },
+  { code: "hr", label: "Hrvatski", country: "hr" },
+  { code: "bs", label: "Bosanski", country: "ba" },
 ];
 
+/* ================= FLAG COMPONENT ================= */
+const Flag = ({ country }) => (
+  <span
+    className={`fi fi-${country} w-6 h-4 rounded-sm`}
+    style={{ backgroundSize: "cover" }}
+  />
+);
+
+/* ================= MAIN COMPONENT ================= */
 export default function LanguageSwitcher({ variant = "dark" }) {
   const { language, setLanguage } = useLanguage();
+  const [open, setOpen] = useState(false);
+  const ref = useRef(null);
 
-  const baseSelect =
-    "border rounded px-2 py-1 text-sm focus:outline-none focus:ring-2";
-  const dark = "border-white/40 text-white focus:ring-white/30";
-  const light = "border-[#3386bc]/40 text-[#3386bc] focus:ring-[#3386bc]/20";
+  const current = languages.find(l => l.code === language) || languages[0];
+
+  /* Close on outside click */
+  useEffect(() => {
+    const handler = e => {
+      if (ref.current && !ref.current.contains(e.target)) {
+        setOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handler);
+    return () => document.removeEventListener("mousedown", handler);
+  }, []);
+
+  const styles = {
+    dark: {
+      text: "text-white",
+      border: "border-white/30",
+      hover: "hover:bg-white/10",
+      dropdown: "bg-gray-900",
+    },
+    light: {
+      text: "text-[#3386bc]",
+      border: "border-[#3386bc]/30",
+      hover: "hover:bg-[#3386bc]/10",
+      dropdown: "bg-white",
+    },
+  };
+
+  const s = styles[variant];
 
   return (
-    <>
-      {/* Desktop */}
-      <select
-        value={language}
-        onChange={(e) => setLanguage(e.target.value)}
-        className={`hidden md:block bg-transparent ${baseSelect} ${
-          variant === "dark" ? dark : light
-        }`}
-      >
-        {languages.map((l) => (
-          <option key={l.code} value={l.code} className="text-black">
-            {l.label}
-          </option>
-        ))}
-      </select>
-
-      {/* Mobile: user taps the SELECT (not a button), so it opens */}
-      <div className="md:hidden relative w-10 h-10">
-        <FiGlobe
-          className={`absolute inset-0 m-auto w-6 h-6 ${
-            variant === "dark" ? "text-white" : "text-[#3386bc]"
-          }`}
-        />
-        <select
-          value={language}
-          onChange={(e) => setLanguage(e.target.value)}
-          aria-label="Change language"
-          className="absolute inset-0 w-full h-full opacity-0"
+    <div className="relative" ref={ref}>
+      {/* ================= DESKTOP ================= */}
+      <div className="hidden md:block">
+        <button
+          onClick={() => setOpen(!open)}
+          className={`flex items-center gap-2 px-3 py-2 border rounded ${s.text} ${s.border} ${s.hover}`}
         >
-          {languages.map((l) => (
-            <option key={l.code} value={l.code}>
-              {l.label}
-            </option>
-          ))}
-        </select>
+          {/* <FiGlobe /> */}
+          <Flag country={current.country} />
+          <span className="text-sm">{current.label}</span>
+          <FiChevronDown
+            className={`transition-transform ${open ? "rotate-180" : ""}`}
+          />
+        </button>
+
+        {open && (
+          <div
+            className={`absolute right-0 mt-1 w-56 rounded-md shadow-lg z-50 ${s.dropdown} border ${s.border}`}
+          >
+            {languages.map(lang => (
+              <button
+                key={lang.code}
+                onClick={() => {
+                  setLanguage(lang.code);
+                  setOpen(false);
+                }}
+                className={`flex items-center gap-3 w-full px-4 py-2 text-sm
+                  ${
+                    variant === "dark"
+                      ? "text-white hover:bg-white/10"
+                      : "text-gray-800 hover:bg-gray-100"
+                  }
+                  ${language === lang.code ? "font-semibold" : ""}
+                `}
+              >
+                <Flag country={lang.country} />
+                <span>{lang.label}</span>
+                {language === lang.code && <span className="ml-auto">✓</span>}
+              </button>
+            ))}
+          </div>
+        )}
       </div>
-    </>
+
+      {/* ================= MOBILE ================= */}
+     {/* ================= MOBILE ================= */}
+<div className="md:hidden relative">
+  {/* Trigger */}
+  <button
+    onClick={() => setOpen(!open)}
+    className={`w-full flex items-center justify-between px-3 py-2 border rounded ${s.text} ${s.border}`}
+  >
+    <div className="flex items-center gap-2">
+      <Flag country={current.country} />
+      <span className="text-sm">{current.label}</span>
+    </div>
+    <FiChevronDown
+      className={`transition-transform ${open ? "rotate-180" : ""}`}
+    />
+  </button>
+
+  {/* Dropdown */}
+  {open && (
+    <div
+      className={`absolute left-0 right-0 mt-1 rounded-md shadow-lg z-50 ${s.dropdown} border ${s.border}`}
+    >
+      {languages.map((lang) => (
+        <button
+          key={lang.code}
+          onClick={() => {
+            setLanguage(lang.code);
+            setOpen(false);
+          }}
+          className={`flex items-center gap-3 w-full px-4 py-3 text-sm
+            ${
+              variant === "dark"
+                ? "text-white hover:bg-white/10"
+                : "text-gray-800 hover:bg-gray-100"
+            }
+            ${language === lang.code ? "font-semibold" : ""}
+          `}
+        >
+          <Flag country={lang.country} />
+          <span>{lang.label}</span>
+          {language === lang.code && <span className="ml-auto">✓</span>}
+        </button>
+      ))}
+    </div>
+  )}
+</div>
+
+
+    </div>
   );
 }

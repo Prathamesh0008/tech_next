@@ -97,5 +97,119 @@
     "products": "产品",
     "blog": "博客",
     "antiCounterfeit": "防伪验证"
+  },
+  "home": {
+    "preHeader": "欢迎来到 NovaTech",
+    "heroTitle": "创新医疗健康解决方案",
+    "heroSubtitle": "NovaTech Sciences 为您带来值得信赖的药品、诊断产品和健康解决方案，帮助您每天生活得更健康、更有力量。",
+    "statsMini": {
+      "products": "产品",
+      "countries": "国家",
+      "years": "行业经验",
+      "certified": "认证"
+    },
+    "cta": {
+      "exploreProducts": "探索产品",
+      "contactUs": "联系我们"
+    },
+    "trustedBy": "深受信赖",
+    "trustedByList": [
+      "医院",
+      "诊所",
+      "药房",
+      "医疗服务机构",
+      "研究中心"
+    ],
+    "whyChoose": [
+      {
+        "title": "✔ WHO-GMP 认证",
+        "text": "我们的生产设施严格遵循 WHO-GMP、ISO 以及国际质量管理标准。"
+      },
+      {
+        "title": "🌍 全球布局",
+        "text": "在多个国家受到医疗专业人士的信赖，并持续拓展国际市场。"
+      },
+      {
+        "title": "🔬 科研驱动",
+        "text": "我们以科学、创新和临床疗效为核心，打造每一款产品。"
+      }
+    ],
+    "expertiseTag": "我们的专长",
+    "divisionsTitle": "我们的治疗领域",
+    "divisionsDesc": "NovaTech Sciences 专注于两大核心制药领域——高精度配方的片剂与注射剂，旨在满足全球医疗与制药卓越标准。",
+    "tablets": {
+      "badge": "片剂",
+      "coverTitle": "探索我们的片剂产品",
+      "btn": "查看片剂",
+      "divisionTitle": "片剂事业部",
+      "features": [
+        "激素治疗",
+        "合成代谢配方",
+        "治疗解决方案"
+      ],
+      "desc": "先进的口服固体制剂，涵盖激素治疗、合成代谢化合物及专业治疗配方。每一片药物均通过精密包衣技术和生物利用度优化，确保稳定且可靠的治疗效果。",
+      "keyFeatures": "核心优势",
+      "qualityAssured": "✓ 质量保障"
+    },
+    "injectables": {
+      "badge": "注射剂",
+      "facility": "无菌生产设施",
+      "coverTitle": "探索我们的注射剂产品",
+      "btn": "查看注射剂",
+      "divisionTitle": "注射剂事业部",
+      "features": [
+        "睾酮复合制剂",
+        "合成代谢酯类",
+        "治疗型注射剂"
+      ],
+      "desc": "高端无菌注射剂配方，包括睾酮复合制剂、合成代谢酯类及专业治疗方案。产品在符合 ISO 标准的无菌设施中生产，确保最高纯度、安全性和精准剂量。",
+      "keyFeatures": "核心优势",
+      "sterilityGuaranteed": "✓ 无菌保障"
+    },
+    "help": {
+      "title": "需要帮助选择产品？",
+      "text": "咨询我们的制药专家，获取个性化专业建议。",
+      "btn": "联系专家"
+    },
+    "about": {
+      "title": "关于 NovaTech",
+      "text": "NovaTech Sciences 致力于提供创新的医疗健康解决方案和值得信赖的药品。我们的使命是通过先进、可负担且可靠的医疗产品，持续提升人们的生活质量。"
+    },
+    "blog": {
+      "title": "健康知识与博客",
+      "cards": [
+        {
+          "title": "自然管理糖尿病",
+          "text": "通过生活方式调整和科学护理，有效管理血糖水平。"
+        },
+        {
+          "title": "哮喘护理指南",
+          "text": "帮助控制哮喘并预防发作的实用建议。"
+        },
+        {
+          "title": "安全减重方案",
+          "text": "通过安全、可持续的方法实现健康目标。"
+        }
+      ]
+    },
+    "partner": {
+      "title": "与 NovaTech Sciences 合作",
+      "text": "与我们携手，将前沿的制药和营养保健解决方案推向全球市场。",
+      "btn": "立即联系"
+    },
+    "statsBlock": {
+      "countriesServed": "服务国家",
+      "productsFormulated": "研发产品",
+      "therapeuticSegments": "治疗领域",
+      "qualityCommitment": "质量承诺"
+    },
+    "categories": [
+      "哮喘",
+      "甲状腺护理",
+      "减重管理",
+      "高血糖",
+      "血压管理"
+    ]
   }
+  
 }

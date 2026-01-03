@@ -149,5 +149,118 @@
       "environmental": { "title": "Umweltkonformität" },
       "sustainable": { "title": "Nachhaltige Herstellung" }
     }
+  },
+  "home": {
+    "preHeader": "Willkommen bei NovaTech",
+    "heroTitle": "Innovative Gesundheitslösungen",
+    "heroSubtitle": "NovaTech Sciences bietet Ihnen zuverlässige Arzneimittel, Diagnostikprodukte und Gesundheitslösungen, die Ihnen helfen, jeden Tag gesünder und stärker zu leben.",
+    "statsMini": {
+      "products": "Produkte",
+      "countries": "Länder",
+      "years": "Jahre Erfahrung",
+      "certified": "Zertifiziert"
+    },
+    "cta": {
+      "exploreProducts": "Produkte entdecken",
+      "contactUs": "Kontakt aufnehmen"
+    },
+    "trustedBy": "Vertrauen von",
+    "trustedByList": [
+      "Krankenhäusern",
+      "Kliniken",
+      "Apotheken",
+      "Gesundheitsdienstleistern",
+      "Forschungszentren"
+    ],
+    "whyChoose": [
+      {
+        "title": "✔ WHO-GMP zertifiziert",
+        "text": "Unsere Produktionsstätten arbeiten nach WHO-GMP-, ISO- und strengsten Qualitätsstandards."
+      },
+      {
+        "title": "🌍 Globale Präsenz",
+        "text": "Vertrauen von medizinischen Fachkräften in zahlreichen Ländern mit kontinuierlicher internationaler Expansion."
+      },
+      {
+        "title": "🔬 Forschungsorientiert",
+        "text": "Wir konzentrieren uns auf Wissenschaft, Innovation und klinische Wirksamkeit bei jedem Produkt."
+      }
+    ],
+    "expertiseTag": "Unsere Expertise",
+    "divisionsTitle": "Unsere therapeutischen Bereiche",
+    "divisionsDesc": "NovaTech Sciences ist auf zwei zentrale pharmazeutische Bereiche spezialisiert — präzise formulierte Tabletten und Injektionspräparate, entwickelt nach höchsten globalen Standards im Gesundheitswesen und in der Produktion.",
+    "tablets": {
+      "badge": "Tabletten",
+      "coverTitle": "Unsere Tabletten entdecken",
+      "btn": "Tabletten entdecken",
+      "divisionTitle": "Tablettenbereich",
+      "features": [
+        "Hormontherapien",
+        "Anabole Formulierungen",
+        "Therapeutische Lösungen"
+      ],
+      "desc": "Moderne orale feste Darreichungsformen mit Hormontherapien, anabolen Wirkstoffen und spezialisierten therapeutischen Formulierungen. Jede Tablette wird mit präziser Beschichtungstechnologie und optimierter Bioverfügbarkeit entwickelt.",
+      "keyFeatures": "Hauptmerkmale",
+      "qualityAssured": "✓ Qualität gesichert"
+    },
+    "injectables": {
+      "badge": "Injektionspräparate",
+      "facility": "Sterile Produktionsstätte",
+      "coverTitle": "Unsere Injektionspräparate entdecken",
+      "btn": "Injektionspräparate entdecken",
+      "divisionTitle": "Injektionsbereich",
+      "features": [
+        "Testosteron-Mischungen",
+        "Anabole Ester",
+        "Therapeutische Injektionen"
+      ],
+      "desc": "Hochwertige sterile Injektionsformulierungen mit Testosteron-Mischungen, anabolen Estern und spezialisierten therapeutischen Lösungen. Hergestellt in ISO-zertifizierten sterilen Anlagen für maximale Reinheit und Sicherheit.",
+      "keyFeatures": "Hauptmerkmale",
+      "sterilityGuaranteed": "✓ Sterilität garantiert"
+    },
+    "help": {
+      "title": "Benötigen Sie Hilfe bei der Auswahl?",
+      "text": "Lassen Sie sich von unseren pharmazeutischen Experten individuell beraten.",
+      "btn": "Experten kontaktieren"
+    },
+    "about": {
+      "title": "Über NovaTech",
+      "text": "NovaTech Sciences widmet sich der Entwicklung innovativer Gesundheitslösungen und zuverlässiger Arzneimittel. Unsere Mission ist es, die Lebensqualität durch fortschrittliche, erschwingliche und sichere Gesundheitsprodukte zu verbessern."
+    },
+    "blog": {
+      "title": "Gesundheitstipps & Blog",
+      "cards": [
+        {
+          "title": "Diabetes natürlich managen",
+          "text": "Lebensstil-Tipps und Vorsichtsmaßnahmen zur effektiven Kontrolle des Blutzuckers."
+        },
+        {
+          "title": "Asthma-Pflegetipps",
+          "text": "Richtlinien zur Kontrolle von Asthma und zur Vorbeugung von Anfällen."
+        },
+        {
+          "title": "Sicher abnehmen",
+          "text": "Erreichen Sie Ihre Gesundheitsziele mit sicheren und nachhaltigen Methoden."
+        }
+      ]
+    },
+    "partner": {
+      "title": "Partnerschaft mit NovaTech Sciences",
+      "text": "Arbeiten Sie mit uns zusammen, um innovative pharmazeutische und nutraceutische Lösungen auf globale Märkte zu bringen.",
+      "btn": "Jetzt kontaktieren"
+    },
+    "statsBlock": {
+      "countriesServed": "Bediente Länder",
+      "productsFormulated": "Entwickelte Produkte",
+      "therapeuticSegments": "Therapiebereiche",
+      "qualityCommitment": "Qualitätsversprechen"
+    },
+    "categories": [
+      "Asthma",
+      "Schilddrüsenpflege",
+      "Gewichtsreduktion",
+      "Hoher Blutzucker",
+      "Blutdruck"
+    ]
   }
 }

@@ -149,5 +149,118 @@
       "environmental": { "title": "Conformité environnementale" },
       "sustainable": { "title": "Fabrication durable" }
     }
+  },
+   "home": {
+    "preHeader": "Bienvenue chez NovaTech",
+    "heroTitle": "Solutions de santé innovantes",
+    "heroSubtitle": "NovaTech Sciences vous propose des médicaments fiables, des solutions de diagnostic et de santé pour vous aider à vivre chaque jour en meilleure santé et plus fort.",
+    "statsMini": {
+      "products": "Produits",
+      "countries": "Pays",
+      "years": "Années d’expérience",
+      "certified": "Certifié"
+    },
+    "cta": {
+      "exploreProducts": "Découvrir les produits",
+      "contactUs": "Nous contacter"
+    },
+    "trustedBy": "Ils nous font confiance",
+    "trustedByList": [
+      "Hôpitaux",
+      "Cliniques",
+      "Pharmacies",
+      "Prestataires de soins de santé",
+      "Centres de recherche"
+    ],
+    "whyChoose": [
+      {
+        "title": "✔ Certifié WHO-GMP",
+        "text": "Nos installations de production respectent les normes WHO-GMP, ISO et des standards de qualité stricts."
+      },
+      {
+        "title": "🌍 Présence mondiale",
+        "text": "Approuvé par des professionnels de santé dans de nombreux pays avec une expansion continue."
+      },
+      {
+        "title": "🔬 Axé sur la recherche",
+        "text": "Nous mettons l’accent sur la science, l’innovation et l’efficacité clinique pour chaque produit."
+      }
+    ],
+    "expertiseTag": "Notre expertise",
+    "divisionsTitle": "Nos divisions thérapeutiques",
+    "divisionsDesc": "NovaTech Sciences est spécialisée dans deux divisions pharmaceutiques clés — comprimés et injectables formulés avec précision, répondant aux plus hauts standards mondiaux de santé et de fabrication.",
+    "tablets": {
+      "badge": "Comprimés",
+      "coverTitle": "Découvrez nos comprimés",
+      "btn": "Voir les comprimés",
+      "divisionTitle": "Division des comprimés",
+      "features": [
+        "Thérapies hormonales",
+        "Formulations anabolisantes",
+        "Solutions thérapeutiques"
+      ],
+      "desc": "Formes orales solides avancées comprenant des thérapies hormonales, des composés anabolisants et des formulations thérapeutiques spécialisées, conçues pour une biodisponibilité et une efficacité constantes.",
+      "keyFeatures": "Caractéristiques clés",
+      "qualityAssured": "✓ Qualité garantie"
+    },
+    "injectables": {
+      "badge": "Injectables",
+      "facility": "Installation stérile",
+      "coverTitle": "Découvrez nos injectables",
+      "btn": "Voir les injectables",
+      "divisionTitle": "Division des injectables",
+      "features": [
+        "Mélanges de testostérone",
+        "Esters anabolisants",
+        "Injectables thérapeutiques"
+      ],
+      "desc": "Formulations injectables stériles de qualité supérieure, fabriquées dans des installations certifiées ISO garantissant une pureté, une sécurité et une précision de dosage maximales.",
+      "keyFeatures": "Caractéristiques clés",
+      "sterilityGuaranteed": "✓ Stérilité garantie"
+    },
+    "help": {
+      "title": "Besoin d’aide pour choisir ?",
+      "text": "Consultez nos experts pharmaceutiques pour des conseils personnalisés.",
+      "btn": "Contacter les experts"
+    },
+    "about": {
+      "title": "À propos de NovaTech",
+      "text": "NovaTech Sciences se consacre à fournir des solutions de santé innovantes et des médicaments fiables afin d’améliorer la qualité de vie."
+    },
+    "blog": {
+      "title": "Conseils santé & Blog",
+      "cards": [
+        {
+          "title": "Gérer le diabète naturellement",
+          "text": "Conseils de mode de vie pour contrôler efficacement la glycémie."
+        },
+        {
+          "title": "Conseils pour l’asthme",
+          "text": "Recommandations pour maîtriser l’asthme et prévenir les crises."
+        },
+        {
+          "title": "Perte de poids en toute sécurité",
+          "text": "Atteignez vos objectifs de santé grâce à des pratiques sûres et durables."
+        }
+      ]
+    },
+    "partner": {
+      "title": "Devenez partenaire de NovaTech Sciences",
+      "text": "Collaborez avec nous pour proposer des solutions pharmaceutiques et nutraceutiques innovantes sur les marchés mondiaux.",
+      "btn": "Entrer en contact"
+    },
+    "statsBlock": {
+      "countriesServed": "Pays desservis",
+      "productsFormulated": "Produits développés",
+      "therapeuticSegments": "Domaines thérapeutiques",
+      "qualityCommitment": "Engagement qualité"
+    },
+    "categories": [
+      "Asthme",
+      "Soins de la thyroïde",
+      "Perte de poids",
+      "Glycémie élevée",
+      "Pression artérielle"
+    ]
   }
 }

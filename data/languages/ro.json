@@ -103,5 +103,118 @@
     "products": "Produse",
     "blog": "Blog",
     "antiCounterfeit": "Anti-contrafacere"
+  },
+  "home": {
+    "preHeader": "Bine ați venit la NovaTech",
+    "heroTitle": "Soluții inovatoare pentru sănătate",
+    "heroSubtitle": "NovaTech Sciences vă oferă medicamente de încredere, produse de diagnostic și soluții pentru sănătate care vă ajută să trăiți mai sănătos și mai puternic în fiecare zi.",
+    "statsMini": {
+      "products": "Produse",
+      "countries": "Țări",
+      "years": "Ani de experiență",
+      "certified": "Certificat"
+    },
+    "cta": {
+      "exploreProducts": "Explorați produsele",
+      "contactUs": "Contactați-ne"
+    },
+    "trustedBy": "De încredere pentru",
+    "trustedByList": [
+      "Spitale",
+      "Clinici",
+      "Farmacii",
+      "Furnizori de servicii medicale",
+      "Centre de cercetare"
+    ],
+    "whyChoose": [
+      {
+        "title": "✔ Certificat WHO-GMP",
+        "text": "Unitățile noastre de producție respectă standardele WHO-GMP, ISO și cele mai stricte cerințe de calitate."
+      },
+      {
+        "title": "🌍 Prezență globală",
+        "text": "Suntem un partener de încredere pentru profesioniștii din domeniul sănătății din numeroase țări, cu extindere continuă."
+      },
+      {
+        "title": "🔬 Orientați spre cercetare",
+        "text": "Ne concentrăm pe știință, inovație și eficacitate clinică pentru fiecare produs livrat."
+      }
+    ],
+    "expertiseTag": "Expertiza noastră",
+    "divisionsTitle": "Diviziile noastre terapeutice",
+    "divisionsDesc": "NovaTech Sciences este specializată în două divizii farmaceutice de bază — tablete și produse injectabile formulate cu precizie, concepute pentru a îndeplini cele mai înalte standarde de sănătate și excelență în producție la nivel global.",
+    "tablets": {
+      "badge": "Tablete",
+      "coverTitle": "Explorați tabletele noastre",
+      "btn": "Explorați tabletele",
+      "divisionTitle": "Divizia de tablete",
+      "features": [
+        "Terapii hormonale",
+        "Formulări anabolice",
+        "Soluții terapeutice"
+      ],
+      "desc": "Forme solide orale avansate care includ terapii hormonale, compuși anabolici și formulări terapeutice specializate. Fiecare tabletă este proiectată cu tehnologii de acoperire de precizie și optimizare a biodisponibilității pentru rezultate terapeutice constante.",
+      "keyFeatures": "Caracteristici cheie",
+      "qualityAssured": "✓ Calitate garantată"
+    },
+    "injectables": {
+      "badge": "Injectabile",
+      "facility": "Unitate sterilă",
+      "coverTitle": "Explorați injectabilele noastre",
+      "btn": "Explorați injectabilele",
+      "divisionTitle": "Divizia de injectabile",
+      "features": [
+        "Amestecuri de testosteron",
+        "Esteri anabolici",
+        "Injectabile terapeutice"
+      ],
+      "desc": "Formulări injectabile sterile premium, inclusiv amestecuri de testosteron, esteri anabolici și soluții terapeutice specializate. Produse în unități sterile certificate ISO, asigurând puritate maximă, siguranță și precizie a dozajului.",
+      "keyFeatures": "Caracteristici cheie",
+      "sterilityGuaranteed": "✓ Sterilitate garantată"
+    },
+    "help": {
+      "title": "Aveți nevoie de ajutor pentru alegere?",
+      "text": "Consultați experții noștri farmaceutici pentru îndrumare personalizată.",
+      "btn": "Contactați experții"
+    },
+    "about": {
+      "title": "Despre NovaTech",
+      "text": "NovaTech Sciences este dedicată furnizării de soluții inovatoare pentru sănătate și medicamente de încredere. Misiunea noastră este de a îmbunătăți calitatea vieții prin produse de sănătate avansate, accesibile și fiabile."
+    },
+    "blog": {
+      "title": "Sfaturi de sănătate și blog",
+      "cards": [
+        {
+          "title": "Gestionarea naturală a diabetului",
+          "text": "Sfaturi de stil de viață și măsuri preventive pentru controlul eficient al glicemiei."
+        },
+        {
+          "title": "Sfaturi pentru îngrijirea astmului",
+          "text": "Ghiduri pentru controlul astmului și prevenirea crizelor."
+        },
+        {
+          "title": "Slăbire sigură",
+          "text": "Atingeți obiectivele de sănătate prin practici sigure și sustenabile."
+        }
+      ]
+    },
+    "partner": {
+      "title": "Colaborați cu NovaTech Sciences",
+      "text": "Colaborați cu noi pentru a aduce soluții farmaceutice și nutraceutice de ultimă generație pe piețele globale.",
+      "btn": "Luați legătura"
+    },
+    "statsBlock": {
+      "countriesServed": "Țări deservite",
+      "productsFormulated": "Produse formulate",
+      "therapeuticSegments": "Domenii terapeutice",
+      "qualityCommitment": "Angajament pentru calitate"
+    },
+    "categories": [
+      "Astm",
+      "Îngrijirea tiroidei",
+      "Pierdere în greutate",
+      "Nivel ridicat de zahăr",
+      "Tensiune arterială"
+    ]
   }
 }

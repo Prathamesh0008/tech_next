@@ -100,5 +100,118 @@
     "products": "Proizvodi",
     "blog": "Blog",
     "antiCounterfeit": "Protiv krivotvorenja"
+  },
+   "home": {
+    "preHeader": "Dobrodošli u NovaTech",
+    "heroTitle": "Inovativna zdravstvena rješenja",
+    "heroSubtitle": "NovaTech Sciences donosi vam pouzdane lijekove, dijagnostičke proizvode i zdravstvena rješenja koja vam pomažu živjeti zdravije i snažnije svaki dan.",
+    "statsMini": {
+      "products": "Proizvodi",
+      "countries": "Zemlje",
+      "years": "Godine iskustva",
+      "certified": "Certificirano"
+    },
+    "cta": {
+      "exploreProducts": "Istražite proizvode",
+      "contactUs": "Kontaktirajte nas"
+    },
+    "trustedBy": "Povjerenje nam ukazuju",
+    "trustedByList": [
+      "Bolnice",
+      "Klinike",
+      "Ljekarne",
+      "Pružatelji zdravstvene skrbi",
+      "Istraživački centri"
+    ],
+    "whyChoose": [
+      {
+        "title": "✔ WHO-GMP certificirano",
+        "text": "Naši proizvodni pogoni rade u skladu sa WHO-GMP, ISO i najstrožim standardima kvalitete."
+      },
+      {
+        "title": "🌍 Globalna prisutnost",
+        "text": "Povjerenje zdravstvenih stručnjaka u mnogim zemljama uz kontinuirano međunarodno širenje."
+      },
+      {
+        "title": "🔬 Vođeni istraživanjem",
+        "text": "Usmjereni smo na znanost, inovacije i kliničku učinkovitost svakog proizvoda koji isporučujemo."
+      }
+    ],
+    "expertiseTag": "Naša stručnost",
+    "divisionsTitle": "Naše terapijske divizije",
+    "divisionsDesc": "NovaTech Sciences specijalizirana je za dvije osnovne farmaceutske divizije — precizno formulirane tablete i injekcijske proizvode, dizajnirane kako bi zadovoljile najviše standarde globalne zdravstvene skrbi i proizvodne izvrsnosti.",
+    "tablets": {
+      "badge": "Tablete",
+      "coverTitle": "Istražite naše tablete",
+      "btn": "Istražite tablete",
+      "divisionTitle": "Divizija tableta",
+      "features": [
+        "Hormonske terapije",
+        "Anaboličke formulacije",
+        "Terapijska rješenja"
+      ],
+      "desc": "Napredni oralni čvrsti oblici doziranja koji uključuju hormonske terapije, anaboličke spojeve i specijalizirane terapijske formulacije. Svaka tableta razvijena je uz precizne tehnologije oblaganja i optimizaciju bioraspoloživosti za dosljedne terapijske rezultate.",
+      "keyFeatures": "Ključne značajke",
+      "qualityAssured": "✓ Zajamčena kvaliteta"
+    },
+    "injectables": {
+      "badge": "Injekcijski proizvodi",
+      "facility": "Sterilni pogon",
+      "coverTitle": "Istražite naše injekcijske proizvode",
+      "btn": "Istražite injekcije",
+      "divisionTitle": "Divizija injekcijskih proizvoda",
+      "features": [
+        "Testosteronske mješavine",
+        "Anabolički esteri",
+        "Terapijske injekcije"
+      ],
+      "desc": "Premium sterilne injekcijske formulacije koje uključuju testosteronske mješavine, anaboličke estere i specijalizirana terapijska rješenja. Proizvedene u ISO-certificiranim sterilnim pogonima, osiguravaju maksimalnu čistoću, sigurnost i preciznost doziranja.",
+      "keyFeatures": "Ključne značajke",
+      "sterilityGuaranteed": "✓ Zajamčena sterilnost"
+    },
+    "help": {
+      "title": "Trebate pomoć pri odabiru?",
+      "text": "Savjetujte se s našim farmaceutskim stručnjacima za personalizirane smjernice.",
+      "btn": "Kontaktirajte stručnjake"
+    },
+    "about": {
+      "title": "O NovaTechu",
+      "text": "NovaTech Sciences posvećena je pružanju inovativnih zdravstvenih rješenja i pouzdanih lijekova. Naša misija je unaprijediti kvalitetu života putem naprednih, pristupačnih i pouzdanih zdravstvenih proizvoda."
+    },
+    "blog": {
+      "title": "Zdravstveni savjeti i blog",
+      "cards": [
+        {
+          "title": "Prirodno upravljanje dijabetesom",
+          "text": "Savjeti o načinu života i preventivne mjere za učinkovitu kontrolu razine šećera u krvi."
+        },
+        {
+          "title": "Savjeti za njegu astme",
+          "text": "Smjernice za kontrolu astme i sprječavanje napada."
+        },
+        {
+          "title": "Sigurno mršavljenje",
+          "text": "Postignite svoje zdravstvene ciljeve kroz sigurne i održive prakse."
+        }
+      ]
+    },
+    "partner": {
+      "title": "Partnerstvo s NovaTech Sciences",
+      "text": "Suradnjom s nama donesite najmodernija farmaceutska i nutraceutska rješenja na globalna tržišta.",
+      "btn": "Stupite u kontakt"
+    },
+    "statsBlock": {
+      "countriesServed": "Zemlje koje opslužujemo",
+      "productsFormulated": "Razvijeni proizvodi",
+      "therapeuticSegments": "Terapijske kategorije",
+      "qualityCommitment": "Predanost kvaliteti"
+    },
+    "categories": [
+      "Astma",
+      "Njega štitnjače",
+      "Mršavljenje",
+      "Visok šećer",
+      "Krvni tlak"
+    ]
   }
 }
