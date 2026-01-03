@@ -2,8 +2,75 @@ import { notFound } from "next/navigation";
 import { products } from "../../../../data/products";
 import ProductClient from "./ProductClient";
 
+
 export async function generateMetadata({ params }) {
   const { category, productSlug } = await params;
+  const PRODUCT_KEYWORDS = {
+  "femanova": [
+    "Femanova tablets",
+    "steroid tablets",
+    "legal steroids",
+    "muscle growth tablets",
+    "best steroids online",
+    "pharmaceutical grade tablets",
+  ],
+
+  "tamonova": [
+    "Tamonova tablets",
+    "steroid tablets",
+    "legal steroids",
+    "muscle building tablets",
+    "best anabolic tablets",
+    "pharmaceutical steroids",
+  ],
+
+  "novazole": [
+    "Novazole tablets",
+    "steroid tablets",
+    "legal muscle builders",
+    "pharmaceutical grade steroids",
+    "best steroids online",
+  ],
+
+  "aromanova": [
+    "Aromanova tablets",
+    "aromatase inhibitor",
+    "steroid support",
+    "legal steroids",
+    "muscle growth support",
+    "pharmaceutical grade",
+  ],
+
+  "enclominova": [
+    "Enclominova tablets",
+    "PCT steroids",
+    "post cycle therapy",
+    "legal steroids",
+    "muscle recovery",
+    "pharmaceutical grade",
+  ],
+
+  "novabol": [
+    "Novabol tablets",
+    "dianabol tablets",
+    "muscle building",
+    "legal steroids",
+    "best steroids online",
+    "pharmaceutical grade",
+  ],
+
+  "provinova": [
+    "Provinova tablets",
+    "proviron tablets",
+    "testosterone support",
+    "legal steroids",
+    "muscle building",
+    "pharmaceutical grade",
+  ],
+
+  // 👉 You can keep adding more later
+};
+
 
   const slugify = (name) =>
     name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
@@ -28,7 +95,7 @@ export async function generateMetadata({ params }) {
 
   const canonical =
     product.seoCanonical ||
-    `https://novatechsciences.com/products/${category}/${productSlug}`;
+    `https://www.novatechsciences.com/products/${category}/${productSlug}`;
 
 return {
   title: product.seoTitle || product.name,
@@ -37,6 +104,18 @@ return {
   alternates: {
     canonical,
   },
+
+  robots: {
+    index: true,
+    follow: true,
+  },
+
+  keywords:
+    PRODUCT_KEYWORDS[productSlug] || [
+      `${product.name} tablets`,
+      "legal steroids",
+      "pharmaceutical grade products",
+    ],
 
   openGraph: {
     title: product.seoTitle || product.name,
@@ -51,7 +130,7 @@ return {
         alt: product.name,
       },
     ],
-    type: "article", // ✅ FIXED
+    type: "article",
   },
 
   twitter: {
@@ -61,6 +140,7 @@ return {
     images: [product.images?.[0] || product.image],
   },
 };
+
 
 }
 

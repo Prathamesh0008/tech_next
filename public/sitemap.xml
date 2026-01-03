@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="
+    http://www.sitemaps.org/schemas/sitemap/0.9
+    http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- Main Pages -->
+  <url>
+    <loc>https://www.novatechsciences.com/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://www.novatechsciences.com/about</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.novatechsciences.com/anti-counterfeit</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.novatechsciences.com/contact</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.novatechsciences.com/blog</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Blog Posts -->
+  <url>
+    <loc>https://www.novatechsciences.com/blog/best-steroids-muscle-growth-2025</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.novatechsciences.com/blog/why-testosterone-levels-are-dropping-worldwide</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.novatechsciences.com/blog/best-testosterone-supplements-for-men</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Tablet Products -->
+  <url>
+    <loc>https://www.novatechsciences.com/products/tablets/provinova</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Injectable Products -->
+  <url>
+    <loc>https://www.novatechsciences.com/products/injectables/nova-cut-mix</loc>
+    <priority>0.6</priority>
+  </url>
+
+</urlset>

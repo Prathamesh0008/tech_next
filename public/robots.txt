@@ -62,3 +62,9 @@ Disallow: /
 
 User-agent: omgilibot
 Disallow: /
+
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.novatechsciences.com/sitemap.xml

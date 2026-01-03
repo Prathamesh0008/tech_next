@@ -115,9 +115,9 @@ export const tablets = [
     "Stop using immediately and seek medical attention if you experience unusual side effects.",
 
   images: [
-    // "https://novatechsciences.com/assets/FEMANOVA_1.jpg",
-    // "https://novatechsciences.com/assets/FEMANOVA_2.jpg",
-    // "https://novatechsciences.com/assets/FEMANOVA_3.jpg"
+    // "https://www.novatechsciences.com/assets/FEMANOVA_1.jpg",
+    // "https://www.novatechsciences.com/assets/FEMANOVA_2.jpg",
+    // "https://www.novatechsciences.com/assets/FEMANOVA_3.jpg"
   ],
 
   // ⭐ SEO FIELDS
@@ -127,7 +127,7 @@ export const tablets = [
   seoKeywords:
     "Femanova tablets, Letrozole 2.5 mg, steroid estrogen control, aromatase inhibitor, pharmaceutical-grade hormonal regulator",
   seoRobots: "index, follow",
-  seoCanonical: "https://novatechsciences.com/products/tablets/femanova",
+  seoCanonical: "https://www.novatechsciences.com/products/tablets/femanova",
 
   // ⭐ PRODUCT SCHEMA FIELDS
   schemaBrand: "NovaTech Sciences",
@@ -205,7 +205,7 @@ export const tablets = [
   seoKeywords:
     "Tamoxifen 20mg, Buy Tamoxifen tablets, Hormone balance tablets, Post Cycle Therapy, PCT tablets, Estrogen blocker",
   seoRobots: "index, follow",
-  seoCanonical: "https://novatechsciences.com/products/tablets/tamonova",
+  seoCanonical: "https://www.novatechsciences.com/products/tablets/tamonova",
 
   // ⭐ PRODUCT SCHEMA FIELDS
   schemaBrand: "NovaTech Sciences",
@@ -290,7 +290,7 @@ export const tablets = [
   seoKeywords:
     "Anastrozole 1 mg, NOVAZOLE tablets, Estrogen control, Aromatase inhibitor, PCT support, Hormone balance",
   seoRobots: "index, follow",
-  seoCanonical: "https://novatechsciences.com/products/tablets/novazole",
+  seoCanonical: "https://www.novatechsciences.com/products/tablets/novazole",
 
   // ⭐ PRODUCT SCHEMA FIELDS
   schemaBrand: "NovaTech Sciences",
@@ -371,7 +371,7 @@ export const tablets = [
   seoKeywords:
     "Exemestane 25mg, AROMANOVA tablets, Aromatase inhibitor, Estrogen control, Post Cycle Therapy, PCT support",
   seoRobots: "index, follow",
-  seoCanonical: "https://novatechsciences.com/products/tablets/aromanova",
+  seoCanonical: "https://www.novatechsciences.com/products/tablets/aromanova",
 
   // ⭐ PRODUCT SCHEMA FIELDS
   schemaBrand: "NovaTech Sciences",
@@ -410,7 +410,7 @@ export const tablets = [
 ,
 
 
-//  https://novatechsciences.com/products/tablets/enclominova 
+//  https://www.novatechsciences.com/products/tablets/enclominova 
 
 {
   id: "tab-enclominova-25",
@@ -455,7 +455,7 @@ export const tablets = [
   seoKeywords:
     "Enclominova, Enclomiphene 25mg, Testosterone booster tablets, PCT support, Hormone balance",
   seoRobots: "index, follow",
-  seoCanonical: "https://novatechsciences.com/products/tablets/enclominova",
+  seoCanonical: "https://www.novatechsciences.com/products/tablets/enclominova",
 
   // ⭐ PRODUCT SCHEMA FIELDS
   schemaBrand: "Nova TechSciences",
@@ -494,7 +494,7 @@ export const tablets = [
 ,
 
 
-// https://novatechsciences.com/products/tablets/primonova 
+// https://www.novatechsciences.com/products/tablets/primonova 
 {
   id: "tab-primonova-25",
   name: "PRIMONOVA",
@@ -538,7 +538,7 @@ export const tablets = [
   seoKeywords:
     "Primonova, Primobolan tablets, Buy Primobolan online, Methenolone Acetate tablets, Lean muscle growth, Cutting cycles",
   seoRobots: "index, follow",
-  seoCanonical: "https://novatechsciences.com/products/tablets/primonova",
+  seoCanonical: "https://www.novatechsciences.com/products/tablets/primonova",
 
   // ⭐ PRODUCT SCHEMA FIELDS
   schemaBrand: "Nova TechSciences",
@@ -578,7 +578,7 @@ export const tablets = [
 
 
 
-// https://novatechsciences.com/products/tablets/supernova 
+// https://www.novatechsciences.com/products/tablets/supernova 
 
 
 {
@@ -625,7 +625,7 @@ export const tablets = [
   seoKeywords:
     "Methandienone tablets, Buy Methandienone online, Muscle gain steroid, SUPERNOVA, Strength enhancement tablets",
   seoRobots: "index, follow",
-  seoCanonical: "https://novatechsciences.com/products/tablets/supernova",
+  seoCanonical: "https://www.novatechsciences.com/products/tablets/supernova",
 
   // ⭐ PRODUCT SCHEMA FIELDS
   schemaBrand: "Nova TechSciences",
@@ -665,7 +665,7 @@ export const tablets = [
 
 
 
-// https://novatechsciences.com/products/tablets/telinova 
+// https://www.novatechsciences.com/products/tablets/telinova 
 
 {
   id: "tab-telinova-20",
@@ -711,7 +711,7 @@ export const tablets = [
   seoKeywords:
     "Tadalafil 20mg, Buy Tadalafil tablets, Telinova tablets, Blood flow booster, Performance enhancer, Wellness support",
   seoRobots: "index, follow",
-  seoCanonical: "https://novatechsciences.com/products/tablets/telinova",
+  seoCanonical: "https://www.novatechsciences.com/products/tablets/telinova",
 
   // ⭐ PRODUCT SCHEMA FIELDS
   schemaBrand: "Nova TechSciences",
@@ -751,7 +751,7 @@ export const tablets = [
 
 
  
-// https://novatechsciences.com/products/tablets/turinova 
+// https://www.novatechsciences.com/products/tablets/turinova 
 
 {
   id: "tab-turinova-10",
@@ -796,7 +796,7 @@ export const tablets = [
   seoKeywords:
     "Turinabol tablets, Buy Turinabol online, Clean muscle gains, Strength enhancement, TURINOVA tablets",
   seoRobots: "index, follow",
-  seoCanonical: "https://novatechsciences.com/products/tablets/turinova",
+  seoCanonical: "https://www.novatechsciences.com/products/tablets/turinova",
 
   // ⭐ PRODUCT SCHEMA FIELDS
   schemaBrand: "Nova TechSciences",
@@ -836,7 +836,7 @@ export const tablets = [
 
 
 
-// https://novatechsciences.com/products/tablets/nova-t4 
+// https://www.novatechsciences.com/products/tablets/nova-t4 
 
 {
   id: "tab-nova-t4-50mcg",
@@ -881,7 +881,7 @@ export const tablets = [
   seoKeywords:
     "Levothyroxine tablets, Buy Levothyroxine online, T4 thyroid hormone tablets, Weight-loss thyroid support, NOVA_T4",
   seoRobots: "index, follow",
-  seoCanonical: "https://novatechsciences.com/products/tablets/nova-t4",
+  seoCanonical: "https://www.novatechsciences.com/products/tablets/nova-t4",
 
   // ⭐ PRODUCT SCHEMA FIELDS
   schemaBrand: "NovaTech Sciences",
@@ -922,7 +922,7 @@ export const tablets = [
 
 
 
-// https://novatechsciences.com/products/tablets/cabernova 
+// https://www.novatechsciences.com/products/tablets/cabernova 
 
 {
   id: "tab-cabernova-0.5",
@@ -966,7 +966,7 @@ export const tablets = [
   seoKeywords:
     "Cabergoline tablets, Buy Cabergoline online, Reduce prolactin levels, Cabergoline 0.5mg, Hormone balance, PCT support",
   seoRobots: "index, follow",
-  seoCanonical: "https://novatechsciences.com/products/tablets/cabernova",
+  seoCanonical: "https://www.novatechsciences.com/products/tablets/cabernova",
 
   // ⭐ PRODUCT SCHEMA FIELDS
   schemaBrand: "Nova TechSciences",
@@ -1006,7 +1006,7 @@ export const tablets = [
 
 
 // 
-// https://novatechsciences.com/products/tablets/halonova 
+// https://www.novatechsciences.com/products/tablets/halonova 
 
 {
   id: "tab-halonova-5",
@@ -1051,7 +1051,7 @@ export const tablets = [
   seoKeywords:
     "Halotestin tablets, Buy Halotestin online, Halotestin for performance, Oral Halotestin, HALONOVA tablets",
   seoRobots: "index, follow",
-  seoCanonical: "https://novatechsciences.com/products/tablets/halonova",
+  seoCanonical: "https://www.novatechsciences.com/products/tablets/halonova",
 
   // ⭐ PRODUCT SCHEMA FIELDS
   schemaBrand: "Nova Tech Sciences",
@@ -1091,7 +1091,7 @@ export const tablets = [
 
 
 
-// https://novatechsciences.com/products/tablets/nova-t3 
+// https://www.novatechsciences.com/products/tablets/nova-t3 
 
 {
   id: "tab-nova-t3-50mcg",
@@ -1135,7 +1135,7 @@ export const tablets = [
   seoKeywords:
     "Liothyronine tablets, Buy Liothyronine online, Best T3 for fat loss, Weight-loss thyroid medicine, NOVA_T3",
   seoRobots: "index, follow",
-  seoCanonical: "https://novatechsciences.com/products/tablets/nova-t3",
+  seoCanonical: "https://www.novatechsciences.com/products/tablets/nova-t3",
 
   // ⭐ PRODUCT SCHEMA FIELDS
   schemaBrand: "Nova TechSciences",
@@ -1175,7 +1175,7 @@ export const tablets = [
 
 
 
-// https://novatechsciences.com/products/tablets/novabol 
+// https://www.novatechsciences.com/products/tablets/novabol 
 
 {
   id: "tab-novabol-10",
@@ -1219,7 +1219,7 @@ export const tablets = [
   seoKeywords:
     "Anavar 10mg tablets, Oxandrolone tablets, Buy Anavar online, Novabol, Lean muscle support",
   seoRobots: "index, follow",
-  seoCanonical: "https://novatechsciences.com/products/tablets/novabol",
+  seoCanonical: "https://www.novatechsciences.com/products/tablets/novabol",
 
   // ⭐ PRODUCT SCHEMA FIELDS
   schemaBrand: "Nova TechSciences",
@@ -1258,7 +1258,7 @@ export const tablets = [
 ,
 
 
-// https://novatechsciences.com/products/tablets/provinova 
+// https://www.novatechsciences.com/products/tablets/provinova 
 
 {
   id: "tab-provinova-25",
@@ -1303,7 +1303,7 @@ export const tablets = [
   seoKeywords:
     "Provinova, Mesterolone 25mg, Buy Proviron tablet, Pharma-grade Mesterolone, Testosterone support",
   seoRobots: "index, follow",
-  seoCanonical: "https://novatechsciences.com/products/tablets/provinova",
+  seoCanonical: "https://www.novatechsciences.com/products/tablets/provinova",
 
   // ⭐ PRODUCT SCHEMA FIELDS
   schemaBrand: "Nova TechSciences",
@@ -1343,7 +1343,7 @@ export const tablets = [
 
 
 
-// https://novatechsciences.com/products/tablets/oxydrol 
+// https://www.novatechsciences.com/products/tablets/oxydrol 
 
 {
   id: "tab-oxydrol-50",
@@ -1389,7 +1389,7 @@ export const tablets = [
   seoKeywords:
     "Oxydrol, Oxymetholone tablets, Buy Anadrol online, Mass gaining steroid",
   seoRobots: "index, follow",
-  seoCanonical: "https://novatechsciences.com/products/tablets/oxydrol",
+  seoCanonical: "https://www.novatechsciences.com/products/tablets/oxydrol",
 
   // ⭐ PRODUCT SCHEMA FIELDS
   schemaBrand: "Nova TechSciences",
@@ -1429,7 +1429,7 @@ export const tablets = [
 
 
 
-// https://novatechsciences.com/products/tablets/novamoren 
+// https://www.novatechsciences.com/products/tablets/novamoren 
 {
   id: "tab-novamoren-10",
   name: "NOVAMOREN",
@@ -1472,7 +1472,7 @@ export const tablets = [
   seoKeywords:
     "Novamoren, Ibutamoren MK-677, Buy MK-677 tablet, Growth hormone support",
   seoRobots: "index, follow",
-  seoCanonical: "https://novatechsciences.com/products/tablets/novamoren",
+  seoCanonical: "https://www.novatechsciences.com/products/tablets/novamoren",
 
   // ⭐ PRODUCT SCHEMA FIELDS
   schemaBrand: "Nova TechSciences",
@@ -1533,7 +1533,7 @@ export const tablets = [
   seoDescription: "NOVAMETH (Methandienone 10 mg) is a tablet dosage form manufactured by Nova Techsciences. This page outlines product strength, active ingredient composition, and general pharmaceutical specifications for regulated markets.",
   seoKeywords: "Novameth, Methandienone 10mg, Buy Methandienone tablet, Dianabol-like anabolic steroid",
   seoRobots: "index, follow",
-  seoCanonical: "https://novatechsciences.com/products/tablets/novameth",
+  seoCanonical: "https://www.novatechsciences.com/products/tablets/novameth",
 
   // Product Schema Fields
   schemaBrand: "Nova TechSciences",
@@ -1589,7 +1589,7 @@ export const tablets = [
   seoDescription: "SPIROCLEN (Clenbuterol 40 mcg) tablets from Nova Techsciences are manufactured under controlled standards, providing consistent dosage, composition, and quality assurance.",
   seoKeywords: "Spiroclen, Clenbuterol 40 mcg, Buy Clenbuterol tablets, Cutting cycle fat-loss, Thermogenic supplement",
   seoRobots: "index, follow",
-  seoCanonical: "https://novatechsciences.com/products/tablets/spiroclen",
+  seoCanonical: "https://www.novatechsciences.com/products/tablets/spiroclen",
 
   // Product Schema Fields
   schemaBrand: "Nova TechSciences",
@@ -1645,7 +1645,7 @@ export const tablets = [
 //   seoDescription: "SPIROCLEN (Clenbuterol 40 mcg) tablets from Nova Techsciences are manufactured under controlled standards, providing consistent dosage, composition, and quality assurance.",
 //   seoKeywords: "Spiroclen, Clenbuterol 40 mcg, Buy Clenbuterol tablets, Cutting cycle fat-loss, Thermogenic supplement",
 //   seoRobots: "index, follow",
-//   seoCanonical: "https://novatechsciences.com/products/tablets/spiroclen",
+//   seoCanonical: "https://www.novatechsciences.com/products/tablets/spiroclen",
 
 //   // Product Schema Fields
 //   schemaBrand: "Nova TechSciences",
@@ -1701,7 +1701,7 @@ export const tablets = [
   seoDescription: "Stanova (Stanozolol 10mg) tablets from Nova Techsciences contain a fixed oral dosage form. This page outlines composition, strength, and product classification.",
   seoKeywords: "Stanozolol 10mg, Winstrol 10mg tablet, Performance strength pill",
   seoRobots: "index, follow",
-  seoCanonical: "https://novatechsciences.com/products/tablets/stanova-10",
+  seoCanonical: "https://www.novatechsciences.com/products/tablets/stanova-10",
 
   // Product Schema Fields
   schemaBrand: "NovaTech Sciences",
@@ -1757,7 +1757,7 @@ export const tablets = [
   seoDescription: "Clominova (Clomiphene 50mg) by Nova Techsciences is a pharmaceutical tablet formulated for hormonal regulation reference, featuring defined strength and standardized composition.",
   seoKeywords: "Clomiphene 50mg, Buy Clomiphene tablets, Testosterone recovery tablet, PCT support",
   seoRobots: "index, follow",
-  seoCanonical: "https://novatechsciences.com/products/tablets/clominova",
+  seoCanonical: "https://www.novatechsciences.com/products/tablets/clominova",
 
   // Product Schema Fields
   schemaBrand: "Novatech Sciences",
@@ -1814,7 +1814,7 @@ export const injectables = [
   seoDescription: "TESTOVA P (Testosterone Propionate 100 mg/ml injectable) by Nova Techsciences is a sterile injectable formulation with defined strength, composition, and pharmaceutical quality standards.",
   seoKeywords: "TESTOVA P, Testosterone Propionate 100 mg/ml, Injectable testosterone, Buy testosterone propionate, HRT injection, Muscle growth injection, Pharma-grade testosterone",
   seoRobots: "index, follow",
-  seoCanonical: "https://novatechsciences.com/products/injectables/testova-p",
+  seoCanonical: "https://www.novatechsciences.com/products/injectables/testova-p",
 
   // Product Schema Fields
   schemaBrand: "Novatech Sciences",
@@ -1870,7 +1870,7 @@ export const injectables = [
   seoDescription: "TESTOVA P (Testosterone Propionate 100 mg/ml injectable) by Nova Techsciences is a sterile injectable formulation with defined strength, composition, and pharmaceutical quality standards.",
   seoKeywords: "SUSTOVA, Testosterone Blend 250 mg/ml, Injectable testosterone, Buy testosterone blend, HRT injection, Muscle growth injection",
   seoRobots: "index, follow",
-  seoCanonical: "https://novatechsciences.com/products/injectables/sustova",
+  seoCanonical: "https://www.novatechsciences.com/products/injectables/sustova",
 
   // Product Schema Fields
   schemaBrand: "NovaTech Sciences",
@@ -1926,7 +1926,7 @@ export const injectables = [
   seoDescription: "TESTOVA C by Nova Techsciences is a testosterone cypionate 250 mg/ml injectable formulation manufactured under controlled standards, offering consistent dosage and pharmaceutical-grade quality.",
   seoKeywords: "TESTOVA C, Testosterone Cypionate 250 mg/ml, Injectable testosterone, Buy testosterone cypionate, TRT injection, Muscle growth injection",
   seoRobots: "index, follow",
-  seoCanonical: "https://novatechsciences.com/products/injectables/testova-c",
+  seoCanonical: "https://www.novatechsciences.com/products/injectables/testova-c",
 
   // Product Schema Fields
   schemaBrand: "NovaTech Sciences",
@@ -1982,7 +1982,7 @@ export const injectables = [
   seoDescription: "TESTOVA E (testosterone enanthate 250 mg/ml injection) is a sterile injectable product by Nova Techsciences, supplied in standardized concentration for pharmaceutical reference and distribution.",
   seoKeywords: "TESTOVA E, Testosterone Enanthate 250 mg/ml, Injectable testosterone, Buy testosterone enanthate, TRT injection, Bulking steroid injection",
   seoRobots: "index, follow",
-  seoCanonical: "https://novatechsciences.com/products/injectables/testova-e",
+  seoCanonical: "https://www.novatechsciences.com/products/injectables/testova-e",
 
   // Product Schema Fields
   schemaBrand: "NovaTech Sciences",
@@ -2038,7 +2038,7 @@ export const injectables = [
   seoDescription: "Boldenova (Undecylenate 250 mg/ml injectable) from Nova Techsciences is listed as an injectable pharmaceutical product with standardized formulation, labeling, and controlled manufacturing process.",
   seoKeywords: "Boldenone Undecylenate, Boldenova injection, Buy Boldenone online, Lean bulking injection, Anabolic steroid injection, Muscle growth injection",
   seoRobots: "index, follow",
-  seoCanonical: "https://novatechsciences.com/products/injectables/boldenova",
+  seoCanonical: "https://www.novatechsciences.com/products/injectables/boldenova",
 
   // Product Schema Fields
   schemaBrand: "Novatech Sciences",
@@ -2094,7 +2094,7 @@ export const injectables = [
   seoDescription: "Nandrova D (Nandrolone Decanoate 250 mg/ml injectable) is a pharmaceutical injection presented for product reference, including composition, concentration, and formulation information.",
   seoKeywords: "Nandrolone Decanoate, Nandrova D injection, Buy Nandrolone online, Lean bulking steroid injection, Anabolic steroid injection, Muscle growth injection",
   seoRobots: "index, follow",
-  seoCanonical: "https://novatechsciences.com/products/injectables/nandrova-d",
+  seoCanonical: "https://www.novatechsciences.com/products/injectables/nandrova-d",
 
   // Product Schema Fields
   schemaBrand: "Novatech Sciences",
@@ -2150,7 +2150,7 @@ export const injectables = [
   seoDescription: "Nandrova P (Nandrolone Phenylpropionate 100 mg/ml injectable) from Nova Techsciences is manufactured under controlled conditions and listed with clear dosage strength and formulation details.",
   seoKeywords: "Nandrolone Phenylpropionate, Nandrova-P injection, Buy NPP online, Fast-acting anabolic steroid injection, Muscle recovery injection, Pharmaceutical-grade steroid",
   seoRobots: "index, follow",
-  seoCanonical: "https://novatechsciences.com/products/injectables/nandrova-p",
+  seoCanonical: "https://www.novatechsciences.com/products/injectables/nandrova-p",
 
   // Product Schema Fields
   schemaBrand: "Novatech Sciences",
@@ -2206,7 +2206,7 @@ export const injectables = [
   seoDescription: "Trenova A (Trenbolone Acetate 100 mg/ml injectable) provides standardized concentration and formulation details. Manufactured by Nova Techsciences for regulated pharmaceutical reference.",
   seoKeywords: "Trenbolone Acetate, Trenova-A injection, buy trenbolone injection, advanced anabolic steroid, cutting cycle injection, lean muscle support",
   seoRobots: "index, follow",
-  seoCanonical: "https://novatechsciences.com/products/injectables/trenova-a",
+  seoCanonical: "https://www.novatechsciences.com/products/injectables/trenova-a",
 
   // Product Schema Fields
   schemaBrand: "NovaTech Sciences",
@@ -2262,7 +2262,7 @@ export const injectables = [
   seoDescription: "Manufactured by Nova Techsciences, Trenova E (Trenbolone Enanthate 200 mg/ml injectable) is a long-acting injectable product produced under controlled quality and formulation guidelines.",
   seoKeywords: "Trenbolone Enanthate, Trenova-E injection, buy trenbolone injection, long-acting anabolic steroid, muscle growth support, cutting cycle injection",
   seoRobots: "index, follow",
-  seoCanonical: "https://novatechsciences.com/products/injectables/trenova-e",
+  seoCanonical: "https://www.novatechsciences.com/products/injectables/trenova-e",
 
   // Product Schema Fields
   schemaBrand: "NovaTech Sciences",
@@ -2319,7 +2319,7 @@ export const injectables = [
   seoDescription: "Manufactured by Nova Techsciences, TRENOVA HEXA is a trenbolone hexa hydrobenzylcarbonate 76.5 mg/ml injectable supplied with standardized formulation and quality-controlled packaging.",
   seoKeywords: "Trenbolone Hexa 76.5 mg/ml, Trenova Hexa injection, trenbolone hexahydrobenzylcarbonate, buy trenbolone hexa online, trenbolone worldwide, cutting cycle injection",
   seoRobots: "index, follow",
-  seoCanonical: "https://novatechsciences.com/products/injectables/trenovahexa",
+  seoCanonical: "https://www.novatechsciences.com/products/injectables/trenovahexa",
 
   // Product Schema Fields
   schemaBrand: "NovaTech Sciences",
@@ -2376,7 +2376,7 @@ export const injectables = [
   seoDescription: "DROSTANOVA P (Drostanolone Propionate 100 mg/ml injection) from Nova Techsciences is listed with standardized formulation details, injectable strength, and controlled pharmaceutical quality.",
   seoKeywords: "Drostanolone Propionate 100 mg/ml, Drostanova-P injection, drostanolone injection, buy drostanolone online, masteron propionate worldwide, cutting cycle injection",
   seoRobots: "index, follow",
-  seoCanonical: "https://novatechsciences.com/products/injectables/drostanova-p",
+  seoCanonical: "https://www.novatechsciences.com/products/injectables/drostanova-p",
 
   // Product Schema Fields
   schemaBrand: "NovaTech Sciences",
@@ -2429,11 +2429,11 @@ export const injectables = [
   images: [  ],
 
   // SEO
-  seoTitle: "Methenolone Enanthate 100 mg/ml Injection Worldwide Supply",
-  seoDescription: "Buy Methenolone Enanthate 100 mg/ml injection for lean muscle growth and performance. Pharmaceutical quality, secure packaging and worldwide supply.",
+  seoTitle: "PRIMONOVA (Methenolone Enanthate 100 mg/ml Injection) | Nova Techsciences",
+  seoDescription: "PRIMONOVA by Nova Techsciences is a Methenolone Enanthate 100 mg/ml injectable formulation. Pharmaceutical-grade product with defined composition and dosage strength.",
   seoKeywords: "Methenolone Enanthate 100 mg/ml, Primonova injection, primobolan enanthate, buy methenolone online, primobolan worldwide, lean muscle injection",
   seoRobots: "index, follow",
-  seoCanonical: "https://novatechsciences.com/products/injectables/primonova",
+  seoCanonical: "https://www.novatechsciences.com/products/injectables/primonova",
 
   // Product Schema Fields
   schemaBrand: "NovaTech Sciences",
@@ -2486,11 +2486,11 @@ export const injectables = [
   images: [  ],
 
   // SEO
-  seoTitle: "Stanozolol 50 mg/ml Injection Worldwide Supply",
-  seoDescription: "Buy Stanozolol 50 mg/ml injection for cutting, fat loss and lean muscle strength. Pharmaceutical quality, secure packaging and worldwide supply available.",
+  seoTitle: "ROXONOVA (Stanozolol 50 mg/ml Injection) | Nova Techsciences",
+  seoDescription: "ROXONOVA (Stanozolol 50 mg/ml injection) by Nova Techsciences is a sterile injectable formulation with defined strength, composition, and pharmaceutical-grade manufacturing standards.",
   seoKeywords: "Stanozolol 50 mg/ml, Roxonova injection, stanozolol injectable, buy stanozolol online, winstrol injection worldwide, cutting cycle injection",
   seoRobots: "index, follow",
-  seoCanonical: "https://novatechsciences.com/products/injectables/roxonova",
+  seoCanonical: "https://www.novatechsciences.com/products/injectables/roxonova",
 
   // Product Schema Fields
   schemaBrand: "NovaTech Sciences",
@@ -2543,11 +2543,11 @@ export const injectables = [
   images: [  ],
 
   // SEO
-  seoTitle: "Testosterone Phenylpropionate 100 mg/ml Injection Supply",
-  seoDescription: "Buy Testosterone Phenylpropionate 100 mg/ml injection for muscle growth, strength and fast hormonal results. Pharmaceutical quality with secure packaging and worldwide supply.",
+  seoTitle: "TESTOVA PP (Testosterone Phenylpropionate 100 mg/ml Injection) | Nova Techsciences",
+  seoDescription: "TESTOVA PP (Testosterone Phenylpropionate 100 mg/ml Injection) by Nova Techsciences is a sterile injectable formulation with defined strength, composition, and pharmaceutical manufacturing standards.",
   seoKeywords: "Testosterone Phenylpropionate 100 mg/ml, Testova-PP injection, testosterone phenylpropionate injection, buy testosterone PP online, testosterone worldwide, muscle growth injection",
   seoRobots: "index, follow",
-  seoCanonical: "https://novatechsciences.com/products/injectables/testova-pp",
+  seoCanonical: "https://www.novatechsciences.com/products/injectables/testova-pp",
 
   // Product Schema Fields
   schemaBrand: "NovaTech Sciences",
@@ -2599,11 +2599,11 @@ export const injectables = [
   images: [  ],
 
   // SEO
-  seoTitle: "Testova Base Testosterone Suspension 100 mg/ml Injection – Fast-Acting Anabolic Steroid",
-  seoDescription: "Buy Testova Base (Testosterone Suspension 100 mg/ml) injectable for fast muscle growth, strength, and performance. Pharmaceutical-grade, rapid-acting testosterone injection for clinical and supervised use.",
+  seoTitle: "TESTOVA BASE (Testosterone Suspension 100 mg/ml Injectable) | Nova Techsciences",
+  seoDescription: "TESTOVA BASE (Testosterone Suspension 100 mg/ml injectable) by Nova Techsciences is a sterile injectable formulation providing clear composition, strength, and product specifications.",
   seoKeywords: "Testosterone Suspension 100 mg/ml, Testova-Base injection, testosterone suspension injection, buy testosterone suspension online, fast acting testosterone injection, testosterone worldwide",
   seoRobots: "index, follow",
-  seoCanonical: "https://novatechsciences.com/products/injectables/testova-base",
+  seoCanonical: "https://www.novatechsciences.com/products/injectables/testova-base",
 
   // Product Schema Fields
   schemaBrand: "NovaTech Sciences",
@@ -2655,11 +2655,11 @@ export const injectables = [
   images: [  ],
 
   // SEO
-  seoTitle: "Boldenone Nandrolone Testosterone Blend Injection – Nova Gain C",
-  seoDescription: "Buy multi-blend injection with Boldenone, Nandrolone, Testosterone Cypionate, Enanthate and Sustanon for advanced muscle growth and strength worldwide.",
+  seoTitle: "Nova Gain C Injection | Multi-Blend Testosterone, Boldenone & Nandrolone – Nova Techsciences",
+  seoDescription: "Nova Gain C by Nova Techsciences is a multi-blend injectable formulation containing Boldenone, Nandrolone, Testosterone Cypionate, Enanthate, and Sustanon in defined ratios.",
   seoKeywords: "testosterone blend injection, boldenone nandrolone blend, nova gain c injection, multi steroid blend, buy testosterone blend online, muscle growth blend worldwide",
   seoRobots: "index, follow",
-  seoCanonical: "https://novatechsciences.com/products/injectables/nova-gain-c",
+  seoCanonical: "https://www.novatechsciences.com/products/injectables/nova-gain-c",
 
   // Product Schema Fields
   schemaBrand: "NovaTech Sciences",
@@ -2711,11 +2711,11 @@ export const injectables = [
   images: [  ],
 
   // SEO
-  seoTitle: "Testosterone Trenbolone Drostanolone Cut Blend Injection – Nova Cut Mix",
-  seoDescription: "Buy cutting blend injection with Testosterone Propionate, Trenbolone Acetate and Drostanolone Propionate for fat loss, strength and lean muscle worldwide.",
+  seoTitle: "Nova Cut Mix Injection | Testosterone, Trenbolone & Drostanolone – Nova Techsciences",
+  seoDescription: "Nova Cut Mix by Nova Techsciences is an injectable blend containing Testosterone Propionate, Trenbolone Acetate, and Drostanolone Propionate in standardized concentrations.",
   seoKeywords: "testosterone trenbolone drostanolone blend, nova cut mix injection, cutting cycle injection, buy cutting blend online, fat loss steroid blend, muscle hardening injection",
   seoRobots: "index, follow",
-  seoCanonical: "https://novatechsciences.com/products/injectables/nova-cut-mix",
+  seoCanonical: "https://www.novatechsciences.com/products/injectables/nova-cut-mix",
 
   // Product Schema Fields
   schemaBrand: "NovaTech Sciences",

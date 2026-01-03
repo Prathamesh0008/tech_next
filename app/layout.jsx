@@ -10,7 +10,7 @@ export const metadata = {
       es: "https://novatechsciences.com/es/",
       fr: "https://novatechsciences.com/fr/",
       de: "https://novatechsciences.com/de/",
-      "x-default": "https://novatechsciences.com/",
+      "x-default": "https://www.novatechsciences.com/",
     },
   },
 
@@ -23,9 +23,9 @@ export const metadata = {
     "Nova Techsciences is a science-driven pharmaceutical platform delivering high-quality supplements, performance healthcare products, and globally compliant formulations.",
 
   icons: {
-    icon: "/webicon.png",
-    shortcut: "/webicon.png",
-    apple: "/webicon.png",
+    icon: "/assets/novalogoo.png",
+    shortcut: "/assets/novalogoo.png",
+    apple: "/assets/novalogoo.png",
   },
 };
 

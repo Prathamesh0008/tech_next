@@ -150,7 +150,7 @@ const productImages = useMemo(
 
   const canonicalUrl =
     product.seoCanonical ||
-    `https://novatechsciences.com/products/${category}/${productSlug}`;
+    `https://www.novatechsciences.com/products/${category}/${productSlug}`;
 
   const description =
     product.seoDescription || product.shortDescription || product.description;
