@@ -18,7 +18,7 @@ export const metadata = {
 
   title: {
     default: "Nova Techsciences | Advanced Pharmaceutical & Performance Health",
-    template: "%s | Nova Techsciences",
+    template: "%s ",
   },
 
   description:
