@@ -1,0 +1,10 @@
+{
+  "inj-novaparin-40": {
+    "name": "نوفابارين",
+    "description": "حقنة مضادة للتجلط.",
+    "indication": "الوقاية من الجلطات",
+    "presentation": "حقن",
+    "precautions": "لا تستخدم بدون استشارة الطبيب",
+    "contraindications": "النزيف النشط"
+  }
+}

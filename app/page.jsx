@@ -1,9 +1,9 @@
 import HomeClient from "./HomeClient";
 
 export const metadata = {
-  title: "Best Steroids for Muscle Growth in 2025 | Nova Techsciences",
+  title: "Best Testosterone Boosters & Legal Steroids for Muscle Growth",
   description:
-    "Explore the best testosterone supplements, legal steroids, and natural muscle builders for strength and lean muscle growth.",
+    "Explore the best testosterone supplements, natural steroids, and anabolic muscle builders designed for strength, performance, and lean muscle development.",
 
   alternates: {
     canonical: "https://www.novatechsciences.com/",

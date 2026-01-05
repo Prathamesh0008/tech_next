@@ -88,9 +88,9 @@ export const tablets = [
   ],
 
   // ⭐ SEO FIELDS
-  seoTitle: "FEMANOVA Letrozole 2.5 mg Tablets | NovaTech Sciences",
+  seoTitle: "FEMANOVA Tablet | CAS 112809-51-5 – NovaTech Sciences",
   seoDescription:
-    "Discover FEMANOVA (Letrozole 2.5 mg) tablets by NovaTech Sciences, designed for accurate estrogen control and dependable hormone balance.",
+    "FEMANOVA Tablet by NovaTech Sciences contains Letrozole (CAS 112809-51-5) for estrogen suppression, aromatase inhibition, and effective hormone balance support.",
   seoKeywords:
     "Femanova tablets, Letrozole 2.5 mg, steroid estrogen control, aromatase inhibitor, pharmaceutical-grade hormonal regulator",
   seoRobots: "index, follow",
@@ -166,9 +166,9 @@ export const tablets = [
   images: [  ],
 
   // ⭐ SEO FIELDS
-  seoTitle: "Tamonova 20 mg | Tamoxifen Citrate Tablets by NovaTech",
+  seoTitle: "TAMONOVA Tablet | CAS 54965-24-1 – NovaTech Sciences",
   seoDescription:
-    "Tamonova (Tamoxifen Citrate 20 mg) tablets formulated for estrogen control and post-cycle hormone balance with trusted pharmaceutical quality.",
+    "TAMONOVA Tablet by NovaTech Sciences contains Tamoxifen Citrate (CAS 54965-24-1) for effective estrogen modulation, hormone support, and targeted receptor activity.",
   seoKeywords:
     "Tamoxifen 20mg, Buy Tamoxifen tablets, Hormone balance tablets, Post Cycle Therapy, PCT tablets, Estrogen blocker",
   seoRobots: "index, follow",
@@ -251,9 +251,9 @@ export const tablets = [
   images: [  ],
 
   // ⭐ SEO FIELDS
-  seoTitle: "Novazole Anastrozole 1 mg | Estrogen Control Tablets",
+  seoTitle: "NOVAZOLE Tablet | CAS 120511-73-1 – NovaTech Sciences",
   seoDescription:
-    "Novazole (Anastrozole 1 mg) tablets for effective estrogen management and hormonal balance. Trusted pharma-grade formulation for controlled use.",
+    "NOVAZOLE Tablet by NovaTech Sciences contains Anastrozole (CAS 120511-73-1). Trusted manufacturer, supplier, and exporter of pharmaceutical-grade aromatase inhibitors for global markets.",
   seoKeywords:
     "Anastrozole 1 mg, NOVAZOLE tablets, Estrogen control, Aromatase inhibitor, PCT support, Hormone balance",
   seoRobots: "index, follow",
@@ -332,9 +332,9 @@ export const tablets = [
   images: [  ],
 
   // ⭐ SEO FIELDS
-  seoTitle: "AROMANOVA (Exemestane 25 mg) by NovaTech Sciences",
+  seoTitle: "AROMANOVA Tablet | CAS 107868-30-4 – NovaTech Sciences",
   seoDescription:
-    "Discover AROMANOVA Exemestane 25 mg tablets from NovaTech Sciences, developed with pharma-grade quality for controlled estrogen support.",
+    "AROMANOVA Tablet by NovaTech Sciences contains Exemestane (CAS 107868-30-4). Trusted manufacturer, supplier, and exporter of pharmaceutical-grade aromatase inhibitors for estrogen suppression and hormone balance.",
   seoKeywords:
     "Exemestane 25mg, AROMANOVA tablets, Aromatase inhibitor, Estrogen control, Post Cycle Therapy, PCT support",
   seoRobots: "index, follow",
@@ -416,9 +416,9 @@ export const tablets = [
   images: [  ],
 
   // ⭐ SEO FIELDS
-  seoTitle: "ENCLOMINOVA 25mg | Enclomiphene Citrate Tablets Online",
+  seoTitle: "ENCLOMINOVA Tablet | CAS 7599-79-3 – NovaTech Sciences",
   seoDescription:
-    "ENCLOMINOVA (Enclomiphene Citrate 25 mg) tablets support natural testosterone recovery and hormonal balance with pharmaceutical-grade quality.",
+    "ENclomiNOVA Tablet by NovaTech Sciences contains Enclomiphene Citrate (CAS 7599-79-3). Trusted manufacturer, supplier, and exporter of pharmaceutical-grade compounds for hormone support, fertility, and testosterone balance.",
   seoKeywords:
     "Enclominova, Enclomiphene 25mg, Testosterone booster tablets, PCT support, Hormone balance",
   seoRobots: "index, follow",
@@ -499,9 +499,9 @@ export const tablets = [
   images: [  ],
 
   // ⭐ SEO FIELDS
-  seoTitle: "Primonova (Metenolone Acetate 25 mg) Tablets",
+  seoTitle: "PRIMONOVA Tablet | CAS 434-05-9 – NovaTech Sciences",
   seoDescription:
-    "Primonova tablets feature Metenolone Acetate 25 mg, formulated to support lean muscle development and cutting-focused performance goals.",
+    "PRIMONOVA Tablet by NovaTech Sciences contains Metenolone Acetate (CAS 434-05-9). Trusted manufacturer, supplier, and exporter of pharmaceutical-grade anabolic support for muscle maintenance and hormone balance.",
   seoKeywords:
     "Primonova, Primobolan tablets, Buy Primobolan online, Methenolone Acetate tablets, Lean muscle growth, Cutting cycles",
   seoRobots: "index, follow",
@@ -586,9 +586,9 @@ export const tablets = [
   images: [  ],
 
   // ⭐ SEO FIELDS
-  seoTitle: "SUPERNOVA Methyldrostanolone 10 mg | Nova Techsciences",
+  seoTitle: "SUPERNOVA Tablet | CAS 3381-88-2 – NovaTech Sciences",
   seoDescription:
-    "SUPERNOVA Methyldrostanolone 10 mg tablets are designed to support strength and muscle development. Premium-quality formulation for advanced users.",
+    "SUPERNOVA Tablet by NovaTech Sciences contains Methyldrostanolone (CAS 3381-88-2). Trusted manufacturer, supplier, and exporter of pharmaceutical-grade anabolic support for strength, performance, and muscle growth.",
   seoKeywords:
     "Methandienone tablets, Buy Methandienone online, Muscle gain steroid, SUPERNOVA, Strength enhancement tablets",
   seoRobots: "index, follow",
@@ -672,9 +672,9 @@ export const tablets = [
   images: [  ],
 
   // ⭐ SEO FIELDS
-  seoTitle: "Telinova Telmisartan 20 mg Tablets | NovaTech Sciences",
+  seoTitle: "TELINOVA Tablet | CAS 144701-48-4 – NovaTech Sciences",
   seoDescription:
-    "Telinova contains Telmisartan 20 mg, a pharmaceutical tablet used to support blood pressure management. Manufactured by NovaTech Sciences with quality assurance.",
+    "TELINOVA Tablet by NovaTech Sciences contains Telmisartan (CAS 144701-48-4). Trusted manufacturer, supplier, and exporter of pharmaceutical-grade antihypertensive tablets for blood pressure support and cardiovascular health.",
   seoKeywords:
     "Tadalafil 20mg, Buy Tadalafil tablets, Telinova tablets, Blood flow booster, Performance enhancer, Wellness support",
   seoRobots: "index, follow",
@@ -757,9 +757,9 @@ export const tablets = [
   images: [  ],
 
   // ⭐ SEO FIELDS
-  seoTitle: "Turinova Turinabol 10 mg | Chlorodehydromethyltestosterone",
+  seoTitle: "TURINOVA Tablet | CAS 2446‑23‑3 – NovaTech Sciences",
   seoDescription:
-    "Explore Turinova Turinabol tablets containing Chlorodehydromethyltestosterone 10 mg, developed with a focus on quality, consistency, and performance support.",
+    "TURINOVA Tablet by NovaTech Sciences contains Chlorodehydromethyltestosterone (CAS 2446‑23‑3). Trusted manufacturer, supplier, and exporter of pharmaceutical‑grade anabolic support for strength, performance, and muscle growth.",
   seoKeywords:
     "Turinabol tablets, Buy Turinabol online, Clean muscle gains, Strength enhancement, TURINOVA tablets",
   seoRobots: "index, follow",
@@ -842,9 +842,9 @@ export const tablets = [
   images: [  ],
 
   // ⭐ SEO FIELDS
-  seoTitle: "NOVA-T4 (Levothyroxine Sodium 50 mcg) Tablets by Nova Techsciences",
+  seoTitle: "NOVA‑T4 Tablet | CAS 51‑48‑9 – NovaTech Sciences",
   seoDescription:
-    "NOVA-T4 is a Levothyroxine Sodium T4 50 mcg tablet formulated for thyroid hormone supplementation and endocrine balance under medical guidance.",
+    "NOVA‑T4 Tablet by NovaTech Sciences contains Levothyroxine Sodium (CAS 51‑48‑9). Trusted manufacturer, supplier, and exporter of pharmaceutical‑grade thyroid support for hormone balance and metabolic health.",
   seoKeywords:
     "Levothyroxine tablets, Buy Levothyroxine online, T4 thyroid hormone tablets, Weight-loss thyroid support, NOVA_T4",
   seoRobots: "index, follow",
@@ -927,9 +927,9 @@ export const tablets = [
   images: [  ],
 
   // ⭐ SEO FIELDS
-  seoTitle: "CABERNOVA (Cabergoline 0.5 mg) Tablets – Advanced Prolactin Support",
+  seoTitle: "CABERNOVA Tablet | CAS 81409‑90‑7 – NovaTech Sciences",
   seoDescription:
-    "Order CABERNOVA (Cabergoline 0.5 mg) tablets for reliable prolactin management and hormone regulation. Trusted pharmaceutical-grade formulation.",
+    "CABERNOVA Tablet by NovaTech Sciences contains Cabergoline (CAS 81409‑90‑7). Trusted manufacturer, supplier, and exporter of pharmaceutical‑grade dopamine agonist for prolactin regulation and hormone support.",
   seoKeywords:
     "Cabergoline tablets, Buy Cabergoline online, Reduce prolactin levels, Cabergoline 0.5mg, Hormone balance, PCT support",
   seoRobots: "index, follow",
@@ -1012,9 +1012,9 @@ export const tablets = [
   images: [  ],
 
   // ⭐ SEO FIELDS
-  seoTitle: "HALONOVA (Fluoxymesterone 5 mg) | Nova Techsciences Halotestin Tablets",
+  seoTitle: "HALONOVA Tablet | CAS 76‑43‑7 – NovaTech Sciences",
   seoDescription:
-    "Buy HALONOVA (Fluoxymesterone 5 mg) by Nova Techsciences for intense strength, muscle hardness, and cutting performance. Premium Halotestin tablets for serious athletes.",
+    "HALONOVA Tablet by NovaTech Sciences contains Fluoxymesterone (CAS 76‑43‑7). Trusted manufacturer, supplier, and exporter of pharmaceutical‑grade anabolic support for strength, performance, and hormone balance.",
   seoKeywords:
     "Halotestin tablets, Buy Halotestin online, Halotestin for performance, Oral Halotestin, HALONOVA tablets",
   seoRobots: "index, follow",
@@ -1096,9 +1096,9 @@ export const tablets = [
   images: [  ],
 
   // ⭐ SEO FIELDS
-  seoTitle: "NOVA T3 (Liothyronine Sodium T3 50 mcg) Tablets by Nova Techsciences",
+  seoTitle: "NOVA‑T3 Tablet | CAS 55‑06‑1 – NovaTech Sciences",
   seoDescription:
-    "Buy NOVA-T3 (Liothyronine Sodium T3 50 mcg) tablets for effective thyroid hormone support, enhanced metabolism, fat loss, and improved energy levels.",
+    "NOVA‑T3 Tablet by NovaTech Sciences contains Liothyronine Sodium (CAS 55‑06‑1). Trusted manufacturer, supplier, and exporter of pharmaceutical‑grade thyroid support for hormone balance and metabolic health.",
   seoKeywords:
     "Liothyronine tablets, Buy Liothyronine online, Best T3 for fat loss, Weight-loss thyroid medicine, NOVA_T3",
   seoRobots: "index, follow",
@@ -1180,9 +1180,9 @@ export const tablets = [
   images: [  ],
 
   // ⭐ SEO FIELDS
-  seoTitle: "NOVABOL (Oxandrolone USP 10 mg) | By Nova Techsciences",
+  seoTitle: "NOVABOL Tablet | CAS 53‑39‑4 – NovaTech Sciences",
   seoDescription:
-    "Shop NOVABOL (Oxandrolone USP 10 mg) tablets for clean lean muscle development, enhanced strength, and effective cutting support. Trusted pharma-grade Oxandrolone for controlled performance cycles.",
+    "NOVABOL Tablet by NovaTech Sciences contains Oxandrolone USP (CAS 53‑39‑4). Trusted manufacturer, supplier, and exporter of pharmaceutical‑grade anabolic support for muscle growth, performance, and hormone balance.",
   seoKeywords:
     "Anavar 10mg tablets, Oxandrolone tablets, Buy Anavar online, Novabol, Lean muscle support",
   seoRobots: "index, follow",
@@ -1264,9 +1264,9 @@ export const tablets = [
   images: [  ],
 
   // ⭐ SEO FIELDS
-  seoTitle: "HALONOVA (Fluoxymesterone 5 mg) Tablets | Nova Techsciences",
+  seoTitle: "PROVINOVA Tablet | CAS 1424‑00‑6 – NovaTech Sciences",
   seoDescription:
-    "HALONOVA (Fluoxymesterone 5 mg) tablets contain fluoxymesterone in a fixed oral dosage form. This page provides product composition, tablet strength, and general pharmaceutical information.",
+    "PROVINOVA Tablet by NovaTech Sciences contains Mesterolone USP (CAS 1424‑00‑6). Trusted manufacturer, supplier, and exporter of pharmaceutical‑grade androgen support for hormone balance, muscle maintenance, and performance.",
   seoKeywords:
     "Provinova, Mesterolone 25mg, Buy Proviron tablet, Pharma-grade Mesterolone, Testosterone support",
   seoRobots: "index, follow",
@@ -1350,9 +1350,9 @@ export const tablets = [
   images: [  ],
 
   // ⭐ SEO FIELDS
-  seoTitle: "OXYDROL (Oxymetholone USP 50 mg) Tablets | Nova Techsciences",
+  seoTitle: "OXYDROL Tablet | CAS 434‑07‑1 – NovaTech Sciences",
   seoDescription:
-    "OXYDROL (Oxymetholone USP 50 mg) tablets by Nova Techsciences are a standardized pharmaceutical formulation. Product details include composition, dosage strength, and quality-controlled manufacturing information.",
+    "OXYDROL Tablet by NovaTech Sciences contains Oxymetholone USP (CAS 434‑07‑1). Trusted manufacturer, supplier, and exporter of pharmaceutical‑grade anabolic support for performance, muscle growth, and hormone balance.",
   seoKeywords:
     "Oxydrol, Oxymetholone tablets, Buy Anadrol online, Mass gaining steroid",
   seoRobots: "index, follow",
@@ -1433,9 +1433,9 @@ export const tablets = [
   images: [  ],
 
   // ⭐ SEO FIELDS
-  seoTitle: "Novamoren Ibutamoren MK-677 – Growth Hormone Support Tablet",
+  seoTitle: "NOVAMOREN Tablet | CAS 159752‑10‑0 – NovaTech Sciences",
   seoDescription:
-    "NOVAMOREN (MK-677 10mg) is an oral tablet formulation by Nova Techsciences containing ibutamoren. Listed with standardized strength, pharmaceutical specifications, and controlled manufacturing information.",
+    "NOVAMOREN Tablet by NovaTech Sciences contains MK‑677 (CAS 159752‑10‑0). Trusted manufacturer, supplier, and exporter of pharmaceutical‑grade growth support for muscle gain, performance, and hormone balance.",
   seoKeywords:
     "Novamoren, Ibutamoren MK-677, Buy MK-677 tablet, Growth hormone support",
   seoRobots: "index, follow",
@@ -1496,8 +1496,8 @@ export const tablets = [
   images: [  ],
 
   // SEO
-  seoTitle: "NOVAMETH (Methandienone 10 mg) | Oral Tablet Formulation – Nova Techsciences",
-  seoDescription: "NOVAMETH (Methandienone 10 mg) is a tablet dosage form manufactured by Nova Techsciences. This page outlines product strength, active ingredient composition, and general pharmaceutical specifications for regulated markets.",
+  seoTitle: "NOVAMETH Tablet | CAS 72‑63‑9 – NovaTech Sciences",
+  seoDescription: "NOVAMETH Tablet by NovaTech Sciences contains Methandienone (CAS 72‑63‑9). Trusted manufacturer, supplier, and exporter of pharmaceutical‑grade anabolic support for strength, performance, and muscle growth.",
   seoKeywords: "Novameth, Methandienone 10mg, Buy Methandienone tablet, Dianabol-like anabolic steroid",
   seoRobots: "index, follow",
   seoCanonical: "https://www.novatechsciences.com/products/tablets/novameth",
@@ -1552,8 +1552,8 @@ export const tablets = [
   images: [  ],
 
   // SEO
-  seoTitle: "SPIROCLEN (Clenbuterol 40 mcg) | Oral Tablet by Nova Techsciences",
-  seoDescription: "SPIROCLEN (Clenbuterol 40 mcg) tablets from Nova Techsciences are manufactured under controlled standards, providing consistent dosage, composition, and quality assurance.",
+  seoTitle: "SPIROCLEN Tablet | CAS 21898‑19‑1 – NovaTech Sciences",
+  seoDescription: "SPIROCLEN Tablet by NovaTech Sciences contains Clenbuterol (CAS 21898‑19‑1). Trusted manufacturer, supplier, and exporter of pharmaceutical‑grade performance support for fat loss, endurance, and metabolic boost.",
   seoKeywords: "Spiroclen, Clenbuterol 40 mcg, Buy Clenbuterol tablets, Cutting cycle fat-loss, Thermogenic supplement",
   seoRobots: "index, follow",
   seoCanonical: "https://www.novatechsciences.com/products/tablets/spiroclen",
@@ -1610,7 +1610,7 @@ export const tablets = [
 
   // SEO
   seoTitle: "Stanova (Stanozolol 10mg) Tablets | Nova Techsciences",
-  seoDescription: "Stanova (Stanozolol 10mg) tablets from Nova Techsciences contain a fixed oral dosage form. This page outlines composition, strength, and product classification.",
+  seoDescription: "STANOVA‑10 Tablet by NovaTech Sciences contains Stanozolol (CAS 10418‑03‑8). Trusted manufacturer, supplier, and exporter of pharmaceutical‑grade anabolic support for strength, performance, and muscle growth.",
   seoKeywords: "Stanozolol 10mg, Winstrol 10mg tablet, Performance strength pill",
   seoRobots: "index, follow",
   seoCanonical: "https://www.novatechsciences.com/products/tablets/stanova-10",
@@ -1665,8 +1665,8 @@ export const tablets = [
   images: [  ],
 
   // SEO
-  seoTitle: "Clominova (Clomiphene 50mg) Tablets | Hormonal Therapy Product – Nova Techsciences",
-  seoDescription: "Clominova (Clomiphene 50mg) by Nova Techsciences is a pharmaceutical tablet formulated for hormonal regulation reference, featuring defined strength and standardized composition.",
+  seoTitle: "CLOMINOVA Tablet | CAS 50‑41‑9 – NovaTech Sciences",
+  seoDescription: "CLOMINOVA Tablet by NovaTech Sciences contains Clomiphene (CAS 50‑41‑9). Trusted manufacturer, supplier, and exporter of pharmaceutical‑grade hormone support for fertility, estrogen modulation, and reproductive wellness.",
   seoKeywords: "Clomiphene 50mg, Buy Clomiphene tablets, Testosterone recovery tablet, PCT support",
   seoRobots: "index, follow",
   seoCanonical: "https://www.novatechsciences.com/products/tablets/clominova",
@@ -1722,8 +1722,8 @@ export const injectables = [
   images: [  ],
 
   // SEO
-  seoTitle: "TESTOVA P (Testosterone Propionate 100 mg/ml Injectable) | Nova Techsciences",
-  seoDescription: "TESTOVA P (Testosterone Propionate 100 mg/ml injectable) by Nova Techsciences is a sterile injectable formulation with defined strength, composition, and pharmaceutical quality standards.",
+  seoTitle: "TESTOVA‑P Injectable | CAS 57‑85‑2 – NovaTech Sciences",
+  seoDescription: "TESTOVA‑P Injectable by NovaTech Sciences contains Testosterone Propionate (CAS 57‑85‑2). Trusted manufacturer, supplier, and exporter of pharmaceutical‑grade testosterone support for performance, muscle growth, and hormone balance.",
   seoKeywords: "TESTOVA P, Testosterone Propionate 100 mg/ml, Injectable testosterone, Buy testosterone propionate, HRT injection, Muscle growth injection, Pharma-grade testosterone",
   seoRobots: "index, follow",
   seoCanonical: "https://www.novatechsciences.com/products/injectables/testova-p",
@@ -1778,8 +1778,8 @@ export const injectables = [
   images: [  ],
 
   // SEO
-  seoTitle: "TESTOVA P (Testosterone Propionate 100 mg/ml Injectable) | Nova Techsciences",
-  seoDescription: "TESTOVA P (Testosterone Propionate 100 mg/ml injectable) by Nova Techsciences is a sterile injectable formulation with defined strength, composition, and pharmaceutical quality standards.",
+  seoTitle: "SUSTOVA Injectable | CAS 58‑22‑0 – NovaTech Sciences",
+  seoDescription: "SUSTOVA Injectable by NovaTech Sciences contains Testosterone Propionate (CAS 58‑22‑0). Trusted manufacturer, supplier, and exporter of pharmaceutical‑grade testosterone support for performance, muscle growth, and hormone balance.",
   seoKeywords: "SUSTOVA, Testosterone Blend 250 mg/ml, Injectable testosterone, Buy testosterone blend, HRT injection, Muscle growth injection",
   seoRobots: "index, follow",
   seoCanonical: "https://www.novatechsciences.com/products/injectables/sustova",
@@ -1834,8 +1834,8 @@ export const injectables = [
   images: [  ],
 
   // SEO
-  seoTitle: "TESTOVA C | Testosterone Cypionate 250 mg/ml Injection | Nova Techsciences",
-  seoDescription: "TESTOVA C by Nova Techsciences is a testosterone cypionate 250 mg/ml injectable formulation manufactured under controlled standards, offering consistent dosage and pharmaceutical-grade quality.",
+  seoTitle: "TESTOVA‑C Injectable | CAS 58‑20‑8 – NovaTech Sciences",
+  seoDescription: "TESTOVA‑C Injectable by NovaTech Sciences contains Testosterone Cypionate (CAS 58‑20‑8). Trusted manufacturer, supplier, and exporter of pharmaceutical‑grade testosterone support for performance, muscle growth, and hormone balance.",
   seoKeywords: "TESTOVA C, Testosterone Cypionate 250 mg/ml, Injectable testosterone, Buy testosterone cypionate, TRT injection, Muscle growth injection",
   seoRobots: "index, follow",
   seoCanonical: "https://www.novatechsciences.com/products/injectables/testova-c",
@@ -1890,8 +1890,8 @@ export const injectables = [
   images: [  ],
 
   // SEO
-  seoTitle: "TESTOVA E | Testosterone Enanthate 250 mg/ml Injection | Nova Techsciences",
-  seoDescription: "TESTOVA E (testosterone enanthate 250 mg/ml injection) is a sterile injectable product by Nova Techsciences, supplied in standardized concentration for pharmaceutical reference and distribution.",
+  seoTitle: "TESTOVA‑E Injectable | CAS 315‑37‑7 – NovaTech Sciences",
+  seoDescription: "TESTOVA‑E Injectable by NovaTech Sciences contains Testosterone Enanthate (CAS 315‑37‑7). Trusted manufacturer, supplier, and exporter of pharmaceutical‑grade testosterone support for performance, muscle growth, and hormone balance.",
   seoKeywords: "TESTOVA E, Testosterone Enanthate 250 mg/ml, Injectable testosterone, Buy testosterone enanthate, TRT injection, Bulking steroid injection",
   seoRobots: "index, follow",
   seoCanonical: "https://www.novatechsciences.com/products/injectables/testova-e",
@@ -1946,8 +1946,8 @@ export const injectables = [
   images: [  ],
 
   // SEO
-  seoTitle: "Boldenova (Undecylenate 250 mg/ml Injectable) – Nova Techsciences",
-  seoDescription: "Boldenova (Undecylenate 250 mg/ml injectable) from Nova Techsciences is listed as an injectable pharmaceutical product with standardized formulation, labeling, and controlled manufacturing process.",
+  seoTitle: "BOLDENOVA Injectable | CAS 13103‑34‑9 – NovaTech Sciences",
+  seoDescription: "BOLDENOVA Injectable by NovaTech Sciences contains Boldenone Undecylenate (CAS 13103‑34‑9). Trusted manufacturer, supplier, and exporter of pharmaceutical‑grade anabolic support for strength, performance, and muscle growth.",
   seoKeywords: "Boldenone Undecylenate, Boldenova injection, Buy Boldenone online, Lean bulking injection, Anabolic steroid injection, Muscle growth injection",
   seoRobots: "index, follow",
   seoCanonical: "https://www.novatechsciences.com/products/injectables/boldenova",
@@ -2002,8 +2002,8 @@ export const injectables = [
   images: [  ],
 
   // SEO
-  seoTitle: "Nandrova D Injection – Nandrolone Decanoate 250 mg/ml | Nova Techsciences",
-  seoDescription: "Nandrova D (Nandrolone Decanoate 250 mg/ml injectable) is a pharmaceutical injection presented for product reference, including composition, concentration, and formulation information.",
+  seoTitle: "NANDROVA‑D Injectable | CAS 360‑70‑3 – NovaTech Sciences",
+  seoDescription: "NANDROVA‑D Injectable by NovaTech Sciences contains Nandrolone Decanoate (CAS 360‑70‑3). Trusted manufacturer, supplier, and exporter of pharmaceutical‑grade anabolic support for muscle growth, strength, and performance.",
   seoKeywords: "Nandrolone Decanoate, Nandrova D injection, Buy Nandrolone online, Lean bulking steroid injection, Anabolic steroid injection, Muscle growth injection",
   seoRobots: "index, follow",
   seoCanonical: "https://www.novatechsciences.com/products/injectables/nandrova-d",
@@ -2058,8 +2058,8 @@ export const injectables = [
   images: [  ],
 
   // SEO
-  seoTitle: "Nandrova P Injection 100 mg/ml | Nandrolone Phenylpropionate – Nova Techsciences",
-  seoDescription: "Nandrova P (Nandrolone Phenylpropionate 100 mg/ml injectable) from Nova Techsciences is manufactured under controlled conditions and listed with clear dosage strength and formulation details.",
+  seoTitle: "NANDROVA‑P Injectable | CAS 62‑90‑8 – NovaTech Sciences",
+  seoDescription: "NANDROVA‑P Injectable by NovaTech Sciences contains Nandrolone Phenylpropionate (CAS 62‑90‑8). Trusted manufacturer, supplier, and exporter of pharmaceutical‑grade anabolic support for muscle growth, strength, and performance.",
   seoKeywords: "Nandrolone Phenylpropionate, Nandrova-P injection, Buy NPP online, Fast-acting anabolic steroid injection, Muscle recovery injection, Pharmaceutical-grade steroid",
   seoRobots: "index, follow",
   seoCanonical: "https://www.novatechsciences.com/products/injectables/nandrova-p",
@@ -2114,8 +2114,8 @@ export const injectables = [
   images: [  ],
 
   // SEO
-  seoTitle: "Trenova A (Trenbolone Acetate 100 mg/ml) | Injectable Product Info",
-  seoDescription: "Trenova A (Trenbolone Acetate 100 mg/ml injectable) provides standardized concentration and formulation details. Manufactured by Nova Techsciences for regulated pharmaceutical reference.",
+  seoTitle: "TRENOVA‑A Injectable | CAS 10161‑34‑9 – NovaTech Sciences",
+  seoDescription: "TRENOVA‑A Injectable by NovaTech Sciences contains Trenbolone Acetate (CAS 10161‑34‑9). Trusted manufacturer, supplier, and exporter of pharmaceutical‑grade anabolic support for strength, performance, and muscle growth.",
   seoKeywords: "Trenbolone Acetate, Trenova-A injection, buy trenbolone injection, advanced anabolic steroid, cutting cycle injection, lean muscle support",
   seoRobots: "index, follow",
   seoCanonical: "https://www.novatechsciences.com/products/injectables/trenova-a",
@@ -2170,8 +2170,8 @@ export const injectables = [
   images: [  ],
 
   // SEO
-  seoTitle: "Trenova E Injectable 200 mg/ml | Trenbolone Enanthate – Nova Techsciences",
-  seoDescription: "Manufactured by Nova Techsciences, Trenova E (Trenbolone Enanthate 200 mg/ml injectable) is a long-acting injectable product produced under controlled quality and formulation guidelines.",
+  seoTitle: "TRENOVA‑E Injectable | CAS 10161‑34‑9 – NovaTech Sciences",
+  seoDescription: "TRENOVA‑E Injectable by NovaTech Sciences contains Trenbolone Enanthate (CAS 10161‑34‑9). Trusted manufacturer, supplier, and exporter of pharmaceutical‑grade anabolic support for strength, performance, and muscle growth.",
   seoKeywords: "Trenbolone Enanthate, Trenova-E injection, buy trenbolone injection, long-acting anabolic steroid, muscle growth support, cutting cycle injection",
   seoRobots: "index, follow",
   seoCanonical: "https://www.novatechsciences.com/products/injectables/trenova-e",
@@ -2227,8 +2227,8 @@ export const injectables = [
   images: [  ],
 
   // SEO
-  seoTitle: "TRENOVA HEXA Injection (Trenbolone Hexa 76.5 mg/ml) | Nova Techsciences",
-  seoDescription: "Manufactured by Nova Techsciences, TRENOVA HEXA is a trenbolone hexa hydrobenzylcarbonate 76.5 mg/ml injectable supplied with standardized formulation and quality-controlled packaging.",
+  seoTitle: "TRENOVA‑HEXA Injectable | CAS 23454‑33‑3 – NovaTech Sciences",
+  seoDescription: "TRENOVA‑HEXA Injectable by NovaTech Sciences contains Trenbolone Hexa Hydrobenzylcarbonate (CAS 23454‑33‑3). Trusted manufacturer, supplier, and exporter of pharmaceutical‑grade anabolic support for strength, performance, and muscle growth.",
   seoKeywords: "Trenbolone Hexa 76.5 mg/ml, Trenova Hexa injection, trenbolone hexahydrobenzylcarbonate, buy trenbolone hexa online, trenbolone worldwide, cutting cycle injection",
   seoRobots: "index, follow",
   seoCanonical: "https://www.novatechsciences.com/products/injectables/trenovahexa",
@@ -2284,8 +2284,8 @@ export const injectables = [
   images: [  ],
 
   // SEO
-  seoTitle: "DROSTANOVA P – Drostanolone Propionate 100 mg/ml Injection | Nova Techsciences ",
-  seoDescription: "DROSTANOVA P (Drostanolone Propionate 100 mg/ml injection) from Nova Techsciences is listed with standardized formulation details, injectable strength, and controlled pharmaceutical quality.",
+  seoTitle: "DROSTANOVA‑P Injectable | CAS 521‑12‑0 – NovaTech Sciences ",
+  seoDescription: "DROSTANOVA‑P Injectable by NovaTech Sciences contains Drostanolone Propionate (CAS 521‑12‑0). Trusted manufacturer, supplier, and exporter of pharmaceutical‑grade anabolic support for strength, performance, and muscle growth.",
   seoKeywords: "Drostanolone Propionate 100 mg/ml, Drostanova-P injection, drostanolone injection, buy drostanolone online, masteron propionate worldwide, cutting cycle injection",
   seoRobots: "index, follow",
   seoCanonical: "https://www.novatechsciences.com/products/injectables/drostanova-p",
@@ -2341,8 +2341,8 @@ export const injectables = [
   images: [  ],
 
   // SEO
-  seoTitle: "PRIMONOVA (Methenolone Enanthate 100 mg/ml Injection) | Nova Techsciences",
-  seoDescription: "PRIMONOVA by Nova Techsciences is a Methenolone Enanthate 100 mg/ml injectable formulation. Pharmaceutical-grade product with defined composition and dosage strength.",
+  seoTitle: "PRIMONOVA Injectable | CAS 303‑40‑4 – NovaTech Sciences",
+  seoDescription: "PPRIMONOVA Injectable by NovaTech Sciences contains Methenolone Enanthate (CAS 303‑40‑4). Trusted manufacturer, supplier, and exporter of pharmaceutical‑grade anabolic support for muscle growth, strength, and performance.",
   seoKeywords: "Methenolone Enanthate 100 mg/ml, Primonova injection, primobolan enanthate, buy methenolone online, primobolan worldwide, lean muscle injection",
   seoRobots: "index, follow",
   seoCanonical: "https://www.novatechsciences.com/products/injectables/primonova",
@@ -2398,8 +2398,8 @@ export const injectables = [
   images: [  ],
 
   // SEO
-  seoTitle: "ROXONOVA (Stanozolol 50 mg/ml Injection) | Nova Techsciences",
-  seoDescription: "ROXONOVA (Stanozolol 50 mg/ml injection) by Nova Techsciences is a sterile injectable formulation with defined strength, composition, and pharmaceutical-grade manufacturing standards.",
+  seoTitle: "ROXONOVA Injectable | CAS 10418‑03‑8 – NovaTech Sciences",
+  seoDescription: "RROXONOVA Injectable by NovaTech Sciences contains Stanozolol (CAS 10418‑03‑8). Trusted manufacturer, supplier, and exporter of pharmaceutical‑grade anabolic support for strength, performance, and muscle growth.",
   seoKeywords: "Stanozolol 50 mg/ml, Roxonova injection, stanozolol injectable, buy stanozolol online, winstrol injection worldwide, cutting cycle injection",
   seoRobots: "index, follow",
   seoCanonical: "https://www.novatechsciences.com/products/injectables/roxonova",
@@ -2455,8 +2455,8 @@ export const injectables = [
   images: [  ],
 
   // SEO
-  seoTitle: "TESTOVA PP (Testosterone Phenylpropionate 100 mg/ml Injection) | Nova Techsciences",
-  seoDescription: "TESTOVA PP (Testosterone Phenylpropionate 100 mg/ml Injection) by Nova Techsciences is a sterile injectable formulation with defined strength, composition, and pharmaceutical manufacturing standards.",
+  seoTitle: "TESTOVA‑PP Injectable | CAS 1255‑49‑8 – NovaTech Sciences",
+  seoDescription: "TESTOVA‑PP Injectable by NovaTech Sciences contains Testosterone Phenylpropionate (CAS 1255‑49‑8). Trusted manufacturer, supplier, and exporter of pharmaceutical‑grade testosterone support for performance, muscle growth, and hormone balance.",
   seoKeywords: "Testosterone Phenylpropionate 100 mg/ml, Testova-PP injection, testosterone phenylpropionate injection, buy testosterone PP online, testosterone worldwide, muscle growth injection",
   seoRobots: "index, follow",
   seoCanonical: "https://www.novatechsciences.com/products/injectables/testova-pp",
@@ -2511,8 +2511,8 @@ export const injectables = [
   images: [  ],
 
   // SEO
-  seoTitle: "TESTOVA BASE (Testosterone Suspension 100 mg/ml Injectable) | Nova Techsciences",
-  seoDescription: "TESTOVA BASE (Testosterone Suspension 100 mg/ml injectable) by Nova Techsciences is a sterile injectable formulation providing clear composition, strength, and product specifications.",
+  seoTitle: "TESTOVA‑BASE Injectable | CAS 58‑22‑0 – NovaTech Sciences",
+  seoDescription: "TESTOVA‑BASE Injectable by NovaTech Sciences contains Testosterone Suspension (CAS 58‑22‑0). Trusted manufacturer, supplier, and exporter of pharmaceutical‑grade testosterone support for performance, muscle growth, and hormone balance.",
   seoKeywords: "Testosterone Suspension 100 mg/ml, Testova-Base injection, testosterone suspension injection, buy testosterone suspension online, fast acting testosterone injection, testosterone worldwide",
   seoRobots: "index, follow",
   seoCanonical: "https://www.novatechsciences.com/products/injectables/testova-base",

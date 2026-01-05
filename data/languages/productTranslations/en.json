@@ -1,0 +1,16 @@
+{
+  "tablets": {
+    "tab-FEMANOVA": {
+      "name": "Femanova 500",
+      "description": "Used for hormonal balance in women.",
+      "indication": "PCOS\nHormonal imbalance\nMenstrual disorders",
+      "presentation": "Blister pack of 10 tablets",
+      "faq": [
+        {
+          "question": "How should I take this medicine?",
+          "answer": "Use as directed by your physician."
+        }
+      ]
+    }
+  }
+}

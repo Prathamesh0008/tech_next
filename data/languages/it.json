@@ -105,116 +105,185 @@
     "antiCounterfeit": "Anti-contraffazione"
   },
   "home": {
-    "preHeader": "Benvenuti in NovaTech",
-    "heroTitle": "Soluzioni sanitarie innovative",
-    "heroSubtitle": "NovaTech Sciences offre medicinali affidabili, soluzioni diagnostiche e sanitarie per aiutarti a vivere ogni giorno in modo più sano e forte.",
-    "statsMini": {
-      "products": "Prodotti",
-      "countries": "Paesi",
-      "years": "Anni di esperienza",
-      "certified": "Certificato"
-    },
-    "cta": {
-      "exploreProducts": "Scopri i prodotti",
-      "contactUs": "Contattaci"
-    },
-    "trustedBy": "Scelto da",
-    "trustedByList": [
-      "Ospedali",
-      "Cliniche",
-      "Farmacie",
-      "Operatori sanitari",
-      "Centri di ricerca"
-    ],
-    "whyChoose": [
-      {
-        "title": "✔ Certificazione WHO-GMP",
-        "text": "I nostri stabilimenti produttivi rispettano gli standard WHO-GMP, ISO e rigorosi criteri di qualità."
+    "hero": {
+      "welcome": "Benvenuti in NovaTech",
+      "title": "Soluzioni Sanitarie Innovative",
+      "subtitle": "NovaTech Sciences vi offre farmaci affidabili, diagnostica e soluzioni sanitarie per aiutarvi a vivere più sani e più forti ogni giorno.",
+      "stats": {
+        "products": "Prodotti",
+        "countries": "Paesi",
+        "experience": "Anni di Esperienza",
+        "certified": "Certificato"
       },
-      {
-        "title": "🌍 Presenza globale",
-        "text": "Fiducia da parte di professionisti sanitari in numerosi paesi con espansione continua."
+      "buttons": {
+        "explore": "Esplora i Prodotti",
+        "contact": "Contattaci"
       },
-      {
-        "title": "🔬 Orientati alla ricerca",
-        "text": "Ci concentriamo su scienza, innovazione ed efficacia clinica per ogni prodotto."
+      "trusted": "Si Fidano di Noi",
+      "trustedBy": {
+        "hospitals": "Ospedali",
+        "clinics": "Cliniche",
+        "pharmacies": "Farmacie",
+        "providers": "Fornitori di Servizi Sanitari",
+        "research": "Centri di Ricerca"
       }
-    ],
-    "expertiseTag": "La nostra esperienza",
-    "divisionsTitle": "Le nostre divisioni terapeutiche",
-    "divisionsDesc": "NovaTech Sciences è specializzata in due principali divisioni farmaceutiche — compresse e iniettabili formulati con precisione secondo i più alti standard globali.",
-    "tablets": {
-      "badge": "Compresse",
-      "coverTitle": "Scopri le nostre compresse",
-      "btn": "Scopri le compresse",
-      "divisionTitle": "Divisione compresse",
-      "features": [
-        "Terapie ormonali",
-        "Formulazioni anaboliche",
-        "Soluzioni terapeutiche"
-      ],
-      "desc": "Forme solide orali avanzate progettate per risultati terapeutici costanti ed efficaci.",
-      "keyFeatures": "Caratteristiche principali",
-      "qualityAssured": "✓ Qualità garantita"
     },
-    "injectables": {
-      "badge": "Iniettabili",
-      "facility": "Struttura sterile",
-      "coverTitle": "Scopri i nostri iniettabili",
-      "btn": "Scopri gli iniettabili",
-      "divisionTitle": "Divisione iniettabili",
-      "features": [
-        "Miscele di testosterone",
-        "Esteri anabolici",
-        "Iniezioni terapeutiche"
-      ],
-      "desc": "Formulazioni iniettabili sterili prodotte in strutture certificate ISO per garantire massima sicurezza e precisione.",
-      "keyFeatures": "Caratteristiche principali",
-      "sterilityGuaranteed": "✓ Sterilità garantita"
-    },
-    "help": {
-      "title": "Hai bisogno di aiuto nella scelta?",
-      "text": "Consulta i nostri esperti farmaceutici per una guida personalizzata.",
-      "btn": "Contatta gli esperti"
-    },
-    "about": {
-      "title": "Chi siamo",
-      "text": "NovaTech Sciences è dedicata a fornire soluzioni sanitarie innovative e affidabili."
-    },
-    "blog": {
-      "title": "Consigli di salute & Blog",
-      "cards": [
+    "whyChooseUs": {
+      "title": "Perché Scegliere NovaTech",
+      "items": [
         {
-          "title": "Gestire il diabete in modo naturale",
-          "text": "Suggerimenti per controllare efficacemente la glicemia."
+          "title": "✔ Certificato OMS-GMP",
+          "text": "I nostri impianti produttivi seguono gli standard OMS-GMP (Buone Pratiche di Fabbricazione), ISO e rigorosi standard di qualità."
         },
         {
-          "title": "Consigli per l’asma",
-          "text": "Linee guida per prevenire le crisi."
+          "title": "🌍 Portata Globale",
+          "text": "Affidati da professionisti sanitari in più paesi con espansione continua."
         },
         {
-          "title": "Perdita di peso sicura",
-          "text": "Raggiungi i tuoi obiettivi con metodi sicuri."
+          "title": "🔬 Basato sulla Ricerca",
+          "text": "Ci concentriamo sulla scienza, l'innovazione e l'efficacia clinica per ogni prodotto che forniamo."
         }
       ]
     },
-    "partner": {
-      "title": "Collabora con NovaTech Sciences",
-      "text": "Collabora con noi per portare soluzioni farmaceutiche e nutraceutiche innovative nei mercati globali.",
-      "btn": "Contattaci"
+    "divisions": {
+      "expertise": "La Nostra Competenza",
+      "title": "Le Nostre Divisioni Terapeutiche",
+      "description": "NovaTech Sciences si specializza in due divisioni farmaceutiche principali — Compresse e Iniettabili formulati con precisione, progettati per soddisfare gli standard più elevati di assistenza sanitaria globale e di eccellenza produttiva.",
+      "tablets": {
+        "label": "Compresse",
+        "certified": "Certificato GMP",
+        "alt": "Divisione Compresse",
+        "exploreTitle": "Esplora le Nostre Compresse",
+        "features": [
+          "Terapie Ormonali",
+          "Formulazioni Anabolizzanti",
+          "Soluzioni Terapeutiche"
+        ],
+        "button": "Esplora le Compresse",
+        "title": "Divisione Compresse",
+        "description": "Forme farmaceutiche solide orali avanzate che includono terapie ormonali, composti anabolizzanti e formulazioni terapeutiche specializzate. Ogni compressa è progettata con tecnologia di rivestimento di precisione e ottimizzazione della biodisponibilità per risultati terapeutici coerenti.",
+        "keyFeatures": "Caratteristiche Principali",
+        "qualityAssured": "Qualità Garantita"
+      },
+      "injectables": {
+        "label": "Iniettabili",
+        "certified": "Impianto Sterile",
+        "alt": "Divisione Iniettabili",
+        "exploreTitle": "Esplora i Nostri Iniettabili",
+        "features": [
+          "Miscele di Testosterone",
+          "Esteri Anabolizzanti",
+          "Iniezioni Terapeutiche"
+        ],
+        "button": "Esplora gli Iniettabili",
+        "title": "Divisione Iniettabili",
+        "description": "Formulazioni iniettabili sterili di alta qualità che includono miscele di testosterone, esteri anabolizzanti e soluzioni terapeutiche specializzate. Prodotte in impianti sterili certificati ISO che garantiscono massima purezza, sicurezza e precisione di dosaggio.",
+        "keyFeatures": "Caratteristiche Principali",
+        "sterility": "Sterilità Garantita"
+      },
+      "help": {
+        "title": "Hai Bisogno di Aiuto per Scegliere?",
+        "description": "Consulta i nostri esperti farmaceutici per una guida personalizzata.",
+        "button": "Contatta i Nostri Esperti"
+      }
     },
-    "statsBlock": {
-      "countriesServed": "Paesi serviti",
-      "productsFormulated": "Prodotti sviluppati",
-      "therapeuticSegments": "Aree terapeutiche",
-      "qualityCommitment": "Impegno per la qualità"
+    "stats": {
+      "title": "Il Nostro Impatto in Numeri",
+      "countriesServed": "Paesi Serviti",
+      "productsFormulated": "Prodotti Formulati",
+      "therapeuticSegments": "Segmenti Terapeutici",
+      "qualityCommitment": "Impegno per la Qualità"
     },
-    "categories": [
-      "Asma",
-      "Cura della tiroide",
-      "Perdita di peso",
-      "Alto livello di zucchero",
-      "Pressione sanguigna"
-    ]
+    "about": {
+      "title": "Su NovaTech",
+      "description": "NovaTech Sciences si dedica a fornire soluzioni sanitarie innovative e farmaci affidabili. La nostra missione è migliorare la qualità della vita con prodotti sanitari avanzati, accessibili e affidabili."
+    },
+    "blog": {
+      "title": "Consigli sulla Salute & Blog",
+      "items": [
+        {
+          "title": "Gestione Naturale del Diabete",
+          "text": "Consigli sullo stile di vita e precauzioni per gestire efficacemente la glicemia."
+        },
+        {
+          "title": "Consigli per la Cura dell'Asma",
+          "text": "Linee guida per controllare l'asma e prevenire gli attacchi."
+        },
+        {
+          "title": "Perdita di Peso Sicura",
+          "text": "Raggiungi i tuoi obiettivi di salute attraverso pratiche sicure e sostenibili."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Diventa Partner di NovaTech Sciences",
+      "description": "Collabora con noi per portare soluzioni farmaceutiche e nutraceutiche innovative sui mercati globali.",
+      "button": "Mettiti in Contatto"
+    }
+  },
+  "antiCounterfeit": {
+    "header": {
+      "title": "Autenticazione del Prodotto",
+      "subtitle": "Verifica l'autenticità del tuo prodotto NovaTech utilizzando il numero di serie univoco e il codice di autenticazione."
+    },
+    "form": {
+      "title": "Verifica il Tuo Prodotto",
+      "mfgDate": {
+        "label": "Data di Produzione",
+        "placeholder": "Seleziona la data di produzione"
+      },
+      "serialNumber": {
+        "label": "Numero di Serie",
+        "placeholder": "Inserisci il numero di serie del prodotto"
+      },
+      "authCode": {
+        "label": "Codice di Autenticazione",
+        "placeholder": "Inserisci il codice di autenticazione"
+      },
+      "submit": "Verifica Ora"
+    },
+    "result": {
+      "success": "✅ Questo prodotto è autentico e verificato.",
+      "error": "❌ Credenziali non valide. Si prega di controllare e riprovare."
+    },
+    "note": {
+      "title": "Nota Importante",
+      "text": "Il numero di serie e il codice di autenticazione si trovano sulla confezione del prodotto. Conservali in modo riservato per prevenire un uso improprio."
+    },
+    "warning": {
+      "title": "Avvertimento",
+      "text": "I prodotti contraffatti possono essere dannosi. Acquista sempre da distributori autorizzati e verifica il tuo prodotto qui."
+    }
+  },
+  "featuredSection": {
+    "title": "Divisioni Prodotto in Primo Piano",
+    "description": "Esplora le divisioni specializzate di NovaTech create per soddisfare i più alti standard di eccellenza farmaceutica — dalle formulazioni solide alle iniezioni sterili.",
+    "categories": {
+      "tablets": {
+        "name": "Divisione Compresse",
+        "description": "Formulazioni orali ad alta precisione progettate per forza, stabilità e purezza."
+      },
+      "injectables": {
+        "name": "Divisione Iniettabili",
+        "description": "Iniettabili sterili e controllati che assicurano rapida biodisponibilità ed efficacia."
+      }
+    },
+    "viewAllCategories": "Vedi Tutto",
+    "viewAllProducts": "Vedi Tutti i Prodotti {category}",
+    "noProducts": "Nessun prodotto disponibile per questa divisione al momento."
+  },
+  "productsPage": {
+    "title": "Il Nostro Portafoglio Prodotti",
+    "subtitle": "Sfoglia per categoria, nome prodotto o potenza del dosaggio.",
+    "noProducts": "Nessun prodotto trovato.",
+    "filters": {
+      "title": "Filtri",
+      "category": "Categoria",
+      "product": "Prodotto",
+      "dosageStrength": "Potenza del Dosaggio",
+      "all": "Tutti",
+      "filterButton": "Filtra",
+      "applyButton": "Applica Filtri"
+    }
   }
 }

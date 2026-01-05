@@ -7,7 +7,7 @@ export async function generateMetadata({ params }) {
 
  const SEO_MAP = {
     "best-steroids-muscle-growth-2025": {
-      title: "Best Steroids for Muscle Growth in 2025 | Nova Techsciences",
+      title: "Best Steroids for Muscle Growth in 2025 ",
       keywords: [
         "Best Steroids for Muscle Growth in 2025",
         "best steroids online",

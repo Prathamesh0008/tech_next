@@ -150,89 +150,188 @@
       "sustainable": { "title": "Sustainable Manufacturing" }
     }
   },
-  "home": {
-    "preHeader": "Welcome to NovaTech",
-    "heroTitle": "Innovative Healthcare Solutions",
-    "heroSubtitle": "NovaTech Sciences brings you trusted medicines, diagnostics, and health solutions to help you live healthier and stronger every day.",
-    "statsMini": {
-      "products": "Products",
-      "countries": "Countries",
-      "years": "Years Experience",
-      "certified": "Certified"
-    },
-    "cta": {
-      "exploreProducts": "Explore Products",
-      "contactUs": "Contact Us"
-    },
-    "trustedBy": "Trusted By",
-    "trustedByList": ["Hospitals", "Clinics", "Pharmacies", "Healthcare Providers", "Research Centers"],
-    "whyChoose": [
-      {
-        "title": "✔ WHO-GMP Certified",
-        "text": "Our manufacturing facilities follow WHO-GMP, ISO, and stringent quality standards."
+ "home": {
+    "hero": {
+      "welcome": "Welcome to NovaTech",
+      "title": "Innovative Healthcare Solutions",
+      "subtitle": "NovaTech Sciences brings you trusted medicines, diagnostics, and health solutions to help you live healthier and stronger every day.",
+      "stats": {
+        "products": "Products",
+        "countries": "Countries",
+        "experience": "Years Experience",
+        "certified": "Certified"
       },
-      {
-        "title": "🌍 Global Reach",
-        "text": "Trusted by healthcare professionals across multiple countries with continuous expansion."
+      "buttons": {
+        "explore": "Explore Products",
+        "contact": "Contact Us"
       },
-      {
-        "title": "🔬 Research-Driven",
-        "text": "We focus on science, innovation, and clinical efficacy for every product we deliver."
+      "trusted": "Trusted By",
+      "trustedBy": {
+        "hospitals": "Hospitals",
+        "clinics": "Clinics",
+        "pharmacies": "Pharmacies",
+        "providers": "Healthcare Providers",
+        "research": "Research Centers"
       }
-    ],
-    "expertiseTag": "Our Expertise",
-    "divisionsTitle": "Our Therapeutic Divisions",
-    "divisionsDesc": "NovaTech Sciences specializes in two core pharmaceutical divisions — precision-formulated Tablets and Injectables, designed to meet the highest standards of global healthcare and manufacturing excellence.",
-    "tablets": {
-      "badge": "Tablets",
-      "coverTitle": "Explore Our Tablets",
-      "btn": "Explore Tablets",
-      "divisionTitle": "Tablets Division",
-      "features": ["Hormone Therapies", "Anabolic Formulations", "Therapeutic Solutions"],
-      "desc": "Advanced oral solid dosage forms featuring hormone therapies, anabolic compounds, and specialized therapeutic formulations. Each tablet is engineered with precision coating technology and bioavailability optimization for consistent therapeutic outcomes.",
-      "keyFeatures": "Key Features",
-      "qualityAssured": "✓ Quality Assured"
     },
-    "injectables": {
-      "badge": "Injectables",
-      "facility": "Sterile Facility",
-      "coverTitle": "Explore Our Injectables",
-      "btn": "Explore Injectables",
-      "divisionTitle": "Injectables Division",
-      "features": ["Testosterone Blends", "Anabolic Esters", "Therapeutic Injectables"],
-      "desc": "Premium sterile injectable formulations including testosterone blends, anabolic esters, and specialized therapeutic solutions. Manufactured in ISO-certified sterile facilities ensuring maximum purity, safety, and precise dosage accuracy.",
-      "keyFeatures": "Key Features",
-      "sterilityGuaranteed": "✓ Sterility Guaranteed"
-    },
-    "help": {
-      "title": "Need Help Choosing?",
-      "text": "Consult with our pharmaceutical experts for personalized guidance.",
-      "btn": "Contact Our Experts"
-    },
-    "about": {
-      "title": "About NovaTech",
-      "text": "NovaTech Sciences is dedicated to providing innovative healthcare solutions and trusted medicines. Our mission is to improve the quality of life with advanced, affordable, and reliable healthcare products."
-    },
-    "blog": {
-      "title": "Health Tips & Blog",
-      "cards": [
-        { "title": "Managing Diabetes Naturally", "text": "Lifestyle tips and precautions to manage your blood sugar effectively." },
-        { "title": "Asthma Care Tips", "text": "Guidelines to control asthma and prevent attacks." },
-        { "title": "Safe Weight Loss", "text": "Achieve your health goals through safe and sustainable practices." }
+    "whyChooseUs": {
+      "title": "Why Choose NovaTech",
+      "items": [
+        {
+          "title": "✔ WHO-GMP Certified",
+          "text": "Our manufacturing facilities follow WHO-GMP, ISO, and stringent quality standards."
+        },
+        {
+          "title": "🌍 Global Reach",
+          "text": "Trusted by healthcare professionals across multiple countries with continuous expansion."
+        },
+        {
+          "title": "🔬 Research-Driven",
+          "text": "We focus on science, innovation, and clinical efficacy for every product we deliver."
+        }
       ]
     },
-    "partner": {
-      "title": "Partner with NovaTech Sciences",
-      "text": "Collaborate with us to bring cutting-edge pharmaceutical and nutraceutical solutions to global markets.",
-      "btn": "Get in Touch"
+    "divisions": {
+      "expertise": "Our Expertise",
+      "title": "Our Therapeutic Divisions",
+      "description": "NovaTech Sciences specializes in two core pharmaceutical divisions — precision-formulated Tablets and Injectables, designed to meet the highest standards of global healthcare and manufacturing excellence.",
+      "tablets": {
+        "label": "Tablets",
+        "certified": "GMP Certified",
+        "alt": "Tablets Division",
+        "exploreTitle": "Explore Our Tablets",
+        "features": [
+          "Hormone Therapies",
+          "Anabolic Formulations",
+          "Therapeutic Solutions"
+        ],
+        "button": "Explore Tablets",
+        "title": "Tablets Division",
+        "description": "Advanced oral solid dosage forms featuring hormone therapies, anabolic compounds, and specialized therapeutic formulations. Each tablet is engineered with precision coating technology and bioavailability optimization for consistent therapeutic outcomes.",
+        "keyFeatures": "Key Features",
+        "qualityAssured": "Quality Assured"
+      },
+      "injectables": {
+        "label": "Injectables",
+        "certified": "Sterile Facility",
+        "alt": "Injectables Division",
+        "exploreTitle": "Explore Our Injectables",
+        "features": [
+          "Testosterone Blends",
+          "Anabolic Esters",
+          "Therapeutic Injectables"
+        ],
+        "button": "Explore Injectables",
+        "title": "Injectables Division",
+        "description": "Premium sterile injectable formulations including testosterone blends, anabolic esters, and specialized therapeutic solutions. Manufactured in ISO-certified sterile facilities ensuring maximum purity, safety, and precise dosage accuracy.",
+        "keyFeatures": "Key Features",
+        "sterility": "Sterility Guaranteed"
+      },
+      "help": {
+        "title": "Need Help Choosing?",
+        "description": "Consult with our pharmaceutical experts for personalized guidance.",
+        "button": "Contact Our Experts"
+      }
     },
-    "statsBlock": {
+    "stats": {
+      "title": "Our Impact in Numbers",
       "countriesServed": "Countries Served",
       "productsFormulated": "Products Formulated",
       "therapeuticSegments": "Therapeutic Segments",
       "qualityCommitment": "Quality Commitment"
     },
-    "categories": ["Asthma", "Thyrocare", "Weight Loss", "High Sugar", "BP"]
+    "about": {
+      "title": "About NovaTech",
+      "description": "NovaTech Sciences is dedicated to providing innovative healthcare solutions and trusted medicines. Our mission is to improve the quality of life with advanced, affordable, and reliable healthcare products."
+    },
+    "blog": {
+      "title": "Health Tips & Blog",
+      "items": [
+        {
+          "title": "Managing Diabetes Naturally",
+          "text": "Lifestyle tips and precautions to manage your blood sugar effectively."
+        },
+        {
+          "title": "Asthma Care Tips",
+          "text": "Guidelines to control asthma and prevent attacks."
+        },
+        {
+          "title": "Safe Weight Loss",
+          "text": "Achieve your health goals through safe and sustainable practices."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Partner with NovaTech Sciences",
+      "description": "Collaborate with us to bring cutting-edge pharmaceutical and nutraceutical solutions to global markets.",
+      "button": "Get in Touch"
+    }
+  },
+  "antiCounterfeit": {
+    "header": {
+      "title": "Product Authentication",
+      "subtitle": "Verify the authenticity of your NovaTech product using the unique serial number and authentication code."
+    },
+    "form": {
+      "title": "Verify Your Product",
+      "mfgDate": {
+        "label": "Manufacturing Date",
+        "placeholder": "Select manufacturing date"
+      },
+      "serialNumber": {
+        "label": "Serial Number",
+        "placeholder": "Enter product serial number"
+      },
+      "authCode": {
+        "label": "Authentication Code",
+        "placeholder": "Enter authentication code"
+      },
+      "submit": "Verify Now"
+    },
+    "result": {
+      "success": "✅ This product is genuine and verified.",
+      "error": "❌ Invalid credentials. Please check and try again."
+    },
+    "note": {
+      "title": "Important Note",
+      "text": "The serial number and authentication code are located on the product packaging. Keep them confidential to prevent misuse."
+    },
+    "warning": {
+      "title": "Warning",
+      "text": "Counterfeit products may be harmful. Always purchase from authorized dealers and verify your product here."
+    }
+  },
+    "featuredSection": {
+    "title": "Featured Product Divisions",
+    "description": "Explore NovaTech's specialized divisions built to meet the highest standards in pharmaceutical excellence — from solid formulations to sterile injectables.",
+    "categories": {
+      "tablets": {
+        "name": "Tablets Division",
+        "description": "High-precision oral formulations designed for strength, stability, and purity."
+      },
+      "injectables": {
+        "name": "Injectables Division",
+        "description": "Sterile and controlled injectables ensuring rapid bioavailability and efficacy."
+      }
+    },
+    "viewAllCategories": "View All",
+    "viewAllProducts": "View All {category} Products",
+    "noProducts": "No products available for this division yet."
+  },
+  "productsPage": {
+    "title": "Our Product Portfolio",
+    "subtitle": "Browse by category, product name, or dosage strength.",
+    "noProducts": "No products found.",
+    "filters": {
+      "title": "Filters",
+      "category": "Category",
+      "product": "Product",
+      "dosageStrength": "Dosage Strength",
+      "all": "All",
+      "filterButton": "Filter",
+      "applyButton": "Apply Filters"
+    }
   }
+
 
 }

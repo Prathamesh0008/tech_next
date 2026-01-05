@@ -150,117 +150,186 @@
       "sustainable": { "title": "Fabricación sostenible" }
     }
   },
-  "home": {
-    "preHeader": "Bienvenido a NovaTech",
-    "heroTitle": "Soluciones de salud innovadoras",
-    "heroSubtitle": "NovaTech Sciences le ofrece medicamentos confiables, soluciones diagnósticas y de salud para ayudarle a vivir cada día de forma más saludable y fuerte.",
-    "statsMini": {
-      "products": "Productos",
-      "countries": "Países",
-      "years": "Años de experiencia",
-      "certified": "Certificado"
-    },
-    "cta": {
-      "exploreProducts": "Explorar productos",
-      "contactUs": "Contáctenos"
-    },
-    "trustedBy": "Con la confianza de",
-    "trustedByList": [
-      "Hospitales",
-      "Clínicas",
-      "Farmacias",
-      "Proveedores de atención médica",
-      "Centros de investigación"
-    ],
-    "whyChoose": [
-      {
-        "title": "✔ Certificación WHO-GMP",
-        "text": "Nuestras instalaciones de fabricación cumplen con WHO-GMP, ISO y estrictos estándares de calidad."
+"home": {
+    "hero": {
+      "welcome": "Bienvenido a NovaTech",
+      "title": "Soluciones Innovadoras en Salud",
+      "subtitle": "NovaTech Sciences le ofrece medicamentos confiables, diagnósticos y soluciones de salud para ayudarle a vivir más saludable y fuerte cada día.",
+      "stats": {
+        "products": "Productos",
+        "countries": "Países",
+        "experience": "Años de Experiencia",
+        "certified": "Certificado"
       },
-      {
-        "title": "🌍 Presencia global",
-        "text": "Con la confianza de profesionales de la salud en numerosos países y en continua expansión."
+      "buttons": {
+        "explore": "Explorar Productos",
+        "contact": "Contáctenos"
       },
-      {
-        "title": "🔬 Impulsados por la investigación",
-        "text": "Nos enfocamos en la ciencia, la innovación y la eficacia clínica en cada producto."
+      "trusted": "Confían en Nosotros",
+      "trustedBy": {
+        "hospitals": "Hospitales",
+        "clinics": "Clínicas",
+        "pharmacies": "Farmacias",
+        "providers": "Proveedores de Salud",
+        "research": "Centros de Investigación"
       }
-    ],
-    "expertiseTag": "Nuestra experiencia",
-    "divisionsTitle": "Nuestras divisiones terapéuticas",
-    "divisionsDesc": "NovaTech Sciences se especializa en dos divisiones farmacéuticas clave: tabletas e inyectables formulados con precisión para cumplir los más altos estándares globales.",
-    "tablets": {
-      "badge": "Tabletas",
-      "coverTitle": "Explora nuestras tabletas",
-      "btn": "Ver tabletas",
-      "divisionTitle": "División de tabletas",
-      "features": [
-        "Terapias hormonales",
-        "Formulaciones anabólicas",
-        "Soluciones terapéuticas"
-      ],
-      "desc": "Formas sólidas orales avanzadas diseñadas para una biodisponibilidad optimizada y resultados terapéuticos constantes.",
-      "keyFeatures": "Características clave",
-      "qualityAssured": "✓ Calidad garantizada"
     },
-    "injectables": {
-      "badge": "Inyectables",
-      "facility": "Instalación estéril",
-      "coverTitle": "Explora nuestros inyectables",
-      "btn": "Ver inyectables",
-      "divisionTitle": "División de inyectables",
-      "features": [
-        "Mezclas de testosterona",
-        "Ésteres anabólicos",
-        "Inyecciones terapéuticas"
-      ],
-      "desc": "Formulaciones inyectables estériles de alta calidad fabricadas bajo estándares ISO para máxima seguridad y precisión.",
-      "keyFeatures": "Características clave",
-      "sterilityGuaranteed": "✓ Esterilidad garantizada"
-    },
-    "help": {
-      "title": "¿Necesita ayuda para elegir?",
-      "text": "Consulte con nuestros expertos farmacéuticos para una orientación personalizada.",
-      "btn": "Contactar a los expertos"
-    },
-    "about": {
-      "title": "Acerca de NovaTech",
-      "text": "NovaTech Sciences se dedica a ofrecer soluciones de salud innovadoras y medicamentos confiables."
-    },
-    "blog": {
-      "title": "Consejos de salud y Blog",
-      "cards": [
+    "whyChooseUs": {
+      "title": "Por Qué Elegir NovaTech",
+      "items": [
         {
-          "title": "Control natural de la diabetes",
-          "text": "Consejos de estilo de vida para controlar eficazmente el nivel de azúcar en sangre."
+          "title": "✔ Certificado OMS-BPF",
+          "text": "Nuestras instalaciones de fabricación siguen las normas OMS-BPF, ISO y estándares de calidad rigurosos."
         },
         {
-          "title": "Consejos para el cuidado del asma",
-          "text": "Guías para controlar el asma y prevenir ataques."
+          "title": "🌍 Alcance Global",
+          "text": "Confiable por profesionales de la salud en múltiples países con expansión continua."
         },
         {
-          "title": "Pérdida de peso segura",
-          "text": "Alcance sus objetivos de salud con prácticas seguras y sostenibles."
+          "title": "🔬 Basado en Investigación",
+          "text": "Nos enfocamos en ciencia, innovación y eficacia clínica para cada producto que entregamos."
         }
       ]
     },
-    "partner": {
-      "title": "Colabore con NovaTech Sciences",
-      "text": "Trabaje con nosotros para llevar soluciones farmacéuticas y nutracéuticas innovadoras a los mercados globales.",
-      "btn": "Ponerse en contacto"
+    "divisions": {
+      "expertise": "Nuestra Experiencia",
+      "title": "Nuestras Divisiones Terapéuticas",
+      "description": "NovaTech Sciences se especializa en dos divisiones farmacéuticas principales: Tabletas e Inyectables de formulación precisa, diseñados para cumplir con los más altos estándares de salud global y excelencia en fabricación.",
+      "tablets": {
+        "label": "Tabletas",
+        "certified": "Certificado BPF",
+        "alt": "División de Tabletas",
+        "exploreTitle": "Explore Nuestras Tabletas",
+        "features": [
+          "Terapias Hormonales",
+          "Formulaciones Anabólicas",
+          "Soluciones Terapéuticas"
+        ],
+        "button": "Explorar Tabletas",
+        "title": "División de Tabletas",
+        "description": "Formas farmacéuticas sólidas orales avanzadas que incluyen terapias hormonales, compuestos anabólicos y formulaciones terapéuticas especializadas. Cada tableta está diseñada con tecnología de recubrimiento de precisión y optimización de biodisponibilidad para resultados terapéuticos consistentes.",
+        "keyFeatures": "Características Clave",
+        "qualityAssured": "Calidad Garantizada"
+      },
+      "injectables": {
+        "label": "Inyectables",
+        "certified": "Instalación Estéril",
+        "alt": "División de Inyectables",
+        "exploreTitle": "Explore Nuestros Inyectables",
+        "features": [
+          "Mezclas de Testosterona",
+          "Ésteres Anabólicos",
+          "Inyectables Terapéuticos"
+        ],
+        "button": "Explorar Inyectables",
+        "title": "División de Inyectables",
+        "description": "Formulaciones inyectables estériles premium que incluyen mezclas de testosterona, ésteres anabólicos y soluciones terapéuticas especializadas. Fabricadas en instalaciones estériles certificadas ISO que garantizan máxima pureza, seguridad y precisión en la dosificación.",
+        "keyFeatures": "Características Clave",
+        "sterility": "Esterilidad Garantizada"
+      },
+      "help": {
+        "title": "¿Necesita Ayuda para Elegir?",
+        "description": "Consulte con nuestros expertos farmacéuticos para orientación personalizada.",
+        "button": "Contactar a Nuestros Expertos"
+      }
     },
-    "statsBlock": {
-      "countriesServed": "Países atendidos",
-      "productsFormulated": "Productos desarrollados",
-      "therapeuticSegments": "Áreas terapéuticas",
-      "qualityCommitment": "Compromiso con la calidad"
+    "stats": {
+      "title": "Nuestro Impacto en Números",
+      "countriesServed": "Países Atendidos",
+      "productsFormulated": "Productos Formulados",
+      "therapeuticSegments": "Segmentos Terapéuticos",
+      "qualityCommitment": "Compromiso de Calidad"
     },
-    "categories": [
-      "Asma",
-      "Cuidado de la tiroides",
-      "Pérdida de peso",
-      "Azúcar alta",
-      "Presión arterial"
-    ]
+    "about": {
+      "title": "Sobre NovaTech",
+      "description": "NovaTech Sciences se dedica a proporcionar soluciones innovadoras de salud y medicamentos confiables. Nuestra misión es mejorar la calidad de vida con productos de salud avanzados, asequibles y confiables."
+    },
+    "blog": {
+      "title": "Consejos de Salud & Blog",
+      "items": [
+        {
+          "title": "Manejo Natural de la Diabetes",
+          "text": "Consejos de estilo de vida y precauciones para manejar su azúcar en sangre efectivamente."
+        },
+        {
+          "title": "Consejos para el Cuidado del Asma",
+          "text": "Pautas para controlar el asma y prevenir ataques."
+        },
+        {
+          "title": "Pérdida de Peso Segura",
+          "text": "Alcance sus objetivos de salud mediante prácticas seguras y sostenibles."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Asóciese con NovaTech Sciences",
+      "description": "Colabore con nosotros para llevar soluciones farmacéuticas y nutracéuticas de vanguardia a mercados globales.",
+      "button": "Póngase en Contacto"
+    }
+  },
+  "antiCounterfeit": {
+    "header": {
+      "title": "Autenticación de Producto",
+      "subtitle": "Verifique la autenticidad de su producto NovaTech utilizando el número de serie único y el código de autenticación."
+    },
+    "form": {
+      "title": "Verifique Su Producto",
+      "mfgDate": {
+        "label": "Fecha de Fabricación",
+        "placeholder": "Seleccione fecha de fabricación"
+      },
+      "serialNumber": {
+        "label": "Número de Serie",
+        "placeholder": "Ingrese número de serie del producto"
+      },
+      "authCode": {
+        "label": "Código de Autenticación",
+        "placeholder": "Ingrese código de autenticación"
+      },
+      "submit": "Verificar Ahora"
+    },
+    "result": {
+      "success": "✅ Este producto es genuino y verificado.",
+      "error": "❌ Credenciales inválidas. Por favor verifique e intente nuevamente."
+    },
+    "note": {
+      "title": "Nota Importante",
+      "text": "El número de serie y el código de autenticación se encuentran en el empaque del producto. Manténgalos confidenciales para prevenir uso indebido."
+    },
+    "warning": {
+      "title": "Advertencia",
+      "text": "Los productos falsificados pueden ser dañinos. Siempre compre a distribuidores autorizados y verifique su producto aquí."
+    }
+  },
+   "featuredSection": {
+    "title": "Divisiones Destacadas de Productos",
+    "description": "Explore las divisiones especializadas de NovaTech creadas para cumplir con los más altos estándares de excelencia farmacéutica, desde formulaciones sólidas hasta inyectables estériles.",
+    "categories": {
+      "tablets": {
+        "name": "División de Tabletas",
+        "description": "Formulaciones orales de alta precisión diseñadas para resistencia, estabilidad y pureza."
+      },
+      "injectables": {
+        "name": "División de Inyectables",
+        "description": "Inyectables estériles y controlados que garantizan una rápida biodisponibilidad y eficacia."
+      }
+    },
+    "viewAllCategories": "Ver Todos",
+    "viewAllProducts": "Ver Todos los Productos de {category}",
+    "noProducts": "No hay productos disponibles para esta división todavía."
+  },
+    "productsPage": {
+    "title": "Nuestro Portafolio de Productos",
+    "subtitle": "Navegue por categoría, nombre del producto o potencia de dosis.",
+    "noProducts": "No se encontraron productos.",
+    "filters": {
+      "title": "Filtros",
+      "category": "Categoría",
+      "product": "Producto",
+      "dosageStrength": "Potencia de Dosis",
+      "all": "Todos",
+      "filterButton": "Filtrar",
+      "applyButton": "Aplicar Filtros"
+    }
   }
 }

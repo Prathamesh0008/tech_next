@@ -1,0 +1,16 @@
+{
+  "tab-femanova-let-25": {
+    "name": "FEMANOVA",
+    "description": "Letrozole 2.5 mg tablet used in hormonal therapy.",
+    "indication": "Hormonal therapy\nEstrogen control",
+    "presentation": "Blister pack",
+    "precautions": "Do not exceed recommended dose",
+    "contraindications": "Liver disease",
+    "faq": [
+      {
+        "question": "How should I use this medicine?",
+        "answer": "Use as directed by your healthcare provider."
+      }
+    ]
+  }
+}

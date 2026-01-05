@@ -7,10 +7,9 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import { useLanguage } from "../contexts/LanguageContext";
 import DiseaseFeaturedSection from "../components/DiseaseFeaturedSection";
 import BannerSlider from "../components/BannerSlider";
-
-
 
 // ✅ Animated Count Component
 function CountUp({ target, suffix }) {
@@ -81,7 +80,13 @@ function StatsSection() {
 
 // ✅ Main Home Component
 export default function HomeClient() {
+  const { translations, currentLanguage } = useLanguage();
   const router = useRouter();
+
+  // Safety check for translations
+  if (!translations?.home) return null;
+
+  const t = translations.home;
 
   useEffect(() => {
     AOS.init({
@@ -131,8 +136,10 @@ export default function HomeClient() {
   ];
 
   return (
-    <>
-    
+    <div 
+  className="min-h-screen bg-gradient-to-b from-[#f5f9fb] via-[#f3f8fa] to-[#e8f3f8] mt-20"
+  dir={currentLanguage === 'ar' ? 'rtl' : 'ltr'}
+>
       {/* ✅ Banner Section */}
       <BannerSlider banners={banners} />
 
@@ -165,7 +172,7 @@ export default function HomeClient() {
             <div className="flex flex-wrap items-center justify-center gap-3 mb-6">
               <div className="w-10 sm:w-12 h-0.5 bg-gradient-to-r from-transparent via-[#3386bc] to-transparent"></div>
               <span className="text-xs sm:text-sm font-semibold uppercase tracking-wider text-[#18487d] animate-pulse">
-                Welcome to NovaTech
+                {t.hero.welcome || "Welcome to NovaTech"}
               </span>
               <div className="w-10 sm:w-12 h-0.5 bg-gradient-to-l from-transparent via-[#18487d] to-transparent"></div>
             </div>
@@ -173,16 +180,14 @@ export default function HomeClient() {
             {/* Heading */}
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-5 sm:mb-6 tracking-tight leading-tight">
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#18487d] via-[#3386bc] to-[#4bb2e5]">
-                Innovative Healthcare Solutions
+                {t.hero.title || "Innovative Healthcare Solutions"}
               </span>
             </h1>
 
             {/* Subtitle */}
             <div className="relative inline-block mb-8 sm:mb-10">
               <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-700 max-w-3xl mx-auto leading-relaxed font-light px-1">
-                NovaTech Sciences brings you trusted medicines, diagnostics, and
-                health solutions to help you live healthier and stronger every
-                day.
+                {t.hero.subtitle || "NovaTech Sciences brings you trusted medicines, diagnostics, and health solutions to help you live healthier and stronger every day."}
               </p>
               <div className="absolute -bottom-3 left-1/2 transform -translate-x-1/2 w-20 sm:w-24 h-1 bg-gradient-to-r from-[#18487d] to-[#3386bc] rounded-full"></div>
             </div>
@@ -194,7 +199,7 @@ export default function HomeClient() {
                   100+
                 </div>
                 <div className="text-xs sm:text-sm text-gray-600">
-                  Products
+                  {t.hero.stats.products || "Products"}
                 </div>
               </div>
               <div className="text-center p-3 sm:p-4">
@@ -202,7 +207,7 @@ export default function HomeClient() {
                   50+
                 </div>
                 <div className="text-xs sm:text-sm text-gray-600">
-                  Countries
+                  {t.hero.stats.countries || "Countries"}
                 </div>
               </div>
               <div className="text-center p-3 sm:p-4">
@@ -210,7 +215,7 @@ export default function HomeClient() {
                   25+
                 </div>
                 <div className="text-xs sm:text-sm text-gray-600">
-                  Years Experience
+                  {t.hero.stats.experience || "Years Experience"}
                 </div>
               </div>
               <div className="text-center p-3 sm:p-4">
@@ -218,7 +223,7 @@ export default function HomeClient() {
                   GMP
                 </div>
                 <div className="text-xs sm:text-sm text-gray-600">
-                  Certified
+                  {t.hero.stats.certified || "Certified"}
                 </div>
               </div>
             </div>
@@ -234,20 +239,7 @@ export default function HomeClient() {
                   <div className="w-full h-full bg-gradient-to-r from-transparent via-white/20 to-transparent"></div>
                 </div>
                 <div className="relative flex items-center gap-3">
-                  {/* <svg
-                    className="w-5 h-5 group-hover:rotate-90 transition-transform duration-500"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M19 9l-7 7-7-7"
-                    />
-                  </svg> */}
-                  <span>Explore Products</span>
+                  <span>{t.hero.buttons.explore || "Explore Products"}</span>
                   <svg
                     className="w-5 h-5 transform group-hover:translate-x-1 transition-transform duration-300"
                     fill="none"
@@ -282,7 +274,7 @@ export default function HomeClient() {
                       d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                     />
                   </svg>
-                  Contact Us
+                  {t.hero.buttons.contact || "Contact Us"}
                 </span>
               </Link>
             </div>
@@ -290,23 +282,23 @@ export default function HomeClient() {
             {/* Trust indicators */}
             <div className="mt-12 sm:mt-16 pt-6 sm:pt-8 border-t border-gray-100">
               <p className="text-xs sm:text-sm text-gray-500 uppercase tracking-wider mb-5 sm:mb-6">
-                Trusted By
+                {t.hero.trusted || "Trusted By"}
               </p>
               <div className="flex flex-wrap items-center justify-center gap-5 sm:gap-8 md:gap-12 opacity-70">
                 <div className="text-base sm:text-xl font-bold text-[#18487d]">
-                  Hospitals
+                  {t.hero.trustedBy.hospitals || "Hospitals"}
                 </div>
                 <div className="text-base sm:text-xl font-bold text-[#3386bc]">
-                  Clinics
+                  {t.hero.trustedBy.clinics || "Clinics"}
                 </div>
                 <div className="text-base sm:text-xl font-bold text-[#18487d]">
-                  Pharmacies
+                  {t.hero.trustedBy.pharmacies || "Pharmacies"}
                 </div>
                 <div className="text-base sm:text-xl font-bold text-[#3386bc]">
-                  Healthcare Providers
+                  {t.hero.trustedBy.providers || "Healthcare Providers"}
                 </div>
                 <div className="text-base sm:text-xl font-bold text-[#18487d]">
-                  Research Centers
+                  {t.hero.trustedBy.research || "Research Centers"}
                 </div>
               </div>
             </div>
@@ -318,27 +310,38 @@ export default function HomeClient() {
           className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 sm:gap-6 bg-gradient-to-r from-[#e9f7fc] to-[#e6f9f5] rounded-2xl p-6 sm:p-8 lg:p-10 my-12 md:my-16 text-center"
           data-aos="fade-up"
         >
-          {[
-            {
-              title: "✔ WHO-GMP Certified",
-              text: "Our manufacturing facilities follow WHO-GMP, ISO, and stringent quality standards.",
-            },
-            {
-              title: "🌍 Global Reach",
-              text: "Trusted by healthcare professionals across multiple countries with continuous expansion.",
-            },
-            {
-              title: "🔬 Research-Driven",
-              text: "We focus on science, innovation, and clinical efficacy for every product we deliver.",
-            },
-          ].map((item, i) => (
+          {t.whyChooseUs?.items?.map((item, i) => (
             <div key={i} className="p-2">
               <h3 className="text-lg sm:text-xl font-semibold text-[#314977] mb-2">
                 {item.title}
               </h3>
               <p className="text-gray-600 text-sm sm:text-base">{item.text}</p>
             </div>
-          ))}
+          )) || (
+            <>
+              {[
+                {
+                  title: "✔ WHO-GMP Certified",
+                  text: "Our manufacturing facilities follow WHO-GMP, ISO, and stringent quality standards.",
+                },
+                {
+                  title: "🌍 Global Reach",
+                  text: "Trusted by healthcare professionals across multiple countries with continuous expansion.",
+                },
+                {
+                  title: "🔬 Research-Driven",
+                  text: "We focus on science, innovation, and clinical efficacy for every product we deliver.",
+                },
+              ].map((item, i) => (
+                <div key={i} className="p-2">
+                  <h3 className="text-lg sm:text-xl font-semibold text-[#314977] mb-2">
+                    {item.title}
+                  </h3>
+                  <p className="text-gray-600 text-sm sm:text-base">{item.text}</p>
+                </div>
+              ))}
+            </>
+          )}
         </section>
 
         {/* ✅ Categories / Divisions */}
@@ -347,30 +350,18 @@ export default function HomeClient() {
             <div className="inline-flex items-center justify-center gap-2 mb-4">
               <div className="w-8 sm:w-10 h-0.5 bg-gradient-to-r from-transparent to-[#18487d]"></div>
               <span className="text-xs sm:text-sm font-semibold uppercase tracking-wider text-[#3386bc]">
-                Our Expertise
+                {t.divisions?.expertise || "Our Expertise"}
               </span>
               <div className="w-8 sm:w-10 h-0.5 bg-gradient-to-l from-transparent to-[#3386bc]"></div>
             </div>
 
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 sm:mb-5 px-2">
-              Our Therapeutic Divisions
+              {t.divisions?.title || "Our Therapeutic Divisions"}
             </h2>
             <div className="w-20 sm:w-24 h-1 bg-gradient-to-r from-[#18487d] to-[#3386bc] mx-auto mb-5 sm:mb-6 rounded-full"></div>
 
             <p className="text-gray-700 max-w-3xl mx-auto text-base sm:text-lg md:text-xl leading-relaxed px-2 sm:px-4">
-              NovaTech Sciences specializes in two core pharmaceutical divisions
-              — precision-formulated{" "}
-              <span className="font-bold text-[#18487d] relative px-1">
-                <span className="relative z-10">Tablets</span>
-                <span className="absolute inset-0 bg-[#18487d]/10 -skew-x-6 rounded"></span>
-              </span>{" "}
-              and{" "}
-              <span className="font-bold text-[#3386bc] relative px-1">
-                <span className="relative z-10">Injectables</span>
-                <span className="absolute inset-0 bg-[#3386bc]/10 -skew-x-6 rounded"></span>
-              </span>
-              , designed to meet the highest standards of global healthcare and
-              manufacturing excellence.
+              {t.divisions?.description || "NovaTech Sciences specializes in two core pharmaceutical divisions — precision-formulated Tablets and Injectables, designed to meet the highest standards of global healthcare and manufacturing excellence."}
             </p>
           </div>
 
@@ -390,7 +381,7 @@ export default function HomeClient() {
                   <div className="absolute top-4 left-4 z-10">
                     <span className="inline-flex items-center px-3 sm:px-4 py-1.5 rounded-full bg-[#18487d]/90 text-white text-xs font-semibold tracking-wide backdrop-blur-sm">
                       <span className="w-2 h-2 bg-white rounded-full mr-2 animate-pulse"></span>
-                      Tablets
+                      {t.divisions?.tablets?.label || "Tablets"}
                     </span>
                   </div>
 
@@ -407,13 +398,13 @@ export default function HomeClient() {
                           clipRule="evenodd"
                         />
                       </svg>
-                      GMP Certified
+                      {t.divisions?.tablets?.certified || "GMP Certified"}
                     </span>
                   </div>
 
                   <img
                     src="/assets/smallBanners/Tablets-box.png"
-                    alt="Tablets Division"
+                    alt={t.divisions?.tablets?.alt || "Tablets Division"}
                     className="w-full h-56 sm:h-72 md:h-96 object-cover group-hover:scale-110 transition-transform duration-700"
                     loading="lazy"
                   />
@@ -421,58 +412,32 @@ export default function HomeClient() {
                   <div className="absolute inset-0 bg-gradient-to-t from-[#18487d]/90 via-[#18487d]/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-5 sm:p-6 md:p-8">
                     <div className="transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
                       <h3 className="text-xl sm:text-2xl font-bold text-white mb-3">
-                        Explore Our Tablets
+                        {t.divisions?.tablets?.exploreTitle || "Explore Our Tablets"}
                       </h3>
                       <ul className="space-y-2 text-white/90 text-sm">
-                        <li className="flex items-center">
-                          <svg
-                            className="w-4 h-4 mr-2"
-                            fill="currentColor"
-                            viewBox="0 0 20 20"
-                          >
-                            <path
-                              fillRule="evenodd"
-                              d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                              clipRule="evenodd"
-                            />
-                          </svg>
-                          Hormone Therapies
-                        </li>
-                        <li className="flex items-center">
-                          <svg
-                            className="w-4 h-4 mr-2"
-                            fill="currentColor"
-                            viewBox="0 0 20 20"
-                          >
-                            <path
-                              fillRule="evenodd"
-                              d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                              clipRule="evenodd"
-                            />
-                          </svg>
-                          Anabolic Formulations
-                        </li>
-                        <li className="flex items-center">
-                          <svg
-                            className="w-4 h-4 mr-2"
-                            fill="currentColor"
-                            viewBox="0 0 20 20"
-                          >
-                            <path
-                              fillRule="evenodd"
-                              d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                              clipRule="evenodd"
-                            />
-                          </svg>
-                          Therapeutic Solutions
-                        </li>
+                        {(t.divisions?.tablets?.features || []).map((feature, index) => (
+                          <li key={index} className="flex items-center">
+                            <svg
+                              className="w-4 h-4 mr-2"
+                              fill="currentColor"
+                              viewBox="0 0 20 20"
+                            >
+                              <path
+                                fillRule="evenodd"
+                                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                clipRule="evenodd"
+                              />
+                            </svg>
+                            {feature}
+                          </li>
+                        ))}
                       </ul>
 
                       <button
                         onClick={(e) => handleCtrlClick(e, "/products/tablets")}
                         className="mt-5 sm:mt-6 inline-flex items-center bg-white text-[#18487d] px-5 sm:px-6 py-2.5 sm:py-3 rounded-xl font-semibold shadow-lg hover:shadow-xl hover:bg-[#e6f3fa] transition-all duration-300 group/btn"
                       >
-                        <span>Explore Tablets</span>
+                        <span>{t.divisions?.tablets?.button || "Explore Tablets"}</span>
                         <svg
                           className="w-5 h-5 ml-2 transform group-hover/btn:translate-x-1 transition-transform"
                           fill="none"
@@ -494,23 +459,19 @@ export default function HomeClient() {
                 <div className="p-5 sm:p-6 md:p-8">
                   <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-4 flex items-center">
                     <div className="w-3 h-8 bg-gradient-to-b from-[#18487d] to-[#4bb2e5] rounded-full mr-3"></div>
-                    Tablets Division
+                    {t.divisions?.tablets?.title || "Tablets Division"}
                   </h3>
                   <p className="text-gray-700 text-sm sm:text-base md:text-lg leading-relaxed">
-                    Advanced oral solid dosage forms featuring hormone therapies,
-                    anabolic compounds, and specialized therapeutic formulations.
-                    Each tablet is engineered with precision coating technology
-                    and bioavailability optimization for consistent therapeutic
-                    outcomes.
+                    {t.divisions?.tablets?.description || "Advanced oral solid dosage forms featuring hormone therapies, anabolic compounds, and specialized therapeutic formulations. Each tablet is engineered with precision coating technology and bioavailability optimization for consistent therapeutic outcomes."}
                   </p>
 
                   <div className="mt-5 sm:mt-6 pt-5 sm:pt-6 border-t border-gray-100">
                     <div className="flex items-center justify-between">
                       <span className="text-sm font-medium text-gray-600">
-                        Key Features
+                        {t.divisions?.tablets?.keyFeatures || "Key Features"}
                       </span>
                       <span className="text-xs text-[#18487d] font-semibold">
-                        ✓ Quality Assured
+                        ✓ {t.divisions?.tablets?.qualityAssured || "Quality Assured"}
                       </span>
                     </div>
                   </div>
@@ -533,7 +494,7 @@ export default function HomeClient() {
                   <div className="absolute top-4 left-4 z-10">
                     <span className="inline-flex items-center px-3 sm:px-4 py-1.5 rounded-full bg-[#3386bc]/90 text-white text-xs font-semibold tracking-wide backdrop-blur-sm">
                       <span className="w-2 h-2 bg-white rounded-full mr-2 animate-pulse"></span>
-                      Injectables
+                      {t.divisions?.injectables?.label || "Injectables"}
                     </span>
                   </div>
 
@@ -550,13 +511,13 @@ export default function HomeClient() {
                           clipRule="evenodd"
                         />
                       </svg>
-                      Sterile Facility
+                      {t.divisions?.injectables?.certified || "Sterile Facility"}
                     </span>
                   </div>
 
                   <img
                     src="/assets/smallBanners/Injectable-box.png"
-                    alt="Injectables Division"
+                    alt={t.divisions?.injectables?.alt || "Injectables Division"}
                     className="w-full h-56 sm:h-72 md:h-96 object-cover group-hover:scale-110 transition-transform duration-700"
                     loading="lazy"
                   />
@@ -564,51 +525,25 @@ export default function HomeClient() {
                   <div className="absolute inset-0 bg-gradient-to-t from-[#3386bc]/90 via-[#3386bc]/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-5 sm:p-6 md:p-8">
                     <div className="transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
                       <h3 className="text-xl sm:text-2xl font-bold text-white mb-3">
-                        Explore Our Injectables
+                        {t.divisions?.injectables?.exploreTitle || "Explore Our Injectables"}
                       </h3>
                       <ul className="space-y-2 text-white/90 text-sm">
-                        <li className="flex items-center">
-                          <svg
-                            className="w-4 h-4 mr-2"
-                            fill="currentColor"
-                            viewBox="0 0 20 20"
-                          >
-                            <path
-                              fillRule="evenodd"
-                              d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                              clipRule="evenodd"
-                            />
-                          </svg>
-                          Testosterone Blends
-                        </li>
-                        <li className="flex items-center">
-                          <svg
-                            className="w-4 h-4 mr-2"
-                            fill="currentColor"
-                            viewBox="0 0 20 20"
-                          >
-                            <path
-                              fillRule="evenodd"
-                              d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                              clipRule="evenodd"
-                            />
-                          </svg>
-                          Anabolic Esters
-                        </li>
-                        <li className="flex items-center">
-                          <svg
-                            className="w-4 h-4 mr-2"
-                            fill="currentColor"
-                            viewBox="0 0 20 20"
-                          >
-                            <path
-                              fillRule="evenodd"
-                              d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                              clipRule="evenodd"
-                            />
-                          </svg>
-                          Therapeutic Injectables
-                        </li>
+                        {(t.divisions?.injectables?.features || []).map((feature, index) => (
+                          <li key={index} className="flex items-center">
+                            <svg
+                              className="w-4 h-4 mr-2"
+                              fill="currentColor"
+                              viewBox="0 0 20 20"
+                            >
+                              <path
+                                fillRule="evenodd"
+                                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                clipRule="evenodd"
+                              />
+                            </svg>
+                            {feature}
+                          </li>
+                        ))}
                       </ul>
 
                       <button
@@ -617,7 +552,7 @@ export default function HomeClient() {
                         }
                         className="mt-5 sm:mt-6 inline-flex items-center bg-white text-[#3386bc] px-5 sm:px-6 py-2.5 sm:py-3 rounded-xl font-semibold shadow-lg hover:shadow-xl hover:bg-[#e6f4fa] transition-all duration-300 group/btn"
                       >
-                        <span>Explore Injectables</span>
+                        <span>{t.divisions?.injectables?.button || "Explore Injectables"}</span>
                         <svg
                           className="w-5 h-5 ml-2 transform group-hover/btn:translate-x-1 transition-transform"
                           fill="none"
@@ -639,22 +574,19 @@ export default function HomeClient() {
                 <div className="p-5 sm:p-6 md:p-8">
                   <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-4 flex items-center">
                     <div className="w-3 h-8 bg-gradient-to-b from-[#3386bc] to-[#67c1f5] rounded-full mr-3"></div>
-                    Injectables Division
+                    {t.divisions?.injectables?.title || "Injectables Division"}
                   </h3>
                   <p className="text-gray-700 text-sm sm:text-base md:text-lg leading-relaxed">
-                    Premium sterile injectable formulations including testosterone
-                    blends, anabolic esters, and specialized therapeutic solutions.
-                    Manufactured in ISO-certified sterile facilities ensuring
-                    maximum purity, safety, and precise dosage accuracy.
+                    {t.divisions?.injectables?.description || "Premium sterile injectable formulations including testosterone blends, anabolic esters, and specialized therapeutic solutions. Manufactured in ISO-certified sterile facilities ensuring maximum purity, safety, and precise dosage accuracy."}
                   </p>
 
                   <div className="mt-5 sm:mt-6 pt-5 sm:pt-6 border-t border-gray-100">
                     <div className="flex items-center justify-between">
                       <span className="text-sm font-medium text-gray-600">
-                        Key Features
+                        {t.divisions?.injectables?.keyFeatures || "Key Features"}
                       </span>
                       <span className="text-xs text-[#3386bc] font-semibold">
-                        ✓ Sterility Guaranteed
+                        ✓ {t.divisions?.injectables?.sterility || "Sterility Guaranteed"}
                       </span>
                     </div>
                   </div>
@@ -675,11 +607,10 @@ export default function HomeClient() {
               <div className="flex flex-col md:flex-row items-center justify-between gap-5 sm:gap-6">
                 <div className="text-center md:text-left">
                   <h4 className="text-lg sm:text-xl font-bold text-gray-900 mb-2">
-                    Need Help Choosing?
+                    {t.divisions?.help?.title || "Need Help Choosing?"}
                   </h4>
                   <p className="text-gray-600 text-sm sm:text-base">
-                    Consult with our pharmaceutical experts for personalized
-                    guidance.
+                    {t.divisions?.help?.description || "Consult with our pharmaceutical experts for personalized guidance."}
                   </p>
                 </div>
                 <button
@@ -699,7 +630,7 @@ export default function HomeClient() {
                       d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"
                     />
                   </svg>
-                  Contact Our Experts
+                  {t.divisions?.help?.button || "Contact Our Experts"}
                 </button>
               </div>
             </div>
@@ -718,36 +649,20 @@ export default function HomeClient() {
           data-aos="fade-up"
         >
           <h2 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-4">
-            About NovaTech
+            {t.about?.title || "About NovaTech"}
           </h2>
           <p className="text-gray-700 max-w-3xl mx-auto text-sm sm:text-base">
-            NovaTech Sciences is dedicated to providing innovative healthcare
-            solutions and trusted medicines. Our mission is to improve the
-            quality of life with advanced, affordable, and reliable healthcare
-            products.
+            {t.about?.description || "NovaTech Sciences is dedicated to providing innovative healthcare solutions and trusted medicines. Our mission is to improve the quality of life with advanced, affordable, and reliable healthcare products."}
           </p>
         </section>
 
         {/* ✅ Blog Section */}
         <section className="mb-16 md:mb-20" data-aos="fade-up">
           <h2 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-6 sm:mb-8 text-center">
-            Health Tips & Blog
+            {t.blog?.title || "Health Tips & Blog"}
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 sm:gap-6">
-            {[
-              {
-                title: "Managing Diabetes Naturally",
-                text: "Lifestyle tips and precautions to manage your blood sugar effectively.",
-              },
-              {
-                title: "Asthma Care Tips",
-                text: "Guidelines to control asthma and prevent attacks.",
-              },
-              {
-                title: "Safe Weight Loss",
-                text: "Achieve your health goals through safe and sustainable practices.",
-              },
-            ].map((b, i) => (
+            {(t.blog?.items || []).map((b, i) => (
               <div
                 key={i}
                 className="p-5 bg-white rounded-lg shadow hover:shadow-lg transition-transform transform hover:scale-105"
@@ -767,21 +682,20 @@ export default function HomeClient() {
           data-aos="zoom-in"
         >
           <h2 className="text-2xl sm:text-3xl font-bold mb-4">
-            Partner with NovaTech Sciences
+            {t.cta?.title || "Partner with NovaTech Sciences"}
           </h2>
           <p className="max-w-2xl mx-auto mb-6 text-sm sm:text-base">
-            Collaborate with us to bring cutting-edge pharmaceutical and
-            nutraceutical solutions to global markets.
+            {t.cta?.description || "Collaborate with us to bring cutting-edge pharmaceutical and nutraceutical solutions to global markets."}
           </p>
           <a
             href="/contact"
             onClick={(e) => handleCtrlClick(e, "/contact")}
             className="bg-white text-[#314977] font-semibold px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg shadow-md hover:bg-gray-100 transition-all duration-300 inline-block"
           >
-            Get in Touch
+            {t.cta?.button || "Get in Touch"}
           </a>
         </section>
       </div>
-    </>
+    </div>
   );
 }

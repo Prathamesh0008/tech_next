@@ -104,117 +104,186 @@
     "blog": "Blog",
     "antiCounterfeit": "Kundër Falsifikimit"
   },
-  "home": {
-    "preHeader": "Mirë se vini në NovaTech",
-    "heroTitle": "Zgjidhje inovative shëndetësore",
-    "heroSubtitle": "NovaTech Sciences ju ofron barna të besueshme, zgjidhje diagnostike dhe shëndetësore për t’ju ndihmuar të jetoni çdo ditë më shëndetshëm dhe më të fortë.",
-    "statsMini": {
-      "products": "Produkte",
-      "countries": "Shtete",
-      "years": "Vite përvojë",
-      "certified": "E certifikuar"
-    },
-    "cta": {
-      "exploreProducts": "Shikoni produktet",
-      "contactUs": "Na kontaktoni"
-    },
-    "trustedBy": "Të besuar nga",
-    "trustedByList": [
-      "Spitale",
-      "Klinika",
-      "Farmaci",
-      "Ofrues të kujdesit shëndetësor",
-      "Qendra kërkimore"
-    ],
-    "whyChoose": [
-      {
-        "title": "✔ Certifikuar WHO-GMP",
-        "text": "Njësitë tona prodhuese ndjekin standardet WHO-GMP, ISO dhe standarde strikte të cilësisë."
+ "home": {
+    "hero": {
+      "welcome": "Mirë se vini në NovaTech",
+      "title": "Zgjidhje Inovative Shëndetësore",
+      "subtitle": "NovaTech Sciences ju ofron ilaçe të besueshme, diagnostikim dhe zgjidhje shëndetësore për t'ju ndihmuar të jetoni më shëndetshëm dhe më të fortë çdo ditë.",
+      "stats": {
+        "products": "Produkte",
+        "countries": "Vende",
+        "experience": "Vite Përvoje",
+        "certified": "E Certifikuar"
       },
-      {
-        "title": "🌍 Prani globale",
-        "text": "E besuar nga profesionistë të shëndetësisë në shumë vende me zgjerim të vazhdueshëm."
+      "buttons": {
+        "explore": "Eksploroni Produktet",
+        "contact": "Na Kontaktoni"
       },
-      {
-        "title": "🔬 E drejtuar nga kërkimi",
-        "text": "Fokusohemi në shkencë, inovacion dhe efikasitet klinik për çdo produkt."
+      "trusted": "Na Besojnë",
+      "trustedBy": {
+        "hospitals": "Spitalet",
+        "clinics": "Klinikat",
+        "pharmacies": "Farmacitë",
+        "providers": "Ofruesit e Shërbimeve Shëndetësore",
+        "research": "Qendrat Kërkimore"
       }
-    ],
-    "expertiseTag": "Ekspertiza jonë",
-    "divisionsTitle": "Divizionet tona terapeutike",
-    "divisionsDesc": "NovaTech Sciences specializohet në dy divizione kryesore farmaceutike — tableta dhe injeksione të formuluara me precizion për të përmbushur standardet më të larta globale të shëndetësisë.",
-    "tablets": {
-      "badge": "Tableta",
-      "coverTitle": "Zbuloni tabletat tona",
-      "btn": "Shikoni tabletat",
-      "divisionTitle": "Divizioni i tabletave",
-      "features": [
-        "Terapitë hormonale",
-        "Formulime anabolike",
-        "Zgjidhje terapeutike"
-      ],
-      "desc": "Forma të avancuara orale të dozimit që përfshijnë terapi hormonale, përbërës anabolikë dhe formulime terapeutike të specializuara, të dizajnuara për rezultate të qëndrueshme terapeutike.",
-      "keyFeatures": "Karakteristikat kryesore",
-      "qualityAssured": "✓ Cilësi e garantuar"
     },
-    "injectables": {
-      "badge": "Injeksione",
-      "facility": "Objekt steril",
-      "coverTitle": "Zbuloni injeksionet tona",
-      "btn": "Shikoni injeksionet",
-      "divisionTitle": "Divizioni i injeksioneve",
-      "features": [
-        "Përzierje testosteroni",
-        "Esterë anabolikë",
-        "Injeksione terapeutike"
-      ],
-      "desc": "Formulime injeksionesh sterile me cilësi të lartë, të prodhuara në ambiente të certifikuara ISO për siguri dhe saktësi maksimale të dozimit.",
-      "keyFeatures": "Karakteristikat kryesore",
-      "sterilityGuaranteed": "✓ Sterilitet i garantuar"
-    },
-    "help": {
-      "title": "Keni nevojë për ndihmë në zgjedhje?",
-      "text": "Konsultohuni me ekspertët tanë farmaceutikë për udhëzime të personalizuara.",
-      "btn": "Kontaktoni ekspertët"
-    },
-    "about": {
-      "title": "Rreth NovaTech",
-      "text": "NovaTech Sciences është e përkushtuar të ofrojë zgjidhje inovative shëndetësore dhe barna të besueshme."
-    },
-    "blog": {
-      "title": "Këshilla shëndetësore & Blog",
-      "cards": [
+    "whyChooseUs": {
+      "title": "Pse të Zgjidhni NovaTech",
+      "items": [
         {
-          "title": "Menaxhimi natyral i diabetit",
-          "text": "Këshilla mbi stilin e jetesës për të kontrolluar në mënyrë efektive nivelin e sheqerit në gjak."
+          "title": "✔ E Certifikuar OBSH-PPB",
+          "text": "Objektet tona të prodhimit ndjekin standardet OBSH-PPB (Praktikat e Mira të Prodhimit), ISO dhe standarde strikte të cilësisë."
         },
         {
-          "title": "Këshilla për kujdesin ndaj astmës",
-          "text": "Udhëzime për kontrollin e astmës dhe parandalimin e sulmeve."
+          "title": "🌍 Arritje Globale",
+          "text": "Të besuara nga profesionistët e shëndetësisë në disa vende me zgjerim të vazhdueshëm."
         },
         {
-          "title": "Humbje peshe e sigurt",
-          "text": "Arrini qëllimet tuaja shëndetësore përmes praktikave të sigurta dhe të qëndrueshme."
+          "title": "🔬 Të Drejtuara nga Kërkimi",
+          "text": "Ne përqendrohemi në shkencë, inovacion dhe efikasitet klinik për çdo produkt që ofrojmë."
         }
       ]
     },
-    "partner": {
-      "title": "Bëhuni partner me NovaTech Sciences",
-      "text": "Bashkëpunoni me ne për të sjellë zgjidhje farmaceutike dhe nutraceutike inovative në tregjet globale.",
-      "btn": "Na kontaktoni"
+    "divisions": {
+      "expertise": "Ekspertiza Jonë",
+      "title": "Ndarjet Tona Terapeutike",
+      "description": "NovaTech Sciences specializohet në dy ndarje kryesore farmaceutike — Tablet dhe Injektime të formuluara me saktësi, të projektuara për të përmbushur standardet më të larta të kujdesit shëndetësor global dhe ekselencës prodhuese.",
+      "tablets": {
+        "label": "Tablet",
+        "certified": "E Certifikuar PPB",
+        "alt": "Ndarja e Tabletave",
+        "exploreTitle": "Eksploroni Tabletët Tanë",
+        "features": [
+          "Terapi Hormonale",
+          "Formulime Anabolike",
+          "Zgjidhje Terapeutike"
+        ],
+        "button": "Eksploroni Tabletët",
+        "title": "Ndarja e Tabletave",
+        "description": "Format e avancuara të dozave të ngurta orale që përfshijnë terapia hormonale, përbërës anabolikë dhe formulime terapeutike të specializuara. Çdo tabletë është projektuar me teknologji shtresëzimi të saktë dhe optimizim të biodisponueshmërisë për rezultate terapeutike konsistente.",
+        "keyFeatures": "Karakteristikat Kryesore",
+        "qualityAssured": "Cilësi e Garantuar"
+      },
+      "injectables": {
+        "label": "Injektime",
+        "certified": "Objekt Steril",
+        "alt": "Ndarja e Injektimeve",
+        "exploreTitle": "Eksploroni Injektimet Tona",
+        "features": [
+          "Përzierje Testosterone",
+          "Ester Anabolikë",
+          "Injektime Terapeutike"
+        ],
+        "button": "Eksploroni Injektimet",
+        "title": "Ndarja e Injektimeve",
+        "description": "Formulime premium injektimi sterile që përfshijnë përzierje testosteroni, ester anabolikë dhe zgjidhje terapeutike të specializuara. Prodhuar në objekte sterile të certifikuara ISO që garantojnë pastërti maksimale, siguri dhe saktësi dozimi.",
+        "keyFeatures": "Karakteristikat Kryesore",
+        "sterility": "Sterilitet i Garantuar"
+      },
+      "help": {
+        "title": "Keni Nevojë për Ndihmë në Zgjedhje?",
+        "description": "Konsultohuni me ekspertët tanë farmaceutikë për udhëzime të personalizuara.",
+        "button": "Kontaktoni Ekspertët Tanë"
+      }
     },
-    "statsBlock": {
-      "countriesServed": "Shtete të shërbyera",
-      "productsFormulated": "Produkte të zhvilluara",
-      "therapeuticSegments": "Segmente terapeutike",
-      "qualityCommitment": "Përkushtim ndaj cilësisë"
+    "stats": {
+      "title": "Ndikimi Ynë në Numra",
+      "countriesServed": "Vende të Shërbyera",
+      "productsFormulated": "Produkte të Formuluara",
+      "therapeuticSegments": "Segmente Terapeutike",
+      "qualityCommitment": "Angazhim për Cilësi"
     },
-    "categories": [
-      "Astma",
-      "Kujdesi për tiroiden",
-      "Humbje peshe",
-      "Sheqer i lartë",
-      "Presioni i gjakut"
-    ]
+    "about": {
+      "title": "Rreth NovaTech",
+      "description": "NovaTech Sciences është i përkushtuar të ofrojë zgjidhje inovative shëndetësore dhe ilaçe të besueshme. Misioni ynë është të përmirësojmë cilësinë e jetës me produkte shëndetësore të avancuara, të përballueshme dhe të besueshme."
+    },
+    "blog": {
+      "title": "Këshilla Shëndetësore & Blog",
+      "items": [
+        {
+          "title": "Menaxhimi Natyror i Diabetit",
+          "text": "Këshilla për stilin e jetesës dhe masa paraprake për menaxhimin efektiv të sheqerit në gjak."
+        },
+        {
+          "title": "Këshilla për Kujdesin e Asthma",
+          "text": "Udhëzime për kontrollin e asthmës dhe parandalimin e sulmeve."
+        },
+        {
+          "title": "Humbje Peshe e Sigurt",
+          "text": "Arritni qëllimet tuaja shëndetësore përmes praktikave të sigurta dhe të qëndrueshme."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Bëhuni Partner i NovaTech Sciences",
+      "description": "Bashkëpunoni me ne për të sjellë zgjidhje farmaceutike dhe nutraceutike inovative në tregjet globale.",
+      "button": "Na Kontaktoni"
+    }
+  },
+  "antiCounterfeit": {
+    "header": {
+      "title": "Autentifikimi i Produkteve",
+      "subtitle": "Verifikoni autenticitetin e produktit tuaj NovaTech duke përdorur numrin serik unik dhe kodin e autentifikimit."
+    },
+    "form": {
+      "title": "Verifikoni Produktin Tuaj",
+      "mfgDate": {
+        "label": "Data e Prodhimit",
+        "placeholder": "Zgjidhni datën e prodhimit"
+      },
+      "serialNumber": {
+        "label": "Numri Serik",
+        "placeholder": "Fusni numrin serik të produktit"
+      },
+      "authCode": {
+        "label": "Kodi i Autentifikimit",
+        "placeholder": "Fusni kodin e autentifikimit"
+      },
+      "submit": "Verifikoni Tani"
+    },
+    "result": {
+      "success": "✅ Ky produkt është autentik dhe i verifikuar.",
+      "error": "❌ Kredenciale të pavlefshme. Ju lutem kontrolloni dhe provoni përsëri."
+    },
+    "note": {
+      "title": "Shënim i Rëndësishëm",
+      "text": "Numri serik dhe kodi i autentifikimit gjenden në paketimin e produktit. Mbajini ato konfidenciale për të parandaluar keqpërdorimin."
+    },
+    "warning": {
+      "title": "Paralajmërim",
+      "text": "Produktet e falsifikuara mund të jenë të dëmshme. Blini gjithmonë nga shitësit e autorizuar dhe verifikoni produktin tuaj këtu."
+    }
+  },
+   "featuredSection": {
+    "title": "Ndarjet e Produkteve të Theksuara",
+    "description": "Eksploroni ndarjet e specializuara të NovaTech të ndërtuara për të përmbushur standardet më të larta të shkëlqimit farmaceutik — nga formulimet e ngurta deri te injeksionet sterile.",
+    "categories": {
+      "tablets": {
+        "name": "Ndarja e Tabletave",
+        "description": "Formulime orale me saktësi të lartë të projektuara për forcë, stabilitet dhe pastërti."
+      },
+      "injectables": {
+        "name": "Ndarja e Injektimeve",
+        "description": "Injeksione sterile dhe të kontrolluara që sigurojnë biodisponueshmëri të shpejtë dhe efikasitet."
+      }
+    },
+    "viewAllCategories": "Shiko të Gjitha",
+    "viewAllProducts": "Shiko të Gjitha Produktet {category}",
+    "noProducts": "Ende nuk ka produkte të disponueshme për këtë ndarje."
+  },
+  "productsPage": {
+    "title": "Portofoliu i Produkteve Tona",
+    "subtitle": "Kërkoni sipas kategorisë, emrit të produktit ose forcës së dozës.",
+    "noProducts": "Nuk u gjet asnjë produkt.",
+    "filters": {
+      "title": "Filtrat",
+      "category": "Kategoria",
+      "product": "Produkti",
+      "dosageStrength": "Forca e Dozës",
+      "all": "Të Gjitha",
+      "filterButton": "Filtro",
+      "applyButton": "Apliko Filtret"
+    }
   }
 }

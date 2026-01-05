@@ -99,117 +99,186 @@
     "antiCounterfeit": "防伪验证"
   },
   "home": {
-    "preHeader": "欢迎来到 NovaTech",
-    "heroTitle": "创新医疗健康解决方案",
-    "heroSubtitle": "NovaTech Sciences 为您带来值得信赖的药品、诊断产品和健康解决方案，帮助您每天生活得更健康、更有力量。",
-    "statsMini": {
-      "products": "产品",
-      "countries": "国家",
-      "years": "行业经验",
-      "certified": "认证"
-    },
-    "cta": {
-      "exploreProducts": "探索产品",
-      "contactUs": "联系我们"
-    },
-    "trustedBy": "深受信赖",
-    "trustedByList": [
-      "医院",
-      "诊所",
-      "药房",
-      "医疗服务机构",
-      "研究中心"
-    ],
-    "whyChoose": [
-      {
-        "title": "✔ WHO-GMP 认证",
-        "text": "我们的生产设施严格遵循 WHO-GMP、ISO 以及国际质量管理标准。"
+    "hero": {
+      "welcome": "欢迎来到 NovaTech",
+      "title": "创新健康解决方案",
+      "subtitle": "NovaTech Sciences 为您提供值得信赖的药品、诊断和健康解决方案，帮助您每天更健康、更强壮地生活。",
+      "stats": {
+        "products": "产品",
+        "countries": "国家",
+        "experience": "年经验",
+        "certified": "认证"
       },
-      {
-        "title": "🌍 全球布局",
-        "text": "在多个国家受到医疗专业人士的信赖，并持续拓展国际市场。"
+      "buttons": {
+        "explore": "探索产品",
+        "contact": "联系我们"
       },
-      {
-        "title": "🔬 科研驱动",
-        "text": "我们以科学、创新和临床疗效为核心，打造每一款产品。"
+      "trusted": "信任我们",
+      "trustedBy": {
+        "hospitals": "医院",
+        "clinics": "诊所",
+        "pharmacies": "药房",
+        "providers": "医疗服务提供者",
+        "research": "研究中心"
       }
-    ],
-    "expertiseTag": "我们的专长",
-    "divisionsTitle": "我们的治疗领域",
-    "divisionsDesc": "NovaTech Sciences 专注于两大核心制药领域——高精度配方的片剂与注射剂，旨在满足全球医疗与制药卓越标准。",
-    "tablets": {
-      "badge": "片剂",
-      "coverTitle": "探索我们的片剂产品",
-      "btn": "查看片剂",
-      "divisionTitle": "片剂事业部",
-      "features": [
-        "激素治疗",
-        "合成代谢配方",
-        "治疗解决方案"
-      ],
-      "desc": "先进的口服固体制剂，涵盖激素治疗、合成代谢化合物及专业治疗配方。每一片药物均通过精密包衣技术和生物利用度优化，确保稳定且可靠的治疗效果。",
-      "keyFeatures": "核心优势",
-      "qualityAssured": "✓ 质量保障"
     },
-    "injectables": {
-      "badge": "注射剂",
-      "facility": "无菌生产设施",
-      "coverTitle": "探索我们的注射剂产品",
-      "btn": "查看注射剂",
-      "divisionTitle": "注射剂事业部",
-      "features": [
-        "睾酮复合制剂",
-        "合成代谢酯类",
-        "治疗型注射剂"
-      ],
-      "desc": "高端无菌注射剂配方，包括睾酮复合制剂、合成代谢酯类及专业治疗方案。产品在符合 ISO 标准的无菌设施中生产，确保最高纯度、安全性和精准剂量。",
-      "keyFeatures": "核心优势",
-      "sterilityGuaranteed": "✓ 无菌保障"
-    },
-    "help": {
-      "title": "需要帮助选择产品？",
-      "text": "咨询我们的制药专家，获取个性化专业建议。",
-      "btn": "联系专家"
-    },
-    "about": {
-      "title": "关于 NovaTech",
-      "text": "NovaTech Sciences 致力于提供创新的医疗健康解决方案和值得信赖的药品。我们的使命是通过先进、可负担且可靠的医疗产品，持续提升人们的生活质量。"
-    },
-    "blog": {
-      "title": "健康知识与博客",
-      "cards": [
+    "whyChooseUs": {
+      "title": "为何选择 NovaTech",
+      "items": [
         {
-          "title": "自然管理糖尿病",
-          "text": "通过生活方式调整和科学护理，有效管理血糖水平。"
+          "title": "✔ 世卫组织-GMP 认证",
+          "text": "我们的生产设施遵循世界卫生组织-GMP（良好生产规范）、ISO 和严格的质量标准。"
         },
         {
-          "title": "哮喘护理指南",
-          "text": "帮助控制哮喘并预防发作的实用建议。"
+          "title": "🌍 全球覆盖",
+          "text": "获得多个国家医疗专业人士的信任，并持续扩大业务范围。"
         },
         {
-          "title": "安全减重方案",
-          "text": "通过安全、可持续的方法实现健康目标。"
+          "title": "🔬 研究驱动",
+          "text": "我们专注于科学、创新和临床疗效，为每一款我们提供的产品提供保障。"
         }
       ]
     },
-    "partner": {
-      "title": "与 NovaTech Sciences 合作",
-      "text": "与我们携手，将前沿的制药和营养保健解决方案推向全球市场。",
-      "btn": "立即联系"
+    "divisions": {
+      "expertise": "我们的专长",
+      "title": "我们的治疗部门",
+      "description": "NovaTech Sciences 专注于两个核心制药部门——精确配方的片剂和注射剂，旨在满足全球医疗保健和制造卓越性的最高标准。",
+      "tablets": {
+        "label": "片剂",
+        "certified": "GMP认证",
+        "alt": "片剂部门",
+        "exploreTitle": "探索我们的片剂",
+        "features": [
+          "激素疗法",
+          "合成代谢配方",
+          "治疗解决方案"
+        ],
+        "button": "探索片剂",
+        "title": "片剂部门",
+        "description": "先进的口服固体剂型，包括激素疗法、合成代谢化合物和专业治疗配方。每片药片均采用精密包衣技术和生物利用度优化设计，确保一致的治疗效果。",
+        "keyFeatures": "主要特点",
+        "qualityAssured": "质量保证"
+      },
+      "injectables": {
+        "label": "注射剂",
+        "certified": "无菌设施",
+        "alt": "注射剂部门",
+        "exploreTitle": "探索我们的注射剂",
+        "features": [
+          "睾酮混合物",
+          "合成代谢酯类",
+          "治疗性注射液"
+        ],
+        "button": "探索注射剂",
+        "title": "注射剂部门",
+        "description": "优质无菌注射制剂，包括睾酮混合物、合成代谢酯类和专业治疗溶液。在ISO认证的无菌设施中生产，确保最大纯度、安全和剂量准确性。",
+        "keyFeatures": "主要特点",
+        "sterility": "无菌保证"
+      },
+      "help": {
+        "title": "需要帮助选择吗？",
+        "description": "咨询我们的制药专家，获取个性化指导。",
+        "button": "联系我们的专家"
+      }
     },
-    "statsBlock": {
+    "stats": {
+      "title": "我们的数据影响",
       "countriesServed": "服务国家",
-      "productsFormulated": "研发产品",
+      "productsFormulated": "配方产品",
       "therapeuticSegments": "治疗领域",
       "qualityCommitment": "质量承诺"
     },
-    "categories": [
-      "哮喘",
-      "甲状腺护理",
-      "减重管理",
-      "高血糖",
-      "血压管理"
-    ]
+    "about": {
+      "title": "关于 NovaTech",
+      "description": "NovaTech Sciences 致力于提供创新的健康解决方案和值得信赖的药品。我们的使命是通过先进、经济实惠和可靠的保健产品提高生活质量。"
+    },
+    "blog": {
+      "title": "健康提示 & 博客",
+      "items": [
+        {
+          "title": "糖尿病自然管理",
+          "text": "生活方式建议和预防措施，有效管理血糖。"
+        },
+        {
+          "title": "哮喘护理提示",
+          "text": "控制哮喘和预防发作的指南。"
+        },
+        {
+          "title": "安全减肥",
+          "text": "通过安全和可持续的实践实现您的健康目标。"
+        }
+      ]
+    },
+    "cta": {
+      "title": "成为 NovaTech Sciences 的合作伙伴",
+      "description": "与我们合作，将创新的制药和营养保健品解决方案带入全球市场。",
+      "button": "联系我们"
+    }
+  },
+  "antiCounterfeit": {
+    "header": {
+      "title": "产品真伪验证",
+      "subtitle": "使用唯一的序列号和验证码验证您的 NovaTech 产品的真实性。"
+    },
+    "form": {
+      "title": "验证您的产品",
+      "mfgDate": {
+        "label": "生产日期",
+        "placeholder": "选择生产日期"
+      },
+      "serialNumber": {
+        "label": "序列号",
+        "placeholder": "输入产品序列号"
+      },
+      "authCode": {
+        "label": "验证码",
+        "placeholder": "输入验证码"
+      },
+      "submit": "立即验证"
+    },
+    "result": {
+      "success": "✅ 此产品为正品并已验证。",
+      "error": "❌ 无效凭据。请检查并重试。"
+    },
+    "note": {
+      "title": "重要说明",
+      "text": "序列号和验证码位于产品包装上。请妥善保管以防滥用。"
+    },
+    "warning": {
+      "title": "警告",
+      "text": "假冒产品可能有害。请始终从授权经销商处购买并在此验证您的产品。"
+    }
+  },
+   "featuredSection": {
+    "title": "特色产品部门",
+    "description": "探索 NovaTech 的专业部门，旨在满足制药卓越性的最高标准——从固体配方到无菌注射剂。",
+    "categories": {
+      "tablets": {
+        "name": "片剂部门",
+        "description": "高精度口服配方，专为强度、稳定性和纯度而设计。"
+      },
+      "injectables": {
+        "name": "注射剂部门",
+        "description": "无菌和受控注射剂，确保快速生物利用度和疗效。"
+      }
+    },
+    "viewAllCategories": "查看全部",
+    "viewAllProducts": "查看所有 {category} 产品",
+    "noProducts": "此部门尚无可用产品。"
   }
-  
+  ,
+   "productsPage": {
+    "title": "我们的产品组合",
+    "subtitle": "按类别、产品名称或剂量强度浏览。",
+    "noProducts": "未找到产品。",
+    "filters": {
+      "title": "筛选器",
+      "category": "类别",
+      "product": "产品",
+      "dosageStrength": "剂量强度",
+      "all": "全部",
+      "filterButton": "筛选",
+      "applyButton": "应用筛选器"
+    }
+  }
 }

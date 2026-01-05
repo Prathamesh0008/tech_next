@@ -1,0 +1,1641 @@
+{
+  "tablet": [
+    {
+      "id": "tab-femanova-let-25",
+      "name": "FEMANOVA",
+      "category": "片剂",
+      "cas": "112809-51-5",
+      "description": "来曲唑 2.5 毫克，药物级芳香酶抑制剂，用于雌激素控制和激素调节。",
+      "indication": "FEMANOVA（来曲唑 2.5 毫克）是一种药物级产品，通常用于激素依赖性乳腺癌治疗、雌激素抑制以及生育治疗中的促排卵。在运动和健美领域，来曲唑作为一种强大的雌激素控制药物被广泛知晓，常用于合成代谢类固醇周期中，帮助管理雌激素相关的副作用。其降低雌激素水平的能力，使其成为寻求雌激素平衡、周期后恢复支持以及在类固醇使用期间或之后改善激素稳定性的使用者值得信赖的选择。FEMANOVA 由 NovaTech Sciences 生产，遵循严格的质量控制标准，确保高纯度、稳定的效力和可靠的药物性能。",
+      "presentation": "剂型：口服片剂\n规格：每片含 2.5 毫克来曲唑\n包装：盒装，内含 10 片\n片剂类型：高纯度药物级配方\n用途类别：雌激素抑制 / 激素控制\n适用对象：医疗用途、类固醇周期中的雌激素管理、周期后治疗\n储存：存放于阴凉干燥处，避免阳光直射\n生产商：NovaTech Sciences",
+      "shortDescription": "高纯度芳香酶抑制剂，提供可靠的雌激素控制。",
+      "precautions": "在使用 FEMANOVA（来曲唑 2.5 毫克）前，请务必咨询您的医疗服务提供者。这种芳香酶抑制剂效力强，应在适当的医疗指导下使用，尤其是在用于激素调节、雌激素控制或周期后治疗时。\n\n 请严格按照处方使用 FEMANOVA，以避免激素失衡。\n 建议定期进行血液检查以监测雌激素抑制水平。\n 如果您正在服用任何激素类药物、类固醇或生育治疗药物，请告知您的医生。\n 每天在同一时间服药，以保持稳定的雌激素调节。\n 避免饮酒或使用可能干扰雌激素控制疗法的物质。\n 储存于阴凉干燥处，避免阳光直射。\n\n",
+      "contraindications": "如果您对来曲唑或 FEMANOVA 中的任何非活性成分过敏，请勿使用。\n 由于强效的雌激素抑制作用，不建议孕妇或哺乳期妇女使用。\n 除非有专科医生建议，否则避免用于严重肝病患者。\n 不适合绝经前女性使用，除非在严格的医疗监护下。\n 如果出现不寻常的副作用，请立即停止使用并寻求医疗帮助。",
+      "images": [],
+      "seoTitle": "FEMANOVA 来曲唑 2.5 毫克片剂 | NovaTech Sciences",
+      "seoDescription": "探索 NovaTech Sciences 出品的 FEMANOVA（来曲唑 2.5 毫克）片剂，专为精准的雌激素控制和可靠的激素平衡而设计。",
+      "seoKeywords": "Femanova 片剂, 来曲唑 2.5 毫克, 类固醇雌激素控制, 芳香酶抑制剂, 药物级激素调节剂",
+      "seoRobots": "index, follow",
+      "seoCanonical": "https://www.novatechsciences.com/products/tablets/femanova",
+      "schemaBrand": "NovaTech Sciences",
+      "schemaCategory": "药物片剂",
+      "schemaType": "Product",
+      "faq": [
+        {
+          "question": "我应该如何使用这种药物？",
+          "answer": "FEMANOVA（来曲唑 2.5 毫克）应严格按照您的医疗保健专业人员的指导服用。每日在同一时间服用一片，以实现持续的雌激素控制。"
+        },
+        {
+          "question": "FEMANOVA 是什么？",
+          "answer": "FEMANOVA 含有来曲唑 2.5 毫克，是一种药物级芳香酶抑制剂，用于医疗和激素调节方案中的雌激素降低和激素平衡。"
+        },
+        {
+          "question": "我可以随餐服用这种药物吗？",
+          "answer": "可以，FEMANOVA 可随餐或空腹服用。随餐服用可能有助于减少胃部不适。"
+        },
+        {
+          "question": "如果我漏服了一次剂量该怎么办？",
+          "answer": "如果漏服，请在想起时尽快补服。如果已接近下一次计划服药时间，则跳过漏服的剂量。切勿服用双倍剂量。"
+        },
+        {
+          "question": "这种药物对孕妇或哺乳期妇女安全吗？",
+          "answer": "不安全。FEMANOVA（来曲唑 2.5 毫克）由于强烈的降雌激素作用，对孕妇或哺乳期妇女不安全。"
+        }
+      ]
+    },
+    {
+      "id": "tab-tamonova-20",
+      "name": "TAMONOVA",
+      "category": "片剂",
+      "cas": "54965-24-1",
+      "description": "他莫昔芬柠檬酸盐 20 毫克，药物级雌激素受体阻滞剂，用于激素调节和周期后治疗 (PCT)。",
+      "indication": "TAMONOVA（他莫昔芬柠檬酸盐 20 毫克）适用于阻断雌激素受体并调节体内的雌激素活性。常用于周期后治疗 (PCT)，帮助在类固醇周期后恢复天然睾酮水平，并降低雌激素相关副作用（如男性乳房发育、水肿和激素失衡）的风险。该产品在健美和健身领域因其在 PCT 方案中的重要作用而被广泛认可，使其成为使用合成代谢类固醇并需要有效雌激素控制的运动员值得信赖的选择。TAMONOVA 由 NovaTech Sciences 在严格的质量标准下生产，确保效力稳定、纯度高且药物性能可靠。",
+      "presentation": "剂型：口服片剂\n规格：每片含 20 毫克他莫昔芬柠檬酸盐\n包装：泡罩包装，10 片/板\n片剂类型：高质量药物级配方\n用途类别：周期后治疗 (PCT)、雌激素调节、激素平衡\n适用对象：类固醇使用者、健美、健身和激素支持方案\n储存：存放于阴凉干燥处，避免阳光直射\n生产商：NovaTech Sciences",
+      "shortDescription": "优质他莫昔芬柠檬酸盐片剂，用于有效的雌激素控制和 PCT。",
+      "precautions": "在使用 TAMONOVA（他莫昔芬柠檬酸盐 20 毫克）前，请务必咨询合格的医疗保健提供者。仅在适当的医疗指导下使用，尤其是在用于 PCT 或激素调节时。\n 遵循处方剂量以避免激素失衡。\n 告知医生您正在使用的所有药物、补充剂或类固醇周期。\n 监测身体的任何异常症状并向医疗保健提供者报告。\n 放在儿童接触不到的地方，并存放在阴凉干燥的安全处。\n 避免饮酒或可能干扰激素调节的物质。\n",
+      "contraindications": "如果您对他莫昔芬柠檬酸盐或任何非活性成分过敏，请勿使用。\n 不建议孕妇或哺乳期妇女使用。\n 除非经医生批准，否则避免用于有血栓病史、肝脏疾病或激素敏感性疾病史的个体。\n 如果出现严重副作用，请停止使用并寻求医疗帮助。\n",
+      "images": [],
+      "seoTitle": "Tamonova 20 毫克 | NovaTech 他莫昔芬柠檬酸盐片剂",
+      "seoDescription": "Tamonova（他莫昔芬柠檬酸盐 20 毫克）片剂，专为雌激素控制和周期后激素平衡而配制，品质值得信赖。",
+      "seoKeywords": "他莫昔芬 20毫克, 购买他莫昔芬片剂, 激素平衡片剂, 周期后治疗, PCT 片剂, 雌激素阻断剂",
+      "seoRobots": "index, follow",
+      "seoCanonical": "https://www.novatechsciences.com/products/tablets/tamonova",
+      "schemaBrand": "NovaTech Sciences",
+      "schemaCategory": "药物片剂",
+      "schemaType": "Product",
+      "faq": [
+        {
+          "question": "TAMONOVA 用于周期后治疗 (PCT) 吗？",
+          "answer": "是的。TAMONOVA 广泛用于周期后治疗，帮助调节雌激素水平并支持合成代谢类固醇周期后的自然激素恢复。仅应在专业指导下使用。"
+        },
+        {
+          "question": "TAMONOVA 有助于治疗男性乳房发育吗？",
+          "answer": "TAMONOVA 可能有助于减少雌激素相关影响，因此许多类固醇使用者将其纳入 PCT 方案以管理男性乳房发育的早期迹象。使用前请务必咨询医生意见。"
+        },
+        {
+          "question": "在 PCT 期间，我应该服用 TAMONOVA 多长时间？",
+          "answer": "TAMONOVA 在 PCT 方案中的使用时长因人而异，取决于个人需求和医疗指导。只有医疗保健专业人员才能推荐安全的时间范围。"
+        },
+        {
+          "question": "初学者可以在类固醇周期后使用 TAMONOVA 吗？",
+          "answer": "使用合成代谢类固醇的初学者通常会在他们的 PCT 计划中加入 TAMONOVA 以进行雌激素控制和激素恢复。适当的医疗指导对于确保安全至关重要。"
+        },
+        {
+          "question": "TAMONOVA 有副作用吗？",
+          "answer": "与所有药物一样，TAMONOVA 可能会根据个体反应引起副作用。请监测您身体的反应，如果出现异常症状，请咨询医疗保健提供者。"
+        }
+      ]
+    },
+    {
+      "id": "tab-novazole-1",
+      "name": "NOVAZOLE",
+      "category": "片剂",
+      "cas": "120511-73-1",
+      "description": "NOVAZOLE（阿那曲唑 1 毫克）药物级芳香酶抑制剂，用于雌激素控制、激素平衡和周期后支持。",
+      "indication": "NOVAZOLE（阿那曲唑 1 毫克）适用于通过阻断芳香酶活性来降低体内升高的雌激素水平。在医疗上用于乳腺癌治疗，在健美和类固醇社区中非常受欢迎，用于控制雌激素转化、预防男性乳房发育、减少水肿，并在类固醇周期和 PCT 期间支持激素平衡。NOVAZOLE 帮助使用者在管理合成代谢类固醇引起的雌激素峰值的同时，保持精瘦、干燥且无副作用的体格。NOVAZOLE 由 NovaTech Sciences 在严格的质量标准下生产，确保效力稳定和纯度高。",
+      "presentation": "剂型：口服片剂\n规格：每片含 1 毫克阿那曲唑\n包装：泡罩包装，10 片/板\n片剂类型：高质量药物级配方\n用途类别：周期内雌激素管理、PCT、激素平衡\n适用对象：运动员、健美者、需要芳香酶抑制剂支持的类固醇使用者\n储存：存放于阴凉干燥处，避免潮湿\n生产商：NovaTech Sciences",
+      "shortDescription": "优质阿那曲唑片剂，用于有效的雌激素控制和周期后治疗。",
+      "precautions": "务必在合格医疗保健提供者的监督下使用 NOVAZOLE（阿那曲唑 1 毫克）。\n 遵循处方剂量；避免自行用药。\n 告知医生您所有的激素治疗、补充剂或类固醇周期。\n 监测关节痛、头晕、疲劳或其他异常副作用。\n 储存于阴凉干燥处；放在儿童接触不到的地方。\n 使用 NOVAZOLE 期间避免饮酒或娱乐性物质。",
+      "contraindications": "如果您对阿那曲唑或配方中的任何成分过敏，请勿使用。\n 不适合孕妇或哺乳期妇女使用。\n 除非医生建议，否则避免用于已存在雌激素缺乏的个体。\n 严重肾功能或肝功能不全者仅应在医疗监督下使用。\n 切勿与酒精或娱乐性物质同时使用。",
+      "images": [],
+      "seoTitle": "Novazole 阿那曲唑 1 毫克 | 雌激素控制片剂",
+      "seoDescription": "Novazole（阿那曲唑 1 毫克）片剂，用于有效的雌激素管理和激素平衡。值得信赖的药物级配方，适用于受控使用。",
+      "seoKeywords": "阿那曲唑 1 毫克, NOVAZOLE 片剂, 雌激素控制, 芳香酶抑制剂, PCT 支持, 激素平衡",
+      "seoRobots": "index, follow",
+      "seoCanonical": "https://www.novatechsciences.com/products/tablets/novazole",
+      "schemaBrand": "NovaTech Sciences",
+      "schemaCategory": "药物片剂",
+      "schemaType": "Product",
+      "faq": [
+        {
+          "question": "NOVAZOLE 需要多长时间起效？",
+          "answer": "NOVAZOLE 通常会在几天内开始显示改善效果，但完全效果取决于个体激素水平和类固醇周期。继续按处方服用以确保完全疗效。"
+        },
+        {
+          "question": "NOVAZOLE 用于什么？",
+          "answer": "NOVAZOLE 含有阿那曲唑 1 毫克，是一种芳香酶抑制剂，用于健美或医疗方案中的雌激素控制、激素平衡和周期后治疗 (PCT)。"
+        },
+        {
+          "question": "NOVAZOLE 有什么副作用吗？",
+          "answer": "常见的副作用可能包括头痛、恶心、胃痛或头晕。大多数是轻微且暂时的。如果出现严重反应，请寻求医疗帮助。"
+        },
+        {
+          "question": "服用 NOVAZOLE 期间可以喝酒吗？",
+          "answer": "服用 NOVAZOLE 期间最好避免饮酒，因为酒精可能会增加副作用或干扰药物的有效性。"
+        },
+        {
+          "question": "NOVAZOLE 会与其他药物相互作用吗？",
+          "answer": "是的。NOVAZOLE 可能与某些药物发生相互作用，包括抗凝剂、抗生素或激素治疗。请务必告知您的医疗保健提供者您正在服用的所有药物和补充剂。"
+        }
+      ]
+    },
+    {
+      "id": "tab-aromanova-25",
+      "name": "AROMANOVA",
+      "category": "片剂",
+      "cas": "107868-30-4",
+      "description": "AROMANOVA（依西美坦 25 毫克）药物级芳香酶抑制剂，用于雌激素控制、周期后治疗 (PCT) 和激素平衡。",
+      "indication": "AROMANOVA（依西美坦 25 毫克）是一种先进的芳香酶抑制剂 (AI)，旨在降低升高的雌激素水平。它有助于控制类固醇周期期间和之后雌激素相关的副作用，如男性乳房发育、水肿和激素失衡。依西美坦广泛用于周期后治疗 (PCT)，通过阻断雌激素转化来支持更平稳的激素恢复，确保最佳表现、瘦肌肉保持和改善的体格效果。始终在专业监督下使用。",
+      "presentation": "剂型：口服片剂\n规格：每片含 25 毫克依西美坦\n包装：10 片/盒，高质量片剂\n片剂类型：药物级，强效雌激素抑制剂\n用途类别：周期内雌激素控制、周期后治疗 (PCT)、激素平衡\n适用对象：运动员、健美者、寻求芳香酶抑制剂支持的类固醇使用者\n储存：存放于阴凉干燥处，避免阳光直射\n生产商：NovaTech Sciences",
+      "shortDescription": "高效力依西美坦片剂，用于先进的雌激素控制和 PCT 支持。",
+      "precautions": "务必在合格医疗保健提供者的监督下使用 AROMANOVA。\n 遵循处方剂量并避免自行用药。\n 告知医生您所有的药物、补充剂或激素治疗。\n 放在儿童接触不到的地方；存放于阴凉干燥处。\n 避免饮酒或可能干扰激素治疗的物质。\n 监测异常症状，如严重疲劳、头晕或过敏反应。",
+      "contraindications": "如果您对依西美坦或任何非活性成分过敏，请勿使用。\n 孕妇或哺乳期妇女禁用。\n 除非医疗保健提供者指示，否则避免用于绝经前女性。\n 有严重肝或肾疾病的个体慎用。\n 除非在医疗专业人员监督下，否则不应与强烈影响雌激素水平的其他药物联合使用。",
+      "images": [],
+      "seoTitle": "AROMANOVA（依西美坦 25 毫克）| NovaTech Sciences",
+      "seoDescription": "探索 NovaTech Sciences 的 AROMANOVA 依西美坦 25 毫克片剂，采用药物级品质开发，用于受控的雌激素支持。",
+      "seoKeywords": "依西美坦 25毫克, AROMANOVA 片剂, 芳香酶抑制剂, 雌激素控制, 周期后治疗, PCT 支持",
+      "seoRobots": "index, follow",
+      "seoCanonical": "https://www.novatechsciences.com/products/tablets/aromanova",
+      "schemaBrand": "NovaTech Sciences",
+      "schemaCategory": "药物片剂",
+      "schemaType": "Product",
+      "faq": [
+        {
+          "question": "AROMANOVA 需要多长时间才能显示效果？",
+          "answer": "AROMANOVA 通常在几天内开始起效，具体取决于个体激素水平和剂量。继续按指示定期服用以获得全部益处。"
+        },
+        {
+          "question": "AROMANOVA 有什么副作用吗？",
+          "answer": "常见的副作用可能包括轻微头痛、恶心或消化不适。如果出现严重或不寻常的反应，请寻求医疗帮助。"
+        },
+        {
+          "question": "我可以将 AROMANOVA 与其他药物一起服用吗？",
+          "answer": "某些药物可能与 AROMANOVA 相互作用，影响疗效或引起副作用。请告知医生您正在服用的所有药物和补充剂。"
+        },
+        {
+          "question": "AROMANOVA 长期使用安全吗？",
+          "answer": "在医疗监督下，AROMANOVA 通常是安全的。未经咨询医疗保健专业人员，请勿超过处方剂量或使用时间。"
+        },
+        {
+          "question": "服用 AROMANOVA 期间可以喝酒吗？",
+          "answer": "使用 AROMANOVA 期间应避免饮酒，因为酒精可能会增加副作用并干扰吸收和有效性。"
+        }
+      ]
+    },
+    {
+      "id": "tab-enclominova-25",
+      "name": "ENCLOMINOVA",
+      "category": "片剂",
+      "cas": "7599-79-3",
+      "description": "ENCLOMINOVA（恩氯米芬柠檬酸盐 25 毫克）药物级片剂，用于提升天然睾酮水平、支持周期后治疗 (PCT) 和恢复激素平衡。",
+      "indication": "ENCLOMINOVA（恩氯米芬柠檬酸盐 25 毫克）通常用于提升天然睾酮，支持合成代谢类固醇周期后的周期后治疗 (PCT)，以及恢复激素平衡。它也被处方用于男性不育症，通过刺激内源性激素释放来促进健康的睾酮生成。许多运动员和健美者使用 ENCLOMINOVA 来在类固醇周期后更快恢复、改善活力和增强整体内分泌功能。始终在适当的医疗监督下使用。",
+      "presentation": "剂型：口服片剂\n规格：每片含 25 毫克恩氯米芬柠檬酸盐\n包装：盒装，10 片/盒\n片剂类型：药物级，睾酮支持配方\n用途类别：周期后治疗 (PCT)、睾酮提升、内分泌支持\n适用对象：运动员、健美者、类固醇周期后恢复的男性，以及需要激素支持的使用者\n储存：存放于阴凉干燥处，避免阳光直射\n生产商：Nova TechSciences",
+      "shortDescription": "优质恩氯米芬柠檬酸盐片剂，用于睾酮提升、PCT 恢复和激素平衡。",
+      "precautions": "务必在医疗监督下使用 ENCLOMINOVA。\n 遵循处方剂量并避免自行用药。\n 告知医生您所有的药物、补充剂或激素治疗。\n 放在儿童接触不到的地方并安全储存。\n 避免饮酒或可能干扰激素恢复的物质。\n 监测激素水平并向您的医疗保健提供者报告任何异常症状。",
+      "contraindications": "如果您对恩氯米芬或任何非活性成分过敏，请勿使用。\n 不适合孕妇或哺乳期妇女使用。\n 避免用于有肝脏疾病、严重肾脏问题或激素敏感性疾病的个体。\n 除非经医生批准，否则不适合未受控制的甲状腺或垂体疾病患者，或某些生殖健康问题的个体。\n 除非在医生监督下，否则避免与其他改变激素的补充剂、合成代谢类固醇、SARMs 或药物联合使用。\n 如果出现严重头痛、视力变化、情绪障碍或异常症状，请立即停用。",
+      "images": [],
+      "seoTitle": "ENCLOMINOVA 25毫克 | 恩氯米芬柠檬酸盐片剂在线购买",
+      "seoDescription": "ENCLOMINOVA（恩氯米芬柠檬酸盐 25 毫克）片剂，采用药物级品质，支持天然睾酮恢复和激素平衡。",
+      "seoKeywords": "Enclominova, 恩氯米芬 25毫克, 睾酮促进片剂, PCT 支持, 激素平衡",
+      "seoRobots": "index, follow",
+      "seoCanonical": "https://www.novatechsciences.com/products/tablets/enclominova",
+      "schemaBrand": "Nova TechSciences",
+      "schemaCategory": "药物片剂",
+      "schemaType": "Product",
+      "faq": [
+        {
+          "question": "ENCLOMINOVA 在怀孕或哺乳期间使用安全吗？",
+          "answer": "除非医生处方，否则 ENCLOMINOVA 不应在怀孕或哺乳期间使用。它可能影响胎儿或哺乳婴儿。使用前请务必咨询您的医疗保健提供者。"
+        },
+        {
+          "question": "ENCLOMINOVA 需要多长时间才能显示改善？",
+          "answer": "大多数人会在几天到几周内注意到益处，具体取决于个人状况。按照医生的指示持续使用可确保最大效果。"
+        },
+        {
+          "question": "ENCLOMINOVA 有什么常见的副作用吗？",
+          "answer": "常见的副作用可能包括头痛、恶心、头晕或消化不适。这些通常会自行改善。如果出现严重或不寻常的反应，请咨询医生意见。"
+        },
+        {
+          "question": "ENCLOMINOVA 会与其他药物相互作用吗？",
+          "answer": "ENCLOMINOVA 可能与某些药物、补充剂或草药产品发生相互作用。请告知医生您正在服用的所有物质，以防止不必要的相互作用。"
+        },
+        {
+          "question": "哪些人应避免服用 ENCLOMINOVA？",
+          "answer": "有过敏史、肝脏疾病、激素问题，或孕妇或哺乳期妇女应避免使用 ENCLOMINOVA，除非得到医疗保健提供者的批准。"
+        }
+      ]
+    },
+    {
+      "id": "tab-primonova-25",
+      "name": "PRIMONOVA",
+      "category": "片剂",
+      "cas": "434-05-9",
+      "description": "PRIMONOVA（美替诺龙醋酸酯 25 毫克）优质合成代谢类固醇片剂，用于瘦肌肉保留、减脂周期和身体重组。适合寻求干净增肌、肌肉硬度和最小水肿的运动员。",
+      "indication": "PRIMONOVA（美替诺龙醋酸酯 25 毫克）适用于寻求温和但有效的合成代谢类固醇的使用者，它能促进瘦肌肉增长、肌肉保留和增强恢复。作为 Primobolan 的口服替代品，它在减脂、重组或赛前阶段支持氮保留、力量和表现。PRIMONOVA 常用于减脂周期、赛前准备和瘦肌肉维持，受到寻求稳定、可持续体格改善的男性和女性的信赖。",
+      "presentation": "剂型：口服片剂\n规格：每片含 25 毫克美替诺龙醋酸酯\n包装：50 片/瓶\n片剂类型：药物级，温和合成代谢类固醇\n用途类别：减脂周期、瘦肌肉增长、肌肉保留、身体重组\n适用对象：运动员、健美者、健身爱好者\n储存：存放于阴凉干燥处，避免阳光直射\n生产商：Nova TechSciences",
+      "shortDescription": "高质量美替诺龙醋酸酯片剂，用于干净的肌肉增长、减脂周期和表现提升。",
+      "precautions": "务必在医疗监督下使用 PRIMONOVA。\n 遵循处方剂量；避免自行用药。\n 告知医生您所有的药物、补充剂或类固醇使用情况。\n 不建议用于有肝脏、肾脏或心脏疾病的个体。\n 怀孕或哺乳期间避免使用。\n 放在儿童接触不到的地方，安全存放在阴凉干燥处。\n 避免饮酒或娱乐性物质。\n 监测异常症状，如严重头痛、肿胀或情绪变化。",
+      "contraindications": "如果您对美替诺龙醋酸酯或任何非活性成分过敏，请勿使用。\n 不适合 18 岁以下个体使用，除非有认证专业人员建议。\n 如果出现不寻常或严重的反应，请立即寻求医疗帮助。\n 避免滥用或超过推荐剂量，以防止激素失衡或副作用。",
+      "images": [],
+      "seoTitle": "Primonova（美替诺龙醋酸酯 25 毫克）片剂",
+      "seoDescription": "Primonova 片剂含有美替诺龙醋酸酯 25 毫克，专为支持瘦肌肉发育和以减脂为重点的表现目标而配制。",
+      "seoKeywords": "Primonova, Primobolan 片剂, 在线购买 Primobolan, 美替诺龙醋酸酯片剂, 瘦肌肉增长, 减脂周期",
+      "seoRobots": "index, follow",
+      "seoCanonical": "https://www.novatechsciences.com/products/tablets/primonova",
+      "schemaBrand": "Nova TechSciences",
+      "schemaCategory": "药物片剂",
+      "schemaType": "Product",
+      "faq": [
+        {
+          "question": "PRIMONOVA 需要多长时间才能看到效果？",
+          "answer": "使用者通常会在 2-4 周内看到可见效果。美替诺龙醋酸酯的温和合成代谢作用支持稳定的瘦肌肉发育和身体重组，前提是配合适当的饮食和训练。"
+        },
+        {
+          "question": "PRIMONOVA 对减脂周期有好处吗？",
+          "answer": "是的，Primonova 非常适合减脂周期。它有助于在支持减脂阶段的同时保留瘦肌肉，增强肌肉清晰度且不引起水肿。"
+        },
+        {
+          "question": "PRIMONOVA 会引起副作用吗？",
+          "answer": "PRIMONOVA 是一种温和的合成代谢类固醇，但可能引起轻微副作用，如头痛、轻度痤疮、情绪变化或消化不适。负责任使用下，严重副作用很少见。"
+        },
+        {
+          "question": "初学者可以使用 PRIMONOVA 吗？",
+          "answer": "是的，由于 Primonova 的低雄激素特性，它对初学者友好。但初学者在开始任何类固醇周期前应咨询医疗保健专业人士。"
+        },
+        {
+          "question": "使用 PRIMONOVA 后需要周期后治疗 (PCT) 吗？",
+          "answer": "建议在完成 Primonova 周期后进行 PCT，以恢复天然激素平衡并帮助保持肌肉增长，即使美替诺龙醋酸酯很温和。"
+        }
+      ]
+    },
+    {
+      "id": "tab-supernova-10",
+      "name": "SUPERNOVA",
+      "category": "片剂",
+      "cas": "3381-88-2",
+      "description": "SUPERNOVA（甲基屈他雄酮 10 毫克）是一种强大的口服合成代谢类固醇，旨在支持瘦肌肉增长、力量提升和改善运动表现。适合减脂周期、肌肉硬度和脂肪减少。",
+      "indication": "SUPERNOVA（甲基屈他雄酮 10 毫克）专为寻求快速力量增加、瘦肌肉增长和表现提升的使用者设计。在健美圈被称为 Superdrol，它帮助运动员获得致密、干燥的肌肉，没有多余的水肿。SUPERNOVA 常用于增肌、力量增长和重组周期，适合那些在专家监督下寻求干净肌肉、改善血管分布和表现提升的人。",
+      "presentation": "剂型：口服片剂\n规格：每片含 10 毫克甲基屈他雄酮\n包装：100 片/瓶\n片剂类型：口服合成代谢类固醇片剂\n用途类别：减脂周期、瘦肌肉增长、力量、重组\n适用对象：中级或有经验的运动员和健美者\n储存：存放于阴凉干燥处，避免阳光照射\n生产商：Nova TechSciences",
+      "shortDescription": "高效力甲基屈他雄酮片剂，用于快速增肌、力量和减脂周期。",
+      "precautions": "务必在严格的医疗监督下使用 SUPERNOVA。\n 遵循处方剂量；避免自行用药。\n 告知医生您所有的药物或类固醇周期。\n 放在儿童接触不到的地方；安全储存。\n 避免饮酒或给肝脏带来压力的物质。\n 除非获得批准，否则不适合有肝脏、肾脏、心脏或激素疾病的个体。\n 孕妇或哺乳期妇女不得使用本产品。\n 如果出现严重腹痛、黄疸或剧烈情绪变化，请立即寻求医疗帮助。\n 不要超过推荐剂量，以防止激素失衡或不良影响。",
+      "contraindications": "如果您对甲基屈他雄酮或任何其他活性成分过敏，请勿使用。\n 不建议初学者使用；更适合中级使用者。\n 除非在医疗保健专业人员监督下，否则避免与其他改变激素的物质联合使用。\n 如果出现不寻常或严重的反应，请停止使用并咨询医疗保健提供者。",
+      "images": [],
+      "seoTitle": "SUPERNOVA 甲基屈他雄酮 10 毫克 | Nova Techsciences",
+      "seoDescription": "SUPERNOVA 甲基屈他雄酮 10 毫克片剂旨在支持力量和肌肉发育。专为高级用户设计的优质配方。",
+      "seoKeywords": "美雄酮片剂, 在线购买美雄酮, 增肌类固醇, SUPERNOVA, 力量增强片剂",
+      "seoRobots": "index, follow",
+      "seoCanonical": "https://www.novatechsciences.com/products/tablets/supernova",
+      "schemaBrand": "Nova TechSciences",
+      "schemaCategory": "合成代谢类固醇片剂",
+      "schemaType": "Product",
+      "faq": [
+        {
+          "question": "SUPERNOVA 需要多长时间才能看到效果？",
+          "answer": "大多数使用者在使用 SUPERNOVA 甲基屈他雄酮 1-2 周内开始看到力量改善和瘦肌肉增强。体格上的可见变化通常在第 3 或第 4 周出现，具体取决于训练、饮食和周期遵守情况。"
+        },
+        {
+          "question": "我可以从 SUPERNOVA 中期待什么效果？",
+          "answer": "SUPERNOVA 促进干燥、瘦肌肉增长，改善力量、肌肉硬度、更好的血管分布和增强的表现。在减脂或重组周期中有效。"
+        },
+        {
+          "question": "SUPERNOVA 会引起副作用吗？",
+          "answer": "副作用可能包括头痛、轻微的肝脏负担、痤疮或情绪变化。负责任的剂量和周期支持可以降低风险。避免长期或高剂量使用。"
+        },
+        {
+          "question": "使用 SUPERNOVA 后需要 PCT 吗？",
+          "answer": "是的，建议在使用 SUPERNOVA 后进行周期后治疗 (PCT)，以恢复天然睾酮，防止激素骤降并保持肌肉增长。通常使用 SERMs 3-4 周。"
+        },
+        {
+          "question": "初学者可以使用 SUPERNOVA 吗？",
+          "answer": "SUPERNOVA 由于其效力，不适合初学者。它更适合有经验的中级类固醇使用者。初学者在使用前应咨询医疗专业人士。"
+        }
+      ]
+    },
+    {
+      "id": "tab-telinova-20",
+      "name": "TELINOVA",
+      "category": "片剂",
+      "cas": "144701-48-4",
+      "description": "TELINOVA（替米沙坦 20 毫克）药物级片剂，用于血压管理、心血管支持和健康促进。支持稳定的血压，改善血流并降低心血管事件风险。",
+      "indication": "TELINOVA（替米沙坦 20 毫克）适用于高血压（高血压）的管理以及降低中风和心脏病发作等心血管事件的风险。它通过放松血管、改善循环和支持长期心脏健康来帮助维持健康的血压水平。TELINOVA 常用于周期后治疗、高强度训练阶段或有心血管风险的个体，因其在医疗监督下稳定血压和增强心血管表现而受到信赖。",
+      "presentation": "剂型：口服片剂\n规格：每片含 20 毫克替米沙坦\n包装：泡罩包装，10 片/板\n片剂类型：药物级抗高血压药\n用途类别：血压管理、心血管支持、表现健康\n适用对象：需要血压控制、周期后治疗或心血管保护的个体\n储存：存放于阴凉干燥处，避免阳光直射和潮湿\n生产商：Nova TechSciences",
+      "shortDescription": "高质量替米沙坦片剂，用于高血压管理和心血管支持。",
+      "precautions": "务必在医疗监督下使用 TELINOVA。\n 遵循处方剂量；避免自行用药。\n 检查是否对替米沙坦或任何非活性成分过敏。\n 定期监测血压，尤其是在初始治疗期间。\n 告知医生您所有的药物、补充剂或表现增强化合物。\n 避免饮酒，因为它可能增强降压效果。\n 如果出现头晕，驾驶时需谨慎。\n 放在儿童接触不到的地方，存放于原包装中。",
+      "contraindications": "如果您怀孕、计划怀孕或正在哺乳，请勿使用 TELINOVA。\n 除非经医生批准，否则避免用于有严重肝或肾功能损害的个体。\n 未经医疗监督，请勿用于双侧肾动脉狭窄或严重心脏病的患者。\n 如果对替米沙坦或配方中的任何成分过敏，请避免使用。\n 如果出现异常症状，包括严重头晕、肿胀或呼吸困难，请立即寻求医疗帮助。",
+      "images": [],
+      "seoTitle": "Telinova 替米沙坦 20 毫克片剂 | NovaTech Sciences",
+      "seoDescription": "Telinova 含有替米沙坦 20 毫克，一种用于支持血压管理的药物片剂。由 NovaTech Sciences 生产，品质保证。",
+      "seoKeywords": "他达拉非 20毫克, 购买他达拉非片剂, Telinova 片剂, 血流促进剂, 表现增强剂, 健康支持",
+      "seoRobots": "index, follow",
+      "seoCanonical": "https://www.novatechsciences.com/products/tablets/telinova",
+      "schemaBrand": "Nova TechSciences",
+      "schemaCategory": "药物片剂",
+      "schemaType": "Product",
+      "faq": [
+        {
+          "question": "TELINOVA 需要多长时间起效？",
+          "answer": "TELINOVA 的效果因人而异。一些使用者几天内就会注意到改善，而另一些人可能需要更长时间。按照处方持续使用可确保最大获益。"
+        },
+        {
+          "question": "TELINOVA 片剂有什么副作用吗？",
+          "answer": "一些使用者可能会出现轻微的副作用，如恶心、头痛或胃部不适。这些通常会自行消失。如果症状持续，请咨询医疗保健专业人士。"
+        },
+        {
+          "question": "哪些人不应该服用 TELINOVA？",
+          "answer": "对 TELINOVA 成分过敏、有严重健康状况或正在服用冲突药物的个体应避免使用 TELINOVA，除非得到医疗保健提供者的批准。"
+        },
+        {
+          "question": "我可以将 TELINOVA 与其他药物一起服用吗？",
+          "answer": "在将 TELINOVA 与其他药物或补充剂联合使用前，请咨询您的医生，因为某些相互作用可能会降低疗效或增加副作用。"
+        },
+        {
+          "question": "我应该如何储存 TELINOVA 片剂？",
+          "answer": "将 TELINOVA 片剂储存在阴凉干燥处，避免阳光和潮湿。请保存在原包装中，并放在儿童接触不到的地方。"
+        }
+      ]
+    },
+    {
+      "id": "tab-turinova-10",
+      "name": "TURINOVA",
+      "category": "片剂",
+      "cas": "2446-23-3",
+      "description": "TURINOVA（氯去氢甲基睾酮 10 毫克）是一种药物级口服合成代谢类固醇片剂，旨在在专业监督下增强肌肉恢复、力量、耐力和表现。",
+      "indication": "TURINOVA（氯去氢甲基睾酮 10 毫克）适用于治疗性合成代谢支持、瘦肌肉保留、增强力量和改善运动恢复。以类似 Turinabol 的效果而闻名，它有助于提高肌肉耐力和表现。建议在有医疗监督的结构化合成代谢恢复周期中使用，TURINOVA 是需要受控合成代谢支持的个体的理想选择。",
+      "presentation": "剂型：口服片剂\n规格：每片含 10 毫克氯去氢甲基睾酮\n包装：50 片/瓶\n片剂类型：药物级合成代谢类固醇\n用途类别：肌肉恢复、力量增强、耐力、治疗性合成代谢支持\n适用对象：运动员、健美者以及在结构化合成代谢恢复周期中的个体\n储存：存放于阴凉干燥处，避免阳光照射\n生产商：Nova TechSciences",
+      "shortDescription": "高质量氯去氢甲基睾酮片剂，用于瘦肌肉、力量和表现支持。",
+      "precautions": "仅应在合格医疗保健专业人员的指导下使用 TURINOVA。\n 遵循推荐剂量；避免自行用药。\n 告知医生任何肝脏、肾脏、心脏或激素状况。\n 可能需要定期血液检查以监测肝酶和激素水平。\n 避免饮酒，因为它可能增加肝脏负担。\n 远离儿童；存放于阴凉干燥处。",
+      "contraindications": "如果您对氯去氢甲基睾酮或 TURINOVA 的任何成分过敏，请勿使用。\n 不适合有严重肝病或肝功能受损的个体使用。\n 孕妇或哺乳期妇女禁用。\n 避免用于前列腺癌、乳腺癌或激素敏感性疾病的个体。\n 不建议用于未受控制的高血压或严重心脏病的个体。\n 未经医疗监督，请勿与其他口服肝毒性物质或合成代谢类固醇联合使用。",
+      "images": [],
+      "seoTitle": "Turinova Turinabol 10 毫克 | 氯去氢甲基睾酮",
+      "seoDescription": "探索 Turinova Turinabol 片剂，含有氯去氢甲基睾酮 10 毫克，专注于质量、一致性和表现支持开发。",
+      "seoKeywords": "Turinabol 片剂, 在线购买 Turinabol, 干净增肌, 力量增强, TURINOVA 片剂",
+      "seoRobots": "index, follow",
+      "seoCanonical": "https://www.novatechsciences.com/products/tablets/turinova",
+      "schemaBrand": "Nova TechSciences",
+      "schemaCategory": "合成代谢类固醇片剂",
+      "schemaType": "Product",
+      "faq": [
+        {
+          "question": "TURINOVA 需要多长时间才能显示效果？",
+          "answer": "TURINOVA 的合成代谢效应可能在几天内开始，通常在 1-2 周内可见明显的肌肉恢复和力量改善。效果取决于剂量、周期时长和个体反应。"
+        },
+        {
+          "question": "TURINOVA 有副作用吗？",
+          "answer": "潜在的副作用可能包括轻微头痛、情绪变化、肝脏负担或激素失衡。负责任的剂量和医疗监督有助于降低风险。"
+        },
+        {
+          "question": "初学者可以使用 TURINOVA 吗？",
+          "answer": "初学者仅应在专业指导下使用 TURINOVA。尽管比许多合成代谢类固醇温和，但适当的剂量和监测对于安全的效果至关重要。"
+        },
+        {
+          "question": "我可以将 TURINOVA 与其他类固醇一起使用吗？",
+          "answer": "将 TURINOVA 与其他合成代谢类固醇堆叠使用仅应在医疗监督下进行。某些组合可能会增加益处，但也会增加副作用的风险。"
+        },
+        {
+          "question": "哪些人应避免使用 TURINOVA？",
+          "answer": "有肝脏、心脏或激素问题的个体，或正在服用冲突药物的个体，应避免使用 TURINOVA，除非得到医疗保健专业人员的许可。孕妇和未成年人不得使用合成代谢类固醇。"
+        }
+      ]
+    },
+    {
+      "id": "tab-nova-t4-50mcg",
+      "name": "NOVA_T4",
+      "category": "片剂",
+      "cas": "51-48-9",
+      "description": "NOVA_T4（左甲状腺素钠 T4 50 微克）药物级片剂，用于支持健康的甲状腺激素水平、新陈代谢、能量和激素平衡。适合甲状腺功能减退症管理以及在表现周期中的代谢支持。",
+      "indication": "NOVA_T4（左甲状腺素钠 T4 50 微克）适用于需要甲状腺激素替代或补充的个体。它有助于维持稳定的新陈代谢、能量和整体激素平衡。NOVA_T4 常在类固醇周期或表现方案中同时使用，在医疗监督下支持代谢稳定性和甲状腺功能。",
+      "presentation": "剂型：口服片剂\n规格：每片含 50 微克左甲状腺素钠 T4\n包装：泡罩包装，10 片/板\n片剂类型：精确剂量的 T4 片剂\n用途类别：甲状腺激素支持、新陈代谢调节、减脂支持\n适用对象：甲状腺功能减退症患者，或在表现周期中需要受调节的甲状腺支持的个体\n储存：存放于阴凉干燥处，避免潮湿和阳光\n生产商：NovaTech Sciences",
+      "shortDescription": "高质量左甲状腺素 T4 片剂，用于甲状腺激素支持、新陈代谢和能量。",
+      "precautions": "务必在医疗监督下使用 NOVA_T4。\n 遵循处方剂量；请勿自行用药。\n 告知医生您使用的任何类固醇、补充剂或激素药物。\n 避免用于未经治疗的肾上腺功能不全、急性心肌梗死、未受控制的甲状腺功能亢进症或严重心血管疾病的患者。\n 放在儿童接触不到的地方；存放于干燥阴凉处。\n 避免饮酒或可能干扰吸收的刺激性物质。\n 监测心率加快、胸痛、极度紧张或异常出汗等情况，如有需要请寻求医疗帮助。\n 孕妇或哺乳期妇女在使用前应咨询医生。",
+      "contraindications": "如果您对左甲状腺素或任何非活性成分过敏，请勿使用。\n 避免自行用药或在没有医疗监督的情况下与类固醇联合使用。\n 不适合未经治疗的肾上腺功能不全或严重心血管疾病的个体。\n 如果出现异常症状，请停用并寻求医疗帮助。",
+      "images": [],
+      "seoTitle": "NOVA-T4（左甲状腺素钠 50 微克）片剂 | Nova Techsciences",
+      "seoDescription": "NOVA-T4 是一种左甲状腺素钠 T4 50 微克片剂，专为医疗指导下的甲状腺激素补充和内分泌平衡配制。",
+      "seoKeywords": "左甲状腺素片剂, 在线购买左甲状腺素, T4 甲状腺激素片剂, 减脂甲状腺支持, NOVA_T4",
+      "seoRobots": "index, follow",
+      "seoCanonical": "https://www.novatechsciences.com/products/tablets/nova-t4",
+      "schemaBrand": "NovaTech Sciences",
+      "schemaCategory": "药物片剂",
+      "schemaType": "Product",
+      "faq": [
+        {
+          "question": "NOVA_T4 需要多长时间起效？",
+          "answer": "NOVA_T4 片剂会逐渐改善甲状腺激素水平。大多数使用者会在 2-4 周内注意到更好的能量和新陈代谢。根据剂量、甲状腺状况和医疗监测，完全稳定可能需要更长时间。"
+        },
+        {
+          "question": "我可以在类固醇周期中使用 NOVA_T4 吗？",
+          "answer": "一些使用者服用 NOVA_T4 来支持新陈代谢并在类固醇周期中维持甲状腺功能。这只能在医疗监督下进行，以避免激素失衡。"
+        },
+        {
+          "question": "NOVA_T4 有什么副作用吗？",
+          "answer": "可能的副作用包括紧张、头痛、心率加快或睡眠问题（如果剂量过高）。这些症状可能表明甲状腺激素过量。建议进行专业监测。"
+        },
+        {
+          "question": "我可以突然停用 NOVA_T4 吗？",
+          "answer": "不应突然停用 NOVA_T4，因为甲状腺激素水平可能迅速下降，导致疲劳、体重增加和新陈代谢减慢。始终应在医疗监督下逐渐减量或调整剂量。"
+        },
+        {
+          "question": "我应该如何储存 NOVA_T4 片剂？",
+          "answer": "将 NOVA_T4 片剂存放在阴凉干燥处，避免阳光和潮湿。保持泡罩包装密封直至使用，以保持效力。"
+        }
+      ]
+    },
+    {
+      "id": "tab-cabernova-0.5",
+      "name": "CABERNOVA",
+      "category": "片剂",
+      "cas": "81409-90-7",
+      "description": "CABERNOVA（卡麦角林 0.5 毫克）药物级片剂，旨在调节升高的催乳素水平、维持激素平衡并支持类固醇周期或 PCT 期间的恢复。",
+      "indication": "CABERNOVA（卡麦角林 0.5 毫克）有助于调节由合成代谢类固醇使用或激素失衡引起的高催乳素水平。它支持激素稳定性，预防催乳素相关的副作用，如情绪变化、水肿和性欲减退，并增强周期后治疗 (PCT) 的效果。CABERNOVA 被健美者、运动员和健身爱好者广泛使用，有助于维持最佳激素健康并改善整体周期表现。",
+      "presentation": "剂型：口服片剂\n规格：每片含 0.5 毫克卡麦角林\n包装：盒装，8 片/盒\n片剂类型：药物级催乳素控制片剂\n用途类别：催乳素管理、周期后治疗、激素平衡\n适用对象：运动员、健美者、类固醇使用者、健身爱好者\n储存：存放于阴凉干燥处，避免阳光直射\n生产商：Nova TechSciences",
+      "shortDescription": "优质卡麦角林片剂，用于催乳素控制、激素支持和增强恢复。",
+      "precautions": "务必在专业指导下使用 CABERNOVA。\n 遵循处方剂量；避免自行用药。\n 告知医生您所有的药物、补充剂或类固醇化合物。\n 避免饮酒或娱乐性物质，因为它们可能干扰多巴胺活性。\n 放在儿童接触不到的地方；存放于阴凉干燥处。\n 如果出现胸痛、严重头痛、视力变化或异常症状，请寻求医疗帮助。\n 除非获得医疗专业人士的批准，否则孕妇或哺乳期妇女应避免使用 CABERNOVA。",
+      "contraindications": "如果您对卡麦角林或其他麦角衍生物过敏，请勿使用。\n 如果您患有未受控制的高血压、心脏瓣膜疾病或严重心血管疾病，请避免使用。\n 如果出现严重或异常症状，请停用并寻求医疗帮助。\n 仅在医疗监督下用于类固醇周期或 PCT。",
+      "images": [],
+      "seoTitle": "CABERNOVA（卡麦角林 0.5 毫克）片剂 – 高级催乳素支持",
+      "seoDescription": "订购 CABERNOVA（卡麦角林 0.5 毫克）片剂，用于可靠的催乳素管理和激素调节。值得信赖的药物级配方。",
+      "seoKeywords": "卡麦角林片剂, 在线购买卡麦角林, 降低催乳素水平, 卡麦角林 0.5毫克, 激素平衡, PCT 支持",
+      "seoRobots": "index, follow",
+      "seoCanonical": "https://www.novatechsciences.com/products/tablets/cabernova",
+      "schemaBrand": "Nova TechSciences",
+      "schemaCategory": "药物片剂",
+      "schemaType": "Product",
+      "faq": [
+        {
+          "question": "卡麦角林在类固醇周期中如何帮助？",
+          "answer": "卡麦角林有助于管理特定合成代谢类固醇引起的高催乳素水平。通过降低催乳素，CABERNOVA 支持性欲，降低男性乳房发育风险，维持激素平衡，并改善类固醇周期中的恢复。"
+        },
+        {
+          "question": "CABERNOVA 需要多长时间才能起效？",
+          "answer": "CABERNOVA 在几天内开始降低催乳素水平，而全部益处通常出现在 2 到 4 周内。在类固醇周期中持续使用有助于维持稳定的激素水平。"
+        },
+        {
+          "question": "CABERNOVA 有什么常见的副作用吗？",
+          "answer": "一些使用者在使用卡麦角林时可能会出现轻微的恶心、头晕或头痛。这些影响通常是暂时的，如果正确使用，卡麦角林的耐受性通常很好。"
+        },
+        {
+          "question": "健美者可以安全地使用卡麦角林吗？",
+          "answer": "可以，健美者通常在类固醇周期中安全地使用卡麦角林进行催乳素管理。正确剂量的 CABERNOVA 有助于减少类似雌激素的副作用，维持激素平衡，并支持表现。"
+        },
+        {
+          "question": "我需要处方才能购买 CABERNOVA 吗？",
+          "answer": "CABERNOVA 含有卡麦角林，通常需要医疗指导或处方。咨询医疗保健专业人士可确保适当的催乳素控制，并降低激素相关问题的风险。"
+        }
+      ]
+    },
+    {
+      "id": "tab-halonova-5",
+      "name": "HALONOVA",
+      "category": "片剂",
+      "cas": "76-43-7",
+      "description": "HALONOVA（氟甲睾酮 5 毫克）药物级片剂，旨在支持睾酮水平、增强力量和保留瘦肌肉。适合在监督下进行治疗性使用和表现提升。",
+      "indication": "HALONOVA（氟甲睾酮 5 毫克）适用于临床上睾酮水平低的个体的睾酮替代疗法。它在医疗监督的病例中支持雄激素平衡、肌肉保留、力量维持和整体雄激素功能。在受控的治疗计划中使用，HALONOVA 有助于安全地改善低睾酮相关症状。",
+      "presentation": "剂型：口服片剂\n规格：每片含 5 毫克氟甲睾酮\n包装：泡罩包装，10 片/板\n片剂类型：药物级合成代谢类固醇\n用途类别：睾酮支持、肌肉保留、力量增强\n适用对象：睾酮水平低的患者，需要医疗监督\n储存：存放于阴凉干燥处\n生产商：Nova Tech Sciences",
+      "shortDescription": "高质量氟甲睾酮片剂，用于睾酮支持、肌肉保留和力量增强。",
+      "precautions": "仅在医疗监督下使用 HALONOVA。\n 遵循处方剂量；避免自行用药。\n 告知医生您所有的药物、补充剂或类固醇。\n 避免饮酒和娱乐性物质以减轻肝脏负担。\n 放在儿童接触不到的地方；存放于阴凉干燥处。\n 如果出现异常症状，如呼吸困难、肿胀或严重情绪变化，请寻求医疗帮助。\n 不要超过推荐剂量以最小化不良反应的风险。",
+      "contraindications": "如果您对氟甲睾酮或 HALONOVA 的任何成分过敏，请勿使用。\n 不建议用于有肝脏、肾脏或心脏疾病的个体。\n 不适合孕妇或哺乳期妇女使用。\n 如果出现异常或严重症状，请停用并寻求医疗建议。\n 仅在医疗监督下使用。",
+      "images": [],
+      "seoTitle": "HALONOVA（氟甲睾酮 5 毫克）| Nova Techsciences Halotestin 片剂",
+      "seoDescription": "购买 Nova Techsciences 的 HALONOVA（氟甲睾酮 5 毫克），用于极致力量、肌肉硬度和减脂表现。为严肃运动员提供的优质 Halotestin 片剂。",
+      "seoKeywords": "Halotestin 片剂, 在线购买 Halotestin, Halotestin 表现提升, 口服 Halotestin, HALONOVA 片剂",
+      "seoRobots": "index, follow",
+      "seoCanonical": "https://www.novatechsciences.com/products/tablets/halonova",
+      "schemaBrand": "Nova Tech Sciences",
+      "schemaCategory": "合成代谢类固醇片剂",
+      "schemaType": "Product",
+      "faq": [
+        {
+          "question": "我可以从 HALONOVA 氟甲睾酮片剂中期待什么效果？",
+          "answer": "在医疗监督下使用时，HALONOVA 可能有助于支持睾酮水平、提高力量和保留瘦肌肉。效果因剂量、饮食和训练而异。"
+        },
+        {
+          "question": "氟甲睾酮有什么可能的副作用？",
+          "answer": "氟甲睾酮可能引起情绪变化、皮肤油腻、肝脏负担或胆固醇变化。建议定期医疗监测以确保安全的睾酮支持治疗。"
+        },
+        {
+          "question": "我可以在类固醇周期中使用 HALONOVA 吗？",
+          "answer": "HALONOVA 可在监督的治疗周期中用于睾酮提升和肌肉保留。在与其他合成代谢类固醇联合使用前，请咨询医疗保健专业人士。"
+        },
+        {
+          "question": "HALONOVA 需要多长时间才能显示效果？",
+          "answer": "效果可能在几天到几周内出现，具体取决于激素水平和治疗目标。在医疗指导下的持续使用可确保稳定的合成代谢和睾酮支持益处。"
+        },
+        {
+          "question": "服用 HALONOVA 期间可以喝酒吗？",
+          "answer": "建议在服用 HALONOVA 期间避免或限制饮酒，因为酒精可能影响肝脏功能和整体激素平衡。"
+        }
+      ]
+    },
+    {
+      "id": "tab-nova-t3-50mcg",
+      "name": "NOVA_T3",
+      "category": "片剂",
+      "cas": "55-06-1",
+      "description": "NOVA_T3（碘塞罗宁钠 T3 50 微克）药物级片剂，旨在支持甲状腺激素水平、增强新陈代谢、能量和整体激素平衡。适合在医疗监督下的甲状腺治疗和新陈代谢支持方案。",
+      "indication": "NOVA_T3（碘塞罗宁钠 T3 50 微克）适用于甲状腺功能减退症和其他甲状腺相关激素失衡的治疗。它支持健康的新陈代谢、能量调节和甲状腺功能。一些运动员和健美者在监督下使用 T3 来在减脂周期中增强新陈代谢和减脂。",
+      "presentation": "剂型：口服片剂\n规格：每片含 50 微克碘塞罗宁钠 T3\n包装：泡罩包装，10 片/板\n片剂类型：药物级甲状腺支持片剂\n用途类别：甲状腺激素支持、新陈代谢增强、能量支持\n适用对象：甲状腺功能减退症患者或需要医疗监督下的新陈代谢支持的个体\n储存：存放于阴凉干燥处，避免阳光照射\n生产商：Nova TechSciences",
+      "shortDescription": "高质量碘塞罗宁 T3 片剂，用于甲状腺激素支持、新陈代谢增强和能量改善。",
+      "precautions": "仅在医疗监督下使用 NOVA_T3。\n 从最低有效剂量开始，以防止过度刺激。\n 监测心率、血压和甲状腺功能。\n 避免在减脂或类固醇周期中无监督使用。\n 保持水分和电解质平衡。\n 放在儿童接触不到的地方，存放于阴凉干燥处。",
+      "contraindications": "如果您对碘塞罗宁钠或类似的甲状腺药物过敏，请勿使用 NOVA_T3。\n 如果存在未经治疗的甲状腺功能亢进症、肾上腺疾病或严重心脏病，请避免使用。\n 请勿与兴奋剂或强效减脂剂联合使用。\n 避免饮酒或干扰新陈代谢的娱乐性物质。\n 如果出现胸痛、心律不齐、极度焦虑或异常症状，请立即寻求医疗帮助。",
+      "images": [],
+      "seoTitle": "NOVA T3（碘塞罗宁钠 T3 50 微克）片剂 | Nova Techsciences",
+      "seoDescription": "购买 NOVA-T3（碘塞罗宁钠 T3 50 微克）片剂，用于有效的甲状腺激素支持、增强新陈代谢、减脂和改善能量水平。",
+      "seoKeywords": "碘塞罗宁片剂, 在线购买碘塞罗宁, 最佳 T3 减脂, 减脂甲状腺药物, NOVA_T3",
+      "seoRobots": "index, follow",
+      "seoCanonical": "https://www.novatechsciences.com/products/tablets/nova-t3",
+      "schemaBrand": "Nova TechSciences",
+      "schemaCategory": "药物片剂",
+      "schemaType": "Product",
+      "faq": [
+        {
+          "question": "NOVA T3 有助于减脂吗？",
+          "answer": "是的，NOVA T3 可能通过提高新陈代谢率和卡路里消耗来帮助增加脂肪燃烧。提升甲状腺激素活性并支持能量利用。仅应在医疗监督下服用。"
+        },
+        {
+          "question": "NOVA T3 需要多长时间开始起效？",
+          "answer": "NOVA T3 可能在几天内开始改善新陈代谢、能量水平和甲状腺症状。全部益处通常出现在 1-2 周内。持续给药至关重要。"
+        },
+        {
+          "question": "运动员或健美者可以使用 NOVA T3 吗？",
+          "answer": "一些运动员在减脂周期中使用 NOVA T3 来增强新陈代谢和减脂。无监督使用可能有风险。强烈建议进行医疗监测。"
+        },
+        {
+          "question": "服用 NOVA T3 有什么副作用吗？",
+          "answer": "可能的副作用包括心率加快、出汗、不耐热、焦虑，以及如果误用可能导致肌肉流失。不正确的剂量可能引起类似甲状腺功能亢进的症状。"
+        },
+        {
+          "question": "我应该如何储存 NOVA T3 片剂？",
+          "answer": "将 NOVA T3 片剂存放在阴凉干燥处，避免阳光照射。保持泡罩包装密封，并放在儿童接触不到的地方，以保持稳定性和效力。"
+        }
+      ]
+    },
+    {
+      "id": "tab-novabol-10",
+      "name": "NOVABOL",
+      "category": "片剂",
+      "cas": "53-39-4",
+      "description": "NOVABOL（氧雄龙 USP 10 毫克）药物级片剂，专为瘦肌肉增长、力量提升、减脂支持和恢复而设计。适合减脂周期、限制卡路里阶段和结构化的合成代谢计划。",
+      "indication": "NOVABOL（氧雄龙 USP 10 毫克）支持肌肉恢复、瘦肌肉增长和增强的力量表现。常用于健美和健身环境，它促进蛋白质合成，在减脂周期中保留肌肉，改善肌肉硬度，并协助维持最佳的合成代谢平衡。适合运动员或处于卡路里限制或减脂阶段的个体。",
+      "presentation": "剂型：口服片剂\n规格：每片含 10 毫克氧雄龙\n包装：100 片/瓶\n片剂类型：药物级合成代谢类固醇\n用途类别：瘦肌肉支持、减脂周期、力量增强、恢复\n适用对象：运动员、健美者和健身爱好者\n储存：存放于阴凉干燥处\n生产商：Nova TechSciences",
+      "shortDescription": "优质氧雄龙（Anavar）片剂，用于瘦肌肉、力量和减脂支持。",
+      "precautions": "仅在医疗监督下使用 NOVABOL。\n 遵循处方剂量；避免自行用药。\n 告知医生您使用的其他类固醇、补充剂或药物。\n 避免饮酒或可能给肝脏带来压力的物质。\n 放在儿童接触不到的地方。\n 如果出现异常症状，如严重头痛、肿胀、心率加快或情绪变化，请立即寻求医疗帮助。\n 不要超过推荐剂量，以防止激素失衡或肝脏负担。",
+      "contraindications": "如果您对氧雄龙或片剂中的任何成分过敏，请勿使用 NOVABOL。\n 除非得到医疗保健专业人士的批准，否则避免用于有肝脏、肾脏或心脏疾病的个体。\n 不适合孕妇或哺乳期妇女使用。\n 仅在专业指导和监督下使用。",
+      "images": [],
+      "seoTitle": "NOVABOL（氧雄龙 USP 10 毫克）| Nova Techsciences",
+      "seoDescription": "购买 NOVABOL（氧雄龙 USP 10 毫克）片剂，用于干净的瘦肌肉发育、增强的力量和有效的减脂支持。值得信赖的药物级氧雄龙，用于受控的表现周期。",
+      "seoKeywords": "Anavar 10毫克片剂, 氧雄龙片剂, 在线购买 Anavar, Novabol, 瘦肌肉支持",
+      "seoRobots": "index, follow",
+      "seoCanonical": "https://www.novatechsciences.com/products/tablets/novabol",
+      "schemaBrand": "Nova TechSciences",
+      "schemaCategory": "合成代谢类固醇片剂",
+      "schemaType": "Product",
+      "faq": [
+        {
+          "question": "NOVABOL 需要多长时间才能看到效果？",
+          "answer": "使用者可能在 1-2 周内开始注意到力量、能量和肌肉硬度的改善。配合持续的锻炼和适当的饮食，氧雄龙的合成代谢效应会增强。"
+        },
+        {
+          "question": "NOVABOL 对初学者安全吗？",
+          "answer": "氧雄龙被认为是一种较温和的合成代谢类固醇，常被初学者使用。NOVABOL 应在医疗监督下负责任地使用，并配合适当的周期长度和 PCT 支持。"
+        },
+        {
+          "question": "NOVABOL 有什么可能的副作用？",
+          "answer": "潜在的副作用包括胆固醇波动、肝脏负担、皮肤油腻或情绪变化。常规医疗监测和负责任的使用有助于最小化氧雄龙相关的风险。"
+        },
+        {
+          "question": "NOVABOL 有助于减脂和减重吗？",
+          "answer": "是的，NOVABOL 广泛用于减脂周期。它在促进脂肪减少的同时保留瘦肌肉，当与控制卡路里的饮食和训练相结合时，改善肌肉硬度、清晰度和恢复。"
+        },
+        {
+          "question": "我可以将 NOVABOL 与其他类固醇一起使用吗？",
+          "answer": "许多使用者将 NOVABOL 与睾酮、Winstrol 或 Primobolan 一起使用以增强减脂效果。类固醇堆叠仅应在专业指导和适当的 PCT 下进行，以确保安全和激素平衡。"
+        }
+      ]
+    },
+    {
+      "id": "tab-provinova-25",
+      "name": "PROVINOVA",
+      "category": "片剂",
+      "cas": "1424-00-6",
+      "description": "PROVINOVA（美睾酮 USP 25 毫克）药物级片剂，旨在支持雄激素平衡、睾酮维持、肌肉硬度和抗雌激素益处。适合在医疗监督下用于减脂周期、激素治疗和体格改善。",
+      "indication": "PROVINOVA（美睾酮 USP 25 毫克）适用于雄激素缺乏症、睾酮支持和改善激素平衡。由于其非芳香化特性，被运动员和健美者广泛用于减脂周期，它有助于在不引起水肿的情况下保持精瘦、清晰的体格。始终在医疗监督下使用。",
+      "presentation": "剂型：口服片剂\n规格：每片含 25 毫克美睾酮\n包装：盒装，10 片/盒\n片剂类型：药物级雄激素类固醇\n用途类别：睾酮支持、雄激素治疗、肌肉清晰度\n适用对象：激素治疗、减脂周期、运动员准备\n储存：存放于阴凉干燥处\n生产商：Nova TechSciences",
+      "shortDescription": "优质美睾酮（Proviron）片剂，用于睾酮支持、雄激素平衡和肌肉清晰度。",
+      "precautions": "仅在医疗指导下使用 PROVINOVA。\n 遵循处方剂量并避免自行用药。\n 告知医生您使用的其他类固醇、补充剂或药物。\n 放在儿童接触不到的地方。\n 避免饮酒和娱乐性物质。\n 如果出现情绪变化、肿胀或呼吸问题，请立即寻求医疗帮助。\n 不要超过推荐剂量以防止副作用。",
+      "contraindications": "如果您对美睾酮或任何成分过敏，请勿使用 PROVINOVA。\n 避免用于前列腺癌、男性乳腺癌或严重肝脏问题的个体。\n 不适合女性使用，尤其是孕妇或哺乳期妇女。\n 避免用于有严重肾脏疾病、未受控制的高血压或心脏并发症的用户。\n 不适合 18 岁以下用户或无监督的合成代谢类固醇使用者。",
+      "images": [],
+      "seoTitle": "HALONOVA（氟甲睾酮 5 毫克）片剂 | Nova Techsciences",
+      "seoDescription": "HALONOVA（氟甲睾酮 5 毫克）片剂含有固定口服剂型的氟甲睾酮。本页面提供产品成分、片剂规格和一般药物信息。",
+      "seoKeywords": "Provinova, 美睾酮 25毫克, 购买 Proviron 片剂, 药物级美睾酮, 睾酮支持",
+      "seoRobots": "index, follow",
+      "seoCanonical": "https://www.novatechsciences.com/products/tablets/provinova",
+      "schemaBrand": "Nova TechSciences",
+      "schemaCategory": "合成代谢类固醇片剂",
+      "schemaType": "Product",
+      "faq": [
+        {
+          "question": "美睾酮在健美中用于什么？",
+          "answer": "美睾酮（Proviron）用于雄激素支持、肌肉硬度和抗雌激素效应。它提升减脂阶段的体格质量，应在医疗监督下负责任地使用。"
+        },
+        {
+          "question": "Provinova 有助于提高睾酮水平吗？",
+          "answer": "Provinova 可能支持雄激素活性并改善低睾酮症状，如性欲减退和疲劳。它不直接提高天然睾酮生成，应在医疗指导下使用。"
+        },
+        {
+          "question": "美睾酮在体内停留多长时间？",
+          "answer": "美睾酮的半衰期相对较短，清除速度比大多数合成代谢类固醇快。持续时间取决于新陈代谢和剂量。建议适当的剂量和医疗监督。"
+        },
+        {
+          "question": "服用美睾酮片剂有什么副作用吗？",
+          "answer": "潜在的副作用包括痤疮、皮肤油腻、体毛增加、情绪变化或性欲波动。使用者应在开始使用此类固醇前咨询医疗保健专业人士。"
+        },
+        {
+          "question": "我可以在类固醇周期中使用 Provinova 吗？",
+          "answer": "Provinova 在减脂周期中用于雄激素和抗雌激素益处，有助于在不引起水肿的情况下改善肌肉清晰度。类固醇周期需要专业监督以避免健康风险。"
+        }
+      ]
+    },
+    {
+      "id": "tab-oxydrol-50",
+      "name": "OXYDROL",
+      "category": "片剂",
+      "cas": "434-07-1",
+      "description": "OXYDROL（羟甲烯龙 USP 50 毫克）药物级合成代谢类固醇片剂，专为快速肌肉增长、力量增强和恢复而设计。适合在医疗监督下用于治疗性肌肉萎缩治疗、减脂周期和结构化的表现计划。",
+      "indication": "OXYDROL（羟甲烯龙 USP 50 毫克）支持肌肉增长、增强的力量和更快的恢复。广泛用于健美、运动和治疗环境，适用于肌肉萎缩状况、严重体重减轻或旨在快速增加瘦肌肉的个体。始终在医疗监督下使用。",
+      "presentation": "剂型：口服片剂\n规格：每片含 50 毫克羟甲烯龙\n包装：100 片/瓶\n片剂类型：药物级合成代谢类固醇\n用途类别：肌肉增长、力量、恢复、增肌\n适用对象：运动员、健美者、治疗性肌肉支持\n储存：存放于阴凉干燥处\n生产商：Nova TechSciences",
+      "shortDescription": "优质羟甲烯龙（Anadrol）片剂，用于快速增肌、力量和表现提升。",
+      "precautions": "仅在专业监督下使用 OXYDROL。\n 遵循处方剂量；避免自行用药。\n 告知医生您使用的其他类固醇、补充剂或药物。\n 由于羟甲烯龙的肝毒性潜力，需监测肝功能。\n 避免饮酒和可能给肝脏带来压力的物质。\n 放在儿童接触不到的地方。\n 如果出现严重头痛、肿胀或腹痛，请立即寻求医疗帮助。\n 不要超过推荐剂量以防止副作用。",
+      "contraindications": "如果您对羟甲烯龙或任何成分过敏，请勿使用 OXYDROL。\n 避免用于有肝脏、肾脏或心脏疾病的个体。\n 不适合女性使用，尤其是孕妇或哺乳期妇女。\n 不适合 18 岁以下的用户使用。\n 避免用于前列腺肥大或男性乳腺癌患者。",
+      "images": [],
+      "seoTitle": "OXYDROL（羟甲烯龙 USP 50 毫克）片剂 | Nova Techsciences",
+      "seoDescription": "Nova Techsciences 的 OXYDROL（羟甲烯龙 USP 50 毫克）片剂是一种标准化的药物配方。产品详细信息包括成分、剂量规格和质量控制的生产信息。",
+      "seoKeywords": "Oxydrol, 羟甲烯龙片剂, 在线购买 Anadrol, 增肌类固醇",
+      "seoRobots": "index, follow",
+      "seoCanonical": "https://www.novatechsciences.com/products/tablets/oxydrol",
+      "schemaBrand": "Nova TechSciences",
+      "schemaCategory": "合成代谢类固醇片剂",
+      "schemaType": "Product",
+      "faq": [
+        {
+          "question": "我可以从使用 Oxydrol 中期待什么效果？",
+          "answer": "使用者通常在短时间内体验到明显的力量增长、改善的肌肉饱满度和增强的训练表现。在专业指导下，Oxydrol 支持快速增加围度和力量。"
+        },
+        {
+          "question": "Oxydrol 需要多长时间才能看到效果？",
+          "answer": "许多使用者在 1-2 周内开始看到力量和能量的改善。在整个周期中，可见的肌肉增长会逐渐出现。给药的持续性、营养和训练影响效果发展的速度。"
+        },
+        {
+          "question": "Oxydrol 对初学者安全吗？",
+          "answer": "由于其强效的合成代谢效应，Oxydrol 通常推荐给有经验的运动员使用。初学者可能会觉得它过于强烈，应该使用较温和的补充剂或寻求专业指导。"
+        },
+        {
+          "question": "我可以将 Oxydrol 与其他补充剂一起使用吗？",
+          "answer": "可以，Oxydrol 可以与某些表现或恢复补充剂一起使用，但与其他合成代谢化合物一起使用应仅在专家监督下进行，以在最小化风险的同时增强效果。"
+        },
+        {
+          "question": "Oxydrol 有什么副作用吗？",
+          "answer": "可能的副作用包括血压升高、水肿、食欲变化或如果误用可能导致激素失衡。正确的剂量和周期管理可降低潜在风险。"
+        }
+      ]
+    },
+    {
+      "id": "tab-novamoren-10",
+      "name": "NOVAMOREN",
+      "category": "片剂",
+      "cas": "159752-10-0",
+      "description": "NOVAMOREN (MK-677) 药物级 GH 分泌促进剂片剂，旨在自然地促进生长激素 (GH) 分泌、支持肌肉恢复、增强瘦肌肉增长并改善整体表现和活力。",
+      "indication": "NOVAMOREN (MK-677) 帮助个体维持更高的 GH 和 IGF-1 水平，支持肌肉恢复、减脂、改善睡眠质量、食欲和增强的表现。常用于健美、运动表现和健康方案，它提供类似类固醇的益处，且不抑制内源性激素。",
+      "presentation": "剂型：口服片剂\n规格：每片含 10 毫克 MK-677\n包装：30 片/瓶\n片剂类型：GH 分泌促进剂 / 表现补充剂\n用途类别：GH 促进、肌肉恢复、健康支持\n适用对象：寻求提高生长激素水平、瘦肌肉增长和恢复支持的成年人\n储存：存放于阴凉干燥处，避免阳光照射\n生产商：Nova TechSciences",
+      "shortDescription": "优质 MK-677 片剂，用于支持生长激素释放、瘦肌肉增长和整体表现。",
+      "precautions": "仅在专业指导下使用 NOVAMOREN。\n 严格遵守推荐剂量；避免自行用药。\n 告知医生您使用的其他补充剂、药物或表现化合物。\n 监测任何异常反应，如果出现不良反应请停用。\n 放在儿童接触不到的地方，存放于阴凉干燥处。\n 避免饮酒或可能干扰 GH 活性的物质。\n 如果您有潜在健康状况，请咨询医疗保健专业人士。",
+      "contraindications": "如果您对任何活性或非活性成分过敏，请勿使用 NOVAMOREN。\n 除非经医生批准，否则不建议孕妇或哺乳期妇女使用。\n 有糖尿病、激素疾病或心血管问题的个体在使用前应咨询医疗保健提供者。\n 仅适用于健康成年人；避免无监督使用。",
+      "images": [],
+      "seoTitle": "Novamoren Ibutamoren MK-677 – 生长激素支持片剂",
+      "seoDescription": "NOVAMOREN (MK-677 10毫克) 是 Nova Techsciences 的一种口服片剂配方，含有伊布莫仑。列出标准规格、药物规格和受控生产信息。",
+      "seoKeywords": "Novamoren, 伊布莫仑 MK-677, 购买 MK-677 片剂, 生长激素支持",
+      "seoRobots": "index, follow",
+      "seoCanonical": "https://www.novatechsciences.com/products/tablets/novamoren",
+      "schemaBrand": "Nova TechSciences",
+      "schemaCategory": "GH 分泌促进剂 / 表现补充剂",
+      "schemaType": "Product",
+      "faq": [
+        {
+          "question": "NOVAMOREN 需要多长时间才能起效？",
+          "answer": "NOVAMOREN 片剂的效果因个人健康状况、日常习惯和持续性而异。许多使用者在定期使用数周后注意到益处。建议持续每日服用以获得最佳效果。"
+        },
+        {
+          "question": "NOVAMOREN 片剂有什么副作用吗？",
+          "answer": "大多数使用者对 NOVAMOREN 耐受性良好，但可能会出现轻微的副作用，如胃部不适或头痛。如果出现不寻常或严重的反应，请停用并咨询医生。"
+        },
+        {
+          "question": "我可以将 NOVAMOREN 与其他补充剂或药物一起服用吗？",
+          "answer": "在将 NOVAMOREN 与其他补充剂或药物联合使用前，请咨询您的医疗保健提供者，以确保安全并避免不必要的相互作用。"
+        },
+        {
+          "question": "哪些人不应该使用 NOVAMOREN？",
+          "answer": "NOVAMOREN 适用于健康成年人。有健康状况、孕妇或哺乳期妇女、长期服药者或已知过敏者应避免使用，除非得到医疗保健专业人士的批准。"
+        },
+        {
+          "question": "我应该如何储存 NOVAMOREN 片剂？",
+          "answer": "将 NOVAMOREN 片剂存放在阴凉干燥处，避免阳光直射和潮湿。保持瓶子紧闭，并放在儿童接触不到的地方，以保持质量和有效性。"
+        }
+      ]
+    },
+    {
+      "id": "tab-novameth-10",
+      "name": "NOVAMETH",
+      "category": "片剂",
+      "cas": "72-63-9",
+      "description": "NOVAMETH（美雄酮 10 毫克）是一种高效力合成代谢类固醇，用于支持快速肌肉增长、力量改善和增强的训练表现。适合在专业监督下寻求加速体格发育的高级用户。",
+      "indication": "NOVAMETH（美雄酮 10 毫克）广泛用于增肌周期、快速蛋白质合成、改善氮保留和增强肌肉恢复。它支持高强度训练阶段的表现，增加能量，并促进瘦肌肉发育。始终在专业监督下使用。",
+      "presentation": "剂型：口服片剂\n规格：每片含 10 毫克美雄酮\n包装：50 片/盒\n包装：安全防篡改\n用途：增肌、力量周期和肌肉增长支持\n适用对象：寻求快速增肌和表现提升的运动员和健美者\n储存：存放于阴凉干燥处，避免阳光照射",
+      "shortDescription": "高效力美雄酮片剂，用于快速增肌、力量和表现提升。",
+      "precautions": "仅在专业指导下使用。\n不要超过推荐剂量。\n避免饮酒和肝毒性物质。\n如果您正在服用其他药物或补充剂，请咨询医生。\n放在儿童接触不到的地方。\n立即报告异常症状。",
+      "contraindications": "如果您对美雄酮或片剂成分过敏，请勿使用。\n不建议女性使用，尤其是孕妇或哺乳期妇女。\n如果您有肝脏、肾脏或心脏疾病，请避免使用。\n不适合 18 岁以下的个体使用。\n仅在医疗监督下使用。",
+      "images": [],
+      "seoTitle": "NOVAMETH（美雄酮 10 毫克）| 口服片剂配方 – Nova Techsciences",
+      "seoDescription": "NOVAMETH（美雄酮 10 毫克）是 Nova Techsciences 生产的一种片剂剂型。本页面概述了产品规格、活性成分组成和针对受监管市场的一般药物规格。",
+      "seoKeywords": "Novameth, 美雄酮 10毫克, 购买美雄酮片剂, Dianabol 类合成代谢类固醇",
+      "seoRobots": "index, follow",
+      "seoCanonical": "https://www.novatechsciences.com/products/tablets/novameth",
+      "schemaBrand": "Nova TechSciences",
+      "schemaCategory": "合成代谢类固醇片剂",
+      "schemaType": "Product",
+      "faq": [
+        {
+          "question": "NOVAMETH 的常见副作用是什么？",
+          "answer": "常见副作用包括水肿、食欲增加、情绪波动和肝酶水平升高。在监督下负责任地使用，并避免饮酒或肝毒性物质。"
+        },
+        {
+          "question": "初学者可以安全地使用 NOVAMETH 吗？",
+          "answer": "没有专业监督，不建议初学者使用 NOVAMETH。从最小剂量开始，并监测身体的反应。专业指导可降低激素失衡和不良反应的风险。"
+        },
+        {
+          "question": "我可以将 NOVAMETH 与其他类固醇一起使用吗？",
+          "answer": "可以，为了改善效果，可以将 NOVAMETH 与睾酮或其他合成代谢类固醇一起使用。适当的周期规划和监测对于最小化副作用风险至关重要。"
+        },
+        {
+          "question": "NOVAMETH 对孕妇或哺乳期妇女安全吗？",
+          "answer": "不安全。由于激素和发育风险，孕妇或哺乳期妇女不应使用 NOVAMETH（美雄酮）。"
+        },
+        {
+          "question": "什么是 NOVAMETH？",
+          "answer": "NOVAMETH 含有美雄酮 10 毫克，一种用于快速增肌、力量改善和增强训练表现的高效合成代谢类固醇。建议在医疗监督下负责任地使用。"
+        }
+      ]
+    },
+    {
+      "id": "tab-spiroclen-40mcg",
+      "name": "SPIROCLEN",
+      "category": "片剂",
+      "cas": "21898-19-1",
+      "description": "SPIROCLEN（克仑特罗 40 微克）是一种高纯度合成代谢和产热片剂，用于减脂、肌肉清晰度和表现提升。在减脂周期中很受欢迎，它支持瘦肌肉保留、增强产热和改善呼吸效率。",
+      "indication": "SPIROCLEN（克仑特罗 40 微克）适用于支气管扩张和治疗性支持。也广泛用于减脂周期中的减脂、瘦肌肉保留和新陈代谢增强。运动员和健美者使用 SPIROCLEN 来改善产热、耐力和整体表现。",
+      "presentation": "剂型：口服片剂\n规格：每片含 40 微克克仑特罗盐酸盐\n包装：10 片/盒\n包装：紧凑、安全且为药物级\n用途：减脂周期、减脂、新陈代谢增强和肌肉保留\n储存：存放于阴凉干燥处，避免阳光照射",
+      "shortDescription": "克仑特罗 40 微克片剂，用于减脂、产热和减脂周期表现提升。",
+      "precautions": "仅在医疗指导下使用。\n不要超过推荐剂量。\n避免饮酒和兴奋性物质。\n如果您正在服用其他药物或补充剂，请咨询医生。\n放在儿童接触不到的地方。\n如果出现异常心血管或呼吸系统症状，请停用并寻求医疗帮助。",
+      "contraindications": "如果您对克仑特罗或片剂成分过敏，请勿使用。\n不建议用于有心脏疾病、心律失常、高血压、甲状腺功能亢进症或严重肝/肾疾病的个体。\n怀孕或哺乳期间避免使用。\n未经监督，请勿与其他兴奋剂或减脂剂联合使用。",
+      "images": [],
+      "seoTitle": "SPIROCLEN（克仑特罗 40 微克）| Nova Techsciences 口服片剂",
+      "seoDescription": "Nova Techsciences 的 SPIROCLEN（克仑特罗 40 微克）片剂在受控标准下生产，提供一致的剂量、成分和质量保证。",
+      "seoKeywords": "Spiroclen, 克仑特罗 40 微克, 购买克仑特罗片剂, 减脂周期减脂, 产热补充剂",
+      "seoRobots": "index, follow",
+      "seoCanonical": "https://www.novatechsciences.com/products/tablets/spiroclen",
+      "schemaBrand": "Nova TechSciences",
+      "schemaCategory": "合成代谢 & 产热片剂",
+      "schemaType": "Product",
+      "faq": [
+        {
+          "question": "SPIROCLEN 需要多长时间开始起效？",
+          "answer": "SPIROCLEN（克仑特罗 40 微克）通常在 30-60 分钟内开始起效，增强气流和产热。使用者可能早期注意到呼吸和能量改善，当结合饮食和运动时，减脂效果在 1-2 周内出现。"
+        },
+        {
+          "question": "SPIROCLEN 有助于在减脂周期中提高肌肉清晰度吗？",
+          "answer": "是的，SPIROCLEN 在减脂周期中使用，以在保留瘦肌肉的同时支持减脂。其产热效应有助于改善肌肉清晰度和整体体格，结合抗阻训练和控制卡路里的饮食可获得最佳效果。"
+        },
+        {
+          "question": "SPIROCLEN 适合初学者吗？",
+          "answer": "由于其兴奋作用，初学者应谨慎使用 SPIROCLEN。新用户应从最低有效剂量开始，监测身体的反应，并遵循医疗指导以避免过度兴奋或心率升高。"
+        },
+        {
+          "question": "服用 SPIROCLEN 后可以锻炼吗？",
+          "answer": "许多运动员在锻炼前服用 SPIROCLEN，以增强耐力、呼吸和训练强度。使用者应避免过度训练，监测心率，并在运动期间保持水分。"
+        },
+        {
+          "question": "使用 SPIROCLEN 但不运动，我会减重吗？",
+          "answer": "SPIROCLEN 会增加新陈代谢，即使在休息时也可能支持脂肪燃烧，但结合适当的训练和营养效果会更好。如果不运动，减重效果适中，整体健康改善有限。"
+        }
+      ]
+    },
+    {
+      "id": "tab-stanova-10",
+      "name": "STANOVA 10",
+      "category": "片剂",
+      "cas": "10418-03-8",
+      "description": "STANOVA 10（司坦唑醇 10 毫克）是一种药物级合成代谢类固醇，用于减脂周期、瘦肌肉保留、力量改善和体格提升。以产生干燥、坚硬的肌肉增长和增强的血管分布而闻名，通常在医疗监督下使用。",
+      "indication": "STANOVA 10 适用于寻求增强肌肉力量、保留瘦肌肉和改善身体表现的个体。它也用于受控的医疗治疗中，用于组织修复、合成代谢恢复和蛋白质合成支持，需在医生指导下进行。",
+      "presentation": "剂型：口服片剂\n规格：每片含 10 毫克司坦唑醇 USP\n包装：50 片/瓶\n包装：安全防篡改，药物级\n用途：减脂周期、瘦肌肉维持、表现提升和监督下的合成代谢治疗\n储存：存放于阴凉干燥处，避免阳光照射",
+      "shortDescription": "司坦唑醇 10 毫克片剂，用于瘦肌肉力量、减脂和受控的表现支持。",
+      "precautions": "仅在医疗指导下使用。\n不要超过推荐剂量或周期时长。\n避免饮酒或给肝脏带来压力的物质。\n如果您正在服用其他药物或补充剂，请咨询医生。\n放在儿童接触不到的地方。\n如果出现异常症状，请停用并寻求医疗帮助。",
+      "contraindications": "如果您对司坦唑醇或片剂成分过敏，请勿使用。\n不建议用于有肝脏、肾脏或心脏问题的个体。\n怀孕或哺乳期间避免使用。\n仅应在医生监督下用于未成年人或医疗处方的周期。",
+      "images": [],
+      "seoTitle": "Stanova（司坦唑醇 10毫克）片剂 | Nova Techsciences",
+      "seoDescription": "Nova Techsciences 的 Stanova（司坦唑醇 10毫克）片剂含有固定口服剂型。本页面概述了成分、规格和产品分类。",
+      "seoKeywords": "司坦唑醇 10毫克, Winstrol 10毫克片剂, 表现力量药片",
+      "seoRobots": "index, follow",
+      "seoCanonical": "https://www.novatechsciences.com/products/tablets/stanova-10",
+      "schemaBrand": "NovaTech Sciences",
+      "schemaCategory": "合成代谢类固醇片剂",
+      "schemaType": "Product",
+      "faq": [
+        {
+          "question": "初学者可以使用 STANOVA 10 吗？",
+          "answer": "初学者仅应在医疗监督下使用 STANOVA 10，因为司坦唑醇是一种强效合成代谢类固醇。它常用于减脂、瘦肌肉维持和表现提升。从低剂量开始对安全和有效效果很重要。"
+        },
+        {
+          "question": "我可以将 STANOVA 10 与其他类固醇一起使用吗？",
+          "answer": "STANOVA 10 可以与睾酮等其他合成代谢类固醇一起使用，但仅在专家监督下。不正确的组合可能会增加副作用的风险，因此专业的周期规划和剂量指导至关重要。"
+        },
+        {
+          "question": "使用 STANOVA 10 后需要 PCT 吗？",
+          "answer": "需要。建议在使用 STANOVA 10 后进行周期后治疗 (PCT)，以恢复天然激素水平。常见的 PCT 选择包括 SERMs，如克罗米芬或他莫昔芬，有助于防止激素失衡并保持周期效果。"
+        },
+        {
+          "question": "我可以随餐服用这种药物吗？",
+          "answer": "可以，STANOVA 10 可随餐或空腹服用。随少量食物服用可能有助于减少胃部不适。避免高脂肪餐，因为它们可能减慢司坦唑醇的吸收。"
+        },
+        {
+          "question": "这种药物对孕妇或哺乳期妇女安全吗？",
+          "answer": "不安全。STANOVA 10 对孕妇或哺乳期妇女不安全。司坦唑醇是一种强效合成代谢类固醇，可能危害胎儿发育，并可能进入母乳。除非专科医生严格处方，否则绝不应使用。"
+        }
+      ]
+    },
+    {
+      "id": "tab-clominova-50mg",
+      "name": "CLOMINOVA",
+      "category": "片剂",
+      "cas": "50-41-9",
+      "description": "CLOMINOVA（克罗米芬柠檬酸盐 50 毫克）是一种药物级片剂，用于促排卵、周期后治疗 (PCT) 和激素恢复。在健美者和运动员中很受欢迎，它有助于在合成代谢类固醇使用后恢复天然睾酮水平并支持内分泌功能。",
+      "indication": "CLOMINOVA 适用于周期后治疗 (PCT)，以支持天然睾酮恢复、保持肌肉增长，并在合成代谢类固醇周期后调节激素水平。它被运动员和健美者广泛用于减少类固醇戒断相关的副作用并改善整体激素平衡。",
+      "presentation": "剂型：口服片剂\n规格：每片含 50 毫克克罗米芬柠檬酸盐\n包装：10 片/盒\n包装：安全防篡改药物级包装\n用途：PCT、睾酮恢复、内分泌支持、类固醇周期后激素平衡\n储存：存放于阴凉干燥处，避免阳光照射",
+      "shortDescription": "克罗米芬柠檬酸盐 50 毫克片剂，用于周期后治疗、睾酮恢复和激素平衡。",
+      "precautions": "仅在医疗监督下使用。\n遵循处方剂量和周期时长。\n避免自行用药。\n如果您正在服用其他药物、生育药物或类固醇，请咨询医生。\n放在儿童接触不到的地方。\n如果出现视力变化、严重情绪波动或盆腔疼痛，请停用并寻求医疗帮助。",
+      "contraindications": "如果您对克罗米芬柠檬酸盐或非活性成分过敏，请勿使用。\n不建议用于有肝脏疾病、卵巢囊肿（非 PCOS）、异常子宫出血或未受控制的甲状腺/肾上腺疾病的个体。\n避免饮酒和可能干扰治疗的激素补充剂。\n孕妇或有激素依赖性癌症的个体不应使用 CLOMINOVA。",
+      "images": [],
+      "seoTitle": "Clominova（克罗米芬 50毫克）片剂 | 激素治疗产品 – Nova Techsciences",
+      "seoDescription": "Nova Techsciences 的 Clominova（克罗米芬 50毫克）是一种药物片剂，专为激素调节参考配制，具有明确的规格和标准化成分。",
+      "seoKeywords": "克罗米芬 50毫克, 购买克罗米芬片剂, 睾酮恢复片剂, PCT 支持",
+      "seoRobots": "index, follow",
+      "seoCanonical": "https://www.novatechsciences.com/products/tablets/clominova",
+      "schemaBrand": "Novatech Sciences",
+      "schemaCategory": "周期后治疗片剂",
+      "schemaType": "Product",
+      "faq": [
+        {
+          "question": "为了获得最佳效果，我应该服用 CLOMINOVA 多长时间？",
+          "answer": "大多数 CLOMINOVA 周期持续约 5 天，但时长可能因排卵反应或 PCT 需求而异。仅遵循医生的指示，因为自行延长周期可能会降低疗效并增加副作用。"
+        },
+        {
+          "question": "CLOMINOVA 有助于治疗月经不调吗？",
+          "answer": "是的，CLOMINOVA 有助于刺激因激素失衡导致月经周期不规律的女性的排卵。它可能改善生育潜力，但仅应在医疗监督下服用。"
+        },
+        {
+          "question": "CLOMINOVA 会增加双胞胎的几率吗？",
+          "answer": "CLOMINOVA 可能增加释放多个卵子的机会，略微提高双胞胎的可能性。这种效应在促排卵治疗中很常见。使用前请与医生讨论风险。"
+        },
+        {
+          "question": "CLOMINOVA 可以与其他生育补充剂一起服用吗？",
+          "answer": "仅在医生批准下，CLOMINOVA 可以与维生素或生育补充剂一起使用。除非在医疗监督下，否则请避免将其与其他激素治疗混合，以防止并发症。"
+        },
+        {
+          "question": "CLOMINOVA 在体内如何起作用？",
+          "answer": "CLOMINOVA 通过阻断雌激素受体起作用，促使身体产生更多的 LH 和 FSH——这些激素对排卵至关重要。在 PCT 中，这有助于在类固醇使用后重新启动天然睾酮生成。"
+        }
+      ]
+    }
+  ],
+
+  "injections": [
+    {
+      "id": "inj-testova-p-100mgml",
+      "name": "TESTOVA P",
+      "category": "注射剂",
+      "cas": "57-85-2",
+      "description": "TESTOVA P（丙酸睾酮 100 毫克/毫升）是一种速效注射用睾酮类固醇，用于激素替代疗法（HRT）。在专业监督下，支持健康的睾酮水平、力量、性欲和整体激素平衡。",
+      "indication": "TESTOVA P适用于因睾酮水平低、疲劳或激素失衡而需要快速提升睾酮水平的成年男性的激素替代疗法。在临床环境中，因其速效特性，在专业指导下常用于睾酮治疗。",
+      "presentation": "剂型：注射用安瓿\n规格：100 毫克/毫升 丙酸睾酮\n包装规格：1 毫升/安瓿\n用法：仅供肌肉注射（IM）\n包装：无菌单剂量安瓿，药物级\n储存：存放于阴凉干燥处，避免阳光直射。\n给药方式：在医疗监督下肌肉注射。",
+      "shortDescription": "丙酸睾酮 100 毫克/毫升注射剂，用于 HRT、肌肉支持和快速提升睾酮水平。",
+      "precautions": "仅在医疗监督下使用。\n遵循处方剂量和注射计划。\n未经指导请勿自行注射。\n告知医生您的既往病史、正在使用的药物或类固醇使用情况。\n监测异常反应，如肿胀、情绪变化或胸痛。\n放在儿童接触不到的地方。",
+      "contraindications": "如果对睾酮或安瓿中的任何成分过敏，请勿使用。\n不建议用于前列腺癌、男性乳腺癌、严重心脏、肝脏或肾脏疾病患者。\n孕妇或哺乳期妇女禁用。\n未治疗的睡眠呼吸暂停或严重内分泌疾病患者避免使用。\n使用期间如出现严重症状，请立即寻求医疗帮助。",
+      "images": [],
+      "seoTitle": "TESTOVA P（丙酸睾酮 100 毫克/毫升 注射剂）| Nova Techsciences",
+      "seoDescription": "Nova Techsciences 的 TESTOVA P（丙酸睾酮 100 毫克/毫升 注射剂）是一种无菌注射剂，具有明确的规格、成分和药物质量标准。",
+      "seoKeywords": "TESTOVA P, 丙酸睾酮 100 毫克/毫升, 注射用睾酮, 购买丙酸睾酮, HRT 注射, 增肌注射剂, 药物级睾酮",
+      "seoRobots": "index, follow",
+      "seoCanonical": "https://www.novatechsciences.com/products/injectables/testova-p",
+      "schemaBrand": "Novatech Sciences",
+      "schemaCategory": "注射用合成代谢类固醇",
+      "schemaType": "Product",
+      "faq": [
+        {
+          "question": "什么是 TESTOVA P？",
+          "answer": "TESTOVA P 是一种药物级丙酸睾酮 100 毫克/毫升注射用类固醇，用于激素替代疗法（HRT）。以其速效作用闻名，在专业监督下有助于恢复睾酮水平。"
+        },
+        {
+          "question": "我应该如何使用这种药物？",
+          "answer": "TESTOVA P 应仅由合格的医疗专业人员通过肌肉注射给药。剂量通常为每 2-3 天一次，具体取决于医疗要求。切勿在无指导的情况下自行注射。"
+        },
+        {
+          "question": "我可以随餐服用这种药物吗？",
+          "answer": "食物不影响 TESTOVA P，因为它是注射用类固醇。均衡的饮食可以支持整体激素治疗效果。请务必遵循医生的指示。"
+        },
+        {
+          "question": "如果我漏服了一次剂量该怎么办？",
+          "answer": "如果您错过了计划的注射时间，请立即联系您的医疗保健提供者。不要加倍剂量或在没有指导的情况下自行注射。保持一致的剂量对于稳定的睾酮水平至关重要。"
+        },
+        {
+          "question": "这种药物对孕妇或哺乳期妇女安全吗？",
+          "answer": "不安全。TESTOVA P 对孕妇或哺乳期妇女不安全。接触睾酮可能损害胎儿发育。该药物严格用于在专业监督下的男性 HRT。"
+        }
+      ]
+    },
+    {
+      "id": "inj-sustova-250mgml",
+      "name": "SUSTOVA",
+      "category": "注射剂",
+      "cas": "58-22-0",
+      "description": "SUSTOVA（睾酮混合酯 250 毫克/毫升）是一种药物级注射用睾酮，旨在支持激素替代疗法（HRT）。它有助于恢复睾酮水平、改善活力、增强力量并维持男性激素平衡。",
+      "indication": "SUSTOVA适用于睾酮缺乏的男性，支持平衡的激素水平，改善身体和代谢功能，并解决疲劳、性欲减退和肌肉流失等症状。在专业监督下用于 HRT 和稳定的睾酮维持。",
+      "presentation": "剂型：注射用溶液\n规格：250 毫克/毫升 睾酮混合酯\n包装规格：10 毫升 多剂量瓶\n成分：速效和长效睾酮酯的组合\n包装：无菌、药物级、透明油基溶液\n用法：在医疗监督下肌肉注射\n储存：存放于阴凉干燥处，避免阳光直射。",
+      "shortDescription": "睾酮混合酯 250 毫克/毫升 注射剂，用于 HRT、活力、肌肉支持和激素平衡。",
+      "precautions": "严格在医疗监督下使用。\n遵循处方剂量。\n请勿自行用药。\n告知医生您所有的药物或补充剂。\n监测异常反应，如肿胀、情绪变化或注射部位问题。\n放在儿童接触不到的地方。",
+      "contraindications": "如果对睾酮或任何成分过敏，请勿使用。\n不适用于前列腺癌、严重心脏病或未治疗的睡眠呼吸暂停患者。\n孕妇或哺乳期妇女禁用。\n建议定期进行激素水平和肝功能医疗监测。",
+      "images": [],
+      "seoTitle": "SUSTOVA（睾酮混合酯 250 毫克/毫升 注射剂）| Nova Techsciences",
+      "seoDescription": "Nova Techsciences 的 SUSTOVA（睾酮混合酯 250 毫克/毫升 注射剂）是一种无菌注射剂，具有明确的规格、成分和药物质量标准。",
+      "seoKeywords": "SUSTOVA, 睾酮混合酯 250 毫克/毫升, 注射用睾酮, 购买睾酮混合酯, HRT 注射, 增肌注射剂",
+      "seoRobots": "index, follow",
+      "seoCanonical": "https://www.novatechsciences.com/products/injectables/sustova",
+      "schemaBrand": "NovaTech Sciences",
+      "schemaCategory": "注射用合成代谢类固醇",
+      "schemaType": "Product",
+      "faq": [
+        {
+          "question": "哪些人不应该使用睾酮混合酯？",
+          "answer": "患有前列腺癌、严重心脏疾病或对睾酮制剂过敏的个体应避免使用睾酮混合酯。开始治疗前需要进行全面的医疗评估。"
+        },
+        {
+          "question": "睾酮混合酯需要多长时间才能显示效果？",
+          "answer": "大多数使用者会在几周内注意到情绪、能量和活力的改善。肌肉力量和表现通常会在几周内逐渐增加，具体取决于剂量和新陈代谢。"
+        },
+        {
+          "question": "睾酮混合酯有什么副作用吗？",
+          "answer": "可能的副作用包括注射部位不适、痤疮、液体潴留或情绪变化。一些使用者可能会出现红细胞水平升高。如果出现持续或异常症状，请咨询您的医疗保健提供者。"
+        },
+        {
+          "question": "我可以随餐服用这种药物吗？",
+          "answer": "睾酮混合酯是注射剂，因此食物不影响其吸收。保持均衡饮食有助于获得更好的激素治疗效果。"
+        },
+        {
+          "question": "我应该如何使用这种药物？",
+          "answer": "严格按照您的医疗保健提供者的指示使用睾酮混合酯。按预定间隔进行肌肉注射以维持激素平衡。请勿自行调整剂量。"
+        }
+      ]
+    },
+    {
+      "id": "inj-testova-c-250mgml",
+      "name": "TESTOVA C",
+      "category": "注射剂",
+      "cas": "58-20-8",
+      "description": "TESTOVA C（环戊丙酸睾酮 250 毫克/毫升）是一种药物级注射用类固醇，用于睾酮替代疗法（TRT）。它支持睾酮平衡、肌肉力量、活力和整体男性激素健康。",
+      "indication": "TESTOVA C适用于睾酮水平低的男性，支持激素替代疗法，改善力量、耐力、性欲和整体激素平衡。适合临床或医疗监督下的睾酮治疗。",
+      "presentation": "剂型：注射用溶液\n规格：250 毫克/毫升 环戊丙酸睾酮\n包装规格：10 毫升 瓶\n用法：在医疗监督下肌肉注射\n包装：无菌、药物级、油基溶液\n储存：存放于阴凉干燥处，避免阳光直射。",
+      "shortDescription": "环戊丙酸睾酮 250 毫克/毫升 注射剂，用于 TRT、力量和男性激素支持。",
+      "precautions": "严格在医疗监督下使用。\n遵循处方注射计划。\n请勿自行给药或调整剂量。\n告知医生您所有的药物或补充剂。\n放在儿童接触不到的地方。\n如果出现异常反应，请立即寻求医疗帮助。",
+      "contraindications": "如果对睾酮或任何成分过敏，请勿使用。\n不适用于前列腺癌、严重心脏、肝脏或肾脏疾病的个体。\n对孕妇或哺乳期妇女不安全。\n治疗期间建议定期进行激素监测。",
+      "images": [],
+      "seoTitle": "TESTOVA C | 环戊丙酸睾酮 250 毫克/毫升 注射剂 | Nova Techsciences",
+      "seoDescription": "Nova Techsciences 的 TESTOVA C 是一种环戊丙酸睾酮 250 毫克/毫升注射剂，在受控标准下生产，提供一致的剂量和药物级质量。",
+      "seoKeywords": "TESTOVA C, 环戊丙酸睾酮 250 毫克/毫升, 注射用睾酮, 购买环戊丙酸睾酮, TRT 注射, 增肌注射剂",
+      "seoRobots": "index, follow",
+      "seoCanonical": "https://www.novatechsciences.com/products/injectables/testova-c",
+      "schemaBrand": "NovaTech Sciences",
+      "schemaCategory": "注射用合成代谢类固醇",
+      "schemaType": "Product",
+      "faq": [
+        {
+          "question": "我应该如何使用这种药物？",
+          "answer": "严格按照您的医疗保健提供者的处方使用 TESTOVA C。在建议的时间间隔通过肌肉注射给药。未经医疗监督，请勿调整剂量，以确保稳定的睾酮水平。"
+        },
+        {
+          "question": "我可以随餐服用这种药物吗？",
+          "answer": "食物不影响 TESTOVA C 的吸收，因为它是注射剂。您可以在给药前后正常进食。请遵循您的处方注射计划。"
+        },
+        {
+          "question": "这种药物对孕妇或哺乳期妇女安全吗？",
+          "answer": "不安全。TESTOVA C 对孕妇或哺乳期妇女不安全。接触可能伤害胎儿或婴儿，仅用于医疗监督下的男性 TRT。"
+        },
+        {
+          "question": "什么是 TESTOVA C？",
+          "answer": "TESTOVA C 是一种长效环戊丙酸睾酮 250 毫克/毫升注射用类固醇，常用于睾酮替代疗法，以恢复低激素水平，并支持男性力量、活力和整体健康。"
+        },
+        {
+          "question": "如果我漏服了一次剂量该怎么办？",
+          "answer": "如果您错过了计划的注射时间，请联系您的医疗保健提供者获取指导。不要加倍下一次剂量或自行给药，因为不正确的注射时间可能导致不稳定的睾酮水平或副作用。"
+        }
+      ]
+    },
+    {
+      "id": "inj-testova-e-250mgml",
+      "name": "TESTOVA E",
+      "category": "注射剂",
+      "cas": "315-37-7",
+      "description": "TESTOVA E（庚酸睾酮 250 毫克/毫升）是一种药物级注射用类固醇，用于激素替代疗法（TRT）和增肌周期。在专业监督下，它支持肌肉生长、力量、恢复和稳定的激素平衡。",
+      "indication": "TESTOVA E适用于睾酮水平低的男性，支持激素替代疗法和表现提升。它有助于恢复最佳睾酮水平，支持肌肉生长，改善力量、恢复、性欲，并在增肌或 TRT 方案期间维持稳定的激素水平。",
+      "presentation": "剂型：注射用溶液\n规格：250 毫克/毫升 庚酸睾酮\n包装规格：10 毫升 瓶\n用法：在医疗监督下肌肉注射\n包装：无菌、油基、药物级溶液\n储存：存放于阴凉干燥处，避免阳光直射。",
+      "shortDescription": "庚酸睾酮 250 毫克/毫升 注射剂，用于 TRT、增肌和激素支持。",
+      "precautions": "仅在医疗监督下使用。\n遵循处方注射计划。\n请勿自行给药或调整剂量。\n告知医生您所有的药物、补充剂或类固醇使用情况。\n放在儿童接触不到的地方。\n如果出现异常反应，请立即寻求医疗帮助。",
+      "contraindications": "如果对睾酮或任何成分过敏，请勿使用。\n不建议用于前列腺癌、严重心脏、肾脏或肝脏疾病的个体。\n对孕妇或哺乳期妇女不安全。\n睾酮治疗期间建议定期进行激素监测。",
+      "images": [],
+      "seoTitle": "TESTOVA E | 庚酸睾酮 250 毫克/毫升 注射剂 | Nova Techsciences",
+      "seoDescription": "TESTOVA E（庚酸睾酮 250 毫克/毫升 注射剂）是 Nova Techsciences 的无菌注射产品，提供标准化浓度以供药物参考和分销。",
+      "seoKeywords": "TESTOVA E, 庚酸睾酮 250 毫克/毫升, 注射用睾酮, 购买庚酸睾酮, TRT 注射, 增肌类固醇注射剂",
+      "seoRobots": "index, follow",
+      "seoCanonical": "https://www.novatechsciences.com/products/injectables/testova-e",
+      "schemaBrand": "NovaTech Sciences",
+      "schemaCategory": "注射用合成代谢类固醇",
+      "schemaType": "Product",
+      "faq": [
+        {
+          "question": "庚酸睾酮在体内保持活性多久？",
+          "answer": "庚酸睾酮的半衰期为 5-7 天，这使得 TESTOVA E 非常适合稳定的睾酮释放。在类固醇周期或 TRT 方案中，使用者通常每周注射一次或两次以维持一致的激素水平。"
+        },
+        {
+          "question": "我可以从 TESTOVA E 中期待什么效果？",
+          "answer": "TESTOVA E 支持肌肉质量增长、力量改善、更快的恢复、增强的性欲和激素稳定性。由于其强大的合成代谢作用，广泛用于增肌周期。"
+        },
+        {
+          "question": "使用 TESTOVA E 后需要 PCT 吗？",
+          "answer": "需要。因为庚酸睾酮会抑制天然睾酮生成，所以需要进行周期后治疗（PCT）。SERMs（如克罗米芬或他莫昔芬）有助于在周期后恢复激素平衡并预防雌激素相关问题。"
+        },
+        {
+          "question": "初学者可以使用 TESTOVA E 吗？",
+          "answer": "初学者可以在医疗专业人员的监督下使用 TESTOVA E。庚酸睾酮因其可预测的效果常被推荐为首选类固醇，但适当的剂量、血液检查和安全性监测至关重要。"
+        },
+        {
+          "question": "庚酸睾酮的常见副作用是什么？",
+          "answer": "常见的副作用包括液体潴留、痤疮、情绪波动、雌激素升高和红细胞计数增加。负责任地使用 TESTOVA E 并定期进行激素监测有助于降低风险。"
+        }
+      ]
+    },
+    {
+      "id": "inj-boldenova-250mgml",
+      "name": "BOLDENOVA",
+      "category": "注射剂",
+      "cas": "13103-34-9",
+      "description": "Boldenova（十一烯酸宝丹酮 250 毫克/毫升）是一种药物级注射用类固醇，旨在实现瘦肌肉增长、增强耐力、增加血管分布和稳定的表现提升。因其干净、高质量的增肌周期而在运动员中很受欢迎。",
+      "indication": "十一烯酸宝丹酮适用于寻求缓慢、稳定、高质量的瘦肌肉增长、改善氮保留、增强耐力和平衡激素支持的个体。适合长期增肌周期和监督下的合成代谢治疗。",
+      "presentation": "剂型：注射用溶液\n规格：250 毫克/毫升 十一烯酸宝丹酮\n包装规格：10 毫升 瓶\n用法：仅在专业监督下肌肉注射\n包装：无菌、药物级、油基溶液\n储存：存放于阴凉干燥处，避免阳光直射。",
+      "shortDescription": "十一烯酸宝丹酮 250 毫克/毫升 注射剂，用于精瘦增肌、耐力和表现提升。",
+      "precautions": "仅在医疗监督下使用。\n请勿自行给药。\n使用期间监测心血管健康和血液参数。\n保持无菌注射技术。\n告知医生任何健康状况或药物。\n如果出现异常症状，请立即寻求帮助。",
+      "contraindications": "如果对合成代谢类固醇过敏，请避免使用。\n不适用于前列腺癌或乳腺癌患者。\n不适合严重肝脏、肾脏或心脏疾病的个体。\n孕妇或哺乳期妇女不应使用。\n不建议未成年人或未治疗的高血压患者使用。",
+      "images": [],
+      "seoTitle": "Boldenova（十一烯酸宝丹酮 250 毫克/毫升 注射剂）- Nova Techsciences",
+      "seoDescription": "Nova Techsciences 的 Boldenova（十一烯酸宝丹酮 250 毫克/毫升 注射剂）被列为具有标准化配方、标签和受控生产工艺的注射用药品。",
+      "seoKeywords": "十一烯酸宝丹酮, Boldenova 注射剂, 在线购买宝丹酮, 精瘦增肌注射剂, 合成代谢类固醇注射剂, 增肌注射剂",
+      "seoRobots": "index, follow",
+      "seoCanonical": "https://www.novatechsciences.com/products/injectables/boldenova",
+      "schemaBrand": "Novatech Sciences",
+      "schemaCategory": "注射用合成代谢类固醇",
+      "schemaType": "Product",
+      "faq": [
+        {
+          "question": "十一烯酸宝丹酮在体内停留多长时间？",
+          "answer": "十一烯酸宝丹酮具有较长的半衰期，可在数周内保持活性。其持续时间长支持稳定的增长，但也导致更长的检测窗口期。"
+        },
+        {
+          "question": "我可以从十一烯酸宝丹酮中期待什么效果？",
+          "answer": "使用者通常会经历瘦肌肉增长、血管分布改善和耐力增强。持续的训练和营养可以增强十一烯酸宝丹酮周期的效果。"
+        },
+        {
+          "question": "十一烯酸宝丹酮对初学者友好吗？",
+          "answer": "由于十一烯酸宝丹酮的雄激素性质温和，被认为对初学者友好。任何周期都应在专业人员监督下进行，以防止激素失衡。"
+        },
+        {
+          "question": "十一烯酸宝丹酮会导致液体潴留吗？",
+          "answer": "十一烯酸宝丹酮引起的液体潴留最少，使其成为在增肌阶段实现干净、瘦肌肉增长和稳定发育的理想选择。"
+        },
+        {
+          "question": "十一烯酸宝丹酮可以与其他类固醇一起使用吗？",
+          "answer": "可以。它通常与睾酮和其他合成代谢类固醇一起使用。但应在专家监督下进行堆叠，以维持安全的激素水平并最小化副作用。"
+        }
+      ]
+    },
+    {
+      "id": "inj-nandrova-d-250mgml",
+      "name": "NANDROVA D",
+      "category": "注射剂",
+      "cas": "360-70-3",
+      "description": "Nandrova D（癸酸诺龙 250 毫克/毫升）是一种药物级注射用类固醇，旨在实现瘦肌肉增长、增强恢复、关节支持和持续的表现提升。适合在专业监督下进行长期增肌周期。",
+      "indication": "癸酸诺龙适用于促进肌肉恢复、力量增强、氮保留、红细胞生成和整体表现提升。适合需要在高强度训练期间保留瘦肌肉和关节支持的运动员和健身使用者。",
+      "presentation": "剂型：注射用溶液\n规格：250 毫克/毫升 癸酸诺龙\n包装规格：10 毫升 无菌瓶\n用法：仅供肌肉注射\n包装：无菌、药物级、油基溶液\n储存：存放于阴凉干燥处，避免阳光直射。",
+      "shortDescription": "癸酸诺龙 250 毫克/毫升 注射剂，用于精瘦增肌、恢复和关节支持。",
+      "precautions": "仅在医疗监督下使用。\n监测肝脏、肾脏和激素水平。\n保持无菌肌肉注射技术。\n避免酒精和未经批准的药物。\n如果出现异常症状，请停止使用并寻求医疗帮助。",
+      "contraindications": "如果对癸酸诺龙或合成代谢类固醇过敏，请避免使用。\n不建议孕妇或哺乳期妇女使用。\n不适合前列腺癌或乳腺癌患者。\n避免用于严重肝脏、肾脏或心脏疾病的个体。\n不适用于未成年人或未控制的高血压患者。",
+      "images": [],
+      "seoTitle": "Nandrova D 注射剂 - 癸酸诺龙 250 毫克/毫升 | Nova Techsciences",
+      "seoDescription": "Nandrova D（癸酸诺龙 250 毫克/毫升 注射剂）是一种供产品参考的药品注射剂，包括成分、浓度和配方信息。",
+      "seoKeywords": "癸酸诺龙, Nandrova D 注射剂, 在线购买诺龙, 精瘦增肌类固醇注射剂, 合成代谢类固醇注射剂, 增肌注射剂",
+      "seoRobots": "index, follow",
+      "seoCanonical": "https://www.novatechsciences.com/products/injectables/nandrova-d",
+      "schemaBrand": "Novatech Sciences",
+      "schemaCategory": "注射用合成代谢类固醇",
+      "schemaType": "Product",
+      "faq": [
+        {
+          "question": "癸酸诺龙在体内停留多长时间？",
+          "answer": "由于其长酯链，癸酸诺龙可在体内保持数周的活性。使用者通常在每次注射后的 10-14 天内感受到其效果，而在测试中的检测时间可能更长。"
+        },
+        {
+          "question": "癸酸诺龙有助于缓解关节疼痛吗？",
+          "answer": "许多使用者报告称，由于癸酸诺龙的胶原蛋白增强特性，关节润滑得到改善，不适感减轻。它支持在大重量训练周期中更流畅的活动。"
+        },
+        {
+          "question": "我可以从癸酸诺龙中期待什么效果？",
+          "answer": "使用者通常会经历瘦肌肉质量增长、更快的恢复、耐力增强和关节压力减轻。癸酸诺酮支持长期表现而非快速增重。"
+        },
+        {
+          "question": "癸酸诺龙可以与其他类固醇一起使用吗？",
+          "answer": "可以。它通常与基于睾酮的化合物一起使用。但堆叠使用仅应在专家监督下进行，以维持安全的激素水平。"
+        },
+        {
+          "question": "癸酸诺龙的常见副作用是什么？",
+          "answer": "可能的副作用包括激素波动、痤疮、液体潴留和情绪变化。负责任的使用和医疗监督有助于将风险降至最低。"
+        }
+      ]
+    },
+    {
+      "id": "inj-nandrova-p-100mgml",
+      "name": "NANDROVA P",
+      "category": "注射剂",
+      "cas": "62-90-8",
+      "description": "Nandrova P（苯丙酸诺龙 100 毫克/毫升）是一种速效注射用合成代谢类固醇，专为医疗用途设计。在专业监督下，它支持肌肉恢复、氮保留、红细胞生成和康复相关治疗。",
+      "indication": "苯丙酸诺龙适用于促进肌肉恢复、改善力量、支持氮保留、红细胞生成和瘦肌肉再生。常用于需要速效合成代谢支持的临床或治疗环境。",
+      "presentation": "剂型：注射用溶液\n规格：100 毫克/毫升 苯丙酸诺龙\n包装规格：10 毫升 多剂量瓶\n用法：仅供肌肉注射\n包装：无菌、药物级溶液\n储存：存放于阴凉干燥处，避免阳光直射。",
+      "shortDescription": "速效苯丙酸诺龙 100 毫克/毫升 注射剂，用于肌肉恢复、氮保留和康复。",
+      "precautions": "仅在严格的医疗监督下使用。\n监测肝脏、肾脏和激素水平。\n使用无菌肌肉注射技术。\n避免酒精和未经批准的药物。\n如果出现异常症状，请停用并寻求医疗帮助。",
+      "contraindications": "如果对苯丙酸诺龙或合成代谢类固醇过敏，请勿使用。\n孕妇或哺乳期妇女避免使用。\n不适合严重肝脏、肾脏或心脏疾病的患者。\n前列腺癌或乳腺癌患者禁用。\n未控制的高血压患者避免使用。",
+      "images": [],
+      "seoTitle": "Nandrova P 注射剂 100 毫克/毫升 | 苯丙酸诺龙 – Nova Techsciences",
+      "seoDescription": "Nova Techsciences 的 Nandrova P（苯丙酸诺龙 100 毫克/毫升 注射剂）在受控条件下生产，并明确标注了剂量规格和配方详细信息。",
+      "seoKeywords": "苯丙酸诺龙, Nandrova-P 注射剂, 在线购买 NPP, 速效合成代谢类固醇注射剂, 肌肉恢复注射剂, 药物级类固醇",
+      "seoRobots": "index, follow",
+      "seoCanonical": "https://www.novatechsciences.com/products/injectables/nandrova-p",
+      "schemaBrand": "Novatech Sciences",
+      "schemaCategory": "注射用合成代谢类固醇",
+      "schemaType": "Product",
+      "faq": [
+        {
+          "question": "苯丙酸诺龙在医疗用途上合法吗？",
+          "answer": "是的，当有执照的医疗保健提供者开具处方时，苯丙酸诺龙被合法批准用于特定的医疗状况。法规因国家而异，因此请确保遵守当地法律。"
+        },
+        {
+          "question": "苯丙酸诺龙起效多快？",
+          "answer": "由于其短酯链，苯丙酸诺龙比长效诺龙变体起效更快。通常在几天内就能注意到治疗效果，例如改善恢复和红细胞生成。"
+        },
+        {
+          "question": "苯丙酸诺龙会导致液体潴留吗？",
+          "answer": "与长效诺龙类固醇相比，苯丙酸诺龙在医疗监督下使用时通常引起的液体潴留最少。效果可能因患者健康状况和治疗持续时间而异。"
+        },
+        {
+          "question": "苯丙酸诺龙可以用于肌肉恢复吗？",
+          "answer": "可以。在医疗指导下，它支持肌肉再生，增强氮保留，并减少与创伤、手术或慢性疾病相关的肌肉分解。"
+        },
+        {
+          "question": "苯丙酸诺龙治疗后需要后续治疗吗？",
+          "answer": "后续治疗方案取决于治疗持续时间和患者激素水平。医生可能会建议在治疗后进行激素监测，以确保安全地恢复内分泌平衡。"
+        }
+      ]
+    },
+    {
+      "id": "inj-trenova-a-100mgml",
+      "name": "TRENOVA A",
+      "category": "注射剂",
+      "cas": "10161-34-9",
+      "description": "Trenova A（醋酸群勃龙 100 毫克/毫升）是一种速效注射用合成代谢类固醇，适用于高级研究或兽医监督的应用。在专业监督下，它支持瘦肌肉发育、增强氮保留和改善蛋白质合成。",
+      "indication": "醋酸群勃龙适用于受控的临床或兽医研究环境，支持肌肉发育、力量、氮保留和代谢效率。由于其强效的合成代谢-雄激素特性，严格用于高级的、监督下的使用。",
+      "presentation": "剂型：注射用溶液\n规格：100 毫克/毫升 醋酸群勃龙\n包装规格：10 毫升 多剂量瓶\n给药途径：仅供肌肉注射（IM）\n包装：无菌、药物级油基溶液\n储存：存放在阴凉干燥处，远离儿童和阳光。",
+      "shortDescription": "醋酸群勃龙 100 毫克/毫升 注射剂，用于高级研究和以表现为重点的应用。",
+      "precautions": "仅在持牌医疗或研究监督下使用。\n监测心血管健康、肝功能和胆固醇水平。\n避免饮酒或增加肝脏/心脏负担的物质。\n遵循无菌注射技术。\n放在儿童接触不到的地方。",
+      "contraindications": "如果对醋酸群勃龙或任何成分过敏，请勿使用。\n怀孕期间、哺乳期间或计划怀孕时避免使用。\n不适用于心脏病、肝/肾功能障碍、前列腺癌或严重激素/精神疾病的个体。\n未控制的高血压患者避免使用。",
+      "images": [],
+      "seoTitle": "Trenova A（醋酸群勃龙 100 毫克/毫升）| 注射剂产品信息",
+      "seoDescription": "Trenova A（醋酸群勃龙 100 毫克/毫升 注射剂）提供标准化浓度和配方详细信息。由 Nova Techsciences 生产，用于受监管的药物参考。",
+      "seoKeywords": "醋酸群勃龙, Trenova-A 注射剂, 购买群勃龙注射剂, 高级合成代谢类固醇, 减脂周期注射剂, 瘦肌肉支持",
+      "seoRobots": "index, follow",
+      "seoCanonical": "https://www.novatechsciences.com/products/injectables/trenova-a",
+      "schemaBrand": "NovaTech Sciences",
+      "schemaCategory": "注射用合成代谢类固醇",
+      "schemaType": "Product",
+      "faq": [
+        {
+          "question": "醋酸群勃龙合法吗？",
+          "answer": "醋酸群勃龙的法律地位因国家而异。在许多地区，它被列为受控物质，仅允许用于兽医或经批准的研究用途。在购买或处理前，请核实您当地的法规。"
+        },
+        {
+          "question": "醋酸群勃龙起效多快？",
+          "answer": "由于其短酯链，醋酸群勃龙起效迅速。在受控条件下，生理反应通常很快就能观察到。"
+        },
+        {
+          "question": "醋酸群勃龙会引起副作用吗？",
+          "answer": "如果误用，醋酸群勃龙可能引起雄激素性、心血管性、激素性和心理性副作用。在处理该化合物时，严格的专业监督至关重要。"
+        },
+        {
+          "question": "醋酸群勃龙与其他类固醇有何不同？",
+          "answer": "醋酸群勃龙具有高合成代谢与雄激素比率、强大的营养分配效应和快速的代谢活性，使其在研究和对表现要求高的应用中具有强效和速效的特点。"
+        },
+        {
+          "question": "醋酸群勃龙适合初学者吗？",
+          "answer": "不适合。醋酸群勃龙效力极强，不建议初学者使用。由于其内分泌影响和副作用特点，它严格用于高级的、专业监督下的应用。"
+        }
+      ]
+    },
+    {
+      "id": "inj-trenova-e-200mgml",
+      "name": "TRENOVA E",
+      "category": "注射剂",
+      "cas": "10161-34-9",
+      "description": "Trenova E（庚酸群勃龙 200 毫克/毫升）是一种长效注射用合成代谢类固醇，用于受控的医疗和研究环境。在专业监督下，它支持持续的合成代谢活性、瘦肌肉保留、氮保留和蛋白质合成。",
+      "indication": "庚酸群勃龙适用于高级肌肉恢复、力量支持和研究或临床环境中的合成代谢治疗。其缓释特性允许稳定的合成代谢活性，支持瘦肌肉保留、氮保留、蛋白质合成和康复。",
+      "presentation": "剂型：注射用溶液\n规格：200 毫克/毫升 庚酸群勃龙\n包装规格：10 毫升 多剂量瓶\n给药途径：肌肉注射（IM）\n活性成分：庚酸群勃龙\n保质期：按药品标签所示\n储存：25°C以下避光保存\n包装：药物级无菌瓶",
+      "shortDescription": "长效庚酸群勃龙 200 毫克/毫升 注射剂，用于受控研究和高级合成代谢治疗。",
+      "precautions": "仅在医疗或研究监督下使用。\n请勿自行用药。\n定期监测肝脏、心血管健康、胆固醇和激素水平。\n放在儿童接触不到的地方。\n避免饮酒或其他可能干扰治疗的物质。",
+      "contraindications": "如果对庚酸群勃龙或任何赋形剂过敏，请勿使用。\n心脏病、肝/肾功能障碍、前列腺癌、未控制的高血压或血脂异常患者避免使用。\n孕妇或哺乳期妇女不得使用。",
+      "images": [],
+      "seoTitle": "Trenova E 注射剂 200 毫克/毫升 | 庚酸群勃龙 – Nova Techsciences",
+      "seoDescription": "由 Nova Techsciences 生产，Trenova E（庚酸群勃龙 200 毫克/毫升 注射剂）是一种长效注射产品，在受控质量和配方指南下生产。",
+      "seoKeywords": "庚酸群勃龙, Trenova-E 注射剂, 购买群勃龙注射剂, 长效合成代谢类固醇, 增肌支持, 减脂周期注射剂",
+      "seoRobots": "index, follow",
+      "seoCanonical": "https://www.novatechsciences.com/products/injectables/trenova-e",
+      "schemaBrand": "NovaTech Sciences",
+      "schemaCategory": "注射用合成代谢类固醇",
+      "schemaType": "Product",
+      "faq": [
+        {
+          "question": "庚酸群勃龙在医学研究中用于什么？",
+          "answer": "庚酸群勃龙在受控的医学环境中被研究，以了解其合成代谢特性，包括肌肉组织保留、恢复支持和氮保留。其长效特性允许在监督下维持持续的治疗活性。"
+        },
+        {
+          "question": "庚酸群勃龙与醋酸群勃龙有何不同？",
+          "answer": "庚酸群勃龙是一种长效酯，缓慢释放以实现稳定的合成代谢效果，注射次数较少；而醋酸群勃龙是短效且起效更快的。"
+        },
+        {
+          "question": "庚酸群勃龙长期使用安全吗？",
+          "answer": "长期使用必须在严格的医疗监督下进行。如果未得到适当监测，长期暴露会影响肝脏、心血管系统、胆固醇和激素平衡。"
+        },
+        {
+          "question": "庚酸群勃龙会导致液体潴留吗？",
+          "answer": "庚酸群勃龙通常不会导致明显的液体潴留，使其适合支持瘦组织，而不会导致肌肉中过多的液体积聚。"
+        },
+        {
+          "question": "庚酸群勃龙会影响胆固醇水平吗？",
+          "answer": "会的。庚酸群勃龙可能对 HDL 和 LDL 胆固醇产生负面影响，如果不加以监测，会增加心血管风险。强烈建议定期进行血脂谱测试。"
+        }
+      ]
+    },
+    {
+      "id": "inj-trenova-hexa-76-5mgml",
+      "name": "TRENOVA HEXA",
+      "category": "注射剂",
+      "cas": "23454-33-3",
+      "description": "Trenova Hexa（六氢苄碳酸群勃龙 76.5 毫克/毫升）是一种长效注射用合成代谢类固醇，用于高级表现提升和临床研究环境。在受控监督下，它促进瘦肌肉质量、氮保留、红细胞生成和持续的力量。",
+      "indication": "六氢苄碳酸群勃龙主要适用于促进瘦肌肉质量、改善氮保留、增强整体力量和支持红细胞生成。其缓释特性使其适合需要持续激素活性的长周期合成代谢方案。",
+      "presentation": "剂型：注射用油基溶液\n规格：76.5 毫克/毫升 六氢苄碳酸群勃龙\n包装规格：10 毫升 多剂量瓶\n给药途径：肌肉注射（IM）\n活性成分：六氢苄碳酸群勃龙\n保质期：按药品标签所示\n储存：25°C以下避光保存\n包装：无菌药物级瓶",
+      "shortDescription": "长效六氢苄碳酸群勃龙 76.5 毫克/毫升 注射剂，用于高级肌肉增长、力量和减脂研究用途。",
+      "precautions": "严格在医疗监督下使用，因为该合成代谢类固醇效力很强。\n需要定期监测肝功能、胆固醇水平和血压。\n避免饮酒和其他肝毒性物质。\n保持适当的水分、营养和受控的训练强度。\n如果出现严重的副作用，请立即停止使用并咨询医生。",
+      "contraindications": "由于严重的激素风险，孕妇和哺乳期妇女禁用。\n不适合前列腺癌、乳腺癌或激素敏感性肿瘤患者。\n不适用于患有严重肝脏、肾脏或心血管疾病的个体。\n儿童和青少年禁用。\n对合成代谢类固醇或载体油过敏的个体避免使用。",
+      "images": [],
+      "seoTitle": "TRENOVA HEXA 注射剂（六氢苄碳酸群勃龙 76.5 毫克/毫升）| Nova Techsciences",
+      "seoDescription": "由 Nova Techsciences 生产的 TRENOVA HEXA 是一种六氢苄碳酸群勃龙 76.5 毫克/毫升注射剂，提供标准化配方和质量控制的包装。",
+      "seoKeywords": "六氢苄碳酸群勃龙 76.5 毫克/毫升, Trenova Hexa 注射剂, 六氢苄碳酸群勃龙, 在线购买群勃龙六氢苄碳酸酯, 全球群勃龙, 减脂周期注射剂",
+      "seoRobots": "index, follow",
+      "seoCanonical": "https://www.novatechsciences.com/products/injectables/trenovahexa",
+      "schemaBrand": "NovaTech Sciences",
+      "schemaCategory": "注射用合成代谢类固醇",
+      "schemaType": "Product",
+      "faq": [
+        {
+          "question": "怀孕或哺乳期间使用六氢苄碳酸群勃龙安全吗？",
+          "answer": "不安全。六氢苄碳酸群勃龙在怀孕和哺乳期间严格禁用。接触可能对胎儿发育造成严重伤害，并导致婴儿激素紊乱。"
+        },
+        {
+          "question": "六氢苄碳酸群勃龙在体内保持活性多久？",
+          "answer": "由于其长酯结构，六氢苄碳酸群勃龙可在体内保持数周的活性。其持久的作用支持延长的合成代谢周期，但需要适当的周期后恢复规划。"
+        },
+        {
+          "question": "六氢苄碳酸群勃龙会导致液体潴留吗？",
+          "answer": "与许多合成代谢类固醇不同，它不会显著引起液体潴留，并被广泛用于产生干燥、坚实的肌肉增长和增强的清晰度。"
+        },
+        {
+          "question": "六氢苄碳酸群勃龙会抑制睾酮生成吗？",
+          "answer": "会的。像大多数合成代谢类固醇一样，它可能抑制天然睾酮生成。停止使用后，在医疗监督下进行适当的周期后治疗（PCT）至关重要。"
+        },
+        {
+          "question": "六氢苄碳酸群勃龙在全球范围内合法吗？",
+          "answer": "其法律地位因国家而异。在许多地区，它被归类为处方药或受控的合成代谢物质。"
+        }
+      ]
+    },
+    {
+      "id": "inj-drostanova-p-100mgml",
+      "name": "DROSTANOVA P",
+      "category": "注射剂",
+      "cas": "521-12-0",
+      "description": "Drostanova P（丙酸屈他雄酮 100 毫克/毫升）是一种高级合成代谢雄激素类固醇注射剂，适用于瘦肌肉强化、减脂支持和雄激素相关的肌肉恢复。在医疗监督下，它广泛用于减脂周期，用于肌肉硬化、力量增强和体格调理。",
+      "indication": "丙酸屈他雄酮适用于瘦肌肉保留、减脂支持、肌肉硬化和雄激素相关的恢复。其抗雌激素活性使其在减脂周期、力量增强和比赛准备方案中非常有效，需在专业监督下进行。",
+      "presentation": "剂型：油基注射用溶液\n规格：100 毫克/毫升 丙酸屈他雄酮\n包装规格：10 毫升 多剂量瓶\n给药途径：仅供肌肉注射（IM）使用\n类别：合成代谢雄激素类固醇（AAS）\n保质期：符合药品标准\n包装：安全的药物级无菌瓶",
+      "shortDescription": "干燥、抗雌激素的丙酸屈他雄酮 100 毫克/毫升 注射剂，用于减脂、肌肉硬化和力量增强。",
+      "precautions": "仅在医疗监督下使用，以防止激素失衡和心血管压力。\n建议定期监测肝功能、血脂谱和睾酮水平。\n运动员应确认法规状态，因为存在运动限制。\n治疗期间避免饮酒。\n保持有益心脏健康的饮食和积极的生活方式。",
+      "contraindications": "孕妇和哺乳期妇女禁用。\n前列腺癌、男性乳腺癌、严重肝病、肾功能不全或心血管疾病患者不得使用。\n不适合对丙酸屈他雄酮或注射用油过敏的个体。\n18 岁以下儿童和青少年禁用。\n不建议未控制的高血压或血脂异常患者使用。",
+      "images": [],
+      "seoTitle": "DROSTANOVA P - 丙酸屈他雄酮 100 毫克/毫升 注射剂 | Nova Techsciences",
+      "seoDescription": "Nova Techsciences 的 DROSTANOVA P（丙酸屈他雄酮 100 毫克/毫升 注射剂）列出了标准化配方详细信息、注射规格和受控的药物质量。",
+      "seoKeywords": "丙酸屈他雄酮 100 毫克/毫升, Drostanova-P 注射剂, 屈他雄酮注射剂, 在线购买屈他雄酮, 全球 Masteron 丙酸酯, 减脂周期注射剂",
+      "seoRobots": "index, follow",
+      "seoCanonical": "https://www.novatechsciences.com/products/injectables/drostanova-p",
+      "schemaBrand": "NovaTech Sciences",
+      "schemaCategory": "注射用合成代谢类固醇",
+      "schemaType": "Product",
+      "faq": [
+        {
+          "question": "丙酸屈他雄酮用于减脂还是增肌？",
+          "answer": "丙酸屈他雄酮主要用于减脂周期，以保留瘦肌肉、减少体脂和增强血管分布。由于其干燥的肌肉效果，不常用于增肌。"
+        },
+        {
+          "question": "Drostanova P 会导致液体潴留吗？",
+          "answer": "不会。丙酸屈他雄酮被称为干燥的合成代谢类固醇，不会导致液体潴留或浮肿，使其成为实现坚硬、清晰和分离外观的理想选择。"
+        },
+        {
+          "question": "丙酸屈他雄酮长期使用安全吗？",
+          "answer": "长期或无人监督的使用可能导致睾酮抑制、血脂失衡、肝脏负担和心血管风险。它应仅在医疗监督下使用。"
+        },
+        {
+          "question": "Drostanova P 可以与其他类固醇一起使用吗？",
+          "answer": "可以。它通常与其他合成代谢类固醇一起使用，但不正确的堆叠会增加健康风险，应仅由合格的医疗或运动专业人士规划。"
+        },
+        {
+          "question": "丙酸屈他雄酮会影响雌激素水平吗？",
+          "answer": "会的。它具有抗雌激素特性，有助于减少雌激素相关的副作用，如男性乳房发育和液体潴留。"
+        }
+      ]
+    },
+    {
+      "id": "inj-primonova-100mgml",
+      "name": "PRIMONOVA",
+      "category": "注射剂",
+      "cas": "303-40-4",
+      "description": "Primonova（庚酸美替诺龙 100 毫克/毫升）是一种长效注射用合成代谢类固醇，广泛用于减脂周期中的瘦肌肉保留、力量增强和恢复支持。它促进干燥、高质量的肌肉增长，改善耐力，并提供稳定的合成代谢表现，而不会引起过多的液体潴留。",
+      "indication": "庚酸美替诺龙适用于减脂周期中的瘦肌肉保留、力量增强、耐力改善和恢复支持。它在医疗监督下提供温和而一致的合成代谢效果，且安全性良好。",
+      "presentation": "剂型：注射用溶液\n规格：100 毫克/毫升 庚酸美替诺龙\n包装规格：10 毫升 无菌瓶\n给药途径：仅供肌肉注射（IM）使用\n类别：合成代谢类固醇注射剂\n释放类型：长效\n包装：药物级无菌瓶",
+      "shortDescription": "长效庚酸美替诺龙 100 毫克/毫升 注射剂，用于减脂、瘦肌肉保留和力量支持。",
+      "precautions": "仅在医疗监督下使用。\n建议定期进行血液检查以监测激素、肝功能和血脂水平。\n使用期间避免饮酒和肝毒性物质。\n如果出现异常肿胀、呼吸困难或严重情绪变化，请立即停用。\n未经专业指导，请勿与未经证实的类固醇或补充剂结合使用。",
+      "contraindications": "对庚酸美替诺龙或配方成分过敏的个体禁用。\n前列腺癌或乳腺癌患者不得使用。\n不建议用于严重肾脏或肝脏功能不全的个体。\n孕妇和哺乳期妇女禁用。\n严重心血管疾病或未控制的高血压患者避免使用。",
+      "images": [],
+      "seoTitle": "PRIMONOVA（庚酸美替诺龙 100 毫克/毫升 注射剂）| Nova Techsciences",
+      "seoDescription": "Nova Techsciences 的 PRIMONOVA 是一种庚酸美替诺龙 100 毫克/毫升注射用配方。药物级产品，具有明确的成分和剂量规格。",
+      "seoKeywords": "庚酸美替诺龙 100 毫克/毫升, Primonova 注射剂, 庚酸 Primobolan, 在线购买美替诺龙, 全球 Primobolan, 瘦肌肉注射剂",
+      "seoRobots": "index, follow",
+      "seoCanonical": "https://www.novatechsciences.com/products/injectables/primonova",
+      "schemaBrand": "NovaTech Sciences",
+      "schemaCategory": "注射用合成代谢类固醇",
+      "schemaType": "Product",
+      "faq": [
+        {
+          "question": "庚酸美替诺龙对减脂周期有好处吗？",
+          "answer": "有好处。庚酸美替诺龙非常适用于减脂周期，因为它能保留瘦组织，增强肌肉硬度，改善代谢效率，同时支持减脂和力量。"
+        },
+        {
+          "question": "庚酸美替诺龙在体内保持活性多久？",
+          "answer": "庚酸美替诺龙的半衰期约为 7-10 天，使其适合每周注射计划，并提供稳定的合成代谢活性。"
+        },
+        {
+          "question": "使用庚酸美替诺龙后需要周期后治疗（PCT）吗？",
+          "answer": "需要。建议进行 PCT，以帮助恢复天然睾酮水平并保持在周期期间获得的肌肉增长。"
+        },
+        {
+          "question": "应如何使用 Primonova？",
+          "answer": "Primonova 应严格按照有执照的医疗保健提供者的指示，通过肌肉注射给药，以维持稳定的合成代谢水平。"
+        },
+        {
+          "question": "我可以随餐服用这种药物吗？",
+          "answer": "由于 Primonova 是注射用类固醇，食物不影响吸收。然而，均衡的高蛋白饮食支持更好的效果和肌肉保留。"
+        }
+      ]
+    },
+    {
+      "id": "inj-roxonova-50mgml",
+      "name": "ROXONOVA",
+      "category": "注射剂",
+      "cas": "10418-03-8",
+      "description": "Roxonova（司坦唑醇 50 毫克/毫升）是一种注射用合成代谢类固醇，广泛用于瘦肌肉保留、力量增强、耐力改善和恢复支持。在减脂周期中，因其能在不引起液体潴留的情况下产生干燥、坚硬的肌肉增长并支持红细胞生成而备受重视，需在医疗监督下使用。",
+      "indication": "司坦唑醇注射剂适用于治疗和以表现为基础的方案中的瘦肌肉保留、力量增强、耐力改善和恢复支持。它常用于减脂周期，以促进肌肉硬化和减脂。",
+      "presentation": "剂型：注射用溶液\n规格：司坦唑醇 50 毫克/毫升\n包装规格：10 毫升 多剂量瓶\n给药途径：肌肉注射（IM）\n类别：合成代谢类固醇注射剂\n外观：澄清无菌溶液\n包装：药物级密封瓶",
+      "shortDescription": "司坦唑醇 50 毫克/毫升 注射剂，用于减脂、力量增强和瘦肌肉保留。",
+      "precautions": "仅在医生监督下使用。\n强烈建议定期监测肝功能和血脂谱。\n使用期间避免饮酒以减少肝毒性。\n监测关节不适，因为司坦唑醇可能导致关节干燥。\n长期无人监督的使用可能抑制天然睾酮生成。",
+      "contraindications": "肝病、肝脏肿瘤或严重肝功能障碍患者禁用。\n不建议孕妇或哺乳期妇女使用。\n前列腺癌或男性乳腺癌患者避免使用。\n不适合患有严重心血管疾病或未控制胆固醇紊乱的个体。\n对司坦唑醇或配方成分过敏的个体禁用。",
+      "images": [],
+      "seoTitle": "ROXONOVA（司坦唑醇 50 毫克/毫升 注射剂）| Nova Techsciences",
+      "seoDescription": "Nova Techsciences 的 ROXONOVA（司坦唑醇 50 毫克/毫升 注射剂）是一种无菌注射用配方，具有明确的规格、成分和药物级生产标准。",
+      "seoKeywords": "司坦唑醇 50 毫克/毫升, Roxonova 注射剂, 司坦唑醇注射剂, 在线购买司坦唑醇, 全球 Winstrol 注射剂, 减脂周期注射剂",
+      "seoRobots": "index, follow",
+      "seoCanonical": "https://www.novatechsciences.com/products/injectables/roxonova",
+      "schemaBrand": "NovaTech Sciences",
+      "schemaCategory": "注射用合成代谢类固醇",
+      "schemaType": "Product",
+      "faq": [
+        {
+          "question": "司坦唑醇有助于增加力量吗？",
+          "answer": "有助于。司坦唑醇以在不增加过多体重的情况下显著提高力量而闻名。Roxonova 支持力量输出、耐力和爆发力表现。"
+        },
+        {
+          "question": "Roxonova 适合女性使用者吗？",
+          "answer": "Roxonova 含有司坦唑醇，可在严格的医疗监督下由女性使用。但是，使用不当可能导致男性化症状。"
+        },
+        {
+          "question": "司坦唑醇可以与其他类固醇一起使用吗？",
+          "answer": "可以。司坦唑醇常与其他合成代谢类固醇一起用于减脂和重组周期，但堆叠使用应始终在专业监督下规划。"
+        },
+        {
+          "question": "Roxonova 会影响胆固醇水平吗？",
+          "answer": "会影响。司坦唑醇可能降低 HDL（好胆固醇）并增加 LDL（坏胆固醇）。建议定期监测血脂谱。"
+        },
+        {
+          "question": "司坦唑醇对肝脏有毒性吗？",
+          "answer": "注射用司坦唑醇比口服形式的肝毒性小，但仍可能影响肝酶。长期或高剂量使用会增加肝脏负担。"
+        }
+      ]
+    },
+    {
+      "id": "inj-testova-pp-100mgml",
+      "name": "TESTOVA PP",
+      "category": "注射剂",
+      "cas": "1255-49-8",
+      "description": "Testova PP（苯丙酸睾酮 100 毫克/毫升）是一种速效注射用合成代谢类固醇，广泛用于激素替代疗法、治疗男性性腺功能减退症、青春期延迟和肌肉萎缩状况。由于其短酯链，它提供快速的睾酮释放，在医疗监督下支持瘦肌肉发育、力量、性欲和能量水平。",
+      "indication": "苯丙酸睾酮适用于男性性腺功能减退症、雄激素缺乏症、青春期延迟、肌肉萎缩性疾病和受控的力量-恢复方案。其短酯链允许快速的激素反应，并在睾酮替代疗法中实现更好的控制。",
+      "presentation": "剂型：注射用溶液\n规格：100 毫克/毫升 苯丙酸睾酮\n总含量：1000 毫克/10 毫升瓶\n包装规格：10 毫升 瓶\n给药途径：肌肉注射（IM）\n类别：睾酮注射剂\n包装：无菌药物级瓶",
+      "shortDescription": "速效苯丙酸睾酮 100 毫克/毫升 注射剂，用于激素替代和肌肉恢复。",
+      "precautions": "仅在有执照的医疗监督下使用。\n强烈建议定期监测 PSA、血细胞比容、胆固醇和肝酶。\n有血栓病史或红细胞增多症的患者避免使用。\n糖尿病患者应密切监测血糖。\n治疗期间避免酗酒。\n如果出现胸痛、肿胀或呼吸急促，请立即停用。",
+      "contraindications": "前列腺癌或男性乳腺癌患者禁用。\n不建议患有严重心脏病、未控制的高血压、肾病或肝功能障碍的个体使用。\n已知有血栓性疾病的患者避免使用。\n放在儿童接触不到的地方。",
+      "images": [],
+      "seoTitle": "TESTOVA PP（苯丙酸睾酮 100 毫克/毫升 注射剂）| Nova Techsciences",
+      "seoDescription": "Nova Techsciences 的 TESTOVA PP（苯丙酸睾酮 100 毫克/毫升 注射剂）是一种无菌注射用配方，具有明确的规格、成分和药物生产标准。",
+      "seoKeywords": "苯丙酸睾酮 100 毫克/毫升, Testova-PP 注射剂, 苯丙酸睾酮注射剂, 在线购买睾酮 PP, 全球睾酮, 增肌注射剂",
+      "seoRobots": "index, follow",
+      "seoCanonical": "https://www.novatechsciences.com/products/injectables/testova-pp",
+      "schemaBrand": "NovaTech Sciences",
+      "schemaCategory": "睾酮注射用类固醇",
+      "schemaType": "Product",
+      "faq": [
+        {
+          "question": "Testova PP 用于什么？",
+          "answer": "Testova PP 用于在医疗监督下治疗男性睾酮缺乏症、青春期延迟、肌肉萎缩状况和激素失衡疾病。"
+        },
+        {
+          "question": "苯丙酸睾酮起效多快？",
+          "answer": "由于其短酯链，苯丙酸睾酮在注射后 24-48 小时内开始起效。"
+        },
+        {
+          "question": "苯丙酸睾酮在体内保持活性多久？",
+          "answer": "它可在体内保持活性约 2-4 天，与长效睾酮酯相比需要更频繁的注射。"
+        },
+        {
+          "question": "Testova PP 对增肌有好处吗？",
+          "answer": "有好处。它在临床和基于恢复的治疗中支持瘦肌肉质量发育、氮保留和蛋白质合成。"
+        },
+        {
+          "question": "我可以自行注射 Testova PP 吗？",
+          "answer": "不可以。Testova PP 必须仅由有执照的医疗保健提供者通过肌肉注射给药。"
+        }
+      ]
+    },
+    {
+      "id": "inj-testova-base-100mgml",
+      "name": "TESTOVA BASE",
+      "category": "注射剂",
+      "cas": "58-22-0",
+      "description": "Testova Base（睾酮混悬液 100 毫克/毫升）是一种速效水基注射用睾酮类固醇，用于性腺功能减退症、青春期延迟、激素失衡和医疗监督下的肌肉萎缩性疾病。它提供快速的睾酮吸收以实现即时的合成代谢效果。",
+      "indication": "Testova Base 适用于男性性腺功能减退症、低睾酮水平、青春期延迟和激素失衡。其水基配方确保在医疗监督下快速吸收睾酮并产生即时的合成代谢效果。",
+      "presentation": "剂型：注射用溶液\n规格：100 毫克/毫升 睾酮混悬液\n包装规格：10 毫升 多剂量瓶\n给药途径：肌肉注射（IM）\n无菌水性混悬液\n用于临床和监督激素治疗的速效睾酮类固醇\n储存：按照药品标签指南储存。",
+      "shortDescription": "速效睾酮混悬液 100 毫克/毫升，用于即时激素支持和合成代谢活性。",
+      "precautions": "仅在合格的医疗监督下使用。\n定期监测睾酮水平、肝功能、血脂谱和血压。\n可能抑制天然睾酮生成。\n存在雌激素转化（芳香化）风险。\n不建议长期无人监督使用。",
+      "contraindications": "如果对睾酮或注射成分过敏，请勿使用。\n前列腺癌或乳腺癌、严重心脏、肝脏或肾脏疾病、红细胞增多症、孕妇或哺乳期妇女或未经证实的激素缺乏儿童禁用。",
+      "images": [],
+      "seoTitle": "TESTOVA BASE（睾酮混悬液 100 毫克/毫升 注射剂）| Nova Techsciences",
+      "seoDescription": "Nova Techsciences 的 TESTOVA BASE（睾酮混悬液 100 毫克/毫升 注射剂）是一种无菌注射用配方，提供明确的成分、规格和产品规格。",
+      "seoKeywords": "睾酮混悬液 100 毫克/毫升, Testova-Base 注射剂, 睾酮混悬液注射剂, 在线购买睾酮混悬液, 速效睾酮注射剂, 全球睾酮",
+      "seoRobots": "index, follow",
+      "seoCanonical": "https://www.novatechsciences.com/products/injectables/testova-base",
+      "schemaBrand": "NovaTech Sciences",
+      "schemaCategory": "注射用睾酮类固醇",
+      "schemaType": "Product",
+      "faq": [
+        {
+          "question": "Testova Base 睾酮混悬液用于什么？",
+          "answer": "Testova Base 是一种水基注射用睾酮类固醇，用于治疗低睾酮、青春期延迟和激素失衡。它提供快速的睾酮释放，用于临床 TRT 和医疗监督下的合成代谢治疗。"
+        },
+        {
+          "question": "睾酮混悬液是速效合成代谢类固醇吗？",
+          "answer": "是的。睾酮混悬液是起效最快的注射用合成代谢类固醇，因为它采用水基且不含酯，可立即进入血液以产生快速的激素效果。"
+        },
+        {
+          "question": "Testova Base 用于医疗睾酮替代疗法安全吗？",
+          "answer": "由合格医师给药时，Testova Base 在医疗监督下的 TRT 中是安全的。定期监测对于避免副作用至关重要。"
+        },
+        {
+          "question": "睾酮混悬液与庚酸睾酮或环戊丙酸睾酮有何不同？",
+          "answer": "与油基酯不同，睾酮混悬液不含酯，允许立即吸收和快速提升睾酮水平，而不是缓慢、长期的释放。"
+        },
+        {
+          "question": "Testova Base 在健美中使用吗？",
+          "answer": "是的，它在职业健美中因其即时合成代谢效果、肌肉硬化和力量输出而受欢迎，但应仅在医疗和法律指导下使用。"
+        }
+      ]
+    },
+    {
+      "id": "inj-nova-gain-c-650mgml",
+      "name": "NOVA GAIN C",
+      "category": "注射剂",
+      "cas": "Varies (multi-compound blend)",
+      "description": "Nova Gain C 是一种高效力注射用合成代谢类固醇混合物，含有睾酮、诺龙和宝丹酮。在临床或以表现为基础的方案中，在医疗监督下，它支持瘦肌肉增长、氮保留、力量增强和身体恢复。",
+      "indication": "适用于严重肌肉萎缩、创伤恢复、激素失衡和睾酮缺乏症。在专业监督下，为渐进性肌肉质量、力量和恢复提供强大的合成代谢和雄激素支持。",
+      "presentation": "剂型：注射用油基溶液\n规格：总计 650 毫克/毫升（多化合物混合物）\n包装规格：10 毫升 多剂量瓶\n给药途径：肌肉注射（IM）\n无菌药物级混悬液\n用于长效增肌和恢复周期的持续合成代谢释放\n储存：按照药品标签说明储存。",
+      "shortDescription": "高效力多类固醇混合物注射剂（睾酮、诺龙、宝丹酮），用于高级肌肉增长和恢复。",
+      "precautions": "仅供肌肉注射，在医疗监督下使用。\n定期监测睾酮、雌激素、肝功能、血脂谱和血压。\n可能抑制天然睾酮生成。\n存在雌激素性和雄激素性副作用的风险。\n避免饮酒和肝毒性药物。\n不建议长期无人监督使用。",
+      "contraindications": "如果对睾酮、诺龙或宝丹酮过敏，请勿使用。\n前列腺癌或男性乳腺癌、严重心脏/肝脏/肾脏疾病、红细胞增多症、未控制的高血压患者禁用。\n孕妇或哺乳期妇女不得使用。\n未经确诊内分泌疾病的青少年不适合使用。",
+      "images": [],
+      "seoTitle": "Nova Gain C 注射剂 | 睾酮、宝丹酮 & 诺龙多混合物 – Nova Techsciences",
+      "seoDescription": "Nova Techsciences 的 Nova Gain C 是一种多混合物注射用配方，包含宝丹酮、诺龙、环戊丙酸睾酮、庚酸睾酮和 Sustanon，比例明确。",
+      "seoKeywords": "睾酮混合物注射剂, 宝丹酮诺龙混合物, nova gain c 注射剂, 多类固醇混合物, 在线购买睾酮混合物, 全球增肌混合物",
+      "seoRobots": "index, follow",
+      "seoCanonical": "https://www.novatechsciences.com/products/injectables/nova-gain-c",
+      "schemaBrand": "NovaTech Sciences",
+      "schemaCategory": "注射用多类固醇混合物",
+      "schemaType": "Product",
+      "faq": [
+        {
+          "question": "Nova Gain C 注射剂用于什么？",
+          "answer": "Nova Gain C 是一种多化合物合成代谢类固醇注射剂，用于肌肉质量发育、身体恢复和激素增强。它结合了睾酮、诺龙和宝丹酮，以实现渐进性的力量增长、精瘦增肌和合成代谢表现。"
+        },
+        {
+          "question": "Nova Gain C 是增肌类固醇还是减脂类固醇？",
+          "answer": "Nova Gain C 主要是一种专注于增肌的合成代谢类固醇混合物。其成分促进肌肉质量增长、力量增加、肌肉密度和关节舒适度，支持长期的合成代谢增长。"
+        },
+        {
+          "question": "Nova Gain C 多快开始起效？",
+          "answer": "因为它同时含有短效和长效酯的睾酮以及缓释的诺龙和宝丹酮，使用者通常会在 2-3 周内注意到渐进的力量和肌肉质量改善，完全的合成代谢效果会逐渐显现。"
+        },
+        {
+          "question": "Nova Gain C 适用于睾酮替代疗法（TRT）吗？",
+          "answer": "不适用。Nova Gain C 是一种高剂量多类固醇配方，用于高级医疗或以表现为基础的方案，不适用于标准低剂量 TRT。"
+        },
+        {
+          "question": "Nova Gain C 会导致液体潴留吗？",
+          "answer": "会。由于其睾酮和诺龙含量，Nova Gain C 可能导致液体潴留和敏感个体的雌激素相关副作用。使用期间的激素监测很重要。"
+        }
+      ]
+    },
+    {
+      "id": "inj-nova-cut-mix-450mgml",
+      "name": "NOVA CUT MIX",
+      "category": "注射剂",
+      "cas": "Varies (multi-compound blend)",
+      "description": "Nova Cut Mix 是一种高效力减脂类固醇注射剂，结合了丙酸睾酮、醋酸群勃龙和丙酸屈他雄酮。在赛前准备或重组周期中，在专业监督下，它支持减脂、瘦肌肉保留、力量增强和积极的肌肉清晰度。",
+      "indication": "适用于减脂周期、赛前塑形和力量恢复中的高级合成代谢支持。在短期以表现为重点的类固醇方案中，促进瘦肌肉保留、硬度、代谢表现和积极的肌肉清晰度。",
+      "presentation": "剂型：注射用油基溶液\n规格：总计 450 毫克/毫升 多化合物混合物\n包装规格：10 毫升 多剂量瓶\n给药途径：肌肉注射（IM）\n无菌药物级混悬液\n速效短酯配方，非常适合减脂周期和体格塑形计划。\n储存：25°C以下保存，避免阳光直射。",
+      "shortDescription": "高效力减脂混合物注射剂（睾酮、群勃龙、屈他雄酮），用于减脂、肌肉硬度和力量增强。",
+      "precautions": "仅供肌肉注射，在合格的医疗监督下使用。\n监测睾酮、雌激素、肝酶、血脂谱和血压。\n可能抑制天然睾酮生成。\n雄激素性副作用风险增加（痤疮、脱发、攻击性）。\n避免饮酒和肝毒性药物。\n不建议长期无人监督使用合成代谢类固醇。",
+      "contraindications": "如果对睾酮、群勃龙或屈他雄酮过敏，请勿使用。\n前列腺癌或男性乳腺癌、严重心血管疾病、晚期肝脏或肾功能不全、红细胞增多症、未控制的高血压患者禁用。\n孕妇或哺乳期妇女不得使用。\n未经确诊内分泌疾病的青少年不适合使用。",
+      "images": [],
+      "seoTitle": "Nova Cut Mix 注射剂 | 睾酮、群勃龙 & 屈他雄酮 – Nova Techsciences",
+      "seoDescription": "Nova Techsciences 的 Nova Cut Mix 是一种注射用混合物，包含标准化浓度的丙酸睾酮、醋酸群勃龙和丙酸屈他雄酮。",
+      "seoKeywords": "睾酮群勃龙屈他雄酮混合物, nova cut mix 注射剂, 减脂周期注射剂, 在线购买减脂混合物, 减脂类固醇混合物, 肌肉硬化注射剂",
+      "seoRobots": "index, follow",
+      "seoCanonical": "https://www.novatechsciences.com/products/injectables/nova-cut-mix",
+      "schemaBrand": "NovaTech Sciences",
+      "schemaCategory": "注射用减脂类固醇混合物",
+      "schemaType": "Product",
+      "faq": [
+        {
+          "question": "Nova Cut Mix 注射剂用于什么？",
+          "answer": "Nova Cut Mix 是一种高效力减脂类固醇注射剂，用于减脂、肌肉硬化和力量增强。它结合了丙酸睾酮、醋酸群勃龙和丙酸屈他雄酮，用于在减脂周期中保留瘦肌肉和实现积极的肌肉清晰度。"
+        },
+        {
+          "question": "Nova Cut Mix 是用于增肌还是减脂？",
+          "answer": "Nova Cut Mix 专为减脂和重组周期设计。它促进脂肪减少、干燥的肌肉外观和力量维持，非常适合运动员备赛或体格塑形。"
+        },
+        {
+          "question": "Nova Cut Mix 多快开始起效？",
+          "answer": "由于其短酯类固醇成分，Nova Cut Mix 在几天内开始起效。在监督下使用，使用者通常在 10-14 天内注意到早期力量增加、肌肉硬度改善和可见的脂肪减少。"
+        },
+        {
+          "question": "Nova Cut Mix 会导致液体潴留吗？",
+          "answer": "不会。Nova Cut Mix 产生干燥和坚硬的肌肉外观。屈他雄酮和群勃龙有助于最大限度地减少液体潴留，使其成为实现清晰、血管分布明显的体格的理想选择。"
+        },
+        {
+          "question": "Nova Cut Mix 适用于睾酮替代疗法（TRT）吗？",
+          "answer": "不适用。Nova Cut Mix 是一种高雄激素多化合物减脂混合物，设计用于在医疗或专业监督下的短期表现方案，不适用于 TRT。"
+        }
+      ]
+    }
+  ]
+}

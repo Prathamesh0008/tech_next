@@ -2,6 +2,7 @@
 
 import React, { useState, useMemo } from "react";
 import { useParams, useRouter } from "next/navigation";
+import { useLanguage } from "../../../contexts/LanguageContext";
 import { products } from "../../../data/products";
 import ProductCard from "../../../components/ProductCard";
 import Breadcrumbs from "../../../components/Breadcrumbs";
@@ -32,9 +33,15 @@ const slugify = (name) =>
 /* ---------------- PAGE ---------------- */
 
 export default function ProductsPage() {
+  const { translations, currentLanguage } = useLanguage();
   const router = useRouter();
   const params = useParams();
   const { category } = params || {};
+
+  // Safety check
+  if (!translations?.productsPage) return null;
+
+  const t = translations.productsPage;
 
   const categoryOptions = ["Tablets", "Injectables"];
 
@@ -113,7 +120,7 @@ export default function ProductsPage() {
       {/* Category */}
       <div>
         <label className="block text-sm font-semibold text-[#18487d] mb-2">
-          Category
+          {t.filters?.category || "Category"}
         </label>
         <select
           className="w-full rounded-md border p-2 focus:ring-2 focus:ring-[#3386bc]"
@@ -128,7 +135,7 @@ export default function ProductsPage() {
             else router.push(`/products`);
           }}
         >
-          <option value="">All</option>
+          <option value="">{t.filters?.all || "All"}</option>
           {categoryOptions.map((cat) => (
             <option key={cat} value={cat}>
               {cat}
@@ -140,7 +147,7 @@ export default function ProductsPage() {
       {/* Product */}
       <div>
         <label className="block text-sm font-semibold text-[#18487d] mb-2">
-          Product
+          {t.filters?.product || "Product"}
         </label>
         <select
           className="w-full rounded-md border p-2 focus:ring-2 focus:ring-[#3386bc]"
@@ -151,7 +158,7 @@ export default function ProductsPage() {
           }}
           disabled={!selectedCategory}
         >
-          <option value="">All</option>
+          <option value="">{t.filters?.all || "All"}</option>
           {productOptions.map((prod) => (
             <option key={prod} value={prod}>
               {prod}
@@ -163,7 +170,7 @@ export default function ProductsPage() {
       {/* Strength */}
       <div>
         <label className="block text-sm font-semibold text-[#18487d] mb-2">
-          Dosage Strength
+          {t.filters?.dosageStrength || "Dosage Strength"}
         </label>
         <select
           className="w-full rounded-md border p-2 focus:ring-2 focus:ring-[#3386bc]"
@@ -171,7 +178,7 @@ export default function ProductsPage() {
           onChange={(e) => setSelectedMg(e.target.value)}
           disabled={!selectedProduct}
         >
-          <option value="">All</option>
+          <option value="">{t.filters?.all || "All"}</option>
           {mgOptions.map((mg) => (
             <option key={mg} value={mg}>
               {mg.toUpperCase()}
@@ -185,17 +192,20 @@ export default function ProductsPage() {
   /* ---------------- RENDER ---------------- */
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-[#f5f9fb] to-[#e8f3f8] mt-20">
+    <div 
+      className="min-h-screen bg-gradient-to-b from-[#f5f9fb] to-[#e8f3f8] mt-20"
+      dir={currentLanguage === 'ar' ? 'rtl' : 'ltr'}
+    >
       <Breadcrumbs />
 
       {/* HEADER */}
       <div className="bg-gradient-to-r from-[#0b1e39] via-[#18487d] to-[#3386bc] text-white py-10">
         <div className="max-w-7xl mx-auto px-6">
           <h1 className="text-3xl md:text-4xl font-bold">
-            Our Product Portfolio
+            {t.title || "Our Product Portfolio"}
           </h1>
           <p className="text-white/80 mt-2 max-w-2xl">
-            Browse by category, product name, or dosage strength.
+            {t.subtitle || "Browse by category, product name, or dosage strength."}
           </p>
         </div>
       </div>
@@ -203,13 +213,13 @@ export default function ProductsPage() {
       {/* MOBILE FILTER BUTTON */}
       <div className="md:hidden sticky top-16 z-30 bg-white border-b px-4 py-3 flex justify-between items-center">
         <span className="text-sm font-semibold text-[#18487d]">
-          Filters
+          {t.filters?.title || "Filters"}
         </span>
         <button
           onClick={() => setMobileFilterOpen(true)}
           className="flex items-center gap-2 text-sm bg-[#18487d] text-white px-4 py-2 rounded-md"
         >
-          <Filter size={16} /> Filter
+          <Filter size={16} /> {t.filters?.filterButton || "Filter"}
         </button>
       </div>
 
@@ -224,7 +234,7 @@ export default function ProductsPage() {
         <main className="flex-1">
           {filteredProducts.length === 0 ? (
             <div className="text-center text-gray-500 py-16">
-              No products found.
+              {t.noProducts || "No products found."}
             </div>
           ) : (
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
@@ -266,7 +276,7 @@ export default function ProductsPage() {
               className="absolute bottom-0 left-0 right-0 bg-white rounded-t-2xl p-6 max-h-[85vh] overflow-y-auto"
             >
               <div className="flex justify-between items-center mb-6">
-                <h3 className="font-bold text-lg">Filters</h3>
+                <h3 className="font-bold text-lg">{t.filters?.title || "Filters"}</h3>
                 <button onClick={() => setMobileFilterOpen(false)}>
                   <X />
                 </button>
@@ -278,7 +288,7 @@ export default function ProductsPage() {
                 onClick={() => setMobileFilterOpen(false)}
                 className="w-full mt-8 bg-[#18487d] text-white py-3 rounded-lg"
               >
-                Apply Filters
+                {t.filters?.applyButton || "Apply Filters"}
               </button>
             </motion.div>
           </motion.div>

@@ -104,117 +104,186 @@
     "blog": "Blog",
     "antiCounterfeit": "Anti-contrafacere"
   },
-  "home": {
-    "preHeader": "Bine ați venit la NovaTech",
-    "heroTitle": "Soluții inovatoare pentru sănătate",
-    "heroSubtitle": "NovaTech Sciences vă oferă medicamente de încredere, produse de diagnostic și soluții pentru sănătate care vă ajută să trăiți mai sănătos și mai puternic în fiecare zi.",
-    "statsMini": {
-      "products": "Produse",
-      "countries": "Țări",
-      "years": "Ani de experiență",
-      "certified": "Certificat"
-    },
-    "cta": {
-      "exploreProducts": "Explorați produsele",
-      "contactUs": "Contactați-ne"
-    },
-    "trustedBy": "De încredere pentru",
-    "trustedByList": [
-      "Spitale",
-      "Clinici",
-      "Farmacii",
-      "Furnizori de servicii medicale",
-      "Centre de cercetare"
-    ],
-    "whyChoose": [
-      {
-        "title": "✔ Certificat WHO-GMP",
-        "text": "Unitățile noastre de producție respectă standardele WHO-GMP, ISO și cele mai stricte cerințe de calitate."
+"home": {
+    "hero": {
+      "welcome": "Bine ați venit la NovaTech",
+      "title": "Soluții de Sănătate Inovatoare",
+      "subtitle": "NovaTech Sciences vă oferă medicamente de încredere, diagnosticare și soluții de sănătate pentru a vă ajuta să trăiți mai sănătos și mai puternic în fiecare zi.",
+      "stats": {
+        "products": "Produse",
+        "countries": "Țări",
+        "experience": "Ani de Experiență",
+        "certified": "Certificat"
       },
-      {
-        "title": "🌍 Prezență globală",
-        "text": "Suntem un partener de încredere pentru profesioniștii din domeniul sănătății din numeroase țări, cu extindere continuă."
+      "buttons": {
+        "explore": "Explorați Produsele",
+        "contact": "Contactați-ne"
       },
-      {
-        "title": "🔬 Orientați spre cercetare",
-        "text": "Ne concentrăm pe știință, inovație și eficacitate clinică pentru fiecare produs livrat."
+      "trusted": "Ne Încredințează",
+      "trustedBy": {
+        "hospitals": "Spitale",
+        "clinics": "Clinici",
+        "pharmacies": "Farmacii",
+        "providers": "Furnizori de Servicii Medicale",
+        "research": "Centre de Cercetare"
       }
-    ],
-    "expertiseTag": "Expertiza noastră",
-    "divisionsTitle": "Diviziile noastre terapeutice",
-    "divisionsDesc": "NovaTech Sciences este specializată în două divizii farmaceutice de bază — tablete și produse injectabile formulate cu precizie, concepute pentru a îndeplini cele mai înalte standarde de sănătate și excelență în producție la nivel global.",
-    "tablets": {
-      "badge": "Tablete",
-      "coverTitle": "Explorați tabletele noastre",
-      "btn": "Explorați tabletele",
-      "divisionTitle": "Divizia de tablete",
-      "features": [
-        "Terapii hormonale",
-        "Formulări anabolice",
-        "Soluții terapeutice"
-      ],
-      "desc": "Forme solide orale avansate care includ terapii hormonale, compuși anabolici și formulări terapeutice specializate. Fiecare tabletă este proiectată cu tehnologii de acoperire de precizie și optimizare a biodisponibilității pentru rezultate terapeutice constante.",
-      "keyFeatures": "Caracteristici cheie",
-      "qualityAssured": "✓ Calitate garantată"
     },
-    "injectables": {
-      "badge": "Injectabile",
-      "facility": "Unitate sterilă",
-      "coverTitle": "Explorați injectabilele noastre",
-      "btn": "Explorați injectabilele",
-      "divisionTitle": "Divizia de injectabile",
-      "features": [
-        "Amestecuri de testosteron",
-        "Esteri anabolici",
-        "Injectabile terapeutice"
-      ],
-      "desc": "Formulări injectabile sterile premium, inclusiv amestecuri de testosteron, esteri anabolici și soluții terapeutice specializate. Produse în unități sterile certificate ISO, asigurând puritate maximă, siguranță și precizie a dozajului.",
-      "keyFeatures": "Caracteristici cheie",
-      "sterilityGuaranteed": "✓ Sterilitate garantată"
-    },
-    "help": {
-      "title": "Aveți nevoie de ajutor pentru alegere?",
-      "text": "Consultați experții noștri farmaceutici pentru îndrumare personalizată.",
-      "btn": "Contactați experții"
-    },
-    "about": {
-      "title": "Despre NovaTech",
-      "text": "NovaTech Sciences este dedicată furnizării de soluții inovatoare pentru sănătate și medicamente de încredere. Misiunea noastră este de a îmbunătăți calitatea vieții prin produse de sănătate avansate, accesibile și fiabile."
-    },
-    "blog": {
-      "title": "Sfaturi de sănătate și blog",
-      "cards": [
+    "whyChooseUs": {
+      "title": "De Ce Să Alegeți NovaTech",
+      "items": [
         {
-          "title": "Gestionarea naturală a diabetului",
-          "text": "Sfaturi de stil de viață și măsuri preventive pentru controlul eficient al glicemiei."
+          "title": "✔ Certificat OMS-BPF",
+          "text": "Facilitățile noastre de producție respectă standardele OMS-BPF (Bune Practici de Fabricație), ISO și standarde stricte de calitate."
         },
         {
-          "title": "Sfaturi pentru îngrijirea astmului",
-          "text": "Ghiduri pentru controlul astmului și prevenirea crizelor."
+          "title": "🌍 Atingere Globală",
+          "text": "Încredințată de profesioniști din domeniul sănătății din mai multe țări cu expansiune continuă."
         },
         {
-          "title": "Slăbire sigură",
-          "text": "Atingeți obiectivele de sănătate prin practici sigure și sustenabile."
+          "title": "🔬 Bazat pe Cercetare",
+          "text": "Ne concentrăm pe știință, inovație și eficacitate clinică pentru fiecare produs pe care îl furnizăm."
         }
       ]
     },
-    "partner": {
-      "title": "Colaborați cu NovaTech Sciences",
-      "text": "Colaborați cu noi pentru a aduce soluții farmaceutice și nutraceutice de ultimă generație pe piețele globale.",
-      "btn": "Luați legătura"
+    "divisions": {
+      "expertise": "Expertiza Noastră",
+      "title": "Diviziile Noastre Terapeutice",
+      "description": "NovaTech Sciences se specializează în două divizii farmaceutice principale — Comprimate și Injectabile formulate cu precizie, concepute pentru a îndeplini cele mai înalte standarde ale îngrijirii globale și ale excelenței în fabricație.",
+      "tablets": {
+        "label": "Comprimate",
+        "certified": "Certificat BPF",
+        "alt": "Divizia Comprimate",
+        "exploreTitle": "Explorați Comprimatele Noastre",
+        "features": [
+          "Terapii Hormonale",
+          "Formulări Anabolice",
+          "Soluții Terapeutice"
+        ],
+        "button": "Explorați Comprimatele",
+        "title": "Divizia Comprimate",
+        "description": "Forme farmaceutice solide orale avansate care includ terapii hormonale, compuși anabolici și formulări terapeutice specializate. Fiecare comprimat este conceput cu tehnologie de acoperire de precizie și optimizare a biodisponibilității pentru rezultate terapeutice consistente.",
+        "keyFeatures": "Caracteristici Cheie",
+        "qualityAssured": "Calitate Garantată"
+      },
+      "injectables": {
+        "label": "Injectabile",
+        "certified": "Instalație Sterilă",
+        "alt": "Divizia Injectabile",
+        "exploreTitle": "Explorați Injectabilele Noastre",
+        "features": [
+          "Amestecuri de Testosteron",
+          "Esteri Anabolici",
+          "Injectabile Terapeutice"
+        ],
+        "button": "Explorați Injectabilele",
+        "title": "Divizia Injectabile",
+        "description": "Formulări injectabile sterile premium care includ amestecuri de testosteron, esteri anabolici și soluții terapeutice specializate. Fabricate în instalații sterile certificate ISO care asigură puritate maximă, siguranță și precizie de dozare.",
+        "keyFeatures": "Caracteristici Cheie",
+        "sterility": "Sterilitate Garantată"
+      },
+      "help": {
+        "title": "Aveți Nevoie de Ajutor la Alegere?",
+        "description": "Consultați specialiștii noștri farmaceutici pentru îndrumare personalizată.",
+        "button": "Contactați Specialiștii Noștri"
+      }
     },
-    "statsBlock": {
-      "countriesServed": "Țări deservite",
-      "productsFormulated": "Produse formulate",
-      "therapeuticSegments": "Domenii terapeutice",
-      "qualityCommitment": "Angajament pentru calitate"
+    "stats": {
+      "title": "Impactul Nostru în Cifre",
+      "countriesServed": "Țări Deservite",
+      "productsFormulated": "Produse Formulate",
+      "therapeuticSegments": "Segmente Terapeutice",
+      "qualityCommitment": "Angajament față de Calitate"
     },
-    "categories": [
-      "Astm",
-      "Îngrijirea tiroidei",
-      "Pierdere în greutate",
-      "Nivel ridicat de zahăr",
-      "Tensiune arterială"
-    ]
+    "about": {
+      "title": "Despre NovaTech",
+      "description": "NovaTech Sciences este dedicată furnizării de soluții de sănătate inovatoare și medicamente de încredere. Misiunea noastră este de a îmbunătăți calitatea vieții cu produse de sănătate avansate, accesibile și fiabile."
+    },
+    "blog": {
+      "title": "Sfaturi de Sănătate & Blog",
+      "items": [
+        {
+          "title": "Management Natural al Diabetului",
+          "text": "Sfaturi de stil de viață și măsuri de precauție pentru gestionarea eficientă a zahărului din sânge."
+        },
+        {
+          "title": "Sfaturi pentru Îngrijirea Astmului",
+          "text": "Ghiduri pentru controlul astmului și prevenirea atacurilor."
+        },
+        {
+          "title": "Pierdere în Greutate Sigură",
+          "text": "Atingeți-vă obiectivele de sănătate prin practici sigure și durabile."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Deveniți Partener NovaTech Sciences",
+      "description": "Colaborați cu noi pentru a aduce soluții farmaceutice și nutraceutice inovatoare pe piețele globale.",
+      "button": "Contactați-ne"
+    }
+  },
+  "antiCounterfeit": {
+    "header": {
+      "title": "Autentificarea Produselor",
+      "subtitle": "Verificați autenticitatea produsului dvs. NovaTech folosind numărul de serie unic și codul de autentificare."
+    },
+    "form": {
+      "title": "Verificați-vă Produsul",
+      "mfgDate": {
+        "label": "Data Fabricării",
+        "placeholder": "Selectați data fabricării"
+      },
+      "serialNumber": {
+        "label": "Număr de Serie",
+        "placeholder": "Introduceți numărul de serie al produsului"
+      },
+      "authCode": {
+        "label": "Cod de Autentificare",
+        "placeholder": "Introduceți codul de autentificare"
+      },
+      "submit": "Verificați Acum"
+    },
+    "result": {
+      "success": "✅ Acest produs este autentic și verificat.",
+      "error": "❌ Credențiale nevalide. Vă rugăm să verificați și să încercați din nou."
+    },
+    "note": {
+      "title": "Notă Importantă",
+      "text": "Numărul de serie și codul de autentificare se găsesc pe ambalajul produsului. Păstrați-le confidențial pentru a preveni utilizarea abuzivă."
+    },
+    "warning": {
+      "title": "Avertisment",
+      "text": "Produsele contrafăcute pot fi dăunătoare. Cumpărați întotdeauna de la distribuitori autorizați și verificați-vă produsul aici."
+    }
+  },
+   "featuredSection": {
+    "title": "Diviziuni de Produse Recomandate",
+    "description": "Explorați diviziunile specializate NovaTech create pentru a îndeplini cele mai înalte standarde de excelență farmaceutică — de la formulări solide la injecții sterile.",
+    "categories": {
+      "tablets": {
+        "name": "Divizia Comprimate",
+        "description": "Formulări orale de înaltă precizie concepute pentru rezistență, stabilitate și puritate."
+      },
+      "injectables": {
+        "name": "Divizia Injectabile",
+        "description": "Injectabile sterile și controlate care asigură biodisponibilitate rapidă și eficacitate."
+      }
+    },
+    "viewAllCategories": "Vezi Tot",
+    "viewAllProducts": "Vezi Toate Produsele {category}",
+    "noProducts": "Încă nu există produse disponibile pentru această diviziune."
+  },
+    "productsPage": {
+    "title": "Portofoliul Nostru de Produse",
+    "subtitle": "Navigați după categorie, nume produs sau putere de dozare.",
+    "noProducts": "Nu s-au găsit produse.",
+    "filters": {
+      "title": "Filtre",
+      "category": "Categorie",
+      "product": "Produs",
+      "dosageStrength": "Putere de Dozare",
+      "all": "Toate",
+      "filterButton": "Filtrează",
+      "applyButton": "Aplică Filtrele"
+    }
   }
 }

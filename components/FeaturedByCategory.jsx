@@ -1,29 +1,34 @@
-"use client"
+"use client";
 
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
+import { useLanguage } from "../contexts/LanguageContext";
 import { products } from "../data/products";
 import ProductCard from "./ProductCard";
 import tabletdiv from "../assets/divisions/tabletdiv.png";
 import injectdiv from "../assets/divisions/injectdiv.png";
 
 export default function DiseaseFeaturedSection() {
+  const { translations, currentLanguage } = useLanguage();
   const router = useRouter();
+
+  // Safety check
+  if (!translations?.featuredSection) return null;
+
+  const t = translations.featuredSection;
 
   // ✅ Actual NovaTech categories
   const categories = [
     {
       key: "Tablets",
-      name: "Tablets Division",
-      description:
-        "High-precision oral formulations designed for strength, stability, and purity.",
+      name: t.categories.tablets.name || "Tablets Division",
+      description: t.categories.tablets.description || "High-precision oral formulations designed for strength, stability, and purity.",
       image: tabletdiv,
     },
     {
       key: "Injectables",
-      name: "Injectables Division",
-      description:
-        "Sterile and controlled injectables ensuring rapid bioavailability and efficacy.",
+      name: t.categories.injectables.name || "Injectables Division",
+      description: t.categories.injectables.description || "Sterile and controlled injectables ensuring rapid bioavailability and efficacy.",
       image: injectdiv,
     },
   ];
@@ -47,26 +52,27 @@ export default function DiseaseFeaturedSection() {
 
   // 🆕 Go to /products/tablets OR /products/injectables
   const onViewAllProducts = () => {
-  console.log("GO TO:", `/products/${selected.toLowerCase()}`);
-  router.push(`/products/${selected.toLowerCase()}`);
-};
-
+    console.log("GO TO:", `/products/${selected.toLowerCase()}`);
+    router.push(`/products/${selected.toLowerCase()}`);
+  };
 
   const onViewAllCategories = () => {
     router.push("/products");
   };
 
   return (
-    <section className="my-20" data-aos="fade-up">
+    <section 
+      className="my-20" 
+      data-aos="fade-up"
+      dir={currentLanguage === 'ar' ? 'rtl' : 'ltr'}
+    >
       {/* ===== Title Section ===== */}
       <div className="text-center mb-10">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-3">
-          Featured Product Divisions
+          {t.title || "Featured Product Divisions"}
         </h2>
         <p className="text-gray-600 max-w-2xl mx-auto text-base">
-          Explore NovaTech’s specialized divisions built to meet the highest
-          standards in pharmaceutical excellence — from solid formulations to
-          sterile injectables.
+          {t.description || "Explore NovaTech's specialized divisions built to meet the highest standards in pharmaceutical excellence — from solid formulations to sterile injectables."}
         </p>
       </div>
 
@@ -91,7 +97,7 @@ export default function DiseaseFeaturedSection() {
           onClick={onViewAllCategories}
           className="px-6 py-3 whitespace-nowrap rounded-full font-medium border bg-white text-gray-700 border-gray-300 hover:bg-blue-50 hover:border-[#3386bc] transition-all duration-300 shadow-sm"
         >
-          View All
+          {t.viewAllCategories || "View All"}
         </button>
       </div>
 
@@ -134,7 +140,7 @@ export default function DiseaseFeaturedSection() {
           ))
         ) : (
           <p className="text-center text-gray-500 col-span-full">
-            No products available for this division yet.
+            {t.noProducts || "No products available for this division yet."}
           </p>
         )}
       </div>
@@ -145,7 +151,7 @@ export default function DiseaseFeaturedSection() {
           onClick={onViewAllProducts}
           className="px-8 py-3 bg-[#314977] text-white rounded-lg font-medium shadow-md hover:bg-[#0d1b4b] hover:scale-105 hover:shadow-xl transition-all duration-300"
         >
-          View All {selected} Products
+          {t.viewAllProducts?.replace("{category}", selected) || `View All ${selected} Products`}
         </button>
       </div>
     </section>
