@@ -78,7 +78,7 @@ export async function generateMetadata({ params }) {
   const product = products.find(
     (p) =>
       p.category?.toLowerCase() === category?.toLowerCase() &&
-      slugify(p.name) === productSlug
+      slugify(p.id) === productSlug
   );
 
   if (!product) {
@@ -153,7 +153,7 @@ export default async function ProductPage({ params }) {
   const product = products.find(
     (p) =>
       p.category?.toLowerCase() === category?.toLowerCase() &&
-      slugify(p.name) === productSlug
+      slugify(p.id) === productSlug
   );
 
   if (!product) return notFound();

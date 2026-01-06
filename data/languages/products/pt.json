@@ -1,0 +1,245 @@
+{
+  "products": {
+    "tab-femanova-let-25": {
+      "id": "tab-femanova-let-25",
+      "name": "FEMANOVA",
+      "imageKey": "FEMANOVA",
+      "cas": "112809-51-5",
+      "shortDescription": "Inibidor de aromatase de alta pureza.",
+      "description": "Letrozol 2.5 mg de grau farmacêutico.",
+      "indication": "Usado para supressão de estrogênio e equilíbrio hormonal.",
+      "presentation": "Forma: Comprimidos orais\nDosagem: 2.5 mg\nEmbalagem: 10 comprimidos",
+      "precautions": "Usar apenas sob supervisão médica.",
+      "contraindications": "Contraindicado na gravidez.",
+      "seo": {
+        "title": "FEMANOVA Comprimido | Letrozol",
+        "description": "Controle hormonal eficaz.",
+        "canonical": "https://www.novatechsciences.com/products/tablets/femanova"
+      },
+      "faq": []
+    },
+  
+
+
+
+    "tab-tamonova-20": {
+      "id": "tab-tamonova-20",
+      "name": "TAMONOVA",
+      "imageKey": "TAMONOVA",
+      "cas": "54965-24-1",
+      "shortDescription": "Comprimidos premium de citrato de tamoxifeno para controle de estrogênio e PCT.",
+      "description": "Tamoxifeno Citrato 20 mg bloqueador dos receptores de estrogênio de grau farmacêutico.",
+      "indication": "TAMONOVA é usado para bloquear receptores de estrogênio e regular a atividade hormonal, sendo amplamente utilizado na terapia pós-ciclo (PCT).",
+      "presentation": "Forma: Comprimidos orais\nDosagem: 20 mg por comprimido\nEmbalagem: Blister com 10 comprimidos\nCategoria: PCT, regulação hormonal\nArmazenamento: Local fresco e seco\nFabricado por: NovaTech Sciences.",
+      "precautions": "Consultar um médico antes do uso.\nSeguir a dose prescrita.\nEvitar álcool.",
+      "contraindications": "Não usar em caso de alergia.\nContraindicado na gravidez ou amamentação.\nEvitar em casos de trombose.",
+      "seo": {
+        "title": "TAMONOVA Comprimido | CAS 54965-24-1 – NovaTech Sciences",
+        "description": "Tamoxifeno Citrato para suporte eficaz de PCT.",
+        "canonical": "https://www.novatechsciences.com/products/tablets/tamonova"
+      },
+      "faq": [
+        { "q": "TAMONOVA é usado para PCT?", "a": "Sim, é amplamente utilizado na terapia pós-ciclo." },
+        { "q": "Ajuda na ginecomastia?", "a": "Pode ajudar a reduzir efeitos relacionados ao estrogênio." },
+        { "q": "Por quanto tempo devo usar?", "a": "A duração deve ser definida por um profissional de saúde." },
+        { "q": "Iniciantes podem usar?", "a": "Sim, com orientação médica." },
+        { "q": "Possui efeitos colaterais?", "a": "Efeitos colaterais podem ocorrer; consulte um médico." }
+      ]
+    },
+  
+
+
+
+    "tab-novazole-1": {
+      "id": "tab-novazole-1",
+      "name": "NOVAZOLE",
+      "imageKey": "NOVAZOLE",
+      "cas": "120511-73-1",
+      "shortDescription": "Comprimidos premium de anastrozol para controle eficaz do estrogênio e PCT.",
+      "description": "NOVAZOLE (Anastrozol 1 mg) inibidor de aromatase de grau farmacêutico para controle do estrogênio, equilíbrio hormonal e suporte pós-ciclo.",
+      "indication": "NOVAZOLE é indicado para reduzir níveis elevados de estrogênio através do bloqueio da aromatase. É utilizado clinicamente no tratamento do câncer de mama e amplamente utilizado no fisiculturismo para prevenir ginecomastia, reduzir retenção de líquidos e manter o equilíbrio hormonal durante ciclos e PCT.",
+      "presentation": "Forma: Comprimidos orais\nDosagem: 1 mg por comprimido\nEmbalagem: Blister com 10 comprimidos\nCategoria de uso: Controle de estrogênio durante o ciclo, PCT\nIndicado para: Atletas, fisiculturistas, usuários de esteroides\nArmazenamento: Local fresco e seco\nFabricado por: NovaTech Sciences.",
+      "precautions": "Utilizar NOVAZOLE apenas sob supervisão médica.\nSeguir a dosagem prescrita.\nInformar o médico sobre todos os tratamentos hormonais.\nObservar possíveis dores articulares, tontura ou fadiga.\nEvitar álcool.",
+      "contraindications": "Não utilizar em caso de alergia ao anastrozol.\nNão recomendado para grávidas ou lactantes.\nUsar com cautela em casos de insuficiência hepática ou renal.\nNão combinar com álcool.",
+      "seo": {
+        "title": "NOVAZOLE Comprimido | CAS 120511-73-1 – NovaTech Sciences",
+        "description": "Comprimidos de anastrozol para controle hormonal eficaz e PCT.",
+        "canonical": "https://www.novatechsciences.com/products/tablets/novazole"
+      },
+      "faq": [
+        {
+          "q": "Quanto tempo o NOVAZOLE leva para fazer efeito?",
+          "a": "O NOVAZOLE pode começar a agir em poucos dias, dependendo dos níveis hormonais."
+        },
+        {
+          "q": "Para que o NOVAZOLE é utilizado?",
+          "a": "Para controle do estrogênio, equilíbrio hormonal e terapia pós-ciclo (PCT)."
+        },
+        {
+          "q": "Existem efeitos colaterais?",
+          "a": "Os efeitos colaterais podem incluir dor de cabeça, náusea ou dores articulares."
+        },
+        {
+          "q": "Posso consumir álcool durante o uso do NOVAZOLE?",
+          "a": "É recomendável evitar álcool, pois pode intensificar os efeitos colaterais."
+        },
+        {
+          "q": "O NOVAZOLE pode interagir com outros medicamentos?",
+          "a": "Sim, informe o seu médico sobre todos os medicamentos e suplementos utilizados."
+        }
+      ]
+    },
+  
+
+
+    "tab-femanova-let-25": {
+      "name": "FEMANOVA",
+      "shortDescription": "Inibidor de aromatase de alta pureza para controle confiável do estrogênio.",
+      "description": "Letrozol 2,5 mg de grau farmacêutico para controle do estrogênio e regulação hormonal.",
+      "indication": "FEMANOVA é usado no tratamento do câncer de mama dependente de hormônios, supressão do estrogênio, indução da ovulação e equilíbrio hormonal. No fisiculturismo, é utilizado para controlar efeitos colaterais relacionados ao estrogênio.",
+      "presentation": "Forma: Comprimidos orais\nDosagem: 2,5 mg\nEmbalagem: Caixa com 10 comprimidos\nCategoria: Controle hormonal\nArmazenamento: Local fresco e seco\nFabricante: NovaTech Sciences.",
+      "precautions": "Usar apenas sob supervisão médica. Seguir a dosagem prescrita. Evitar álcool.",
+      "contraindications": "Não usar durante gravidez ou amamentação. Evitar em doenças hepáticas graves.",
+      "faq": [
+        { "q": "Como devo usar FEMANOVA?", "a": "Tomar uma vez ao dia ou conforme orientação médica." },
+        { "q": "Pode ser tomado com alimentos?", "a": "Sim, com ou sem alimentos." },
+        { "q": "É seguro na gravidez?", "a": "Não, é contraindicado." }
+      ]
+    },
+    "tab-tamonova-20": {
+      "name": "TAMONOVA",
+      "shortDescription": "Tamoxifeno Citrato para controle do estrogênio e PCT.",
+      "description": "Tamoxifeno Citrato 20 mg bloqueador dos receptores de estrogênio.",
+      "indication": "Utilizado em terapia pós-ciclo para restaurar o equilíbrio hormonal e reduzir efeitos colaterais do estrogênio.",
+      "presentation": "Forma: Comprimidos orais\nDosagem: 20 mg\nEmbalagem: Blister com 10 comprimidos\nFabricante: NovaTech Sciences.",
+      "precautions": "Consultar um profissional de saúde antes do uso.",
+      "contraindications": "Gravidez, amamentação, histórico de trombose ou doença hepática.",
+      "faq": [
+        { "q": "TAMONOVA é usado para PCT?", "a": "Sim, é amplamente utilizado." },
+        { "q": "Ajuda na ginecomastia?", "a": "Ajuda a controlar efeitos relacionados ao estrogênio." }
+      ]
+    
+},
+
+    "tab-enclominova-25": {
+      "id": "tab-enclominova-25",
+      "name": "ENCLOMINOVA",
+      "imageKey": "ENCLOMINOVA",
+      "cas": "7599-79-3",
+      "shortDescription": "Comprimidos premium de enclomifeno para aumento da testosterona, recuperação PCT e equilíbrio hormonal.",
+      "description": "ENCLOMINOVA (Citrato de Enclomifeno 25 mg) comprimido de grau farmacêutico utilizado para aumentar a testosterona natural, apoiar a terapia pós-ciclo (PCT) e restaurar o equilíbrio hormonal.",
+      "indication": "ENCLOMINOVA é amplamente utilizado para estimular a produção natural de testosterona, apoiar a PCT após ciclos de esteroides anabolizantes e restaurar o equilíbrio hormonal. Também é prescrito para infertilidade masculina, promovendo a liberação hormonal endógena. Atletas e fisiculturistas utilizam ENCLOMINOVA para recuperação mais rápida e melhoria da vitalidade.",
+      "presentation": "Forma: Comprimidos orais\nDosagem: 25 mg de Citrato de Enclomifeno por comprimido\nEmbalagem: Caixa com 10 comprimidos\nTipo: Formulação farmacêutica de suporte à testosterona\nCategoria de uso: PCT, aumento da testosterona, suporte endócrino\nIndicado para: Atletas, fisiculturistas, homens em recuperação de ciclos de esteroides\nArmazenamento: Conservar em local fresco e seco, longe da luz solar\nFabricado por: Nova TechSciences.",
+      "precautions": "Utilizar ENCLOMINOVA apenas sob supervisão médica.\nSeguir rigorosamente a dosagem prescrita.\nInformar o médico sobre todos os medicamentos, suplementos ou terapias hormonais.\nManter fora do alcance de crianças.\nEvitar álcool ou substâncias que possam interferir na recuperação hormonal.\nMonitorar regularmente os níveis hormonais.",
+      "contraindications": "Não utilizar em caso de alergia ao enclomifeno ou a qualquer componente.\nNão indicado para grávidas ou lactantes.\nEvitar em casos de doença hepática, problemas renais graves ou condições sensíveis a hormônios.\nNão usar em distúrbios da tireoide ou hipófise não controlados sem orientação médica.\nSuspender imediatamente em caso de dor de cabeça intensa, alterações visuais ou de humor.",
+      "seo": {
+        "title": "ENCLOMINOVA Comprimido | CAS 7599-79-3 – NovaTech Sciences",
+        "description": "ENCLOMINOVA contém Citrato de Enclomifeno (CAS 7599-79-3) para suporte hormonal, fertilidade e equilíbrio da testosterona.",
+        "canonical": "https://www.novatechsciences.com/products/tablets/enclominova"
+      },
+      "faq": [
+        {
+          "q": "ENCLOMINOVA é seguro durante a gravidez ou amamentação?",
+          "a": "Não. ENCLOMINOVA não deve ser utilizado durante a gravidez ou amamentação, salvo orientação médica."
+        },
+        {
+          "q": "Quanto tempo leva para o ENCLOMINOVA apresentar resultados?",
+          "a": "Os benefícios geralmente aparecem em poucos dias a algumas semanas, dependendo da condição individual."
+        },
+        {
+          "q": "Existem efeitos colaterais comuns?",
+          "a": "Os efeitos colaterais podem incluir dor de cabeça, náusea, tontura ou desconforto digestivo."
+        },
+        {
+          "q": "ENCLOMINOVA pode interagir com outros medicamentos?",
+          "a": "Sim. Informe o seu médico sobre todos os medicamentos, suplementos ou produtos naturais que utiliza."
+        },
+        {
+          "q": "Quem deve evitar o uso de ENCLOMINOVA?",
+          "a": "Pessoas com alergias, doenças hepáticas, distúrbios hormonais ou mulheres grávidas e lactantes."
+        }
+      ]
+    },
+
+
+    "tab-primonova-25": {
+      "id": "tab-primonova-25",
+      "name": "PRIMONOVA",
+      "imageKey": "PRIMONOVA",
+      "cas": "0434-05-09",
+      "shortDescription": "Comprimidos de Metenolona de alta qualidade para crescimento muscular limpo.",
+      "description": "PRIMONOVA (Acetato de Metenolona 25 mg) é um esteroide anabólico leve para preservação muscular e ciclos de definição.",
+      "indication": "PRIMONOVA é usado por atletas que procuram ganhos limpos, melhor recuperação e manutenção muscular durante fases de definição e recomposição corporal.",
+      "presentation": "Forma: Comprimidos orais\nDosagem: 25 mg por comprimido\nEmbalagem: Frasco com 50 comprimidos",
+      "precautions": "Utilizar apenas sob supervisão médica.\nEvitar álcool.\nNão exceder a dose recomendada.",
+      "contraindications": "Não indicado para menores de 18 anos.",
+      "seo": {
+        "title": "PRIMONOVA Comprimido | CAS 434-05-9",
+        "description": "Metenolona para suporte muscular limpo.",
+        "canonical": "https://www.novatechsciences.com/products/tablets/primonova"
+      },
+      "faq": [
+        {
+          "q": "Quando aparecem os resultados?",
+          "a": "Normalmente em 2 a 4 semanas."
+        },
+        {
+          "q": "É bom para definição?",
+          "a": "Sim, ideal para cutting."
+        },
+        {
+          "q": "Tem efeitos colaterais?",
+          "a": "Geralmente leves."
+        },
+        {
+          "q": "Iniciantes podem usar?",
+          "a": "Sim, com orientação médica."
+        },
+        {
+          "q": "É necessário PCT?",
+          "a": "Sim."
+        }
+      ]
+    },
+ 
+
+    "tab-supernova-10": {
+      "id": "tab-supernova-10",
+      "name": "SUPERNOVA",
+      "cas": "3381-88-2",
+      "shortDescription": "Comprimidos potentes de metildrostanolona para força e definição muscular.",
+      "description": "SUPERNOVA (Metildrostanolona 10 mg) é um esteroide anabólico oral potente para ganhos musculares secos e aumento de força.",
+      "indication": "Conhecido como Superdrol, SUPERNOVA é usado para força rápida, massa muscular seca e melhor desempenho sem retenção hídrica.",
+      "presentation": "Forma: Comprimidos orais\nDosagem: 10 mg por comprimido\nEmbalagem: Frasco com 100 comprimidos",
+      "precautions": "Utilizar apenas sob supervisão médica.\nEvitar álcool.\nNão indicado para pessoas com problemas hepáticos ou cardíacos.",
+      "contraindications": "Não recomendado para iniciantes.",
+      "seo": {
+        "title": "SUPERNOVA Comprimido | CAS 3381-88-2",
+        "description": "Metildrostanolona para força, definição e desempenho.",
+        "canonical": "https://www.novatechsciences.com/products/tablets/supernova"
+      },
+      "faq": [
+        {
+          "q": "Quanto tempo leva para ver resultados?",
+          "a": "Geralmente entre 1–2 semanas."
+        },
+        {
+          "q": "Quais resultados esperar?",
+          "a": "Força aumentada e músculos secos."
+        },
+        {
+          "q": "Tem efeitos colaterais?",
+          "a": "Possíveis efeitos leves com uso inadequado."
+        },
+        {
+          "q": "É necessário PCT?",
+          "a": "Sim."
+        },
+        {
+          "q": "É indicado para iniciantes?",
+          "a": "Não."
+        }
+      ]
+    }
+  }
+}

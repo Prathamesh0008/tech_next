@@ -29,7 +29,8 @@ export default function ProductCard({ product }) {
   const baseName = product._baseName || product.name;
   const productSlug = slugify(baseName);
 
-  const productURL = `/products/${product.category.toLowerCase()}/${productSlug}`;
+const productURL = `/products/${product.category.toLowerCase()}/${product.id}`;
+
 
   const handleClick = (e) => {
     if (handleCtrlClick(e, productURL)) return;

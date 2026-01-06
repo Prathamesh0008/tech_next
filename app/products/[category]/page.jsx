@@ -65,7 +65,7 @@ export default function ProductsPage() {
             (p) =>
               p.category?.toLowerCase() === selectedCategory.toLowerCase()
           )
-          .map((p) => p.name)
+          .map((p) => p.id)
       )
     ).sort();
   }, [selectedCategory]);
@@ -83,7 +83,7 @@ export default function ProductsPage() {
 
     if (selectedProduct) {
       filtered = filtered.filter(
-        (p) => p.name.toLowerCase() === selectedProduct.toLowerCase()
+        (p) => p.id.toLowerCase() === selectedProduct.toLowerCase()
       );
     }
 
@@ -104,7 +104,7 @@ export default function ProductsPage() {
 
     const matchProduct =
       !selectedProduct ||
-      p.name.toLowerCase() === selectedProduct.toLowerCase();
+      p.id.toLowerCase() === selectedProduct.toLowerCase();
 
     const matchMg =
       !selectedMg ||
@@ -240,7 +240,7 @@ export default function ProductsPage() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
               {filteredProducts.map((p) => (
                 <motion.div
-                  key={`${p.id}-${p.name}`}
+                  key={`${p.id}-${p.id}`}
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.25 }}
@@ -248,7 +248,7 @@ export default function ProductsPage() {
                   <ProductCard
                     product={{
                       ...p,
-                      slug: slugify(p.name),
+                      slug: slugify(p.id),
                       image: getProductImage(p),
                     }}
                   />
