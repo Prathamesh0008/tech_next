@@ -104,6 +104,22 @@
     "blog": "Blog",
     "antiCounterfeit": "Antifalsificación"
   },
+  "productDetails": {
+    "notFound": "Producto no encontrado.",
+    "cas": "Número CAS",
+    "tabs": {
+      "indication": "Indicación",
+      "presentation": "Presentación"
+    },
+    "enquire": "Consultar ahora",
+    "downloadCatalogue": "Descargar catálogo",
+    "faqTitle": "Información importante y preguntas frecuentes",
+    "precautionsTitle": "Precauciones y contraindicaciones",
+    "precautions": "Precauciones",
+    "contraindications": "Contraindicaciones",
+    "related": "Productos relacionados"
+  }
+  ,
    "aboutBackground": {
     "hero": {
       "title": "Acerca de NovaTech Sciences",
@@ -331,5 +347,9 @@
       "filterButton": "Filtrar",
       "applyButton": "Aplicar Filtros"
     }
+  },
+    "productCard": {
+    "category": "Categoría",
+    "cas": "Número CAS"
   }
 }

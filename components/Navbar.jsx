@@ -5,7 +5,6 @@ import Image from "next/image";
 import { usePathname, useRouter } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import { HiMenu, HiX } from "react-icons/hi";
-import { FiGlobe } from "react-icons/fi";
 import { useLanguage } from "../contexts/LanguageContext";
 import LanguageSwitcher from "./LanguageSwitcher";
 
@@ -28,9 +27,8 @@ export default function Navbar() {
 
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-  const [underline, setUnderline] = useState({ left: 0, width: 0 });
+  const [activeIndex, setActiveIndex] = useState(0);
 
-  const linkRefs = useRef([]);
   const navRef = useRef(null);
 
   useEffect(() => {
@@ -45,9 +43,8 @@ export default function Navbar() {
 
   useEffect(() => {
     const index = links.findIndex((l) => l.path === pathname);
-    const el = linkRefs.current[index];
-    if (el) setUnderline({ left: el.offsetLeft, width: el.offsetWidth });
-  }, [pathname, scrolled]); // keep underline in sync
+    setActiveIndex(index >= 0 ? index : 0);
+  }, [pathname]);
 
   const navigate = (e, path) => {
     if (e?.ctrlKey || e?.metaKey || e?.button === 1) {
@@ -79,45 +76,57 @@ export default function Navbar() {
           </button>
 
           {/* Desktop nav */}
-          {/* Desktop nav */}
-<div className="hidden md:flex items-center gap-8">
+        
 
-  {/* NAV LINKS + UNDERLINE */}
+<div className="hidden md:flex items-center gap-8">
+  {/* NAV LINKS WITH BORDER BOTTOM */}
   <div className="relative flex gap-8">
     {links.map((l, i) => (
       <button
         key={l.path}
-        ref={(el) => (linkRefs.current[i] = el)}
         onClick={(e) => navigate(e, l.path)}
-        className={`font-medium transition-colors ${
-          scrolled ? "text-white" : "text-[#3386bc]"
-        }`}
+        className="relative pb-2"
       >
-        {l.name}
+        <span
+          className={`font-medium transition-colors ${
+            scrolled ? "text-white" : "text-[#3386bc]"
+          } ${
+            i === activeIndex
+              ? scrolled
+                ? "text-[#4bb2e5]"
+                : "text-[#18487d]"
+              : ""
+          }`}
+        >
+          {l.name}
+        </span>
+        
+        {/* Animated border bottom */}
+        {i === activeIndex && (
+          <motion.div
+            className={`absolute bottom-0 left-0 right-0 h-0.5 ${
+              scrolled ? "bg-[#4bb2e5]" : "bg-[#18487d]"
+            }`}
+            layoutId="nav-border"
+            transition={{ type: "spring", stiffness: 300, damping: 30 }}
+          />
+        )}
+        
+        {/* Hover effect for all links */}
+        <div
+          className={`absolute bottom-0 left-0 right-0 h-0.5 opacity-0 hover:opacity-30 transition-opacity ${
+            scrolled ? "bg-[#4bb2e5]" : "bg-[#18487d]"
+          }`}
+        />
       </button>
     ))}
-
-    {underline.width > 0 && (
-      <motion.div
-        className={`absolute bottom-0 h-0.5 ${
-          scrolled ? "bg-[#4bb2e5]" : "bg-[#18487d]"
-        }`}
-        animate={underline}
-      />
-    )}
   </div>
 
-  {/* LANGUAGE SWITCHER – OUTSIDE underline */}
   <LanguageSwitcher variant={scrolled || menuOpen ? "dark" : "light"} />
-
 </div>
 
-
-          {/* Mobile actions: language icon + menu */}
+          {/* Mobile menu button */}
           <div className="md:hidden flex items-center gap-2">
-            {/* If your LanguageSwitcher is a dropdown, it can render here too */}
-          
-
             <button
               type="button"
               aria-label={menuOpen ? "Close menu" : "Open menu"}
@@ -141,17 +150,13 @@ export default function Navbar() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
           >
-            {/* Overlay header row (X button is HERE so it always shows) */}
             <div className="h-16 px-4 flex items-center justify-between">
               <button onClick={(e) => navigate(e, "/")} aria-label="Home">
                 <Image src={logoLight} alt="NovaTech" width={120} height={50} />
               </button>
 
               <div className="flex items-center gap-2">
-                {/* Language on mobile (use your real switcher) */}
-                <LanguageSwitcher variant={scrolled || menuOpen ? "dark" : "light"} />
-
-
+                <LanguageSwitcher variant="dark" />
                 <button
                   type="button"
                   aria-label="Close menu"
@@ -164,11 +169,13 @@ export default function Navbar() {
             </div>
 
             <div className="pt-6 flex flex-col items-center">
-              {links.map((l) => (
+              {links.map((l, i) => (
                 <button
                   key={l.path}
                   onClick={(e) => navigate(e, l.path)}
-                  className="py-4 text-2xl text-white"
+                  className={`py-4 text-2xl transition-colors ${
+                    i === activeIndex ? "text-[#4bb2e5]" : "text-white"
+                  }`}
                 >
                   {l.name}
                 </button>

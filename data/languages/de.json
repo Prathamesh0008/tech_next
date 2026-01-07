@@ -104,6 +104,26 @@
     "blog": "Blog",
     "antiCounterfeit": "Fälschungsschutz"
   },
+  "productCard": {
+    "category": "Kategorie",
+    "cas": "CAS-Nummer"
+  },
+  "productDetails": {
+    "notFound": "Produkt nicht gefunden.",
+    "cas": "CAS-Nummer",
+    "tabs": {
+      "indication": "Indikation",
+      "presentation": "Präsentation"
+    },
+    "enquire": "Jetzt anfragen",
+    "downloadCatalogue": "Katalog herunterladen",
+    "faqTitle": "Wichtige Informationen & FAQs",
+    "precautionsTitle": "Vorsichtsmaßnahmen & Kontraindikationen",
+    "precautions": "Vorsichtsmaßnahmen",
+    "contraindications": "Kontraindikationen",
+    "related": "Ähnliche Produkte"
+  }
+  ,
   "aboutBackground": {
     "hero": {
       "title": "Über NovaTech Sciences",

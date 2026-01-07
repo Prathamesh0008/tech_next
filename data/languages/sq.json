@@ -285,5 +285,68 @@
       "filterButton": "Filtro",
       "applyButton": "Apliko Filtret"
     }
+  },"productDetails": {
+    "notFound": "Produkti nuk u gjet.",
+    "cas": "Numër CAS",
+    "tabs": {
+      "indication": "Indikacion",
+      "presentation": "Prezantim"
+    },
+    "enquire": "Pyet tani",
+    "downloadCatalogue": "Shkarko katalogun",
+    "faqTitle": "Informacione të rëndësishme dhe pyetjet e shpeshta",
+    "precautionsTitle": "Parakujdesit dhe kontraindikacionet",
+    "precautions": "Parakujdesit",
+    "contraindications": "Kontraindikacione",
+    "related": "Produkte të ngjashme"
+  },"productCard": {
+    "category": "Kategoria",
+    "cas": "Numri CAS"
+  },
+  "aboutBackground": {
+    "hero": {
+      "title": "Rreth NovaTech Sciences",
+      "description": "NovaTech Sciences është një organizatë farmaceutike dhe nutraceutike e orientuar drejt së ardhmes, e përkushtuar ndaj inovacionit, pastërtisë dhe përparimit në kujdesin shëndetësor. Misioni ynë është të ofrojmë ilaçe dhe produkte mirëqenieje të nivelit botëror që përmirësojnë cilësinë e jetës në mbarë botën. Me prani në disa fusha terapeutike dhe partneritete të forta ndërkombëtare, ne udhëhiqemi nga një përkushtim i thellë ndaj shkencës, sigurisë dhe qëndrueshmërisë."
+    },
+    "who": {
+      "title": "Kush jemi",
+      "p1": "E themeluar me vizionin për të ripërcaktuar standardet farmaceutike, NovaTech Sciences specializohet në zhvillimin, prodhimin dhe eksportin e formulimeve me cilësi të lartë që përmbushin standarde të rrepta ndërkombëtare të përputhshmërisë. Objektet tona operojnë sipas standardeve WHO-GMP dhe ISO, duke siguruar qëndrueshmëri dhe saktësi në çdo seri.",
+      "p2": {
+        "before": "Me mbi ",
+        "products": "80+ produkte farmaceutike dhe nutraceutike",
+        "middle": ", NovaTech Sciences mbulon një spektër të gjerë nevojash shëndetësore, duke përfshirë terapinë e përgjithshme, përgatitjet hormonale, nutraceutikët dhe zgjidhjet e mirëqenies. Ekipi ynë i profesionistëve siguron që çdo produkt të pasqyrojë vlerat tona themelore —",
+        "values": " Cilësi, Integritet dhe Inovacion.",
+        "after": ""
+      }
+    },
+    "mission": {
+      "title": "Misioni ynë",
+      "text": "Të avancojmë shëndetin global përmes produkteve farmaceutike dhe nutraceutike inovative që ofrojnë efikasitet të provuar, siguri dhe aksesueshmëri."
+    },
+    "vision": {
+      "title": "Vizioni ynë",
+      "text": "Të njihemi si një partner global shëndetësor i preferuar, duke kombinuar kërkimin, inovacionin dhe praktikat e qëndrueshme në shërbim të njerëzimit."
+    },
+    "values": {
+      "title": "Vlerat themelore",
+      "list": [
+        "Cilësi dhe përputhshmëri mbi të gjitha",
+        "Inovacion përmes shkencës",
+        "Etikë dhe transparencë",
+        "Angazhim ndaj qëndrueshmërisë",
+        "Qasje e përqendruar te pacienti"
+      ]
+    },
+    "global": {
+      "title": "Prani globale dhe zgjerim i ardhshëm",
+      "text": "Me një prani në rritje të shpejtë në Azi, Evropë dhe Lindjen e Mesme, NovaTech Sciences po ndërton një bazë të fortë besimi dhe ekselence. Fokusi ynë në partneritete strategjike, kërkim dhe zhvillim të avancuar dhe prodhim të qëndrueshëm siguron që ne të vazhdojmë të përmbushim kërkesat në ndryshim të peizazhit global të shëndetësisë."
+    },
+    "certifications": {
+      "title": "Certifikimet tona",
+      "whoGmp": { "title": "Certifikim WHO-GMP" },
+      "iso9001": { "title": "ISO 9001:2015" },
+      "environmental": { "title": "Përputhshmëri mjedisore" },
+      "sustainable": { "title": "Prodhim i qëndrueshëm" }
+    }
   }
 }

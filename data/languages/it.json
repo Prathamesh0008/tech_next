@@ -285,5 +285,71 @@
       "filterButton": "Filtra",
       "applyButton": "Applica Filtri"
     }
+  },
+  
+  "aboutBackground": {
+    "hero": {
+      "title": "Chi è NovaTech Sciences",
+      "description": "NovaTech Sciences è un’organizzazione farmaceutica e nutraceutica orientata al futuro, impegnata nell’innovazione, nella purezza e nel progresso dell’assistenza sanitaria. La nostra missione è fornire medicinali e prodotti per il benessere di livello mondiale che migliorino la qualità della vita in tutto il mondo. Con una presenza in molteplici aree terapeutiche e solide partnership internazionali, siamo guidati da un profondo impegno verso la scienza, la sicurezza e la sostenibilità."
+    },
+    "who": {
+      "title": "Chi siamo",
+      "p1": "Fondata con la visione di ridefinire gli standard farmaceutici, NovaTech Sciences è specializzata nello sviluppo, nella produzione e nell’esportazione di formulazioni di alta qualità che rispettano rigorosi standard internazionali di conformità. I nostri stabilimenti operano secondo gli standard WHO-GMP e ISO, garantendo coerenza e precisione in ogni lotto.",
+      "p2": {
+        "before": "Con oltre ",
+        "products": "80+ prodotti farmaceutici e nutraceutici",
+        "middle": ", NovaTech Sciences soddisfa un ampio spettro di esigenze sanitarie, tra cui terapie generali, preparazioni ormonali, nutraceutici e soluzioni per il benessere. Il nostro team di professionisti assicura che ogni prodotto rifletta i nostri valori fondamentali —",
+        "values": " Qualità, Integrità e Innovazione.",
+        "after": ""
+      }
+    },
+    "mission": {
+      "title": "La nostra missione",
+      "text": "Promuovere la salute globale attraverso prodotti farmaceutici e nutraceutici innovativi che offrano efficacia comprovata, sicurezza e accessibilità."
+    },
+    "vision": {
+      "title": "La nostra visione",
+      "text": "Essere riconosciuti come partner sanitario globale preferito, combinando ricerca, innovazione e pratiche sostenibili al servizio dell’umanità."
+    },
+    "values": {
+      "title": "Valori fondamentali",
+      "list": [
+        "Qualità e conformità al primo posto",
+        "Innovazione guidata dalla scienza",
+        "Etica e trasparenza",
+        "Impegno per la sostenibilità",
+        "Approccio centrato sul paziente"
+      ]
+    },
+    "global": {
+      "title": "Presenza globale ed espansione futura",
+      "text": "Con una presenza in rapida espansione in Asia, Europa e Medio Oriente, NovaTech Sciences sta costruendo una solida base di fiducia ed eccellenza. Il nostro focus su partnership strategiche, ricerca e sviluppo avanzati e produzione sostenibile garantisce che continuiamo a soddisfare le esigenze in evoluzione del panorama sanitario globale."
+    },
+    "certifications": {
+      "title": "Le nostre certificazioni",
+      "whoGmp": { "title": "Certificazione WHO-GMP" },
+      "iso9001": { "title": "ISO 9001:2015" },
+      "environmental": { "title": "Conformità ambientale" },
+      "sustainable": { "title": "Produzione sostenibile" }
+    }
+  },
+  "productDetails": {
+    "notFound": "Prodotto non trovato.",
+    "cas": "Numero CAS",
+    "tabs": {
+      "indication": "Indicazione",
+      "presentation": "Presentazione"
+    },
+    "enquire": "Richiedi informazioni",
+    "downloadCatalogue": "Scarica catalogo",
+    "faqTitle": "Informazioni importanti e FAQ",
+    "precautionsTitle": "Precauzioni e controindicazioni",
+    "precautions": "Precauzioni",
+    "contraindications": "Controindicazioni",
+    "related": "Prodotti correlati"
+  }, "productCard": {
+    "category": "Categoria",
+    "cas": "Numero CAS"
   }
+
 }

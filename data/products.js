@@ -1,11 +1,30 @@
 import en from "./languages/products/en.json";
 import ar from "./languages/products/ar.json";
 import pt from "./languages/products/pt.json";
+import nl from "./languages/products/nl.json";
+import bg from "./languages/products/bg.json";
+import bs from "./languages/products/bs.json";
+import de from "./languages/products/de.json";
+import el from "./languages/products/el.json";
+import es from "./languages/products/es.json";
+import fr from "./languages/products/fr.json";
+import hr from "./languages/products/hr.json";
+import mk from "./languages/products/mk.json";
+
 
 const PRODUCT_MAP = {
   en,
   ar,
   pt,
+  nl,
+  bg,
+  bs,
+  de,el,es,
+  fr,
+  hr,
+  mk,
+  nl,
+
 };
 
 export function getProducts(lang = "en") {

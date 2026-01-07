@@ -280,5 +280,69 @@
       "filterButton": "筛选",
       "applyButton": "应用筛选器"
     }
+  },
+   "aboutBackground": {
+    "hero": {
+      "title": "关于 NovaTech Sciences",
+      "description": "NovaTech Sciences 是一家面向未来的制药与营养保健组织，致力于创新、纯度和医疗健康领域的进步。我们的使命是提供世界一流的药品和健康产品，改善全球人们的生活质量。凭借在多个治疗领域的布局以及强大的国际合作伙伴关系，我们始终坚持对科学、安全与可持续发展的深度承诺。"
+    },
+    "who": {
+      "title": "我们是谁",
+      "p1": "NovaTech Sciences 以重新定义制药标准为愿景而成立，专注于开发、生产和出口符合严格国际合规标准的高质量制剂。我们的生产设施按照 WHO-GMP 和 ISO 标准运行，确保每一批产品都具备一致性和高精度。",
+      "p2": {
+        "before": "拥有超过 ",
+        "products": "80+ 种药品和营养保健产品",
+        "middle": "，NovaTech Sciences 覆盖广泛的健康需求，包括常规治疗、激素制剂、营养保健品以及健康解决方案。我们的专业团队确保每一款产品都体现我们的核心价值观——",
+        "values": " 质量、诚信与创新。",
+        "after": ""
+      }
+    },
+    "mission": {
+      "title": "我们的使命",
+      "text": "通过创新的制药和营养保健产品，推动全球健康发展，为人们提供经验证的疗效、安全性和可负担性。"
+    },
+    "vision": {
+      "title": "我们的愿景",
+      "text": "成为首选的全球健康合作伙伴，将科研、创新与可持续实践相结合，造福全人类。"
+    },
+    "values": {
+      "title": "核心价值观",
+      "list": [
+        "质量与合规优先",
+        "以科学驱动创新",
+        "道德与透明",
+        "致力于可持续发展",
+        "以患者为中心"
+      ]
+    },
+    "global": {
+      "title": "全球布局与未来拓展",
+      "text": "随着在亚洲、欧洲和中东地区的快速扩展，NovaTech Sciences 正在构建坚实的信任与卓越基础。我们专注于战略合作、先进的研发以及可持续制造，确保持续满足全球医疗健康格局不断变化的需求。"
+    },
+    "certifications": {
+      "title": "我们的认证",
+      "whoGmp": { "title": "WHO-GMP 认证" },
+      "iso9001": { "title": "ISO 9001:2015" },
+      "environmental": { "title": "环境合规" },
+      "sustainable": { "title": "可持续制造" }
+    }
+  },
+  "productDetails": {
+    "notFound": "未找到产品",
+    "cas": "CAS编号",
+    "tabs": {
+      "indication": "适应症",
+      "presentation": "产品规格"
+    },
+    "enquire": "立即咨询",
+    "downloadCatalogue": "下载产品目录",
+    "faqTitle": "重要信息及常见问题",
+    "precautionsTitle": "注意事项与禁忌",
+    "precautions": "注意事项",
+    "contraindications": "禁忌症",
+    "related": "相关产品"
+  },"productCard": {
+    "category": "类别",
+    "cas": "CAS编号"
   }
 }

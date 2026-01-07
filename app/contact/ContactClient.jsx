@@ -53,10 +53,11 @@ export default function ContactClient() {
 
   return (
     <div className="min-h-auto bg-gradient-to-b from-[#f5f9fb] via-[#f3f8fa] to-[#e8f3f8] mt-20">
+       <Breadcrumbs />
       {/* HEADER */}
       <div className="bg-gradient-to-r from-[#0b1e39] via-[#18487d] to-[#3386bc] text-white py-10 shadow-md mb-10">
         <div className="max-w-6xl mx-auto px-6">
-          <Breadcrumbs />
+         
           <h1 className="text-3xl md:text-4xl font-bold mt-2">
             {t.header.title}
           </h1>

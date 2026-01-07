@@ -268,6 +268,9 @@
     "viewAllCategories": "Pogledaj Sve",
     "viewAllProducts": "Pogledaj Sve {category} Proizvode",
     "noProducts": "Još nema dostupnih proizvoda za ovu podjelu."
+  },"productCard": {
+    "category": "Kategorija",
+    "cas": "CAS broj"
   },
     "productsPage": {
     "title": "Naš Portfelj Proizvoda",
@@ -282,5 +285,67 @@
       "filterButton": "Filtriraj",
       "applyButton": "Primijeni Filtere"
     }
+  },"productDetails": {
+    "notFound": "Proizvod nije pronađen.",
+    "cas": "CAS broj",
+    "tabs": {
+      "indication": "Indikacija",
+      "presentation": "Prezentacija"
+    },
+    "enquire": "Pitajte sada",
+    "downloadCatalogue": "Preuzmi katalog",
+    "faqTitle": "Važne informacije i česta pitanja",
+    "precautionsTitle": "Mjere opreza i kontraindikacije",
+    "precautions": "Mjere opreza",
+    "contraindications": "Kontraindikacije",
+    "related": "Povezani proizvodi"
+  },
+  
+  "aboutBackground": {
+    "hero": {
+      "title": "O NovaTech Sciences",
+      "description": "NovaTech Sciences je farmaceutska i nutraceutska organizacija usmjerena prema budućnosti, posvećena inovacijama, čistoći i napretku u zdravstvenoj skrbi. Naša misija je isporučiti lijekove i wellness proizvode svjetske klase koji poboljšavaju kvalitetu života diljem svijeta. S prisutnošću u više terapijskih područja i snažnim međunarodnim partnerstvima, vodi nas duboka predanost znanosti, sigurnosti i održivosti."
+    },
+    "who": {
+      "title": "Tko smo mi",
+      "p1": "Osnovana s vizijom redefiniranja farmaceutskih standarda, NovaTech Sciences specijalizirana je za razvoj, proizvodnju i izvoz visokokvalitetnih formulacija koje ispunjavaju stroge međunarodne standarde usklađenosti. Naši proizvodni pogoni rade prema WHO-GMP i ISO standardima, osiguravajući dosljednost i preciznost u svakoj seriji.",
+      "p2": {
+        "before": "S više od ",
+        "products": "80+ farmaceutskih i nutraceutskih proizvoda",
+        "middle": ", NovaTech Sciences pokriva širok spektar zdravstvenih potreba, uključujući opću terapiju, hormonske pripravke, nutraceutike i wellness rješenja. Naš tim stručnjaka osigurava da svaki proizvod odražava naše temeljne vrijednosti —",
+        "values": " Kvalitetu, integritet i inovaciju.",
+        "after": ""
+      }
+    },
+    "mission": {
+      "title": "Naša misija",
+      "text": "Unaprijediti globalno zdravlje kroz inovativne farmaceutske i nutraceutske proizvode koji nude dokazanu učinkovitost, sigurnost i pristupačnost."
+    },
+    "vision": {
+      "title": "Naša vizija",
+      "text": "Biti prepoznati kao preferirani globalni zdravstveni partner, kombinirajući istraživanje, inovacije i održive prakse u službi čovječanstva."
+    },
+    "values": {
+      "title": "Temeljne vrijednosti",
+      "list": [
+        "Kvaliteta i usklađenost na prvom mjestu",
+        "Inovacije vođene znanošću",
+        "Etika i transparentnost",
+        "Predanost održivosti",
+        "Pristup usmjeren na pacijenta"
+      ]
+    },
+    "global": {
+      "title": "Globalni doseg i buduće širenje",
+      "text": "S brzo rastućom prisutnošću u Aziji, Europi i na Bliskom istoku, NovaTech Sciences gradi snažnu osnovu povjerenja i izvrsnosti. Naš fokus na strateška partnerstva, napredni istraživanje i razvoj te održivu proizvodnju osigurava da nastavimo odgovarati na promjenjive zahtjeve globalnog zdravstvenog okruženja."
+    },
+    "certifications": {
+      "title": "Naše certifikacije",
+      "whoGmp": { "title": "WHO-GMP certifikacija" },
+      "iso9001": { "title": "ISO 9001:2015" },
+      "environmental": { "title": "Usklađenost s okolišnim standardima" },
+      "sustainable": { "title": "Održiva proizvodnja" }
+    }
   }
+
 }

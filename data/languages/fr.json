@@ -1,4 +1,22 @@
-{
+{  "productDetails": {
+    "notFound": "Produit non trouvé",
+    "cas": "Numéro CAS",
+    "tabs": {
+      "indication": "Indications",
+      "presentation": "Présentation"
+    },
+    "enquire": "Demander un devis",
+    "downloadCatalogue": "Télécharger le catalogue",
+    "faqTitle": "Informations importantes & FAQ",
+    "precautionsTitle": "Précautions & Contre-indications",
+    "precautions": "Précautions",
+    "contraindications": "Contre-indications",
+    "related": "Produits similaires"
+  },
+   "productCard": {
+    "category": "Catégorie",
+    "cas": "Numéro CAS"
+  },
   "nav": {
     "home": "Accueil",
     "about": "À propos",
@@ -118,7 +136,21 @@
         "middle": ", NovaTech Sciences répond à un large éventail de besoins de santé, notamment en thérapeutique générale, préparations hormonales, nutraceutiques et solutions bien-être. Notre équipe s’assure que chaque produit reflète nos valeurs fondamentales —",
         "values": " Qualité, Intégrité et Innovation.",
         "after": ""
-      }
+      },"productDetails": {
+    "notFound": "Produit non trouvé.",
+    "cas": "Numéro CAS",
+    "tabs": {
+      "indication": "Indication",
+      "presentation": "Présentation"
+    },
+    "enquire": "Demander maintenant",
+    "downloadCatalogue": "Télécharger le catalogue",
+    "faqTitle": "Informations importantes et FAQ",
+    "precautionsTitle": "Précautions et contre-indications",
+    "precautions": "Précautions",
+    "contraindications": "Contre-indications",
+    "related": "Produits connexes"
+  }
     },
     "mission": {
       "title": "Notre mission",

@@ -332,6 +332,25 @@
       "applyButton": "Apply Filters"
     }
   }
-
+,
+"productDetails": {
+    "notFound": "Product not found.",
+    "cas": "CAS Number",
+    "tabs": {
+      "indication": "Indication",
+      "presentation": "Presentation"
+    },
+    "enquire": "Enquire Now",
+    "downloadCatalogue": "Download Catalogue",
+    "faqTitle": "Important Information & FAQs",
+    "precautionsTitle": "Precautions & Contraindications",
+    "precautions": "Precautions",
+    "contraindications": "Contraindications",
+    "related": "Related Products"
+  },
+   "productCard": {
+    "category": "Category",
+    "cas": "CAS"
+  }
 
 }

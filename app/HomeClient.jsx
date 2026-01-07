@@ -196,7 +196,7 @@ export default function HomeClient() {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 mb-10 sm:mb-12 max-w-4xl mx-auto">
               <div className="text-center p-3 sm:p-4">
                 <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#18487d] mb-1">
-                  100+
+                  35+
                 </div>
                 <div className="text-xs sm:text-sm text-gray-600">
                   {t.hero.stats.products || "Products"}

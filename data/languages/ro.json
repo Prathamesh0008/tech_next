@@ -285,5 +285,70 @@
       "filterButton": "Filtrează",
       "applyButton": "Aplică Filtrele"
     }
+  },
+   "aboutBackground": {
+    "hero": {
+      "title": "Despre NovaTech Sciences",
+      "description": "NovaTech Sciences este o organizație farmaceutică și nutraceutică orientată spre viitor, dedicată inovației, purității și progresului în domeniul sănătății. Misiunea noastră este să oferim medicamente și produse de wellness de clasă mondială care îmbunătățesc calitatea vieții la nivel global. Cu prezență în multiple arii terapeutice și parteneriate internaționale solide, suntem ghidați de un angajament profund față de știință, siguranță și sustenabilitate."
+    },
+    "who": {
+      "title": "Cine suntem",
+      "p1": "Fondată cu viziunea de a redefini standardele farmaceutice, NovaTech Sciences este specializată în dezvoltarea, producția și exportul de formulări de înaltă calitate care respectă standarde internaționale stricte de conformitate. Facilitățile noastre operează conform standardelor WHO-GMP și ISO, asigurând consistență și precizie în fiecare lot.",
+      "p2": {
+        "before": "Cu peste ",
+        "products": "80+ produse farmaceutice și nutraceutice",
+        "middle": ", NovaTech Sciences deservește un spectru larg de nevoi de sănătate, incluzând terapeutică generală, preparate hormonale, nutraceutice și soluții de wellness. Echipa noastră de profesioniști se asigură că fiecare produs reflectă valorile noastre fundamentale —",
+        "values": " Calitate, Integritate și Inovație.",
+        "after": ""
+      }
+    },
+    "mission": {
+      "title": "Misiunea noastră",
+      "text": "Să promovăm sănătatea globală prin produse farmaceutice și nutraceutice inovatoare care oferă eficacitate dovedită, siguranță și accesibilitate."
+    },
+    "vision": {
+      "title": "Viziunea noastră",
+      "text": "Să fim recunoscuți ca partener global de sănătate preferat, combinând cercetarea, inovația și practicile sustenabile în slujba umanității."
+    },
+    "values": {
+      "title": "Valori fundamentale",
+      "list": [
+        "Calitate și conformitate pe primul loc",
+        "Inovație bazată pe știință",
+        "Etică și transparență",
+        "Angajament față de sustenabilitate",
+        "Abordare centrată pe pacient"
+      ]
+    },
+    "global": {
+      "title": "Prezență globală și extindere viitoare",
+      "text": "Cu o prezență în rapidă expansiune în Asia, Europa și Orientul Mijlociu, NovaTech Sciences construiește o bază solidă de încredere și excelență. Accentul nostru pe parteneriate strategice, cercetare și dezvoltare avansate și producție sustenabilă asigură faptul că continuăm să răspundem cerințelor în continuă schimbare ale peisajului global al sănătății."
+    },
+    "certifications": {
+      "title": "Certificările noastre",
+      "whoGmp": { "title": "Certificare WHO-GMP" },
+      "iso9001": { "title": "ISO 9001:2015" },
+      "environmental": { "title": "Conformitate de mediu" },
+      "sustainable": { "title": "Producție sustenabilă" }
+    }
+  },
+    "productDetails": {
+    "notFound": "Produsul nu a fost găsit.",
+    "cas": "Număr CAS",
+    "tabs": {
+      "indication": "Indicație",
+      "presentation": "Prezentare"
+    },
+    "enquire": "Cere informații acum",
+    "downloadCatalogue": "Descarcă catalogul",
+    "faqTitle": "Informații importante și întrebări frecvente",
+    "precautionsTitle": "Precauții și contraindicații",
+    "precautions": "Precauții",
+    "contraindications": "Contraindicații",
+    "related": "Produse similare"
+  },
+   "productCard": {
+    "category": "Categorie",
+    "cas": "Număr CAS"
   }
 }

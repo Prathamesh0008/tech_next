@@ -1,4 +1,24 @@
 {
+   "productDetails": {
+    "notFound": "المنتج غير موجود.",
+    "cas": "رقم CAS",
+    "tabs": {
+      "indication": "الاستخدام",
+      "presentation": "المواصفات"
+    },
+    "enquire": "استفسر الآن",
+    "downloadCatalogue": "تحميل الكتالوج",
+    "faqTitle": "معلومات مهمة والأسئلة الشائعة",
+    "precautionsTitle": "الاحتياطات وموانع الاستخدام",
+    "precautions": "الاحتياطات",
+    "contraindications": "موانع الاستخدام",
+    "related": "منتجات ذات صلة"
+  },
+  "productCard": {
+    "category": "الفئة",
+    "cas": "رقم CAS"
+  }
+  ,
   "nav": {
     "home": "الرئيسية",
     "about": "من نحن",

@@ -1,243 +1,1570 @@
+
 {
   "products": {
-    "tab-femanova-let-25": {
+    "femanova-let": {
       "id": "tab-femanova-let-25",
       "name": "FEMANOVA",
       "imageKey": "FEMANOVA",
       "cas": "112809-51-5",
-      "shortDescription": "Inibidor de aromatase de alta pureza.",
-      "description": "Letrozol 2.5 mg de grau farmacêutico.",
-      "indication": "Usado para supressão de estrogênio e equilíbrio hormonal.",
-      "presentation": "Forma: Comprimidos orais\nDosagem: 2.5 mg\nEmbalagem: 10 comprimidos",
-      "precautions": "Usar apenas sob supervisão médica.",
-      "contraindications": "Contraindicado na gravidez.",
+      "shortDescription": "Inibidor de aromatase de alta pureza para controle de estrogênio confiável.",
+      "description": "Letrozol 2,5 mg, inibidor de aromatase de grau farmacêutico para controle de estrogênio e regulação hormonal.",
+      "indication": "FEMANOVA (Letrozol 2,5 mg) é um medicamento de grau farmacêutico comumente usado para tratamento de câncer de mama dependente de hormônio, supressão de estrogênio e indução da ovulação em terapia de fertilidade. Na comunidade de performance e fisiculturismo, o Letrozol é amplamente conhecido como um medicamento potente para controle de estrogênio, frequentemente usado em conjunto com ciclos de esteroides anabólicos para ajudar a gerenciar efeitos colaterais relacionados ao estrogênio. Sua capacidade de reduzir os níveis de estrogênio o torna uma opção confiável para usuários que buscam equilíbrio estrogênico, suporte à recuperação pós-ciclo e melhor estabilidade hormonal durante ou após o uso de esteroides. FEMANOVA é fabricado pela NovaTech Sciences com rigorosos padrões de controle de qualidade, garantindo alta pureza, potência consistente e desempenho farmacêutico confiável.",
+      "presentation": "Forma: Comprimidos orais\nDosagem: 2,5 mg de Letrozol por comprimido\nEmbalagem: Caixa contendo 10 comprimidos\nTipo de Comprimido: Formulação de alta pureza, grau farmacêutico\nCategoria de Uso: Supressão de estrogênio / controle hormonal\nAdequado Para: Uso médico, gerenciamento de estrogênio durante ciclos de esteroides, terapia pós-ciclo.\nArmazenamento: Manter em local fresco e seco, longe da luz solar direta.\nFabricado Por: NovaTech Sciences.",
+      "precautions": "Sempre consulte seu médico antes de usar FEMANOVA (Letrozol 2,5 mg). Este inibidor de aromatase é potente e deve ser usado apenas sob orientação médica adequada, especialmente quando utilizado para regulação hormonal, controle de estrogênio ou terapia pós-ciclo.\n\nUse FEMANOVA exatamente conforme prescrito para evitar desequilíbrio hormonal.\nExames de sangue regulares são recomendados para monitorar os níveis de supressão de estrogênio.\nInforme seu médico se estiver tomando qualquer medicamento à base de hormônios, esteroides ou tratamentos de fertilidade.\nTome o medicamento no mesmo horário todos os dias para regulação estável do estrogênio.\nEvite álcool ou substâncias que possam interferir na terapia de controle de estrogênio.\nArmazene em local fresco e seco, longe da luz solar direta.\n",
+      "contraindications": "Não use se for alérgico ao Letrozol ou a qualquer ingrediente inativo do FEMANOVA.\nNão recomendado para mulheres grávidas ou amamentando devido à forte supressão de estrogênio.\nEvite o uso em indivíduos com doença hepática grave, a menos que aconselhado por um especialista.\nNão é adequado para mulheres na pré-menopausa, a menos que usado sob rigoroso monitoramento médico.\nInterrompa o uso imediatamente e procure atendimento médico se sentir efeitos colaterais incomuns.",
       "seo": {
-        "title": "FEMANOVA Comprimido | Letrozol",
-        "description": "Controle hormonal eficaz.",
+        "title": "Comprimido FEMANOVA | CAS 112809-51-5 – NovaTech Sciences",
+        "description": "O comprimido FEMANOVA da NovaTech Sciences contém Letrozol (CAS 112809-51-5) para supressão de estrogênio, inibição da aromatase e suporte eficaz ao equilíbrio hormonal.",
         "canonical": "https://www.novatechsciences.com/products/tablets/femanova"
       },
-      "faq": []
+      "faq": [
+        {
+          "q": "Como devo usar este medicamento?",
+          "a": "FEMANOVA (Letrozol 2,5 mg) deve ser tomado exatamente conforme orientado pelo seu profissional de saúde. Tome um comprimido diariamente no mesmo horário para controle consistente do estrogênio."
+        },
+        {
+          "q": "O que é FEMANOVA?",
+          "a": "FEMANOVA contém Letrozol 2,5 mg, um inibidor de aromatase de grau farmacêutico usado para redução de estrogênio e equilíbrio hormonal em protocolos médicos e de regulação hormonal."
+        },
+        {
+          "q": "Posso tomar este medicamento com alimentos?",
+          "a": "Sim, FEMANOVA pode ser tomado com ou sem alimentos. Tomá-lo com comida pode ajudar a reduzir o desconforto estomacal."
+        },
+        {
+          "q": "O que devo fazer se esquecer uma dose?",
+          "a": "Se você esquecer uma dose, tome-a assim que lembrar. Se estiver perto da hora da próxima dose programada, pule a dose esquecida. Nunca tome uma dose dupla."
+        },
+        {
+          "q": "Este medicamento é seguro para mulheres grávidas ou amamentando?",
+          "a": "Não. FEMANOVA (Letrozol 2,5 mg) não é seguro para mulheres grávidas ou amamentando devido aos seus fortes efeitos redutores de estrogênio."
+        }
+      ]
     },
-  
-
-
-
     "tab-tamonova-20": {
       "id": "tab-tamonova-20",
       "name": "TAMONOVA",
-      "imageKey": "TAMONOVA",
       "cas": "54965-24-1",
-      "shortDescription": "Comprimidos premium de citrato de tamoxifeno para controle de estrogênio e PCT.",
-      "description": "Tamoxifeno Citrato 20 mg bloqueador dos receptores de estrogênio de grau farmacêutico.",
-      "indication": "TAMONOVA é usado para bloquear receptores de estrogênio e regular a atividade hormonal, sendo amplamente utilizado na terapia pós-ciclo (PCT).",
-      "presentation": "Forma: Comprimidos orais\nDosagem: 20 mg por comprimido\nEmbalagem: Blister com 10 comprimidos\nCategoria: PCT, regulação hormonal\nArmazenamento: Local fresco e seco\nFabricado por: NovaTech Sciences.",
-      "precautions": "Consultar um médico antes do uso.\nSeguir a dose prescrita.\nEvitar álcool.",
-      "contraindications": "Não usar em caso de alergia.\nContraindicado na gravidez ou amamentação.\nEvitar em casos de trombose.",
+      "imageKey": "TAMONOVA",
+      "shortDescription": "Comprimidos premium de Citrato de Tamoxifeno para controle eficaz de estrogênio e PCT.",
+      "description": "Citrato de Tamoxifeno 20 mg, bloqueador de receptores de estrogênio de grau farmacêutico para regulação hormonal e terapia pós-ciclo (PCT).",
+      "indication": "TAMONOVA (Citrato de Tamoxifeno 20 mg) é indicado para bloquear receptores de estrogênio e regular a atividade estrogênica no corpo. Comumente usado na terapia pós-ciclo (PCT), ajuda a restaurar os níveis naturais de testosterona após um ciclo de esteroides e reduz o risco de efeitos colaterais relacionados ao estrogênio, como ginecomastia, retenção de líquidos e desequilíbrio hormonal. Este produto é amplamente reconhecido na comunidade de fisiculturismo e fitness por seu papel essencial em protocolos de PCT, tornando-o uma opção confiável para atletas que usam esteroides anabólicos e precisam de controle eficaz de estrogênio. Fabricado pela NovaTech Sciences sob rigorosos padrões de qualidade, TAMONOVA garante potência consistente, alta pureza e desempenho farmacêutico confiável.",
+      "presentation": "Forma: Comprimidos orais\nDosagem: 20 mg de Citrato de Tamoxifeno por comprimido\nEmbalagem: Blister com 10 comprimidos\nTipo de Comprimido: Formulação de alta qualidade, grau farmacêutico\nCategoria de Uso: Terapia Pós-Ciclo (PCT), regulação de estrogênio, equilíbrio hormonal\nAdequado Para: Usuários de esteroides, fisiculturismo, fitness e protocolos de suporte hormonal\nArmazenamento: Manter em local fresco e seco, longe da luz solar direta.\nFabricado Por: NovaTech Sciences.",
+      "precautions": "Sempre consulte um profissional de saúde qualificado antes de usar TAMONOVA (Citrato de Tamoxifeno 20 mg). Use apenas sob orientação médica adequada, especialmente para PCT ou regulação hormonal.\nSiga a dosagem prescrita para evitar desequilíbrio hormonal.\nInforme seu médico sobre todos os medicamentos, suplementos ou ciclos de esteroides.\nMonitore seu corpo para quaisquer sintomas incomuns e relate ao seu profissional de saúde.\nMantenha fora do alcance de crianças e armazene com segurança em local fresco e seco.\nEvite álcool ou substâncias que possam interferir na regulação hormonal.\n",
+      "contraindications": "Não use se for alérgico ao Citrato de Tamoxifeno ou a qualquer ingrediente inativo.\nNão recomendado para mulheres grávidas ou amamentando.\nEvite em indivíduos com histórico de coágulos sanguíneos, doença hepática ou condições sensíveis a hormônios, a menos que aprovado por um médico.\nDescontinue o uso e procure atendimento médico se ocorrerem efeitos colaterais graves.\n",
       "seo": {
-        "title": "TAMONOVA Comprimido | CAS 54965-24-1 – NovaTech Sciences",
-        "description": "Tamoxifeno Citrato para suporte eficaz de PCT.",
+        "title": "Comprimido TAMONOVA | CAS 54965-24-1 – NovaTech Sciences",
+        "description": "O comprimido TAMONOVA da NovaTech Sciences contém Citrato de Tamoxifeno (CAS 54965-24-1) para modulação eficaz de estrogênio, suporte hormonal e atividade direcionada a receptores.",
         "canonical": "https://www.novatechsciences.com/products/tablets/tamonova"
       },
       "faq": [
-        { "q": "TAMONOVA é usado para PCT?", "a": "Sim, é amplamente utilizado na terapia pós-ciclo." },
-        { "q": "Ajuda na ginecomastia?", "a": "Pode ajudar a reduzir efeitos relacionados ao estrogênio." },
-        { "q": "Por quanto tempo devo usar?", "a": "A duração deve ser definida por um profissional de saúde." },
-        { "q": "Iniciantes podem usar?", "a": "Sim, com orientação médica." },
-        { "q": "Possui efeitos colaterais?", "a": "Efeitos colaterais podem ocorrer; consulte um médico." }
+        {
+          "q": "TAMONOVA é usado para Terapia Pós-Ciclo (PCT)?",
+          "a": "Sim. TAMONOVA é amplamente usado na Terapia Pós-Ciclo para ajudar a regular os níveis de estrogênio e apoiar a recuperação hormonal natural após ciclos de esteroides anabólicos. Use apenas sob orientação profissional."
+        },
+        {
+          "q": "TAMONOVA ajuda com ginecomastia?",
+          "a": "TAMONOVA pode ajudar a reduzir efeitos relacionados ao estrogênio, razão pela qual muitos usuários de esteroides o incluem em protocolos de PCT para gerenciar sinais precoces de ginecomastia. Sempre procure aconselhamento médico antes do uso."
+        },
+        {
+          "q": "Por quanto tempo devo tomar TAMONOVA durante a PCT?",
+          "a": "A duração do TAMONOVA em uma rotina de PCT varia com base nas necessidades individuais e orientação médica. Apenas um profissional de saúde pode recomendar um período seguro."
+        },
+        {
+          "q": "Iniciantes podem usar TAMONOVA após um ciclo de esteroides?",
+          "a": "Iniciantes que usam esteroides anabólicos frequentemente incluem TAMONOVA em seu plano de PCT para controle de estrogênio e recuperação hormonal. Orientação médica adequada é essencial para garantir a segurança."
+        },
+        {
+          "q": "TAMONOVA tem efeitos colaterais?",
+          "a": "Como todos os medicamentos, TAMONOVA pode causar efeitos colaterais dependendo da resposta individual. Monitore a reação do seu corpo e consulte um profissional de saúde se ocorrerem sintomas incomuns."
+        }
       ]
     },
-  
-
-
-
     "tab-novazole-1": {
       "id": "tab-novazole-1",
       "name": "NOVAZOLE",
       "imageKey": "NOVAZOLE",
       "cas": "120511-73-1",
-      "shortDescription": "Comprimidos premium de anastrozol para controle eficaz do estrogênio e PCT.",
-      "description": "NOVAZOLE (Anastrozol 1 mg) inibidor de aromatase de grau farmacêutico para controle do estrogênio, equilíbrio hormonal e suporte pós-ciclo.",
-      "indication": "NOVAZOLE é indicado para reduzir níveis elevados de estrogênio através do bloqueio da aromatase. É utilizado clinicamente no tratamento do câncer de mama e amplamente utilizado no fisiculturismo para prevenir ginecomastia, reduzir retenção de líquidos e manter o equilíbrio hormonal durante ciclos e PCT.",
-      "presentation": "Forma: Comprimidos orais\nDosagem: 1 mg por comprimido\nEmbalagem: Blister com 10 comprimidos\nCategoria de uso: Controle de estrogênio durante o ciclo, PCT\nIndicado para: Atletas, fisiculturistas, usuários de esteroides\nArmazenamento: Local fresco e seco\nFabricado por: NovaTech Sciences.",
-      "precautions": "Utilizar NOVAZOLE apenas sob supervisão médica.\nSeguir a dosagem prescrita.\nInformar o médico sobre todos os tratamentos hormonais.\nObservar possíveis dores articulares, tontura ou fadiga.\nEvitar álcool.",
-      "contraindications": "Não utilizar em caso de alergia ao anastrozol.\nNão recomendado para grávidas ou lactantes.\nUsar com cautela em casos de insuficiência hepática ou renal.\nNão combinar com álcool.",
+      "shortDescription": "Comprimidos premium de Anastrozol para controle eficaz de estrogênio e terapia pós-ciclo.",
+      "description": "NOVAZOLE (Anastrozol 1 mg), inibidor de aromatase de grau farmacêutico para controle de estrogênio, equilíbrio hormonal e suporte pós-ciclo.",
+      "indication": "NOVAZOLE (Anastrozol 1 mg) é indicado para reduzir os níveis elevados de estrogênio no corpo, bloqueando a atividade da aromatase. Usado medicinalmente na terapia do câncer de mama, é altamente popular na comunidade de fisiculturismo e esteroides para controlar a conversão de estrogênio, prevenir ginecomastia, reduzir retenção de líquidos e apoiar o equilíbrio hormonal durante ciclos de esteroides e PCT. NOVAZOLE ajuda os usuários a manter um físico magro, seco e livre de efeitos colaterais, enquanto gerencia picos de estrogênio causados por esteroides anabólicos. Fabricado pela NovaTech Sciences sob rigorosos padrões de qualidade, NOVAZOLE garante potência consistente e alta pureza.",
+      "presentation": "Forma: Comprimidos orais\nDosagem: 1 mg de Anastrozol por comprimido\nEmbalagem: Blister com 10 comprimidos\nTipo de Comprimido: Formulação de alta qualidade, grau farmacêutico\nCategoria de Uso: Gerenciamento de estrogênio durante o ciclo, PCT, equilíbrio hormonal\nAdequado Para: Atletas, fisiculturistas, usuários de esteroides que necessitam de suporte com inibidor de aromatase\nArmazenamento: Manter em local fresco e seco, longe da umidade.\nFabricado Por: NovaTech Sciences.",
+      "precautions": "Sempre use NOVAZOLE (Anastrozol 1 mg) sob a supervisão de um profissional de saúde qualificado.\nSiga a dosagem prescrita; evite automedicação.\nInforme seu médico sobre todos os tratamentos hormonais, suplementos ou ciclos de esteroides.\nMonitore para dor nas articulações, tontura, fadiga ou outros efeitos colaterais incomuns.\nArmazene em local fresco e seco; mantenha fora do alcance de crianças.\nEvite álcool ou substâncias recreativas enquanto usa NOVAZOLE.",
+      "contraindications": "Não use se for alérgico ao Anastrozol ou a qualquer componente da formulação.\nNão é adequado para mulheres grávidas ou amamentando.\nEvite o uso em deficiência estrogênica preexistente, a menos que aconselhado por um médico.\nPessoas com comprometimento renal ou hepático grave devem usar apenas sob supervisão médica.\nNão combine com álcool ou substâncias recreativas.",
       "seo": {
-        "title": "NOVAZOLE Comprimido | CAS 120511-73-1 – NovaTech Sciences",
-        "description": "Comprimidos de anastrozol para controle hormonal eficaz e PCT.",
+        "title": "Comprimido NOVAZOLE | CAS 120511-73-1 – NovaTech Sciences",
+        "description": "O comprimido NOVAZOLE da NovaTech Sciences contém Anastrozol (CAS 120511-73-1). Fabricante, fornecedor e exportador confiável de inibidores de aromatase de grau farmacêutico para mercados globais.",
         "canonical": "https://www.novatechsciences.com/products/tablets/novazole"
       },
       "faq": [
         {
-          "q": "Quanto tempo o NOVAZOLE leva para fazer efeito?",
-          "a": "O NOVAZOLE pode começar a agir em poucos dias, dependendo dos níveis hormonais."
+          "q": "Quanto tempo leva para o NOVAZOLE fazer efeito?",
+          "a": "NOVAZOLE geralmente começa a mostrar melhora dentro de alguns dias, mas os efeitos completos dependem dos níveis hormonais individuais e do ciclo de esteroides. Continue tomando conforme prescrito para eficácia completa."
         },
         {
-          "q": "Para que o NOVAZOLE é utilizado?",
-          "a": "Para controle do estrogênio, equilíbrio hormonal e terapia pós-ciclo (PCT)."
+          "q": "Para que o NOVAZOLE é usado?",
+          "a": "NOVAZOLE contém Anastrozol 1 mg, um inibidor de aromatase usado para controle de estrogênio, equilíbrio hormonal e terapia pós-ciclo (PCT) em protocolos de fisiculturismo ou médicos."
         },
         {
-          "q": "Existem efeitos colaterais?",
-          "a": "Os efeitos colaterais podem incluir dor de cabeça, náusea ou dores articulares."
+          "q": "Existem efeitos colaterais do NOVAZOLE?",
+          "a": "Efeitos colaterais comuns podem incluir dor de cabeça, náusea, dor estomacal ou tontura. A maioria é leve e temporária. Procure atendimento médico se ocorrerem reações graves."
         },
         {
-          "q": "Posso consumir álcool durante o uso do NOVAZOLE?",
-          "a": "É recomendável evitar álcool, pois pode intensificar os efeitos colaterais."
+          "q": "Posso beber álcool enquanto tomo NOVAZOLE?",
+          "a": "É melhor evitar álcool enquanto toma NOVAZOLE, pois pode aumentar os efeitos colaterais ou interferir na eficácia do medicamento."
         },
         {
           "q": "O NOVAZOLE pode interagir com outros medicamentos?",
-          "a": "Sim, informe o seu médico sobre todos os medicamentos e suplementos utilizados."
+          "a": "Sim. NOVAZOLE pode interagir com certos medicamentos, incluindo anticoagulantes, antibióticos ou tratamentos hormonais. Sempre informe seu profissional de saúde sobre todos os medicamentos e suplementos que você está tomando."
         }
       ]
     },
-  
-
-
-    "tab-femanova-let-25": {
-      "name": "FEMANOVA",
-      "shortDescription": "Inibidor de aromatase de alta pureza para controle confiável do estrogênio.",
-      "description": "Letrozol 2,5 mg de grau farmacêutico para controle do estrogênio e regulação hormonal.",
-      "indication": "FEMANOVA é usado no tratamento do câncer de mama dependente de hormônios, supressão do estrogênio, indução da ovulação e equilíbrio hormonal. No fisiculturismo, é utilizado para controlar efeitos colaterais relacionados ao estrogênio.",
-      "presentation": "Forma: Comprimidos orais\nDosagem: 2,5 mg\nEmbalagem: Caixa com 10 comprimidos\nCategoria: Controle hormonal\nArmazenamento: Local fresco e seco\nFabricante: NovaTech Sciences.",
-      "precautions": "Usar apenas sob supervisão médica. Seguir a dosagem prescrita. Evitar álcool.",
-      "contraindications": "Não usar durante gravidez ou amamentação. Evitar em doenças hepáticas graves.",
+    "tab-aromanova-25": {
+      "id": "tab-aromanova-25",
+      "name": "AROMANOVA",
+      "cas": "107868-30-4",
+      "imageKey": "AROMANOVA",
+      "shortDescription": "Comprimidos de Exemestano de alta potência para controle avançado de estrogênio e suporte à PCT.",
+      "description": "AROMANOVA (Exemestano 25 mg), inibidor de aromatase de grau farmacêutico para controle de estrogênio, terapia pós-ciclo (PCT) e equilíbrio hormonal.",
+      "indication": "AROMANOVA (Exemestano 25 mg) é um inibidor de aromatase (AI) avançado projetado para reduzir os níveis elevados de estrogênio. Ajuda a controlar efeitos colaterais relacionados ao estrogênio, como ginecomastia, retenção de líquidos e desequilíbrio hormonal durante e após ciclos de esteroides. Amplamente usado na Terapia Pós-Ciclo (PCT), o Exemestano suporta uma recuperação hormonal mais suave, bloqueando a conversão de estrogênio, garantindo desempenho ideal, retenção de massa muscular magra e melhores resultados físicos. Sempre use sob supervisão profissional.",
+      "presentation": "Forma: Comprimidos orais\nDosagem: 25 mg de Exemestano por comprimido\nEmbalagem: Pacote de 10 comprimidos de alta qualidade\nTipo de Comprimido: Grau farmacêutico, supressor de estrogênio potente\nCategoria de Uso: Controle de estrogênio durante o ciclo, Terapia Pós-Ciclo (PCT), equilíbrio hormonal\nAdequado Para: Atletas, fisiculturistas, usuários de esteroides que buscam suporte com inibidor de aromatase\nArmazenamento: Armazene em local fresco e seco, longe da luz solar direta.\nFabricado Por: NovaTech Sciences.",
+      "precautions": "Sempre use AROMANOVA sob a supervisão de um profissional de saúde qualificado.\nSiga a dosagem prescrita e evite automedicação.\nInforme seu médico sobre todos os medicamentos, suplementos ou tratamentos hormonais.\nMantenha fora do alcance de crianças; armazene em local fresco e seco.\nEvite álcool ou substâncias que possam interferir na terapia hormonal.\nMonitore para sintomas incomuns, como fadiga grave, tontura ou reações alérgicas.",
+      "contraindications": "Não use se for alérgico ao Exemestano ou a qualquer ingrediente inativo.\nNão para uso em mulheres grávidas ou amamentando.\nEvite em mulheres na pré-menopausa, a menos que direcionado por um profissional de saúde.\nUse com cautela em indivíduos com distúrbios hepáticos ou renais graves.\nNão deve ser combinado com outros medicamentos que afetam fortemente os níveis de estrogênio, a menos que supervisionado por um profissional médico.",
+      "seo": {
+        "title": "Comprimido AROMANOVA | CAS 107868-30-4 – NovaTech Sciences",
+        "description": "O comprimido AROMANOVA da NovaTech Sciences contém Exemestano (CAS 107868-30-4). Fabricante, fornecedor e exportador confiável de inibidores de aromatase de grau farmacêutico para supressão de estrogênio e equilíbrio hormonal.",
+        "canonical": "https://www.novatechsciences.com/products/tablets/aromanova"
+      },
       "faq": [
-        { "q": "Como devo usar FEMANOVA?", "a": "Tomar uma vez ao dia ou conforme orientação médica." },
-        { "q": "Pode ser tomado com alimentos?", "a": "Sim, com ou sem alimentos." },
-        { "q": "É seguro na gravidez?", "a": "Não, é contraindicado." }
+        {
+          "q": "Quanto tempo leva para o AROMANOVA mostrar resultados?",
+          "a": "AROMANOVA geralmente começa a funcionar dentro de alguns dias, dependendo dos níveis hormonais individuais e da dosagem. Continue tomando regularmente conforme instruído para obter todos os benefícios."
+        },
+        {
+          "q": "Existem efeitos colaterais do AROMANOVA?",
+          "a": "Efeitos colaterais comuns podem incluir dor de cabeça leve, náusea ou desconforto digestivo. Procure atendimento médico se ocorrerem reações graves ou incomuns."
+        },
+        {
+          "q": "Posso tomar AROMANOVA com outros medicamentos?",
+          "a": "Alguns medicamentos podem interagir com o AROMANOVA, afetando a eficácia ou causando efeitos colaterais. Informe seu médico sobre todos os medicamentos e suplementos em uso."
+        },
+        {
+          "q": "O AROMANOVA é seguro para uso a longo prazo?",
+          "a": "AROMANOVA é geralmente seguro quando tomado sob supervisão médica. Não exceda a dosagem ou duração prescrita sem consultar um profissional de saúde."
+        },
+        {
+          "q": "Posso beber álcool enquanto tomo AROMANOVA?",
+          "a": "Evite álcool durante o uso de AROMANOVA, pois pode aumentar os efeitos colaterais e interferir na absorção e eficácia."
+        }
       ]
     },
-    "tab-tamonova-20": {
-      "name": "TAMONOVA",
-      "shortDescription": "Tamoxifeno Citrato para controle do estrogênio e PCT.",
-      "description": "Tamoxifeno Citrato 20 mg bloqueador dos receptores de estrogênio.",
-      "indication": "Utilizado em terapia pós-ciclo para restaurar o equilíbrio hormonal e reduzir efeitos colaterais do estrogênio.",
-      "presentation": "Forma: Comprimidos orais\nDosagem: 20 mg\nEmbalagem: Blister com 10 comprimidos\nFabricante: NovaTech Sciences.",
-      "precautions": "Consultar um profissional de saúde antes do uso.",
-      "contraindications": "Gravidez, amamentação, histórico de trombose ou doença hepática.",
-      "faq": [
-        { "q": "TAMONOVA é usado para PCT?", "a": "Sim, é amplamente utilizado." },
-        { "q": "Ajuda na ginecomastia?", "a": "Ajuda a controlar efeitos relacionados ao estrogênio." }
-      ]
-    
-},
-
     "tab-enclominova-25": {
       "id": "tab-enclominova-25",
       "name": "ENCLOMINOVA",
       "imageKey": "ENCLOMINOVA",
       "cas": "7599-79-3",
-      "shortDescription": "Comprimidos premium de enclomifeno para aumento da testosterona, recuperação PCT e equilíbrio hormonal.",
-      "description": "ENCLOMINOVA (Citrato de Enclomifeno 25 mg) comprimido de grau farmacêutico utilizado para aumentar a testosterona natural, apoiar a terapia pós-ciclo (PCT) e restaurar o equilíbrio hormonal.",
-      "indication": "ENCLOMINOVA é amplamente utilizado para estimular a produção natural de testosterona, apoiar a PCT após ciclos de esteroides anabolizantes e restaurar o equilíbrio hormonal. Também é prescrito para infertilidade masculina, promovendo a liberação hormonal endógena. Atletas e fisiculturistas utilizam ENCLOMINOVA para recuperação mais rápida e melhoria da vitalidade.",
-      "presentation": "Forma: Comprimidos orais\nDosagem: 25 mg de Citrato de Enclomifeno por comprimido\nEmbalagem: Caixa com 10 comprimidos\nTipo: Formulação farmacêutica de suporte à testosterona\nCategoria de uso: PCT, aumento da testosterona, suporte endócrino\nIndicado para: Atletas, fisiculturistas, homens em recuperação de ciclos de esteroides\nArmazenamento: Conservar em local fresco e seco, longe da luz solar\nFabricado por: Nova TechSciences.",
-      "precautions": "Utilizar ENCLOMINOVA apenas sob supervisão médica.\nSeguir rigorosamente a dosagem prescrita.\nInformar o médico sobre todos os medicamentos, suplementos ou terapias hormonais.\nManter fora do alcance de crianças.\nEvitar álcool ou substâncias que possam interferir na recuperação hormonal.\nMonitorar regularmente os níveis hormonais.",
-      "contraindications": "Não utilizar em caso de alergia ao enclomifeno ou a qualquer componente.\nNão indicado para grávidas ou lactantes.\nEvitar em casos de doença hepática, problemas renais graves ou condições sensíveis a hormônios.\nNão usar em distúrbios da tireoide ou hipófise não controlados sem orientação médica.\nSuspender imediatamente em caso de dor de cabeça intensa, alterações visuais ou de humor.",
+      "shortDescription": "Comprimidos premium de Citrato de Enclomifeno para aumento de testosterona, recuperação de PCT e equilíbrio hormonal.",
+      "description": "ENCLOMINOVA (Citrato de Enclomifeno 25 mg), comprimido de grau farmacêutico usado para aumentar os níveis naturais de testosterona, apoiar a terapia pós-ciclo (PCT) e restaurar o equilíbrio hormonal.",
+      "indication": "ENCLOMINOVA (Citrato de Enclomifeno 25 mg) é comumente usado para aumentar a testosterona natural, apoiar a terapia pós-ciclo (PCT) após ciclos de esteroides anabólicos e restaurar o equilíbrio hormonal. Também é prescrito para infertilidade masculina, promovendo a produção saudável de testosterona ao estimular a liberação hormonal endógena. Muitos atletas e fisiculturistas usam ENCLOMINOVA para recuperar mais rápido após ciclos de esteroides, melhorar a vitalidade e aprimorar a função endócrina geral. Sempre use sob supervisão médica adequada.",
+      "presentation": "Forma: Comprimidos orais\nDosagem: 25 mg de Citrato de Enclomifeno por comprimido\nEmbalagem: Caixa de 10 comprimidos\nTipo de Comprimido: Formulação de suporte à testosterona, grau farmacêutico\nCategoria de Uso: Terapia Pós-Ciclo (PCT), aumento de testosterona, suporte endócrino\nAdequado Para: Atletas, fisiculturistas, homens em recuperação de ciclos de esteroides e usuários que necessitam de suporte hormonal\nArmazenamento: Armazene em local fresco e seco, longe da luz solar direta.\nFabricado Por: NovaTech Sciences.",
+      "precautions": "Sempre use ENCLOMINOVA sob supervisão médica.\nSiga a dosagem prescrita e evite automedicação.\nInforme seu médico sobre todos os medicamentos, suplementos ou tratamentos hormonais.\nMantenha fora do alcance de crianças e armazene com segurança.\nEvite álcool ou substâncias que possam interferir na recuperação hormonal.\nMonitore os níveis hormonais e relate quaisquer sintomas incomuns ao seu profissional de saúde.",
+      "contraindications": "Não use se for alérgico ao Enclomifeno ou a qualquer ingrediente inativo.\nNão é adequado para mulheres grávidas ou amamentando.\nEvite em indivíduos com doença hepática, problemas renais graves ou condições médicas sensíveis a hormônios.\nNão para aqueles com distúrbios tireoidianos ou pituitários não controlados, ou certas condições de saúde reprodutiva, a menos que aprovado por um médico.\nEvite combinar com outros suplementos que alteram hormônios, esteroides anabólicos, SARMs ou medicamentos, a menos que supervisionado por um médico.\nDescontinue imediatamente se ocorrer dor de cabeça intensa, alterações na visão, distúrbios de humor ou sintomas incomuns.",
       "seo": {
-        "title": "ENCLOMINOVA Comprimido | CAS 7599-79-3 – NovaTech Sciences",
-        "description": "ENCLOMINOVA contém Citrato de Enclomifeno (CAS 7599-79-3) para suporte hormonal, fertilidade e equilíbrio da testosterona.",
+        "title": "Comprimido ENCLOMINOVA | CAS 7599-79-3 – NovaTech Sciences",
+        "description": "O comprimido ENCLOMINOVA da NovaTech Sciences contém Citrato de Enclomifeno (CAS 7599-79-3). Fabricante, fornecedor e exportador confiável de compostos de grau farmacêutico para suporte hormonal, fertilidade e equilíbrio de testosterona.",
         "canonical": "https://www.novatechsciences.com/products/tablets/enclominova"
       },
       "faq": [
         {
-          "q": "ENCLOMINOVA é seguro durante a gravidez ou amamentação?",
-          "a": "Não. ENCLOMINOVA não deve ser utilizado durante a gravidez ou amamentação, salvo orientação médica."
+          "q": "ENCLOMINOVA é seguro para uso durante a gravidez ou amamentação?",
+          "a": "ENCLOMINOVA não deve ser usado durante a gravidez ou amamentação, a menos que prescrito por um médico. Pode afetar o bebê não nascido ou em amamentação. Sempre consulte seu profissional de saúde antes do uso."
         },
         {
-          "q": "Quanto tempo leva para o ENCLOMINOVA apresentar resultados?",
-          "a": "Os benefícios geralmente aparecem em poucos dias a algumas semanas, dependendo da condição individual."
+          "q": "Quanto tempo leva para o ENCLOMINOVA mostrar melhora?",
+          "a": "A maioria das pessoas nota benefícios dentro de alguns dias a algumas semanas, dependendo da condição individual. O uso consistente conforme direcionado pelo seu médico garante a máxima eficácia."
         },
         {
-          "q": "Existem efeitos colaterais comuns?",
-          "a": "Os efeitos colaterais podem incluir dor de cabeça, náusea, tontura ou desconforto digestivo."
+          "q": "Existem efeitos colaterais comuns do ENCLOMINOVA?",
+          "a": "Efeitos colaterais comuns podem incluir dor de cabeça, náusea, tontura ou desconforto digestivo. Estes geralmente melhoram por conta própria. Procure aconselhamento médico se ocorrerem reações graves ou incomuns."
         },
         {
-          "q": "ENCLOMINOVA pode interagir com outros medicamentos?",
-          "a": "Sim. Informe o seu médico sobre todos os medicamentos, suplementos ou produtos naturais que utiliza."
+          "q": "O ENCLOMINOVA pode interagir com outros medicamentos?",
+          "a": "ENCLOMINOVA pode interagir com certos medicamentos, suplementos ou produtos à base de ervas. Informe seu médico sobre todas as substâncias que você está tomando para evitar interações indesejadas."
         },
         {
-          "q": "Quem deve evitar o uso de ENCLOMINOVA?",
-          "a": "Pessoas com alergias, doenças hepáticas, distúrbios hormonais ou mulheres grávidas e lactantes."
+          "q": "Quem deve evitar tomar ENCLOMINOVA?",
+          "a": "Indivíduos com alergias, distúrbios hepáticos, problemas hormonais, ou aqueles que estão grávidas ou amamentando devem evitar ENCLOMINOVA, a menos que aprovado por um profissional de saúde."
         }
       ]
     },
-
-
     "tab-primonova-25": {
       "id": "tab-primonova-25",
       "name": "PRIMONOVA",
       "imageKey": "PRIMONOVA",
       "cas": "0434-05-09",
-      "shortDescription": "Comprimidos de Metenolona de alta qualidade para crescimento muscular limpo.",
-      "description": "PRIMONOVA (Acetato de Metenolona 25 mg) é um esteroide anabólico leve para preservação muscular e ciclos de definição.",
-      "indication": "PRIMONOVA é usado por atletas que procuram ganhos limpos, melhor recuperação e manutenção muscular durante fases de definição e recomposição corporal.",
-      "presentation": "Forma: Comprimidos orais\nDosagem: 25 mg por comprimido\nEmbalagem: Frasco com 50 comprimidos",
-      "precautions": "Utilizar apenas sob supervisão médica.\nEvitar álcool.\nNão exceder a dose recomendada.",
-      "contraindications": "Não indicado para menores de 18 anos.",
+      "shortDescription": "Comprimidos de alta qualidade de Acetato de Metenolona para crescimento muscular limpo, ciclos de cutting e aprimoramento de performance.",
+      "description": "PRIMONOVA (Acetato de Metenolona 25 mg), comprimido de esteroide anabólico premium para preservação de massa muscular magra, ciclos de cutting e recomposição corporal. Ideal para atletas que buscam ganhos limpos, dureza muscular e mínima retenção de líquidos.",
+      "indication": "PRIMONOVA (Acetato de Metenolona 25 mg) é indicado para usuários que buscam um esteroide anabólico leve, mas eficaz, que promove crescimento muscular magro, preservação muscular e recuperação aprimorada. Conhecido como uma alternativa oral ao Primobolan, suporta retenção de nitrogênio, força e desempenho durante fases de cutting, recomp ou pré-competição. Comumente usado durante ciclos de cutting, preparação para competições e manutenção de massa muscular magra, PRIMONOVA é confiável para homens e mulheres que visam melhoria física constante e sustentável.",
+      "presentation": "Forma: Comprimidos orais\nDosagem: 25 mg de Acetato de Metenolona por comprimido\nEmbalagem: Frasco de 50 comprimidos\nTipo de Comprimido: Esteróide anabólico leve, grau farmacêutico\nCategoria de Uso: Ciclos de cutting, construção de massa muscular magra, preservação muscular, recomposição corporal\nAdequado Para: Atletas, fisiculturistas, entusiastas de fitness\nArmazenamento: Armazene em local fresco e seco, longe da luz solar direta.\nFabricado Por: NovaTech Sciences.",
+      "precautions": "Sempre use PRIMONOVA sob supervisão médica.\nSiga a dosagem prescrita; evite automedicação.\nInforme seu médico sobre todos os medicamentos, suplementos ou uso de esteroides.\nNão recomendado para indivíduos com distúrbios hepáticos, renais ou cardíacos.\nEvite o uso durante a gravidez ou amamentação.\nMantenha fora do alcance de crianças e armazene com segurança em local fresco e seco.\nEvite álcool ou substâncias recreativas.\nMonitore para sintomas incomuns, como dor de cabeça intensa, inchaço ou alterações de humor.",
+      "contraindications": "Não use se for alérgico ao Acetato de Metenolona ou a qualquer ingrediente inativo.\nNão é adequado para indivíduos menores de 18 anos, a menos que aconselhado por um profissional certificado.\nProcure atendimento médico imediato se ocorrerem reações incomuns ou graves.\nEvite uso indevido ou exceder a dosagem recomendada para prevenir desequilíbrio hormonal ou efeitos colaterais.",
       "seo": {
-        "title": "PRIMONOVA Comprimido | CAS 434-05-9",
-        "description": "Metenolona para suporte muscular limpo.",
+        "title": "Comprimido PRIMONOVA | CAS 434-05-9 – NovaTech Sciences",
+        "description": "O comprimido PRIMONOVA da NovaTech Sciences contém Acetato de Metenolona (CAS 434-05-9). Fabricante, fornecedor e exportador confiável de suporte anabólico de grau farmacêutico para manutenção muscular e equilíbrio hormonal.",
         "canonical": "https://www.novatechsciences.com/products/tablets/primonova"
       },
       "faq": [
         {
-          "q": "Quando aparecem os resultados?",
-          "a": "Normalmente em 2 a 4 semanas."
+          "q": "Quanto tempo leva para o PRIMONOVA mostrar resultados?",
+          "a": "Os usuários geralmente veem resultados visíveis do Primonova (Acetato de Metenolona) dentro de 2–4 semanas. Efeitos anabólicos leves suportam desenvolvimento muscular magro constante e recomposição corporal com dieta e treino adequados."
         },
         {
-          "q": "É bom para definição?",
-          "a": "Sim, ideal para cutting."
+          "q": "O PRIMONOVA é bom para ciclos de cutting?",
+          "a": "Sim, Primonova é ideal para ciclos de cutting. Ajuda a preservar massa muscular magra enquanto suporta fases de perda de gordura, aprimorando a definição muscular sem retenção de líquidos."
         },
         {
-          "q": "Tem efeitos colaterais?",
-          "a": "Geralmente leves."
+          "q": "O PRIMONOVA causa efeitos colaterais?",
+          "a": "PRIMONOVA é um esteroide anabólico leve, mas pode causar efeitos colaterais menores, como dor de cabeça, acne leve, alterações de humor ou desconforto digestivo. Efeitos graves são raros com uso responsável."
         },
         {
-          "q": "Iniciantes podem usar?",
-          "a": "Sim, com orientação médica."
+          "q": "Iniciantes podem usar PRIMONOVA?",
+          "a": "Sim, Primonova é amigável para iniciantes devido à sua natureza androgênica baixa. Iniciantes devem consultar um profissional de saúde antes de iniciar qualquer ciclo de esteroides."
         },
         {
-          "q": "É necessário PCT?",
-          "a": "Sim."
+          "q": "Preciso de Terapia Pós-Ciclo (PCT) após usar PRIMONOVA?",
+          "a": "A PCT é recomendada após completar um ciclo de Primonova para restaurar o equilíbrio hormonal natural e ajudar a manter os ganhos musculares, mesmo que o Acetato de Metenolona seja leve."
         }
       ]
     },
- 
-
     "tab-supernova-10": {
       "id": "tab-supernova-10",
       "name": "SUPERNOVA",
+      "imageKey": "SUPERNOVA",
       "cas": "3381-88-2",
-      "shortDescription": "Comprimidos potentes de metildrostanolona para força e definição muscular.",
-      "description": "SUPERNOVA (Metildrostanolona 10 mg) é um esteroide anabólico oral potente para ganhos musculares secos e aumento de força.",
-      "indication": "Conhecido como Superdrol, SUPERNOVA é usado para força rápida, massa muscular seca e melhor desempenho sem retenção hídrica.",
-      "presentation": "Forma: Comprimidos orais\nDosagem: 10 mg por comprimido\nEmbalagem: Frasco com 100 comprimidos",
-      "precautions": "Utilizar apenas sob supervisão médica.\nEvitar álcool.\nNão indicado para pessoas com problemas hepáticos ou cardíacos.",
-      "contraindications": "Não recomendado para iniciantes.",
+      "shortDescription": "Comprimidos de Metildrostanolona de alta potência para ganho muscular rápido, força e ciclos de cutting.",
+      "description": "SUPERNOVA (Metildrostanolona 10 mg) é um esteroide anabólico oral potente projetado para apoiar o crescimento muscular magro, aprimoramento de força e melhoria do desempenho atlético. Ideal para ciclos de cutting, dureza muscular e redução de gordura.",
+      "indication": "SUPERNOVA (Metildrostanolona 10 mg) é projetado para usuários que buscam aumento rápido de força, ganhos musculares magros e aprimoramento de desempenho. Conhecido como Superdrol nos círculos de fisiculturismo, ajuda os atletas a alcançar músculos densos e secos sem retenção excessiva de líquidos. Comumente usado durante ciclos de construção muscular, força e recomposição, SUPERNOVA é ideal para quem deseja massa limpa, vascularidade aprimorada e aumento de desempenho sob supervisão especializada.",
+      "presentation": "Forma: Comprimidos orais\nDosagem: 10 mg de Metildrostanolona por comprimido\nEmbalagem: Frasco de 100 comprimidos\nTipo de Comprimido: Comprimido de esteroide anabólico oral\nCategoria de Uso: Ciclos de cutting, crescimento muscular magro, força, recomposição\nAdequado Para: Atletas intermediários ou experientes e fisiculturistas\nArmazenamento: Armazene em local fresco e seco, longe da luz solar.\nFabricado Por: NovaTech Sciences.",
+      "precautions": "Use SUPERNOVA estritamente sob supervisão médica.\nSiga a dosagem prescrita; evite automedicação.\nInforme seu médico sobre todos os medicamentos ou ciclos de esteroides.\nMantenha fora do alcance de crianças; armazene com segurança.\nEvite álcool ou substâncias que sobrecarreguem o fígado.\nNão é adequado para indivíduos com distúrbios hepáticos, renais, cardíacos ou hormonais, a menos que aprovado.\nMulheres grávidas ou amamentando não devem usar este produto.\nProcure atendimento médico imediato para dor abdominal intensa, icterícia ou alterações de humor intensas.\nNão exceda a dosagem recomendada para prevenir desequilíbrio hormonal ou efeitos adversos.",
+      "contraindications": "Não use se for alérgico à Metildrostanolona ou a qualquer outro ingrediente ativo.\nNão recomendado para iniciantes; mais adequado para usuários intermediários.\nEvite combinar com outras substâncias que alteram hormônios, a menos que supervisionado por um profissional de saúde.\nDescontinue o uso e consulte um profissional de saúde se ocorrerem reações incomuns ou graves.",
       "seo": {
-        "title": "SUPERNOVA Comprimido | CAS 3381-88-2",
-        "description": "Metildrostanolona para força, definição e desempenho.",
+        "title": "Comprimido SUPERNOVA | CAS 3381-88-2 – NovaTech Sciences",
+        "description": "O comprimido SUPERNOVA da NovaTech Sciences contém Metildrostanolona (CAS 3381-88-2). Fabricante, fornecedor e exportador confiável de suporte anabólico de grau farmacêutico para força, desempenho e crescimento muscular.",
         "canonical": "https://www.novatechsciences.com/products/tablets/supernova"
       },
       "faq": [
         {
-          "q": "Quanto tempo leva para ver resultados?",
-          "a": "Geralmente entre 1–2 semanas."
+          "q": "Quanto tempo leva para o SUPERNOVA mostrar resultados?",
+          "a": "A maioria dos usuários começa a ver melhoria de força e aprimoramento muscular magro dentro de 1–2 semanas de uso da SUPERNOVA Metildrostanolona. Mudanças físicas visíveis geralmente aparecem na semana 3 ou 4, dependendo do treino, dieta e adesão ao ciclo."
         },
         {
-          "q": "Quais resultados esperar?",
-          "a": "Força aumentada e músculos secos."
+          "q": "Que resultados posso esperar do SUPERNOVA?",
+          "a": "SUPERNOVA promove ganhos musculares secos e magros, força aprimorada, dureza muscular, melhor vascularidade e desempenho aprimorado. Eficaz durante ciclos de cutting ou recomposição."
         },
         {
-          "q": "Tem efeitos colaterais?",
-          "a": "Possíveis efeitos leves com uso inadequado."
+          "q": "O SUPERNOVA causa efeitos colaterais?",
+          "a": "Efeitos colaterais podem incluir dor de cabeça, sobrecarga hepática leve, acne ou alterações de humor. Dosagem responsável e suporte ao ciclo reduzem riscos. Evite uso prolongado ou em alta dose."
         },
         {
-          "q": "É necessário PCT?",
-          "a": "Sim."
+          "q": "A PCT é necessária após usar SUPERNOVA?",
+          "a": "Sim, a Terapia Pós-Ciclo (PCT) é recomendada após SUPERNOVA para restaurar a testosterona natural, prevenir quedas hormonais e manter os ganhos musculares. Normalmente, SERMs são usados por 3–4 semanas."
         },
         {
-          "q": "É indicado para iniciantes?",
-          "a": "Não."
+          "q": "Iniciantes podem usar SUPERNOVA?",
+          "a": "SUPERNOVA não é ideal para iniciantes devido à sua potência. É mais adequado para usuários intermediários de esteroides com experiência. Iniciantes devem consultar um profissional médico antes do uso."
+        }
+      ]
+    },
+    "tab-telinova-20": {
+      "id": "tab-telinova-20",
+      "name": "TELINOVA",
+      "imageKey": "TELINOVA",
+      "cas": "144701-48-4",
+      "shortDescription": "Comprimidos de alta qualidade de Telmisartan para gerenciamento de hipertensão e suporte cardiovascular.",
+      "description": "TELINOVA (Telmisartan 20 mg), comprimidos de grau farmacêutico para gerenciamento da pressão arterial, suporte cardiovascular e aprimoramento do bem-estar. Suporta pressão arterial estável, melhora o fluxo sanguíneo e reduz o risco de eventos cardiovasculares.",
+      "indication": "TELINOVA (Telmisartan 20 mg) é indicado para o gerenciamento da hipertensão (pressão alta) e para reduzir o risco de eventos cardiovasculares, como acidente vascular cerebral e ataque cardíaco. Ajuda a manter níveis saudáveis de pressão arterial ao relaxar os vasos sanguíneos, melhorar a circulação e apoiar a saúde cardíaca a longo prazo. Comumente usado durante terapia pós-ciclo, fases de treino intenso ou em indivíduos com risco cardiovascular, TELINOVA é confiável para estabilizar a pressão arterial e aprimorar o desempenho cardiovascular sob supervisão médica.",
+      "presentation": "Forma: Comprimidos orais\nDosagem: 20 mg de Telmisartan por comprimido\nEmbalagem: Blister com 10 comprimidos\nTipo de Comprimido: Anti-hipertensivo de grau farmacêutico\nCategoria de Uso: Gerenciamento da pressão arterial, suporte cardiovascular, bem-estar de desempenho\nAdequado Para: Indivíduos que necessitam de controle da pressão arterial, terapia pós-ciclo ou proteção cardiovascular\nArmazenamento: Armazene em local fresco e seco, longe da luz solar direta e umidade.\nFabricado Por: NovaTech Sciences.",
+      "precautions": "Sempre use TELINOVA sob supervisão médica.\nSiga a dosagem prescrita; evite automedicação.\nVerifique alergias ao Telmisartan ou a qualquer ingrediente inativo.\nMonitore a pressão arterial regularmente, especialmente durante o tratamento inicial.\nInforme seu médico sobre todos os medicamentos, suplementos ou compostos de desempenho.\nEvite álcool, pois pode potencializar os efeitos de redução da pressão arterial.\nUse cautela ao dirigir se ocorrer tontura.\nMantenha fora do alcance de crianças e armazene na embalagem original.",
+      "contraindications": "Não use TELINOVA se estiver grávida, planejando gravidez ou amamentando.\nEvite o uso em indivíduos com comprometimento hepático ou renal grave, a menos que aprovado por um médico.\nNão use em pacientes com estenose bilateral da artéria renal ou condições cardíacas graves sem supervisão médica.\nEvite se for alérgico ao Telmisartan ou a qualquer componente da formulação.\nProcure atendimento médico imediato se ocorrerem sintomas incomuns, incluindo tontura intensa, inchaço ou dificuldade para respirar.",
+      "seo": {
+        "title": "Comprimido TELINOVA | CAS 144701-48-4 – NovaTech Sciences",
+        "description": "O comprimido TELINOVA da NovaTech Sciences contém Telmisartan (CAS 144701-48-4). Fabricante, fornecedor e exportador confiável de comprimidos anti-hipertensivos de grau farmacêutico para suporte à pressão arterial e saúde cardiovascular.",
+        "canonical": "https://www.novatechsciences.com/products/tablets/telinova"
+      },
+      "faq": [
+        {
+          "q": "Quanto tempo leva para o TELINOVA fazer efeito?",
+          "a": "A eficácia do TELINOVA varia entre os indivíduos. Alguns usuários notam melhora dentro de alguns dias, enquanto outros podem precisar de mais tempo. Uso consistente conforme prescrito garante o máximo benefício."
+        },
+        {
+          "q": "Existem efeitos colaterais dos comprimidos TELINOVA?",
+          "a": "Alguns usuários podem sentir efeitos colaterais leves, como náusea, dor de cabeça ou desconforto estomacal. Estes geralmente desaparecem por conta própria. Consulte um profissional de saúde se os sintomas persistirem."
+        },
+        {
+          "q": "Quem não deve tomar TELINOVA?",
+          "a": "Indivíduos com alergias aos ingredientes do TELINOVA, condições médicas graves ou aqueles em uso de medicamentos conflitantes devem evitar TELINOVA, a menos que aprovado por um profissional de saúde."
+        },
+        {
+          "q": "Posso tomar TELINOVA com outros medicamentos?",
+          "a": "Consulte seu médico antes de combinar TELINOVA com outros medicamentos ou suplementos, pois algumas interações podem reduzir a eficácia ou aumentar os efeitos colaterais."
+        },
+        {
+          "q": "Como devo armazenar os comprimidos TELINOVA?",
+          "a": "Armazene os comprimidos TELINOVA em local fresco e seco, longe da luz solar e umidade. Mantenha na embalagem original e fora do alcance de crianças."
+        }
+      ]
+    },
+    "tab-turinova-10": {
+      "id": "tab-turinova-10",
+      "name": "TURINOVA",
+      "imageKey": "TURINOVA",
+      "cas": "2446-23-3",
+      "shortDescription": "Comprimidos de alta qualidade de Clorodehidrometiltestosterona para massa muscular magra, força e suporte de desempenho.",
+      "description": "TURINOVA (Clorodehidrometiltestosterona 10 mg) é um comprimido de esteroide anabólico oral de grau farmacêutico projetado para aprimorar a recuperação muscular, força, resistência e desempenho sob supervisão profissional.",
+      "indication": "TURINOVA (Clorodehidrometiltestosterona 10 mg) é indicado para suporte anabólico terapêutico, preservação de massa muscular magra, força aprimorada e recuperação atlética melhorada. Conhecido por efeitos semelhantes ao Turinabol, ajuda a melhorar a resistência muscular e o desempenho. Recomendado para ciclos estruturados de recuperação anabólica sob supervisão médica, TURINOVA é ideal para indivíduos que necessitam de suporte anabólico controlado.",
+      "presentation": "Forma: Comprimidos orais\nDosagem: 10 mg de Clorodehidrometiltestosterona por comprimido\nEmbalagem: Frasco de 50 comprimidos\nTipo de Comprimido: Esteróide anabólico de grau farmacêutico\nCategoria de Uso: Recuperação muscular, aprimoramento de força, resistência, suporte anabólico terapêutico\nAdequado Para: Atletas, fisiculturistas e indivíduos em ciclos estruturados de recuperação anabólica\nArmazenamento: Armazene em local fresco e seco, longe da luz solar.\nFabricado Por: NovaTech Sciences.",
+      "precautions": "Use TURINOVA apenas sob a orientação de um profissional de saúde qualificado.\nSiga a dosagem recomendada; evite automedicação.\nInforme seu médico sobre qualquer condição hepática, renal, cardíaca ou hormonal.\nExames de sangue periódicos podem ser necessários para monitorar enzimas hepáticas e níveis hormonais.\nEvite álcool, pois pode aumentar a sobrecarga hepática.\nMantenha longe de crianças; armazene em local fresco e seco.",
+      "contraindications": "Não use se for alérgico à Clorodehidrometiltestosterona ou a qualquer componente do TURINOVA.\nNão é adequado para indivíduos com doença hepática grave ou função hepática prejudicada.\nContraindicação em mulheres grávidas ou amamentando.\nEvite em indivíduos com câncer de próstata, câncer de mama ou condições sensíveis a hormônios.\nNão recomendado para hipertensão não controlada ou condições cardíacas graves.\nNão combine com outras substâncias hepatotóxicas orais ou esteroides anabólicos sem supervisão médica.",
+      "seo": {
+        "title": "Comprimido TURINOVA | CAS 2446‑23‑3 – NovaTech Sciences",
+        "description": "O comprimido TURINOVA da NovaTech Sciences contém Clorodehidrometiltestosterona (CAS 2446‑23‑3). Fabricante, fornecedor e exportador confiável de suporte anabólico de grau farmacêutico para força, desempenho e crescimento muscular.",
+        "canonical": "https://www.novatechsciences.com/products/tablets/turinova"
+      },
+      "faq": [
+        {
+          "q": "Quanto tempo leva para o TURINOVA mostrar resultados?",
+          "a": "Os efeitos anabólicos do TURINOVA podem começar dentro de alguns dias, com melhora perceptível na recuperação muscular e força tipicamente vista em 1–2 semanas. Os resultados dependem da dosagem, duração do ciclo e resposta individual."
+        },
+        {
+          "q": "O TURINOVA tem efeitos colaterais?",
+          "a": "Possíveis efeitos colaterais podem incluir dores de cabeça leves, alterações de humor, sobrecarga hepática ou desequilíbrio hormonal. Dosagem responsável e supervisão médica ajudam a reduzir riscos."
+        },
+        {
+          "q": "Iniciantes podem usar TURINOVA?",
+          "a": "Iniciantes devem usar TURINOVA apenas sob orientação profissional. Embora mais suave que muitos esteroides anabólicos, dosagem adequada e monitoramento são essenciais para resultados seguros."
+        },
+        {
+          "q": "Posso combinar TURINOVA com outros esteroides?",
+          "a": "Empilhar TURINOVA com outros esteroides anabólicos deve ser feito apenas sob supervisão médica. Algumas combinações podem aumentar os benefícios, mas também elevam o risco de efeitos colaterais."
+        },
+        {
+          "q": "Quem deve evitar o uso de TURINOVA?",
+          "a": "Indivíduos com problemas hepáticos, cardíacos ou hormonais — ou aqueles tomando medicamentos conflitantes — devem evitar TURINOVA, a menos que liberado por um profissional de saúde. Mulheres grávidas e menores de idade não devem usar esteroides anabólicos."
+        }
+      ]
+    },
+    "tab-nova-t4-50mcg": {
+      "id": "tab-nova-t4-50mcg",
+      "name": "NOVA_T4",
+      "imageKey": "NOVA_T4",
+      "cas": "55-03-8",
+      "shortDescription": "Comprimidos de alta qualidade de Levotiroxina T4 para suporte hormonal da tireoide, metabolismo e energia.",
+      "description": "NOVA_T4 (Levotiroxina Sódica T4 50 mcg), comprimido de grau farmacêutico para apoiar níveis saudáveis de hormônio da tireoide, metabolismo, energia e equilíbrio hormonal. Ideal para gerenciamento de hipotireoidismo e suporte metabólico durante ciclos de desempenho.",
+      "indication": "NOVA_T4 (Levotiroxina Sódica T4 50 mcg) é indicado para indivíduos que necessitam de reposição ou suplementação do hormônio da tireoide. Ajuda a manter o metabolismo estável, energia e equilíbrio hormonal geral. Frequentemente usado junto com ciclos de esteroides ou regimes de desempenho, NOVA_T4 suporta estabilidade metabólica e função tireoidiana sob supervisão médica.",
+      "presentation": "Forma: Comprimidos orais\nDosagem: 50 mcg de Levotiroxina Sódica T4 por comprimido\nEmbalagem: Blister com 10 comprimidos\nTipo de Comprimido: Comprimido T4 de dosagem precisa\nCategoria de Uso: Suporte hormonal da tireoide, regulação do metabolismo, suporte à perda de gordura\nAdequado Para: Indivíduos com hipotireoidismo ou aqueles que necessitam de suporte tireoidiano regulado durante ciclos de desempenho\nArmazenamento: Armazene em local fresco e seco, longe de umidade e luz solar.\nFabricado Por: NovaTech Sciences.",
+      "precautions": "Sempre use NOVA_T4 sob supervisão médica.\nSiga a dosagem prescrita; não se automedique.\nInforme seu médico sobre qualquer uso de esteroides, suplementos ou medicamentos hormonais.\nEvite uso em insuficiência adrenal não tratada, infarto agudo do miocárdio, hipertireoidismo não controlado ou distúrbios cardiovasculares graves.\nMantenha fora do alcance de crianças; armazene em local seco e fresco.\nEvite álcool ou substâncias estimulantes que possam interferir na absorção.\nMonitore para batimentos cardíacos rápidos, dor no peito, nervosismo extremo ou sudorese incomum e procure ajuda médica, se necessário.\nMulheres grávidas ou amamentando devem consultar um médico antes do uso.",
+      "contraindications": "Não use se for alérgico à Levotiroxina ou a qualquer ingrediente inativo.\nEvite automedicação ou combinação com esteroides sem supervisão médica.\nNão é adequado para insuficiência adrenal não tratada ou condições cardiovasculares graves.\nDescontinue e procure atendimento médico se aparecerem sintomas incomuns.",
+      "seo": {
+        "title": "Comprimido NOVA‑T4 | CAS 51‑48‑9 – NovaTech Sciences",
+        "description": "O comprimido NOVA‑T4 da NovaTech Sciences contém Levotiroxina Sódica (CAS 51‑48‑9). Fabricante, fornecedor e exportador confiável de suporte tireoidiano de grau farmacêutico para equilíbrio hormonal e saúde metabólica.",
+        "canonical": "https://www.novatechsciences.com/products/tablets/nova-t4"
+      },
+      "faq": [
+        {
+          "q": "Quanto tempo leva para o NOVA_T4 fazer efeito?",
+          "a": "Os comprimidos NOVA_T4 melhoram gradualmente os níveis de hormônio da tireoide. A maioria dos usuários nota melhor energia e metabolismo dentro de 2–4 semanas. A estabilização completa pode levar mais tempo, dependendo da dosagem, condição da tireoide e monitoramento médico."
+        },
+        {
+          "q": "Posso usar NOVA_T4 durante um ciclo de esteroides?",
+          "a": "Alguns usuários tomam NOVA_T4 para apoiar o metabolismo e manter a função tireoidiana durante ciclos de esteroides. Isso deve ser feito apenas sob supervisão médica para evitar desequilíbrio hormonal."
+        },
+        {
+          "q": "Existem efeitos colaterais do NOVA_T4?",
+          "a": "Possíveis efeitos colaterais incluem nervosismo, dor de cabeça, aumento da frequência cardíaca ou problemas de sono se a dosagem for muito alta. Esses sintomas podem indicar excesso de hormônio tireoidiano. Monitoramento profissional é recomendado."
+        },
+        {
+          "q": "Posso parar de tomar NOVA_T4 abruptamente?",
+          "a": "NOVA_T4 não deve ser interrompido abruptamente, pois os níveis de hormônio da tireoide podem cair rapidamente, causando fadiga, ganho de peso e metabolismo desacelerado. Sempre reduza ou ajuste as doses sob supervisão médica."
+        },
+        {
+          "q": "Como devo armazenar os comprimidos NOVA_T4?",
+          "a": "Armazene os comprimidos NOVA_T4 em local fresco e seco, longe da luz solar e umidade. Mantenha os blisters lacrados até o uso para manter a potência."
+        }
+      ]
+    },
+    "tab-cabernova-0.5": {
+      "id": "tab-cabernova-0.5",
+      "name": "CABERNOVA",
+      "imageKey": "CABERNOVA",
+      "cas": "81409-90-7",
+      "shortDescription": "Comprimidos premium de Cabergolina para controle de prolactina, suporte hormonal e recuperação aprimorada.",
+      "description": "CABERNOVA (Cabergolina 0,5 mg), comprimidos de grau farmacêutico projetados para regular níveis elevados de prolactina, manter o equilíbrio hormonal e apoiar a recuperação durante ciclos de esteroides ou PCT.",
+      "indication": "CABERNOVA (Cabergolina 0,5 mg) ajuda a regular níveis elevados de prolactina causados pelo uso de esteroides anabólicos ou desequilíbrios hormonais. Suporta estabilidade hormonal, previne efeitos colaterais relacionados à prolactina, como alterações de humor, retenção de líquidos e libido diminuída, e aprimora os resultados da terapia pós-ciclo (PCT). Amplamente usado por fisiculturistas, atletas e entusiastas de fitness, CABERNOVA ajuda a manter a saúde hormonal ideal e melhora o desempenho geral do ciclo.",
+      "presentation": "Forma: Comprimidos orais\nDosagem: 0,5 mg de Cabergolina por comprimido\nEmbalagem: Caixa de 8 comprimidos\nTipo de Comprimido: Comprimido de controle de prolactina, grau farmacêutico\nCategoria de Uso: Gerenciamento de prolactina, terapia pós-ciclo, equilíbrio hormonal\nAdequado Para: Atletas, fisiculturistas, usuários de esteroides, entusiastas de fitness\nArmazenamento: Armazene em local fresco e seco, longe da luz solar direta.\nFabricado Por: NovaTech Sciences.",
+      "precautions": "Sempre use CABERNOVA sob orientação profissional.\nSiga a dosagem prescrita; evite automedicação.\nInforme seu médico sobre todos os medicamentos, suplementos ou compostos de esteroides.\nEvite álcool ou substâncias recreativas, pois podem interferir na atividade da dopamina.\nMantenha fora do alcance de crianças; armazene em local fresco e seco.\nProcure atendimento médico para dor no peito, dor de cabeça intensa, alterações na visão ou sintomas incomuns.\nMulheres grávidas ou amamentando devem evitar CABERNOVA, a menos que aprovado por um profissional médico.",
+      "contraindications": "Não use se for alérgico à Cabergolina ou outros derivados do ergot.\nEvite se tiver hipertensão não controlada, distúrbios das válvulas cardíacas ou condições cardiovasculares graves.\nDescontinue e procure ajuda médica se ocorrerem sintomas graves ou incomuns.\nUse apenas sob supervisão médica durante ciclos de esteroides ou PCT.",
+      "seo": {
+        "title": "Comprimido CABERNOVA | CAS 81409‑90‑7 – NovaTech Sciences",
+        "description": "O comprimido CABERNOVA da NovaTech Sciences contém Cabergolina (CAS 81409‑90‑7). Fabricante, fornecedor e exportador confiável de agonista da dopamina de grau farmacêutico para regulação da prolactina e suporte hormonal.",
+        "canonical": "https://www.novatechsciences.com/products/tablets/cabernova"
+      },
+      "faq": [
+        {
+          "q": "Como a Cabergolina ajuda durante ciclos de esteroides?",
+          "a": "A Cabergolina ajuda a gerenciar altos níveis de prolactina causados por certos esteroides anabólicos. Ao reduzir a prolactina, CABERNOVA apoia a libido, reduz o risco de ginecomastia, mantém o equilíbrio hormonal e melhora a recuperação durante ciclos de esteroides."
+        },
+        {
+          "q": "Quanto tempo leva para o CABERNOVA fazer efeito?",
+          "a": "CABERNOVA começa a reduzir os níveis de prolactina dentro de alguns dias, enquanto os benefícios completos geralmente aparecem dentro de 2 a 4 semanas. Uso consistente durante ciclos de esteroides ajuda a manter níveis hormonais estáveis."
+        },
+        {
+          "q": "Existem efeitos colaterais comuns do CABERNOVA?",
+          "a": "Alguns usuários podem sentir náusea leve, tontura ou dores de cabeça ao usar Cabergolina. Esses efeitos geralmente são temporários e a Cabergolina é geralmente bem tolerada quando usada corretamente."
+        },
+        {
+          "q": "Fisiculturistas podem usar Cabergolina com segurança?",
+          "a": "Sim, fisiculturistas comumente usam Cabergolina com segurança para gerenciamento da prolactina durante ciclos de esteroides. Dosagem adequada de CABERNOVA ajuda a reduzir efeitos colaterais semelhantes ao estrogênio, manter o equilíbrio hormonal e apoiar o desempenho."
+        },
+        {
+          "q": "Preciso de receita para CABERNOVA?",
+          "a": "CABERNOVA contém Cabergolina, que normalmente requer orientação médica ou receita. Consultar um profissional de saúde garante controle adequado da prolactina e reduz o risco de problemas relacionados a hormônios."
+        }
+      ]
+    },
+    "tab-halonova-5": {
+      "id": "tab-halonova-5",
+      "name": "HALONOVA",
+      "imageKey": "HALONOVA",
+      "cas": "76-43-7",
+      "shortDescription": "Comprimidos de alta qualidade de Fluoximesterona para suporte à testosterona, preservação muscular e aprimoramento de força.",
+      "description": "HALONOVA (Fluoximesterona 5 mg), comprimidos de grau farmacêutico projetados para apoiar os níveis de testosterona, aprimorar a força e preservar a massa muscular magra. Ideal para uso terapêutico supervisionado e aprimoramento de desempenho.",
+      "indication": "HALONOVA (Fluoximesterona 5 mg) é indicada para terapia de reposição de testosterona em indivíduos com níveis clinicamente baixos de testosterona. Apoia o equilíbrio androgênico, preservação muscular, manutenção de força e função androgênica geral em casos supervisionados medicamente. Usada em planos de tratamento controlados, HALONOVA ajuda a melhorar os sintomas relacionados à baixa testosterona com segurança.",
+      "presentation": "Forma: Comprimidos orais\nDosagem: 5 mg de Fluoximesterona por comprimido\nEmbalagem: Blister com 10 comprimidos\nTipo de Comprimido: Esteróide anabólico de grau farmacêutico\nCategoria de Uso: Suporte à testosterona, preservação muscular, aprimoramento de força\nAdequado Para: Pacientes com baixa testosterona, supervisão médica necessária\nArmazenamento: Armazene em local fresco e seco.\nFabricado Por: NovaTech Sciences.",
+      "precautions": "Use HALONOVA apenas sob supervisão médica.\nSiga a dosagem prescrita; evite automedicação.\nInforme seu médico sobre todos os medicamentos, suplementos ou esteroides.\nEvite álcool e substâncias recreativas para reduzir a sobrecarga hepática.\nMantenha fora do alcance de crianças; armazene em local fresco e seco.\nProcure atendimento médico se ocorrerem sintomas incomuns, como dificuldade para respirar, inchaço ou alterações de humor graves.\nNão exceda a dosagem recomendada para minimizar o risco de efeitos adversos.",
+      "contraindications": "Não use se for alérgico à Fluoximesterona ou a qualquer componente do HALONOVA.\nNão recomendado para indivíduos com distúrbios hepáticos, renais ou cardíacos.\nNão é adequado para mulheres grávidas ou amamentando.\nDescontinue e procure aconselhamento médico se aparecerem sintomas incomuns ou graves.\nUse apenas sob supervisão médica.",
+      "seo": {
+        "title": "Comprimido HALONOVA | CAS 76‑43‑7 – NovaTech Sciences",
+        "description": "O comprimido HALONOVA da NovaTech Sciences contém Fluoximesterona (CAS 76‑43‑7). Fabricante, fornecedor e exportador confiável de suporte anabólico de grau farmacêutico para força, desempenho e equilíbrio hormonal.",
+        "canonical": "https://www.novatechsciences.com/products/tablets/halonova"
+      },
+      "faq": [
+        {
+          "q": "Que resultados posso esperar dos comprimidos HALONOVA Fluoximesterona?",
+          "a": "HALONOVA pode ajudar a apoiar os níveis de testosterona, melhorar a força e preservar a massa muscular magra quando usado sob supervisão médica. Os resultados variam dependendo da dosagem, dieta e treino."
+        },
+        {
+          "q": "Quais são os possíveis efeitos colaterais da Fluoximesterona?",
+          "a": "A Fluoximesterona pode causar alterações de humor, pele oleosa, sobrecarga hepática ou alterações no colesterol. Monitoramento médico regular é recomendado para terapia de suporte à testosterona segura."
+        },
+        {
+          "q": "Posso usar HALONOVA durante um ciclo de esteroides?",
+          "a": "HALONOVA pode ser usado em ciclos terapêuticos supervisionados para aprimoramento da testosterona e preservação muscular. Consulte um profissional de saúde antes de combinar com outros esteroides anabólicos."
+        },
+        {
+          "q": "Quanto tempo leva para o HALONOVA mostrar efeitos?",
+          "a": "Os efeitos podem aparecer dentro de alguns dias a semanas, dependendo dos níveis hormonais e objetivos do tratamento. Uso consistente sob orientação médica garante benefícios anabólicos e de suporte à testosterona estáveis."
+        },
+        {
+          "q": "Posso beber álcool enquanto tomo HALONOVA?",
+          "a": "É recomendado evitar ou limitar o álcool enquanto toma HALONOVA, pois o álcool pode afetar a função hepática e o equilíbrio hormonal geral."
+        }
+      ]
+    },
+    "tab-nova-t3-50mcg": {
+      "id": "tab-nova-t3-50mcg",
+      "name": "NOVA_T3",
+      "imageKey": "NOVA_T3",
+      "cas": "55-06-1",
+      "shortDescription": "Comprimidos de alta qualidade de Liotironina T3 para suporte hormonal da tireoide, aprimoramento do metabolismo e melhoria de energia.",
+      "description": "NOVA_T3 (Liotironina Sódica T3 50 mcg), comprimidos de grau farmacêutico projetados para apoiar os níveis de hormônio da tireoide, melhorar o metabolismo, energia e equilíbrio hormonal geral. Ideal para terapia tireoidiana supervisionada medicamente e protocolos de suporte metabólico.",
+      "indication": "NOVA_T3 (Liotironina Sódica T3 50 mcg) é indicado para o tratamento de hipotireoidismo e outros desequilíbrios hormonais relacionados à tireoide. Apoia o metabolismo saudável, regulação de energia e função tireoidiana. Alguns atletas e fisiculturistas usam T3 sob supervisão para aprimoramento do metabolismo e perda de gordura durante ciclos de cutting.",
+      "presentation": "Forma: Comprimidos orais\nDosagem: 50 mcg de Liotironina Sódica T3 por comprimido\nEmbalagem: Blister com 10 comprimidos\nTipo de Comprimido: Comprimido de suporte à tireoide, grau farmacêutico\nCategoria de Uso: Suporte hormonal da tireoide, aprimoramento do metabolismo, suporte energético\nAdequado Para: Indivíduos com hipotireoidismo ou que necessitam de suporte metabólico supervisionado medicamente\nArmazenamento: Armazene em local fresco e seco, longe da luz solar.\nFabricado Por: NovaTech Sciences.",
+      "precautions": "Use NOVA_T3 apenas sob supervisão médica.\nComece com a dose efetiva mais baixa para prevenir superestimulação.\nMonitore frequência cardíaca, pressão arterial e função tireoidiana.\nEvite uso não supervisionado durante perda de gordura ou ciclos de esteroides.\nMantenha-se hidratado e mantenha equilíbrio eletrolítico.\nMantenha fora do alcance de crianças e armazene em local fresco e seco.",
+      "contraindications": "Não use NOVA_T3 se for alérgico à Liotironina Sódica ou medicamentos similares para tireoide.\nEvite se houver hipertireoidismo não tratado, distúrbios adrenais ou condições cardíacas graves.\nNão combine com estimulantes ou termogênicos fortes.\nEvite álcool ou substâncias recreativas que interfiram no metabolismo.\nProcure atendimento médico imediato para dor no peito, batimento cardíaco irregular, ansiedade extrema ou sintomas incomuns.",
+      "seo": {
+        "title": "Comprimido NOVA‑T3 | CAS 55‑06‑1 – NovaTech Sciences",
+        "description": "O comprimido NOVA‑T3 da NovaTech Sciences contém Liotironina Sódica (CAS 55‑06‑1). Fabricante, fornecedor e exportador confiável de suporte tireoidiano de grau farmacêutico para equilíbrio hormonal e saúde metabólica.",
+        "canonical": "https://www.novatechsciences.com/products/tablets/nova-t3"
+      },
+      "faq": [
+        {
+          "q": "O NOVA T3 ajuda na perda de gordura?",
+          "a": "Sim, o NOVA T3 pode ajudar a aumentar a queima de gordura, impulsionando a taxa metabólica e o gasto calórico. Eleva a atividade do hormônio da tireoide e suporta o uso de energia. Deve ser tomado apenas sob supervisão médica."
+        },
+        {
+          "q": "Quanto tempo leva para o NOVA T3 começar a funcionar?",
+          "a": "O NOVA T3 pode começar a melhorar o metabolismo, níveis de energia e sintomas da tireoide dentro de alguns dias. Os benefícios completos geralmente são vistos em 1–2 semanas. Dosagem consistente é essencial."
+        },
+        {
+          "q": "Atletas ou fisiculturistas podem usar NOVA T3?",
+          "a": "Alguns atletas usam NOVA T3 para aprimorar o metabolismo e perda de gordura durante ciclos de cutting. Uso não supervisionado pode ser arriscado. Monitoramento médico é fortemente recomendado."
+        },
+        {
+          "q": "Existem efeitos colaterais ao tomar NOVA T3?",
+          "a": "Possíveis efeitos colaterais incluem batimentos cardíacos acelerados, sudorese, intolerância ao calor, ansiedade e possível perda muscular se mal utilizado. Dosagem incorreta pode causar sintomas semelhantes ao hipertireoidismo."
+        },
+        {
+          "q": "Como devo armazenar os comprimidos NOVA T3?",
+          "a": "Armazene os comprimidos NOVA T3 em local fresco e seco, longe da luz solar direta e umidade. Mantenha o blister lacrado e fora do alcance de crianças para manter estabilidade e potência."
+        }
+      ]
+    },
+    "tab-novabol-10": {
+      "id": "tab-novabol-10",
+      "name": "NOVABOL",
+      "imageKey": "NOVABOL",
+      "cas": "53-39-4",
+      "shortDescription": "Comprimidos premium de Oxandrolona (Anavar) para massa muscular magra, força e suporte à perda de gordura.",
+      "description": "NOVABOL (Oxandrolona USP 10 mg), comprimidos de grau farmacêutico projetados para crescimento muscular magro, aprimoramento de força, suporte à perda de gordura e recuperação. Ideal para ciclos de cutting, fases com restrição calórica e programas anabólicos estruturados.",
+      "indication": "NOVABOL (Oxandrolona USP 10 mg) suporta recuperação muscular, crescimento muscular magro e desempenho de força aprimorado. Comumente usado em ambientes de fisiculturismo e fitness, promove síntese proteica, preserva músculos durante ciclos de cutting, melhora a dureza muscular e auxilia na manutenção do equilíbrio anabólico ideal. Adequado para atletas ou indivíduos em fases de restrição calórica ou perda de gordura.",
+      "presentation": "Forma: Comprimidos orais\nDosagem: 10 mg de Oxandrolona por comprimido\nEmbalagem: Frasco de 100 comprimidos\nTipo de Comprimido: Esteróide anabólico de grau farmacêutico\nCategoria de Uso: Suporte muscular magro, ciclos de cutting, aprimoramento de força, recuperação\nAdequado Para: Atletas, fisiculturistas e entusiastas de fitness\nArmazenamento: Armazene em local fresco e seco.\nFabricado Por: NovaTech Sciences.",
+      "precautions": "Use NOVABOL apenas sob supervisão médica.\nSiga a dosagem prescrita; evite automedicação.\nInforme seu médico sobre outros esteroides, suplementos ou medicamentos.\nEvite álcool ou substâncias que possam sobrecarregar o fígado.\nMantenha fora do alcance de crianças.\nProcure atendimento médico imediato para sintomas incomuns, como dores de cabeça intensas, inchaço, batimentos cardíacos acelerados ou alterações de humor.\nNão exceda a dosagem recomendada para prevenir desequilíbrio hormonal ou sobrecarga hepática.",
+      "contraindications": "Não use NOVABOL se for alérgico à Oxandrolona ou a qualquer componente do comprimido.\nEvite uso em indivíduos com distúrbios hepáticos, renais ou cardíacos, a menos que aprovado por um profissional de saúde.\nNão é adequado para mulheres grávidas ou amamentando.\nUse apenas sob orientação e supervisão profissional.",
+      "seo": {
+        "title": "Comprimido NOVABOL | CAS 53‑39‑4 – NovaTech Sciences",
+        "description": "O comprimido NOVABOL da NovaTech Sciences contém Oxandrolona USP (CAS 53‑39‑4). Fabricante, fornecedor e exportador confiável de suporte anabólico de grau farmacêutico para crescimento muscular, desempenho e equilíbrio hormonal.",
+        "canonical": "https://www.novatechsciences.com/products/tablets/novabol"
+      },
+      "faq": [
+        {
+          "q": "Quanto tempo leva para o NOVABOL mostrar resultados?",
+          "a": "Os usuários podem começar a notar força, energia e dureza muscular melhoradas dentro de 1–2 semanas. Os efeitos anabólicos da Oxandrolona aumentam com treino consistente e dieta adequada."
+        },
+        {
+          "q": "O NOVABOL é seguro para iniciantes?",
+          "a": "A Oxandrolona é considerada um esteroide anabólico mais suave e frequentemente usada por iniciantes. NOVABOL deve ser usado com responsabilidade sob supervisão médica, com duração adequada do ciclo e suporte de PCT."
+        },
+        {
+          "q": "Quais são os possíveis efeitos colaterais do NOVABOL?",
+          "a": "Possíveis efeitos colaterais incluem flutuações no colesterol, sobrecarga hepática, pele oleosa ou alterações de humor. Monitoramento médico de rotina e uso responsável ajudam a minimizar riscos relacionados à Oxandrolona."
+        },
+        {
+          "q": "O NOVABOL pode ajudar com cutting e perda de gordura?",
+          "a": "Sim, NOVABOL é amplamente usado em ciclos de cutting. Preserva massa muscular magra enquanto promove redução de gordura, melhora a dureza e definição muscular e recuperação quando combinado com dieta controlada em calorias e treino."
+        },
+        {
+          "q": "Posso empilhar NOVABOL com outros esteroides?",
+          "a": "Muitos usuários empilham NOVABOL com testosterona, Winstrol ou Primobolan para resultados de cutting aprimorados. O empilhamento de esteroides deve ser feito apenas com orientação profissional e PCT adequada para manter segurança e equilíbrio hormonal."
+        }
+      ]
+    },
+    "tab-provinova-25": {
+      "id": "tab-provinova-25",
+      "name": "PROVINOVA",
+      "imageKey": "PROVINOVA",
+      "cas": "1424-00-6",
+      "shortDescription": "Comprimidos premium de Mesterolona (Proviron) para suporte à testosterona, equilíbrio androgênico e definição muscular.",
+      "description": "PROVINOVA (Mesterolona USP 25 mg), comprimidos de grau farmacêutico projetados para apoiar o equilíbrio androgênico, manutenção da testosterona, dureza muscular e benefícios antiestrogênicos. Ideal para ciclos de cutting, terapia hormonal e aprimoramento físico sob supervisão médica.",
+      "indication": "PROVINOVA (Mesterolona USP 25 mg) é indicado para deficiência androgênica, suporte à testosterona e melhoria do equilíbrio hormonal. Amplamente usado por atletas e fisiculturistas durante ciclos de cutting devido às suas propriedades não aromatizantes, ajuda a manter um físico magro e definido sem retenção de líquidos. Sempre use sob supervisão médica.",
+      "presentation": "Forma: Comprimidos orais\nDosagem: 25 mg de Mesterolona por comprimido\nEmbalagem: Caixa de 10 comprimidos\nTipo de Comprimido: Esteróide androgênico de grau farmacêutico\nCategoria de Uso: Suporte à testosterona, terapia androgênica, definição muscular\nAdequado Para: Terapia hormonal, ciclos de cutting, preparação atlética\nArmazenamento: Armazene em local fresco e seco.\nFabricado Por: NovaTech Sciences.",
+      "precautions": "Use PROVINOVA apenas sob orientação médica.\nSiga a dosagem prescrita e evite automedicação.\nInforme seu médico sobre outros esteroides, suplementos ou medicamentos.\nMantenha fora do alcance de crianças.\nEvite álcool e substâncias recreativas.\nProcure ajuda médica imediata para alterações de humor, inchaço ou problemas respiratórios.\nNão exceda a dosagem recomendada para prevenir efeitos colaterais.",
+      "contraindications": "Não use PROVINOVA se for alérgico à Mesterolona ou a qualquer componente.\nEvite em indivíduos com câncer de próstata, câncer de mama masculino ou problemas hepáticos graves.\nNão é adequado para mulheres, especialmente grávidas ou amamentando.\nEvite em usuários com doença renal grave, hipertensão não controlada ou complicações cardíacas.\nNão destinado a usuários menores de 18 anos ou usuários de esteroides anabólicos não supervisionados.",
+      "seo": {
+        "title": "Comprimido PROVINOVA | CAS 1424‑00‑6 – NovaTech Sciences",
+        "description": "O comprimido PROVINOVA da NovaTech Sciences contém Mesterolona USP (CAS 1424‑00‑6). Fabricante, fornecedor e exportador confiável de suporte androgênico de grau farmacêutico para equilíbrio hormonal, manutenção muscular e desempenho.",
+        "canonical": "https://www.novatechsciences.com/products/tablets/provinova"
+      },
+      "faq": [
+        {
+          "q": "Para que a Mesterolona é usada no fisiculturismo?",
+          "a": "A Mesterolona (Proviron) é usada para suporte androgênico, dureza muscular e efeitos antiestrogênicos. Aprimora a qualidade física durante fases de cutting e deve ser usada com responsabilidade sob supervisão médica."
+        },
+        {
+          "q": "O Provinova ajuda a aumentar os níveis de testosterona?",
+          "a": "Provinova pode apoiar a atividade androgênica e melhorar sintomas de baixa testosterona, como libido reduzida e fadiga. Não aumenta diretamente a produção natural de testosterona e deve ser usado sob orientação médica."
+        },
+        {
+          "q": "Por quanto tempo a Mesterolona permanece no corpo?",
+          "a": "A Mesterolona tem uma meia-vida relativamente curta e é eliminada mais rápido que a maioria dos esteroides anabólicos. A duração depende do metabolismo e da dosagem. Dosagem adequada e supervisão médica são recomendadas."
+        },
+        {
+          "q": "Existem efeitos colaterais ao tomar comprimidos de Mesterolona?",
+          "a": "Possíveis efeitos colaterais incluem acne, pele oleosa, aumento de pelos corporais, alterações de humor ou flutuações na libido. Os usuários devem consultar profissionais de saúde antes de iniciar o esteroide."
+        },
+        {
+          "q": "Posso usar Provinova durante um ciclo de esteroides?",
+          "a": "Provinova é usado durante ciclos de cutting para benefícios androgênicos e antiestrogênicos, ajudando a melhorar a definição muscular sem retenção de líquidos. Ciclos de esteroides requerem supervisão profissional para evitar riscos à saúde."
+        }
+      ]
+    },
+    "tab-oxydrol-50": {
+      "id": "tab-oxydrol-50",
+      "name": "OXYDROL",
+      "imageKey": "OXYDROL",
+      "cas": "0434-07-01",
+      "shortDescription": "Comprimidos premium de Oximetolona (Anadrol) para ganhos musculares rápidos, força e aprimoramento de desempenho.",
+      "description": "OXYDROL (Oximetolona USP 50 mg), comprimidos de esteroide anabólico de grau farmacêutico projetados para crescimento muscular rápido, aprimoramento de força e recuperação. Ideal para tratamento terapêutico de desgaste muscular, ciclos de cutting e programas de desempenho estruturados sob supervisão médica.",
+      "indication": "OXYDROL (Oximetolona USP 50 mg) suporta crescimento muscular, força aprimorada e recuperação mais rápida. Amplamente usado em fisiculturismo, atletismo e ambientes terapêuticos para indivíduos com condições de desgaste muscular, perda de peso grave ou aqueles que visam ganho de massa magra rápida. Sempre use sob supervisão médica.",
+      "presentation": "Forma: Comprimidos orais\nDosagem: 50 mg de Oximetolona por comprimido\nEmbalagem: Frasco de 100 comprimidos\nTipo de Comprimido: Esteróide anabólico de grau farmacêutico\nCategoria de Uso: Crescimento muscular, força, recuperação, bulking\nAdequado Para: Atletas, fisiculturistas, suporte muscular terapêutico\nArmazenamento: Armazene em local fresco e seco.\nFabricado Por: NovaTech Sciences.",
+      "precautions": "Use OXYDROL apenas sob supervisão profissional.\nSiga a dosagem prescrita; evite automedicação.\nInforme seu médico sobre outros esteroides, suplementos ou medicamentos.\nMonitore a função hepática devido ao potencial hepatotóxico da Oximetolona.\nEvite álcool e substâncias que possam sobrecarregar o fígado.\nMantenha fora do alcance de crianças.\nProcure atendimento médico imediato para dores de cabeça intensas, inchaço ou dor abdominal.\nNão exceda a dosagem recomendada para prevenir efeitos colaterais.",
+      "contraindications": "Não use OXYDROL se for alérgico à Oximetolona ou a qualquer ingrediente.\nEvite uso em indivíduos com distúrbios hepáticos, renais ou cardíacos.\nNão é adequado para mulheres, especialmente grávidas ou amamentando.\nNão destinado a usuários menores de 18 anos.\nEvite uso em pacientes com aumento da próstata ou câncer de mama masculino.",
+      "seo": {
+        "title": "Comprimido OXYDROL | CAS 434‑07‑1 – NovaTech Sciences",
+        "description": "O comprimido OXYDROL da NovaTech Sciences contém Oximetolona USP (CAS 434‑07‑1). Fabricante, fornecedor e exportador confiável de suporte anabólico de grau farmacêutico para desempenho, crescimento muscular e equilíbrio hormonal.",
+        "canonical": "https://www.novatechsciences.com/products/tablets/oxydrol"
+      },
+      "faq": [
+        {
+          "q": "Que resultados posso esperar ao usar Oxydrol?",
+          "a": "Os usuários normalmente experimentam ganhos de força perceptíveis, melhoria na plenitude muscular e desempenho de treino aprimorado em um curto período. Oxydrol suporta aumentos rápidos de tamanho e força sob orientação profissional."
+        },
+        {
+          "q": "Quanto tempo leva para o Oxydrol mostrar resultados?",
+          "a": "Muitos usuários começam a ver melhorias na força e energia dentro de 1–2 semanas. O crescimento muscular visível aparece progressivamente durante o ciclo completo. Consistência na dosagem, nutrição e treino afeta a rapidez com que os resultados se desenvolvem."
+        },
+        {
+          "q": "Oxydrol é seguro para iniciantes?",
+          "a": "Oxydrol é geralmente recomendado para atletas experientes devido aos seus fortes efeitos anabólicos. Iniciantes podem achá-lo muito intenso e devem usar suplementos mais suaves ou buscar orientação profissional."
+        },
+        {
+          "q": "Posso empilhar Oxydrol com outros suplementos?",
+          "a": "Sim, Oxydrol pode ser empilhado com certos suplementos de desempenho ou recuperação, mas empilhar com outros compostos anabólicos deve ser feito apenas sob supervisão especializada para aprimorar ganhos enquanto minimiza riscos."
+        },
+        {
+          "q": "Existem efeitos colaterais do Oxydrol?",
+          "a": "Possíveis efeitos colaterais incluem aumento da pressão arterial, retenção de líquidos, alterações no apetite ou desequilíbrio hormonal se mal utilizado. Dosagem correta e gerenciamento do ciclo reduzem riscos potenciais."
+        }
+      ]
+    },
+    "tab-novamoren-10": {
+      "id": "tab-novamoren-10",
+      "name": "NOVAMOREN",
+      "imageKey": "NOVAMOREN",
+      "cas": "159752-10-0",
+      "shortDescription": "Comprimidos premium de MK-677 para apoiar a liberação do hormônio do crescimento, crescimento muscular magro e desempenho geral.",
+      "description": "NOVAMOREN (MK-677), comprimidos secretagogos de GH de grau farmacêutico projetados para aumentar naturalmente a secreção do hormônio do crescimento (GH), apoiar a recuperação muscular, melhorar o crescimento muscular magro e melhorar o desempenho e vitalidade geral.",
+      "indication": "NOVAMOREN (MK-677) ajuda indivíduos a manter níveis mais altos de GH e IGF-1, apoiando recuperação muscular, perda de gordura, qualidade do sono, apetite e desempenho aprimorado. Comumente usado em fisiculturismo, desempenho atlético e protocolos de bem-estar, fornece benefícios semelhantes a esteroides sem suprimir hormônios endógenos.",
+      "presentation": "Forma: Comprimidos orais\nDosagem: 10 mg de MK-677 por comprimido\nEmbalagem: Frasco de 30 comprimidos\nTipo de Comprimido: Secretagogo de GH / suplemento de desempenho\nCategoria de Uso: Aumento de GH, recuperação muscular, suporte ao bem-estar\nAdequado Para: Adultos que buscam níveis melhorados de hormônio do crescimento, crescimento muscular magro e suporte à recuperação\nArmazenamento: Armazene em local fresco e seco, longe da luz solar.\nFabricado Por: NovaTech Sciences.",
+      "precautions": "Use NOVAMOREN apenas sob orientação profissional.\nSiga a dosagem recomendada estritamente; evite automedicação.\nInforme seu médico sobre outros suplementos, medicamentos ou compostos de desempenho.\nMonitore para quaisquer reações incomuns e descontinue se ocorrerem efeitos adversos.\nMantenha fora do alcance de crianças e armazene em local fresco e seco.\nEvite álcool ou substâncias que possam interferir na atividade do GH.\nConsulte um profissional de saúde se tiver condições médicas subjacentes.",
+      "contraindications": "Não use NOVAMOREN se for alérgico a qualquer ingrediente ativo ou inativo.\nNão recomendado para mulheres grávidas ou amamentando, a menos que aprovado por um médico.\nIndivíduos com diabetes, distúrbios hormonais ou problemas cardiovasculares devem consultar um profissional de saúde antes do uso.\nDestinado apenas para adultos saudáveis; evite uso não supervisionado.",
+      "seo": {
+        "title": "Comprimido NOVAMOREN | CAS 159752‑10‑0 – NovaTech Sciences",
+        "description": "O comprimido NOVAMOREN da NovaTech Sciences contém MK‑677 (CAS 159752‑10‑0). Fabricante, fornecedor e exportador confiável de suporte ao crescimento de grau farmacêutico para ganho muscular, desempenho e equilíbrio hormonal.",
+        "canonical": "https://www.novatechsciences.com/products/tablets/novamoren"
+      },
+      "faq": [
+        {
+          "q": "Quanto tempo leva para o NOVAMOREN fazer efeito?",
+          "a": "Os efeitos dos comprimidos NOVAMOREN variam dependendo da saúde individual, rotina e consistência. Muitos usuários notam benefícios após várias semanas de uso regular. Ingestão diária contínua é recomendada para melhores resultados."
+        },
+        {
+          "q": "Existem efeitos colaterais dos comprimidos NOVAMOREN?",
+          "a": "A maioria dos usuários tolera NOVAMOREN bem, mas efeitos colaterais leves, como desconforto estomacal ou dores de cabeça, podem ocorrer. Descontinue o uso e consulte um médico se desenvolver reações incomuns ou graves."
+        },
+        {
+          "q": "Posso tomar NOVAMOREN com outros suplementos ou medicamentos?",
+          "a": "Consulte seu profissional de saúde antes de combinar NOVAMOREN com outros suplementos ou medicamentos para garantir segurança e evitar interações indesejadas."
+        },
+        {
+          "q": "Quem não deve usar NOVAMOREN?",
+          "a": "NOVAMOREN é destinado a adultos saudáveis. Indivíduos com condições médicas, mulheres grávidas ou amamentando, usuários de medicamentos de longo prazo ou aqueles com alergias conhecidas devem evitá-lo, a menos que aprovado por um profissional de saúde."
+        },
+        {
+          "q": "Como devo armazenar os comprimidos NOVAMOREN?",
+          "a": "Armazene os comprimidos NOVAMOREN em local fresco e seco, longe da luz solar direta e umidade. Mantenha o frasco bem fechado e fora do alcance de crianças para manter qualidade e eficácia."
+        }
+      ]
+    },
+    "tab-novameth-10": {
+      "id": "tab-novameth-10",
+      "name": "NOVAMETH",
+      "imageKey": "NOVAMETH",
+      "cas": "72-63-9",
+      "shortDescription": "Comprimidos de Metandienona de alta potência para ganho muscular rápido, força e aprimoramento de desempenho.",
+      "description": "NOVAMETH (Metandienona 10 mg) é um esteroide anabólico de alta potência usado para apoiar ganho rápido de massa muscular, melhoria de força e desempenho de treino aprimorado. Ideal para usuários avançados que buscam desenvolvimento físico acelerado sob supervisão profissional.",
+      "indication": "NOVAMETH (Metandienona 10 mg) é amplamente usado para ciclos de bulking, síntese proteica rápida, retenção de nitrogênio aprimorada e recuperação muscular melhorada. Apoia o desempenho durante fases de treino intenso, aumenta a energia e promove o desenvolvimento de massa magra. Sempre use sob supervisão profissional.",
+      "presentation": "Forma: Comprimidos orais\nDosagem: 10 mg de Metandienona por comprimido\nTamanho da Embalagem: 50 comprimidos por caixa\nEmbalagem: Segura e à prova de violação\nUso: Bulking, ciclos de força e suporte ao crescimento muscular\nAdequado Para: Atletas e fisiculturistas que buscam ganhos rápidos e aprimoramento de desempenho\nArmazenamento: Armazene em local fresco e seco, longe da luz solar.",
+      "precautions": "Use apenas sob orientação profissional.\nNão exceda a dose recomendada.\nEvite álcool e substâncias hepatotóxicas.\nConsulte seu médico se estiver tomando outros medicamentos ou suplementos.\nMantenha fora do alcance de crianças.\nRelate sintomas incomuns imediatamente.",
+      "contraindications": "Não use se for alérgico à Metandienona ou ingredientes do comprimido.\nNão recomendado para mulheres, especialmente grávidas ou amamentando.\nEvite se tiver condições hepáticas, renais ou cardíacas.\nNão para uso por indivíduos menores de 18 anos.\nUse apenas sob supervisão médica.",
+      "seo": {
+        "title": "Comprimido NOVAMETH | CAS 72‑63‑9 – NovaTech Sciences",
+        "description": "O comprimido NOVAMETH da NovaTech Sciences contém Metandienona (CAS 72‑63‑9). Fabricante, fornecedor e exportador confiável de suporte anabólico de grau farmacêutico para força, desempenho e crescimento muscular.",
+        "canonical": "https://www.novatechsciences.com/products/tablets/novameth"
+      },
+      "faq": [
+        {
+          "q": "Quais são os efeitos colaterais comuns do NOVAMETH?",
+          "a": "Efeitos colaterais comuns incluem retenção de líquidos, aumento do apetite, oscilações de humor e níveis elevados de enzimas hepáticas. Use com responsabilidade sob supervisão e evite álcool ou substâncias hepatotóxicas."
+        },
+        {
+          "q": "Iniciantes podem usar NOVAMETH com segurança?",
+          "a": "NOVAMETH não é recomendado para iniciantes sem supervisão profissional. Comece com doses mínimas e monitore a resposta do corpo. Orientação profissional reduz o risco de desequilíbrio hormonal e efeitos adversos."
+        },
+        {
+          "q": "Posso empilhar NOVAMETH com outros esteroides?",
+          "a": "Sim, NOVAMETH pode ser empilhado com testosterona ou outros esteroides anabólicos para resultados melhorados. Planejamento adequado do ciclo e monitoramento são essenciais para minimizar riscos de efeitos colaterais."
+        },
+        {
+          "q": "NOVAMETH é seguro para mulheres grávidas ou amamentando?",
+          "a": "Não. NOVAMETH (Metandienona) não deve ser usado por mulheres grávidas ou amamentando devido a riscos hormonais e de desenvolvimento."
+        },
+        {
+          "q": "O que é NOVAMETH?",
+          "a": "NOVAMETH contém Metandienona 10 mg, um esteroide anabólico potente para ganho muscular rápido, melhoria de força e desempenho de treino aprimorado. Uso responsável sob supervisão médica é recomendado."
+        }
+      ]
+    },
+    "tab-spiroclen-40mcg": {
+      "id": "tab-spiroclen-40mcg",
+      "name": "SPIROCLEN",
+      "imageKey": "SPIROCLEN",
+      "cas": "21898-19-1",
+      "shortDescription": "Comprimidos de Clenbuterol 40 mcg para perda de gordura, termogênese e aprimoramento de desempenho em ciclos de cutting.",
+      "description": "SPIROCLEN (Clenbuterol 40 mcg) é um comprimido termogênico e anabólico de alta pureza usado para perda de gordura, definição muscular e aprimoramento de desempenho. Popular em ciclos de cutting, suporta preservação muscular magra, termogênese aprimorada e eficiência respiratória melhorada.",
+      "indication": "SPIROCLEN (Clenbuterol 40 mcg) é indicado para broncodilatação e suporte terapêutico. Também é amplamente usado em ciclos de cutting para perda de gordura, preservação muscular magra e metabolismo aprimorado. Atletas e fisiculturistas usam SPIROCLEN para melhorar termogênese, resistência e desempenho geral.",
+      "presentation": "Forma: Comprimido oral\nDosagem: 40 mcg de Cloridrato de Clenbuterol por comprimido\nTamanho da Embalagem: 10 comprimidos por pacote\nEmbalagem: Compacta, segura e grau farmacêutico\nUso: Ciclos de cutting, perda de gordura, aprimoramento metabólico e preservação muscular\nArmazenamento: Armazene em local fresco e seco, longe da luz solar.",
+      "precautions": "Use apenas sob orientação médica.\nNão exceda a dosagem recomendada.\nEvite álcool e substâncias estimulantes.\nConsulte seu médico se estiver tomando outros medicamentos ou suplementos.\nMantenha fora do alcance de crianças.\nDescontinue e procure ajuda médica se ocorrerem sintomas cardiovasculares ou respiratórios incomuns.",
+      "contraindications": "Não use se for alérgico ao Clenbuterol ou ingredientes do comprimido.\nNão recomendado para indivíduos com condições cardíacas, arritmia, hipertensão, hipertireoidismo ou distúrbios hepáticos/renais graves.\nEvite durante gravidez ou amamentação.\nNão combine com outros estimulantes ou termogênicos sem supervisão.",
+      "seo": {
+        "title": "Comprimido SPIROCLEN | CAS 21898‑19‑1 – NovaTech Sciences",
+        "description": "O comprimido SPIROCLEN da NovaTech Sciences contém Clenbuterol (CAS 21898‑19‑1). Fabricante, fornecedor e exportador confiável de suporte de desempenho de grau farmacêutico para perda de gordura, resistência e aumento metabólico.",
+        "canonical": "https://www.novatechsciences.com/products/tablets/spiroclen"
+      },
+      "faq": [
+        {
+          "q": "Quão rápido o SPIROCLEN começa a funcionar?",
+          "a": "SPIROCLEN (Clenbuterol 40 mcg) normalmente começa a funcionar dentro de 30–60 minutos, melhorando o fluxo de ar e termogênese. Os usuários podem notar respiração e energia melhoradas no início, com efeitos de queima de gordura aparecendo em 1–2 semanas quando combinados com dieta e exercício."
+        },
+        {
+          "q": "O SPIROCLEN pode ajudar com a definição muscular durante ciclos de cutting?",
+          "a": "Sim, SPIROCLEN é usado durante ciclos de cutting para apoiar perda de gordura enquanto preserva músculos magros. Seu efeito termogênico ajuda a melhorar a definição muscular e físico geral, com melhores resultados alcançados junto com treino de resistência e dieta controlada em calorias."
+        },
+        {
+          "q": "SPIROCLEN é adequado para iniciantes?",
+          "a": "SPIROCLEN deve ser usado com cautela por iniciantes devido ao seu efeito estimulante. Novos usuários devem começar com a dose efetiva mais baixa, monitorar a resposta do corpo e seguir orientação médica para evitar superestimulação ou frequência cardíaca elevada."
+        },
+        {
+          "q": "Posso treinar após tomar SPIROCLEN?",
+          "a": "Muitos atletas tomam SPIROCLEN antes dos treinos para aprimorar resistência, respiração e intensidade do treino. Os usuários devem evitar excesso de treino, monitorar frequência cardíaca e manter-se hidratados durante o exercício."
+        },
+        {
+          "q": "Perderei peso sem me exercitar enquanto uso SPIROCLEN?",
+          "a": "SPIROCLEN aumenta o metabolismo e pode apoiar queima de gordura mesmo em repouso, mas os resultados são melhores com treino e nutrição adequados. Sem exercício, os efeitos de perda de peso são moderados e melhorias gerais de fitness são limitadas."
+        }
+      ]
+    },
+    "tab-stanova-10": {
+      "id": "tab-stanova-10",
+      "name": "STANOVA 10",
+      "imageKey": "STANOVA 10",
+      "cas": "10418-03-08",
+      "shortDescription": "Comprimidos de Estanozolol 10 mg para força magra, cutting e suporte de desempenho controlado.",
+      "description": "STANOVA 10 (Estanozolol 10 mg) é um esteroide anabólico de grau farmacêutico usado para ciclos de cutting, preservação muscular magra, melhoria de força e aprimoramento físico. Conhecido por produzir ganhos musculares secos e duros e vascularidade aprimorada, é comumente usado sob supervisão médica.",
+      "indication": "STANOVA 10 é indicado para indivíduos que buscam força muscular aprimorada, retenção muscular magra e desempenho físico melhorado. Também usado em terapia médica controlada para reparo tecidual, recuperação anabólica e suporte à síntese proteica sob orientação médica.",
+      "presentation": "Forma: Comprimido oral\nDosagem: 10 mg de Estanozolol USP por comprimido\nTamanho da Embalagem: 50 comprimidos por frasco\nEmbalagem: Segura, à prova de violação, grau farmacêutico\nUso: Ciclos de cutting, manutenção muscular magra, aprimoramento de desempenho e terapia anabólica supervisionada\nArmazenamento: Armazene em local fresco e seco, longe da luz solar.",
+      "precautions": "Use apenas sob orientação médica.\nNão exceda a dosagem recomendada ou duração do ciclo.\nEvite álcool ou substâncias que sobrecarreguem o fígado.\nConsulte seu médico se estiver tomando outros medicamentos ou suplementos.\nMantenha fora do alcance de crianças.\nDescontinue e procure ajuda médica se ocorrerem sintomas incomuns.",
+      "contraindications": "Não use se for alérgico ao Estanozolol ou ingredientes do comprimido.\nNão recomendado para indivíduos com problemas hepáticos, renais ou cardíacos.\nEvite durante gravidez ou amamentação.\nUse apenas sob supervisão médica para menores ou ciclos medicamente prescritos.",
+      "seo": {
+        "title": "Comprimidos Stanova (Estanozolol 10mg) | Nova Techsciences",
+        "description": "O comprimido STANOVA‑10 da NovaTech Sciences contém Estanozolol (CAS 10418‑03‑8). Fabricante, fornecedor e exportador confiável de suporte anabólico de grau farmacêutico para força, desempenho e crescimento muscular.",
+        "canonical": "https://www.novatechsciences.com/products/tablets/stanova-10"
+      },
+      "faq": [
+        {
+          "q": "Iniciantes podem usar STANOVA 10?",
+          "a": "Iniciantes devem usar STANOVA 10 apenas sob supervisão médica, pois o Estanozolol é um esteroide anabólico potente. É comumente usado para cutting, manutenção muscular magra e aprimoramento de desempenho. Começar com uma dose baixa é importante para segurança e resultados eficazes."
+        },
+        {
+          "q": "Posso combinar STANOVA 10 com outros esteroides?",
+          "a": "STANOVA 10 pode ser empilhado com outros esteroides anabólicos como testosterona, mas apenas sob supervisão especializada. Combinações incorretas podem aumentar o risco de efeitos colaterais, portanto, planejamento profissional do ciclo e orientação de dosagem são essenciais."
+        },
+        {
+          "q": "Preciso de PCT após usar STANOVA 10?",
+          "a": "Sim. A Terapia Pós-Ciclo (PCT) é recomendada após usar STANOVA 10 para restaurar os níveis hormonais naturais. Opções comuns de PCT incluem SERMs como Clomid ou Nolvadex, ajudando a prevenir desequilíbrio hormonal e manter os resultados do ciclo."
+        },
+        {
+          "q": "Posso tomar este medicamento com alimentos?",
+          "a": "Sim, STANOVA 10 pode ser tomado com ou sem alimentos. Tomá-lo com uma pequena refeição pode reduzir o desconforto estomacal. Evite refeições ricas em gordura, pois podem retardar a absorção do Estanozolol."
+        },
+        {
+          "q": "Este medicamento é seguro para mulheres grávidas ou amamentando?",
+          "a": "Não. STANOVA 10 não é seguro para mulheres grávidas ou amamentando. O Estanozolol é um esteroide anabólico forte que pode prejudicar o desenvolvimento fetal e pode passar para o leite materno. Nunca deve ser usado, a menos que estritamente prescrito por um especialista."
+        }
+      ]
+    },
+    "tab-clominova-50mg": {
+      "id": "tab-clominova-50mg",
+      "name": "CLOMINOVA",
+      "imageKey": "CLOMINOVA",
+      "cas": "50-41-9",
+      "shortDescription": "Comprimidos de Citrato de Clomifeno 50 mg para terapia pós-ciclo, recuperação de testosterona e equilíbrio hormonal.",
+      "description": "CLOMINOVA (Citrato de Clomifeno 50 mg) é um comprimido de grau farmacêutico usado para indução da ovulação, terapia pós-ciclo (PCT) e recuperação hormonal. Popular entre fisiculturistas e atletas, ajuda a restaurar os níveis naturais de testosterona e apoia a função endócrina após uso de esteroides anabólicos.",
+      "indication": "CLOMINOVA é indicado para Terapia Pós-Ciclo (PCT) para apoiar a recuperação natural da testosterona, manter ganhos musculares e regular níveis hormonais após ciclos de esteroides anabólicos. É amplamente usado por atletas e fisiculturistas para reduzir efeitos colaterais associados à abstinência de esteroides e melhorar o equilíbrio hormonal geral.",
+      "presentation": "Forma: Comprimido oral\nDosagem: 50 mg de Citrato de Clomifeno por comprimido\nTamanho da Embalagem: 10 comprimidos por caixa\nEmbalagem: Segura, à prova de violação, embalagem de grau farmacêutico\nUso: PCT, recuperação de testosterona, suporte endócrino, equilíbrio hormonal pós-ciclo de esteroides\nArmazenamento: Armazene em local fresco e seco, longe da luz solar.",
+      "precautions": "Use apenas sob supervisão médica.\nSiga a dosagem prescrita e duração do ciclo.\nEvite automedicação.\nConsulte seu médico se estiver tomando outros medicamentos, medicamentos para fertilidade ou esteroides.\nMantenha fora do alcance de crianças.\nDescontinue e procure atendimento médico se ocorrerem alterações na visão, oscilações de humor graves ou dor pélvica.",
+      "contraindications": "Não use se for alérgico ao Citrato de Clomifeno ou ingredientes inativos.\nNão recomendado para indivíduos com doença hepática, cistos ovarianos (exceto SOP), sangramento uterino anormal ou distúrbios tireoidianos/adrenais não controlados.\nEvite álcool e suplementos hormonais que possam interferir na terapia.\nMulheres grávidas ou indivíduos com câncer dependente de hormônios não devem usar CLOMINOVA.",
+      "seo": {
+        "title": "Comprimido CLOMINOVA | CAS 50‑41‑9 – NovaTech Sciences",
+        "description": "O comprimido CLOMINOVA da NovaTech Sciences contém Clomifeno (CAS 50‑41‑9). Fabricante, fornecedor e exportador confiável de suporte hormonal de grau farmacêutico para fertilidade, modulação de estrogênio e bem-estar reprodutivo.",
+        "canonical": "https://www.novatechsciences.com/products/tablets/clominova"
+      },
+      "faq": [
+        {
+          "q": "Por quanto tempo devo tomar CLOMINOVA para obter os melhores resultados?",
+          "a": "A maioria dos ciclos de CLOMINOVA dura cerca de 5 dias, mas a duração pode variar dependendo da resposta ovulatória ou necessidades de PCT. Apenas siga as instruções de um médico, pois estender o ciclo por conta própria pode reduzir a eficácia e aumentar os efeitos colaterais."
+        },
+        {
+          "q": "O CLOMINOVA pode ajudar com períodos irregulares?",
+          "a": "Sim, o CLOMINOVA ajuda a estimular a ovulação em mulheres com ciclos menstruais irregulares causados por desequilíbrio hormonal. Pode melhorar o potencial de fertilidade, mas deve ser tomado apenas sob supervisão médica."
+        },
+        {
+          "q": "O CLOMINOVA aumenta as chances de gêmeos?",
+          "a": "O CLOMINOVA pode aumentar a chance de liberar múltiplos óvulos, elevando ligeiramente a probabilidade de gêmeos. Esse efeito é comum em terapias de indução da ovulação. Discuta os riscos com seu médico antes do uso."
+        },
+        {
+          "q": "Posso tomar CLOMINOVA com outros suplementos para fertilidade?",
+          "a": "CLOMINOVA pode ser combinado com vitaminas ou suplementos para fertilidade apenas com aprovação médica. Evite misturá-lo com outros tratamentos hormonais, a menos que supervisionado medicamente, para prevenir complicações."
+        },
+        {
+          "q": "Como o CLOMINOVA funciona no corpo?",
+          "a": "O CLOMINOVA funciona bloqueando receptores de estrogênio, incentivando o corpo a produzir mais LH e FSH — hormônios essenciais para a ovulação. Na PCT, isso ajuda a reiniciar a produção natural de testosterona após o uso de esteroides."
+        }
+      ]
+    },
+    "inj-testova-p-100mgml": {
+      "id": "inj-testova-p-100mgml",
+      "name": "TESTOVA P",
+      "imageKey": "TESTOVA P",
+      "category": "Injectáveis",
+      "cas": "57-85-2",
+      "description": "TESTOVA P (Propionato de Testosterona 100 mg/ml) é um esteroide de testosterona injetável de ação rápida usado para terapia de reposição hormonal (TRH). Apoia níveis saudáveis de testosterona, força, libido e equilíbrio hormonal geral sob supervisão profissional.",
+      "indication": "TESTOVA P é indicado para terapia de reposição hormonal em homens adultos que necessitam de elevação rápida de testosterona devido à baixa testosterona, fadiga ou desequilíbrio hormonal. É preferido em ambientes clínicos para terapia de testosterona de ação rápida sob orientação profissional.",
+      "presentation": "Forma: Ampola injetável\nDosagem: 100 mg/ml de Propionato de Testosterona\nTamanho da Embalagem: 1 ml por ampola\nUso: Injeção intramuscular (IM) apenas\nEmbalagem: Ampola de dose única estéril, grau farmacêutico\nArmazenamento: Armazene em local fresco e seco, longe da luz solar.\nAdministração: Injeção IM sob supervisão médica.",
+      "shortDescription": "Propionato de Testosterona 100 mg/ml injetável para TRH.",
+      "precautions": "Use apenas sob supervisão médica.\nSiga a dosagem prescrita e cronograma de injeção.\nNão se autoinjetar sem orientação.\nInforme seu médico sobre condições pré-existentes, medicamentos ou uso de esteroides.\nMonitore reações incomuns, como inchaço, alterações de humor ou dor no peito.\nMantenha fora do alcance de crianças.",
+      "contraindications": "Não use se for alérgico à testosterona ou a qualquer ingrediente da ampola.\nNão recomendado para câncer de próstata, câncer de mama masculino, doença cardíaca, hepática ou renal grave.\nMulheres grávidas ou amamentando não devem usar.\nEvite em apneia do sono não tratada ou distúrbios endócrinos graves.\nProcure ajuda médica imediata para sintomas graves durante o uso.",
+      "images": [],
+      "seoTitle": "Injetável TESTOVA‑P | CAS 57‑85‑2 – NovaTech Sciences",
+      "seoDescription": "O injetável TESTOVA‑P da NovaTech Sciences contém Propionato de Testosterona (CAS 57‑85‑2). Fabricante, fornecedor e exportador confiável de suporte à testosterona de grau farmacêutico para desempenho, crescimento muscular e equilíbrio hormonal.",
+      "seoKeywords": "TESTOVA P, Propionato de Testosterona 100 mg/ml, Testosterona injetável, Comprar propionato de testosterona, Injeção de TRH, Injeção de crescimento muscular, Testosterona grau farmacêutico",
+      "seoRobots": "index, follow",
+      "seoCanonical": "https://www.novatechsciences.com/products/injectables/testova-p",
+      "schemaBrand": "NovaTech Sciences",
+      "schemaCategory": "Esteroides Anabólicos Injetáveis",
+      "schemaType": "Produto",
+      "faq": [
+        {
+          "question": "O que é TESTOVA P?",
+          "answer": "TESTOVA P é um esteroide injetável de grau farmacêutico de Propionato de Testosterona 100 mg/ml usado em terapia de reposição hormonal (TRH). Conhecido por efeitos de ação rápida, ajuda a restaurar os níveis de testosterona sob supervisão profissional."
+        },
+        {
+          "question": "Como devo usar este medicamento?",
+          "answer": "TESTOVA P deve ser administrado apenas como uma injeção intramuscular por um profissional médico qualificado. A dosagem é tipicamente a cada 2–3 dias, dependendo das necessidades médicas. Nunca se autoinjete sem orientação."
+        },
+        {
+          "question": "Posso tomar este medicamento com alimentos?",
+          "answer": "Alimentos não afetam TESTOVA P, pois é um esteroide injetável. Uma dieta equilibrada pode apoiar os resultados gerais da terapia hormonal. Sempre siga as instruções do seu médico."
+        },
+        {
+          "question": "O que devo fazer se eu perder uma dose?",
+          "answer": "Se você perder sua injeção programada, entre em contato com seu profissional de saúde imediatamente. Não dobre a dose ou se injete sem orientação. Manter dosagem consistente é essencial para níveis estáveis de testosterona."
+        },
+        {
+          "question": "Este medicamento é seguro para mulheres grávidas ou amamentando?",
+          "answer": "Não. TESTOVA P não é seguro para mulheres grávidas ou amamentando. A exposição à testosterona pode prejudicar o desenvolvimento fetal. Este medicamento é estritamente para TRH masculina sob supervisão profissional."
+        }
+      ]
+    },
+    "inj-sustova-250mgml": {
+      "id": "inj-sustova-250mgml",
+      "name": "SUSTOVA",
+      "imageKey": "SUSTOVA",
+      "category": "Injectáveis",
+      "cas": "58-22-0",
+      "description": "SUSTOVA (Blend de Testosterona 250 mg/ml) é uma testosterona injetável de grau farmacêutico projetada para apoiar a terapia de reposição hormonal (TRH). Ajuda a restaurar os níveis de testosterona, melhorar a vitalidade, aprimorar a força e manter o equilíbrio hormonal masculino.",
+      "indication": "SUSTOVA é indicado para homens com deficiência de testosterona, apoiando níveis hormonais balanceados, melhoria da função física e metabólica, e abordando sintomas como fadiga, libido reduzida e perda muscular. Usado sob supervisão profissional para TRH e manutenção estável de testosterona.",
+      "presentation": "Forma: Solução injetável\nDosagem: 250 mg/ml de blend de testosterona\nTamanho da Embalagem: Frasco multidose de 10 ml\nComposição: Combinação de ésteres de testosterona de ação rápida e longa\nEmbalagem: Estéril, grau farmacêutico, solução oleosa transparente\nUso: Injeção IM sob supervisão médica\nArmazenamento: Armazene em local fresco e seco, longe da luz solar.",
+      "shortDescription": "Blend de Testosterona 250 mg/ml injetável para TRH, vitalidade, suporte muscular e equilíbrio hormonal.",
+      "precautions": "Use estritamente sob supervisão médica.\nSiga a dosagem prescrita.\nNão se automedique.\nInforme seu médico sobre todos os medicamentos ou suplementos.\nMonitore reações incomuns, como inchaço, alterações de humor ou problemas no local da injeção.\nMantenha fora do alcance de crianças.",
+      "contraindications": "Não use se for alérgico à testosterona ou a qualquer ingrediente.\nNão para indivíduos com câncer de próstata, doença cardíaca grave ou apneia do sono não tratada.\nMulheres grávidas ou amamentando não devem usar.\nMonitoramento médico regular é recomendado para níveis hormonais e função hepática.",
+      "images": [],
+      "seoTitle": "Injetável SUSTOVA | CAS 58‑22‑0 – NovaTech Sciences",
+      "seoDescription": "O injetável SUSTOVA da NovaTech Sciences contém Propionato de Testosterona (CAS 58‑22‑0). Fabricante, fornecedor e exportador confiável de suporte à testosterona de grau farmacêutico para desempenho, crescimento muscular e equilíbrio hormonal.",
+      "seoKeywords": "SUSTOVA, Blend de Testosterona 250 mg/ml, Testosterona injetável, Comprar blend de testosterona, Injeção de TRH, Injeção de crescimento muscular",
+      "seoRobots": "index, follow",
+      "seoCanonical": "https://www.novatechsciences.com/products/injectables/sustova",
+      "schemaBrand": "NovaTech Sciences",
+      "schemaCategory": "Esteroides Anabólicos Injetáveis",
+      "schemaType": "Produto",
+      "faq": [
+        {
+          "question": "Quem não deve usar BLEND DE TESTOSTERONA?",
+          "answer": "Indivíduos com câncer de próstata, condições cardíacas graves ou alergias a formulações de testosterona devem evitar BLEND DE TESTOSTERONA. Uma avaliação médica completa é necessária antes de iniciar a terapia."
+        },
+        {
+          "question": "Quanto tempo leva para o BLEND DE TESTOSTERONA mostrar resultados?",
+          "answer": "A maioria dos usuários nota melhorias no humor, energia e vitalidade dentro de algumas semanas. Força muscular e desempenho normalmente aumentam gradualmente ao longo de várias semanas, dependendo da dosagem e metabolismo."
+        },
+        {
+          "question": "Existem efeitos colaterais do BLEND DE TESTOSTERONA?",
+          "answer": "Possíveis efeitos colaterais incluem desconforto no local da injeção, acne, retenção de líquidos ou alterações de humor. Alguns usuários podem experimentar níveis elevados de glóbulos vermelhos. Consulte seu profissional de saúde para sintomas persistentes ou incomuns."
+        },
+        {
+          "question": "Posso tomar este medicamento com alimentos?",
+          "answer": "BLEND DE TESTOSTERONA é injetável, portanto alimentos não afetam sua absorção. Manter uma dieta balanceada apoia melhores resultados da terapia hormonal."
+        },
+        {
+          "question": "Como devo usar este medicamento?",
+          "answer": "Use BLEND DE TESTOSTERONA estritamente conforme orientado pelo seu profissional de saúde. Administre via injeção intramuscular em intervalos programados para manter o equilíbrio hormonal. Não ajuste a dosagem por conta própria."
+        }
+      ]
+    },
+    "inj-testova-c-250mgml": {
+      "id": "inj-testova-c-250mgml",
+      "name": "TESTOVA C",
+      "imageKey": "TESTOVA C",
+      "category": "Injectáveis",
+      "cas": "58-20-8",
+      "description": "TESTOVA C (Cipionato de Testosterona 250 mg/ml) é um esteroide injetável de grau farmacêutico usado para terapia de reposição de testosterona (TRT). Apoia o equilíbrio da testosterona, força muscular, vitalidade e saúde hormonal masculina geral.",
+      "indication": "TESTOVA C é indicado para homens com baixos níveis de testosterona, apoiando terapia de reposição hormonal, força melhorada, resistência, libido e equilíbrio hormonal geral. Ideal para terapia de testosterona clínica ou medicamente supervisionada.",
+      "presentation": "Forma: Solução injetável\nDosagem: 250 mg/ml de Cipionato de Testosterona\nTamanho da Embalagem: Frasco de 10 ml\nUso: Injeção intramuscular sob supervisão médica\nEmbalagem: Estéril, grau farmacêutico, solução oleosa\nArmazenamento: Mantenha em local fresco e seco, longe da luz solar.",
+      "shortDescription": "Cipionato de Testosterona 250 mg/ml injetável para TRT, força e suporte hormonal masculino.",
+      "precautions": "Use estritamente sob supervisão médica.\nSiga o cronograma de injeção prescrito.\nNão se auto-administre ou ajuste a dose.\nInforme seu médico sobre todos os medicamentos ou suplementos.\nMantenha fora do alcance de crianças.\nProcure ajuda médica imediata se ocorrerem reações incomuns.",
+      "contraindications": "Não use se for alérgico à testosterona ou a qualquer ingrediente.\nNão para indivíduos com câncer de próstata, condições cardíacas, hepáticas ou renais graves.\nNão seguro para mulheres grávidas ou amamentando.\nMonitoramento hormonal regular é recomendado durante a terapia.",
+      "images": [],
+      "seoTitle": "Injetável TESTOVA‑C | CAS 58‑20‑8 – NovaTech Sciences",
+      "seoDescription": "O injetável TESTOVA‑C da NovaTech Sciences contém Cipionato de Testosterona (CAS 58‑20‑8). Fabricante, fornecedor e exportador confiável de suporte à testosterona de grau farmacêutico para desempenho, crescimento muscular e equilíbrio hormonal.",
+      "seoKeywords": "TESTOVA C, Cipionato de Testosterona 250 mg/ml, Testosterona injetável, Comprar cipionato de testosterona, Injeção de TRT, Injeção de crescimento muscular",
+      "seoRobots": "index, follow",
+      "seoCanonical": "https://www.novatechsciences.com/products/injectables/testova-c",
+      "schemaBrand": "NovaTech Sciences",
+      "schemaCategory": "Esteroides Anabólicos Injetáveis",
+      "schemaType": "Produto",
+      "faq": [
+        {
+          "question": "Como devo usar este medicamento?",
+          "answer": "Use TESTOVA C estritamente conforme prescrito pelo seu profissional de saúde. Administre via injeção intramuscular nos intervalos recomendados. Não ajuste sua dose sem supervisão médica para garantir níveis estáveis de testosterona."
+        },
+        {
+          "question": "Posso tomar este medicamento com alimentos?",
+          "answer": "Alimentos não afetam a absorção de TESTOVA C, pois é injetável. Você pode comer normalmente antes ou após a administração. Siga seu cronograma de injeção prescrito."
+        },
+        {
+          "question": "Este medicamento é seguro para mulheres grávidas ou amamentando?",
+          "answer": "Não. TESTOVA C não é seguro para mulheres grávidas ou amamentando. A exposição pode prejudicar o feto ou bebê e é destinada apenas para TRT masculina sob supervisão médica."
+        },
+        {
+          "question": "O que é TESTOVA C?",
+          "answer": "TESTOVA C é um esteroide injetável de ação prolongada de Cipionato de Testosterona 250 mg/ml comumente usado em terapia de reposição de testosterona para restaurar baixos níveis hormonais e apoiar força, vitalidade e saúde geral masculina."
+        },
+        {
+          "question": "O que devo fazer se eu perder uma dose?",
+          "answer": "Se você perder uma injeção programada, entre em contato com seu profissional de saúde para obter instruções. Não dobre sua próxima dose ou se auto-administre, pois o tempo incorreto pode causar níveis instáveis de testosterona ou efeitos colaterais."
+        }
+      ]
+    },
+    "inj-testova-e-250mgml": {
+      "id": "inj-testova-e-250mgml",
+      "name": "TESTOVA E",
+      "imageKey": "TESTOVA E",
+      "category": "Injectáveis",
+      "cas": "315-37-7",
+      "description": "TESTOVA E (Enantato de Testosterona 250 mg/ml) é um esteroide injetável de grau farmacêutico usado para terapia de reposição hormonal (TRT) e ciclos de bulking. Apoia crescimento muscular, força, recuperação e equilíbrio hormonal estável sob supervisão profissional.",
+      "indication": "TESTOVA E é indicado para homens com baixos níveis de testosterona, apoiando terapia de reposição hormonal e aprimoramento de desempenho. Ajuda a restaurar a testosterona ideal, apoia crescimento muscular, melhora força, recuperação, libido e mantém níveis hormonais estáveis durante protocolos de bulking ou TRT.",
+      "presentation": "Forma: Solução injetável\nDosagem: 250 mg/ml de Enantato de Testosterona\nTamanho da Embalagem: Frasco de 10 ml\nUso: Injeção intramuscular sob supervisão médica\nEmbalagem: Estéril, oleosa, solução de grau farmacêutico\nArmazenamento: Mantenha em local fresco e seco, longe da luz solar.",
+      "shortDescription": "Enantato de Testosterona 250 mg/ml injetável para TRT, bulking e suporte hormonal.",
+      "precautions": "Use apenas sob supervisão médica.\nSiga o cronograma de injeção prescrito.\nNão se auto-administre ou ajuste a dosagem.\nInforme seu médico sobre todos os medicamentos, suplementos ou uso de esteroides.\nMantenha fora do alcance de crianças.\nProcure ajuda médica imediata se ocorrerem reações incomuns.",
+      "contraindications": "Não use se for alérgico à testosterona ou a qualquer componente.\nNão recomendado para indivíduos com câncer de próstata, condições cardíacas, renais ou hepáticas graves.\nNão seguro para mulheres grávidas ou amamentando.\nMonitoramento hormonal regular é aconselhado durante a terapia com testosterona.",
+      "images": [],
+      "seoTitle": "Injetável TESTOVA‑E | CAS 315‑37‑7 – NovaTech Sciences",
+      "seoDescription": "O injetável TESTOVA‑E da NovaTech Sciences contém Enantato de Testosterona (CAS 315‑37‑7). Fabricante, fornecedor e exportador confiável de suporte à testosterona de grau farmacêutico para desempenho, crescimento muscular e equilíbrio hormonal.",
+      "seoKeywords": "TESTOVA E, Enantato de Testosterona 250 mg/ml, Testosterona injetável, Comprar enantato de testosterona, Injeção de TRT, Injeção de esteroide para bulking",
+      "seoRobots": "index, follow",
+      "seoCanonical": "https://www.novatechsciences.com/products/injectables/testova-e",
+      "schemaBrand": "NovaTech Sciences",
+      "schemaCategory": "Esteroides Anabólicos Injetáveis",
+      "schemaType": "Produto",
+      "faq": [
+        {
+          "question": "Por quanto tempo o Enantato de Testosterona permanece ativo no corpo?",
+          "answer": "O Enantato de Testosterona tem uma meia-vida longa de 5–7 dias, tornando TESTOVA E ideal para liberação estável de testosterona. Os usuários normalmente injetam uma ou duas vezes por semana para manter níveis hormonais consistentes durante ciclos de esteroides ou protocolos de TRT."
+        },
+        {
+          "question": "Que resultados posso esperar do TESTOVA E?",
+          "answer": "TESTOVA E apoia crescimento de massa muscular, melhoria de força, recuperação mais rápida, libido aprimorada e estabilidade hormonal. É amplamente usado para ciclos de bulking devido aos seus fortes efeitos anabólicos."
+        },
+        {
+          "question": "Preciso de PCT após usar TESTOVA E?",
+          "answer": "Sim. A Terapia Pós-Ciclo (PCT) é necessária porque o Enantato de Testosterona suprime a testosterona natural. SERMs como Clomid ou Nolvadex ajudam a restaurar o equilíbrio hormonal e prevenir problemas relacionados ao estrogênio após o ciclo."
+        },
+        {
+          "question": "Iniciantes podem usar TESTOVA E?",
+          "answer": "Iniciantes podem usar TESTOVA E se supervisionados por um profissional médico. O Enantato de Testosterona é frequentemente recomendado como um primeiro esteroide devido aos seus efeitos previsíveis, mas dosagem adequada, exames de sangue e monitoramento de segurança são essenciais."
+        },
+        {
+          "question": "Quais são os efeitos colaterais comuns do Enantato de Testosterona?",
+          "answer": "Efeitos colaterais comuns incluem retenção de líquidos, acne, oscilações de humor, estrogênio elevado e aumento da contagem de glóbulos vermelhos. Uso responsável de TESTOVA E com monitoramento hormonal regular pode ajudar a reduzir riscos."
+        }
+      ]
+    },
+    "inj-boldenova-250mgml": {
+      "id": "inj-boldenova-250mgml",
+      "name": "BOLDENOVA",
+      "imageKey": "BOLDENOVA",
+      "category": "Injectáveis",
+      "cas": "13103-34-9",
+      "description": "Boldenova (Undecilenato de Boldenona 250 mg/ml) é um esteroide injetável de grau farmacêutico projetado para ganhos musculares magros, resistência aprimorada, aumento da vascularidade e melhoria de desempenho constante. Popular entre atletas para ciclos de bulking limpos e de alta qualidade.",
+      "indication": "O Undecilenato de Boldenona é indicado para indivíduos que buscam crescimento muscular magro lento e constante, retenção de nitrogênio aprimorada, resistência melhorada e suporte hormonal balanceado. Ideal para longos ciclos de bulking e terapia anabólica supervisionada.",
+      "presentation": "Forma: Solução injetável\nDosagem: 250 mg/ml de Undecilenato de Boldenona\nTamanho da Embalagem: Frasco de 10 ml\nUso: Injeção intramuscular apenas sob supervisão profissional\nEmbalagem: Estéril, grau farmacêutico, solução oleosa\nArmazenamento: Armazene em local fresco e seco, longe da luz solar.",
+      "shortDescription": "Undecilenato de Boldenona 250 mg/ml injetável para bulking magro, resistência e aprimoramento de desempenho.",
+      "precautions": "Use apenas sob supervisão médica.\nNão se auto-administre.\nMonitore saúde cardiovascular e parâmetros sanguíneos durante o uso.\nMantenha técnicas de injeção estéreis.\nInforme seu médico sobre quaisquer condições médicas ou medicamentos.\nProcure ajuda imediata se ocorrerem sintomas incomuns.",
+      "contraindications": "Evite uso se for alérgico a esteroides anabólicos.\nNão para indivíduos com câncer de próstata ou mama.\nNão adequado para condições hepáticas, renais ou cardíacas graves.\nMulheres grávidas ou amamentando não devem usar.\nNão recomendado para menores ou indivíduos com hipertensão não tratada.",
+      "images": [],
+      "seoTitle": "Injetável BOLDENOVA | CAS 13103‑34‑9 – NovaTech Sciences",
+      "seoDescription": "O injetável BOLDENOVA da NovaTech Sciences contém Undecilenato de Boldenona (CAS 13103‑34‑9). Fabricante, fornecedor e exportador confiável de suporte anabólico de grau farmacêutico para força, desempenho e crescimento muscular.",
+      "seoKeywords": "Undecilenato de Boldenona, Injeção Boldenova, Comprar Boldenona online, Injeção de bulking magro, Injeção de esteroide anabólico, Injeção de crescimento muscular",
+      "seoRobots": "index, follow",
+      "seoCanonical": "https://www.novatechsciences.com/products/injectables/boldenova",
+      "schemaBrand": "NovaTech Sciences",
+      "schemaCategory": "Esteroides Anabólicos Injetáveis",
+      "schemaType": "Produto",
+      "faq": [
+        {
+          "question": "Por quanto tempo o Undecilenato de Boldenona permanece no sistema?",
+          "answer": "O Undecilenato de Boldenona tem uma meia-vida estendida, permanecendo ativa por várias semanas. Sua longa duração apoia ganhos constantes, mas também resulta em uma janela de detecção mais longa."
+        },
+        {
+          "question": "Que resultados posso esperar do Undecilenato de Boldenona?",
+          "answer": "Os usuários normalmente experimentam crescimento muscular magro, vascularidade melhorada e resistência aprimorada. Treino e nutrição consistentes aumentam os efeitos dos ciclos de Boldenona."
+        },
+        {
+          "question": "O Undecilenato de Boldenona é bom para iniciantes?",
+          "answer": "O Undecilenato de Boldenona é considerado amigável para iniciantes devido à sua natureza androgênica suave. Qualquer ciclo deve ser supervisionado por um profissional para prevenir desequilíbrio hormonal."
+        },
+        {
+          "question": "O Undecilenato de Boldenona causa retenção de líquidos?",
+          "a": "O Undecilenato de Boldenona causa retenção de líquidos mínima, tornando-o ideal para ganhos musculares limpos e magros e desenvolvimento constante durante fases de bulking."
+        },
+        {
+          "question": "O Undecilenato de Boldenona pode ser empilhado com outros esteroides?",
+          "a": "Sim, é comumente empilhado com testosterona e outros esteroides anabólicos. O empilhamento deve ser feito sob supervisão especializada para manter níveis hormonais seguros e minimizar efeitos colaterais."
+        }
+      ]
+    },
+    "inj-nandrova-d-250mgml": {
+      "id": "inj-nandrova-d-250mgml",
+      "name": "NANDROVA D",
+      "imageKey": "NANDROVA D",
+      "category": "Injectáveis",
+      "cas": "360-70-3",
+      "description": "Nandrova D (Decanoato de Nandrolona 250 mg/ml) é um esteroide injetável de grau farmacêutico projetado para crescimento muscular magro, recuperação aprimorada, suporte articular e melhoria de desempenho sustentada. Ideal para longos ciclos de bulking sob supervisão profissional.",
+      "indication": "O Decanoato de Nandrolona é indicado para promover recuperação muscular, aprimoramento de força, retenção de nitrogênio, produção de glóbulos vermelhos e desempenho geral. Adequado para atletas e usuários de fitness que necessitam de preservação muscular magra e suporte articular durante treinamento intensivo.",
+      "presentation": "Forma: Solução injetável\nDosagem: 250 mg/ml de Decanoato de Nandrolona\nTamanho da Embalagem: Frasco estéril de 10 ml\nUso: Injeção intramuscular apenas\nEmbalagem: Estéril, grau farmacêutico, solução oleosa\nArmazenamento: Armazene em local fresco e seco, longe da luz solar.",
+      "shortDescription": "Decanoato de Nandrolona 250 mg/ml injetável para bulking magro, recuperação e suporte articular.",
+      "precautions": "Use apenas sob supervisão médica.\nMonitore fígado, rins e níveis hormonais.\nMantenha técnicas de injeção IM estéreis.\nEvite álcool e medicamentos não aprovados.\nPare e procure ajuda médica se ocorrerem sintomas incomuns.",
+      "contraindications": "Evite se for alérgico ao Decanoato de Nandrolona ou esteroides anabólicos.\nNão recomendado para mulheres grávidas ou amamentando.\nNão adequado para indivíduos com câncer de próstata ou mama.\nEvite em doença hepática, renal ou cardíaca grave.\nNão para menores ou hipertensão não controlada.",
+      "images": [],
+      "seoTitle": "Injetável NANDROVA‑D | CAS 360‑70‑3 – NovaTech Sciences",
+      "seoDescription": "O injetável NANDROVA‑D da NovaTech Sciences contém Decanoato de Nandrolona (CAS 360‑70‑3). Fabricante, fornecedor e exportador confiável de suporte anabólico de grau farmacêutico para crescimento muscular, força e desempenho.",
+      "seoKeywords": "Decanoato de Nandrolona, Injeção Nandrova D, Comprar Nandrolona online, Injeção de esteroide para bulking magro, Injeção de esteroide anabólico, Injeção de crescimento muscular",
+      "seoRobots": "index, follow",
+      "seoCanonical": "https://www.novatechsciences.com/products/injectables/nandrova-d",
+      "schemaBrand": "NovaTech Sciences",
+      "schemaCategory": "Esteroides Anabólicos Injetáveis",
+      "schemaType": "Produto",
+      "faq": [
+        {
+          "question": "Por quanto tempo o Decanoato de Nandrolona permanece no sistema?",
+          "answer": "Devido ao seu éster longo, o Decanoato de Nandrolona permanece ativo no corpo por várias semanas. Os usuários normalmente sentem seus efeitos por 10–14 dias por dose, enquanto o tempo de detecção em testes pode ser significativamente mais longo."
+        },
+        {
+          "question": "O Decanoato de Nandrolona ajuda com dor articular?",
+          "answer": "Muitos usuários relatam lubrificação articular melhorada e desconforto reduzido devido às propriedades de aumento de colágeno do Decanoato de Nandrolona. Apoia movimento mais suave durante ciclos de treino pesado."
+        },
+        {
+          "question": "Que resultados posso esperar do Decanoato de Nandrolona?",
+          "answer": "Os usuários frequentemente experimentam crescimento de massa muscular magra, recuperação mais rápida, resistência aprimorada e redução do estresse articular. O Decanoato de Nandrolona apoia desempenho de longo prazo, em vez de ganho de peso rápido."
+        },
+        {
+          "question": "O Decanoato de Nandrolona pode ser empilhado com outros esteroides?",
+          "answer": "Sim, é comumente empilhado com compostos à base de testosterona. O empilhamento deve ser feito apenas sob supervisão especializada para manter níveis hormonais seguros."
+        },
+        {
+          "question": "Quais são os efeitos colaterais comuns do Decanoato de Nandrolona?",
+          "answer": "Possíveis efeitos colaterais incluem flutuações hormonais, acne, retenção de líquidos e alterações de humor. Uso responsável e supervisão médica ajudam a minimizar riscos."
+        }
+      ]
+    },
+    "inj-nandrova-p-100mgml": {
+      "id": "inj-nandrova-p-100mgml",
+      "name": "NANDROVA P",
+      "imageKey": "NANDROVA P",
+      "category": "Injectáveis",
+      "cas": "62-90-8",
+      "description": "Nandrova P (Fenilpropionato de Nandrolona 100 mg/ml) é um esteroide anabólico injetável de ação rápida projetado para uso médico. Apoia recuperação muscular, retenção de nitrogênio, produção de glóbulos vermelhos e terapia relacionada à reabilitação sob supervisão profissional.",
+      "indication": "O Fenilpropionato de Nandrolona é indicado para promover recuperação muscular, melhorar força, apoiar retenção de nitrogênio, produção de glóbulos vermelhos e regeneração muscular magra. É comumente usado em ambientes clínicos ou terapêuticos que requerem suporte anabólico de ação rápida.",
+      "presentation": "Forma: Solução injetável\nDosagem: 100 mg/ml de Fenilpropionato de Nandrolona\nTamanho da Embalagem: Frasco multidose de 10 ml\nUso: Injeção intramuscular apenas\nEmbalagem: Estéril, solução de grau farmacêutico\nArmazenamento: Armazene em local fresco e seco, longe da luz solar.",
+      "shortDescription": "Fenilpropionato de Nandrolona 100 mg/ml injetável de ação rápida para recuperação muscular, retenção de nitrogênio e reabilitação.",
+      "precautions": "Use apenas sob rigorosa supervisão médica.\nMonitore fígado, rins e níveis hormonais.\nUse técnicas de injeção IM estéreis.\nEvite álcool e medicamentos não aprovados.\nDescontinue e procure ajuda médica se ocorrerem sintomas incomuns.",
+      "contraindications": "Não use se for alérgico ao Fenilpropionato de Nandrolona ou esteroides anabólicos.\nEvite em mulheres grávidas ou amamentando.\nNão adequado para pacientes com doença hepática, renal ou cardíaca grave.\nContraindicação em indivíduos com câncer de próstata ou mama.\nEvite em hipertensão não controlada.",
+      "images": [],
+      "seoTitle": "Injetável NANDROVA‑P | CAS 62‑90‑8 – NovaTech Sciences",
+      "seoDescription": "O injetável NANDROVA‑P da NovaTech Sciences contém Fenilpropionato de Nandrolona (CAS 62‑90‑8). Fabricante, fornecedor e exportador confiável de suporte anabólico de grau farmacêutico para crescimento muscular, força e desempenho.",
+      "seoKeywords": "Fenilpropionato de Nandrolona, Injeção Nandrova-P, Comprar NPP online, Injeção de esteroide anabólico de ação rápida, Injeção de recuperação muscular, Esteróide grau farmacêutico",
+      "seoRobots": "index, follow",
+      "seoCanonical": "https://www.novatechsciences.com/products/injectables/nandrova-p",
+      "schemaBrand": "NovaTech Sciences",
+      "schemaCategory": "Esteroides Anabólicos Injetáveis",
+      "schemaType": "Produto",
+      "faq": [
+        {
+          "question": "O Fenilpropionato de Nandrolona é legal para uso médico?",
+          "answer": "Sim, o Fenilpropionato de Nandrolona é legalmente aprovado para condições médicas específicas quando prescrito por um profissional de saúde licenciado. Regras regulatórias variam por país, então garanta conformidade com leis locais."
+        },
+        {
+          "question": "Quão rápido o Fenilpropionato de Nandrolona funciona?",
+          "answer": "Devido ao seu éster curto, o Fenilpropionato de Nandrolona age mais rápido que variantes de nandrolona de ação prolongada. Efeitos terapêuticos, como recuperação melhorada e produção de glóbulos vermelhos, são tipicamente notados dentro de alguns dias."
+        },
+        {
+          "question": "O Fenilpropionato de Nandrolona causa retenção de líquidos?",
+          "answer": "Comparado a esteroides de nandrolona de ação mais longa, o Fenilpropionato de Nandrolona geralmente causa retenção de líquidos mínima quando usado sob supervisão médica. Os efeitos podem variar com a saúde do paciente e duração da terapia."
+        },
+        {
+          "question": "O Fenilpropionato de Nandrolona pode ser usado para recuperação muscular?",
+          "answer": "Sim, sob orientação médica, apoia regeneração muscular, aprimora retenção de nitrogênio e reduz quebra muscular associada a trauma, cirurgia ou doença crônica."
+        },
+        {
+          "question": "Terapia pós-tratamento é necessária após Fenilpropionato de Nandrolona?",
+          "answer": "Protocolos pós-tratamento dependem da duração e níveis hormonais do paciente. Médicos podem recomendar monitoramento hormonal após a terapia para garantir restauração segura do equilíbrio endócrino."
+        }
+      ]
+    },
+    "inj-trenova-a-100mgml": {
+      "id": "inj-trenova-a-100mgml",
+      "name": "TRENOVA A",
+      "imageKey": "TRENOVA A",
+      "category": "Injectáveis",
+      "cas": "10161-34-9",
+      "description": "Trenova A (Acetato de Trenbolona 100 mg/ml) é um esteroide anabólico injetável de ação rápida destinado a pesquisa avançada ou aplicações supervisionadas veterinariamente. Apoia desenvolvimento muscular magro, retenção de nitrogênio aprimorada e síntese proteica melhorada sob supervisão profissional.",
+      "indication": "O Acetato de Trenbolona é indicado para ambientes de pesquisa clínica ou veterinária controlada, apoiando desenvolvimento muscular, força, retenção de nitrogênio e eficiência metabólica. É estritamente para uso avançado e supervisionado devido ao seu perfil anabólico-androgênico potente.",
+      "presentation": "Forma: Solução injetável\nDosagem: 100 mg/ml de Acetato de Trenbolona\nTamanho da Embalagem: Frasco multidose de 10 ml\nVia: Injeção intramuscular (IM) apenas\nEmbalagem: Estéril, grau farmacêutico, solução oleosa\nArmazenamento: Mantenha em local fresco e seco, longe de crianças e luz solar.",
+      "shortDescription": "Acetato de Trenbolona 100 mg/ml injetável para pesquisa avançada e aplicações focadas em desempenho.",
+      "precautions": "Use apenas sob supervisão médica ou de pesquisa licenciada.\nMonitore saúde cardiovascular, função hepática e níveis de colesterol.\nEvite álcool ou substâncias que aumentem sobrecarga hepática/cardíaca.\nSiga técnicas de injeção estéreis.\nMantenha fora do alcance de crianças.",
+      "contraindications": "Não use se for alérgico ao Acetato de Trenbolona ou a quaisquer componentes.\nEvite durante gravidez, amamentação ou se planejando concepção.\nNão para indivíduos com doença cardíaca, disfunção hepática/renal, câncer de próstata ou distúrbios hormonais/psiquiátricos graves.\nEvite em hipertensão não controlada.",
+      "images": [],
+      "seoTitle": "Injetável TRENOVA‑A | CAS 10161‑34‑9 – NovaTech Sciences",
+      "seoDescription": "O injetável TRENOVA‑A da NovaTech Sciences contém Acetato de Trenbolona (CAS 10161‑34‑9). Fabricante, fornecedor e exportador confiável de suporte anabólico de grau farmacêutico para força, desempenho e crescimento muscular.",
+      "seoKeywords": "Acetato de Trenbolona, Injeção Trenova-A, comprar injeção de trenbolona, esteroide anabólico avançado, injeção de ciclo de cutting, suporte muscular magro",
+      "seoRobots": "index, follow",
+      "seoCanonical": "https://www.novatechsciences.com/products/injectables/trenova-a",
+      "schemaBrand": "NovaTech Sciences",
+      "schemaCategory": "Esteroides Anabólicos Injetáveis",
+      "schemaType": "Produto",
+      "faq": [
+        {
+          "question": "O Acetato de Trenbolona é legal?",
+          "answer": "O status legal do Acetato de Trenbolona varia por país. Em muitas regiões, é classificado como substância controlada e permitida apenas para uso veterinário ou pesquisa aprovada. Verifique suas regulamentações locais antes de comprar ou manusear."
+        },
+        {
+          "question": "Quão rápido o Acetato de Trenbolona funciona?",
+          "answer": "Devido ao seu éster curto, o Acetato de Trenbolona tem início de ação rápido. Respostas fisiológicas são frequentemente observadas rapidamente sob condições controladas."
+        },
+        {
+          "question": "O Acetato de Trenbolona causa efeitos colaterais?",
+          "answer": "O Acetato de Trenbolona pode causar efeitos colaterais androgênicos, cardiovasculares, hormonais e psicológicos se mal utilizado. Supervisão profissional rigorosa é essencial ao manusear este composto."
+        },
+        {
+          "question": "O que torna o Acetato de Trenbolona diferente de outros esteroides?",
+          "answer": "O Acetato de Trenbolona tem uma alta razão anabólica-androgênica, fortes efeitos de partição de nutrientes e atividade metabólica rápida, tornando-o potente e de ação rápida para pesquisa e aplicações focadas em desempenho."
+        },
+        {
+          "question": "O Acetato de Trenbolona é adequado para iniciantes?",
+          "answer": "Não. O Acetato de Trenbolona é extremamente potente e não recomendado para iniciantes. É estritamente para aplicações avançadas e profissionalmente supervisionadas devido ao seu impacto endócrino e perfil de efeitos colaterais."
+        }
+      ]
+    },
+    "inj-trenova-e-200mgml": {
+      "id": "inj-trenova-e-200mgml",
+      "name": "TRENOVA E",
+      "imageKey": "TRENOVA E",
+      "category": "Injectáveis",
+      "cas": "10161-34-9",
+      "description": "Trenova E (Enantato de Trenbolona 200 mg/ml) é um esteroide anabólico injetável de ação prolongada usado em ambientes médicos e de pesquisa controlados. Apoia atividade anabólica sustentada, preservação muscular magra, retenção de nitrogênio e síntese proteica sob supervisão profissional.",
+      "indication": "O Enantato de Trenbolona é indicado para recuperação muscular avançada, suporte à força e terapia anabólica em ambientes de pesquisa ou clínicos. Seu perfil de liberação prolongada permite atividade anabólica estável, apoiando preservação muscular magra, retenção de nitrogênio, síntese proteica e reabilitação.",
+      "presentation": "Forma: Solução injetável\nDosagem: 200 mg/ml de Enantato de Trenbolona\nTamanho da Embalagem: Frasco multidose de 10 ml\nVia: Injeção intramuscular (IM)\nIngrediente Ativo: Enantato de Trenbolona\nValidade: Conforme rotulagem farmacêutica\nArmazenamento: Armazene abaixo de 25°C, protegido da luz\nEmbalagem: Frasco estéril grau farmacêutico.",
+      "shortDescription": "Enantato de Trenbolona 200 mg/ml injetável de ação prolongada para pesquisa controlada e terapia anabólica avançada.",
+      "precautions": "Use apenas sob supervisão médica ou de pesquisa.\nNão se automedique.\nMonitore fígado, saúde cardiovascular, colesterol e níveis hormonais regularmente.\nMantenha fora do alcance de crianças.\nEvite álcool ou outras substâncias que possam interferir na terapia.",
+      "contraindications": "Não use se for alérgico ao Enantato de Trenbolona ou a quaisquer excipientes.\nEvite em pacientes com doença cardíaca, disfunção hepática/renal, câncer de próstata, hipertensão não controlada ou distúrbios lipídicos.\nNão para uso em mulheres grávidas ou amamentando.",
+      "images": [],
+      "seoTitle": "Injetável TRENOVA‑E | CAS 10161‑34‑9 – NovaTech Sciences",
+      "seoDescription": "O injetável TRENOVA‑E da NovaTech Sciences contém Enantato de Trenbolona (CAS 10161‑34‑9). Fabricante, fornecedor e exportador confiável de suporte anabólico de grau farmacêutico para força, desempenho e crescimento muscular.",
+      "seoKeywords": "Enantato de Trenbolona, Injeção Trenova-E, comprar injeção de trenbolona, esteroide anabólico de ação prolongada, suporte ao crescimento muscular, injeção de ciclo de cutting",
+      "seoRobots": "index, follow",
+      "seoCanonical": "https://www.novatechsciences.com/products/injectables/trenova-e",
+      "schemaBrand": "NovaTech Sciences",
+      "schemaCategory": "Esteroides Anabólicos Injetáveis",
+      "schemaType": "Produto",
+      "faq": [
+        {
+          "question": "Para que o Enantato de Trenbolona é usado em pesquisa médica?",
+          "answer": "O Enantato de Trenbolona é estudado em ambientes médicos controlados por suas propriedades anabólicas, incluindo preservação de tecido muscular, suporte à recuperação e retenção de nitrogênio. Sua natureza de ação prolongada permite atividade terapêutica sustentada sob supervisão."
+        },
+        {
+          "question": "Como o Enantato de Trenbolona é diferente do Acetato de Trenbolona?",
+          "answer": "O Enantato de Trenbolona é um éster de ação prolongada, liberando lentamente para efeitos anabólicos estáveis com menos injeções, enquanto o Acetato de Trenbolona é de ação curta e mais rápida."
+        },
+        {
+          "question": "O Enantato de Trenbolona é seguro para uso a longo prazo?",
+          "answer": "Uso a longo prazo deve ocorrer sob estrita supervisão médica. Exposição prolongada pode impactar fígado, sistema cardiovascular, colesterol e equilíbrio hormonal se não monitorado adequadamente."
+        },
+        {
+          "question": "O Enantato de Trenbolona causa retenção de líquidos?",
+          "answer": "O Enantato de Trenbolona tipicamente não causa retenção de líquidos significativa, tornando-o adequado para suporte de tecido magro sem acúmulo excessivo de fluido nos músculos."
+        },
+        {
+          "question": "O Enantato de Trenbolona afetará os níveis de colesterol?",
+          "answer": "Sim. O Enantato de Trenbolona pode impactar negativamente HDL e LDL colesterol, aumentando risco cardiovascular se não monitorado. Testes regulares de perfil lipídico são fortemente recomendados."
+        }
+      ]
+    },
+    "inj-trenova-hexa-76-5mgml": {
+      "id": "inj-trenova-hexa-76-5mgml",
+      "name": "TRENOVA HEXA",
+      "imageKey": "TRENOVA HEXA",
+      "category": "Injectáveis",
+      "cas": "23454-33-3",
+      "description": "Trenova Hexa (Hexa Hidrobenzilcarbonato de Trenbolona 76,5 mg/ml) é um esteroide anabólico injetável de ação prolongada usado em aprimoramento de desempenho avançado e ambientes de pesquisa clínica. Promove massa muscular magra, retenção de nitrogênio, produção de glóbulos vermelhos e força sustentada sob supervisão controlada.",
+      "indication": "O Hexa Hidrobenzilcarbonato de Trenbolona é primariamente indicado para promover massa muscular magra, melhorar retenção de nitrogênio, aprimorar força geral e apoiar produção de glóbulos vermelhos. Seu perfil de liberação prolongada o torna adequado para protocolos anabólicos de ciclo longo que requerem atividade hormonal sustentada.",
+      "presentation": "Forma: Solução injetável oleosa\nDosagem: 76,5 mg/ml de Hexa Hidrobenzilcarbonato de Trenbolona\nTamanho da Embalagem: Frasco multidose de 10 ml\nVia: Injeção intramuscular (IM)\nIngrediente Ativo: Hexa Hidrobenzilcarbonato de Trenbolona\nValidade: Conforme rotulagem farmacêutica\nArmazenamento: Armazene abaixo de 25°C, protegido da luz\nEmbalagem: Frasco estéril grau farmacêutico",
+      "shortDescription": "Hexa Hidrobenzilcarbonato de Trenbolona 76,5 mg/ml injetável de ação prolongada para crescimento muscular avançado, força e uso de pesquisa de cutting.",
+      "precautions": "Use estritamente sob supervisão médica, pois este esteroide anabólico é altamente potente.\nMonitoramento regular de função hepática, níveis de colesterol e pressão arterial é necessário.\nEvite álcool e outras substâncias hepatotóxicas.\nMantenha hidratação adequada, nutrição e intensidade de treino controlada.\nDescontinue o uso imediatamente e consulte um médico se ocorrerem efeitos colaterais graves.",
+      "contraindications": "Contraindicação em mulheres grávidas e amamentando devido a sérios riscos hormonais.\nNão adequado para pacientes com câncer de próstata, câncer de mama ou tumores sensíveis a hormônios.\nNão use em indivíduos com doença hepática, renal ou cardiovascular grave.\nContraindicação em crianças e adolescentes.\nEvite uso em indivíduos alérgicos a esteroides anabólicos ou óleos veiculares.",
+      "images": [],
+      "seoTitle": "Injetável TRENOVA‑HEXA | CAS 23454‑33‑3 – NovaTech Sciences",
+      "seoDescription": "O injetável TRENOVA‑HEXA da NovaTech Sciences contém Hexa Hidrobenzilcarbonato de Trenbolona (CAS 23454‑33‑3). Fabricante, fornecedor e exportador confiável de suporte anabólico de grau farmacêutico para força, desempenho e crescimento muscular.",
+      "seoKeywords": "Trenbolona Hexa 76,5 mg/ml, Injeção Trenova Hexa, hexahidrobenzilcarbonato de trenbolona, comprar trenbolona hexa online, trenbolona mundial, injeção de ciclo de cutting",
+      "seoRobots": "index, follow",
+      "seoCanonical": "https://www.novatechsciences.com/products/injectables/trenovahexa",
+      "schemaBrand": "NovaTech Sciences",
+      "schemaCategory": "Esteroides Anabólicos Injetáveis",
+      "schemaType": "Produto",
+      "faq": [
+        {
+          "question": "O Hexa Hidrobenzilcarbonato de Trenbolona é seguro durante gravidez ou amamentação?",
+          "answer": "Não. O Hexa Hidrobenzilcarbonato de Trenbolona é estritamente contraindicado durante gravidez e amamentação. A exposição pode causar danos graves ao desenvolvimento fetal e ruptura hormonal em bebês."
+        },
+        {
+          "question": "Por quanto tempo o Hexa Hidrobenzilcarbonato de Trenbolona permanece ativo no corpo?",
+          "answer": "Devido à sua estrutura de éster longo, o Hexa Hidrobenzilcarbonato de Trenbolona permanece ativo no corpo por várias semanas. Sua ação prolongada apoia ciclos anabólicos estendidos, mas requer planejamento adequado de recuperação pós-ciclo."
+        },
+        {
+          "question": "O Hexa Hidrobenzilcarbonato de Trenbolona causa retenção de líquidos?",
+          "answer": "Ao contrário de muitos esteroides anabólicos, não causa retenção de líquidos significativa e é amplamente usado para produzir ganhos musculares secos e duros com definição aprimorada."
+        },
+        {
+          "question": "O Hexa Hidrobenzilcarbonato de Trenbolona pode suprimir a produção de testosterona?",
+          "answer": "Sim. Como a maioria dos esteroides anabólicos, pode suprimir a produção natural de testosterona. Terapia pós-ciclo (PCT) adequada sob supervisão médica é essencial após descontinuação."
+        },
+        {
+          "question": "O Hexa Hidrobenzilcarbonato de Trenbolona é legal mundialmente?",
+          "answer": "O status legal varia por país. Em muitas regiões, é classificado como substância anabólica de prescrição apenas ou controlada."
+        }
+      ]
+    },
+    "inj-drostanova-p-100mgml": {
+      "id": "inj-drostanova-p-100mgml",
+      "name": "DROSTANOVA P",
+      "imageKey": "DROSTANOVA P",
+      "category": "Injectáveis",
+      "cas": "521-12-0",
+      "description": "Drostanova P (Propionato de Drostanolona 100 mg/ml) é uma injeção androgênica anabólica avançada indicada para fortalecimento muscular magro, suporte à perda de gordura e recuperação muscular relacionada a androgênios. É amplamente usado durante ciclos de cutting para endurecimento muscular, aprimoramento de força e condicionamento físico sob supervisão médica.",
+      "indication": "O Propionato de Drostanolona é indicado para preservação muscular magra, suporte à perda de gordura, endurecimento muscular e recuperação relacionada a androgênios. Sua atividade antiestrogênica o torna altamente eficaz em ciclos de cutting, aprimoramento de força e protocolos de preparação para competições sob supervisão profissional.",
+      "presentation": "Forma: Solução injetável oleosa\nDosagem: 100 mg/ml de Propionato de Drostanolona\nTamanho da Embalagem: Frasco multidose de 10 ml\nVia: Uso intramuscular (IM) apenas\nCategoria: Esteróide Anabólico Androgênico (AAS)\nValidade: Conforme padrões farmacêuticos\nEmbalagem: Frasco estéril seguro grau farmacêutico",
+      "shortDescription": "Propionato de Drostanolona 100 mg/ml injetável seco e antiestrogênico para cutting, endurecimento muscular e aprimoramento de força.",
+      "precautions": "Use apenas sob supervisão médica para prevenir desequilíbrio hormonal e estresse cardiovascular.\nMonitoramento regular de função hepática, perfil lipídico e testosterona é recomendado.\nAtletas devem confirmar status regulatório devido a restrições esportivas.\nEvite consumo de álcool durante o tratamento.\nMantenha uma dieta saudável para o coração e estilo de vida ativo.",
+      "contraindications": "Contraindicação em mulheres grávidas e amamentando.\nNão use em pacientes com câncer de próstata, câncer de mama masculino, doença hepática grave, comprometimento renal ou doença cardiovascular.\nNão adequado para indivíduos alérgicos ao Propionato de Drostanolona ou óleos injetáveis.\nContraindicação em crianças e adolescentes menores de 18 anos.\nNão recomendado para pacientes com hipertensão não controlada ou distúrbios lipídicos.",
+      "images": [],
+      "seoTitle": "Injetável DROSTANOVA‑P | CAS 521‑12‑0 – NovaTech Sciences",
+      "seoDescription": "O injetável DROSTANOVA‑P da NovaTech Sciences contém Propionato de Drostanolona (CAS 521‑12‑0). Fabricante, fornecedor e exportador confiável de suporte anabólico de grau farmacêutico para força, desempenho e crescimento muscular.",
+      "seoKeywords": "Propionato de Drostanolona 100 mg/ml, Injeção Drostanova-P, injeção de drostanolona, comprar drostanolona online, masteron propionato mundial, injeção de ciclo de cutting",
+      "seoRobots": "index, follow",
+      "seoCanonical": "https://www.novatechsciences.com/products/injectables/drostanova-p",
+      "schemaBrand": "NovaTech Sciences",
+      "schemaCategory": "Esteroides Anabólicos Injetáveis",
+      "schemaType": "Produto",
+      "faq": [
+        {
+          "question": "O Propionato de Drostanolona é usado para cutting ou bulking?",
+          "answer": "O Propionato de Drostanolona é primariamente usado para ciclos de cutting para preservar músculos magros, reduzir gordura corporal e aprimorar vascularidade. Não é comumente usado para bulking devido aos seus efeitos musculares secos."
+        },
+        {
+          "question": "Drostanova P causa retenção de líquidos?",
+          "answer": "Não. O Propionato de Drostanolona é conhecido como um esteroide anabólico seco e não causa retenção de líquidos ou inchaço, tornando-o ideal para uma aparência dura, definida e rasgada."
+        },
+        {
+          "question": "O Propionato de Drostanolona é seguro para uso a longo prazo?",
+          "answer": "Uso a longo prazo ou não supervisionado pode levar à supressão de testosterona, desequilíbrio lipídico, sobrecarga hepática e riscos cardiovasculares. Deve ser usado apenas sob supervisão médica."
+        },
+        {
+          "question": "Drostanova P pode ser empilhado com outros esteroides?",
+          "answer": "Sim. É frequentemente empilhado com outros esteroides anabólicos, mas empilhamento inadequado aumenta riscos à saúde e deve ser planejado apenas por profissionais médicos ou esportivos qualificados."
+        },
+        {
+          "question": "O Propionato de Drostanolona afeta os níveis de estrogênio?",
+          "answer": "Sim. Tem propriedades antiestrogênicas e pode ajudar a reduzir efeitos colaterais relacionados ao estrogênio, como ginecomastia e retenção de líquidos."
+        }
+      ]
+    },
+    "inj-primonova-100mgml": {
+      "id": "inj-primonova-100mgml",
+      "name": "PRIMONOVA",
+      "imageKey": "PRIMONOVA",
+      "category": "Injectáveis",
+      "cas": "303-40-4",
+      "description": "Primonova (Enantato de Metenolona 100 mg/ml) é um esteroide anabólico injetável de ação prolongada amplamente usado para preservação muscular magra, aprimoramento de força e suporte à recuperação durante ciclos de cutting. Promove ganhos musculares secos e de alta qualidade, resistência melhorada e desempenho anabólico estável sem retenção excessiva de líquidos.",
+      "indication": "O Enantato de Metenolona é indicado para preservação muscular magra, aprimoramento de força, melhoria da resistência e suporte à recuperação durante ciclos de cutting. Fornece efeitos anabólicos leves, porém consistentes, com excelente segurança sob supervisão médica.",
+      "presentation": "Forma: Solução injetável\nDosagem: 100 mg/ml de Enantato de Metenolona\nTamanho da Embalagem: Frasco estéril de 10 ml\nVia: Uso intramuscular (IM) apenas\nCategoria: Injeção de Esteróide Anabólico\nTipo de Liberação: Ação prolongada\nEmbalagem: Frasco estéril grau farmacêutico",
+      "shortDescription": "Enantato de Metenolona 100 mg/ml injetável de ação prolongada para cutting, preservação muscular magra e suporte à força.",
+      "precautions": "Use apenas sob supervisão médica.\nExames de sangue regulares são recomendados para monitorar hormônios, função hepática e níveis lipídicos.\nEvite álcool e substâncias hepatotóxicas durante o uso.\nDescontinue imediatamente se ocorrer inchaço incomum, dificuldade respiratória ou alterações de humor graves.\nNão combine com esteroides ou suplementos não verificados sem orientação profissional.",
+      "contraindications": "Contraindicação em indivíduos alérgicos ao Enantato de Metenolona ou componentes da formulação.\nNão use em pacientes com câncer de próstata ou mama.\nNão recomendado para indivíduos com comprometimento renal ou hepático grave.\nContraindicação em mulheres grávidas e amamentando.\nEvite uso em pacientes com doença cardiovascular grave ou hipertensão não controlada.",
+      "images": [],
+      "seoTitle": "Injetável PRIMONOVA | CAS 303‑40‑4 – NovaTech Sciences",
+      "seoDescription": "O injetável PRIMONOVA da NovaTech Sciences contém Enantato de Metenolona (CAS 303‑40‑4). Fabricante, fornecedor e exportador confiável de suporte anabólico de grau farmacêutico para crescimento muscular, força e desempenho.",
+      "seoKeywords": "Enantato de Metenolona 100 mg/ml, Injeção Primonova, enantato de primobolan, comprar metenolona online, primobolan mundial, injeção muscular magra",
+      "seoRobots": "index, follow",
+      "seoCanonical": "https://www.novatechsciences.com/products/injectables/primonova",
+      "schemaBrand": "NovaTech Sciences",
+      "schemaCategory": "Esteroides Anabólicos Injetáveis",
+      "schemaType": "Produto",
+      "faq": [
+        {
+          "question": "O Enantato de Metenolona é bom para ciclos de cutting?",
+          "answer": "Sim. O Enantato de Metenolona é altamente preferido para ciclos de cutting, pois preserva tecido magro, aprimora a dureza muscular e melhora a eficiência metabólica, enquanto apoia perda de gordura e força."
+        },
+        {
+          "question": "Por quanto tempo o Enantato de Metenolona permanece ativo no corpo?",
+          "answer": "O Enantato de Metenolona tem meia-vida longa de aproximadamente 7–10 dias, tornando-o adequado para cronogramas de injeção semanal com atividade anabólica constante."
+        },
+        {
+          "question": "Preciso de Terapia Pós-Ciclo (PCT) após usar Enantato de Metenolona?",
+          "answer": "Sim. A PCT é recomendada para ajudar a restaurar os níveis naturais de testosterona e manter os ganhos musculares alcançados durante o ciclo."
+        },
+        {
+          "question": "Como Primonova deve ser usado?",
+          "answer": "Primonova deve ser administrado via injeção intramuscular estritamente conforme direcionado por um profissional de saúde licenciado para manter níveis anabólicos estáveis."
+        },
+        {
+          "question": "Posso tomar este medicamento com alimentos?",
+          "answer": "Como Primonova é um esteroide injetável, alimentos não afetam a absorção. No entanto, uma dieta balanceada rica em proteínas apoia melhores resultados e preservação muscular."
+        }
+      ]
+    },
+    "inj-roxonova-50mgml": {
+      "id": "inj-roxonova-50mgml",
+      "name": "ROXONOVA",
+      "imageKey": "ROXONOVA",
+      "category": "Injectáveis",
+      "cas": "10418-03-8",
+      "description": "Roxonova (Estanozolol 50 mg/ml) é um esteroide anabólico injetável amplamente usado para preservação muscular magra, aprimoramento de força, melhoria da resistência e suporte à recuperação. É altamente valorizado em ciclos de cutting para produzir ganhos musculares secos e duros sem retenção de líquidos e apoiar a produção de glóbulos vermelhos sob supervisão médica.",
+      "indication": "A injeção de Estanozolol é indicada para preservação muscular magra, aprimoramento de força, melhoria da resistência e suporte à recuperação em protocolos terapêuticos e baseados em desempenho. É comumente usado durante ciclos de cutting para promover dureza muscular e perda de gordura.",
+      "presentation": "Forma: Solução injetável\nDosagem: Estanozolol 50 mg/ml\nTamanho da Embalagem: Frasco multidose de 10 ml\nVia: Injeção intramuscular (IM)\nCategoria: Injeção de Esteróide Anabólico\nAparência: Solução estéril transparente\nEmbalagem: Frasco selado grau farmacêutico",
+      "shortDescription": "Estanozolol 50 mg/ml injetável para cutting, aprimoramento de força e preservação muscular magra.",
+      "precautions": "Use apenas sob supervisão médica.\nMonitoramento regular da função hepática e perfil lipídico é fortemente aconselhado.\nEvite consumo de álcool durante o uso para reduzir toxicidade hepática.\nMonitore desconforto articular, pois o Estanozolol pode causar secura articular.\nUso não supervisionado a longo prazo pode suprimir a produção natural de testosterona.",
+      "contraindications": "Contraindicação em pacientes com doença hepática, tumores hepáticos ou disfunção hepática grave.\nNão recomendado para mulheres grávidas ou amamentando.\nEvite uso em pacientes com câncer de próstata ou câncer de mama masculino.\nNão adequado para indivíduos com doença cardiovascular grave ou distúrbios de colesterol não controlados.\nContraindicação em indivíduos com hipersensibilidade ao Estanozolol ou ingredientes da formulação.",
+      "images": [],
+      "seoTitle": "Injetável ROXONOVA | CAS 10418‑03‑8 – NovaTech Sciences",
+      "seoDescription": "O injetável ROXONOVA da NovaTech Sciences contém Estanozolol (CAS 10418‑03‑8). Fabricante, fornecedor e exportador confiável de suporte anabólico de grau farmacêutico para força, desempenho e crescimento muscular.",
+      "seoKeywords": "Estanozolol 50 mg/ml, Injeção Roxonova, estanozolol injetável, comprar estanozolol online, injeção de winstrol mundial, injeção de ciclo de cutting",
+      "seoRobots": "index, follow",
+      "seoCanonical": "https://www.novatechsciences.com/products/injectables/roxonova",
+      "schemaBrand": "NovaTech Sciences",
+      "schemaCategory": "Esteroides Anabólicos Injetáveis",
+      "schemaType": "Produto",
+      "faq": [
+        {
+          "question": "O Estanozolol ajuda a aumentar a força?",
+          "answer": "Sim. O Estanozolol é bem conhecido por melhorar significativamente a força sem adicionar peso corporal excessivo. Roxonova apoia produção de força, resistência e desempenho explosivo."
+        },
+        {
+          "question": "Roxonova é adequado para usuárias mulheres?",
+          "answer": "Roxonova contém Estanozolol, que pode ser usado por mulheres sob estrita supervisão médica. No entanto, uso impróprio pode levar a sintomas de virilização."
+        },
+        {
+          "question": "O Estanozolol pode ser empilhado com outros esteroides?",
+          "answer": "Sim. O Estanozolol é comumente empilhado com outros esteroides anabólicos para ciclos de cutting e recomposição, mas o empilhamento deve sempre ser planejado sob supervisão profissional."
+        },
+        {
+          "question": "Roxonova afeta os níveis de colesterol?",
+          "answer": "Sim. O Estanozolol pode reduzir HDL (colesterol bom) e aumentar LDL (colesterol ruim). Monitoramento regular do perfil lipídico é recomendado."
+        },
+        {
+          "question": "O Estanozolol é tóxico para o fígado?",
+          "answer": "O Estanozolol injetável é menos hepatotóxico que as formas orais, mas ainda pode afetar enzimas hepáticas. Uso prolongado ou em alta dose aumenta a sobrecarga hepática."
+        }
+      ]
+    },
+    "inj-testova-pp-100mgml": {
+      "id": "inj-testova-pp-100mgml",
+      "name": "TESTOVA PP",
+      "imageKey": "TESTOVA PP",
+      "category": "Injectáveis",
+      "cas": "1255-49-8",
+      "description": "Testova PP (Fenilpropionato de Testosterona 100 mg/ml) é um esteroide anabólico injetável de ação rápida amplamente usado em terapia de reposição hormonal, tratamento de hipogonadismo masculino, puberdade tardia e condições de desgaste muscular. Devido ao seu éster curto, fornece liberação rápida de testosterona, apoiando desenvolvimento muscular magro, força, libido e níveis de energia sob supervisão médica.",
+      "indication": "O Fenilpropionato de Testosterona é indicado para hipogonadismo masculino, distúrbios de deficiência androgênica, puberdade tardia, doenças de desgaste muscular e protocolos controlados de força-recuperação. Seu éster curto permite resposta hormonal rápida e melhor controle durante terapia de reposição de testosterona.",
+      "presentation": "Forma: Solução injetável\nDosagem: 100 mg/ml de Fenilpropionato de Testosterona\nConteúdo Total: 1000 mg por frasco de 10 ml\nTamanho da Embalagem: Frasco de 10 ml\nVia: Injeção intramuscular (IM)\nCategoria: Injeção de Testosterona\nEmbalagem: Frasco estéril grau farmacêutico",
+      "shortDescription": "Fenilpropionato de Testosterona 100 mg/ml injetável de ação rápida para reposição hormonal e recuperação muscular.",
+      "precautions": "Use apenas sob supervisão médica licenciada.\nMonitoramento regular de PSA, hematócrito, colesterol e enzimas hepáticas é fortemente aconselhado.\nEvite uso em pacientes com histórico de distúrbios de coagulação ou policitemia.\nPacientes com diabetes devem monitorar açúcar no sangue de perto.\nEvite abuso de álcool durante a terapia.\nDescontinue imediatamente se ocorrer dor no peito, inchaço ou falta de ar.",
+      "contraindications": "Contraindicação em pacientes com câncer de próstata ou câncer de mama masculino.\nNão recomendado para indivíduos com doença cardíaca grave, hipertensão não controlada, doença renal ou disfunção hepática.\nEvite uso em pacientes com distúrbios de coagulação sanguínea conhecidos.\nMantenha fora do alcance de crianças.",
+      "images": [],
+      "seoTitle": "Injetável TESTOVA‑PP | CAS 1255‑49‑8 – NovaTech Sciences",
+      "seoDescription": "O injetável TESTOVA‑PP da NovaTech Sciences contém Fenilpropionato de Testosterona (CAS 1255‑49‑8). Fabricante, fornecedor e exportador confiável de suporte à testosterona de grau farmacêutico para desempenho, crescimento muscular e equilíbrio hormonal.",
+      "seoKeywords": "Fenilpropionato de Testosterona 100 mg/ml, Injeção Testova-PP, injeção de fenilpropionato de testosterona, comprar testosterona PP online, testosterona mundial, injeção de crescimento muscular",
+      "seoRobots": "index, follow",
+      "seoCanonical": "https://www.novatechsciences.com/products/injectables/testova-pp",
+      "schemaBrand": "NovaTech Sciences",
+      "schemaCategory": "Esteroides de Testosterona Injetáveis",
+      "schemaType": "Produto",
+      "faq": [
+        {
+          "question": "Para que Testova PP é usado?",
+          "answer": "Testova PP é usado para tratar deficiência de testosterona em homens, puberdade tardia, condições de desgaste muscular e distúrbios de desequilíbrio hormonal sob supervisão médica."
+        },
+        {
+          "question": "Quão rápido o Fenilpropionato de Testosterona funciona?",
+          "answer": "Devido ao seu éster curto, o Fenilpropionato de Testosterona começa a funcionar dentro de 24–48 horas após a injeção."
+        },
+        {
+          "question": "Por quanto tempo o Fenilpropionato de Testosterona permanece ativo?",
+          "answer": "Permanece ativo no corpo por aproximadamente 2–4 dias, requerendo injeções mais frequentes comparado a ésteres de testosterona de ação longa."
+        },
+        {
+          "question": "Testova PP é bom para construção muscular?",
+          "answer": "Sim, apoia desenvolvimento de massa muscular magra, retenção de nitrogênio e síntese proteica em terapia clínica e baseada em recuperação."
+        },
+        {
+          "question": "Posso me auto-administrar Testova PP?",
+          "answer": "Não. Testova PP deve ser administrado apenas por um profissional de saúde licenciado via injeção intramuscular."
+        }
+      ]
+    },
+    "inj-testova-base-100mgml": {
+      "id": "inj-testova-base-100mgml",
+      "name": "TESTOVA BASE",
+      "imageKey": "TESTOVA BASE",
+      "category": "Injectáveis",
+      "cas": "58-22-0",
+      "description": "Testova Base (Suspensão de Testosterona 100 mg/ml) é um esteroide de testosterona injetável à base de água de ação rápida usado para hipogonadismo, puberdade tardia, desequilíbrio hormonal e distúrbios de desgaste muscular medicamente supervisionados. Fornece absorção rápida de testosterona para efeitos anabólicos imediatos.",
+      "indication": "Testova Base é indicado para hipogonadismo masculino, baixos níveis de testosterona, puberdade tardia e desequilíbrio hormonal. Sua formulação à base de água garante absorção rápida de testosterona e efeitos anabólicos imediatos sob supervisão médica.",
+      "presentation": "Forma: Solução injetável\nDosagem: 100 mg/ml de Suspensão de Testosterona\nTamanho da Embalagem: Frasco multidose de 10 ml\nVia: Injeção intramuscular (IM)\nSuspensão aquosa estéril\nEsteróide de testosterona de ação rápida para terapia hormonal clínica e supervisionada\nArmazenamento: Armazene conforme diretrizes de rotulagem farmacêutica.",
+      "shortDescription": "Suspensão de testosterona 100 mg/ml de ação rápida para suporte hormonal imediato e atividade anabólica.",
+      "precautions": "Use apenas sob supervisão médica qualificada.\nMonitore níveis de testosterona, função hepática, perfil lipídico e pressão arterial regularmente.\nPode suprimir a produção natural de testosterona.\nRisco de conversão estrogênica (aromatização).\nNão recomendado para uso não supervisionado a longo prazo.",
+      "contraindications": "Não use se for alérgico à testosterona ou componentes da injeção.\nContraindicação em pacientes com câncer de próstata ou mama, doença cardíaca, hepática ou renal grave, policitemia, mulheres grávidas ou amamentando, ou crianças sem deficiência hormonal confirmada.",
+      "images": [],
+      "seoTitle": "Injetável TESTOVA‑BASE | CAS 58‑22‑0 – NovaTech Sciences",
+      "seoDescription": "O injetável TESTOVA‑BASE da NovaTech Sciences contém Suspensão de Testosterona (CAS 58‑22‑0). Fabricante, fornecedor e exportador confiável de suporte à testosterona de grau farmacêutico para desempenho, crescimento muscular e equilíbrio hormonal.",
+      "seoKeywords": "Suspensão de Testosterona 100 mg/ml, Injeção Testova-Base, injeção de suspensão de testosterona, comprar suspensão de testosterona online, injeção de testosterona de ação rápida, testosterona mundial",
+      "seoRobots": "index, follow",
+      "seoCanonical": "https://www.novatechsciences.com/products/injectables/testova-base",
+      "schemaBrand": "NovaTech Sciences",
+      "schemaCategory": "Esteroides de Testosterona Injetáveis",
+      "schemaType": "Produto",
+      "faq": [
+        {
+          "question": "Para que a Suspensão de Testosterona Testova Base é usada?",
+          "answer": "Testova Base é um esteroide de testosterona injetável à base de água usado para tratar baixa testosterona, puberdade tardia e desequilíbrio hormonal. Fornece liberação rápida de testosterona para TRT clínica e terapia anabólica medicamente supervisionada."
+        },
+        {
+          "question": "A Suspensão de Testosterona é um esteroide anabólico de ação rápida?",
+          "answer": "Sim. A Suspensão de Testosterona é o esteroide anabólico injetável de ação mais rápida devido à sua base aquosa e falta de éster, entrando na corrente sanguínea imediatamente para efeitos hormonais rápidos."
+        },
+        {
+          "question": "Testova Base é seguro para terapia de reposição de testosterona médica?",
+          "answer": "Quando administrado por um médico qualificado, Testova Base é seguro para TRT medicamente supervisionado. Monitoramento regular é essencial para evitar efeitos colaterais."
+        },
+        {
+          "question": "O que torna a Suspensão de Testosterona diferente do Enantato ou Cipionato de Testosterona?",
+          "answer": "Ao contrário de ésteres à base de óleo, a Suspensão de Testosterona não contém éster, permitindo absorção imediata e elevação rápida de testosterona, em vez de liberação lenta e de longo prazo."
+        },
+        {
+          "question": "Testova Base é usado no fisiculturismo?",
+          "answer": "Sim, é popular por efeitos anabólicos imediatos, endurecimento muscular e produção de força no fisiculturismo profissional, mas deve ser usado apenas sob orientação médica e legal."
+        }
+      ]
+    },
+    "inj-nova-gain-c-650mgml": {
+      "id": "inj-nova-gain-c-650mgml",
+      "name": "NOVA GAIN C",
+      "imageKey": "NOVA GAIN C",
+      "category": "Injectáveis",
+      "cas": "Varia (blend multi-composto)",
+      "description": "Nova Gain C é uma injeção de esteroide anabólico de alta potência contendo testosterona, nandrolona e boldenona. Apoia crescimento muscular magro, retenção de nitrogênio, aprimoramento de força e recuperação física sob supervisão médica em protocolos clínicos ou baseados em desempenho.",
+      "indication": "Indicado para desgaste muscular grave, recuperação de trauma, desequilíbrio hormonal e deficiência de testosterona. Fornece suporte anabólico e androgênico potente para massa muscular progressiva, força e recuperação sob supervisão profissional.",
+      "presentation": "Forma: Solução injetável oleosa\nDosagem: 650 mg/ml total (blend multi-composto)\nTamanho da Embalagem: Frasco multidose de 10 ml\nVia: Injeção intramuscular (IM)\nSuspensão estéril grau farmacêutico\nLiberação anabólica sustentada para ciclos de bulking e recuperação de ação longa\nArmazenamento: Armazene conforme instruções de rotulagem farmacêutica.",
+      "shortDescription": "Injeção de blend multi-esteroide de alta potência (Testosterona, Nandrolona, Boldenona) para crescimento muscular avançado e recuperação.",
+      "precautions": "Para uso intramuscular apenas sob supervisão médica.\nMonitore testosterona, estrogênio, função hepática, perfil lipídico e pressão arterial regularmente.\nPode suprimir a produção natural de testosterona.\nRisco de efeitos colaterais estrogênicos e androgênicos.\nEvite álcool e medicamentos hepatotóxicos.\nNão recomendado para uso não supervisionado a longo prazo.",
+      "contraindications": "Não use se for alérgico à testosterona, nandrolona ou boldenona.\nContraindicação em pacientes com câncer de próstata ou mama masculino, doença cardíaca/hepática/renal grave, policitemia, hipertensão não controlada.\nNão para mulheres grávidas ou amamentando.\nNão adequado para adolescentes sem distúrbios endócrinos confirmados.",
+      "images": [],
+      "seoTitle": "Injeção Nova Gain C | Blend Multi de Testosterona, Boldenona & Nandrolona – Nova Techsciences",
+      "seoDescription": "Nova Gain C da Nova Techsciences é uma formulação injetável multi-blend contendo Boldenona, Nandrolona, Cipionato de Testosterona, Enantato e Sustanon em proporções definidas.",
+      "seoKeywords": "injeção de blend de testosterona, blend de boldenona nandrolona, injeção nova gain c, blend multi esteroide, comprar blend de testosterona online, blend de crescimento muscular mundial",
+      "seoRobots": "index, follow",
+      "seoCanonical": "https://www.novatechsciences.com/products/injectables/nova-gain-c",
+      "schemaBrand": "NovaTech Sciences",
+      "schemaCategory": "Blends Multi-Esteroides Injetáveis",
+      "schemaType": "Produto",
+      "faq": [
+        {
+          "question": "Para que a injeção Nova Gain C é usada?",
+          "answer": "Nova Gain C é uma injeção de esteroide anabólico multi-composto usada para desenvolvimento de massa muscular, recuperação física e aprimoramento hormonal. Combina testosterona, nandrolona e boldenona para força progressiva, bulking magro e desempenho anabólico."
+        },
+        {
+          "question": "Nova Gain C é um esteroide para bulking ou cutting?",
+          "answer": "Nova Gain C é primariamente um blend anabólico focado em bulking. Seus componentes promovem ganho de massa, aumento de força, densidade muscular e conforto articular, apoiando crescimento anabólico de longo prazo."
+        },
+        {
+          "question": "Quão rápido Nova Gain C começa a funcionar?",
+          "answer": "Por conter testosterona de éster curto e longo com nandrolona e boldenona de liberação lenta, os usuários geralmente notam melhoria progressiva de força e massa dentro de 2–3 semanas, com efeitos anabólicos completos se desenvolvendo gradualmente."
+        },
+        {
+          "question": "Nova Gain C é adequado para terapia de reposição de testosterona (TRT)?",
+          "answer": "Não, Nova Gain C é uma formulação multi-esteroide de alta dose para protocolos médicos ou baseados em desempenho avançados e não se destina a TRT padrão de baixa dose."
+        },
+        {
+          "question": "Nova Gain C causa retenção de líquidos?",
+          "answer": "Sim, devido ao seu conteúdo de testosterona e nandrolona, Nova Gain C pode causar retenção de fluidos e efeitos colaterais relacionados ao estrogênio em indivíduos sensíveis. Monitoramento hormonal é importante durante o uso."
+        }
+      ]
+    },
+    "inj-nova-cut-mix-450mgml": {
+      "id": "inj-nova-cut-mix-450mgml",
+      "name": "NOVA CUT MIX",
+      "imageKey": "NOVA CUT MIX",
+      "category": "Injectáveis",
+      "cas": "Varia (blend multi-composto)",
+      "description": "Nova Cut Mix é uma injeção de esteroide de cutting de alta potência combinando propionato de testosterona, acetato de trenbolona e propionato de drostanolona. Apoia perda de gordura, preservação muscular magra, aprimoramento de força e definição muscular agressiva durante ciclos pré-competição ou de recomposição sob supervisão profissional.",
+      "indication": "Indicado para suporte anabólico avançado em ciclos de cutting, condicionamento pré-competição e recuperação de força. Promove retenção muscular magra, dureza, desempenho metabólico e definição agressiva durante protocolos de esteroides focados em desempenho de curto prazo.",
+      "presentation": "Forma: Solução injetável oleosa\nDosagem: 450 mg/ml total blend multi-composto\nTamanho da Embalagem: Frasco multidose de 10 ml\nVia: Injeção intramuscular (IM)\nSuspensão estéril grau farmacêutico\nFormulação de éster curto de ação rápida ideal para ciclos de cutting e programas de refinamento físico.\nArmazenamento: Armazene abaixo de 25°C, longe da luz solar direta.",
+      "shortDescription": "Injeção de blend de cutting de alta potência (Testosterona, Trenbolona, Drostanolona) para perda de gordura, dureza muscular e aprimoramento de força.",
+      "precautions": "Para uso intramuscular apenas sob supervisão médica qualificada.\nMonitore testosterona, estrogênio, enzimas hepáticas, perfil lipídico e pressão arterial.\nPode suprimir a produção natural de testosterona.\nRisco aumentado de efeitos colaterais androgênicos (acne, perda de cabelo, agressão).\nEvite álcool e medicamentos hepatotóxicos.\nNão recomendado para uso anabólico não supervisionado a longo prazo.",
+      "contraindications": "Não use se for alérgico à testosterona, trenbolona ou drostanolona.\nContraindicação em pacientes com câncer de próstata ou mama masculino, doença cardiovascular grave, comprometimento hepático ou renal avançado, policitemia, hipertensão não controlada.\nNão para mulheres grávidas ou amamentando.\nNão adequado para adolescentes sem distúrbios endócrinos confirmados.",
+      "images": [],
+      "seoTitle": "Injeção Nova Cut Mix | Testosterona, Trenbolona & Drostanolona – Nova Techsciences",
+      "seoDescription": "Nova Cut Mix da Nova Techsciences é um blend injetável contendo Propionato de Testosterona, Acetato de Trenbolona e Propionato de Drostanolona em concentrações padronizadas.",
+      "seoKeywords": "blend testosterona trenbolona drostanolona, injeção nova cut mix, injeção de ciclo de cutting, comprar blend de cutting online, blend de esteroide para perda de gordura, injeção de endurecimento muscular",
+      "seoRobots": "index, follow",
+      "seoCanonical": "https://www.novatechsciences.com/products/injectables/nova-cut-mix",
+      "schemaBrand": "NovaTech Sciences",
+      "schemaCategory": "Blends de Esteroides de Cutting Injetáveis",
+      "schemaType": "Produto",
+      "faq": [
+        {
+          "question": "Para que a injeção Nova Cut Mix é usada?",
+          "answer": "Nova Cut Mix é uma injeção de esteroide de cutting de alta potência usada para perda de gordura, dureza muscular e aprimoramento de força. Combina propionato de testosterona, acetato de trenbolona e propionato de drostanolona para preservação muscular magra e definição agressiva durante ciclos de cutting."
+        },
+        {
+          "question": "Nova Cut Mix é para bulking ou cutting?",
+          "answer": "Nova Cut Mix é especificamente projetado para ciclos de cutting e recomposição. Promove redução de gordura, aparência muscular seca e manutenção de força, ideal para atletas se preparando para competições ou condicionamento físico."
+        },
+        {
+          "question": "Quão rápido Nova Cut Mix começa a funcionar?",
+          "answer": "Devido à sua composição de esteroide de éster curto, Nova Cut Mix começa a funcionar dentro de dias. Os usuários normalmente notam aumentos precoces de força, dureza muscular melhorada e redução de gordura visível dentro de 10–14 dias de uso supervisionado."
+        },
+        {
+          "question": "Nova Cut Mix causa retenção de líquidos?",
+          "answer": "Não. Nova Cut Mix produz uma aparência muscular seca e dura. Drostanolona e trenbolona ajudam a minimizar retenção de líquidos, tornando-o preferido para alcançar um físico nítido e vascular."
+        },
+        {
+          "question": "Nova Cut Mix é adequado para terapia de reposição de testosterona (TRT)?",
+          "answer": "Não. Nova Cut Mix é um blend de cutting multi-composto de alta androgenicidade projetado para protocolos de desempenho de curto prazo sob supervisão médica ou profissional, não para TRT."
         }
       ]
     }
