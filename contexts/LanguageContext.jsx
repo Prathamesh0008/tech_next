@@ -32,15 +32,15 @@ import elProducts from "../data/languages/products/el.json";
 import esProducts from "../data/languages/products/es.json";
 import frProducts from "../data/languages/products/fr.json";
 import hrProducts from "../data/languages/products/hr.json";
-// import itProducts from "../data/languages/products/it.json";
+import itProducts from "../data/languages/products/it.json";
 import mkProducts from "../data/languages/products/mk.json";
-// import nlProducts from "../data/languages/products/nl.json";
+import nlProducts from "../data/languages/products/nl.json";
 import ptProducts from "../data/languages/products/pt.json";
-// import roProducts from "../data/languages/products/ro.json";
-// import ruProducts from "../data/languages/products/ru.json";
-// import sqProducts from "../data/languages/products/sq.json";
-// import srProducts from "../data/languages/products/sr.json";
-// import zhProducts from "../data/languages/products/zh.json";
+import roProducts from "../data/languages/products/ro.json";
+import ruProducts from "../data/languages/products/ru.json";
+import sqProducts from "../data/languages/products/sq.json";
+import srProducts from "../data/languages/products/sr.json";
+import zhProducts from "../data/languages/products/zh.json";
 
 
 // ✅ LANGUAGE MAP
@@ -73,15 +73,15 @@ const productLanguages = {
   es: esProducts,
   fr: frProducts,
   hr: hrProducts,
-  // it: itProducts,
+  it: itProducts,
   mk: mkProducts,
-  // nl: nlProducts,
+  nl: nlProducts,
   pt: ptProducts,
-  // ro: roProducts,
-  // ru: ruProducts,
-  // sq: sqProducts,
-  // sr: srProducts,
-  // zh: zhProducts,
+  ro: roProducts,
+  ru: ruProducts,
+  sq: sqProducts,
+  sr: srProducts,
+  zh: zhProducts,
 };
 
 

@@ -10,6 +10,11 @@ import es from "./languages/products/es.json";
 import fr from "./languages/products/fr.json";
 import hr from "./languages/products/hr.json";
 import mk from "./languages/products/mk.json";
+import ro from "./languages/products/ro.json";
+import sq from "./languages/products/sq.json";
+import sr from "./languages/products/sr.json";
+import zh from "./languages/products/zh.json";
+import it from "./languages/products/it.json";
 
 
 const PRODUCT_MAP = {
@@ -23,7 +28,11 @@ const PRODUCT_MAP = {
   fr,
   hr,
   mk,
-  nl,
+  ro,
+  sq,
+  sr,
+  zh,
+  it,
 
 };
 

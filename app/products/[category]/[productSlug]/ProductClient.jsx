@@ -149,6 +149,7 @@ const product = products.find(
 
   return (
     <div className="min-h-screen pt-10 bg-gradient-to-b from-[#f5f9fb] via-[#f3f8fa] to-[#e8f3f8]">
+      
       {/* ===== SEO ===== */}
       <Head>
         <title>{product.seoTitle || product.name}</title>
@@ -194,10 +195,12 @@ const product = products.find(
 
       {/* ===== HEADER ===== */}
       <div className="bg-gradient-to-r from-[#0b1e39] mt-10 via-[#18487d] to-[#3386bc] text-white py-10 shadow-md mb-10">
-        <div className="max-w-7xl mx-auto px-6">
-          <Breadcrumbs />
-        </div>
+        {/* <div className="max-w-7xl mx-auto px-6">
+          
+        </div> */}
+        <Breadcrumbs />
       </div>
+      
 
       {/* ===== CONTENT ===== */}
       <div className="max-w-7xl mx-auto px-4 md:px-6 space-y-12 pb-20">

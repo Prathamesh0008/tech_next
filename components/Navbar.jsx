@@ -77,7 +77,6 @@ export default function Navbar() {
 
           {/* Desktop nav */}
         
-
 <div className="hidden md:flex items-center gap-8">
   {/* NAV LINKS WITH BORDER BOTTOM */}
   <div className="relative flex gap-8">

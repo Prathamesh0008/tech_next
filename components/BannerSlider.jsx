@@ -27,9 +27,9 @@ export default function BannerSlider({ banners = [] }) {
       pagination={{ clickable: true }}
       className="
           w-full relative overflow-hidden
-          mt-10 xl:mt-20
-          aspect-[16/9] md:aspect-[21/9]
-          min-h-[clamp(220px,35svh,820px)]
+          h-full
+          aspect-[16/9] md:aspect-[18/9]
+          -mt-10
         "
     >
       <style>{`

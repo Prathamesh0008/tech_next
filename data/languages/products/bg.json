@@ -2,7 +2,7 @@
   "products": {
     "femanova": {
       "id": "tab-femanova-let-25",
-      "name": "FEMANOVA",
+      "name": "ФЕМАНОВА",
       "imageKey": "FEMANOVA",
       "cas": "112809-51-5",
       "shortDescription": "Високочист ароматазен инхибитор за надежден контрол на естрогена.",
@@ -41,7 +41,7 @@
     },
     "tamonova": {
       "id": "tab-tamonova-20",
-      "name": "TAMONOVA",
+      "name": "ТАМОНОВА",
       "cas": "54965-24-1",
       "imageKey": "TAMONOVA",
       "shortDescription": "Висококачествени таблетки Тамоксифен Цитрат за ефективен контрол на естрогена и PCT.",
@@ -80,7 +80,8 @@
     },
     "novazole": {
       "id": "tab-novazole-1",
-      "name": "NOVAZOLE",
+      "name": "НОВАЗОЛ"
+,
       "imageKey": "NOVAZOLE",
       "cas": "120511-73-1",
       "shortDescription": "Висококачествени таблетки Анастрозол за ефективен контрол на естрогена и терапия след цикъл.",

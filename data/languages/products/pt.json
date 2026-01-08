@@ -1,7 +1,6 @@
-
 {
   "products": {
-    "femanova-let": {
+    "femanova": {
       "id": "tab-femanova-let-25",
       "name": "FEMANOVA",
       "imageKey": "FEMANOVA",
@@ -40,7 +39,7 @@
         }
       ]
     },
-    "tab-tamonova-20": {
+    "tamonova": {
       "id": "tab-tamonova-20",
       "name": "TAMONOVA",
       "cas": "54965-24-1",
@@ -79,7 +78,7 @@
         }
       ]
     },
-    "tab-novazole-1": {
+    "novazole": {
       "id": "tab-novazole-1",
       "name": "NOVAZOLE",
       "imageKey": "NOVAZOLE",
@@ -118,7 +117,7 @@
         }
       ]
     },
-    "tab-aromanova-25": {
+    "aromanova": {
       "id": "tab-aromanova-25",
       "name": "AROMANOVA",
       "cas": "107868-30-4",
@@ -157,7 +156,7 @@
         }
       ]
     },
-    "tab-enclominova-25": {
+    "enclominova": {
       "id": "tab-enclominova-25",
       "name": "ENCLOMINOVA",
       "imageKey": "ENCLOMINOVA",
@@ -196,7 +195,7 @@
         }
       ]
     },
-    "tab-primonova-25": {
+    "primonova": {
       "id": "tab-primonova-25",
       "name": "PRIMONOVA",
       "imageKey": "PRIMONOVA",
@@ -235,7 +234,7 @@
         }
       ]
     },
-    "tab-supernova-10": {
+    "supernova": {
       "id": "tab-supernova-10",
       "name": "SUPERNOVA",
       "imageKey": "SUPERNOVA",
@@ -274,7 +273,7 @@
         }
       ]
     },
-    "tab-telinova-20": {
+    "telinova": {
       "id": "tab-telinova-20",
       "name": "TELINOVA",
       "imageKey": "TELINOVA",
@@ -313,7 +312,7 @@
         }
       ]
     },
-    "tab-turinova-10": {
+    "turinova": {
       "id": "tab-turinova-10",
       "name": "TURINOVA",
       "imageKey": "TURINOVA",
@@ -352,7 +351,7 @@
         }
       ]
     },
-    "tab-nova-t4-50mcg": {
+    "nova-t4": {
       "id": "tab-nova-t4-50mcg",
       "name": "NOVA_T4",
       "imageKey": "NOVA_T4",
@@ -391,7 +390,7 @@
         }
       ]
     },
-    "tab-cabernova-0.5": {
+    "cabernova": {
       "id": "tab-cabernova-0.5",
       "name": "CABERNOVA",
       "imageKey": "CABERNOVA",
@@ -430,7 +429,7 @@
         }
       ]
     },
-    "tab-halonova-5": {
+    "halonova": {
       "id": "tab-halonova-5",
       "name": "HALONOVA",
       "imageKey": "HALONOVA",
@@ -469,7 +468,7 @@
         }
       ]
     },
-    "tab-nova-t3-50mcg": {
+    "nova-t3": {
       "id": "tab-nova-t3-50mcg",
       "name": "NOVA_T3",
       "imageKey": "NOVA_T3",
@@ -508,7 +507,7 @@
         }
       ]
     },
-    "tab-novabol-10": {
+    "novabol": {
       "id": "tab-novabol-10",
       "name": "NOVABOL",
       "imageKey": "NOVABOL",
@@ -547,7 +546,7 @@
         }
       ]
     },
-    "tab-provinova-25": {
+    "provinova": {
       "id": "tab-provinova-25",
       "name": "PROVINOVA",
       "imageKey": "PROVINOVA",
@@ -586,7 +585,7 @@
         }
       ]
     },
-    "tab-oxydrol-50": {
+    "oxydrol": {
       "id": "tab-oxydrol-50",
       "name": "OXYDROL",
       "imageKey": "OXYDROL",
@@ -625,7 +624,7 @@
         }
       ]
     },
-    "tab-novamoren-10": {
+    "novamoren": {
       "id": "tab-novamoren-10",
       "name": "NOVAMOREN",
       "imageKey": "NOVAMOREN",
@@ -664,7 +663,7 @@
         }
       ]
     },
-    "tab-novameth-10": {
+    "novameth": {
       "id": "tab-novameth-10",
       "name": "NOVAMETH",
       "imageKey": "NOVAMETH",
@@ -703,7 +702,7 @@
         }
       ]
     },
-    "tab-spiroclen-40mcg": {
+    "spiroclen": {
       "id": "tab-spiroclen-40mcg",
       "name": "SPIROCLEN",
       "imageKey": "SPIROCLEN",
@@ -742,7 +741,7 @@
         }
       ]
     },
-    "tab-stanova-10": {
+    "stanova-10": {
       "id": "tab-stanova-10",
       "name": "STANOVA 10",
       "imageKey": "STANOVA 10",
@@ -781,7 +780,51 @@
         }
       ]
     },
-    "tab-clominova-50mg": {
+    "stanova-50": {
+      "id": "tab-stanova-50",
+      "name": "STANOVA50",
+      "imageKey": "STANOVA_50",
+      "category": "Comprimidos",
+      "cas": "10418-03-8",
+      "shortDescription": "STANOVA-50 (Estanozolol 50 mg) comprimidos de grau farmacêutico projetados para desenvolvimento de massa muscular magra, aumento de força, melhoria da vascularidade e desempenho em ciclos de definição.",
+      "description": "STANOVA-50 (Estanozolol 50 mg) é um comprimido oral de esteroide anabólico de alta pureza formulado para apoiar o ganho de massa muscular magra, aumentar a força física e melhorar o desempenho atlético. Reconhecido por produzir ganhos musculares secos e duros sem retenção excessiva de água, STANOVA-50 é um composto preferido durante ciclos de definição e fases de refinamento físico. Sua atividade anabólica promove retenção de nitrogênio e síntese proteica, ajudando os usuários a preservar tecido muscular magro enquanto reduzem a gordura corporal. STANOVA-50 é comumente usado por atletas e fisiculturistas que buscam melhor definição muscular, vascularidade, resistência e eficiência geral de desempenho quando combinado com protocolos estruturados de treinamento e nutrição.",
+      "indication": "STANOVA-50 (Estanozolol 50 mg) é indicado para indivíduos que visam aumentar a massa muscular magra, a produção de força e a definição muscular. É amplamente utilizado em ciclos de definição para promover a dureza muscular, melhorar a aparência vascular e reduzir gordura, mantendo os níveis de desempenho. Na prática médica, o Estanozolol tem sido utilizado sob supervisão estrita para condições como angioedema hereditário e certos distúrbios de desgaste muscular, demonstrando suas propriedades de suporte anabólico.",
+      "presentation": "Forma: Comprimido oral\nDose: 50 mg de Estanozolol por comprimido\nTamanho da embalagem: 10 comprimidos por cartela\nTipo de comprimido: Formulação comprimida de grau farmacêutico\nCategoria de uso: Ciclos de definição, preservação de massa muscular magra, aumento de força e desempenho\nArmazenamento: Armazenar abaixo de 25°C em local fresco e seco, protegido da luz e umidade.",
+      "precautions": "Usar apenas sob supervisão médica ou profissional.\nNão exceder a dosagem recomendada ou a duração do ciclo.\nEvitar o consumo de álcool durante o uso para reduzir o estresse hepático.\nMonitoramento regular da função hepática é fortemente aconselhado.\nManter hidratação adequada e nutrição equilibrada.\nDescontinuar o uso e procurar aconselhamento médico se ocorrerem reações adversas.\nManter fora do alcance de crianças.",
+      "contraindications": "Não usar se for alérgico ao Estanozolol ou a qualquer excipiente do comprimido.\nContraindicado em indivíduos com doença hepática, condições cardiovasculares ou distúrbios sensíveis a hormônios.\nNão recomendado para mulheres grávidas ou em amamentação.\nEvitar o uso em adolescentes ou indivíduos menores de 18 anos.\nNão combinar com outras substâncias hepatotóxicas ou agentes anabólicos sem supervisão.",
+      "images": [],
+      "seoTitle": "Comprimidos Stanova-50 Estanozolol 50 mg – Músculo Magro e Desempenho em Ciclo de Definição",
+      "seoDescription": "Compre comprimidos Stanova-50 (Estanozolol 50 mg) para crescimento muscular magro, aumento de força, ganhos secos, vascularidade e desempenho em ciclo de definição. Comprimidos orais anabólicos de grau farmacêutico.",
+      "seoKeywords": "Stanova-50, Comprimidos de Estanozolol 50 mg, Comprar comprimidos de Estanozolol, Comprimidos orais de Winstrol, Esteróide para ciclo de definição, Comprimidos anabólicos para músculo magro",
+      "seoRobots": "index, follow",
+      "seoCanonical": "https://novatechsciences.com/products/tablets/stanova-50",
+      "schemaBrand": "NovaTech Sciences",
+      "schemaCategory": "Comprimidos Orais de Esteroides Anabólicos",
+      "schemaType": "Product",
+      "faq": [
+        {
+          "question": "Para que STANOVA-50 é principalmente utilizado?",
+          "answer": "STANOVA-50 (Estanozolol 50 mg) é utilizado principalmente para apoiar o desenvolvimento muscular magro, aumentar a força e melhorar a definição muscular. É especialmente popular em ciclos de definição devido à sua capacidade de fornecer ganhos musculares secos e de qualidade sem retenção de água."
+        },
+        {
+          "question": "STANOVA-50 causa retenção de água ou inchaço?",
+          "answer": "Não. STANOVA-50 é bem conhecido por produzir ganhos musculares secos com retenção mínima ou nenhuma de água. Isso o torna uma opção preferida para usuários que buscam uma aparência magra, definida e vascular."
+        },
+        {
+          "question": "Quão rapidamente os resultados podem ser esperados com STANOVA-50?",
+          "answer": "A maioria dos usuários nota melhorias na força, resistência e dureza muscular dentro de 1 a 2 semanas de uso. Melhorias visíveis na definição muscular e na aparência física geral geralmente se desenvolvem dentro de 3 a 4 semanas quando combinadas com dieta adequada e treinamento de resistência."
+        },
+        {
+          "question": "STANOVA-50 é adequado para usuários iniciantes?",
+          "answer": "STANOVA-50 pode ser usado por iniciantes, mas cautela é aconselhada. Iniciantes devem começar com dosagem controlada e duração limitada do ciclo, monitorando a saúde do fígado e a tolerância geral sob orientação profissional."
+        },
+        {
+          "question": "É necessário suporte pós-ciclo após usar STANOVA-50?",
+          "answer": "Sim. Embora STANOVA-50 seja considerado um anabólico oral leve, o suporte pós-ciclo é recomendado para ajudar a restaurar o equilíbrio hormonal natural, manter os ganhos musculares e apoiar a recuperação geral após a conclusão do ciclo."
+        }
+      ]
+    },
+    "clominova": {
       "id": "tab-clominova-50mg",
       "name": "CLOMINOVA",
       "imageKey": "CLOMINOVA",
@@ -820,7 +863,7 @@
         }
       ]
     },
-    "inj-testova-p-100mgml": {
+    "testova-p": {
       "id": "inj-testova-p-100mgml",
       "name": "TESTOVA P",
       "imageKey": "TESTOVA P",
@@ -864,7 +907,7 @@
         }
       ]
     },
-    "inj-sustova-250mgml": {
+    "sustova": {
       "id": "inj-sustova-250mgml",
       "name": "SUSTOVA",
       "imageKey": "SUSTOVA",
@@ -908,7 +951,7 @@
         }
       ]
     },
-    "inj-testova-c-250mgml": {
+    "testova-c": {
       "id": "inj-testova-c-250mgml",
       "name": "TESTOVA C",
       "imageKey": "TESTOVA C",
@@ -952,7 +995,7 @@
         }
       ]
     },
-    "inj-testova-e-250mgml": {
+    "testova-e": {
       "id": "inj-testova-e-250mgml",
       "name": "TESTOVA E",
       "imageKey": "TESTOVA E",
@@ -996,7 +1039,7 @@
         }
       ]
     },
-    "inj-boldenova-250mgml": {
+    "boldenova": {
       "id": "inj-boldenova-250mgml",
       "name": "BOLDENOVA",
       "imageKey": "BOLDENOVA",
@@ -1040,7 +1083,7 @@
         }
       ]
     },
-    "inj-nandrova-d-250mgml": {
+    "nandrova-d": {
       "id": "inj-nandrova-d-250mgml",
       "name": "NANDROVA D",
       "imageKey": "NANDROVA D",
@@ -1084,7 +1127,7 @@
         }
       ]
     },
-    "inj-nandrova-p-100mgml": {
+    "nandrova-p": {
       "id": "inj-nandrova-p-100mgml",
       "name": "NANDROVA P",
       "imageKey": "NANDROVA P",
@@ -1128,7 +1171,7 @@
         }
       ]
     },
-    "inj-trenova-a-100mgml": {
+    "trenova-a": {
       "id": "inj-trenova-a-100mgml",
       "name": "TRENOVA A",
       "imageKey": "TRENOVA A",
@@ -1172,7 +1215,7 @@
         }
       ]
     },
-    "inj-trenova-e-200mgml": {
+    "trenova-e": {
       "id": "inj-trenova-e-200mgml",
       "name": "TRENOVA E",
       "imageKey": "TRENOVA E",
@@ -1216,7 +1259,7 @@
         }
       ]
     },
-    "inj-trenova-hexa-76-5mgml": {
+    "trenovahexa": {
       "id": "inj-trenova-hexa-76-5mgml",
       "name": "TRENOVA HEXA",
       "imageKey": "TRENOVA HEXA",
@@ -1260,7 +1303,7 @@
         }
       ]
     },
-    "inj-drostanova-p-100mgml": {
+    "drostanova-p": {
       "id": "inj-drostanova-p-100mgml",
       "name": "DROSTANOVA P",
       "imageKey": "DROSTANOVA P",
@@ -1304,7 +1347,7 @@
         }
       ]
     },
-    "inj-primonova-100mgml": {
+    "primonova-100mgml": {
       "id": "inj-primonova-100mgml",
       "name": "PRIMONOVA",
       "imageKey": "PRIMONOVA",
@@ -1321,7 +1364,7 @@
       "seoDescription": "O injetável PRIMONOVA da NovaTech Sciences contém Enantato de Metenolona (CAS 303‑40‑4). Fabricante, fornecedor e exportador confiável de suporte anabólico de grau farmacêutico para crescimento muscular, força e desempenho.",
       "seoKeywords": "Enantato de Metenolona 100 mg/ml, Injeção Primonova, enantato de primobolan, comprar metenolona online, primobolan mundial, injeção muscular magra",
       "seoRobots": "index, follow",
-      "seoCanonical": "https://www.novatechsciences.com/products/injectables/primonova",
+      "seoCanonical": "https://www.novatechsciences.com/products/injectables/primonova-100mgml",
       "schemaBrand": "NovaTech Sciences",
       "schemaCategory": "Esteroides Anabólicos Injetáveis",
       "schemaType": "Produto",
@@ -1348,7 +1391,7 @@
         }
       ]
     },
-    "inj-roxonova-50mgml": {
+    "roxonova": {
       "id": "inj-roxonova-50mgml",
       "name": "ROXONOVA",
       "imageKey": "ROXONOVA",
@@ -1392,7 +1435,7 @@
         }
       ]
     },
-    "inj-testova-pp-100mgml": {
+    "testova-pp": {
       "id": "inj-testova-pp-100mgml",
       "name": "TESTOVA PP",
       "imageKey": "TESTOVA PP",
@@ -1436,7 +1479,7 @@
         }
       ]
     },
-    "inj-testova-base-100mgml": {
+    "testova-base": {
       "id": "inj-testova-base-100mgml",
       "name": "TESTOVA BASE",
       "imageKey": "TESTOVA BASE",
@@ -1480,7 +1523,7 @@
         }
       ]
     },
-    "inj-nova-gain-c-650mgml": {
+    "nova-gain-c": {
       "id": "inj-nova-gain-c-650mgml",
       "name": "NOVA GAIN C",
       "imageKey": "NOVA GAIN C",
@@ -1524,7 +1567,7 @@
         }
       ]
     },
-    "inj-nova-cut-mix-450mgml": {
+    "nova-cut-mix": {
       "id": "inj-nova-cut-mix-450mgml",
       "name": "NOVA CUT MIX",
       "imageKey": "NOVA CUT MIX",
