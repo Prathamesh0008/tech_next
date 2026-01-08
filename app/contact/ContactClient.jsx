@@ -24,32 +24,31 @@ export default function ContactClient() {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    setStatus({ type: "", message: t.status.sending });
+const handleSubmit = async (e) => {
+  e.preventDefault();
+  setStatus({ type: "", message: t.status.sending });
 
-    try {
-      await emailjs.send(
-        "service_7a3kidi",
-        "template_82kkgne",
-        formData,
-        "8iM3J39lZhLQbudet"
-      );
+  try {
+    // ✅ ONLY ADMIN EMAIL
+    await emailjs.send(
+      "service_7a3kidi",
+      "template_66zd18f",
+      formData,
+      "xywkeRz6q387pdmhR"
+    );
 
-      await emailjs.send(
-        "service_7a3kidi",
-        "template_siria1f",
-        formData,
-        "8iM3J39lZhLQbudet"
-      );
+    setStatus({ type: "success", message: t.status.success });
+    setFormData({ name: "", email: "", message: "" });
+  } catch (error) {
+    console.error("EmailJS error:", {
+      status: error?.status,
+      text: error?.text,
+    });
+    setStatus({ type: "error", message: t.status.error });
+  }
+};
 
-      setStatus({ type: "success", message: t.status.success });
-      setFormData({ name: "", email: "", message: "" });
-    } catch (error) {
-      console.error("EmailJS error:", error);
-      setStatus({ type: "error", message: t.status.error });
-    }
-  };
+
 
   return (
     <div className="min-h-auto bg-gradient-to-b from-[#f5f9fb] via-[#f3f8fa] to-[#e8f3f8] mt-20">
@@ -75,7 +74,7 @@ export default function ContactClient() {
           <p className="text-gray-600">{t.left.description}</p>
           <div className="flex items-center gap-3 mt-4">
             <Mail className="w-5 h-5 text-[#3386bc]" />
-            <span>info@novatechsciences.com</span>
+            <span>novatechscience@gmail.com</span>
           </div>
         </div>
 

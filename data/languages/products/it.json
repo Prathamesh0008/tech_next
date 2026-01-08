@@ -868,7 +868,7 @@
       "id": "inj-testova-p-100mgml",
       "name": "TESTOVA P",
       "imageKey": "TESTOVA P",
-      "category": "Iniettabili",
+        "category": "Injectables",
       "cas": "57-85-2",
       "description": "TESTOVA P (Testosterone Propionato 100 mg/ml) è uno steroide testosterone iniettabile ad azione rapida utilizzato per la terapia sostitutiva dell'ormone (HRT). Supporta livelli sani di testosterone, forza, libido ed equilibrio ormonale generale sotto supervisione professionale.",
       "indication": "TESTOVA P è indicato per la terapia sostitutiva dell'ormone in maschi adulti che richiedono un rapido innalzamento del testosterone a causa di basso testosterone, affaticamento o squilibrio ormonale. È preferito in contesti clinici per una terapia testosterone ad azione rapida sotto guida professionale.",
@@ -912,7 +912,7 @@
       "id": "inj-sustova-250mgml",
       "name": "SUSTOVA",
       "imageKey": "SUSTOVA",
-      "category": "Iniettabili",
+        "category": "Injectables",
       "cas": "58-22-0",
       "description": "SUSTOVA (Miscela di Testosterone 250 mg/ml) è un testosterone iniettabile di grado farmaceutico progettato per supportare la terapia sostitutiva dell'ormone (HRT). Aiuta a ripristinare i livelli di testosterone, migliorare la vitalità, potenziare la forza e mantenere l'equilibrio ormonale maschile.",
       "indication": "SUSTOVA è indicato per maschi con carenza di testosterone, supportando livelli ormonali equilibrati, migliorando la funzione fisica e metabolica e affrontando sintomi come affaticamento, libido ridotta e perdita muscolare. Utilizzato sotto supervisione professionale per HRT e mantenimento stabile del testosterone.",
@@ -956,7 +956,7 @@
       "id": "inj-testova-c-250mgml",
       "name": "TESTOVA C",
       "imageKey": "TESTOVA C",
-      "category": "Iniettabili",
+        "category": "Injectables",
       "cas": "58-20-8",
       "description": "TESTOVA C (Testosterone Cypionato 250 mg/ml) è uno steroide iniettabile di grado farmaceutico utilizzato per la terapia sostitutiva del testosterone (TRT). Supporta l'equilibrio del testosterone, la forza muscolare, la vitalità e la salute ormonale maschile generale.",
       "indication": "TESTOVA C è indicato per maschi con bassi livelli di testosterone, supportando la terapia sostitutiva del testosterone, il miglioramento della forza, della resistenza, della libido e dell'equilibrio ormonale generale. Ideale per terapia testosterone clinica o supervisionata medicalmente.",
@@ -1000,7 +1000,7 @@
       "id": "inj-testova-e-250mgml",
       "name": "TESTOVA E",
       "imageKey": "TESTOVA E",
-      "category": "Iniettabili",
+        "category": "Injectables",
       "cas": "315-37-7",
       "description": "TESTOVA E (Testosterone Enantato 250 mg/ml) è uno steroide iniettabile di grado farmaceutico utilizzato per la terapia sostitutiva dell'ormone (TRT) e cicli di massa. Supporta la crescita muscolare, la forza, il recupero e un equilibrio ormonale stabile sotto supervisione professionale.",
       "indication": "TESTOVA E è indicato per maschi con bassi livelli di testosterone, supportando la terapia sostitutiva dell'ormone e il potenziamento delle prestazioni. Aiuta a ripristinare il testosterone ottimale, supporta la crescita muscolare, migliora forza, recupero, libido e mantiene livelli ormonali stabili durante protocolli di massa o TRT.",
@@ -1044,7 +1044,7 @@
       "id": "inj-boldenova-250mgml",
       "name": "BOLDENOVA",
       "imageKey": "BOLDENOVA",
-      "category": "Iniettabili",
+        "category": "Injectables",
       "cas": "13103-34-9",
       "description": "Boldenova (Boldenone Undecilenato 250 mg/ml) è uno steroide iniettabile di grado farmaceutico progettato per guadagni di massa muscolare magra, resistenza potenziata, aumento della vascolarità e miglioramento costante delle prestazioni. Popolare tra gli atleti per cicli di massa di qualità, puliti.",
       "indication": "Il Boldenone Undecilenato è indicato per individui che cercano una crescita muscolare magra, lenta e costante di alta qualità, un miglioramento della ritenzione di azoto, una resistenza potenziata e un supporto ormonale equilibrato. Ideale per lunghi cicli di massa e terapia anabolica supervisionata.",
@@ -1084,11 +1084,11 @@
         }
       ]
     },
-    "inj-nandrova-d-250mgml": {
+    "nandrova-d": {
       "id": "inj-nandrova-d-250mgml",
       "name": "NANDROVA D",
       "imageKey": "NANDROVA D",
-      "category": "Iniettabili",
+        "category": "Injectables",
       "cas": "360-70-3",
       "description": "Nandrova D (Nandrolone Decanoato 250 mg/ml) è uno steroide iniettabile di grado farmaceutico progettato per la crescita muscolare magra, il recupero potenziato, il supporto articolare e il miglioramento costante delle prestazioni. Ideale per lunghi cicli di massa sotto supervisione professionale.",
       "indication": "Il Nandrolone Decanoato è indicato per promuovere il recupero muscolare, il potenziamento della forza, la ritenzione di azoto, la produzione di globuli rossi e le prestazioni generali. Adatto per atleti e utenti fitness che richiedono preservazione della massa muscolare magra e supporto articolare durante allenamenti intensivi.",
@@ -1128,11 +1128,11 @@
         }
       ]
     },
-    "inj-nandrova-p-100mgml": {
+    "nandrova-p": {
       "id": "inj-nandrova-p-100mgml",
       "name": "NANDROVA P",
       "imageKey": "NANDROVA P",
-      "category": "Iniettabili",
+        "category": "Injectables",
       "cas": "62-90-8",
       "description": "Nandrova P (Nandrolone Fenilpropionato 100 mg/ml) è uno steroide anabolizzante iniettabile ad azione rapida progettato per uso medico. Supporta il recupero muscolare, la ritenzione di azoto, la produzione di globuli rossi e la terapia di riabilitazione sotto supervisione professionale.",
       "indication": "Il Nandrolone Fenilpropionato è indicato per promuovere il recupero muscolare, migliorare la forza, supportare la ritenzione di azoto, la produzione di globuli rossi e la rigenerazione della massa muscolare magra. È comunemente usato in contesti clinici o terapeutici che richiedono un supporto anabolico ad azione rapida.",
@@ -1172,11 +1172,11 @@
         }
       ]
     },
-    "inj-trenova-a-100mgml": {
+    "trenova-a": {
       "id": "inj-trenova-a-100mgml",
       "name": "TRENOVA A",
       "imageKey": "TRENOVA A",
-      "category": "Iniettabili",
+        "category": "Injectables",
       "cas": "10161-34-9",
       "description": "Trenova A (Trenbolone Acetato 100 mg/ml) è uno steroide anabolizzante iniettabile ad azione rapida destinato ad applicazioni di ricerca avanzata o supervisionate veterinariamente. Supporta lo sviluppo muscolare magro, una migliorata ritenzione di azoto e una sintesi proteica potenziata sotto supervisione professionale.",
       "indication": "Il Trenbolone Acetato è indicato per ambienti di ricerca clinica o veterinaria controllati, supportando lo sviluppo muscolare, la forza, la ritenzione di azoto e l'efficienza metabolica. È strettamente per uso avanzato e supervisionato a causa del suo profilo anabolico-androgenico potente.",
@@ -1216,11 +1216,11 @@
         }
       ]
     },
-    "inj-trenova-e-200mgml": {
+    "trenova-e": {
       "id": "inj-trenova-e-200mgml",
       "name": "TRENOVA E",
       "imageKey": "TRENOVA E",
-      "category": "Iniettabili",
+        "category": "Injectables",
       "cas": "10161-34-9",
       "description": "Trenova E (Trenbolone Enantato 200 mg/ml) è uno steroide anabolizzante iniettabile a lunga durata utilizzato in ambienti medici e di ricerca controllati. Supporta un'attività anabolica sostenuta, la preservazione muscolare magra, la ritenzione di azoto e la sintesi proteica sotto supervisione professionale.",
       "indication": "Il Trenbolone Enantato è indicato per il recupero muscolare avanzato, il supporto alla forza e la terapia anabolica in contesti di ricerca o clinici. Il suo profilo a rilascio prolungato permette un'attività anabolica stabile, supportando la preservazione muscolare magra, la ritenzione di azoto, la sintesi proteica e la riabilitazione.",
@@ -1260,11 +1260,11 @@
         }
       ]
     },
-    "inj-trenova-hexa-76-5mgml": {
+    "trenovahexa": {
       "id": "inj-trenova-hexa-76-5mgml",
       "name": "TRENOVA HEXA",
       "imageKey": "TRENOVA HEXA",
-      "category": "Iniettabili",
+        "category": "Injectables",
       "cas": "23454-33-3",
       "description": "Trenova Hexa (Trenbolone Esaidrobenzilcarbonato 76,5 mg/ml) è uno steroide anabolizzante iniettabile a lunga durata utilizzato in ambienti di potenziamento delle prestazioni avanzate e ricerca clinica. Promuove la massa muscolare magra, la ritenzione di azoto, la produzione di globuli rossi e una forza sostenuta sotto supervisione controllata.",
       "indication": "Il Trenbolone Esaidrobenzilcarbonato è principalmente indicato per promuovere la massa muscolare magra, migliorare la ritenzione di azoto, potenziare la forza generale e supportare la produzione di globuli rossi. Il suo profilo a rilascio prolungato lo rende adatto per protocolli anabolici a lungo ciclo che richiedono un'attività ormonale sostenuta.",
@@ -1304,11 +1304,11 @@
         }
       ]
     },
-    "inj-drostanova-p-100mgml": {
+    "drostanova-p": {
       "id": "inj-drostanova-p-100mgml",
       "name": "DROSTANOVA P",
       "imageKey": "DROSTANOVA P",
-      "category": "Iniettabili",
+        "category": "Injectables",
       "cas": "521-12-0",
       "description": "Drostanova P (Drostanolone Propionato 100 mg/ml) è un'iniezione steroidea anabolica e androgenica avanzata indicata per il rafforzamento muscolare magro, il supporto alla perdita di grasso e il recupero muscolare legato agli androgeni. È ampiamente usato durante cicli di definizione per l'indurimento muscolare, il potenziamento della forza e il condizionamento del fisico sotto supervisione medica.",
       "indication": "Il Drostanolone Propionato è indicato per la preservazione muscolare magra, il supporto alla perdita di grasso, l'indurimento muscolare e il recupero legato agli androgeni. La sua attività antiestrogenica lo rende altamente efficace nei cicli di definizione, nel potenziamento della forza e nei protocolli di preparazione alle gare sotto supervisione professionale.",
@@ -1348,11 +1348,11 @@
         }
       ]
     },
-    "inj-primonova-100mgml": {
+    "primonova-100mgml": {
       "id": "inj-primonova-100mgml",
       "name": "PRIMONOVA",
       "imageKey": "PRIMONOVA",
-      "category": "Iniettabili",
+        "category": "Injectables",
       "cas": "303-40-4",
       "description": "Primonova (Metenolone Enantato 100 mg/ml) è uno steroide anabolizzante iniettabile a lunga durata ampiamente usato per la preservazione della massa muscolare magra, il potenziamento della forza e il supporto al recupero durante cicli di definizione. Promuove guadagni muscolari asciutti e di alta qualità, una resistenza migliorata e prestazioni anaboliche stabili senza eccessiva ritenzione idrica.",
       "indication": "Il Metenolone Enantato è indicato per la preservazione della massa muscolare magra, il potenziamento della forza, il miglioramento della resistenza e il supporto al recupero durante cicli di definizione. Fornisce effetti anabolici miti ma costanti con un'ottima sicurezza sotto supervisione medica.",
@@ -1365,7 +1365,7 @@
       "seoDescription": "L'iniettabile PRIMONOVA di NovaTech Sciences contiene Metenolone Enantato (CAS 303‑40‑4). Produttore, fornitore ed esportatore affidabile di supporto anabolizzante di grado farmaceutico per crescita muscolare, forza e prestazioni.",
       "seoKeywords": "Metenolone Enantato 100 mg/ml, Iniezione Primonova, primobolan enantato, acquista metenolone online, primobolan mondiale, iniezione muscolo magro",
       "seoRobots": "index, follow",
-      "seoCanonical": "https://www.novatechsciences.com/products/injectables/primonova",
+      "seoCanonical": "https://www.novatechsciences.com/products/injectables/primonova-100mgml",
       "schemaBrand": "NovaTech Sciences",
       "schemaCategory": "Steroidi Anabolizzanti Iniettabili",
       "schemaType": "Product",
@@ -1392,11 +1392,11 @@
         }
       ]
     },
-    "inj-roxonova-50mgml": {
+    "roxonova": {
       "id": "inj-roxonova-50mgml",
       "name": "ROXONOVA",
       "imageKey": "ROXONOVA",
-      "category": "Iniettabili",
+        "category": "Injectables",
       "cas": "10418-03-8",
       "description": "Roxonova (Stanozololo 50 mg/ml) è uno steroide anabolizzante iniettabile ampiamente usato per la preservazione della massa muscolare magra, il potenziamento della forza, il miglioramento della resistenza e il supporto al recupero. È molto apprezzato nei cicli di definizione per produrre guadagni muscolari asciutti e duri senza ritenzione idrica e supportare la produzione di globuli rossi sotto supervisione medica.",
       "indication": "L'iniezione di Stanozololo è indicata per la preservazione della massa muscolare magra, il potenziamento della forza, il miglioramento della resistenza e il supporto al recupero in protocolli terapeutici e basati sulle prestazioni. È comunemente usato durante cicli di definizione per promuovere l'indurimento muscolare e la perdita di grasso.",
@@ -1436,11 +1436,11 @@
         }
       ]
     },
-    "inj-testova-pp-100mgml": {
+    "testova-pp": {
       "id": "inj-testova-pp-100mgml",
       "name": "TESTOVA PP",
       "imageKey": "TESTOVA PP",
-      "category": "Iniettabili",
+        "category": "Injectables",
       "cas": "1255-49-8",
       "description": "Testova PP (Testosterone Fenilpropionato 100 mg/ml) è uno steroide anabolizzante iniettabile ad azione rapida ampiamente usato nella terapia sostitutiva dell'ormone, trattamento dell'ipogonadismo maschile, pubertà ritardata e condizioni di spreco muscolare. Grazie al suo estere corto, fornisce un rapido rilascio di testosterone, supportando lo sviluppo muscolare magro, la forza, la libido e i livelli di energia sotto supervisione medica.",
       "indication": "Il Testosterone Fenilpropionato è indicato per l'ipogonadismo maschile, i disturbi da carenza androgenica, la pubertà ritardata, le malattie di spreco muscolare e i protocolli controllati di recupero della forza. Il suo estere corto permette una risposta ormonale rapida e un migliore controllo durante la terapia sostitutiva del testosterone.",
@@ -1480,11 +1480,11 @@
         }
       ]
     },
-    "inj-testova-base-100mgml": {
+    "testova-base": {
       "id": "inj-testova-base-100mgml",
       "name": "TESTOVA BASE",
       "imageKey": "TESTOVA BASE",
-      "category": "Iniettabili",
+        "category": "Injectables",
       "cas": "58-22-0",
       "description": "Testova Base (Sospensione di Testosterone 100 mg/ml) è uno steroide testosterone iniettabile ad azione rapida a base acquosa usato per ipogonadismo, pubertà ritardata, squilibrio ormonale e disturbi di spreco muscolare supervisionati medicalmente. Fornisce un rapido assorbimento del testosterone per effetti anabolici immediati.",
       "indication": "Testova Base è indicato per ipogonadismo maschile, bassi livelli di testosterone, pubertà ritardata e squilibrio ormonale. La sua formulazione a base acquosa garantisce un rapido assorbimento del testosterone e effetti anabolici immediati sotto supervisione medica.",
@@ -1524,11 +1524,11 @@
         }
       ]
     },
-    "inj-nova-gain-c-650mgml": {
+    "nova-gain-c": {
       "id": "inj-nova-gain-c-650mgml",
       "name": "NOVA GAIN C",
       "imageKey": "NOVA GAIN C",
-      "category": "Iniettabili",
+        "category": "Injectables",
       "cas": "Varies (multi-compound blend)",
       "description": "Nova Gain C è una miscela iniettabile di steroidi anabolizzanti ad alta potenza contenente testosterone, nandrolone e boldenone. Supporta la crescita muscolare magra, la ritenzione di azoto, il potenziamento della forza e il recupero fisico sotto supervisione medica in protocolli clinici o basati sulle prestazioni.",
       "indication": "Indicato per grave spreco muscolare, recupero da traumi, squilibrio ormonale e carenza di testosterone. Fornisce un potente supporto anabolico e androgenico per massa muscolare progressiva, forza e recupero sotto supervisione professionale.",
@@ -1568,11 +1568,11 @@
         }
       ]
     },
-    "inj-nova-cut-mix-450mgml": {
+    "nova-cut-mix": {
       "id": "inj-nova-cut-mix-450mgml",
       "name": "NOVA CUT MIX",
       "imageKey": "NOVA CUT MIX",
-      "category": "Iniettabili",
+        "category": "Injectables",
       "cas": "Varies (multi-compound blend)",
       "description": "Nova Cut Mix è un'iniezione di steroidi per definizione ad alta potenza che combina testosterone propionato, trenbolone acetato e drostanolone propionato. Supporta la perdita di grasso, la preservazione muscolare magra, il potenziamento della forza e un'aggressiva definizione muscolare durante cicli pre-gara o di ricomposizione sotto supervisione professionale.",
       "indication": "Indicato per supporto anabolico avanzato in cicli di definizione, condizionamento pre-gara e recupero della forza. Promuove la ritenzione muscolare magra, la durezza, le prestazioni metaboliche e una definizione aggressiva durante brevi protocolli steroidei focalizzati sulle prestazioni.",

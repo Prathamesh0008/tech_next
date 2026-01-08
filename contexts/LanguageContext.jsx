@@ -41,6 +41,7 @@ import ruProducts from "../data/languages/products/ru.json";
 import sqProducts from "../data/languages/products/sq.json";
 import srProducts from "../data/languages/products/sr.json";
 import zhProducts from "../data/languages/products/zh.json";
+// import nlProducts from "../data/languages/products/nl.json";
 
 
 // ✅ LANGUAGE MAP
@@ -82,6 +83,7 @@ const productLanguages = {
   sq: sqProducts,
   sr: srProducts,
   zh: zhProducts,
+  // nl: nlProducts,
 };
 
 

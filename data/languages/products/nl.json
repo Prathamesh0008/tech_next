@@ -1,6 +1,6 @@
 {
   "products": {
-    "tab-femanova-let-25": {
+    "femanova": {
       "id": "tab-femanova-let-25",
       "name": "FEMANOVA",
       "imageKey": "FEMANOVA",
@@ -39,7 +39,7 @@
         }
       ]
     },
-    "tab-tamonova-20": {
+    "tamonova": {
       "id": "tab-tamonova-20",
       "name": "TAMONOVA",
       "cas": "54965-24-1",
@@ -78,7 +78,7 @@
         }
       ]
     },
-    "tab-novazole-1": {
+    "novazole": {
       "id": "tab-novazole-1",
       "name": "NOVAZOLE",
       "imageKey": "NOVAZOLE",
@@ -117,7 +117,7 @@
         }
       ]
     },
-    "tab-aromanova-25": {
+    "aromanova": {
       "id": "tab-aromanova-25",
       "name": "AROMANOVA",
       "cas": "107868-30-4",
@@ -156,7 +156,7 @@
         }
       ]
     },
-    "tab-enclominova-25": {
+    "enclominova": {
       "id": "tab-enclominova-25",
       "name": "ENCLOMINOVA",
       "imageKey": "ENCLOMINOVA",
@@ -195,7 +195,7 @@
         }
       ]
     },
-    "tab-primonova-25": {
+    "primonova": {
       "id": "tab-primonova-25",
       "name": "PRIMONOVA",
       "imageKey": "PRIMONOVA",
@@ -234,7 +234,7 @@
         }
       ]
     },
-    "tab-supernova-10": {
+    "supernova": {
       "id": "tab-supernova-10",
       "name": "SUPERNOVA",
       "imageKey": "SUPERNOVA",
@@ -273,7 +273,7 @@
         }
       ]
     },
-    "tab-telinova-20": {
+    "telinova": {
       "id": "tab-telinova-20",
       "name": "TELINOVA",
       "imageKey": "TELINOVA",
@@ -312,7 +312,7 @@
         }
       ]
     },
-    "tab-turinova-10": {
+    "turinova": {
       "id": "tab-turinova-10",
       "name": "TURINOVA",
       "imageKey": "TURINOVA",
@@ -351,7 +351,7 @@
         }
       ]
     },
-    "tab-nova-t4-50mcg": {
+    "nova-t4": {
       "id": "tab-nova-t4-50mcg",
       "name": "NOVA_T4",
       "imageKey": "NOVA_T4",
@@ -391,7 +391,7 @@
       ]
     },
     
-    "tab-cabernova-0.5": {
+    "cabernova": {
       "id": "tab-cabernova-0.5",
       "name": "CABERNOVA",
       "imageKey": "CABERNOVA",
@@ -430,7 +430,7 @@
         }
       ]
     },
-    "tab-halonova-5": {
+    "halonova": {
       "id": "tab-halonova-5",
       "name": "HALONOVA",
       "imageKey": "HALONOVA",
@@ -469,7 +469,7 @@
         }
       ]
     },
-    "tab-nova-t3-50mcg": {
+    "nova-t3": {
       "id": "tab-nova-t3-50mcg",
       "name": "NOVA_T3",
       "imageKey": "NOVA_T3",
@@ -508,7 +508,7 @@
         }
       ]
     },
-    "tab-novabol-10": {
+    "novabol": {
       "id": "tab-novabol-10",
       "name": "NOVABOL",
       "imageKey": "NOVABOL",
@@ -547,7 +547,7 @@
         }
       ]
     },
-    "tab-provinova-25": {
+    "provinova": {
       "id": "tab-provinova-25",
       "name": "PROVINOVA",
       "imageKey": "PROVINOVA",
@@ -586,7 +586,7 @@
         }
       ]
     },
-    "tab-oxydrol-50": {
+    "oxydrol": {
       "id": "tab-oxydrol-50",
       "name": "OXYDROL",
       "imageKey": "OXYDROL",
@@ -626,7 +626,7 @@
       ]
     },
     
-  "tab-novamoren-10": {
+  "novamoren": {
     "id": "tab-novamoren-10",
     "name": "NOVAMOREN",
     "imageKey": "NOVAMOREN",
@@ -665,7 +665,7 @@
       }
     ]
   },
-  "tab-novameth-10": {
+  "novameth": {
     "id": "tab-novameth-10",
     "name": "NOVAMETH",
     "imageKey": "NOVAMETH",
@@ -704,7 +704,7 @@
       }
     ]
   },
-  "tab-spiroclen-40mcg": {
+  "spiroclen": {
     "id": "tab-spiroclen-40mcg",
     "name": "SPIROCLEN",
     "imageKey": "SPIROCLEN",
@@ -743,7 +743,7 @@
       }
     ]
   },
-  "tab-stanova-10": {
+  "stanova-10": {
     "id": "tab-stanova-10",
     "name": "STANOVA 10",
     "imageKey": "STANOVA 10",
@@ -782,7 +782,7 @@
       }
     ]
   },
-  "tab-clominova-50mg": {
+  "clominova": {
     "id": "tab-clominova-50mg",
     "name": "CLOMINOVA",
     "imageKey": "CLOMINOVA",
@@ -821,7 +821,7 @@
       }
     ]
   },
-  "inj-testova-p-100mgml": {
+  "testova-p": {
     "id": "inj-testova-p-100mgml",
     "name": "TESTOVA P",
     "imageKey": "TESTOVA P",
@@ -865,7 +865,7 @@
       }
     ]
   },
-  "inj-sustova-250mgml": {
+  "sustova": {
     "id": "inj-sustova-250mgml",
     "name": "SUSTOVA",
     "imageKey": "SUSTOVA",
@@ -909,7 +909,7 @@
       }
     ]
   },
-  "inj-testova-c-250mgml": {
+  "testova-c": {
     "id": "inj-testova-c-250mgml",
     "name": "TESTOVA C",
     "imageKey": "TESTOVA C",
@@ -953,7 +953,7 @@
       }
     ]
   },
-  "inj-testova-e-250mgml": {
+  "testova-e": {
     "id": "inj-testova-e-250mgml",
     "name": "TESTOVA E",
     "imageKey": "TESTOVA E",
@@ -997,7 +997,7 @@
       }
     ]
   },
-  "inj-boldenova-250mgml": {
+  "boldenova": {
     "id": "inj-boldenova-250mgml",
     "name": "BOLDENOVA",
     "imageKey": "BOLDENOVA",
@@ -1041,7 +1041,7 @@
       }
     ]
   },
-  "inj-nandrova-d-250mgml": {
+  "nandrova-d": {
     "id": "inj-nandrova-d-250mgml",
     "name": "NANDROVA D",
     "imageKey": "NANDROVA D",
@@ -1085,7 +1085,7 @@
       }
     ]
   },
-  "inj-nandrova-p-100mgml": {
+  "nandrova-p": {
     "id": "inj-nandrova-p-100mgml",
     "name": "NANDROVA P",
     "imageKey": "NANDROVA P",
@@ -1129,7 +1129,7 @@
       }
     ]
   },
-  "inj-trenova-a-100mgml": {
+  "trenova-a": {
     "id": "inj-trenova-a-100mgml",
     "name": "TRENOVA A",
     "imageKey": "TRENOVA A",
@@ -1173,7 +1173,7 @@
       }
     ]
   },
-  "inj-trenova-e-200mgml": {
+  "trenova-e": {
     "id": "inj-trenova-e-200mgml",
     "name": "TRENOVA E",
     "imageKey": "TRENOVA E",
@@ -1217,7 +1217,7 @@
       }
     ]
   },
-  "inj-trenova-hexa-76-5mgml": {
+  "trenovahexa": {
     "id": "inj-trenova-hexa-76-5mgml",
     "name": "TRENOVA HEXA",
     "imageKey": "TRENOVA HEXA",
@@ -1261,7 +1261,7 @@
       }
     ]
   },
-  "inj-drostanova-p-100mgml": {
+  "drostanova-p": {
     "id": "inj-drostanova-p-100mgml",
     "name": "DROSTANOVA P",
     "imageKey": "DROSTANOVA P",
@@ -1305,7 +1305,7 @@
       }
     ]
   },
-  "inj-primonova-100mgml": {
+  "primonova-100mgml": {
     "id": "inj-primonova-100mgml",
     "name": "PRIMONOVA",
     "imageKey": "PRIMONOVA",
@@ -1322,7 +1322,7 @@
     "seoDescription": "PRIMONOVA Injecteerbaar van NovaTech Sciences bevat Methenolon Enanthaat (CAS 303‑40‑4). Betrouwbare fabrikant, leverancier en exporteur van farmaceutisch kwaliteit anabole ondersteuning voor spiergroei, kracht en prestaties.",
     "seoKeywords": "Methenolon Enanthaat 100 mg/ml, Primonova injectie, primobolan enanthaat, koop methenolon online, primobolan wereldwijd, droge spier injectie",
     "seoRobots": "index, follow",
-    "seoCanonical": "https://www.novatechsciences.com/products/injectables/primonova",
+    "seoCanonical": "https://www.novatechsciences.com/products/injectables/primonova-100mgml",
     "schemaBrand": "NovaTech Sciences",
     "schemaCategory": "Injecteerbare Anabole Steroïden",
     "schemaType": "Product",
@@ -1349,7 +1349,7 @@
       }
     ]
   },
-  "inj-roxonova-50mgml": {
+  "roxonova": {
     "id": "inj-roxonova-50mgml",
     "name": "ROXONOVA",
     "imageKey": "ROXONOVA",
@@ -1393,7 +1393,7 @@
       }
     ]
   },
-  "inj-testova-pp-100mgml": {
+  "testova-pp": {
     "id": "inj-testova-pp-100mgml",
     "name": "TESTOVA PP",
     "imageKey": "TESTOVA PP",
@@ -1437,7 +1437,7 @@
       }
     ]
   },
-  "inj-testova-base-100mgml": {
+  "testova-base-": {
     "id": "inj-testova-base-100mgml",
     "name": "TESTOVA BASE",
     "imageKey": "TESTOVA BASE",
@@ -1481,7 +1481,7 @@
       }
     ]
   },
-  "inj-nova-gain-c-650mgml": {
+  "nova-gain-c": {
     "id": "inj-nova-gain-c-650mgml",
     "name": "NOVA GAIN C",
     "imageKey": "NOVA GAIN C",
@@ -1525,7 +1525,7 @@
       }
     ]
   },
-  "inj-nova-cut-mix-450mgml": {
+  "nova-cut-mix": {
     "id": "inj-nova-cut-mix-450mgml",
     "name": "NOVA CUT MIX",
     "imageKey": "NOVA CUT MIX",

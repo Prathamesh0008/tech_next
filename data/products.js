@@ -15,6 +15,7 @@ import sq from "./languages/products/sq.json";
 import sr from "./languages/products/sr.json";
 import zh from "./languages/products/zh.json";
 import it from "./languages/products/it.json";
+// import nl from "./languages/products/nl.json";
 
 
 const PRODUCT_MAP = {
@@ -33,6 +34,7 @@ const PRODUCT_MAP = {
   sr,
   zh,
   it,
+  
 
 };
 

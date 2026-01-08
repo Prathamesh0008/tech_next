@@ -7,23 +7,25 @@ import { useLanguage } from "../contexts/LanguageContext";
 /* ================= LANGUAGES ================= */
 const languages = [
   { code: "en", label: "English", country: "gb" },
-  { code: "es", label: "Español", country: "es" },
-  { code: "fr", label: "Français", country: "fr" },
-  { code: "de", label: "Deutsch", country: "de" },
-  { code: "it", label: "Italiano", country: "it" },
-  { code: "pt", label: "Português", country: "pt" },
-  { code: "ar", label: "العربية", country: "sa" },
-  { code: "ru", label: "Русский", country: "ru" },
-  { code: "zh", label: "中文", country: "cn" },
-  { code: "ro", label: "Română", country: "ro" },
-  { code: "sq", label: "Shqip", country: "al" },
-  { code: "el", label: "Ελληνικά", country: "gr" },
-  { code: "bg", label: "Български", country: "bg" },
-  { code: "mk", label: "Македонски", country: "mk" },
-  { code: "sr", label: "Српски", country: "rs" },
-  { code: "hr", label: "Hrvatski", country: "hr" },
-  { code: "bs", label: "Bosanski", country: "ba" },
+  { code: "es", label: "Spanish", country: "es" },
+  { code: "fr", label: "French", country: "fr" },
+  { code: "de", label: "German", country: "de" },
+  { code: "it", label: "Italian", country: "it" },
+  { code: "pt", label: "Portuguese", country: "pt" },
+  { code: "ar", label: "Arabic", country: "sa" },
+  { code: "ru", label: "Russian", country: "ru" },
+  { code: "zh", label: "Chinese", country: "cn" },
+  { code: "ro", label: "Romanian", country: "ro" },
+  { code: "sq", label: "Albanian", country: "al" },
+  { code: "el", label: "Greek", country: "gr" },
+  { code: "bg", label: "Bulgarian", country: "bg" },
+  { code: "mk", label: "Macedonian", country: "mk" },
+  { code: "sr", label: "Serbian", country: "rs" },
+  { code: "hr", label: "Croatian", country: "hr" },
+  { code: "bs", label: "Bosnian", country: "ba" },
+  { code: "nl", label: "dutch", country: "nl" },
 ];
+
 
 /* ================= FLAG COMPONENT ================= */
 const Flag = ({ country }) => (

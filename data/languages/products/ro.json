@@ -1,7 +1,7 @@
 
 {
   "products": {
-    "tab-femanova-let-25": {
+    "femanova": {
       "id": "tab-femanova-let-25",
       "name": "FEMANOVA",
       "imageKey": "FEMANOVA",
@@ -40,7 +40,7 @@
         }
       ]
     },
-    "tab-tamonova-20": {
+    "tamonova": {
       "id": "tab-tamonova-20",
       "name": "TAMONOVA",
       "cas": "54965-24-1",
@@ -79,7 +79,7 @@
         }
       ]
     },
-    "tab-novazole-1": {
+    "novazole": {
       "id": "tab-novazole-1",
       "name": "NOVAZOLE",
       "imageKey": "NOVAZOLE",
@@ -118,7 +118,7 @@
         }
       ]
     },
-    "tab-aromanova-25": {
+    "aromanova": {
       "id": "tab-aromanova-25",
       "name": "AROMANOVA",
       "cas": "107868-30-4",
@@ -157,7 +157,7 @@
         }
       ]
     },
-    "tab-enclominova-25": {
+    "enclominova": {
       "id": "tab-enclominova-25",
       "name": "ENCLOMINOVA",
       "imageKey": "ENCLOMINOVA",
@@ -196,7 +196,7 @@
         }
       ]
     },
-    "tab-primonova-25": {
+    "primonova": {
       "id": "tab-primonova-25",
       "name": "PRIMONOVA",
       "imageKey": "PRIMONOVA",
@@ -235,7 +235,7 @@
         }
       ]
     },
-    "tab-supernova-10": {
+    "supernova": {
       "id": "tab-supernova-10",
       "name": "SUPERNOVA",
       "imageKey": "SUPERNOVA",
@@ -274,7 +274,7 @@
         }
       ]
     },
-    "tab-telinova-20": {
+    "telinova": {
       "id": "tab-telinova-20",
       "name": "TELINOVA",
       "imageKey": "TELINOVA",
@@ -313,7 +313,7 @@
         }
       ]
     },
-    "tab-turinova-10": {
+    "turinova": {
       "id": "tab-turinova-10",
       "name": "TURINOVA",
       "imageKey": "TURINOVA",
@@ -352,7 +352,7 @@
         }
       ]
     },
-    "tab-nova-t4-50mcg": {
+    "nova-t4": {
       "id": "tab-nova-t4-50mcg",
       "name": "NOVA_T4",
       "imageKey": "NOVA_T4",
@@ -391,7 +391,7 @@
         }
       ]
     },
-    "tab-cabernova-0.5": {
+    "cabernova": {
       "id": "tab-cabernova-0.5",
       "name": "CABERNOVA",
       "imageKey": "CABERNOVA",
@@ -430,7 +430,7 @@
         }
       ]
     },
-    "tab-halonova-5": {
+    "halonova": {
       "id": "tab-halonova-5",
       "name": "HALONOVA",
       "imageKey": "HALONOVA",
@@ -469,7 +469,7 @@
         }
       ]
     },
-    "tab-nova-t3-50mcg": {
+    "nova-t3": {
       "id": "tab-nova-t3-50mcg",
       "name": "NOVA_T3",
       "imageKey": "NOVA_T3",
@@ -508,7 +508,7 @@
         }
       ]
     },
-    "tab-novabol-10": {
+    "novabol": {
       "id": "tab-novabol-10",
       "name": "NOVABOL",
       "imageKey": "NOVABOL",
@@ -547,7 +547,7 @@
         }
       ]
     },
-    "tab-provinova-25": {
+    "provinova": {
       "id": "tab-provinova-25",
       "name": "PROVINOVA",
       "imageKey": "PROVINOVA",
@@ -586,7 +586,7 @@
         }
       ]
     },
-    "tab-oxydrol-50": {
+    "oxydrol": {
       "id": "tab-oxydrol-50",
       "name": "OXYDROL",
       "imageKey": "OXYDROL",
@@ -625,7 +625,7 @@
         }
       ]
     },
-    "tab-novamoren-10": {
+    "novamoren": {
       "id": "tab-novamoren-10",
       "name": "NOVAMOREN",
       "imageKey": "NOVAMOREN",
@@ -664,7 +664,7 @@
         }
       ]
     },
-    "tab-novameth-10": {
+    "novameth": {
       "id": "tab-novameth-10",
       "name": "NOVAMETH",
       "imageKey": "NOVAMETH",
@@ -703,7 +703,7 @@
         }
       ]
     },
-    "tab-spiroclen-40mcg": {
+    "spiroclen": {
       "id": "tab-spiroclen-40mcg",
       "name": "SPIROCLEN",
       "imageKey": "SPIROCLEN",
@@ -742,7 +742,7 @@
         }
       ]
     },
-    "tab-stanova-10": {
+    "stanova-10": {
       "id": "tab-stanova-10",
       "name": "STANOVA 10",
       "imageKey": "STANOVA 10",
@@ -826,7 +826,7 @@
     }
   ]
 },
-    "tab-clominova-50mg": {
+    "clominova": {
       "id": "tab-clominova-50mg",
       "name": "CLOMINOVA",
       "imageKey": "CLOMINOVA",
@@ -865,11 +865,11 @@
         }
       ]
     },
-    "inj-testova-p-100mgml": {
+    "testova-p": {
       "id": "inj-testova-p-100mgml",
       "name": "TESTOVA P",
       "imageKey": "TESTOVA P",
-      "category": "Injectabile",
+       "category": "Injectables",
       "cas": "57-85-2",
       "description": "TESTOVA P (Testosteron Propionat 100 mg/ml) este un steroid testosteron injectabil cu acțiune rapidă utilizat pentru terapia de substituție hormonală (HRT). Sprijină niveluri sănătoase de testosteron, forță, libido și echilibru hormonal general sub supraveghere profesională.",
       "indication": "TESTOVA P este indicată pentru terapia de substituție hormonală la bărbații adulți care necesită creșterea rapidă a testosteronului din cauza nivelurilor scăzute de testosteron, oboselii sau dezechilibrului hormonal. Este preferată în mediile clinice pentru terapia testosteronică cu acțiune rapidă sub îndrumare profesională.",
@@ -909,11 +909,11 @@
         }
       ]
     },
-    "inj-sustova-250mgml": {
+    "sustova": {
       "id": "inj-sustova-250mgml",
       "name": "SUSTOVA",
       "imageKey": "SUSTOVA",
-      "category": "Injectabile",
+       "category": "Injectables",
       "cas": "58-22-0",
       "description": "SUSTOVA (Amestec Testosteron 250 mg/ml) este un testosteron injectabil farmaceutic conceput pentru a sprijini terapia de substituție hormonală (HRT). Ajută la restabilirea nivelurilor de testosteron, îmbunătățește vitalitatea, forța și menține echilibrul hormonal masculin.",
       "indication": "SUSTOVA este indicată pentru bărbații cu deficiență de testosteron, sprijinind niveluri hormonale echilibrate, funcția fizică și metabolică îmbunătățită și abordând simptome precum oboseala, libidoul redus și pierderea musculară. Utilizată sub supraveghere profesională pentru HRT și menținerea stabilă a testosteronului.",
@@ -953,11 +953,11 @@
         }
       ]
     },
-    "inj-testova-c-250mgml": {
+    "testova-c": {
       "id": "inj-testova-c-250mgml",
       "name": "TESTOVA C",
       "imageKey": "TESTOVA C",
-      "category": "Injectabile",
+       "category": "Injectables",
       "cas": "58-20-8",
       "description": "TESTOVA C (Testosteron Cipionat 250 mg/ml) este un steroid injectabil farmaceutic utilizat pentru terapia de substituție cu testosteron (TRT). Sprijină echilibrul testosteronic, forța musculară, vitalitatea și sănătatea hormonală masculină generală.",
       "indication": "TESTOVA C este indicată pentru bărbații cu niveluri scăzute de testosteron, sprijinind terapia de substituție hormonală, forța, stamina, libidoul și echilibrul hormonal general. Ideal pentru terapia testosteronică clinică sau supravegheată medical.",
@@ -997,11 +997,11 @@
         }
       ]
     },
-    "inj-testova-e-250mgml": {
+    "testova-e": {
       "id": "inj-testova-e-250mgml",
       "name": "TESTOVA E",
       "imageKey": "TESTOVA E",
-      "category": "Injectabile",
+       "category": "Injectables",
       "cas": "315-37-7",
       "description": "TESTOVA E (Testosteron Enantat 250 mg/ml) este un steroid injectabil farmaceutic utilizat pentru terapia de substituție hormonală (TRT) și ciclurile de bulking. Sprijină creșterea musculară, forța, recuperarea și echilibrul hormonal stabil sub supraveghere profesională.",
       "indication": "TESTOVA E este indicată pentru bărbații cu niveluri scăzute de testosteron, sprijinind terapia de substituție hormonală și îmbunătățirea performanței. Ajută la restabilirea testosteronului optim, sprijină creșterea musculară, îmbunătățește forța, recuperarea, libidoul și menține niveluri hormonale stabile în timpul protocoalelor de bulking sau TRT.",
@@ -1041,11 +1041,11 @@
         }
       ]
     },
-    "inj-boldenova-250mgml": {
+    "boldenova": {
       "id": "inj-boldenova-250mgml",
       "name": "BOLDENOVA",
       "imageKey": "BOLDENOVA",
-      "category": "Injectabile",
+       "category": "Injectables",
       "cas": "13103-34-9",
       "description": "Boldenova (Boldenonă Undecilenat 250 mg/ml) este un steroid injectabil farmaceutic conceput pentru câștiguri musculare slabe, rezistență sporită, vascularitate crescută și îmbunătățirea performanței constante. Popular printre atleți pentru cicluri de bulking curate și de înaltă calitate.",
       "indication": "Boldenona Undecilenat este indicată pentru persoanele care caută creștere musculară slabă, constantă, de înaltă calitate, îmbunătățirea retenției de azot, rezistență sporită și suport hormonal echilibrat. Ideal pentru cicluri de bulking lungi și terapie anabolică supravegheată.",
@@ -1085,11 +1085,11 @@
         }
       ]
     },
-    "inj-nandrova-d-250mgml": {
+    "nandrova-d": {
       "id": "inj-nandrova-d-250mgml",
       "name": "NANDROVA D",
       "imageKey": "NANDROVA D",
-      "category": "Injectabile",
+       "category": "Injectables",
       "cas": "360-70-3",
       "description": "Nandrova D (Nandrolonă Decanoat 250 mg/ml) este un steroid injectabil farmaceutic conceput pentru creștere musculară slabă, recuperare sporită, suport articular și îmbunătățirea performanței susținute. Ideal pentru cicluri de bulking lungi sub supraveghere profesională.",
       "indication": "Nandrolona Decanoat este indicată pentru promovarea recuperării musculare, îmbunătățirea forței, retenția de azot, producția de celule roșii din sânge și performanța generală. Potrivită pentru atleți și utilizatori de fitness care necesită păstrarea masei musculare slabe și suport articular în timpul antrenamentului intensiv.",
@@ -1129,11 +1129,11 @@
         }
       ]
     },
-    "inj-nandrova-p-100mgml": {
+    "nandrova-p": {
       "id": "inj-nandrova-p-100mgml",
       "name": "NANDROVA P",
       "imageKey": "NANDROVA P",
-      "category": "Injectabile",
+       "category": "Injectables",
       "cas": "62-90-8",
       "description": "Nandrova P (Nandrolonă Fenilpropionat 100 mg/ml) este un steroid anabolic injectabil cu acțiune rapidă conceput pentru uz medical. Sprijină recuperarea musculară, retenția de azot, producția de celule roșii din sânge și terapia legată de reabilitare sub supraveghere profesională.",
       "indication": "Nandrolona Fenilpropionat este indicată pentru promovarea recuperării musculare, îmbunătățirea forței, sprijinirea retenției de azot, producția de celule roșii din sânge și regenerarea musculară slabă. Este utilizată în mod obișnuit în medii clinice sau terapeutice care necesită suport anabolic cu acțiune rapidă.",
@@ -1173,11 +1173,11 @@
         }
       ]
     },
-    "inj-trenova-a-100mgml": {
+    "trenova-a": {
       "id": "inj-trenova-a-100mgml",
       "name": "TRENOVA A",
       "imageKey": "TRENOVA A",
-      "category": "Injectabile",
+       "category": "Injectables",
       "cas": "10161-34-9",
       "description": "Trenova A (Trenbolonă Acetat 100 mg/ml) este un steroid anabolic injectabil cu acțiune rapidă destinat pentru cercetare avansată sau aplicații veterinare supravegheate. Sprijină dezvoltarea musculară slabă, retenția sporită de azot și sinteza proteinelor îmbunătățită sub supraveghere profesională.",
       "indication": "Trenbolona Acetat este indicată pentru medii clinice sau veterinare de cercetare controlate, sprijinind dezvoltarea musculară, forța, retenția de azot și eficiența metabolică. Este strict pentru utilizare avansată, supravegheată, datorită profilului său anabolic-androgenic puternic.",
@@ -1217,11 +1217,11 @@
         }
       ]
     },
-    "inj-trenova-e-200mgml": {
+    "trenova-e": {
       "id": "inj-trenova-e-200mgml",
       "name": "TRENOVA E",
       "imageKey": "TRENOVA E",
-      "category": "Injectabile",
+       "category": "Injectables",
       "cas": "10161-34-9",
       "description": "Trenova E (Trenbolonă Enantat 200 mg/ml) este un steroid anabolic injectabil cu acțiune lungă utilizat în medii medicale și de cercetare controlate. Sprijină activitatea anabolică susținută, păstrarea musculară slabă, retenția de azot și sinteza proteinelor sub supraveghere profesională.",
       "indication": "Trenbolona Enantat este indicată pentru recuperare musculară avansată, suport de forță și terapie anabolică în medii de cercetare sau clinice. Profilul său de eliberare prelungită permite activitate anabolică stabilă, sprijinind păstrarea musculară slabă, retenția de azot, sinteza proteinelor și reabilitarea.",
@@ -1261,11 +1261,11 @@
         }
       ]
     },
-    "inj-trenova-hexa-76-5mgml": {
+    "trenovahexa": {
       "id": "inj-trenova-hexa-76-5mgml",
       "name": "TRENOVA HEXA",
       "imageKey": "TRENOVA HEXA",
-      "category": "Injectabile",
+       "category": "Injectables",
       "cas": "23454-33-3",
       "description": "Trenova Hexa (Trenbolonă Hexa Hidrobenzilcarbonat 76,5 mg/ml) este un steroid anabolic injectabil cu acțiune lungă utilizat în medii avansate de îmbunătățire a performanței și de cercetare clinică. Promovează masa musculară slabă, retenția de azot, producția de celule roșii din sânge și forța susținută sub supraveghere controlată.",
       "indication": "Trenbolona Hexa Hidrobenzilcarbonat este indicată în principal pentru promovarea masei musculare slabe, îmbunătățirea retenției de azot, sporirea forței generale și sprijinirea producției de celule roșii din sânge. Profilul său de eliberare extins îl face potrivit pentru protocoale anabolice cu ciclu lung care necesită activitate hormonală susținută.",
@@ -1305,11 +1305,11 @@
         }
       ]
     },
-    "inj-drostanova-p-100mgml": {
+    "drostanova-p": {
       "id": "inj-drostanova-p-100mgml",
       "name": "DROSTANOVA P",
       "imageKey": "DROSTANOVA P",
-      "category": "Injectabile",
+       "category": "Injectables",
       "cas": "521-12-0",
       "description": "Drostanova P (Drostanolonă Propionat 100 mg/ml) este o injecție anabolică androgenă avansată indicată pentru întărirea musculară slabă, suport pentru pierderea grăsimilor și recuperare musculară legată de androgeni. Este utilizată pe scară largă în timpul ciclurilor de definire pentru duritate musculară, îmbunătățirea forței și condiționarea fizicului sub supraveghere medicală.",
       "indication": "Drostanolona Propionat este indicată pentru păstrarea musculară slabă, suportul pentru pierderea grăsimilor, duritatea musculară și recuperarea legată de androgeni. Activitatea sa anti-estrogenică o face foarte eficientă în ciclurile de definire, îmbunătățirea forței și protocoalele de pregătire pentru concurs sub supraveghere profesională.",
@@ -1349,11 +1349,11 @@
         }
       ]
     },
-    "inj-primonova-100mgml": {
+    "primonova-100mgml": {
       "id": "inj-primonova-100mgml",
       "name": "PRIMONOVA",
       "imageKey": "PRIMONOVA",
-      "category": "Injectabile",
+       "category": "Injectables",
       "cas": "303-40-4",
       "description": "Primonova (Methenolonă Enantat 100 mg/ml) este un steroid anabolic injectabil cu acțiune lungă utilizat pe scară largă pentru păstrarea musculară slabă, îmbunătățirea forței și suportul recuperării în timpul ciclurilor de definire. Promovează câștiguri musculare de înaltă calitate, uscate, rezistență îmbunătățită și performanță anabolică stabilă fără retenție excesivă de apă.",
       "indication": "Methenolona Enantat este indicată pentru păstrarea musculară slabă, îmbunătățirea forței, îmbunătățirea rezistenței și suportul recuperării în timpul ciclurilor de definire. Livrează efecte anabolice blânde dar constante, cu siguranță excelentă sub supraveghere medicală.",
@@ -1366,7 +1366,7 @@
       "seoDescription": "Injectabilul PRIMONOVA de la NovaTech Sciences conține Methenolonă Enantat (CAS 303‑40‑4). Producător, furnizor și exportator de încredere de suport anabolic farmaceutic pentru creștere musculară, forță și performanță.",
       "seoKeywords": "Methenolonă Enantat 100 mg/ml, Injecție Primonova, primobolan enantat, cumpărați methenolonă online, primobolan la nivel mondial, injecție pentru mușchi slabi",
       "seoRobots": "index, follow",
-      "seoCanonical": "https://www.novatechsciences.com/products/injectables/primonova",
+      "seoCanonical": "https://www.novatechsciences.com/products/injectables/primonova-100mgml",
       "schemaBrand": "NovaTech Sciences",
       "schemaCategory": "Steroidi Anabolici Injectabili",
       "schemaType": "Produs",
@@ -1393,11 +1393,11 @@
         }
       ]
     },
-    "inj-roxonova-50mgml": {
+    "roxonova": {
       "id": "inj-roxonova-50mgml",
       "name": "ROXONOVA",
       "imageKey": "ROXONOVA",
-      "category": "Injectabile",
+       "category": "Injectables",
       "cas": "10418-03-8",
       "description": "Roxonova (Stanozolol 50 mg/ml) este un steroid anabolic injectabil utilizat pe scară largă pentru păstrarea musculară slabă, îmbunătățirea forței, îmbunătățirea rezistenței și suportul recuperării. Este foarte apreciat în ciclurile de definire pentru a produce câștiguri musculare dure, uscate fără retenție de apă și pentru a sprijini producția de celule roșii din sânge sub supraveghere medicală.",
       "indication": "Injecția de Stanozolol este indicată pentru păstrarea musculară slabă, îmbunătățirea forței, îmbunătățirea rezistenței și suportul recuperării în protocoale terapeutice și bazate pe performanță. Este utilizată în mod obișnuit în timpul ciclurilor de definire pentru a promova duritatea musculară și pierderea grăsimilor.",
@@ -1437,11 +1437,11 @@
         }
       ]
     },
-    "inj-testova-pp-100mgml": {
+    "testova-pp": {
       "id": "inj-testova-pp-100mgml",
       "name": "TESTOVA PP",
       "imageKey": "TESTOVA PP",
-      "category": "Injectabile",
+       "category": "Injectables",
       "cas": "1255-49-8",
       "description": "Testova PP (Testosteron Fenilpropionat 100 mg/ml) este un steroid anabolic testosteron injectabil cu acțiune rapidă utilizat pe scară largă în terapia de substituție hormonală, tratamentul hipogonadismului masculin, pubertatea întârziată și afecțiunile de deșeu muscular. Datorită esterului său scurt, oferă eliberare rapidă de testosteron, sprijinind dezvoltarea musculară slabă, forța, libidoul și nivelurile de energie sub supraveghere medicală.",
       "indication": "Testosteronul Fenilpropionat este indicat pentru hipogonadismul masculin, tulburările de deficiență androgenă, pubertatea întârziată, bolile de deșeu muscular și protocoalele controlate de forță-recuperare. Esterul său scurt permite răspuns hormonal rapid și un control mai bun în timpul terapiei de substituție cu testosteron.",
@@ -1481,11 +1481,11 @@
         }
       ]
     },
-    "inj-testova-base-100mgml": {
+    "testova-base": {
       "id": "inj-testova-base-100mgml",
       "name": "TESTOVA BASE",
       "imageKey": "TESTOVA BASE",
-      "category": "Injectabile",
+       "category": "Injectables",
       "cas": "58-22-0",
       "description": "Testova Base (Testosteron Suspensie 100 mg/ml) este un steroid testosteron injectabil cu acțiune rapidă pe bază de apă utilizat pentru hipogonadism, pubertate întârziată, dezechilibru hormonal și afecțiuni de deșeu muscular supravegheate medical. Asigură absorbție rapidă de testosteron pentru efecte anabolice imediate.",
       "indication": "Testova Base este indicată pentru hipogonadismul masculin, niveluri scăzute de testosteron, pubertatea întârziată și dezechilibrul hormonal. Formularea sa pe bază de apă asigură absorbție rapidă de testosteron și efecte anabolice imediate sub supraveghere medicală.",
@@ -1525,11 +1525,11 @@
         }
       ]
     },
-    "inj-nova-gain-c-650mgml": {
+    "nova-gain-c": {
       "id": "inj-nova-gain-c-650mgml",
       "name": "NOVA GAIN C",
       "imageKey": "NOVA GAIN C",
-      "category": "Injectabile",
+       "category": "Injectables",
       "cas": "Varies (multi-compound blend)",
       "description": "Nova Gain C este un amestec injectabil steroid anabolic de înaltă potență conținând testosteron, nandrolonă și boldenonă. Sprijină creșterea musculară slabă, retenția de azot, îmbunătățirea forței și recuperarea fizică sub supraveghere medicală în protocoale clinice sau bazate pe performanță.",
       "indication": "Indicat pentru deșeu muscular sever, recuperare după traume, dezechilibru hormonal și deficiență de testosteron. Oferă suport anabolic și androgen puternic pentru masă musculară progresivă, forță și recuperare sub supraveghere profesională.",
@@ -1569,11 +1569,11 @@
         }
       ]
     },
-    "inj-nova-cut-mix-450mgml": {
+    "nova-cut-mix": {
       "id": "inj-nova-cut-mix-450mgml",
       "name": "NOVA CUT MIX",
       "imageKey": "NOVA CUT MIX",
-      "category": "Injectabile",
+       "category": "Injectables",
       "cas": "Varies (multi-compound blend)",
       "description": "Nova Cut Mix este o injecție steroid de definire de înaltă potență combinând testosteron propionat, trenbolonă acetat și drostanolonă propionat. Sprijină pierderea grăsimilor, păstrarea musculară slabă, îmbunătățirea forței și definiția musculară agresivă în timpul ciclurilor pre-concurs sau de recompoziție sub supraveghere profesională.",
       "indication": "Indicat pentru suport anabolic avansat în cicluri de definire, condiționare pre-concurs și recuperare de forță. Promovează retenția musculară slabă, duritatea, performanța metabolică și definiția agresivă în timpul protocoalelor steroidiene pe termen scurt axate pe performanță.",
