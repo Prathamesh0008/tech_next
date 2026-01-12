@@ -8,8 +8,8 @@ import { HiMenu, HiX } from "react-icons/hi";
 import { useLanguage } from "../contexts/LanguageContext";
 import LanguageSwitcher from "./LanguageSwitcher";
 
-const logoDark = "/assets/nova_new-removebg-preview.png";
-const logoLight = "/assets/footer.png";
+const logoDark = "/assets/dark.png";
+const logoLight = "/assets/light.png";
 
 export default function Navbar() {
   const { translations } = useLanguage();
