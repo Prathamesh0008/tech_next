@@ -139,12 +139,12 @@ const HealthAccordBanner = () => {
             {accordPrinciples.map((p, i) => (
               <div
                 key={i}
-                className="flex gap-3 bg-white/5 p-4 rounded-xl border border-white/10"
+                className="flex gap-3 bg-white/50 p-4 rounded-xl border border-white/10"
               >
-                <div className="text-cyan-400">{p.icon}</div>
+                <div className="text-black">{p.icon}</div>
                 <div>
-                  <h4 className="font-semibold">{p.title}</h4>
-                  <p className="text-sm text-gray-400">{p.description}</p>
+                  <h4 className="font-semibold text-black">{p.title}</h4>
+                  <p className="text-sm text-black">{p.description}</p>
                 </div>
               </div>
             ))}
@@ -154,7 +154,7 @@ const HealthAccordBanner = () => {
         {/* RIGHT – MAP */}
         <div className="relative">
           <div
-            className="relative h-[480px] rounded-xl overflow-hidden bg-white/40"
+            className="relative h-[480px] rounded-xl overflow-hidden bg-white/50"
             onMouseEnter={() => setIsMapHovered(true)}
             onMouseLeave={() => setIsMapHovered(false)}
           >
@@ -220,11 +220,11 @@ const HealthAccordBanner = () => {
           {/* STATS */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6">
             {globalImpactStats.map((s, i) => (
-              <div key={i} className="bg-white/5 p-3 rounded-lg text-center">
-                <div className="text-2xl font-bold text-cyan-400">
+              <div key={i} className="bg-white/50 p-3 rounded-lg text-center">
+                <div className="text-2xl font-bold text-black">
                   {s.value}
                 </div>
-                <div className="text-sm text-gray-400">{s.label}</div>
+                <div className="text-sm text-black">{s.label}</div>
               </div>
             ))}
           </div>

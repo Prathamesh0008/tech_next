@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>My World by amCharts</title>
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes, minimal-ui">
+    <style>
+body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-size: 12px;
+	padding: 0;
+	margin: 0;
+}
+
+#chartdiv {
+	width: 100vw;
+	height: 100vh;
+}
+    </style>
+  </head>
+  <body>
+
+
+<script src="https://cdn.amcharts.com/lib/editor/map/5/viewer.js"></script>
+<div id="chartdiv"></div>
+<script>
+
+/**
+ * -----------------------------------------------
+ * This map was created using amCharts Map Editor.
+ *
+ * To create your own map visit:
+ * https://pixelmap.amcharts.com/
+ *
+ * For more information on amCharts visit:
+ * https://www.amcharts.com/
+ * -----------------------------------------------
+ */
+
+am5viewer.create("chartdiv", {
+  "settings": {
+    "editor": {
+      "theme": "light",
+      "themeTags": [
+        "light"
+      ],
+      "userData": {
+        "projection": "geoMercator",
+        "geodata": "worldLow"
+      },
+      "polygonFill": {
+        "type": "Color",
+        "value": "#90e5ee"
+      },
+      "polygonStroke": {
+        "type": "Color",
+        "value": "#134093"
+      },
+      "backgroundNoise": false,
+      "clipBackground": false,
+      "__parse": true
+    },
+    "editor.map": {
+      "minZoomLevel": 0.8,
+      "projection": "geoOrthographic",
+      "panX": "rotateX",
+      "zoomControl": {
+        "type": "ZoomControl",
+        "settings": {
+          "visible": true,
+          "position": "absolute",
+          "layout": {
+            "type": "VerticalLayout"
+          },
+          "themeTags": [
+            "zoomtools"
+          ],
+          "layer": 30
+        }
+      },
+      "background": {
+        "type": "Rectangle",
+        "settings": {
+          "fill": {
+            "type": "Color",
+            "value": "#f1f1f1"
+          },
+          "fillOpacity": 1,
+          "width": 1920,
+          "height": 912,
+          "x": 0,
+          "y": 0,
+          "isMeasured": false
+        }
+      },
+      "themeTags": [
+        "map"
+      ],
+      "translateX": 960.9359070380585,
+      "translateY": 454.5958405528699,
+      "panY": "rotateY",
+      "rotationX": 0,
+      "rotationY": 0,
+      "__parse": true,
+      "homeZoomLevel": {}
+    },
+    "editor.pointTemplate": {
+      "toggleKey": "active",
+      "centerX": {
+        "type": "Percent",
+        "value": 50
+      },
+      "centerY": {
+        "type": "Percent",
+        "value": 50
+      },
+      "tooltipText": "{name}",
+      "__parse": true
+    },
+    "editor.bubbleTemplate": {
+      "toggleKey": "active",
+      "tooltipText": "{name}: {value}",
+      "__parse": true
+    },
+    "editor.pixelTemplate": {
+      "tooltipText": "{name}",
+      "toggleKey": "active",
+      "__parse": true,
+      "userData": {
+        "point1": {
+          "longitude": 16.491790907768642,
+          "latitude": 45.31238756529559
+        },
+        "point2": {
+          "longitude": 22.859289749108875,
+          "latitude": 45.31238756529559
+        }
+      }
+    },
+    "editor.linePointTemplate": {
+      "toggleKey": "active",
+      "centerX": {
+        "type": "Percent",
+        "value": 50
+      },
+      "centerY": {
+        "type": "Percent",
+        "value": 50
+      },
+      "tooltipText": "{name}",
+      "__parse": true
+    },
+    "editor.labelTemplate": {
+      "toggleKey": "active",
+      "tooltipText": "{name}",
+      "__parse": true
+    },
+    "editor.polygonSeries": {
+      "valueField": "value",
+      "calculateAggregates": true,
+      "id": "polygonseries",
+      "exclude": [],
+      "geometryField": "geometry",
+      "geometryTypeField": "geometryType",
+      "idField": "id",
+      "__parse": true
+    },
+    "editor.lineSeries": {
+      "layer": 30,
+      "id": "lineseries",
+      "lineTypeField": "lineType",
+      "geometryField": "geometry",
+      "geometryTypeField": "geometryType",
+      "idField": "id",
+      "__parse": true
+    },
+    "editor.pointSeries": {
+      "fixedField": "fixed",
+      "id": "pointseries",
+      "geometryField": "geometry",
+      "geometryTypeField": "geometryType",
+      "idField": "id",
+      "__parse": true
+    },
+    "editor.labelSeries": {
+      "fixedField": "fixed",
+      "id": "labelseries",
+      "geometryField": "geometry",
+      "geometryTypeField": "geometryType",
+      "idField": "id",
+      "__parse": true
+    },
+    "editor.bubbleSeries": {
+      "calculateAggregates": true,
+      "valueField": "value",
+      "polygonIdField": "id",
+      "id": "bubbleseries",
+      "geometryField": "geometry",
+      "geometryTypeField": "geometryType",
+      "idField": "id",
+      "__parse": true
+    },
+    "editor.gridSeries": {
+      "themeTags": [
+        "grid"
+      ],
+      "affectsBounds": false,
+      "lineTypeField": "lineType",
+      "geometryField": "geometry",
+      "geometryTypeField": "geometryType",
+      "idField": "id",
+      "visible": false,
+      "clipExtent": true,
+      "__parse": true
+    },
+    "editor.backgroundSeries": {
+      "visible": false,
+      "themeTags": [
+        "polygon",
+        "background"
+      ],
+      "affectsBounds": false,
+      "geometryField": "geometry",
+      "geometryTypeField": "geometryType",
+      "idField": "id",
+      "__parse": true
+    },
+    "editor.backgroundSeries.mapPolygons.template": {
+      "forceInactive": true,
+      "fill": {
+        "type": "Color",
+        "value": "#e6e6e6"
+      },
+      "stroke": {
+        "type": "Color",
+        "value": "#e6e6e6"
+      },
+      "__parse": true
+    },
+    "editor.gridSeries.mapLines.template": {
+      "forceInactive": true,
+      "stroke": {
+        "type": "Color",
+        "value": "#000000"
+      },
+      "strokeOpacity": 0.04,
+      "__parse": true
+    }
+  },
+  "data": {
+    "editor.polygonSeries": [],
+    "editor.lineSeries": [],
+    "editor.pointSeries": [],
+    "editor.labelSeries": [],
+    "editor.bubbleSeries": [],
+    "editor.gridSeries": []
+  }
+});
+
+</script>
+
+  </body>
+</html>
