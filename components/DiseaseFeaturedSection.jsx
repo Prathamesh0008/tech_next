@@ -105,19 +105,7 @@ export default function DiseaseFeaturedSection() {
       </div>
 
       {/* ===== Banner Preview (Tablets / Injectables) ===== */}
-      <div className="relative max-w-5xl mx-auto mb-12 rounded-2xl overflow-hidden shadow-lg">
-        <img
-          src={
-            categories.find((c) => c.key === selected)?.image ||
-            "/assets/banners/default.jpg"
-          }
-          alt={selected}
-          className="w-full object-cover md:h-60"
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/30 to-transparent flex flex-col justify-end p-6">
-          {/* Content commented out in original */}
-        </div>
-      </div>
+     
 
       {/* ===== Product Cards ===== */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 px-4">

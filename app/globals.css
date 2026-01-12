@@ -110,3 +110,17 @@ body {
 [dir="rtl"] .-translate-x-full {
   transform: translateX(100%);
 }
+
+
+@keyframes waveSlow {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-waveSlow {
+  animation: waveSlow 30s linear infinite;
+}

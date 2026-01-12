@@ -5,9 +5,15 @@ import emailjs from "@emailjs/browser";
 import Breadcrumbs from "../../components/Breadcrumbs";
 import { Send, Mail } from "lucide-react";
 import { useLanguage } from "../../contexts/LanguageContext";
+import { useEffect } from "react";
+
+
 
 export default function ContactClient() {
   const { translations } = useLanguage();
+  useEffect(() => {
+  emailjs.init("xywkeRz6q387pdmhR");
+}, []);
   if (!translations?.contact) return null;
 
   const t = translations.contact;
@@ -31,7 +37,8 @@ const handleSubmit = async (e) => {
   try {
     // ✅ ONLY ADMIN EMAIL
     await emailjs.send(
-      "service_7a3kidi",
+      "service_2i6gipa",
+
       "template_66zd18f",
       formData,
       "xywkeRz6q387pdmhR"
