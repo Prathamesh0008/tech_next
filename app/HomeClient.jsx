@@ -193,7 +193,7 @@ export default function HomeClient() {
             </div>
 
             {/* Stats showcase */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 mb-10 sm:mb-12 max-w-4xl mx-auto">
+            {/* <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 mb-10 sm:mb-12 max-w-4xl mx-auto">
               <div className="text-center p-3 sm:p-4">
                 <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#18487d] mb-1">
                   35+
@@ -226,7 +226,7 @@ export default function HomeClient() {
                   {t.hero.stats.certified || "Certified"}
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/* Buttons */}
             <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-3 sm:gap-4 md:gap-6">
@@ -305,47 +305,10 @@ export default function HomeClient() {
           </div>
         </section>
 
-        {/* ✅ Why Choose Us */}
-        <section
-          className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 sm:gap-6 bg-gradient-to-r from-[#e9f7fc] to-[#e6f9f5] rounded-2xl p-6 sm:p-8 lg:p-10 my-12 md:my-16 text-center"
-          data-aos="fade-up"
-        >
-          {t.whyChooseUs?.items?.map((item, i) => (
-            <div key={i} className="p-2">
-              <h3 className="text-lg sm:text-xl font-semibold text-[#314977] mb-2">
-                {item.title}
-              </h3>
-              <p className="text-gray-600 text-sm sm:text-base">{item.text}</p>
-            </div>
-          )) || (
-            <>
-              {[
-                {
-                  title: "✔ WHO-GMP Certified",
-                  text: "Our manufacturing facilities follow WHO-GMP, ISO, and stringent quality standards.",
-                },
-                {
-                  title: "🌍 Global Reach",
-                  text: "Trusted by healthcare professionals across multiple countries with continuous expansion.",
-                },
-                {
-                  title: "🔬 Research-Driven",
-                  text: "We focus on science, innovation, and clinical efficacy for every product we deliver.",
-                },
-              ].map((item, i) => (
-                <div key={i} className="p-2">
-                  <h3 className="text-lg sm:text-xl font-semibold text-[#314977] mb-2">
-                    {item.title}
-                  </h3>
-                  <p className="text-gray-600 text-sm sm:text-base">{item.text}</p>
-                </div>
-              ))}
-            </>
-          )}
-        </section>
+       
 
         {/* ✅ Categories / Divisions */}
-        <section className="my-16 md:my-24 lg:my-32" data-aos="fade-up">
+        <section className="" data-aos="fade-up">
           <div className="text-center mb-10 sm:mb-16">
             <div className="inline-flex items-center justify-center gap-2 mb-4">
               <div className="w-8 sm:w-10 h-0.5 bg-gradient-to-r from-transparent to-[#18487d]"></div>
@@ -674,6 +637,44 @@ export default function HomeClient() {
               </div>
             ))}
           </div>
+        </section>
+         {/* ✅ Why Choose Us */}
+        <section
+          className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 sm:gap-6 bg-gradient-to-r from-[#e9f7fc] to-[#e6f9f5] rounded-2xl p-6 sm:p-8 lg:p-10 my-12 md:my-16 text-center"
+          data-aos="fade-up"
+        >
+          {t.whyChooseUs?.items?.map((item, i) => (
+            <div key={i} className="p-2">
+              <h3 className="text-lg sm:text-xl font-semibold text-[#314977] mb-2">
+                {item.title}
+              </h3>
+              <p className="text-gray-600 text-sm sm:text-base">{item.text}</p>
+            </div>
+          )) || (
+            <>
+              {[
+                {
+                  title: "✔ WHO-GMP Certified",
+                  text: "Our manufacturing facilities follow WHO-GMP, ISO, and stringent quality standards.",
+                },
+                {
+                  title: "🌍 Global Reach",
+                  text: "Trusted by healthcare professionals across multiple countries with continuous expansion.",
+                },
+                {
+                  title: "🔬 Research-Driven",
+                  text: "We focus on science, innovation, and clinical efficacy for every product we deliver.",
+                },
+              ].map((item, i) => (
+                <div key={i} className="p-2">
+                  <h3 className="text-lg sm:text-xl font-semibold text-[#314977] mb-2">
+                    {item.title}
+                  </h3>
+                  <p className="text-gray-600 text-sm sm:text-base">{item.text}</p>
+                </div>
+              ))}
+            </>
+          )}
         </section>
 
         {/* ✅ Call to Action */}

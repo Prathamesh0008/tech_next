@@ -152,7 +152,7 @@ const HealthAccordBanner = () => {
         </div>
 
         {/* RIGHT – MAP */}
-        <div className="relative">
+        <div className="relative cursor-pointer">
           <div
             className="relative h-[480px] rounded-xl overflow-hidden bg-white/50"
             onMouseEnter={() => setIsMapHovered(true)}
