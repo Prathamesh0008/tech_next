@@ -26,3 +26,15 @@ export const metadata = {
 export default function HomePage() {
   return <HomeClient />;
 }
+
+<script type="application/ld+json">
+{`
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "NovaTech Sciences",
+  "url": "https://www.novatechsciences.com",
+  "logo": "https://www.novatechsciences.com/Nova.png"
+}
+`}
+</script>
