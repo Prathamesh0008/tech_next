@@ -9,6 +9,7 @@ import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useLanguage } from "../contexts/LanguageContext";
 import DiseaseFeaturedSection from "../components/DiseaseFeaturedSection";
+
 import BannerSlider from "../components/BannerSlider";
 
 // ✅ Animated Count Component
@@ -602,6 +603,7 @@ export default function HomeClient() {
 
         {/* ✅ Disease Highlight */}
         <DiseaseFeaturedSection />
+        
 
         {/* ✅ Stats Section (Animated) */}
         <StatsSection />

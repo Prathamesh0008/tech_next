@@ -23,8 +23,11 @@ export default function Footer() {
     { name: translations.nav.products, path: "/products" },
     { name: translations.nav.antiCounterfeit, path: "/anti-counterfeit" },
     { name: translations.nav.blog, path: "/blog" },
-    { name: translations.nav.contact, path: "/contact" }
+    { name: translations.nav.contact, path: "/contact" },
   ];
+  const country=[
+     { name: "Nova TechScience in UK", path: "/uk" }
+  ]
 
   return (
     <motion.footer
@@ -36,7 +39,7 @@ export default function Footer() {
       {/* Top Accent */}
       <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[#4bb2e5] via-[#b2e3e1] to-[#3386bc] animate-pulse" />
 
-      <div className="max-w-7xl mx-auto px-6 md:px-10 grid md:grid-cols-4 gap-10">
+      <div className="max-w-7xl mx-auto px-6 md:px-10 grid md:grid-cols-5 gap-10">
         {/* Logo + Intro */}
         <div className="space-y-4">
           <img
@@ -70,6 +73,25 @@ export default function Footer() {
             ))}
           </ul>
         </div>
+        <div>
+          <h3 className="font-semibold text-lg mb-3 text-[#b2e3e1]">
+            Country
+          </h3>
+          <ul className="space-y-2">
+            {country.map((link) => (
+              <li key={link.name}>
+                <Link
+                  href={link.path}
+                  onClick={(e) => handleCtrlClick(e, link.path)}
+                  className="relative text-gray-200 hover:text-white transition-colors duration-300 group"
+                >
+                  {link.name}
+                  <span className="absolute left-0 bottom-0 w-0 h-[1px] bg-[#b2e3e1] transition-all duration-300 group-hover:w-full" />
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
 
         {/* Newsletter */}
         <div>
@@ -80,6 +102,7 @@ export default function Footer() {
             {t.newsletter.description}
           </p>
         </div>
+        
 
         {/* Social Media */}
         <div>
@@ -126,6 +149,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
+      
 
       {/* Bottom */}
       <div className="border-t border-white/20 mt-10 pt-4 text-center text-sm text-gray-300">
