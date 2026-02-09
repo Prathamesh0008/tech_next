@@ -26,7 +26,7 @@ export default function Footer() {
     { name: translations.nav.contact, path: "/contact" },
   ];
   const country=[
-     { name: "Nova TechScience in UK", path: "/uk" }
+     { name: "Nova TechSciences in UK", path: "/uk" }
   ]
 
   return (
