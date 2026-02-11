@@ -172,14 +172,14 @@ export default function TestosteroneCountryPage({ params }) {
         </div>
 
         {/* Minimal Scroll Indicator */}
-        {/* <div className="border-t border-white/5">
+        <div className="border-t border-white/5">
           <div className="max-w-7xl mx-auto px-6 lg:px-8 py-5">
             <div className="flex items-center gap-3 text-slate-500 text-xs">
               <span className="tracking-[0.2em] uppercase">Scroll</span>
               <FaChevronDown className="text-xs" />
             </div>
           </div>
-        </div> */}
+        </div>
       </section>
 
       {/* Main Content - Elegant Spacing */}
@@ -436,7 +436,7 @@ export default function TestosteroneCountryPage({ params }) {
         <FeaturedByCategory />
 
         {/* Back to Top - Minimal */}
-        {/* <div className="flex justify-center">
+        <div className="flex justify-center">
           <button
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             className="group px-8 py-4 bg-transparent border border-slate-300 hover:border-blue-600 text-slate-600 hover:text-blue-600 font-medium flex items-center gap-3 transition-all duration-300"
@@ -444,7 +444,7 @@ export default function TestosteroneCountryPage({ params }) {
             <FaChevronDown className="rotate-180 group-hover:-translate-y-1 transition-transform duration-300" />
             <span className="tracking-wide">Back to Top</span>
           </button>
-        </div> */}
+        </div>
       </div>
     </main>
   );

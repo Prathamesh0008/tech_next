@@ -3,8 +3,6 @@ import Footer from "../components/Footer";
 import "./globals.css";
 import { LanguageProvider } from "../contexts/LanguageContext";
 import "flag-icons/css/flag-icons.min.css";
-import ScrollToTop from "../components/ScrollToTop";
-
 
 
 export const metadata = {
@@ -142,12 +140,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         />
 
         <LanguageProvider>
-  <Navbar />
-  <main className="flex-1">{children}</main>
-  <ScrollToTop />
-  <Footer />
-</LanguageProvider>
-
+          <Navbar />
+          <main className="flex-1">{children}</main>
+          <Footer />
+        </LanguageProvider>
       </body>
     </html>
   );
