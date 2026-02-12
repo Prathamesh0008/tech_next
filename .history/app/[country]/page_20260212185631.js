@@ -2,8 +2,7 @@ import { notFound } from "next/navigation";
 import { countryData } from "@/data/countryContent";
 import TestosteroneCountryClient from "./TestosteroneCountryClient";
 import CategoriesDivisionsSection from "@/components/CategoriesDivisionsSection";
-import FeatureByCategory from "@/components/FeaturedByCategory"
-import FeaturedBlogs from "@/components/FeaturedBlogsByCountry";
+import 
 
 export default async function Page({ params }) {
   const resolvedParams = await params; // ✅ unwrap the promise
@@ -22,7 +21,6 @@ export default async function Page({ params }) {
     />
     <CategoriesDivisionsSection/>
     <FeatureByCategory/>
-    <FeaturedBlogs/>
     </>
   );
 }

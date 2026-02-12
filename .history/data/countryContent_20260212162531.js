@@ -1772,837 +1772,909 @@ belgium: {
 },
 germany: {
   slug: "testosterone-in-germany",
-  name: "Deutschland",
+  name: "Germany",
 
   meta: {
     title: {
-      base: "Bestes Testosteron in Deutschland | Premium-Hormonlösungen von Novatech Sciences",
+      base: "Bestes Testosteron in Deutschland | BfArM & AMG Konform",
       brand: "Novatech Sciences",
       animated: {
-        primary: "Bestes Testosteron in",
+        primary: "Testosteron in",
         highlight: "Deutschland",
-        suffix: "Premium-Hormonlösungen von Novatech Sciences"
+        suffix: "Pharmazeutische Präzision"
       }
     },
     description: {
-      short: "Bestes Testosteron in Deutschland von Novatech Sciences – WHO-GMP-zertifiziert.",
-      full: "Bestes Testosteron in Deutschland: Premium-Hormonlösungen von Novatech Sciences. Hochwertige Testosteron- und Steroidprodukte für den deutschen Markt, hergestellt unter WHO-GMP-zertifizierten Bedingungen mit vollständiger BfArM-Compliance und EU-weiter Zulassung."
-    }
+      short: "Premium-Testosteronlösungen für den deutschen Gesundheitsmarkt.",
+      full: "Umfassender Leitfaden zu Testosteron in Deutschland inklusive AMG-Compliance, BfArM-Dokumentation, Kühlkettenlogistik, Europäischer Pharmakopöe-Standards und regulatorischer Anforderungen für Apotheken, Kliniken und Forschungseinrichtungen."
+    },
+    keywords: [
+      "Testosteron Deutschland",
+      "Testosteron online kaufen Deutschland",
+      "Steroide in Deutschland",
+      "BfArM Testosteron",
+      "AMG Steroide",
+      "Testosteron Ersatztherapie Deutschland"
+    ]
   },
 
   hero: {
     title: {
       prefix: "Bestes Testosteron in",
       highlight: "Deutschland",
-      suffix: "Premium-Hormonlösungen von Novatech Sciences"
+      suffix: "Novatech Sciences"
     },
-    subtitle: "Bestes Testosteron in Deutschland: Premium-Hormonlösungen von Novatech Sciences",
-    animatedSubtitle: "Präzision • Reinheit • Compliance • Innovation"
+    subtitle: "WHO-GMP Qualität für den führenden Pharmamarkt Europas",
+    animatedSubtitle: "AMG • BfArM • Ph. Eur.",
+    stats: [
+      {
+        icon: "FaShieldAlt",
+        value: "BfArM",
+        label: "Bundesinstitut für Arzneimittel",
+        color: "from-black to-red-600",
+        animation: "pulse"
+      },
+      {
+        icon: "FaBalanceScale",
+        value: "AMG",
+        label: "Arzneimittelgesetz",
+        color: "from-yellow-500 to-black",
+        animation: "float"
+      },
+      {
+        icon: "FaFlask",
+        value: "99%+",
+        label: "Reinheitsgrad (HPLC)",
+        color: "from-red-600 to-yellow-500",
+        animation: "wave"
+      }
+    ],
+    badge: {
+      label: "WHO-GMP zertifiziert",
+      icon: "FaCheckCircle",
+      color: "from-black to-yellow-500"
+    }
   },
 
   content: {
+
     introduction: {
-      title: "Bestes Testosteron in Deutschland | Novatech Sciences",
+      title: "Testosteron-Exzellenz im deutschen Gesundheitsmarkt",
+      animatedTitle: "Regulatorische Präzision & pharmazeutische Qualität",
       paragraphs: [
-        "Deutschland ist der führende pharmazeutische Markt Europas und verlangt höchste Qualität bei hormonellen Therapien und Leistungsmedikamenten. Novatech Sciences, ein global anerkannter WHO-GMP-zertifizierter Hersteller, liefert stolz das beste Testosteron in Deutschland durch innovative pharmazeutische Lösungen. Ob Sie ein Gesundheitsdienstleister, eine Forschungseinrichtung oder eine Apotheke sind, die zuverlässige Hormontherapien sucht – unser deutsches Vertriebsnetz gewährleistet Zugang zu Premium-Steroiden in Deutschland, die strenge EU-Regulierungsstandards erfüllen.",
-        "Da die Nachfrage nach Testosteron-Ersatztherapie in ganz Deutschland weiter steigt, benötigen medizinische Fachkräfte und Forscher vertrauenswürdige Lieferanten. Novatech Sciences schließt diese Lücke und bietet pharmazeutisches Testosteron-Enantat, Testosteron-Cypionat und spezialisierte anabole Formulierungen an. Unser Qualitätsengagement positioniert uns als erstklassige Adresse, um Testosteron online in Deutschland zu kaufen für legitime medizinische und Forschungsanwendungen."
+        "Deutschland ist der führende pharmazeutische Markt Europas und verlangt höchste Qualität bei hormonellen Therapien.",
+        "Das Arzneimittelgesetz (AMG) sowie EU-Richtlinien setzen strenge Maßstäbe für Testosteron-Produkte.",
+        "Novatech Sciences liefert pharmazeutisches Testosteron mit vollständiger regulatorischer Dokumentation für Apotheken, Kliniken und Forschungseinrichtungen."
       ]
     },
 
     sections: [
+
       {
-        id: "testosteron-anforderungen",
-        title: "Verständnis der Testosteron-Anforderungen in Deutschland",
+        id: "regulatory-framework",
+        title: "Regulatorischer Rahmen in Deutschland",
+        animatedTitle: "AMG & BfArM Aufsicht",
+        icon: "FaGavel",
+        gradient: "from-black to-red-600",
         content: [
-          "Die deutsche pharmazeutische Landschaft operiert unter strengen Vorschriften des Arzneimittelgesetzes (AMG) und EU-Richtlinien. Bestes Testosteron muss Bioäquivalenz nachweisen, eine Reinheit von über 99% aufweisen und Chargenkonsistenz garantieren. Novatech Sciences übertrifft diese Anforderungen und fertigt Steroide in Deutschland entsprechende Formulierungen in WHO-GMP-zertifizierten Einrichtungen an.",
-          "Deutsche Endokrinologen und Urologen verschreiben zunehmend Testosteron-Undecanoat und Testosteron-Propionat zur Behandlung von Hypogonadismus. Gleichzeitig benötigen Forschungseinrichtungen Referenzstandardverbindungen für klinische Studien. Unser Portfolio adressiert sowohl therapeutische als auch Untersuchungsbedürfnisse und etabliert uns als definitive Quelle, um Steroide in Deutschland für legitime Zwecke zu kaufen.",
-          "Das Bundesinstitut für Arzneimittel und Medizinprodukte (BfArM) verlangt strenge Dokumentation für Hormonprodukte. Novatech Sciences liefert umfassende Analysezertifikate (CoA), Stabilitätsdaten und regulatorische Compliance-Dokumentation mit jeder Sendung des besten Testosterons in Deutschland. Diese Transparenz unterscheidet uns von unregulierten Lieferanten und stellt sicher, dass Gesundheitspartner auditfähige Beschaffungsunterhalten führen können."
+          "Arzneimittelgesetz (AMG) regelt Herstellung und Vertrieb.",
+          "BfArM verlangt vollständige Chargendokumentation.",
+          "Compliance mit EU-GMP und Ph. Eur. Standards."
         ]
       },
+
       {
-        id: "warum-novatech",
-        title: "Warum Gesundheitsdienstleister Novatech Sciences wählen",
+        id: "quality-control",
+        title: "Qualitätssicherung auf höchstem Niveau",
+        animatedTitle: "Ph. Eur. & WHO-GMP Standards",
+        icon: "FaFlask",
+        gradient: "from-yellow-500 to-red-600",
         content: [
-          "Wenn medizinische Fachkräfte Testosteron online in Deutschland kaufen, priorisieren sie Lieferantenglaubwürdigkeit. Novatech Sciences unterhält Herstellungspartnerschaften über EU-konforme Einrichtungen hinaus und garantiert die Kühlkettenintegrität für temperatursensible Steroid-Formulierungen in Deutschland. Unsere Logistikinfrastruktur erstreckt sich über Verteilzentren in Frankfurt, München, Berlin und Hamburg und ermöglicht eine schnelle Lieferung deutschlandweit.",
-          "Die Beschaffung von bestem Testosteron erfordert die Bewertung von Herstellerfähigkeiten. Unsere Einrichtungen nutzen HPLC-Tests, Massenspektrometrie und Endotoxin-Screening – wesentliche Qualitätskontrollen für injizierbare Hormontherapien. Im Gegensatz zu Untergrundlaboren operiert Novatech Sciences als registrierte pharmazeutische Einrichtung und bietet den rechtlichen Rahmen, den deutsche Gesundheitseinrichtungen benötigen, um Steroide in Deutschland selbstbewusst zu kaufen.",
-          "Forschungsorganisationen schätzen besonders unsere Peptidhormone und selektiven Androgenrezeptor-Modulatoren (SARMs) für Untersuchungsstudien. Während Testosteron-Ersatztherapie (TRT) in Deutschland streng rezeptpflichtig bleibt, fördern laborreine Verbindungen das wissenschaftliche Verständnis anaboler Prozesse. Unser technisches Supportteam unterstützt deutsche Forscher bei der Verbindungsauswahl, Lösungsprotokollen und Stabilitätsparametern."
+          "HPLC-Reinheitsverifizierung >99%.",
+          "Sterilitätstests gemäß Ph. Eur. 2.6.1.",
+          "Endotoxin-Screening (LAL-Test) & Schwermetallanalyse."
         ]
       },
+
       {
-        id: "hormontherapien",
-        title: "Umfassende Palette von Hormontherapien",
+        id: "product-portfolio",
+        title: "Umfassendes Hormontherapie-Portfolio",
+        animatedTitle: "Testosteron & Begleittherapien",
+        icon: "FaCapsules",
+        gradient: "from-black to-yellow-500",
         content: [
-          "Novatech Sciences hat sich auf diverse Kategorien von Steroiden in Deutschland spezialisiert und adressiert verschiedene therapeutische Modalitäten:",
-          "Injizierbare Testosteron-Ester: Unser Portfolio umfasst Testosteron-Enantat 250mg, Testosteron-Cypionat 200mg und Mischungen für Pharmakokinetik mit verlängerter Freisetzung. Diese repräsentieren das beste Testosteron in Deutschland für Hormonersatzprotokolle, hergestellt unter sterilen Bedingungen gemäß Ph. Eur. Standards.",
-          "Anti-Östrogen-Pharmazeutika: Ergänzend zum Kauf von Testosteron online in Deutschland liefern wir Aromatase-Inhibitoren und selektive Östrogenrezeptor-Modulatoren. Produkte wie TAMONOVA (Tamoxifen-Citrat) und AROMANOVA (Anastrozol) unterstützen den hormonellen Gleichgewicht während Testosterontherapien und mindern östrogene Nebenwirkungen durch evidenzbasierte Mechanismen.",
-          "Post-Cycle-Therapie (PCT)-Lösungen: Für klinische Szenarien, die Testosteron-Absetzen erfordern, bieten wir hCG (humanes Choriongonadotropin) und SERMs zur Wiederherstellung der hypothalamisch-hypophysär-gonadalen Achsenfunktion an. Deutsche Ärzte schätzen unseren umfassenden Ansatz zur Steroid-Therapiemanagement in Deutschland.",
-          "Forschungspeptide: Über traditionelle Angebote von bestem Testosteron hinaus umfasst unser Katalog Wachstumshormon-Sekretagoge und Insulin-ähnliche Wachstumsfaktor-Varianten für akademische Forschung. Diese Verbindungen fördern die deutsche Biotechnologieforschung und halten gleichzeitig Compliance mit dem Neue-psychoaktive-Stoffe-Gesetz (NpSG) ein."
+          "Testosteron-Enantat, Cypionat, Propionat, Undecanoat.",
+          "Anti-Östrogene (Tamoxifen, Anastrozol).",
+          "Post-Cycle-Therapie (hCG, SERMs)."
         ]
       },
+
       {
-        id: "qualitätssicherung",
-        title: "Qualitätssicherung und regulatorische Compliance",
+        id: "distribution-logistics",
+        title: "Logistik & Kühlketten-Exzellenz",
+        animatedTitle: "2–8°C Integrität bundesweit",
+        icon: "FaTruck",
+        gradient: "from-red-600 to-black",
         content: [
-          "Um Steroide in Deutschland legal zu kaufen, müssen komplexe pharmazeutische Vorschriften navigieren werden. Novatech Sciences operiert anders als Graumarkt-Lieferanten – wir fungieren als legitimer pharmazeutischer Hersteller mit Exportlizenzen, die die deutsche Verteilung ermöglichen. Jede Charge durchläuft:",
-          "Hochleistungs-Flüssigkeitschromatographie (HPLC) Reinheitsverifizierung",
-          "Sterilitätstests gemäß Ph. Eur. 2.6.1",
-          "Endotoxin-Screening (LAL-Test)",
-          "Schwermetall-Kontaminationsanalyse",
-          "Stabilitätstests unter ICH Q1A-Bedingungen",
-          "Unser bestes Testosteron in Deutschland trägt eindeutige Chargennummern, die mit umfassender analytischer Dokumentation verknüpft sind. Deutsche Apotheken und Krankenhäuser können die Authentizität über unser blockchain-aktiviertes Tracking-System verifizieren und stellen sicher, dass Fälschungen niemals in die Lieferkette gelangen.",
-          "Für Organisationen, die Testosteron online in Deutschland kaufen möchten, bieten wir USt-konforme Rechnungsstellung, Sicherheitsdatenblätter (MSDS) und Zollunterlagen, die den reibungslosen Import durch deutsche Zollabfertigungsstellen erleichtern. Unser Regulatory-Affairs-Team bleibt auf dem Laufenden mit BfArM-Updates und stellt kontinuierliche Compliance sicher, während sich die Vorschriften für Steroide in Deutschland weiterentwickeln."
+          "Verteilzentren in Frankfurt, München, Berlin & Hamburg.",
+          "Temperaturkontrollierter Versand via DHL.",
+          "Zollabfertigungskompetenz für reibungslosen Import."
         ]
       },
+
       {
-        id: "logistik",
-        title: "Vertrieb und Logistik-Exzellenz",
+        id: "research-support",
+        title: "Unterstützung für Forschung & Biotechnologie",
+        animatedTitle: "Wissenschaftliche Partnerschaften",
+        icon: "FaMicroscope",
+        gradient: "from-yellow-500 to-black",
         content: [
-          "Novatech Sciences unterhält strategische Partnerschaften mit Deutsche Post DHL und spezialisierten pharmazeutischen Kurierdiensten, um beste Testosteron-Produkte über die 16 Bundesländer Deutschlands zu liefern. Temperaturkontrollierte Versandbehälter halten 2-8°C-Bedingungen für biologische Produkte aufrecht, entscheidend für die Erhaltung der Testosteron-Ester-Integrität während des Transports von unseren EU-Lagereinrichtungen zu deutschen Bestimmungsorten.",
-          "Großstädtische Gebiete einschließlich Köln, Stuttgart, Düsseldorf und Leipzig profitieren von beschleunigten Lieferplänen. Forschungseinrichtungen in den Biotechnologie-Korridoren von Mannheim und Heidelberg schätzen besonders unsere Just-in-Time-Liefersysteme für Steroid-Forschungsverbindungen in Deutschland.",
-          "Zollabfertigungsexpertise erweist sich als wesentlich, wenn internationale pharmazeutische Unternehmen Testosteron online in Deutschland kaufen. Unser Logistikteam handhabt ZOLL-Unterlagen und stellt sicher, dass Sendungen den Flughafen Frankfurt und den Hafen Hamburg ohne Verzögerungen passieren. Diese Professionalität eliminiert die Beschlagnahmerisiken, die mit unregulierten Steroid-Lieferanten in Deutschland verbunden sind."
+          "Referenzstandards für Universitäten.",
+          "Unterstützung bei Ethikkommissionsanträgen.",
+          "Compliance mit Forschungsausnahmen des AMG."
         ]
       },
+
       {
-        id: "medizinische-bildung",
-        title: "Medizinische Bildung und verantwortungsvolle Anwendung",
+        id: "medical-education",
+        title: "Medizinische Fortbildung & Verantwortung",
+        animatedTitle: "Evidenzbasierte Anwendung",
+        icon: "FaUserMd",
+        gradient: "from-black to-gray-700",
         content: [
-          "Novatech Sciences investiert in die deutsche medizinische Bildung und stellt Gesundheitsfachkräften Ressourcen zur Diagnose von Testosteronmangel und Behandlungsprotokollen zur Verfügung. Unsere klinischen Leitfäden adressieren:",
-          "Richtige Dosierungsregime für Hypogonadismus",
-          "Überwachung von Hämatokrit und prostataspezifischem Antigen (PSA)",
-          "Management von Polyzythämie-Risiken im Zusammenhang mit bestem Testosteron-Therapie",
-          "Injektionstechniken und Sterilitätsprotokolle",
-          "Wir betonen, dass Steroide in Deutschland zur Leistungssteigerung ohne medizinische Indikation rechtlich eingeschränkt bleiben. Unsere Kunden-Screening-Prozesse stellen sicher, dass Produkte legitime Forscher und Verschreiber erreichen statt Freizeitanwender. Diese ethische Haltung schützt unseren Ruf als bester Testosteron-Lieferant in Deutschland für professionelle Anwendungen.",
-          "Deutsche Universitäten, die unsere Verbindungen für Endokrinologieforschung nutzen, erhalten technische Konsultationen, die bei der Studiengestaltung helfen, die Testosteron-Effekte auf metabolisches Syndrom, Sarkopenie und kognitive Funktion untersuchen. Diese akademischen Partnerschaften fördern medizinisches Wissen und halten gleichzeitig Forschungsausnahmen des Arzneimittelgesetzes ein."
+          "Dosierungsrichtlinien für Hypogonadismus.",
+          "Überwachung von PSA & Hämatokrit.",
+          "Risiko-Management bei Polyzythämie."
         ]
       },
+
       {
-        id: "nachhaltigkeit",
-        title: "Nachhaltige und ethische Herstellung",
+        id: "sustainability",
+        title: "Nachhaltige & ethische Herstellung",
+        animatedTitle: "ISO 14001 & grüne Chemie",
+        icon: "FaLeaf",
+        gradient: "from-green-600 to-black",
         content: [
-          "Umweltverantwortung unterscheidet Novatech Sciences im Steroid-Sektor in Deutschland. Unsere Herstellungsprozesse implementieren Prinzipien der grünen Chemie, reduzieren Lösungsmittelverbrauch und Abfallgenerierung. Deutsche Kunden bevorzugen zunehmend Lieferanten mit ISO 14001-Umweltmanagementzertifizierung – ein Standard, den wir über Produktionseinrichtungen aufrechterhalten.",
-          "Tierwohlüberlegungen beeinflussen unsere Pipeline für bestes Testosteron. Wo immer möglich nutzen wir In-vitro-Testmethoden und Computermodellierung, bevor wir zu klinischen Studien fortschreiten. Diese ethische Übereinstimmung resoniert mit deutschen pharmazeutischen Importstandards und gesellschaftlichen Werten."
-        ]
-      },
-      {
-        id: "partner-werden",
-        title: "Partner werden mit Novatech Sciences in Deutschland",
-        content: [
-          "Für Apotheken, Kliniken und Forschungseinrichtungen, die Testosteron online in Deutschland kaufen möchten, bietet Novatech Sciences Partnerschaftsprogramme mit:",
-          "Volumenpreisen für Steroid-Großhandelsbestellungen in Deutschland",
-          "Dediziertem Account-Management für Gesundheitssysteme",
-          "Unterstützung bei regulatorischer Dokumentation für Apothekeninspektoren",
-          "Kontinuierlicher medizinischer Fortbildung (CME) für verschreibende Ärzte",
-          "24/7-Qualitätssicherungshotline für Produktanfragen",
-          "Ob Sie bestes Testosteron für Andrologie-Kliniken in Bayern oder Forschungsverbindungen für biotechnologische Unternehmen in Berlin benötigen – unsere Infrastruktur unterstützt Ihre Ziele. Wir laden deutsche Gesundheitsfachkräfte ein, Steroide in Deutschland durch autorisierte Kanäle zu kaufen und Patientensicherheit sowie regulatorische Compliance sicherzustellen.",
-          "Novatech Sciences repräsentiert die Verschmelzung von pharmazeutischer Innovation, regulatorischer Exzellenz und kundenorientiertem Service. Während Deutschland weiterhin Standards für Hormontherapien vorantreibt, bleiben wir dem Engagement treu, bestes Testosteron in Deutschland zu liefern, das die Lebensqualität verbessert und gleichzeitig die medizinische Ethik und rechtlichen Rahmenbedingungen für die Steroid-Verteilung in Deutschland wahrt.",
-          "Kontaktieren Sie noch heute unsere deutschen Marktspezialisten, um autorisierte Beschaffungsbeziehungen aufzubauen und Zugriff auf unseren umfassenden Katalog von Hormontherapien, Leistungsmedikamenten und Forschungsverbindungen zu erhalten, die für den anspruchsvollen deutschen Gesundheitsmarkt konzipiert wurden."
+          "Reduzierter Lösungsmittelverbrauch.",
+          "In-vitro-Tests statt Tierversuche, wo möglich.",
+          "ISO 14001 Umweltmanagement."
         ]
       }
+
+    ]
+  },
+
+  faq: {
+    title: "Häufig gestellte Fragen – Deutschland",
+    animatedTitle: "Regulatorische Klarheit",
+    icon: "FaRegQuestionCircle",
+    gradient: "from-black to-yellow-500",
+
+    categories: [
+
+      {
+        name: "Recht & Rezepte",
+        icon: "FaGavel",
+        questions: [
+          {
+            id: "de1",
+            question: "Ist es legal, Testosteron online in Deutschland zu kaufen?",
+            answer: "Ja, mit gültigem Rezept eines lizenzierten Arztes gemäß AMG."
+          },
+          {
+            id: "de2",
+            question: "Benötige ich ein Rezept?",
+            answer: "Ja, therapeutisches Testosteron ist verschreibungspflichtig."
+          }
+        ]
+      },
+
+      {
+        name: "Versand & Qualität",
+        icon: "FaTruck",
+        questions: [
+          {
+            id: "de3",
+            question: "Wie lange dauert der Versand?",
+            answer: "2–3 Werktage in deutsche Großstädte via temperaturkontrolliertem Versand."
+          },
+          {
+            id: "de4",
+            question: "Wie wird Qualität sichergestellt?",
+            answer: "HPLC-Tests, Sterilitätsprüfung, Endotoxin-Screening und vollständige CoA-Dokumentation."
+          }
+        ]
+      }
+
+    ]
+  },
+
+  regulation: {
+    title: "Testosteron-Regulierung in Deutschland",
+    animatedTitle: "AMG & BfArM Compliance",
+    icon: "FaShieldAlt",
+    gradient: "from-black to-red-600",
+    summary: "Der Vertrieb von Testosteron in Deutschland unterliegt dem Arzneimittelgesetz und der Aufsicht des BfArM.",
+    bodies: [
+      {
+        name: "BfArM",
+        fullName: "Bundesinstitut für Arzneimittel und Medizinprodukte",
+        role: "Nationale Arzneimittelaufsicht"
+      },
+      {
+        name: "AMG",
+        fullName: "Arzneimittelgesetz",
+        role: "Rechtlicher Rahmen für Herstellung & Vertrieb"
+      },
+      {
+        name: "ZOLL",
+        fullName: "Deutscher Zoll",
+        role: "Import- & Exportkontrolle"
+      }
+    ]
+  },
+
+  seo: {
+    keywords: [
+      "Testosteron Deutschland kaufen",
+      "Steroide legal Deutschland",
+      "BfArM Testosteron Compliance",
+      "AMG Hormontherapie",
+      "Testosteron Ersatztherapie Deutschland"
     ],
-
-    disclaimer: {
-      title: "Haftungsausschluss",
-      content: "Alle Testosteron- und Steroidprodukte erfordern angemessene medizinische Lizenzierung oder Forschungsautorisierung innerhalb Deutschlands. Novatech Sciences operiert streng innerhalb pharmazeutischer Vorschriften und verlangt gültige Rezepte für therapeutische Produkte sowie institutionelle Genehmigung für Forschungsverbindungen. Testosteron-Ersatztherapie sollte nur unter qualifizierter medizinischer Aufsicht mit regelmäßiger Überwachung hämatologischer und Prostata-Gesundheitsparameter durchgeführt werden."
+    schema: {
+      type: "MedicalWebPage",
+      audience: "Germany",
+      medicalSpecialty: "Endocrinology",
+      jurisdiction: "Germany"
     },
-
-    whyChoose: {
-      title: "Warum Novatech Sciences?",
-      features: [
-        "WHO-GMP-zertifizierte Herstellung",
-        "BfArM/AMG-konforme Dokumentation",
-        "HPLC-Reinheitsverifizierung >99%",
-        "Blockchain-aktivierte Authentizitätsverifizierung",
-        "Deutschlandweite Kühlketten-Logistik",
-        "USt-konforme Rechnungsstellung"
-      ],
-      description: "Wir liefern pharmazeutische Exzellenz für den anspruchsvollsten Markt Europas – keine Kompromisse."
-    },
-
-    conclusion: {
-      title: "Fazit",
-      content: "Bestes Testosteron in Deutschland erfordert mehr als einfache EU-Konformität – es verlangt tiefgreifendes Verständnis der BfArM-Inspektionsprioritäten, AMG-Compliance und die Fähigkeit, höchste pharmazeutische Reinheitsstandards zu erfüllen. Novatech Sciences liefert diese anspruchsvolle Kompetenz neben premium Testosteron-Formulierungen und positioniert deutsche Gesundheitsdienstleister, Forscher und Apotheken für Erfolg in diesem anspruchsvollen europäischen Markt."
+    openGraph: {
+      title: "Bestes Testosteron in Deutschland | AMG-konform",
+      description: "Premium-Testosteronlösungen mit vollständiger regulatorischer Dokumentation für Deutschland.",
+      image: "/og/germany-testosterone.jpg",
+      type: "article"
     }
   },
 
-  // FAQ section with ALL your German questions and answers - exactly as provided
-  faq: {
-    categories: [
-      {
-        name: "Rechtliche Grundlagen",
-        questions: [
-          {
-            question: "Ist es legal, Testosteron online in Deutschland zu kaufen?",
-            answer: "Ja, der Kauf von Testosteron online in Deutschland ist mit gültigem medizinischen Rezept von lizenzierten deutschen Ärzten legal. Novatech Sciences erfordert ordnungsgemäße Dokumentation vor der Bearbeitung von Bestellungen und stellt Compliance mit dem Arzneimittelgesetz sicher. Wir beliefern lizenzierte Apotheken, Kliniken und Forschungseinrichtungen mit vollständiger regulatorischer Dokumentation."
-          },
-          {
-            question: "Benötige ich ein Rezept, um Steroide in Deutschland zu kaufen?",
-            answer: "Das deutsche Recht verlangt gültige medizinische Rezepte für therapeutische Testosteron-Einkäufe. Forschungseinrichtungen können Verbindungen für Studien unter spezifischen regulatorischen Ausnahmen erwerben. Wir verifizieren streng Käuferberechtigungen und erfordern angemessene Lizenzdokumentation vor der Auftragserteilung."
-          }
-        ]
-      },
-      {
-        name: "Produktqualität & Zertifizierung",
-        questions: [
-          {
-            question: "Was macht Novatech Sciences zum besten Testosteron-Lieferanten in Deutschland?",
-            answer: "Novatech Sciences zeichnet sich durch WHO-GMP-zertifizierte Herstellung, strenge HPLC-Reinheitstests und umfassende Analysezertifikate aus. Wir unterhalten EU-konforme Kühlketten-Logistik in deutschen Großstädten, bieten deutschsprachige Supportteams und blockchain-basierte Authentizitätsverifizierung, die strenge BfArM-Anforderungen übertrifft."
-          },
-          {
-            question: "Wie stellen Sie Produktqualität für deutsche Kunden sicher?",
-            answer: "Wir implementieren mehrphasige Qualitätskontrolle inklusive HPLC-Verifizierung, Sterilitätsprüfungen, Endotoxin-Screening und Schwermetallanalyse. Jede Charge trägt eindeutige Identifikatoren mit analytischer Dokumentation, während unser Tracking-System deutschen Kunden Authentizitätsverifizierung und Fälschungsschutz bietet."
-          },
-          {
-            question: "Sind Ihre Produkte für deutsche pharmazeutische Standards zertifiziert?",
-            answer: "Absolut. Unsere Einrichtungen unterhalten WHO-GMP, ISO 9001 und ISO 14001 Zertifizierungen mit voller Compliance zu EU-Richtlinien. Wir liefern Analysezertifikate, Sicherheitsdatenblätter und Stabilitätsstudien, die deutsche Apotheken für Audit-Zwecke benötigen."
-          }
-        ]
-      },
-      {
-        name: "Produktpalette",
-        questions: [
-          {
-            question: "Welche Testosteronprodukte bieten Sie in Deutschland an?",
-            answer: "Unser deutscher Katalog umfasst Testosteron-Enantat, Cypionat, Propionat und Undecanoat in verschiedenen Konzentrationen. Zusätzlich liefern wir Anti-Östrogen-Therapien wie TAMONOVA und AROMANOVA. Alle Formulierungen entsprechen Europäischer Pharmakopöe-Standards."
-          }
-        ]
-      },
-      {
-        name: "Versand & Logistik",
-        questions: [
-          {
-            question: "Wie lange dauert der Versand in deutsche Städte?",
-            answer: "Die Standardlieferung nach Berlin, München und Hamburg erfordert zwei bis drei Werktage per temperaturkontrolliertem Versand. Wir partnerschaften mit Deutsche Post DHL und pharmazeutischen Kurierdiensten für 2-8°C Kühlkettenintegrität während des gesamten Transports."
-          },
-          {
-            question: "Wie sollte ich Testosteronprodukte nach Lieferung lagern?",
-            answer: "Lagern Sie ungeöffnete Testosteron-Fläschchen bei 2-8°C im Kühlschrank vor Licht geschützt. Nach dem Öffnen innerhalb spezifizierter Zeitrahmen verwenden. Produkte in Originalverpackung von Kindern fernhalten. Unsere deutschsprachigen Beipackzettel enthalten detaillierte Lagerungsanweisungen."
-          }
-        ]
-      },
-      {
-        name: "Forschung & Wissenschaft",
-        questions: [
-          {
-            question: "Können Forschungseinrichtungen Testosteron für Studien in Deutschland kaufen?",
-            answer: "Ja, deutsche Forschungsorganisationen können Testosteron für wissenschaftliche Untersuchungen unter anwendbaren Forschungsausnahmen erwerben. Wir erfordern Ethikkommissions-Genehmigungen und Forschungslizenzen. Unser Team unterstützt bei Verbindungsauswahl und regulatorischer Dokumentation."
-          }
-        ]
-      },
-      {
-        name: "Zahlung & Abwicklung",
-        questions: [
-          {
-            question: "Welche Zahlungsmethoden stehen deutschen Kunden zur Verfügung?",
-            answer: "Wir akzeptieren SEPA-Überweisungen, gängige Kreditkarten und pharmazeutische Beschaffungssysteme. Alle Transaktionen beinhalten USt-konforme Rechnungsstellung. Unternehmenskunden können nach Bonitätsprüfung auf Rechnung bestellen."
-          }
-        ]
-      }
-    ]
+  theme: {
+    primary: "from-black via-red-600 to-yellow-500",
+    secondary: "from-white to-gray-100",
+    accent: "from-red-600 to-yellow-500",
+    gradient: {
+      hero: "from-black via-red-700 to-yellow-500",
+      section: "from-white to-gray-50"
+    }
+  },
+
+  metadata: {
+    created: "2024-01-22",
+    updated: "2024-01-22",
+    version: "1.0.0",
+    author: "Novatech Sciences Research Team",
+    reviewedBy: "German Regulatory Affairs Division"
   }
 },
 portugal: {
-  slug: "testosterone-in-portugal",
+  slug: "testosterona-em-portugal",
   name: "Portugal",
 
   meta: {
     title: {
-      base: "Testosterona em Portugal | Ciência Hormonal e Suporte Responsável – Novatech Sciences",
+      base: "Testosterona em Portugal | Ciência Hormonal e Suporte Responsável",
       brand: "Novatech Sciences",
       animated: {
         primary: "Testosterona em",
         highlight: "Portugal",
-        suffix: "Ciência Hormonal e Suporte Responsável – Novatech Sciences"
+        suffix: "Ciência e Equilíbrio Hormonal"
       }
     },
     description: {
-      short: "Conheça a testosterona em Portugal com a Novatech Sciences.",
-      full: "Conheça a testosterona em Portugal com a Novatech Sciences. Conteúdo científico sobre investigação em testosterona, equilíbrio hormonal, padrões de qualidade farmacêutica e suporte responsável, desenvolvido para o público português."
-    }
+      short: "Conhecimento científico sobre testosterona em Portugal.",
+      full: "Conteúdo educativo sobre testosterona em Portugal, investigação hormonal, padrões farmacêuticos europeus, equilíbrio hormonal e suporte responsável alinhado com regulamentação da União Europeia."
+    },
+    keywords: [
+      "testosterona Portugal",
+      "testosterona online Portugal",
+      "equilíbrio hormonal masculino",
+      "suporte testosterona Portugal",
+      "investigação testosterona Portugal",
+      "qualidade farmacêutica Europa"
+    ]
   },
 
   hero: {
     title: {
       prefix: "Testosterona em",
       highlight: "Portugal",
-      suffix: "Ciência Hormonal e Suporte Responsável – Novatech Sciences"
+      suffix: "Conhecimento Científico Responsável"
     },
-    subtitle: "Testosterona em Portugal: Conhecimento Científico para Saúde Masculina Sustentável",
-    animatedSubtitle: "Ciência • Equilíbrio • Qualidade • Responsabilidade"
+    subtitle: "Equilíbrio hormonal com base em ciência e padrões europeus",
+    animatedSubtitle: "Qualidade • Investigação • Responsabilidade",
+    stats: [
+      {
+        icon: "FaLeaf",
+        value: "Equilíbrio",
+        label: "Saúde Masculina Sustentável",
+        color: "from-green-600 to-blue-500",
+        animation: "float"
+      },
+      {
+        icon: "FaFlask",
+        value: "Ciência",
+        label: "Baseada em Evidência",
+        color: "from-blue-500 to-indigo-600",
+        animation: "pulse"
+      },
+      {
+        icon: "FaShieldAlt",
+        value: "UE",
+        label: "Padrões Europeus",
+        color: "from-indigo-600 to-green-600",
+        animation: "wave"
+      }
+    ],
+    badge: {
+      label: "Suporte Responsável",
+      icon: "FaCheckCircle",
+      color: "from-green-600 to-blue-600"
+    }
   },
 
   content: {
+
     introduction: {
-      title: "Testosterona em Portugal | Novatech Sciences",
+      title: "Conhecimento Científico para Saúde Masculina Sustentável",
+      animatedTitle: "Uma Nova Perspetiva Portuguesa",
       paragraphs: [
-        "Em Portugal, a saúde masculina é cada vez mais encarada como um equilíbrio entre corpo, mente e longevidade. O foco não está em resultados imediatos, mas sim em bem-estar contínuo, energia funcional e qualidade de vida ao longo dos anos. Dentro desta visão moderna, a testosterona assume um papel essencial como regulador biológico.",
-        "Na Novatech Sciences, analisamos a testosterona em Portugal através de uma lente científica e responsável. Este conteúdo foi desenvolvido para um público informado que procura compreender a testosterona com rigor, clareza e alinhamento com os padrões europeus de qualidade e regulamentação."
+        "Em Portugal, a saúde masculina é encarada como equilíbrio entre corpo, mente e longevidade.",
+        "A testosterona assume um papel regulador essencial no organismo masculino.",
+        "Na Novatech Sciences, analisamos a testosterona através de uma abordagem científica, ética e alinhada com padrões europeus."
       ]
     },
 
     sections: [
+
       {
-        id: "papel-testosterona",
-        title: "O Papel da Testosterona no Equilíbrio do Organismo Masculino",
+        id: "biological-role",
+        title: "O Papel da Testosterona no Organismo Masculino",
+        animatedTitle: "Função Sistémica e Equilíbrio",
+        icon: "FaHeartbeat",
+        gradient: "from-blue-600 to-green-600",
         content: [
-          "A testosterona é frequentemente associada apenas à força física, mas a ciência demonstra que a sua função vai muito além disso. Trata-se de uma hormona com impacto direto em vários sistemas do organismo, incluindo:",
-          "Manutenção da massa muscular funcional",
-          "Saúde óssea e integridade estrutural",
-          "Capacidade cognitiva e foco mental",
-          "Estabilidade emocional e motivação",
-          "Eficiência metabólica e energia diária",
-          "Esta abordagem holística explica o crescente interesse em testosterona online, melhor testosterona e testosterone Portugal entre homens portugueses atentos à saúde preventiva."
+          "Manutenção da massa muscular funcional.",
+          "Saúde óssea e integridade estrutural.",
+          "Clareza cognitiva e foco mental.",
+          "Estabilidade emocional.",
+          "Energia metabólica diária."
         ]
       },
+
       {
-        id: "fatores-influenciadores",
-        title: "Fatores Atuais que Influenciam a Testosterona em Portugal",
+        id: "modern-factors",
+        title: "Fatores Modernos que Influenciam a Testosterona",
+        animatedTitle: "Desafios do Estilo de Vida Atual",
+        icon: "FaClock",
+        gradient: "from-indigo-600 to-blue-500",
         content: [
-          "Apesar de Portugal ter uma forte tradição ligada à alimentação equilibrada e a estilos de vida ativos, a realidade moderna introduz desafios que podem afetar o equilíbrio hormonal:",
-          "Ritmos de trabalho intensos",
-          "Stress prolongado",
-          "Qualidade de sono reduzida",
-          "Menor atividade física regular",
-          "Alterações nos hábitos alimentares",
-          "Estes fatores têm levado a um aumento do interesse em formas responsáveis de apoiar a testosterona, sempre com base em conhecimento científico e não em soluções extremas."
+          "Stress prolongado.",
+          "Privação de sono.",
+          "Sedentarismo.",
+          "Ritmos de trabalho intensos.",
+          "Alterações alimentares."
         ]
       },
+
       {
-        id: "equilibrio-vs-solucoes",
+        id: "hormonal-balance",
         title: "Equilíbrio Hormonal vs. Soluções Rápidas",
+        animatedTitle: "Fundamentos Sustentáveis",
+        icon: "FaBalanceScale",
+        gradient: "from-green-600 to-indigo-600",
         content: [
-          "Em Portugal, cresce a compreensão de que equilíbrio hormonal não significa recorrer a atalhos. A ciência moderna reforça que a base da saúde masculina inclui:",
-          "Movimento regular e estruturado",
-          "Descanso adequado e consistente",
-          "Nutrição equilibrada, inspirada na dieta mediterrânica",
-          "Gestão eficaz do stress",
-          "A investigação em testosterona surge como ferramenta de conhecimento e apoio educativo, não como substituto destes pilares fundamentais."
+          "Movimento estruturado.",
+          "Sono consistente.",
+          "Nutrição inspirada na dieta mediterrânica.",
+          "Gestão eficaz do stress."
         ]
       },
+
       {
-        id: "funcao-mental",
-        title: "Testosterona e Função Mental: Um Aspeto Essencial",
+        id: "mental-performance",
+        title: "Testosterona e Função Mental",
+        animatedTitle: "Clareza Cognitiva e Motivação",
+        icon: "FaBrain",
+        gradient: "from-indigo-500 to-blue-600",
         content: [
-          "Um dos aspetos menos discutidos da testosterona é o seu impacto no desempenho mental. Evidência científica associa níveis equilibrados de testosterona a:",
-          "Maior clareza cognitiva",
-          "Melhor capacidade de concentração",
-          "Resiliência emocional",
-          "Motivação e iniciativa",
-          "Num contexto português cada vez mais exigente a nível profissional e intelectual, este fator tem ganho relevância significativa."
+          "Melhor concentração.",
+          "Resiliência emocional.",
+          "Motivação e iniciativa.",
+          "Estabilidade psicológica."
         ]
       },
+
       {
-        id: "esteroides-informacao",
-        title: "Testosterona, Esteroides e Informação Mal Interpretada",
+        id: "legal-framework",
+        title: "Enquadramento Legal em Portugal",
+        animatedTitle: "Regulamentação Europeia",
+        icon: "FaGavel",
+        gradient: "from-green-700 to-blue-600",
         content: [
-          "Termos como esteroide, esteroides online ou comprar esteroides surgem frequentemente associados à testosterona. Do ponto de vista científico, a testosterona é classificada como um esteroide anabólico androgénico.",
-          "No entanto, esta classificação não deve ser confundida com práticas não reguladas. A investigação científica em testosterona, quando realizada de forma ética e regulamentada, é completamente distinta do uso ilícito ou recreativo sem controlo de qualidade."
+          "Supervisão médica em contexto clínico.",
+          "Regulamentação rigorosa em investigação.",
+          "Conformidade com diretivas da União Europeia."
         ]
       },
+
       {
-        id: "enquadramento-legal",
-        title: "Enquadramento Legal da Testosterona em Portugal",
+        id: "quality-standards",
+        title: "Critérios de Qualidade Científica",
+        animatedTitle: "Padrões Farmacêuticos",
+        icon: "FaCertificate",
+        gradient: "from-blue-600 to-green-500",
         content: [
-          "Portugal segue rigorosamente as diretivas de saúde da União Europeia. A testosterona:",
-          "Requer supervisão médica em contextos clínicos",
-          "Está sujeita a regulamentação em ambientes de investigação",
-          "Deve cumprir normas rigorosas de qualidade e rastreabilidade",
-          "Compreender este enquadramento é essencial para quem pesquisa buy testosterone online ou informação relacionada com testosterona em Portugal de forma responsável."
+          "Precisão e estabilidade da formulação.",
+          "Controlo rigoroso de pureza.",
+          "Processos alinhados com GMP.",
+          "Documentação técnica transparente."
         ]
       },
+
       {
-        id: "qualidade-mercado",
-        title: "O Que Define Qualidade em Testosterona no Mercado Português",
+        id: "formulation-tech",
+        title: "Tecnologia de Formulação",
+        animatedTitle: "Oral vs. Injetável",
+        icon: "FaCapsules",
+        gradient: "from-indigo-600 to-green-600",
         content: [
-          "O conceito de melhor testosterona em Portugal está ligado a critérios técnicos, não a promessas comerciais. A qualidade científica é definida por:",
-          "Precisão e estabilidade da formulação",
-          "Consistência no processo de fabrico",
-          "Controlo rigoroso de pureza",
-          "Documentação técnica transparente",
-          "Na Novatech Sciences, estes princípios orientam todo o desenvolvimento e comunicação."
+          "Testosterona oral requer tecnologia avançada de absorção.",
+          "Testosterona injetável produzida em ambiente estéril certificado.",
+          "Precisão de dosagem como prioridade absoluta."
         ]
       },
+
       {
-        id: "tecnologia-farmaceutica",
-        title: "Tecnologia Farmacêutica e Processos de Formulação",
+        id: "aging",
+        title: "Testosterona e Envelhecimento Ativo",
+        animatedTitle: "Qualidade de Vida Prolongada",
+        icon: "FaUserClock",
+        gradient: "from-blue-600 to-green-600",
         content: [
-          "Testosterona Oral",
-          "As formulações orais exigem tecnologia avançada para garantir absorção consistente e estabilidade química. Um desenvolvimento inadequado pode comprometer a fiabilidade do composto.",
-          "Testosterona Injetável",
-          "A testosterona injetável é produzida em ambientes estéreis certificados, com foco absoluto na precisão da dosagem e na segurança do processo, de acordo com os padrões europeus."
-        ]
-      },
-      {
-        id: "suplemento-clarificacao",
-        title: "Suplemento de Testosterona em Portugal: Clarificação Necessária",
-        content: [
-          "O termo suplemento testosterona Portugal é amplamente utilizado, mas pode gerar confusão. É essencial distinguir entre:",
-          "Suplementos nutricionais",
-          "Compostos destinados à investigação",
-          "Terapias médicas regulamentadas",
-          "A compreensão destas diferenças evita interpretações erradas e expectativas irreais."
-        ]
-      },
-      {
-        id: "interesse-online",
-        title: "Por Que o Interesse em Testosterona Online Cresce em Portugal",
-        content: [
-          "O aumento da procura por testosterona online em Portugal deve-se a vários fatores:",
-          "Facilidade de acesso à informação científica",
-          "Maior consciência sobre saúde masculina",
-          "Interesse em envelhecimento ativo",
-          "Necessidade de fontes educativas credíveis",
-          "A qualidade da informação torna-se, por isso, tão importante quanto o conteúdo em si."
-        ]
-      },
-      {
-        id: "suporte-cientifico",
-        title: "Suporte de Testosterona: Um Conceito Baseado em Ciência",
-        content: [
-          "O suporte de testosterona refere-se a uma abordagem informativa e científica que visa compreender e apoiar o equilíbrio hormonal. Inclui:",
-          "Investigação rigorosa",
-          "Processos alinhados com GMP",
-          "Controlo de qualidade estruturado",
-          "Comunicação clara e responsável",
-          "Este modelo está alinhado com a mentalidade portuguesa de prudência e confiança baseada em conhecimento."
-        ]
-      },
-      {
-        id: "padroes-qualidade",
-        title: "Padrões de Qualidade da Novatech Sciences",
-        content: [
-          "Na Novatech Sciences, os padrões aplicados incluem:",
-          "Fabrico conforme GMP",
-          "Instalações certificadas por ISO",
-          "Testes de qualidade por lote",
-          "Rastreabilidade completa",
-          "Estes critérios garantem fiabilidade para avaliação científica em Portugal e em toda a Europa."
-        ]
-      },
-      {
-        id: "envelhecimento",
-        title: "Testosterona e Envelhecimento com Qualidade",
-        content: [
-          "Em Portugal, o envelhecimento saudável é uma prioridade crescente. A investigação científica associa a testosterona equilibrada a:",
-          "Manutenção da mobilidade",
-          "Energia funcional diária",
-          "Bem-estar emocional",
-          "Qualidade de vida prolongada",
-          "O foco está na preservação da função, não na intensificação artificial do desempenho."
-        ]
-      },
-      {
-        id: "futuro-investigacao",
-        title: "O Futuro da Investigação em Testosterona em Portugal",
-        content: [
-          "A investigação hormonal em Portugal caminha para:",
-          "Abordagens personalizadas",
-          "Prevenção em vez de intervenção tardia",
-          "Inovação ética e regulamentada",
-          "Educação científica acessível",
-          "A Novatech Sciences posiciona-se como parte desta evolução responsável."
+          "Preservação da mobilidade.",
+          "Energia funcional.",
+          "Bem-estar emocional.",
+          "Manutenção da independência."
         ]
       }
+
+    ]
+  },
+
+  faq: {
+    title: "Perguntas Frequentes – Testosterona em Portugal",
+    animatedTitle: "Esclarecimento Científico",
+    icon: "FaRegQuestionCircle",
+    gradient: "from-green-600 to-blue-600",
+
+    categories: [
+
+      {
+        name: "Informação Geral",
+        icon: "FaInfoCircle",
+        questions: [
+          {
+            id: "pt1",
+            question: "O que é a testosterona?",
+            answer: "Hormona essencial para força muscular, densidade óssea, energia e equilíbrio emocional."
+          },
+          {
+            id: "pt2",
+            question: "Porque há maior interesse em Portugal?",
+            answer: "Maior literacia em saúde, foco em envelhecimento ativo e bem-estar sustentável."
+          }
+        ]
+      },
+
+      {
+        name: "Legalidade & Qualidade",
+        icon: "FaShieldAlt",
+        questions: [
+          {
+            id: "pt3",
+            question: "A testosterona é legal em Portugal?",
+            answer: "Sim, quando utilizada sob enquadramento médico ou investigação regulamentada."
+          },
+          {
+            id: "pt4",
+            question: "O que define qualidade científica?",
+            answer: "Pureza, consistência de fabrico, conformidade GMP e documentação técnica transparente."
+          }
+        ]
+      },
+
+      {
+        name: "Estilo de Vida",
+        icon: "FaHeartbeat",
+        questions: [
+          {
+            id: "pt5",
+            question: "O estilo de vida influencia a testosterona?",
+            answer: "Sim. Exercício, sono, nutrição e gestão do stress influenciam diretamente o equilíbrio hormonal."
+          }
+        ]
+      }
+
+    ]
+  },
+
+  regulation: {
+    title: "Regulamentação da Testosterona em Portugal",
+    animatedTitle: "Diretivas Europeias",
+    icon: "FaLandmark",
+    gradient: "from-green-600 to-blue-700",
+    summary: "Portugal segue rigorosamente as normas da União Europeia para terapias hormonais e investigação científica.",
+    bodies: [
+      {
+        name: "INFARMED",
+        fullName: "Autoridade Nacional do Medicamento e Produtos de Saúde",
+        role: "Regulação e supervisão farmacêutica"
+      },
+      {
+        name: "UE",
+        fullName: "União Europeia",
+        role: "Diretivas e normas de qualidade farmacêutica"
+      }
+    ]
+  },
+
+  seo: {
+    keywords: [
+      "testosterona Portugal",
+      "suporte hormonal Portugal",
+      "investigação testosterona",
+      "equilíbrio hormonal masculino",
+      "qualidade farmacêutica Europa"
     ],
-
-    whyChoose: {
-      title: "Novatech Sciences: Conhecimento, Qualidade e Responsabilidade",
-      features: [
-        "Filosofia orientada para a ciência",
-        "Padrões farmacêuticos europeus",
-        "Transparência informativa",
-        "Compromisso com educação responsável"
-      ],
-      description: "Promovemos compreensão informada, não decisões impulsivas."
+    schema: {
+      type: "MedicalWebPage",
+      audience: "Portugal",
+      medicalSpecialty: "Endocrinology",
+      jurisdiction: "Portugal"
     },
-
-    conclusion: {
-      title: "Conclusão",
-      content: "A testosterona em Portugal representa a convergência entre conhecimento científico, responsabilidade e qualidade farmacêutica. Para profissionais de saúde, investigadores e cidadãos informados que procuram clareza num panorama frequentemente ruidoso, a Novatech Sciences oferece uma perspetiva fundamentada na ciência, na transparência e no compromisso com padrões europeus exigentes."
+    openGraph: {
+      title: "Testosterona em Portugal | Ciência Hormonal Responsável",
+      description: "Conhecimento científico sobre testosterona em Portugal, equilíbrio hormonal e padrões farmacêuticos europeus.",
+      image: "/og/portugal-testosterona.jpg",
+      type: "article"
     }
   },
 
-  // FAQ section with ALL your Portuguese questions and answers - exactly as provided
-  faq: {
-    categories: [
-      {
-        name: "Conceitos Fundamentais",
-        questions: [
-          {
-            question: "O que é a testosterona e porque é importante para a saúde masculina?",
-            answer: "A testosterona é uma hormona essencial que influencia força muscular, densidade óssea, energia diária, foco mental e equilíbrio emocional. Em Portugal, o seu papel é cada vez mais associado à saúde preventiva, ao envelhecimento ativo e à manutenção da qualidade de vida a longo prazo."
-          },
-          {
-            question: "Porque existe tanto interesse em testosterona em Portugal atualmente?",
-            answer: "O interesse crescente em testosterona em Portugal reflete maior consciência sobre saúde masculina, impacto do stress moderno e envelhecimento saudável. Muitos procuram informação científica fiável para compreender o equilíbrio hormonal, evitando soluções rápidas e apostando em abordagens baseadas em evidência."
-          }
-        ]
-      },
-      {
-        name: "Qualidade e Definições Científicas",
-        questions: [
-          {
-            question: "O que significa 'melhor testosterona' do ponto de vista científico?",
-            answer: "Cientificamente, 'melhor testosterona' refere-se à qualidade da formulação, pureza, consistência de fabrico e controlo rigoroso. Não significa maior potência. Em Portugal, qualidade é definida por padrões farmacêuticos, documentação técnica clara e conformidade com normas europeias."
-          },
-          {
-            question: "A testosterona é considerada um esteroide?",
-            answer: "Sim. Do ponto de vista científico, a testosterona é classificada como um esteroide anabólico androgénico. Contudo, a investigação regulada e o uso médico supervisionado diferem totalmente do uso não controlado de esteroides, que carece de qualidade, segurança e enquadramento legal."
-          }
-        ]
-      },
-      {
-        name: "Enquadramento Legal",
-        questions: [
-          {
-            question: "A testosterona é legal em Portugal?",
-            answer: "Sim, a testosterona é legal em Portugal quando utilizada em contextos médicos regulamentados ou investigação científica autorizada. O enquadramento legal segue diretivas nacionais e da União Europeia, exigindo controlo de qualidade, rastreabilidade e, em contexto clínico, supervisão profissional adequada."
-          }
-        ]
-      },
-      {
-        name: "Formulações e Tecnologia",
-        questions: [
-          {
-            question: "Qual é a diferença entre testosterona oral e injetável?",
-            answer: "A testosterona oral utiliza tecnologias farmacêuticas de absorção e estabilidade química. A testosterona injetável é produzida em ambientes estéreis certificados, com elevada precisão de dosagem. Ambas exigem processos de fabrico especializados e controlos rigorosos para garantir fiabilidade e segurança."
-          }
-        ]
-      },
-      {
-        name: "Suporte e Terminologia",
-        questions: [
-          {
-            question: "O que significa suporte ou apoio de testosterona?",
-            answer: "O suporte de testosterona refere-se a abordagens baseadas em ciência que ajudam a compreender e apoiar o equilíbrio hormonal. Inclui educação científica, investigação rigorosa, padrões GMP e comunicação responsável, sem recorrer a promessas exageradas ou intervenções sem fundamento técnico."
-          },
-          {
-            question: "O termo 'suplemento de testosterona' é correto em Portugal?",
-            answer: "O termo 'suplemento de testosterona' é frequentemente utilizado, mas pode gerar confusão. Em Portugal, é essencial distinguir entre suplementos nutricionais, compostos de investigação e terapias médicas reguladas, pois cada categoria possui finalidades, enquadramentos legais e níveis de controlo distintos."
-          }
-        ]
-      },
-      {
-        name: "Comportamento e Literacia",
-        questions: [
-          {
-            question: "Porque tantas pessoas pesquisam testosterona online em Portugal?",
-            answer: "Pesquisar testosterona online permite acesso discreto a informação científica, estudos técnicos e padrões de qualidade. Em Portugal, este comportamento reflete maior literacia em saúde e a necessidade de fontes credíveis para evitar desinformação comum em conteúdos não especializados."
-          }
-        ]
-      },
-      {
-        name: "Estilo de Vida",
-        questions: [
-          {
-            question: "O estilo de vida influencia os níveis de testosterona?",
-            answer: "Sim. A evidência científica demonstra que exercício regular, sono de qualidade, alimentação equilibrada e gestão do stress influenciam diretamente o equilíbrio hormonal. Em Portugal, a abordagem responsável privilegia estes fatores como base da saúde masculina sustentável."
-          }
-        ]
-      }
-    ]
+  theme: {
+    primary: "from-green-600 via-blue-600 to-indigo-700",
+    secondary: "from-white to-gray-100",
+    accent: "from-green-500 to-blue-500",
+    gradient: {
+      hero: "from-green-600 via-blue-600 to-indigo-700",
+      section: "from-white to-gray-50"
+    }
+  },
+
+  metadata: {
+    created: "2024-01-22",
+    updated: "2024-01-22",
+    version: "1.0.0",
+    author: "Novatech Sciences Research Team",
+    reviewedBy: "Portuguese Regulatory Affairs Division"
   }
 },
 spain: {
-  slug: "testosterone-in-spain",
+  slug: "testosterona-en-espana",
   name: "España",
 
   meta: {
     title: {
-      base: "Testosterona en España | Ciencia, Equilibrio y Soporte Responsable – Novatech Sciences",
+      base: "Testosterona en España | Ciencia, Equilibrio y Soporte Responsable",
       brand: "Novatech Sciences",
       animated: {
         primary: "Testosterona en",
         highlight: "España",
-        suffix: "Ciencia, Equilibrio y Soporte Responsable – Novatech Sciences"
+        suffix: "Ciencia y Salud Masculina"
       }
     },
     description: {
-      short: "Análisis profundo sobre la testosterona en España.",
-      full: "Análisis profundo sobre la testosterona en España. Descubra ciencia hormonal, cómo aumentar la testosterona de forma responsable, estándares farmacéuticos y apoyo avanzado en testosterona con Novatech Sciences."
-    }
+      short: "Análisis científico sobre testosterona en España.",
+      full: "Contenido educativo sobre testosterona en España, investigación hormonal, estándares farmacéuticos europeos, cómo aumentar la testosterona de forma responsable y soporte científico alineado con regulación sanitaria europea."
+    },
+    keywords: [
+      "testosterona España",
+      "testosterona online España",
+      "mejor testosterona España",
+      "aumentar testosterona España",
+      "equilibrio hormonal masculino",
+      "investigación testosterona España"
+    ]
   },
 
   hero: {
     title: {
       prefix: "Testosterona en",
       highlight: "España",
-      suffix: "Ciencia, Equilibrio y Soporte Responsable – Novatech Sciences"
+      suffix: "Ciencia Moderna y Equilibrio"
     },
-    subtitle: "Testosterona en España: Ciencia Moderna para la Salud Masculina",
-    animatedSubtitle: "Ciencia • Equilibrio • Precisión • Responsabilidad"
+    subtitle: "Salud masculina basada en evidencia y responsabilidad",
+    animatedSubtitle: "Investigación • Precisión • Transparencia",
+    stats: [
+      {
+        icon: "FaFlask",
+        value: "Ciencia",
+        label: "Basada en Evidencia",
+        color: "from-red-600 to-yellow-500",
+        animation: "pulse"
+      },
+      {
+        icon: "FaBalanceScale",
+        value: "Equilibrio",
+        label: "Hormonal Responsable",
+        color: "from-yellow-500 to-red-600",
+        animation: "float"
+      },
+      {
+        icon: "FaShieldAlt",
+        value: "UE",
+        label: "Normativa Europea",
+        color: "from-red-700 to-orange-500",
+        animation: "wave"
+      }
+    ],
+    badge: {
+      label: "Soporte Responsable",
+      icon: "FaCheckCircle",
+      color: "from-red-600 to-yellow-500"
+    }
   },
 
   content: {
+
     introduction: {
-      title: "Testosterona en España | Novatech Sciences",
+      title: "Ciencia Moderna para la Salud Masculina",
+      animatedTitle: "Un Nuevo Enfoque Español",
       paragraphs: [
-        "En España, el concepto de salud masculina está evolucionando. Ya no se trata únicamente de fuerza física o apariencia, sino de energía sostenible, claridad mental, rendimiento diario y bienestar a largo plazo. Dentro de este marco moderno, la testosterona ocupa un lugar central como regulador biológico clave.",
-        "En Novatech Sciences, abordamos la testosterona en España desde una perspectiva científica, educativa y responsable. Este contenido está diseñado para hombres que buscan comprender la testosterona más allá de los mitos, con información clara sobre investigación, formulación y soporte hormonal basado en evidencia."
+        "En España, la salud masculina evoluciona hacia un concepto integral de energía sostenible y bienestar prolongado.",
+        "La testosterona actúa como regulador biológico clave en múltiples funciones fisiológicas.",
+        "Novatech Sciences aborda la testosterona desde una perspectiva científica, educativa y alineada con estándares europeos."
       ]
     },
 
     sections: [
+
       {
-        id: "regulador-integral",
-        title: "La Testosterona Como Regulador Integral del Organismo",
+        id: "integral-role",
+        title: "La Testosterona como Regulador Integral",
+        animatedTitle: "Impacto Sistémico",
+        icon: "FaHeartbeat",
+        gradient: "from-red-600 to-yellow-500",
         content: [
-          "La testosterona no actúa de forma aislada. Su influencia se extiende a múltiples funciones fisiológicas que afectan directamente la calidad de vida:",
-          "Producción y mantenimiento de masa muscular funcional",
-          "Salud ósea y prevención del deterioro estructural",
-          "Regulación del estado de ánimo y la motivación",
-          "Capacidad de concentración y agilidad mental",
-          "Metabolismo energético y composición corporal",
-          "Esta visión integral explica por qué términos como testosterona online, mejor testosterona y testosterone Spain tienen cada vez más presencia en búsquedas realizadas desde España."
+          "Mantenimiento de masa muscular funcional.",
+          "Salud ósea y prevención estructural.",
+          "Regulación emocional y motivación.",
+          "Agilidad mental y concentración.",
+          "Metabolismo energético equilibrado."
         ]
       },
+
       {
-        id: "factores-modernos",
-        title: "Factores Modernos que Afectan la Testosterona en España",
+        id: "modern-factors",
+        title: "Factores Modernos que Influyen",
+        animatedTitle: "Desafíos del Estilo de Vida",
+        icon: "FaClock",
+        gradient: "from-orange-500 to-red-600",
         content: [
-          "A pesar de una cultura tradicionalmente activa y una alimentación reconocida mundialmente, la vida moderna en España introduce desafíos que pueden influir en el equilibrio hormonal:",
-          "Jornadas laborales prolongadas",
-          "Estrés psicológico continuo",
-          "Reducción del descanso profundo",
-          "Menor actividad física estructurada",
-          "Cambios en hábitos nutricionales",
-          "Estos factores han impulsado el interés en aumentar la testosterona de manera informada, evitando soluciones extremas o sin respaldo científico."
+          "Estrés laboral prolongado.",
+          "Descanso insuficiente.",
+          "Reducción de actividad física.",
+          "Cambios nutricionales."
         ]
       },
+
       {
-        id: "aumentar-testosterona",
-        title: "Aumentar la Testosterona: Más Allá de Soluciones Rápidas",
+        id: "increase-responsibly",
+        title: "Aumentar la Testosterona de Forma Responsable",
+        animatedTitle: "Más Allá de Soluciones Rápidas",
+        icon: "FaDumbbell",
+        gradient: "from-yellow-500 to-red-600",
         content: [
-          "En el contexto español, aumentar la testosterona no significa recurrir a medidas drásticas. El enfoque responsable se basa en:",
-          "Actividad física regular orientada a la fuerza funcional",
-          "Sueño reparador y control del ritmo circadiano",
-          "Nutrición equilibrada inspirada en la dieta mediterránea",
-          "Reducción del estrés crónico",
-          "La investigación en testosterona actúa como complemento informativo, no como sustituto de estos pilares fundamentales."
+          "Ejercicio de fuerza estructurado.",
+          "Sueño reparador.",
+          "Nutrición mediterránea.",
+          "Gestión del estrés."
         ]
       },
+
       {
-        id: "rendimiento-mental",
-        title: "Testosterona y Rendimiento Mental: Un Vínculo Subestimado",
+        id: "mental-performance",
+        title: "Testosterona y Rendimiento Mental",
+        animatedTitle: "Claridad Cognitiva",
+        icon: "FaBrain",
+        gradient: "from-red-600 to-orange-500",
         content: [
-          "Uno de los aspectos menos comprendidos de la testosterona es su impacto en el rendimiento cognitivo. Estudios científicos asocian niveles equilibrados de testosterona con:",
-          "Mayor determinación y enfoque",
-          "Mejor tolerancia al estrés",
-          "Estabilidad emocional",
-          "Capacidad de toma de decisiones",
-          "En España, donde el rendimiento intelectual y la productividad son cada vez más valorados, este aspecto ha ganado especial relevancia."
+          "Mayor enfoque.",
+          "Estabilidad emocional.",
+          "Capacidad de decisión.",
+          "Resiliencia ante el estrés."
         ]
       },
+
       {
-        id: "desinformacion",
-        title: "Testosterona, Esteroides y Desinformación Online",
+        id: "legal-framework",
+        title: "Marco Legal en España",
+        animatedTitle: "Regulación Sanitaria Europea",
+        icon: "FaGavel",
+        gradient: "from-red-700 to-yellow-600",
         content: [
-          "Términos como esteroide, esteroides online o comprar esteroides suelen aparecer junto a búsquedas de testosterona. Desde el punto de vista científico, la testosterona pertenece a la categoría de esteroides anabólicos androgénicos.",
-          "Sin embargo, esta clasificación no debe confundirse con prácticas no reguladas. La investigación responsable en testosterona es radicalmente distinta del uso ilícito o recreativo de esteroides sin control de calidad ni supervisión.",
-          "La educación es clave para separar ciencia de desinformación."
+          "Supervisión médica obligatoria en contexto clínico.",
+          "Cumplimiento de normativas europeas.",
+          "Controles de calidad y trazabilidad."
         ]
       },
+
       {
-        id: "marco-legal",
-        title: "Marco Legal y Científico de la Testosterona en España",
+        id: "quality-definition",
+        title: "¿Qué Define la Mejor Testosterona?",
+        animatedTitle: "Estándares Científicos",
+        icon: "FaCertificate",
+        gradient: "from-yellow-500 to-red-600",
         content: [
-          "España opera bajo uno de los marcos regulatorios sanitarios más estrictos de Europa. La testosterona:",
-          "Requiere supervisión médica en contextos clínicos",
-          "Debe cumplir normativas europeas en investigación",
-          "Está sujeta a controles de calidad y trazabilidad",
-          "Comprender este entorno es esencial para quienes investigan opciones relacionadas con buy testosterone online o testosterona en España desde una perspectiva informativa."
+          "Precisión en formulación.",
+          "Consistencia productiva.",
+          "Controles de pureza.",
+          "Documentación verificable."
         ]
       },
+
       {
-        id: "define-calidad",
-        title: "¿Qué Define la Mejor Testosterona en España?",
+        id: "formulation",
+        title: "Tecnología de Formulación",
+        animatedTitle: "Oral e Inyectable",
+        icon: "FaCapsules",
+        gradient: "from-red-600 to-orange-500",
         content: [
-          "El concepto de mejor testosterona no está relacionado con fuerza extrema ni resultados inmediatos. Desde un punto de vista científico, la calidad se define por:",
-          "Precisión en la formulación",
-          "Consistencia en la producción",
-          "Controles de pureza y estabilidad",
-          "Documentación técnica verificable",
-          "Novatech Sciences se guía por estos principios para garantizar estándares alineados con las expectativas del mercado español y europeo."
+          "Tecnologías avanzadas de absorción en formulaciones orales.",
+          "Producción estéril certificada para inyectables.",
+          "Control riguroso de dosificación."
         ]
       },
+
       {
-        id: "formulacion-farmaceutica",
-        title: "Formulación Farmacéutica: Precisión y Tecnología",
-        content: [
-          "Testosterona Oral",
-          "Las formulaciones orales requieren tecnologías avanzadas para garantizar absorción controlada y estabilidad química. Una formulación incorrecta puede comprometer la fiabilidad del compuesto.",
-          "Testosterona Inyectable",
-          "La testosterona inyectable se produce en entornos estériles certificados, donde la dosificación exacta y la pureza son prioritarias. Estos estándares reflejan el rigor exigido en España."
-        ]
-      },
-      {
-        id: "suplemento-diferencias",
-        title: "Suplemento de Testosterona en España: Diferencias Clave",
-        content: [
-          "El término suplemento testosterona España se utiliza de forma amplia, pero engloba realidades muy distintas. Es fundamental distinguir entre:",
-          "Suplementos nutricionales",
-          "Compuestos de investigación",
-          "Terapias médicas reguladas",
-          "La falta de comprensión puede generar expectativas erróneas. Novatech Sciences promueve siempre la claridad conceptual y la educación científica."
-        ]
-      },
-      {
-        id: "interes-online",
-        title: "Por Qué Crece el Interés en la Testosterona Online en España",
-        content: [
-          "El aumento de búsquedas sobre testosterona online responde a varios factores:",
-          "Acceso inmediato a información científica",
-          "Interés creciente en la salud masculina",
-          "Búsqueda de privacidad y discreción",
-          "Comparación de estándares de calidad",
-          "Sin embargo, no toda la información disponible es fiable. Por ello, contar con fuentes educativas serias resulta esencial."
-        ]
-      },
-      {
-        id: "apoyo-evidencia",
-        title: "Apoyo de Testosterona: Un Concepto Basado en Evidencia",
-        content: [
-          "El apoyo de testosterona no implica intervención directa sin criterio. Se refiere a:",
-          "Investigación científica rigurosa",
-          "Desarrollo de formulaciones controladas",
-          "Procesos alineados con GMP",
-          "Comunicación clara y sin exageraciones",
-          "Este enfoque encaja con la mentalidad española, donde la confianza se construye a través de rigor y transparencia."
-        ]
-      },
-      {
-        id: "produccion-calidad",
-        title: "Producción y Calidad en Novatech Sciences",
-        content: [
-          "En Novatech Sciences, los estándares de fabricación incluyen:",
-          "Producción conforme a GMP",
-          "Instalaciones certificadas por ISO",
-          "Control de calidad por lote",
-          "Trazabilidad completa del proceso",
-          "Estos principios garantizan fiabilidad para investigación y evaluación profesional en España y Europa."
-        ]
-      },
-      {
-        id: "envejecimiento-saludable",
+        id: "aging",
         title: "Testosterona y Envejecimiento Saludable",
+        animatedTitle: "Función a Largo Plazo",
+        icon: "FaUserClock",
+        gradient: "from-orange-500 to-red-600",
         content: [
-          "En España, el envejecimiento activo es una prioridad creciente. La testosterona juega un papel importante en:",
-          "Mantenimiento de la movilidad",
-          "Preservación de la energía diaria",
-          "Apoyo al bienestar emocional",
-          "Calidad de vida a largo plazo",
-          "La investigación moderna se centra en preservar la función, no en forzar el rendimiento."
-        ]
-      },
-      {
-        id: "futuro-investigacion",
-        title: "El Futuro de la Investigación en Testosterona en España",
-        content: [
-          "La ciencia hormonal avanza hacia:",
-          "Enfoques personalizados",
-          "Prevención antes que corrección",
-          "Innovación ética y regulada",
-          "Educación científica accesible",
-          "Novatech Sciences se posiciona dentro de esta evolución, apostando por conocimiento sólido y responsabilidad."
+          "Preservación de movilidad.",
+          "Energía sostenida.",
+          "Bienestar emocional.",
+          "Calidad de vida prolongada."
         ]
       }
+
+    ]
+  },
+
+  faq: {
+    title: "Preguntas Frecuentes – Testosterona en España",
+    animatedTitle: "Información Científica",
+    icon: "FaRegQuestionCircle",
+    gradient: "from-red-600 to-yellow-500",
+
+    categories: [
+
+      {
+        name: "Información General",
+        icon: "FaInfoCircle",
+        questions: [
+          {
+            id: "es1",
+            question: "¿Para qué se utiliza la testosterona científicamente?",
+            answer: "Se investiga por su papel en regulación hormonal, función muscular, metabolismo y bienestar cognitivo."
+          },
+          {
+            id: "es2",
+            question: "¿Qué significa mejor testosterona?",
+            answer: "Mayor calidad técnica, pureza, estabilidad y cumplimiento regulatorio, no mayor potencia."
+          }
+        ]
+      },
+
+      {
+        name: "Legalidad y Regulación",
+        icon: "FaShieldAlt",
+        questions: [
+          {
+            id: "es3",
+            question: "¿Es legal investigar testosterona en España?",
+            answer: "Sí, siempre bajo marcos regulatorios nacionales y europeos con cumplimiento sanitario."
+          },
+          {
+            id: "es4",
+            question: "¿La testosterona es un esteroide?",
+            answer: "Sí, científicamente es un esteroide anabólico androgénico, pero la investigación regulada es distinta del uso ilícito."
+          }
+        ]
+      },
+
+      {
+        name: "Estilo de Vida",
+        icon: "FaHeartbeat",
+        questions: [
+          {
+            id: "es5",
+            question: "¿Influye el estilo de vida en la testosterona?",
+            answer: "Sí. Ejercicio, sueño, nutrición y gestión del estrés influyen directamente en el equilibrio hormonal."
+          }
+        ]
+      }
+
+    ]
+  },
+
+  regulation: {
+    title: "Regulación de la Testosterona en España",
+    animatedTitle: "Marco Europeo",
+    icon: "FaLandmark",
+    gradient: "from-red-600 to-yellow-600",
+    summary: "España aplica directivas sanitarias europeas estrictas en investigación y uso clínico hormonal.",
+    bodies: [
+      {
+        name: "AEMPS",
+        fullName: "Agencia Española de Medicamentos y Productos Sanitarios",
+        role: "Supervisión farmacéutica nacional"
+      },
+      {
+        name: "UE",
+        fullName: "Unión Europea",
+        role: "Normativas y estándares de calidad farmacéutica"
+      }
+    ]
+  },
+
+  seo: {
+    keywords: [
+      "testosterona en España",
+      "aumentar testosterona España",
+      "mejor testosterona España",
+      "equilibrio hormonal masculino",
+      "investigación testosterona España"
     ],
-
-    whyChoose: {
-      title: "Novatech Sciences: Ciencia Antes que Promesas",
-      features: [
-        "Enfoque basado en investigación",
-        "Estándares farmacéuticos europeos",
-        "Transparencia informativa",
-        "Compromiso con la educación"
-      ],
-      description: "Apoyamos decisiones informadas, no impulsivas."
+    schema: {
+      type: "MedicalWebPage",
+      audience: "Spain",
+      medicalSpecialty: "Endocrinology",
+      jurisdiction: "España"
     },
-
-    conclusion: {
-      title: "Conclusión",
-      content: "La testosterona en España representa la convergencia entre rigor científico, responsabilidad regulatoria y excelencia farmacéutica. Para profesionales sanitarios, investigadores y ciudadanos informados que buscan claridad en un entorno frecuentemente dominado por la desinformación, Novatech Sciences ofrece una perspectiva fundamentada en la ciencia, la transparencia y el compromiso con los más altos estándares europeos."
+    openGraph: {
+      title: "Testosterona en España | Ciencia y Equilibrio Hormonal",
+      description: "Análisis científico sobre testosterona en España con enfoque responsable y estándares europeos.",
+      image: "/og/espana-testosterona.jpg",
+      type: "article"
     }
   },
 
-  // FAQ section with ALL your Spanish questions and answers - exactly as provided
-  faq: {
-    categories: [
-      {
-        name: "Conceptos Científicos",
-        questions: [
-          {
-            question: "¿Para qué se utiliza la testosterona desde un enfoque científico?",
-            answer: "Desde una perspectiva científica, la testosterona se investiga por su papel en la regulación hormonal, la función muscular, la densidad ósea, el metabolismo energético y el equilibrio cognitivo. En España, su estudio se enfoca principalmente en salud masculina, envejecimiento activo y bienestar sostenible."
-          },
-          {
-            question: "¿Qué diferencia a la testosterona de calidad farmacéutica?",
-            answer: "La testosterona de calidad farmacéutica se define por su pureza, consistencia de formulación, procesos GMP y controles de calidad rigurosos. Novatech Sciences prioriza estándares europeos, trazabilidad completa y documentación técnica clara, factores esenciales para investigación responsable y evaluación profesional."
-          }
-        ]
-      },
-      {
-        name: "Calidad y Definiciones",
-        questions: [
-          {
-            question: "¿Qué significa 'mejor testosterona' en el contexto español?",
-            answer: "En España, 'mejor testosterona' no implica mayor potencia, sino mayor fiabilidad científica. Se refiere a productos con formulación precisa, estabilidad química, fabricación regulada y ausencia de afirmaciones exageradas. La calidad se mide por estándares técnicos, no por promesas comerciales."
-          },
-          {
-            question: "¿La testosterona es un esteroide?",
-            answer: "Sí, científicamente la testosterona se clasifica como un esteroide anabólico androgénico. Sin embargo, esta clasificación no implica uso indebido. La investigación regulada y controlada difiere completamente del uso no supervisado o ilícito de esteroides."
-          }
-        ]
-      },
-      {
-        name: "Marco Legal",
-        questions: [
-          {
-            question: "¿Es legal investigar testosterona en España?",
-            answer: "Sí. La investigación en testosterona es legal en España siempre que se realice dentro de marcos regulatorios nacionales y de la Unión Europea. Las formulaciones deben cumplir normativas sanitarias, estándares de calidad y requisitos de trazabilidad establecidos por las autoridades competentes."
-          }
-        ]
-      },
-      {
-        name: "Formulaciones",
-        questions: [
-          {
-            question: "¿Cuál es la diferencia entre testosterona oral e inyectable?",
-            answer: "La testosterona oral utiliza tecnologías de absorción y liberación controlada, mientras que la inyectable se produce en entornos estériles con alta precisión de dosificación. Ambas requieren procesos de fabricación especializados y controles estrictos para garantizar estabilidad y calidad."
-          }
-        ]
-      },
-      {
-        name: "Comportamiento y Educación",
-        questions: [
-          {
-            question: "¿Por qué muchas personas investigan testosterona online en España?",
-            answer: "La investigación online permite acceder a información científica, estándares de formulación y datos técnicos de forma privada. En España, este interés refleja una mayor conciencia sobre salud masculina y la necesidad de fuentes fiables frente a la desinformación digital."
-          }
-        ]
-      },
-      {
-        name: "Soporte y Evaluación",
-        questions: [
-          {
-            question: "¿Qué significa apoyo o soporte de testosterona?",
-            answer: "El soporte de testosterona hace referencia a enfoques basados en evidencia que ayudan a comprender y mantener el equilibrio hormonal. Incluye investigación científica, educación, control de calidad y estrategias responsables, siempre alineadas con regulaciones sanitarias y principios médicos."
-          },
-          {
-            question: "¿Qué debo evaluar antes de investigar productos relacionados con testosterona?",
-            answer: "Es importante evaluar la calidad de fabricación, cumplimiento GMP, trazabilidad, documentación técnica y transparencia informativa. Evitar productos con afirmaciones extremas o poco claras es clave para una investigación responsable y alineada con estándares españoles y europeos."
-          }
-        ]
-      },
-      {
-        name: "Novatech Sciences",
-        questions: [
-          {
-            question: "¿Qué papel juega Novatech Sciences en la investigación de testosterona?",
-            answer: "Novatech Sciences actúa como una plataforma orientada a la investigación, priorizando estándares farmacéuticos, control de calidad y educación científica. Su enfoque se centra en ofrecer información clara y responsable, apoyando decisiones informadas dentro del marco regulatorio europeo."
-          }
-        ]
-      }
-    ]
+  theme: {
+    primary: "from-red-600 via-yellow-500 to-orange-600",
+    secondary: "from-white to-gray-100",
+    accent: "from-yellow-500 to-red-500",
+    gradient: {
+      hero: "from-red-600 via-yellow-500 to-orange-600",
+      section: "from-white to-gray-50"
+    }
+  },
+
+  metadata: {
+    created: "2024-01-22",
+    updated: "2024-01-22",
+    version: "1.0.0",
+    author: "Novatech Sciences Research Team",
+    reviewedBy: "Spanish Regulatory Affairs Division"
   }
 },
 netherlands: {

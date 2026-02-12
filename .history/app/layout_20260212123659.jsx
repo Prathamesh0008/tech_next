@@ -43,20 +43,20 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         {/* Google Analytics */}
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-716DBKENPQ"
-        ></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-716DBKENPQ');
-            `,
-          }}
-        />
+        <Script
+  src="https://www.googletagmanager.com/gtag/js?id=G-716DBKENPQ"
+  strategy="afterInteractive"
+/>
+
+<Script id="ga-init" strategy="afterInteractive">
+  {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-716DBKENPQ');
+  `}
+</Script>
+
 
         {/* --- Organization Schema (FIXED LOGO) --- */}
         <script
