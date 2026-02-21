@@ -1,19 +1,13 @@
 "use client";
 
 import { useState } from "react";
-import emailjs from "@emailjs/browser";
 import Breadcrumbs from "../../components/Breadcrumbs";
 import { Send, Mail } from "lucide-react";
 import { useLanguage } from "../../contexts/LanguageContext";
-import { useEffect } from "react";
-
-
 
 export default function ContactClient() {
   const { translations } = useLanguage();
-  useEffect(() => {
-  emailjs.init("xywkeRz6q387pdmhR");
-}, []);
+
   if (!translations?.contact) return null;
 
   const t = translations.contact;
@@ -23,59 +17,52 @@ export default function ContactClient() {
     email: "",
     message: "",
   });
-
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const [status, setStatus] = useState({ type: "", message: "" });
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-const handleSubmit = async (e) => {
-  e.preventDefault();
-  setStatus({ type: "", message: t.status.sending });
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+    setStatus({ type: "", message: t.status.sending });
 
-  try {
-    // ✅ ONLY ADMIN EMAIL
-    await emailjs.send(
-      "service_2i6gipa",
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
 
-      "template_66zd18f",
-      formData,
-      "xywkeRz6q387pdmhR"
-    );
+      if (!response.ok) {
+        const data = await response.json().catch(() => null);
+        throw new Error(data?.error || "Failed to submit contact form.");
+      }
 
-    setStatus({ type: "success", message: t.status.success });
-    setFormData({ name: "", email: "", message: "" });
-  } catch (error) {
-    console.error("EmailJS error:", {
-      status: error?.status,
-      text: error?.text,
-    });
-    setStatus({ type: "error", message: t.status.error });
-  }
-};
-
-
+      setStatus({ type: "success", message: t.status.success });
+      setFormData({ name: "", email: "", message: "" });
+    } catch (error) {
+      console.error("Contact form submit error:", error);
+      setStatus({ type: "error", message: t.status.error });
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
 
   return (
     <div className="min-h-auto bg-gradient-to-b from-[#f5f9fb] via-[#f3f8fa] to-[#e8f3f8] mt-20">
-       <Breadcrumbs />
-      {/* HEADER */}
+      <Breadcrumbs />
+
       <div className="bg-gradient-to-r from-[#0b1e39] via-[#18487d] to-[#3386bc] text-white py-10 shadow-md mb-10">
         <div className="max-w-6xl mx-auto px-6">
-         
-          <h1 className="text-3xl md:text-4xl font-bold mt-2">
-            {t.header.title}
-          </h1>
-          <p className="text-white/80 mt-2 max-w-2xl">
-            {t.header.subtitle}
-          </p>
+          <h1 className="text-3xl md:text-4xl font-bold mt-2">{t.header.title}</h1>
+          <p className="text-white/80 mt-2 max-w-2xl">{t.header.subtitle}</p>
         </div>
       </div>
 
-      {/* CONTENT */}
       <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 pb-20">
-        {/* LEFT */}
         <div>
           <h2 className="text-2xl font-bold mb-2">{t.left.title}</h2>
           <p className="text-gray-600">{t.left.description}</p>
@@ -85,13 +72,13 @@ const handleSubmit = async (e) => {
           </div>
         </div>
 
-        {/* FORM */}
         <div className="bg-white p-8 rounded-xl shadow-lg">
           <form onSubmit={handleSubmit} className="space-y-5">
             <input
               name="name"
               value={formData.name}
               onChange={handleChange}
+              disabled={isSubmitting}
               required
               placeholder={t.form.name.placeholder}
               className="w-full border px-4 py-2 rounded-lg"
@@ -102,6 +89,7 @@ const handleSubmit = async (e) => {
               name="email"
               value={formData.email}
               onChange={handleChange}
+              disabled={isSubmitting}
               required
               placeholder={t.form.email.placeholder}
               className="w-full border px-4 py-2 rounded-lg"
@@ -111,6 +99,7 @@ const handleSubmit = async (e) => {
               name="message"
               value={formData.message}
               onChange={handleChange}
+              disabled={isSubmitting}
               required
               placeholder={t.form.message.placeholder}
               className="w-full border px-4 py-2 rounded-lg h-32"
@@ -118,18 +107,18 @@ const handleSubmit = async (e) => {
 
             <button
               type="submit"
-              className="bg-[#3386bc] text-white px-6 py-3 rounded-lg flex items-center gap-2"
+              disabled={isSubmitting}
+              className="bg-[#3386bc] text-white px-6 py-3 rounded-lg flex items-center gap-2 disabled:opacity-60 disabled:cursor-not-allowed"
             >
-              <Send className="w-4 h-4" /> {t.form.submit}
+              <Send className="w-4 h-4" />
+              {isSubmitting ? t.status.sending : t.form.submit}
             </button>
           </form>
 
           {status.message && (
             <p
               className={`mt-4 text-center ${
-                status.type === "success"
-                  ? "text-green-600"
-                  : "text-red-600"
+                status.type === "success" ? "text-green-600" : "text-red-600"
               }`}
             >
               {status.message}
