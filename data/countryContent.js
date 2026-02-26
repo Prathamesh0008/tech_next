@@ -44,11 +44,11 @@ uk: {
         title: "Understanding Testosterone and Its Role in Men’s Health",
         content: [
           "Testosterone is the primary male androgen hormone responsible for many physiological processes. It supports:",
-          "Muscle development and maintenance",
-          "Bone density and structural strength",
-          "Red blood cell production",
-          "Libido and reproductive health",
-          "Cognitive focus and confidence",
+          "- Muscle development and maintenance",
+          "- Bone density and structural strength",
+          "- Red blood cell production",
+          "- Libido and reproductive health",
+          "- Cognitive focus and confidence",
           "In the UK, testosterone levels naturally decline with age, typically beginning in the early 30s. Lifestyle factors such as stress, poor sleep, inactivity, and nutritional deficiencies can accelerate this decline. These changes often lead men to research testosterone online to better understand available options and scientific developments."
         ]
       },
@@ -65,10 +65,10 @@ uk: {
         title: "What Does “Best Testosterone” Really Mean?",
         content: [
           "Searches for best testosterone are common, but the term itself is often misunderstood. In scientific and pharmaceutical contexts, “best” does not mean strongest or fastest it means:",
-          "High-purity formulation",
-          "Consistent manufacturing standards",
-          "Verified quality control",
-          "Ethical sourcing and documentation",
+          "- High-purity formulation",
+          "- Consistent manufacturing standards",
+          "- Verified quality control",
+          "- Ethical sourcing and documentation",
           "At Novatech Sciences, our testosterone formulations are developed with these principles in mind. We believe that precision and reliability define quality, not marketing hype."
         ]
       },
@@ -103,10 +103,10 @@ uk: {
         title: "Why UK Consumers Research Testosterone Online",
         content: [
           "There are several reasons why UK audiences increasingly explore testosterone online:",
-          "Greater access to scientific literature",
-          "Rising awareness of men’s hormonal health",
-          "Desire for privacy and education",
-          "Interest in long-term vitality and performance",
+          "- Greater access to scientific literature",
+          "- Rising awareness of men’s hormonal health",
+          "- Desire for privacy and education",
+          "- Interest in long-term vitality and performance",
           "However, online information is often fragmented or misleading. This is why Novatech Sciences positions itself as a trusted educational and research-driven brand, offering clarity in a complex space."
         ]
       },
@@ -123,10 +123,10 @@ uk: {
         title: "Manufacturing Standards at Novatech Sciences",
         content: [
           "Quality begins long before a product reaches the market. At Novatech Sciences, our testosterone formulations are developed with:",
-          "GMP-compliant production processes",
-          "ISO-certified sterile facilities",
-          "Batch-level quality control",
-          "Pharmaceutical documentation",
+          "- GMP-compliant production processes",
+          "- ISO-certified sterile facilities",
+          "- Batch-level quality control",
+          "- Pharmaceutical documentation",
           "These standards ensure that our products meet the expectations of researchers, professionals, and informed customers across the United Kingdom."
         ]
       },
@@ -143,10 +143,10 @@ uk: {
         title: "The Future of Testosterone Research in the UK",
         content: [
           "The future of testosterone research in the United Kingdom is moving toward:",
-          "Evidence-based personalisation",
-          "Preventive men’s health strategies",
-          "Ethical pharmaceutical development",
-          "Transparent research practices",
+          "- Evidence-based personalisation",
+          "- Preventive men’s health strategies",
+          "- Ethical pharmaceutical development",
+          "- Transparent research practices",
           "Novatech Sciences is aligned with this future, investing in quality, science, and education."
         ]
       }
@@ -1351,7 +1351,11 @@ poland: {
       paragraphs: [
         "Picture the dynamic pulse of Warsaw's financial district, where modern skyscrapers pierce the sky alongside Gothic cathedrals—this fusion of historic resilience and cutting-edge ambition mirrors Poland's approach to hormonal healthcare. In a nation that rebuilt itself from ashes into Central Europe's pharmaceutical powerhouse, accepting substandard testosterone in Poland is simply not an option. Novatech Sciences enters this thriving marketplace with a revolutionary proposition: pharmaceutical purity that matches Polish determination, delivered through channels that respect the intricate regulatory tapestry woven by the Chief Pharmaceutical Inspectorate (Główny Inspektorat Farmaceutyczny - GIF) and the Office for Registration of Medicinal Products (URPL).",
         "When Polish endocrinologists in Kraków's prestigious university hospitals seek to buy testosterone online in Poland, they aren't merely purchasing vials—they're investing in patient vitality, muscle preservation for aging populations, and quality-of-life restoration for hypogonadal men across the Masovian Voivodeship. The surge in demand for best testosterone therapies across Polish metropolitan hubs reflects a broader cultural shift: Poles no longer whisper about hormonal health behind closed doors. Instead, they aggressively pursue science-backed solutions, creating explosive growth in legal testosterone replacement therapy Poland protocols.",
-        "But here's the critical distinction: while Polish fitness culture gravitates toward physical excellence, the legal framework governing steroids in Poland remains ironclad. This isn't the Wild East—this is the European Union's sixth-largest pharmaceutical market, where buy steroids in Poland activities fall under strict Rx-only mandates unless conducted through authorized research channels. Novatech Sciences navigates these waters with precision, offering healthcare providers and research institutions legitimate pathways to acquire anabolic steroids Poland classifications that advance medical science rather than violate it."
+        "But here's the critical distinction: while Polish fitness culture gravitates toward physical excellence, the legal framework governing steroids in Poland remains ironclad. This isn't the Wild East—this is the European Union's sixth-largest pharmaceutical market, where buy steroids in Poland activities fall under strict Rx-only mandates unless conducted through authorized research channels. Novatech Sciences navigates these waters with precision, offering healthcare providers and research institutions legitimate pathways to acquire anabolic steroids Poland classifications that advance medical science rather than violate it.",
+        "- GIF/URPL-aligned regulatory workflows for compliant testosterone procurement",
+        "- Polish-language labeling and documentation suitable for national inspections",
+        "- Temperature-controlled logistics with cold-chain traceability across major cities",
+        "- Research and clinical support built for hospitals, clinics, and universities"
       ]
     },
 
@@ -1595,7 +1599,11 @@ belgium: {
       paragraphs: [
         "Situated at the crossroads of European pharmaceutical innovation, Belgium represents a sophisticated marketplace for hormonal therapeutics and performance medicine. Novatech Sciences establishes its presence within this dynamic landscape, offering healthcare practitioners, research laboratories, and licensed pharmacies access to testosterone in Belgium that meets the rigorous standards enforced by the Federal Agency for Medicines and Health Products (FAMHP/AFMPS). When medical professionals seek to buy testosterone online in Belgium, they require suppliers demonstrating both European compliance operational capabilities and intimate knowledge of Belgian regulatory frameworks across Dutch-speaking Flanders, French-speaking Wallonia, and the bilingual capital region of Brussels.",
         "The Belgian approach to hormone replacement therapy reflects the country's position as headquarters for major pharmaceutical corporations and EU regulatory bodies. Consequently, best testosterone sourcing demands adherence to inspection protocols exceeding standard EU directives. Novatech Sciences addresses these sophisticated requirements through WHO-GMP certified manufacturing channels, ensuring every vial of testosterone enanthate or testosterone cypionate distributed to Antwerp, Ghent, Charleroi, or Liège maintains pharmacological integrity from production through patient administration.",
-        "Healthcare economics within Belgium operate through the Institut national d'assurance maladie-invalidité (INAMI/RIZIV) framework, creating specific procurement pathways for steroids in Belgium. Unlike neighboring jurisdictions, Belgian reimbursement policies classify various anabolic steroids and testosterone esters under distinct nomenclature codes. Novatech Sciences provides comprehensive INAMI documentation support, enabling university hospitals in Leuven and Bruges to buy steroids in Belgium through approved tender processes while maintaining traceability mandates required by Belgian pharmaceutical inspection services."
+        "Healthcare economics within Belgium operate through the Institut national d'assurance maladie-invalidité (INAMI/RIZIV) framework, creating specific procurement pathways for steroids in Belgium. Unlike neighboring jurisdictions, Belgian reimbursement policies classify various anabolic steroids and testosterone esters under distinct nomenclature codes. Novatech Sciences provides comprehensive INAMI documentation support, enabling university hospitals in Leuven and Bruges to buy steroids in Belgium through approved tender processes while maintaining traceability mandates required by Belgian pharmaceutical inspection services.",
+        "- FAMHP/AFMPS-aligned compliance and audit-ready pharmaceutical documentation",
+        "- Bilingual Dutch/French materials for Belgium-wide clinical and pharmacy workflows",
+        "- WHO-GMP manufacturing standards with serialized anti-counterfeit traceability",
+        "- Cold-chain distribution support across Brussels, Flanders, and Wallonia"
       ]
     },
 
@@ -1804,6 +1812,10 @@ germany: {
     introduction: {
       title: "Bestes Testosteron in Deutschland | Novatech Sciences",
       paragraphs: [
+        "- WHO-GMP- und EU-konforme Qualitaetsstandards fuer den deutschen Markt",
+        "- Fokus auf dokumentierte Reinheit, Rueckverfolgbarkeit und regulatorische Sicherheit",
+        "- Unterstuetzung fuer Kliniken, Apotheken und Forschungseinrichtungen in Deutschland",
+        "- Verantwortungsvolle Informationsbasis statt uebertriebener Marketingversprechen",
         "Deutschland ist der führende pharmazeutische Markt Europas und verlangt höchste Qualität bei hormonellen Therapien und Leistungsmedikamenten. Novatech Sciences, ein global anerkannter WHO-GMP-zertifizierter Hersteller, liefert stolz das beste Testosteron in Deutschland durch innovative pharmazeutische Lösungen. Ob Sie ein Gesundheitsdienstleister, eine Forschungseinrichtung oder eine Apotheke sind, die zuverlässige Hormontherapien sucht – unser deutsches Vertriebsnetz gewährleistet Zugang zu Premium-Steroiden in Deutschland, die strenge EU-Regulierungsstandards erfüllen.",
         "Da die Nachfrage nach Testosteron-Ersatztherapie in ganz Deutschland weiter steigt, benötigen medizinische Fachkräfte und Forscher vertrauenswürdige Lieferanten. Novatech Sciences schließt diese Lücke und bietet pharmazeutisches Testosteron-Enantat, Testosteron-Cypionat und spezialisierte anabole Formulierungen an. Unser Qualitätsengagement positioniert uns als erstklassige Adresse, um Testosteron online in Deutschland zu kaufen für legitime medizinische und Forschungsanwendungen."
       ]
@@ -2045,11 +2057,11 @@ portugal: {
         title: "O Papel da Testosterona no Equilíbrio do Organismo Masculino",
         content: [
           "A testosterona é frequentemente associada apenas à força física, mas a ciência demonstra que a sua função vai muito além disso. Trata-se de uma hormona com impacto direto em vários sistemas do organismo, incluindo:",
-          "Manutenção da massa muscular funcional",
-          "Saúde óssea e integridade estrutural",
-          "Capacidade cognitiva e foco mental",
-          "Estabilidade emocional e motivação",
-          "Eficiência metabólica e energia diária",
+          "- Manutenção da massa muscular funcional",
+          "- Saúde óssea e integridade estrutural",
+          "- Capacidade cognitiva e foco mental",
+          "- Estabilidade emocional e motivação",
+          "- Eficiência metabólica e energia diária",
           "Esta abordagem holística explica o crescente interesse em testosterona online, melhor testosterona e testosterone Portugal entre homens portugueses atentos à saúde preventiva."
         ]
       },
@@ -2058,11 +2070,11 @@ portugal: {
         title: "Fatores Atuais que Influenciam a Testosterona em Portugal",
         content: [
           "Apesar de Portugal ter uma forte tradição ligada à alimentação equilibrada e a estilos de vida ativos, a realidade moderna introduz desafios que podem afetar o equilíbrio hormonal:",
-          "Ritmos de trabalho intensos",
-          "Stress prolongado",
-          "Qualidade de sono reduzida",
-          "Menor atividade física regular",
-          "Alterações nos hábitos alimentares",
+          "- Ritmos de trabalho intensos",
+          "- Stress prolongado",
+          "- Qualidade de sono reduzida",
+          "- Menor atividade física regular",
+          "- Alterações nos hábitos alimentares",
           "Estes fatores têm levado a um aumento do interesse em formas responsáveis de apoiar a testosterona, sempre com base em conhecimento científico e não em soluções extremas."
         ]
       },
@@ -2071,10 +2083,10 @@ portugal: {
         title: "Equilíbrio Hormonal vs. Soluções Rápidas",
         content: [
           "Em Portugal, cresce a compreensão de que equilíbrio hormonal não significa recorrer a atalhos. A ciência moderna reforça que a base da saúde masculina inclui:",
-          "Movimento regular e estruturado",
-          "Descanso adequado e consistente",
-          "Nutrição equilibrada, inspirada na dieta mediterrânica",
-          "Gestão eficaz do stress",
+          "- Movimento regular e estruturado",
+          "- Descanso adequado e consistente",
+          "- Nutrição equilibrada, inspirada na dieta mediterrânica",
+          "- Gestão eficaz do stress",
           "A investigação em testosterona surge como ferramenta de conhecimento e apoio educativo, não como substituto destes pilares fundamentais."
         ]
       },
@@ -2083,10 +2095,10 @@ portugal: {
         title: "Testosterona e Função Mental: Um Aspeto Essencial",
         content: [
           "Um dos aspetos menos discutidos da testosterona é o seu impacto no desempenho mental. Evidência científica associa níveis equilibrados de testosterona a:",
-          "Maior clareza cognitiva",
-          "Melhor capacidade de concentração",
-          "Resiliência emocional",
-          "Motivação e iniciativa",
+          "- Maior clareza cognitiva",
+          "- Melhor capacidade de concentração",
+          "- Resiliência emocional",
+          "- Motivação e iniciativa",
           "Num contexto português cada vez mais exigente a nível profissional e intelectual, este fator tem ganho relevância significativa."
         ]
       },
@@ -2103,9 +2115,9 @@ portugal: {
         title: "Enquadramento Legal da Testosterona em Portugal",
         content: [
           "Portugal segue rigorosamente as diretivas de saúde da União Europeia. A testosterona:",
-          "Requer supervisão médica em contextos clínicos",
-          "Está sujeita a regulamentação em ambientes de investigação",
-          "Deve cumprir normas rigorosas de qualidade e rastreabilidade",
+          "- Requer supervisão médica em contextos clínicos",
+          "- Está sujeita a regulamentação em ambientes de investigação",
+          "- Deve cumprir normas rigorosas de qualidade e rastreabilidade",
           "Compreender este enquadramento é essencial para quem pesquisa buy testosterone online ou informação relacionada com testosterona em Portugal de forma responsável."
         ]
       },
@@ -2114,10 +2126,10 @@ portugal: {
         title: "O Que Define Qualidade em Testosterona no Mercado Português",
         content: [
           "O conceito de melhor testosterona em Portugal está ligado a critérios técnicos, não a promessas comerciais. A qualidade científica é definida por:",
-          "Precisão e estabilidade da formulação",
-          "Consistência no processo de fabrico",
-          "Controlo rigoroso de pureza",
-          "Documentação técnica transparente",
+          "- Precisão e estabilidade da formulação",
+          "- Consistência no processo de fabrico",
+          "- Controlo rigoroso de pureza",
+          "- Documentação técnica transparente",
           "Na Novatech Sciences, estes princípios orientam todo o desenvolvimento e comunicação."
         ]
       },
@@ -2136,9 +2148,9 @@ portugal: {
         title: "Suplemento de Testosterona em Portugal: Clarificação Necessária",
         content: [
           "O termo suplemento testosterona Portugal é amplamente utilizado, mas pode gerar confusão. É essencial distinguir entre:",
-          "Suplementos nutricionais",
-          "Compostos destinados à investigação",
-          "Terapias médicas regulamentadas",
+          "- Suplementos nutricionais",
+          "- Compostos destinados à investigação",
+          "- Terapias médicas regulamentadas",
           "A compreensão destas diferenças evita interpretações erradas e expectativas irreais."
         ]
       },
@@ -2147,10 +2159,10 @@ portugal: {
         title: "Por Que o Interesse em Testosterona Online Cresce em Portugal",
         content: [
           "O aumento da procura por testosterona online em Portugal deve-se a vários fatores:",
-          "Facilidade de acesso à informação científica",
-          "Maior consciência sobre saúde masculina",
-          "Interesse em envelhecimento ativo",
-          "Necessidade de fontes educativas credíveis",
+          "- Facilidade de acesso à informação científica",
+          "- Maior consciência sobre saúde masculina",
+          "- Interesse em envelhecimento ativo",
+          "- Necessidade de fontes educativas credíveis",
           "A qualidade da informação torna-se, por isso, tão importante quanto o conteúdo em si."
         ]
       },
@@ -2159,10 +2171,10 @@ portugal: {
         title: "Suporte de Testosterona: Um Conceito Baseado em Ciência",
         content: [
           "O suporte de testosterona refere-se a uma abordagem informativa e científica que visa compreender e apoiar o equilíbrio hormonal. Inclui:",
-          "Investigação rigorosa",
-          "Processos alinhados com GMP",
-          "Controlo de qualidade estruturado",
-          "Comunicação clara e responsável",
+          "- Investigação rigorosa",
+          "- Processos alinhados com GMP",
+          "- Controlo de qualidade estruturado",
+          "- Comunicação clara e responsável",
           "Este modelo está alinhado com a mentalidade portuguesa de prudência e confiança baseada em conhecimento."
         ]
       },
@@ -2171,10 +2183,10 @@ portugal: {
         title: "Padrões de Qualidade da Novatech Sciences",
         content: [
           "Na Novatech Sciences, os padrões aplicados incluem:",
-          "Fabrico conforme GMP",
-          "Instalações certificadas por ISO",
-          "Testes de qualidade por lote",
-          "Rastreabilidade completa",
+          "- Fabrico conforme GMP",
+          "- Instalações certificadas por ISO",
+          "- Testes de qualidade por lote",
+          "- Rastreabilidade completa",
           "Estes critérios garantem fiabilidade para avaliação científica em Portugal e em toda a Europa."
         ]
       },
@@ -2183,10 +2195,10 @@ portugal: {
         title: "Testosterona e Envelhecimento com Qualidade",
         content: [
           "Em Portugal, o envelhecimento saudável é uma prioridade crescente. A investigação científica associa a testosterona equilibrada a:",
-          "Manutenção da mobilidade",
-          "Energia funcional diária",
-          "Bem-estar emocional",
-          "Qualidade de vida prolongada",
+          "- Manutenção da mobilidade",
+          "- Energia funcional diária",
+          "- Bem-estar emocional",
+          "- Qualidade de vida prolongada",
           "O foco está na preservação da função, não na intensificação artificial do desempenho."
         ]
       },
@@ -2195,10 +2207,10 @@ portugal: {
         title: "O Futuro da Investigação em Testosterona em Portugal",
         content: [
           "A investigação hormonal em Portugal caminha para:",
-          "Abordagens personalizadas",
-          "Prevenção em vez de intervenção tardia",
-          "Inovação ética e regulamentada",
-          "Educação científica acessível",
+          "- Abordagens personalizadas",
+          "- Prevenção em vez de intervenção tardia",
+          "- Inovação ética e regulamentada",
+          "- Educação científica acessível",
           "A Novatech Sciences posiciona-se como parte desta evolução responsável."
         ]
       }
@@ -2347,11 +2359,11 @@ spain: {
         title: "La Testosterona Como Regulador Integral del Organismo",
         content: [
           "La testosterona no actúa de forma aislada. Su influencia se extiende a múltiples funciones fisiológicas que afectan directamente la calidad de vida:",
-          "Producción y mantenimiento de masa muscular funcional",
-          "Salud ósea y prevención del deterioro estructural",
-          "Regulación del estado de ánimo y la motivación",
-          "Capacidad de concentración y agilidad mental",
-          "Metabolismo energético y composición corporal",
+          "- Producción y mantenimiento de masa muscular funcional",
+          "- Salud ósea y prevención del deterioro estructural",
+          "- Regulación del estado de ánimo y la motivación",
+          "- Capacidad de concentración y agilidad mental",
+          "- Metabolismo energético y composición corporal",
           "Esta visión integral explica por qué términos como testosterona online, mejor testosterona y testosterone Spain tienen cada vez más presencia en búsquedas realizadas desde España."
         ]
       },
@@ -2360,11 +2372,11 @@ spain: {
         title: "Factores Modernos que Afectan la Testosterona en España",
         content: [
           "A pesar de una cultura tradicionalmente activa y una alimentación reconocida mundialmente, la vida moderna en España introduce desafíos que pueden influir en el equilibrio hormonal:",
-          "Jornadas laborales prolongadas",
-          "Estrés psicológico continuo",
-          "Reducción del descanso profundo",
-          "Menor actividad física estructurada",
-          "Cambios en hábitos nutricionales",
+          "- Jornadas laborales prolongadas",
+          "- Estrés psicológico continuo",
+          "- Reducción del descanso profundo",
+          "- Menor actividad física estructurada",
+          "- Cambios en hábitos nutricionales",
           "Estos factores han impulsado el interés en aumentar la testosterona de manera informada, evitando soluciones extremas o sin respaldo científico."
         ]
       },
@@ -2373,10 +2385,10 @@ spain: {
         title: "Aumentar la Testosterona: Más Allá de Soluciones Rápidas",
         content: [
           "En el contexto español, aumentar la testosterona no significa recurrir a medidas drásticas. El enfoque responsable se basa en:",
-          "Actividad física regular orientada a la fuerza funcional",
-          "Sueño reparador y control del ritmo circadiano",
-          "Nutrición equilibrada inspirada en la dieta mediterránea",
-          "Reducción del estrés crónico",
+          "- Actividad física regular orientada a la fuerza funcional",
+          "- Sueño reparador y control del ritmo circadiano",
+          "- Nutrición equilibrada inspirada en la dieta mediterránea",
+          "- Reducción del estrés crónico",
           "La investigación en testosterona actúa como complemento informativo, no como sustituto de estos pilares fundamentales."
         ]
       },
@@ -2385,10 +2397,10 @@ spain: {
         title: "Testosterona y Rendimiento Mental: Un Vínculo Subestimado",
         content: [
           "Uno de los aspectos menos comprendidos de la testosterona es su impacto en el rendimiento cognitivo. Estudios científicos asocian niveles equilibrados de testosterona con:",
-          "Mayor determinación y enfoque",
-          "Mejor tolerancia al estrés",
-          "Estabilidad emocional",
-          "Capacidad de toma de decisiones",
+          "- Mayor determinación y enfoque",
+          "- Mejor tolerancia al estrés",
+          "- Estabilidad emocional",
+          "- Capacidad de toma de decisiones",
           "En España, donde el rendimiento intelectual y la productividad son cada vez más valorados, este aspecto ha ganado especial relevancia."
         ]
       },
@@ -2406,9 +2418,9 @@ spain: {
         title: "Marco Legal y Científico de la Testosterona en España",
         content: [
           "España opera bajo uno de los marcos regulatorios sanitarios más estrictos de Europa. La testosterona:",
-          "Requiere supervisión médica en contextos clínicos",
-          "Debe cumplir normativas europeas en investigación",
-          "Está sujeta a controles de calidad y trazabilidad",
+          "- Requiere supervisión médica en contextos clínicos",
+          "- Debe cumplir normativas europeas en investigación",
+          "- Está sujeta a controles de calidad y trazabilidad",
           "Comprender este entorno es esencial para quienes investigan opciones relacionadas con buy testosterone online o testosterona en España desde una perspectiva informativa."
         ]
       },
@@ -2417,10 +2429,10 @@ spain: {
         title: "¿Qué Define la Mejor Testosterona en España?",
         content: [
           "El concepto de mejor testosterona no está relacionado con fuerza extrema ni resultados inmediatos. Desde un punto de vista científico, la calidad se define por:",
-          "Precisión en la formulación",
-          "Consistencia en la producción",
-          "Controles de pureza y estabilidad",
-          "Documentación técnica verificable",
+          "- Precisión en la formulación",
+          "- Consistencia en la producción",
+          "- Controles de pureza y estabilidad",
+          "- Documentación técnica verificable",
           "Novatech Sciences se guía por estos principios para garantizar estándares alineados con las expectativas del mercado español y europeo."
         ]
       },
@@ -2439,9 +2451,9 @@ spain: {
         title: "Suplemento de Testosterona en España: Diferencias Clave",
         content: [
           "El término suplemento testosterona España se utiliza de forma amplia, pero engloba realidades muy distintas. Es fundamental distinguir entre:",
-          "Suplementos nutricionales",
-          "Compuestos de investigación",
-          "Terapias médicas reguladas",
+          "- Suplementos nutricionales",
+          "- Compuestos de investigación",
+          "- Terapias médicas reguladas",
           "La falta de comprensión puede generar expectativas erróneas. Novatech Sciences promueve siempre la claridad conceptual y la educación científica."
         ]
       },
@@ -2450,10 +2462,10 @@ spain: {
         title: "Por Qué Crece el Interés en la Testosterona Online en España",
         content: [
           "El aumento de búsquedas sobre testosterona online responde a varios factores:",
-          "Acceso inmediato a información científica",
-          "Interés creciente en la salud masculina",
-          "Búsqueda de privacidad y discreción",
-          "Comparación de estándares de calidad",
+          "- Acceso inmediato a información científica",
+          "- Interés creciente en la salud masculina",
+          "- Búsqueda de privacidad y discreción",
+          "- Comparación de estándares de calidad",
           "Sin embargo, no toda la información disponible es fiable. Por ello, contar con fuentes educativas serias resulta esencial."
         ]
       },
@@ -2462,10 +2474,10 @@ spain: {
         title: "Apoyo de Testosterona: Un Concepto Basado en Evidencia",
         content: [
           "El apoyo de testosterona no implica intervención directa sin criterio. Se refiere a:",
-          "Investigación científica rigurosa",
-          "Desarrollo de formulaciones controladas",
-          "Procesos alineados con GMP",
-          "Comunicación clara y sin exageraciones",
+          "- Investigación científica rigurosa",
+          "- Desarrollo de formulaciones controladas",
+          "- Procesos alineados con GMP",
+          "- Comunicación clara y sin exageraciones",
           "Este enfoque encaja con la mentalidad española, donde la confianza se construye a través de rigor y transparencia."
         ]
       },
@@ -2474,10 +2486,10 @@ spain: {
         title: "Producción y Calidad en Novatech Sciences",
         content: [
           "En Novatech Sciences, los estándares de fabricación incluyen:",
-          "Producción conforme a GMP",
-          "Instalaciones certificadas por ISO",
-          "Control de calidad por lote",
-          "Trazabilidad completa del proceso",
+          "- Producción conforme a GMP",
+          "- Instalaciones certificadas por ISO",
+          "- Control de calidad por lote",
+          "- Trazabilidad completa del proceso",
           "Estos principios garantizan fiabilidad para investigación y evaluación profesional en España y Europa."
         ]
       },
@@ -2486,10 +2498,10 @@ spain: {
         title: "Testosterona y Envejecimiento Saludable",
         content: [
           "En España, el envejecimiento activo es una prioridad creciente. La testosterona juega un papel importante en:",
-          "Mantenimiento de la movilidad",
-          "Preservación de la energía diaria",
-          "Apoyo al bienestar emocional",
-          "Calidad de vida a largo plazo",
+          "- Mantenimiento de la movilidad",
+          "- Preservación de la energía diaria",
+          "- Apoyo al bienestar emocional",
+          "- Calidad de vida a largo plazo",
           "La investigación moderna se centra en preservar la función, no en forzar el rendimiento."
         ]
       },
@@ -2498,10 +2510,10 @@ spain: {
         title: "El Futuro de la Investigación en Testosterona en España",
         content: [
           "La ciencia hormonal avanza hacia:",
-          "Enfoques personalizados",
-          "Prevención antes que corrección",
-          "Innovación ética y regulada",
-          "Educación científica accesible",
+          "- Enfoques personalizados",
+          "- Prevención antes que corrección",
+          "- Innovación ética y regulada",
+          "- Educación científica accesible",
           "Novatech Sciences se posiciona dentro de esta evolución, apostando por conocimiento sólido y responsabilidad."
         ]
       }
@@ -2650,11 +2662,11 @@ netherlands: {
         title: "Testosterone and the Dutch Approach to Health",
         content: [
           "The Netherlands is known for its active lifestyle, cycling culture, and preventive healthcare mindset. Even so, testosterone levels can fluctuate due to:",
-          "Natural ageing",
-          "Work-related stress",
-          "Sleep disruption",
-          "Reduced physical activity",
-          "Nutritional imbalance",
+          "- Natural ageing",
+          "- Work-related stress",
+          "- Sleep disruption",
+          "- Reduced physical activity",
+          "- Nutritional imbalance",
           "These factors have increased interest in testosteron verhogen strategies and testosterone ondersteuning approaches that align with Dutch values of moderation and evidence-based health."
         ]
       },
@@ -2663,11 +2675,11 @@ netherlands: {
         title: "What Testosterone Does Beyond Muscle Growth",
         content: [
           "Testosterone is often misunderstood as only a muscle hormone. In reality, testosterone supports multiple systems in the body, including:",
-          "Maintenance of lean muscle mass",
-          "Bone density and joint health",
-          "Cognitive performance and focus",
-          "Emotional balance and confidence",
-          "Metabolic efficiency",
+          "- Maintenance of lean muscle mass",
+          "- Bone density and joint health",
+          "- Cognitive performance and focus",
+          "- Emotional balance and confidence",
+          "- Metabolic efficiency",
           "This broader impact explains why testosterone online searches are growing in the Netherlands, particularly among men focused on sustainable strength rather than short-term results."
         ]
       },
@@ -2684,10 +2696,10 @@ netherlands: {
         title: "Redefining “Best Testosterone” for Dutch Audiences",
         content: [
           "The phrase best testosterone is frequently searched, but in scientific terms, “best” does not mean strongest or fastest. Instead, it refers to:",
-          "Pharmaceutical-grade formulation",
-          "Manufacturing consistency",
-          "Purity and quality control",
-          "Transparent sourcing and documentation",
+          "- Pharmaceutical-grade formulation",
+          "- Manufacturing consistency",
+          "- Purity and quality control",
+          "- Transparent sourcing and documentation",
           "At Novatech Sciences, quality is defined by science not marketing language."
         ]
       },
@@ -2715,10 +2727,10 @@ netherlands: {
         title: "Why Testosterone Online Research Is Growing in the Netherlands",
         content: [
           "Dutch consumers increasingly research testosterone online due to:",
-          "Strong trust in scientific data",
-          "Access to academic research",
-          "Openness about men's health",
-          "Interest in preventive wellness",
+          "- Strong trust in scientific data",
+          "- Access to academic research",
+          "- Openness about men's health",
+          "- Interest in preventive wellness",
           "However, online information varies widely in quality. Novatech Sciences aims to serve as a reliable educational resource, offering clarity and transparency rather than exaggerated claims."
         ]
       },
@@ -2727,10 +2739,10 @@ netherlands: {
         title: "Testosteron Verhogen: Lifestyle and Research Perspectives",
         content: [
           "In the Netherlands, testosteron verhogen is often approached holistically. Factors that influence testosterone balance include:",
-          "Regular physical activity",
-          "Adequate sleep",
-          "Balanced nutrition",
-          "Stress management",
+          "- Regular physical activity",
+          "- Adequate sleep",
+          "- Balanced nutrition",
+          "- Stress management",
           "Testosterone research complements these lifestyle foundations rather than replacing them. Sustainable health starts with understanding not shortcuts."
         ]
       },
@@ -2739,9 +2751,9 @@ netherlands: {
         title: "Testosterone Ondersteuning and Research-Driven Development",
         content: [
           "Testosterone ondersteuning refers to evidence-based strategies that support hormonal balance within responsible frameworks. At Novatech Sciences, this means:",
-          "Research-focused formulation development",
-          "GMP-aligned manufacturing",
-          "Transparent quality control processes",
+          "- Research-focused formulation development",
+          "- GMP-aligned manufacturing",
+          "- Transparent quality control processes",
           "This approach resonates strongly with Dutch audiences who value responsibility and scientific integrity."
         ]
       },
@@ -2766,10 +2778,10 @@ netherlands: {
         title: "Manufacturing Standards at Novatech Sciences",
         content: [
           "Our testosterone-related formulations are developed under strict pharmaceutical expectations, including:",
-          "GMP-compliant production",
-          "ISO-certified sterile facilities",
-          "Batch-level quality testing",
-          "Full documentation and traceability",
+          "- GMP-compliant production",
+          "- ISO-certified sterile facilities",
+          "- Batch-level quality testing",
+          "- Full documentation and traceability",
           "These standards ensure reliability for research and professional evaluation across the Netherlands and Europe."
         ]
       },

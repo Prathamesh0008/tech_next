@@ -33,6 +33,11 @@ export default function Footer() {
   { name: "Portugal", path: "/portugal" },
   { name: "Belgium", path: "/belgium" },
   { name: "Poland", path: "/poland" },
+  { name: "Slovakia", path: "/slovakia" },
+  { name: "USA", path: "/usa" },
+  { name: "Hungary", path: "/hungary" },
+  { name: "Greece", path: "/greece" },
+  { name: "Italy", path: "/italy" },
 ];
 
   return (
@@ -80,25 +85,23 @@ export default function Footer() {
           </ul>
         </div>
         {/* Countries */}
+{/* Countries - Badge Style */}
 <div>
   <h3 className="font-semibold text-lg mb-3 text-[#b2e3e1]">
     Our Global Presence
   </h3>
-
-  <ul className="space-y-2">
+  <div className="flex flex-wrap gap-2">
     {countries.map((country) => (
-      <li key={country.name}>
-        <Link
-          href={country.path}
-          onClick={(e) => handleCtrlClick(e, country.path)}
-          className="relative text-gray-200 hover:text-white transition-all duration-300 group"
-        >
-          {country.name}
-          <span className="absolute left-0 bottom-0 w-0 h-[1px] bg-[#b2e3e1] transition-all duration-300 group-hover:w-full" />
-        </Link>
-      </li>
+      <Link
+        key={country.name}
+        href={country.path}
+        onClick={(e) => handleCtrlClick(e, country.path)}
+        className="px-3 py-1 bg-white/10 hover:bg-white/20 rounded-full text-xs transition-all duration-300 hover:scale-105"
+      >
+        {country.name}
+      </Link>
     ))}
-  </ul>
+  </div>
 </div>
 
 

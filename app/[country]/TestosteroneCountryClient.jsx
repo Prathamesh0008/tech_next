@@ -103,7 +103,11 @@ const IconLibrary = {
   FaRegFileAlt, FaMapMarkerAlt
 };
 
-export default function TestosteroneCountryClient({ country, countrySlug }) {
+export default function TestosteroneCountryClient({
+  country,
+  countrySlug,
+  compactSpacing = false,
+}) {
   const [expandedFAQ, setExpandedFAQ] = useState(null);
   const sectionRefs = useRef({});
 
@@ -112,12 +116,47 @@ export default function TestosteroneCountryClient({ country, countrySlug }) {
   const content = data.content || {};
   const faq = data.faq || {};
   const regulation = data.regulation || {};
+  const faqMainEntity =
+    countrySlug === "uk"
+      ? (faq.categories || [])
+          .flatMap((category) => category?.questions || [])
+          .filter((item) => item?.question && item?.answer)
+          .map((item) => ({
+            "@type": "Question",
+            name: item.question,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: item.answer,
+            },
+          }))
+      : [];
+  const heroPadding = compactSpacing
+    ? "py-14 sm:py-16 lg:py-20 xl:py-24"
+    : "py-20 sm:py-24 lg:py-28 xl:py-32";
+  const contentPadding = compactSpacing
+    ? "py-10 sm:py-12 lg:py-14 xl:py-16"
+    : "py-16 sm:py-20 lg:py-24 xl:py-28";
+  const sectionSpacing = compactSpacing
+    ? "space-y-14 sm:space-y-16 lg:space-y-20 xl:space-y-24"
+    : "space-y-24 sm:space-y-28 lg:space-y-32 xl:space-y-40";
 
   // Get country gradient
   const countryGradient = countryGradients[countrySlug] || "from-[#0B1A33] via-[#0E1F3D] to-[#122B4A]";
 
   return (
     <main className="bg-white">
+      {faqMainEntity.length > 0 && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: faqMainEntity,
+            }),
+          }}
+        />
+      )}
       {/* HERO - Perfectly rendered, no cropping */}
       <section className={`relative bg-gradient-to-br ${countryGradient} text-white overflow-hidden`}>
         {/* Subtle pattern overlay */}
@@ -127,7 +166,7 @@ export default function TestosteroneCountryClient({ country, countrySlug }) {
           <div className="absolute bottom-1/4 -right-1/4 w-64 md:w-96 h-64 md:h-96 bg-white/10 rounded-full blur-3xl"></div>
         </div>
         
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-24 lg:py-28 xl:py-32">
+        <div className={`relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ${heroPadding}`}>
           <div className="max-w-4xl mx-auto lg:mx-0">
             {/* Breadcrumb */}
             <div className="flex items-center gap-1.5 sm:gap-2 text-xs sm:text-sm text-white/80 mb-4 sm:mb-6 overflow-x-auto pb-2 whitespace-nowrap scrollbar-hide">
@@ -212,8 +251,8 @@ export default function TestosteroneCountryClient({ country, countrySlug }) {
       </section>
 
       {/* MAIN CONTENT */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 lg:py-24 xl:py-28">
-        <div className="space-y-24 sm:space-y-28 lg:space-y-32 xl:space-y-40">
+      <div className={`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ${contentPadding}`}>
+        <div className={sectionSpacing}>
           
           {/* INTRODUCTION */}
           {content?.introduction && (
@@ -415,6 +454,8 @@ export default function TestosteroneCountryClient({ country, countrySlug }) {
             </section>
           )}
 
+          <FeaturedByCategory/>
+
           {/* WHY CHOOSE US */}
           {content?.whyChoose && (
             <section className="bg-gradient-to-br from-slate-50 to-white rounded-2xl sm:rounded-3xl p-8 sm:p-10 lg:p-12 xl:p-16 relative overflow-hidden">
@@ -489,6 +530,7 @@ export default function TestosteroneCountryClient({ country, countrySlug }) {
                   Everything you need to know about testosterone therapy in {data.name || countrySlug}
                 </p>
               </div>
+              
 
               <div className="space-y-6 sm:space-y-8">
                 {faq.categories.map((category, catIdx) => (
