@@ -42,6 +42,22 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        <meta
+          name="keywords"
+          content="Novatech Sciences, testosterone research, testosterone support, testosterone tablets, testosterone injectables, pharmaceutical grade testosterone, hormone research, men's health support, performance health, WHO-GMP testosterone, GMP compliant formulations, quality controlled testosterone, testosterone in UK, testosterone in Germany, testosterone in Spain, testosterone in Portugal, testosterone in Belgium, testosterone in Poland, testosterone in Netherlands, testosterone online information, anabolic hormone research, clinical grade formulations, research compounds, hormonal balance, male vitality support, Novatech testosterone, steroid research, anabolic steroids information, oral steroids research, injectable steroids research, performance enhancement compounds, pharmaceutical grade steroids"
+        />
+        <meta
+          name="robots"
+          content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+        />
+        <meta
+          name="googlebot"
+          content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+        />
+        <meta
+          name="bingbot"
+          content="index, follow, max-snippet:-1, max-image-preview:large"
+        />
         {/* Google Analytics */}
         <script
           async

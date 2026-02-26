@@ -280,7 +280,7 @@ export default function TestosteroneCountryClient({
               </div>
             </section>
           )}
-
+<CategoriesDivisionsSection></CategoriesDivisionsSection>
           {/* DYNAMIC SECTIONS */}
           {Array.isArray(content?.sections) &&
             content.sections.map((section, idx) => {
@@ -530,7 +530,7 @@ export default function TestosteroneCountryClient({
                   Everything you need to know about testosterone therapy in {data.name || countrySlug}
                 </p>
               </div>
-              
+
 
               <div className="space-y-6 sm:space-y-8">
                 {faq.categories.map((category, catIdx) => (
