@@ -21,6 +21,7 @@ export default function Footer() {
     { name: translations.nav.home, path: "/" },
     { name: translations.nav.about, path: "/about" },
     { name: translations.nav.products, path: "/products" },
+    { name: translations?.nav?.compounds || "Compounds", path: "/compounds" },
     { name: translations.nav.antiCounterfeit, path: "/anti-counterfeit" },
     { name: translations.nav.blog, path: "/blog" },
     { name: translations.nav.contact, path: "/contact" },

@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Image from "next/image";
 import {
   ChevronRight,
   Globe,
@@ -99,18 +98,14 @@ const HealthAccordBanner = () => {
 
   return (
     <section
-  className="text-white relative overflow-hidden"
+  className="text-white relative overflow-hidden bg-cover bg-center"
+  style={{
+    backgroundImage: `
+       
+      url("/bannernova.svg")
+    `,
+  }}
 >
-      <div className="absolute inset-0 -z-10">
-        <Image
-          src="/bannernova.svg"
-          alt=""
-          fill
-          priority
-          sizes="100vw"
-          className="object-cover object-center"
-        />
-      </div>
 
       {/* <WaveBackground></WaveBackground> */}
       <div className="max-w-7xl mx-auto px-6 py-20 grid lg:grid-cols-2 gap-14 items-center">
@@ -161,15 +156,9 @@ const HealthAccordBanner = () => {
             onMouseLeave={() => setIsMapHovered(false)}
           >
             <img
-              as={Image}
-            />
-            <Image
               src="/world-map-blue.png"
               alt="World Map"
-              fill
-              sizes="(max-width: 1024px) 100vw, 50vw"
-              className="absolute inset-0 h-full w-full object-cover scale-105"
-              loading="lazy"
+              className="absolute inset-0 w-full h-full object-cover scale-105"
             />
 
             <div className="absolute inset-0 " />

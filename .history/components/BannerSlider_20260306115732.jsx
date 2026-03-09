@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Image from "next/image";
 import {
   ChevronRight,
   Globe,
@@ -99,18 +98,14 @@ const HealthAccordBanner = () => {
 
   return (
     <section
-  className="text-white relative overflow-hidden"
+  className="text-white relative overflow-hidden bg-cover bg-center"
+  style={{
+    backgroundImage: `
+       
+      url("/bannernova.svg")
+    `,
+  }}
 >
-      <div className="absolute inset-0 -z-10">
-        <Image
-          src="/bannernova.svg"
-          alt=""
-          fill
-          priority
-          sizes="100vw"
-          className="object-cover object-center"
-        />
-      </div>
 
       {/* <WaveBackground></WaveBackground> */}
       <div className="max-w-7xl mx-auto px-6 py-20 grid lg:grid-cols-2 gap-14 items-center">
@@ -135,7 +130,10 @@ const HealthAccordBanner = () => {
             shouldn't define health outcomes.
           </p>
 
-    
+          <button className="inline-flex items-center gap-3 bg-gradient-to-r from-cyan-500 to-blue-600 px-8 py-4 rounded-xl font-semibold hover:scale-105 transition">
+            Learn More
+            <ChevronRight />
+          </button>
 
           <div className="grid grid-cols-2 gap-4 pt-8">
             {accordPrinciples.map((p, i) => (
@@ -161,15 +159,9 @@ const HealthAccordBanner = () => {
             onMouseLeave={() => setIsMapHovered(false)}
           >
             <img
-              as={Image}
-            />
-            <Image
               src="/world-map-blue.png"
               alt="World Map"
-              fill
-              sizes="(max-width: 1024px) 100vw, 50vw"
-              className="absolute inset-0 h-full w-full object-cover scale-105"
-              loading="lazy"
+              className="absolute inset-0 w-full h-full object-cover scale-105"
             />
 
             <div className="absolute inset-0 " />
