@@ -34,6 +34,7 @@ export default function Breadcrumbs() {
     products: "Products",
     blog: "Blog",
     antiCounterfeit: "Anti-Counterfeit",
+    compounds: "Compounds",
     productAuthentication: "Product Authentication",
     portfolio: "Portfolio"
   };
@@ -73,6 +74,18 @@ export default function Breadcrumbs() {
       crumbs.push({ 
         label: cleanLabel(params.productSlug), 
         to: `/products/${params.category}/${params.productSlug}` 
+      });
+    }
+  } else if (path.startsWith("/compounds")) {
+    crumbs.push({
+      label: t.compounds || "Compounds",
+      to: "/compounds",
+    });
+
+    if (params?.compoundSlug) {
+      crumbs.push({
+        label: cleanLabel(params.compoundSlug),
+        to: `/compounds/${params.compoundSlug}`,
       });
     }
   } else if (path.startsWith("/blog")) {

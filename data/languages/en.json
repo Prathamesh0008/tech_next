@@ -3,6 +3,7 @@
     "home": "Home",
     "about": "About",
     "products": "Products",
+    "compounds": "Compounds",
     "antiCounterfeit": "Anti-Counterfeit",
     "blog": "Blog",
     "contact": "Contact"
@@ -101,6 +102,7 @@
     "about": "About Us",
     "contact": "Contact Us",
     "products": "Products",
+    "compounds": "Compounds",
     "blog": "Blog",
     "antiCounterfeit": "Anti-Counterfeit"
   },
