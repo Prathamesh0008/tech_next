@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
-import { ChevronDown } from "lucide-react";
+import { ChevronDown, ShieldCheck, FlaskConical, FileText } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { getCompounds } from "../../../data/compounds";
 import Breadcrumbs from "../../../components/Breadcrumbs";
@@ -12,6 +12,68 @@ const parseLines = (value) =>
   (value || "")
     .split(/\r?\n/)
     .map((line) => line.trim())
+    .filter(Boolean);
+
+const getHighlightPoints = (lines = []) =>
+  lines
+    .filter((line) => {
+      const words = line.split(/\s+/).length;
+      return words >= 2 && words <= 8 && line.length <= 72 && !line.endsWith(":");
+    })
+    .slice(0, 6);
+
+const isIndicationHeading = (line = "") => {
+  const normalized = line.trim();
+  if (!normalized) return false;
+
+  const endsWithColon = normalized.endsWith(":");
+  const looksLikeTitle =
+    normalized.length <= 95 &&
+    /^(what is|mechanism|key benefits|why choose|quality|conclusion|pharmaceutical|consistent|tamoxifen citrate vs|through effective|for those seeking|nova techsciences)/i.test(
+      normalized
+    );
+
+  return endsWithColon || looksLikeTitle;
+};
+
+const splitIndicationSections = (lines = []) => {
+  const sections = [];
+  let current = { heading: "", content: [] };
+
+  lines.forEach((line, idx) => {
+    if (idx === 0 && !isIndicationHeading(line)) {
+      current.content.push(line);
+      return;
+    }
+
+    if (isIndicationHeading(line)) {
+      if (current.heading || current.content.length) {
+        sections.push(current);
+      }
+      current = { heading: line.replace(/:$/, ""), content: [] };
+      return;
+    }
+
+    current.content.push(line);
+  });
+
+  if (current.heading || current.content.length) {
+    sections.push(current);
+  }
+
+  return sections;
+};
+
+const parseKeyValueLines = (value) =>
+  parseLines(value)
+    .map((line) => {
+      const index = line.indexOf(":");
+      if (index === -1) return null;
+      return {
+        label: line.slice(0, index).trim(),
+        value: line.slice(index + 1).trim(),
+      };
+    })
     .filter(Boolean);
 
 export default function CompoundClient({ compoundId }) {
@@ -42,46 +104,48 @@ export default function CompoundClient({ compoundId }) {
     .slice(0, 3);
 
   const faqs = compound.faq || [];
+  const facts = parseKeyValueLines(compound.presentation).slice(0, 6);
+  const indicationLines = parseLines(compound.indication);
+  const indicationSections = splitIndicationSections(indicationLines);
+  const indicationHighlights = getHighlightPoints(indicationLines);
+  const precautionLines = parseLines(compound.precautions);
+  const contraindicationLines = parseLines(compound.contraindications);
 
   return (
     <div className="min-h-screen bg-[#f3f8fc] pt-20">
       <Breadcrumbs />
 
-      <section className="bg-white">
-        <div className="mx-auto grid max-w-7xl gap-8 px-4 py-10 lg:grid-cols-[1.1fr_1fr]">
-          <div>
-            <p className="mb-3 inline-flex rounded-full bg-[#e8f3fb] px-3 py-1 text-xs font-semibold uppercase tracking-wide text-[#18487d]">
-              Compound Profile
-            </p>
-            <h1 className="text-3xl font-bold text-[#0f2f57] md:text-4xl">{compound.name}</h1>
-            <p className="mt-3 text-[#3e628b]">{compound.shortDescription || compound.description}</p>
-
-            <div className="mt-6 flex flex-wrap gap-3">
-              <span className="rounded-lg bg-[#0f2f57] px-4 py-2 text-sm font-semibold text-white">
-                CAS: {compound.cas || "N/A"}
-              </span>
-              <span className="rounded-lg border border-[#c6d9eb] bg-[#f7fbff] px-4 py-2 text-sm font-semibold text-[#18487d]">
-                {compound.category}
-              </span>
-            </div>
-
-            <Link
-              href="/contact"
-              className="mt-8 inline-flex rounded-xl bg-[#1f5f99] px-6 py-3 font-semibold text-white transition hover:bg-[#174d7d]"
-            >
-              Enquire This Compound
-            </Link>
+      <section className="bg-gradient-to-r from-[#0c2b52] via-[#18487d] to-[#2f74ad] py-10 text-white">
+        <div className="mx-auto max-w-7xl px-4">
+          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-white/80">
+            Compound Details
+          </p>
+          <h1 className="mt-2 text-3xl font-bold md:text-5xl">{compound.name}</h1>
+          <p className="mt-3 max-w-3xl text-sm text-white/90 md:text-base">
+            {compound.shortDescription || compound.description}
+          </p>
+          <div className="mt-5 flex flex-wrap gap-3">
+            <span className="rounded-full bg-white/15 px-4 py-1.5 text-sm font-semibold backdrop-blur">
+              CAS: {compound.cas || "N/A"}
+            </span>
+            <span className="rounded-full bg-white/15 px-4 py-1.5 text-sm font-semibold backdrop-blur">
+              {compound.category}
+            </span>
           </div>
+        </div>
+      </section>
 
-          <div className="rounded-2xl border border-[#d5e5f2] bg-[#f8fcff] p-4">
-            <div className="overflow-hidden rounded-xl bg-white">
+      <section className="mx-auto max-w-7xl px-4 py-10">
+        <div className="grid gap-6 lg:grid-cols-12">
+          <div className="rounded-3xl border border-[#d5e5f2] bg-white p-4 shadow-sm lg:col-span-5 lg:sticky lg:top-24 lg:self-start">
+            <div className="overflow-hidden rounded-2xl bg-[#f8fcff]">
               <img
                 src={images[activeImage]}
                 alt={compound.name}
                 onError={(e) => {
                   e.currentTarget.src = "/products/placeholder.jpg";
                 }}
-                className="h-[340px] w-full object-contain"
+                className="h-[min(56vh,420px)] w-full object-contain"
               />
             </div>
             <div className="mt-3 grid grid-cols-3 gap-2">
@@ -89,8 +153,10 @@ export default function CompoundClient({ compoundId }) {
                 <button
                   key={img}
                   onClick={() => setActiveImage(idx)}
-                  className={`overflow-hidden rounded-lg border ${
-                    activeImage === idx ? "border-[#1f5f99]" : "border-[#d5e5f2]"
+                  className={`overflow-hidden rounded-xl border transition ${
+                    activeImage === idx
+                      ? "border-[#1f5f99] ring-2 ring-[#d9ecfb]"
+                      : "border-[#d5e5f2]"
                   }`}
                 >
                   <img
@@ -99,57 +165,109 @@ export default function CompoundClient({ compoundId }) {
                     onError={(e) => {
                       e.currentTarget.src = "/products/placeholder.jpg";
                     }}
-                    className="h-20 w-full object-contain"
+                    className="h-20 w-full object-contain bg-[#f9fcff]"
                   />
                 </button>
               ))}
             </div>
           </div>
+
+          <div className="space-y-6 lg:col-span-7">
+            <article className="rounded-3xl border border-[#d5e5f2] bg-white p-6 shadow-sm">
+              <h2 className="text-xl font-bold text-[#123a6d]">Quick Facts</h2>
+              {facts.length > 0 ? (
+                <div className="mt-4 grid gap-3 sm:grid-cols-2">
+                  {facts.map((fact) => (
+                    <div
+                      key={fact.label}
+                      className="rounded-xl border border-[#e2edf7] bg-[#f9fcff] px-4 py-3"
+                    >
+                      <p className="text-xs font-semibold uppercase tracking-wide text-[#4f739b]">
+                        {fact.label}
+                      </p>
+                      <p className="mt-1 text-sm font-medium text-[#123a6d]">{fact.value}</p>
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <p className="mt-4 text-sm text-[#48698e]">{compound.presentation}</p>
+              )}
+            </article>
+
+            <article className="rounded-3xl border border-[#d5e5f2] bg-white p-6 shadow-sm">
+              <h2 className="flex items-center gap-2 text-xl font-bold text-[#123a6d]">
+                <FlaskConical className="h-5 w-5" />
+                Indication
+              </h2>
+              {indicationHighlights.length > 0 && (
+                <div className="mt-4 flex flex-wrap gap-2">
+                  {indicationHighlights.map((point, idx) => (
+                    <span
+                      key={`${point}-${idx}`}
+                      className="rounded-full border border-[#c9dff2] bg-[#edf6fd] px-3 py-1 text-xs font-semibold text-[#18487d]"
+                    >
+                      {point}
+                    </span>
+                  ))}
+                </div>
+              )}
+              <div className="mt-4 space-y-5 text-sm text-[#3f6289]">
+                {indicationSections.map((section, idx) => (
+                  <div key={idx}>
+                    {section.heading ? (
+                      <h3 className="mb-2 text-base font-bold text-[#123a6d]">
+                        {section.heading}
+                      </h3>
+                    ) : null}
+                    <ul className="list-disc space-y-2 pl-5">
+                      {section.content.map((line, lineIdx) => (
+                        <li key={`${idx}-${lineIdx}`}>{line}</li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
+              </div>
+            </article>
+
+            <article className="rounded-3xl border border-[#d5e5f2] bg-white p-6 shadow-sm">
+              <h2 className="flex items-center gap-2 text-xl font-bold text-[#123a6d]">
+                <ShieldCheck className="h-5 w-5" />
+                Safety Information
+              </h2>
+              <p className="mt-4 text-sm font-semibold text-[#123a6d]">Precautions</p>
+              <ul className="mt-2 list-disc space-y-2 pl-5 text-sm text-[#3f6289]">
+                {precautionLines.map((line, idx) => (
+                  <li key={idx}>{line}</li>
+                ))}
+              </ul>
+
+              <p className="mt-6 text-sm font-semibold text-[#123a6d]">Contraindications</p>
+              <ul className="mt-2 list-disc space-y-2 pl-5 text-sm text-[#3f6289]">
+                {contraindicationLines.map((line, idx) => (
+                  <li key={idx}>{line}</li>
+                ))}
+              </ul>
+            </article>
+
+            <div className="flex flex-wrap gap-3">
+              <Link
+                href="/contact"
+                className="inline-flex rounded-xl bg-[#1f5f99] px-6 py-3 font-semibold text-white transition hover:bg-[#174d7d]"
+              >
+                Enquire This Compound
+              </Link>
+            </div>
+          </div>
         </div>
-      </section>
-
-      <section className="mx-auto grid max-w-7xl gap-6 px-4 py-8 lg:grid-cols-2">
-        <article className="rounded-2xl border border-[#d5e5f2] bg-white p-6 shadow-sm">
-          <h2 className="text-xl font-bold text-[#123a6d]">Indication</h2>
-          <ul className="mt-4 list-disc space-y-2 pl-5 text-sm text-[#3f6289]">
-            {parseLines(compound.indication).map((line, idx) => (
-              <li key={idx}>{line}</li>
-            ))}
-          </ul>
-        </article>
-
-        <article className="rounded-2xl border border-[#d5e5f2] bg-white p-6 shadow-sm">
-          <h2 className="text-xl font-bold text-[#123a6d]">Presentation</h2>
-          <ul className="mt-4 list-disc space-y-2 pl-5 text-sm text-[#3f6289]">
-            {parseLines(compound.presentation).map((line, idx) => (
-              <li key={idx}>{line}</li>
-            ))}
-          </ul>
-        </article>
-
-        <article className="rounded-2xl border border-[#d5e5f2] bg-white p-6 shadow-sm">
-          <h2 className="text-xl font-bold text-[#123a6d]">Precautions</h2>
-          <ul className="mt-4 list-disc space-y-2 pl-5 text-sm text-[#3f6289]">
-            {parseLines(compound.precautions).map((line, idx) => (
-              <li key={idx}>{line}</li>
-            ))}
-          </ul>
-        </article>
-
-        <article className="rounded-2xl border border-[#d5e5f2] bg-white p-6 shadow-sm">
-          <h2 className="text-xl font-bold text-[#123a6d]">Contraindications</h2>
-          <ul className="mt-4 list-disc space-y-2 pl-5 text-sm text-[#3f6289]">
-            {parseLines(compound.contraindications).map((line, idx) => (
-              <li key={idx}>{line}</li>
-            ))}
-          </ul>
-        </article>
       </section>
 
       {faqs.length > 0 && (
         <section className="mx-auto max-w-7xl px-4 pb-8">
-          <div className="rounded-2xl border border-[#d5e5f2] bg-white p-6 shadow-sm">
-            <h2 className="text-2xl font-bold text-[#123a6d]">FAQs</h2>
+          <div className="rounded-3xl border border-[#d5e5f2] bg-white p-6 shadow-sm">
+            <h2 className="flex items-center gap-2 text-2xl font-bold text-[#123a6d]">
+              <FileText className="h-6 w-6" />
+              FAQs
+            </h2>
             <div className="mt-5 space-y-3">
               {faqs.map((faq, idx) => (
                 <div key={idx} className="rounded-xl border border-[#d9e7f3]">
