@@ -101,7 +101,7 @@ const HealthAccordBanner = () => {
     <section
   className="text-white relative overflow-hidden"
 >
-      <div className="absolute inset-0 -z-9">
+      <div className="absolute inset-0 -z-10">
         <Image
           src="/bannernova.svg"
           alt=""
@@ -115,7 +115,7 @@ const HealthAccordBanner = () => {
       {/* <WaveBackground></WaveBackground> */}
       <div className="max-w-7xl mx-auto px-6 py-20 grid lg:grid-cols-2 gap-14 items-center">
         {/* LEFT */}
-        <div className="space-y-8 z-10">
+        <div className="space-y-8 z">
           <div className="inline-flex items-center gap-2 bg-blue-800/30 px-4 py-2 rounded-full border border-blue-500/30">
             <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
             <span className="text-sm text-blue-200">

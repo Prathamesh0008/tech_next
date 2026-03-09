@@ -1,4 +1,4 @@
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import { getCompounds } from "../../../data/compounds";
 import { slugifyCompound } from "../../../lib/compounds";
 import CompoundClient from "./CompoundClient";
@@ -7,7 +7,9 @@ export async function generateMetadata({ params }) {
   const { compoundSlug } = await params;
   const compounds = getCompounds();
 
-  const compound = compounds.find((item) => slugifyCompound(item.id) === compoundSlug);
+  const compound = compounds.find(
+    (item) => item.slug === compoundSlug || slugifyCompound(item.id) === compoundSlug
+  );
   if (!compound) {
     return {
       title: "Compound Not Found | NovaTech Sciences",
@@ -16,11 +18,10 @@ export async function generateMetadata({ params }) {
   }
 
   const description = compound.seoDescription || compound.shortDescription || compound.description;
-  const canonical =
-    compound.seoCanonical || `https://www.novatechsciences.com/compounds/${compoundSlug}`;
+  const canonical = `https://www.novatechsciences.com/compounds/${compound.slug}`;
 
   return {
-    title: compound.seoTitle || `${compound.name} Compound Details`,
+    title: compound.seoTitle || `${compound.displayName || compound.name} Compound Details`,
     description,
     alternates: { canonical },
   };
@@ -29,9 +30,98 @@ export async function generateMetadata({ params }) {
 export default async function CompoundDetailsPage({ params }) {
   const { compoundSlug } = await params;
   const compounds = getCompounds();
-  const compound = compounds.find((item) => slugifyCompound(item.id) === compoundSlug);
+  const compound = compounds.find(
+    (item) => item.slug === compoundSlug || slugifyCompound(item.id) === compoundSlug
+  );
 
   if (!compound) return notFound();
+  if (compound.slug !== compoundSlug) redirect(`/compounds/${compound.slug}`);
 
-  return <CompoundClient compoundId={compound.id} />;
+  const siteUrl = "https://www.novatechsciences.com";
+  const compoundUrl = `${siteUrl}/compounds/${compound.slug}`;
+  const productImage = `${siteUrl}/products/${compound.category.toLowerCase()}/${compound.imageKey}_1.jpg`;
+
+  const productSchema = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: compound.displayName || compound.name,
+    url: compoundUrl,
+    image: [productImage],
+    description: compound.seoDescription || compound.shortDescription || compound.description,
+    sku: compound.id,
+    mpn: compound.id,
+    category: compound.category,
+    brand: {
+      "@type": "Brand",
+      name: "Nova Techsciences",
+    },
+    manufacturer: {
+      "@type": "Organization",
+      name: "Nova Techsciences",
+    },
+    additionalProperty: [
+      compound.cas
+        ? {
+            "@type": "PropertyValue",
+            name: "CAS Number",
+            value: compound.cas,
+          }
+        : null,
+      compound.activeIngredient
+        ? {
+            "@type": "PropertyValue",
+            name: "Active Ingredient",
+            value: compound.activeIngredient,
+          }
+        : null,
+      compound.strength
+        ? {
+            "@type": "PropertyValue",
+            name: "Strength",
+            value: compound.strength,
+          }
+        : null,
+    ].filter(Boolean),
+  };
+
+  const faqItems = (compound.faq || [])
+    .map((item) => {
+      const question = item?.q || item?.question;
+      const answer = item?.a || item?.answer;
+      if (!question || !answer) return null;
+      return {
+        "@type": "Question",
+        name: question,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: answer,
+        },
+      };
+    })
+    .filter(Boolean);
+
+  const faqSchema =
+    faqItems.length > 0
+      ? {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqItems,
+        }
+      : null;
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
+      />
+      {faqSchema ? (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      ) : null}
+      <CompoundClient compoundId={compound.id} />
+    </>
+  );
 }

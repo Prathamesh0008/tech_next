@@ -24,6 +24,7 @@ export default function CompoundsPage() {
       const q = query.trim().toLowerCase();
       const matchQuery =
         !q ||
+        compound.displayName?.toLowerCase().includes(q) ||
         compound.name?.toLowerCase().includes(q) ||
         compound.id?.toLowerCase().includes(q) ||
         compound.cas?.toLowerCase().includes(q);
@@ -36,8 +37,18 @@ export default function CompoundsPage() {
     <div className="min-h-screen bg-[#f3f8fc] pt-20">
       <Breadcrumbs />
 
-      <section className="bg-gradient-to-r from-[#072043] via-[#123a6d] to-[#2b78b8] py-12 text-white">
-        <div className="mx-auto max-w-7xl px-4">
+      <section className="relative overflow-hidden py-12 text-white">
+        <img
+          src="/bannernova.svg"
+          alt=""
+          aria-hidden="true"
+          className="absolute inset-0 h-full w-full object-cover object-center"
+        />
+        <div
+          aria-hidden="true"
+          className="absolute inset-0 bg-gradient-to-r from-[#072043]/60 via-[#123a6d]/60 to-[#2b78b8]/60"
+        />
+        <div className="relative z-10 mx-auto max-w-7xl px-4">
           <h1 className="text-3xl font-bold md:text-4xl">Compounds Directory</h1>
           <p className="mt-3 max-w-2xl text-white/85">
             Browse all compounds with quick access to composition, indications, presentation, and

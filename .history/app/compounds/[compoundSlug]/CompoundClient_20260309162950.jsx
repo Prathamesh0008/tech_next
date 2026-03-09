@@ -3,8 +3,8 @@
 import { useMemo, useState } from "react";
 import Link from "next/link";
 import { ChevronDown, ShieldCheck, FlaskConical, FileText } from "lucide-react";
+import { motion, AnimatePresence } from "framer-motion";
 import { getCompounds } from "../../../data/compounds";
-import { products } from "../../../data/products";
 import Breadcrumbs from "../../../components/Breadcrumbs";
 import CompoundCard from "../../../components/CompoundCard";
 
@@ -76,17 +76,6 @@ const parseKeyValueLines = (value) =>
     })
     .filter(Boolean);
 
-const isBulletLikeLine = (line = "") => {
-  const text = line.trim();
-  if (!text) return false;
-
-  if (/^[-*•]\s+/.test(text) || /^\d+[\).]\s+/.test(text)) return true;
-  if (text.endsWith(":")) return false;
-
-  const wordCount = text.split(/\s+/).length;
-  return wordCount <= 9 && !/[.!?]$/.test(text);
-};
-
 export default function CompoundClient({ compoundId }) {
   const compounds = useMemo(() => getCompounds(), []);
 
@@ -109,23 +98,10 @@ export default function CompoundClient({ compoundId }) {
   const images = [1, 2, 3].map(
     (index) => `/products/${compound.category.toLowerCase()}/${compound.imageKey}_${index}.jpg`
   );
-  const compoundTitle = compound.displayName || compound.name;
 
   const related = compounds
     .filter((item) => item.id !== compound.id && item.category === compound.category)
     .slice(0, 3);
-  const mappedProduct = useMemo(
-    () =>
-      products.find(
-        (item) =>
-          item.category?.toLowerCase() === compound.category?.toLowerCase() &&
-          item.imageKey?.toUpperCase() === compound.imageKey?.toUpperCase()
-      ),
-    [compound.category, compound.imageKey]
-  );
-  const mappedProductHref = mappedProduct
-    ? `/products/${mappedProduct.category.toLowerCase()}/${mappedProduct.id}`
-    : "";
 
   const faqs = compound.faq || [];
   const facts = parseKeyValueLines(compound.presentation).slice(0, 6);
@@ -134,38 +110,6 @@ export default function CompoundClient({ compoundId }) {
   const indicationHighlights = getHighlightPoints(indicationLines);
   const precautionLines = parseLines(compound.precautions);
   const contraindicationLines = parseLines(compound.contraindications);
-
-  const renderLineWithProductLink = (line, keyPrefix) => {
-    if (!mappedProduct?.name || !mappedProductHref) return line;
-
-    const termOptions = [
-      `${mappedProduct.name} Tablets`,
-      `${mappedProduct.name} Injectable`,
-      mappedProduct.name,
-    ].filter(Boolean);
-
-    for (const term of termOptions) {
-      const escaped = term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-      const parts = line.split(new RegExp(`(${escaped})`, "ig"));
-      if (parts.length === 1) continue;
-
-      return parts.map((part, idx) =>
-        part.toLowerCase() === term.toLowerCase() ? (
-          <Link
-            key={`${keyPrefix}-link-${idx}`}
-            href={mappedProductHref}
-            className="font-semibold text-[#1f5f99] underline underline-offset-2"
-          >
-            {part}
-          </Link>
-        ) : (
-          <span key={`${keyPrefix}-text-${idx}`}>{part}</span>
-        )
-      );
-    }
-
-    return line;
-  };
 
   return (
     <div className="min-h-screen bg-[#f3f8fc] pt-20">
@@ -186,7 +130,7 @@ export default function CompoundClient({ compoundId }) {
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-white/80">
             Compound Details
           </p>
-          <h1 className="mt-2 text-3xl font-bold md:text-5xl">{compoundTitle}</h1>
+          <h1 className="mt-2 text-3xl font-bold md:text-5xl">{compound.name}</h1>
           <p className="mt-3 max-w-3xl text-sm text-white/90 md:text-base">
             {compound.shortDescription || compound.description}
           </p>
@@ -207,7 +151,7 @@ export default function CompoundClient({ compoundId }) {
             <div className="overflow-hidden rounded-2xl bg-[#f8fcff]">
               <img
                 src={images[activeImage]}
-                alt={compoundTitle}
+                alt={compound.name}
                 onError={(e) => {
                   e.currentTarget.src = "/products/placeholder.jpg";
                 }}
@@ -227,7 +171,7 @@ export default function CompoundClient({ compoundId }) {
                 >
                   <img
                     src={img}
-                    alt={`${compoundTitle} ${idx + 1}`}
+                    alt={`${compound.name} ${idx + 1}`}
                     onError={(e) => {
                       e.currentTarget.src = "/products/placeholder.jpg";
                     }}
@@ -285,20 +229,11 @@ export default function CompoundClient({ compoundId }) {
                         {section.heading}
                       </h3>
                     ) : null}
-                    <div className="space-y-2">
-                      {section.content.map((line, lineIdx) =>
-                        isBulletLikeLine(line) ? (
-                          <div key={`${idx}-${lineIdx}`} className="flex items-start gap-2 pl-1">
-                            <span className="mt-[7px] h-1.5 w-1.5 rounded-full bg-[#5f83aa]" />
-                            <span>{line.replace(/^[-*•]\s+/, "")}</span>
-                          </div>
-                        ) : (
-                          <p key={`${idx}-${lineIdx}`}>
-                            {renderLineWithProductLink(line, `${idx}-${lineIdx}`)}
-                          </p>
-                        )
-                      )}
-                    </div>
+                    <ul className="list-disc space-y-2 pl-5">
+                      {section.content.map((line, lineIdx) => (
+                        <li key={`${idx}-${lineIdx}`}>{line}</li>
+                      ))}
+                    </ul>
                   </div>
                 ))}
               </div>
@@ -351,19 +286,22 @@ export default function CompoundClient({ compoundId }) {
                     className="flex w-full items-center justify-between px-4 py-3 text-left font-semibold text-[#18487d]"
                   >
                     <span>{faq.q || faq.question}</span>
-                    <span
-                      className={`transition-transform duration-150 ${
-                        activeFAQ === idx ? "rotate-180" : ""
-                      }`}
-                    >
+                    <motion.span animate={{ rotate: activeFAQ === idx ? 20 : 0 }}>
                       <ChevronDown className="h-4 w-4" />
-                    </span>
+                    </motion.span>
                   </button>
-                  {activeFAQ === idx && (
-                    <div className="border-t border-[#e5eff7] px-4 py-3 text-sm text-[#42658d]">
-                      {faq.a || faq.answer}
-                    </div>
-                  )}
+                  <AnimatePresence>
+                    {activeFAQ === idx && (
+                      <motion.div
+                        initial={{ height: 0, opacity: 0 }}
+                        animate={{ height: "auto", opacity: 1 }}
+                        exit={{ height: 0, opacity: 0 }}
+                        className="overflow-hidden border-t border-[#e5eff7] px-4 py-3 text-sm text-[#42658d]"
+                      >
+                        {faq.a || faq.answer}
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
                 </div>
               ))}
             </div>

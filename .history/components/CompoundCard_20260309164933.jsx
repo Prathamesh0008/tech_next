@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { slugifyCompound } from "../lib/compounds";
 
-export default function CompoundCard({ compound, priority = false }) {
+export default function CompoundCard({ compound }) {
   const [loading, setLoading] = useState(true);
   const compoundTitle = compound.displayName || compound.name;
 
@@ -21,7 +21,7 @@ export default function CompoundCard({ compound, priority = false }) {
           <span className="text-xs text-[#4b6b8f]">CAS {compound.cas || "N/A"}</span>
         </div>
 
-        <div className="relative mt-4 h-44 w-full overflow-hidden rounded-xl ">
+        <div className="relative mt-4 h-44 w-full overflow-hidden rounded-xl bg-[#f6fbff]">
           {loading && (
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="h-6 w-6 animate-spin rounded-full border-4 border-[#18487d] border-t-transparent" />
@@ -30,9 +30,6 @@ export default function CompoundCard({ compound, priority = false }) {
           <img
             src={imagePath}
             alt={compoundTitle}
-            loading={priority ? "eager" : "lazy"}
-            fetchPriority={priority ? "high" : "auto"}
-            decoding="async"
             onLoad={() => setLoading(false)}
             onError={(e) => {
               e.currentTarget.src = "/products/placeholder.jpg";

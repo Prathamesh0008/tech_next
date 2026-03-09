@@ -1,12 +1,16 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { handleCtrlClick } from "../utils/openInNewTab";
 
-export default function ProductCard({ product }) {
+export default function ProductCard({ product, priority = false }) {
   const router = useRouter();
+  const imgRef = useRef(null);
   const [loading, setLoading] = useState(true);
+  const [imageSrc, setImageSrc] = useState(
+    `/products/${product.category.toLowerCase()}/${(product?.imageKey || product?._baseName || "")}_1.jpg`
+  );
 
   const displayName = product?.name || "";
   const displayDesc =
@@ -19,6 +23,18 @@ export default function ProductCard({ product }) {
     if (handleCtrlClick(e, productURL)) return;
     router.push(productURL);
   };
+
+  useEffect(() => {
+    const nextSrc = `/products/${product.category.toLowerCase()}/${imageKey}_1.jpg`;
+    setImageSrc(nextSrc);
+    setLoading(true);
+  }, [product.category, imageKey]);
+
+  useEffect(() => {
+    if (imgRef.current?.complete) {
+      setLoading(false);
+    }
+  }, [imageSrc]);
 
   return (
     <div
@@ -33,10 +49,19 @@ export default function ProductCard({ product }) {
         )}
 
         <img
-          src={`/products/${product.category.toLowerCase()}/${imageKey}_1.jpg`}
+          ref={imgRef}
+          src={imageSrc}
           alt={displayName}
+          loading={priority ? "eager" : "lazy"}
+          fetchPriority={priority ? "high" : "auto"}
+          decoding="async"
           onLoad={() => setLoading(false)}
-          onError={(e) => (e.currentTarget.src = "/products/placeholder.jpg")}
+          onError={(e) => {
+            if (imageSrc !== "/products/placeholder.jpg") {
+              setImageSrc("/products/placeholder.jpg");
+            }
+            setLoading(false);
+          }}
           className={`h-full w-full object-contain transition-opacity ${
             loading ? "opacity-0" : "opacity-100"
           }`}
@@ -51,4 +76,3 @@ export default function ProductCard({ product }) {
     </div>
   );
 }
-

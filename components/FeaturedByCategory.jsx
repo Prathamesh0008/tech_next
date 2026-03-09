@@ -101,9 +101,10 @@ export default function DiseaseFeaturedSection() {
       {/* ===== Product Cards ===== */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 px-4">
         {toShow.length > 0 ? (
-          toShow.map((p) => (
+          toShow.map((p, idx) => (
             <div key={p.id} className="h-full">
               <ProductCard
+                priority={idx < 4}
                 product={{
                   ...p,
                   slug: slugify(p.name),       // 👈 REQUIRED

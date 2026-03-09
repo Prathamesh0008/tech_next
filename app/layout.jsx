@@ -99,42 +99,6 @@ export default function RootLayout({ children }) {
           }}
         />
 
-        {/* --- Global Breadcrumb Schema --- */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "BreadcrumbList",
-              itemListElement: [
-                {
-                  "@type": "ListItem",
-                  position: 1,
-                  name: "Home",
-                  item: "https://www.novatechsciences.com/",
-                },
-                {
-                  "@type": "ListItem",
-                  position: 2,
-                  name: "Products",
-                  item: "https://www.novatechsciences.com/products",
-                },
-                {
-                  "@type": "ListItem",
-                  position: 3,
-                  name: "Blog",
-                  item: "https://www.novatechsciences.com/blog",
-                },
-                {
-                  "@type": "ListItem",
-                  position: 4,
-                  name: "Contact",
-                  item: "https://www.novatechsciences.com/contact",
-                },
-              ],
-            }),
-          }}
-        />
       </head>
 
       <body className="min-h-screen flex flex-col">
