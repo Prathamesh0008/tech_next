@@ -1,14 +1,30 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { slugifyCompound } from "../lib/compounds";
 
 export default function CompoundCard({ compound, priority = false }) {
+  const imgRef = useRef(null);
   const [loading, setLoading] = useState(true);
   const compoundTitle = compound.displayName || compound.name;
 
-  const imagePath = `/products/${compound.category.toLowerCase()}/${compound.imageKey}_1.jpg`;
+  const [imageSrc, setImageSrc] = useState(
+    `/products/${compound.category.toLowerCase()}/${compound.imageKey}_1.jpg`
+  );
+
+  useEffect(() => {
+    const nextSrc = `/products/${compound.category.toLowerCase()}/${compound.imageKey}_1.jpg`;
+    setImageSrc(nextSrc);
+    setLoading(true);
+  }, [compound.category, compound.imageKey]);
+
+  useEffect(() => {
+    if (imgRef.current?.complete) {
+      setLoading(false);
+    }
+  }, [imageSrc]);
+
   const compoundURL = `/compounds/${compound.slug || slugifyCompound(compound.id)}`;
 
   return (
@@ -28,14 +44,17 @@ export default function CompoundCard({ compound, priority = false }) {
             </div>
           )}
           <img
-            src={imagePath}
+            ref={imgRef}
+            src={imageSrc}
             alt={compoundTitle}
             loading={priority ? "eager" : "lazy"}
             fetchPriority={priority ? "high" : "auto"}
             decoding="async"
             onLoad={() => setLoading(false)}
             onError={(e) => {
-              e.currentTarget.src = "/products/placeholder.jpg";
+              if (imageSrc !== "/products/placeholder.jpg") {
+                setImageSrc("/products/placeholder.jpg");
+              }
               setLoading(false);
             }}
             className={`h-full w-full object-contain transition-opacity duration-300 ${

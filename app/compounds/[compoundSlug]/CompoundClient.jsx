@@ -126,6 +126,7 @@ export default function CompoundClient({ compoundId }) {
   const mappedProductHref = mappedProduct
     ? `/products/${mappedProduct.category.toLowerCase()}/${mappedProduct.id}`
     : "";
+  const mappedProductFirstWord = mappedProduct?.name?.trim()?.split(/\s+/)?.[0] || "";
 
   const faqs = compound.faq || [];
   const facts = parseKeyValueLines(compound.presentation).slice(0, 6);
@@ -135,33 +136,51 @@ export default function CompoundClient({ compoundId }) {
   const precautionLines = parseLines(compound.precautions);
   const contraindicationLines = parseLines(compound.contraindications);
 
-  const renderLineWithProductLink = (line, keyPrefix) => {
-    if (!mappedProduct?.name || !mappedProductHref) return line;
+  const plainParagraphKeys = indicationSections
+    .flatMap((section, sectionIdx) =>
+      section.content
+        .map((line, lineIdx) => ({ line, key: `${sectionIdx}-${lineIdx}` }))
+        .filter(({ line }) => !isBulletLikeLine(line))
+    )
+    .map(({ key }) => key);
 
-    const termOptions = [
-      `${mappedProduct.name} Tablets`,
-      `${mappedProduct.name} Injectable`,
-      mappedProduct.name,
-    ].filter(Boolean);
+  const productLinkParagraphKey = plainParagraphKeys[0];
+  const homeLinkParagraphKey = plainParagraphKeys[1];
 
-    for (const term of termOptions) {
-      const escaped = term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-      const parts = line.split(new RegExp(`(${escaped})`, "ig"));
-      if (parts.length === 1) continue;
+  const replaceFirstOccurrenceWithLink = (line, term, href, keyPrefix) => {
+    if (!term || !href) return line;
 
-      return parts.map((part, idx) =>
-        part.toLowerCase() === term.toLowerCase() ? (
-          <Link
-            key={`${keyPrefix}-link-${idx}`}
-            href={mappedProductHref}
-            className="font-semibold text-[#1f5f99] underline underline-offset-2"
-          >
-            {part}
-          </Link>
-        ) : (
-          <span key={`${keyPrefix}-text-${idx}`}>{part}</span>
-        )
+    const escaped = term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    const regex = new RegExp(escaped, "i");
+    const match = regex.exec(line);
+    if (!match) return line;
+
+    const start = match.index;
+    const end = start + match[0].length;
+
+    return (
+      <>
+        <span>{line.slice(0, start)}</span>
+        <Link href={href} className="font-semibold text-[#1f5f99] underline underline-offset-2">
+          {line.slice(start, end)}
+        </Link>
+        <span>{line.slice(end)}</span>
+      </>
+    );
+  };
+
+  const renderLineWithLinks = (line, keyPrefix) => {
+    if (keyPrefix === productLinkParagraphKey) {
+      return replaceFirstOccurrenceWithLink(
+        line,
+        mappedProductFirstWord,
+        mappedProductHref,
+        keyPrefix
       );
+    }
+
+    if (keyPrefix === homeLinkParagraphKey) {
+      return replaceFirstOccurrenceWithLink(line, "NovaTech Sciences", "/", keyPrefix);
     }
 
     return line;
@@ -294,7 +313,7 @@ export default function CompoundClient({ compoundId }) {
                           </div>
                         ) : (
                           <p key={`${idx}-${lineIdx}`}>
-                            {renderLineWithProductLink(line, `${idx}-${lineIdx}`)}
+                            {renderLineWithLinks(line, `${idx}-${lineIdx}`)}
                           </p>
                         )
                       )}
@@ -375,8 +394,8 @@ export default function CompoundClient({ compoundId }) {
         <section className="mx-auto max-w-7xl px-4 pb-16">
           <h2 className="mb-5 text-2xl font-bold text-[#123a6d]">Related Compounds</h2>
           <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
-            {related.map((item) => (
-              <CompoundCard key={item.id} compound={item} />
+            {related.map((item, idx) => (
+              <CompoundCard key={item.id} compound={item} priority={idx < 3} />
             ))}
           </div>
         </section>
