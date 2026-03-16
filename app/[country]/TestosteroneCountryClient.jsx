@@ -158,7 +158,7 @@ export default function TestosteroneCountryClient({
         />
       )}
       {/* HERO - Perfectly rendered, no cropping */}
-      <section className={`relative bg-gradient-to-br ${countryGradient} text-white overflow-hidden`}>
+      <section className={`relative bg-gradient-to-br ${countryGradient} text-black overflow-hidden`}>
         {/* Subtle pattern overlay */}
         <div className="absolute inset-0">
           <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZD0iTSA2MCAwIEwgMCAwIDAgNjAiIGZpbGw9Im5vbmUiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjA1KSIgc3Ryb2tlLXdpZHRoPSIxIi8+PC9wYXR0ZXJuPjwvZGVmcz48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyaWQpIi8+PC9zdmc+')] opacity-10 md:opacity-20"></div>
@@ -169,12 +169,12 @@ export default function TestosteroneCountryClient({
         <div className={`relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ${heroPadding}`}>
           <div className="max-w-4xl mx-auto lg:mx-0">
             {/* Breadcrumb */}
-            <div className="flex items-center gap-1.5 sm:gap-2 text-xs sm:text-sm text-white/80 mb-4 sm:mb-6 overflow-x-auto pb-2 whitespace-nowrap scrollbar-hide">
-              <span className="hover:text-white transition-colors cursor-default flex-shrink-0">Home</span>
-              <span className="text-white/50 flex-shrink-0">•</span>
-              <span className="hover:text-white transition-colors cursor-default flex-shrink-0">Countries</span>
-              <span className="text-white/50 flex-shrink-0">•</span>
-              <span className="text-white font-medium bg-white/20 px-2 sm:px-3 py-1 rounded-full backdrop-blur-sm border border-white/30 flex-shrink-0">
+            <div className="flex items-center gap-1.5 sm:gap-2 text-xs sm:text-sm text-slate-700 mb-4 sm:mb-6 overflow-x-auto pb-2 whitespace-nowrap scrollbar-hide">
+              <span className="hover:text-slate-900 transition-colors cursor-default flex-shrink-0">Home</span>
+              <span className="text-slate-500 flex-shrink-0">•</span>
+              <span className="hover:text-slate-900 transition-colors cursor-default flex-shrink-0">Countries</span>
+              <span className="text-slate-500 flex-shrink-0">•</span>
+              <span className="text-slate-900 font-medium bg-black/10 px-2 sm:px-3 py-1 rounded-full backdrop-blur-sm border border-black/20 flex-shrink-0">
                 {data.name || countrySlug}
               </span>
             </div>
@@ -185,17 +185,17 @@ export default function TestosteroneCountryClient({
                 typeof hero.title === 'object' ? (
                   <div className="flex flex-col items-start gap-1 sm:gap-2">
                     {/* Prefix - Normal text */}
-                    <span className="text-white/90 text-lg sm:text-xl md:text-2xl lg:text-3xl leading-tight">
+                    <span className="text-slate-900 text-lg sm:text-xl md:text-2xl lg:text-3xl leading-tight">
                       {hero.title.prefix}
                     </span>
                     
                     {/* Highlight - BIG BOLD text with NO CROPPING */}
-                    <span className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl pb-5 font-bold bg-gradient-to-r from-white to-white/90 bg-clip-text text-transparent py-1">
+                    <span className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl pb-5 font-bold bg-gradient-to-r from-black to-slate-700 bg-clip-text text-transparent py-1">
                       {hero.title.highlight}
                     </span>
                     
                     {/* Suffix - Normal text */}
-                    <span className="text-white/90 text-lg sm:text-xl md:text-2xl lg:text-3xl leading-tight">
+                    <span className="text-slate-900 text-lg sm:text-xl md:text-2xl lg:text-3xl leading-tight">
                       {hero.title.suffix}
                     </span>
                   </div>
@@ -208,7 +208,7 @@ export default function TestosteroneCountryClient({
             </h1>
             
             {/* Hero Subtitle */}
-            <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-white/90 leading-relaxed mb-4 sm:mb-6 font-light max-w-3xl">
+            <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-slate-900 leading-relaxed mb-4 sm:mb-6 font-light max-w-3xl">
               {hero.subtitle}
             </p>
             
@@ -218,8 +218,8 @@ export default function TestosteroneCountryClient({
                 {hero.animatedSubtitle.split('•').map((item, index) => (
                   item.trim() && (
                     <div key={index} className="flex items-center gap-2">
-                      <div className="w-1 h-1 bg-white rounded-full"></div>
-                      <span className="text-sm sm:text-base md:text-lg text-white/80 font-light">
+                      <div className="w-1 h-1 bg-slate-700 rounded-full"></div>
+                      <span className="text-sm sm:text-base md:text-lg text-slate-800 font-light">
                         {item.trim()}
                       </span>
                     </div>
@@ -617,3 +617,4 @@ const FAQItem = ({ item, isExpanded, onToggle }) => {
     </div>
   );
 };
+

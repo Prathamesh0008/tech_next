@@ -66,7 +66,7 @@ export default function ProductCard({ product, priority = false }) {
       onClick={handleClick}
       className="flex cursor-pointer flex-col border border-gray-100 bg-white p-4 shadow-sm transition hover:scale-[1.02] hover:shadow-lg"
     >
-      <div className="relative mb-3 h-44 w-full overflow-hidden rounded-md bg-[#f]">
+      <div className="relative mb-3 h-44 w-full overflow-hidden rounded-md bg-[#f4f7fb]">
         {loading && (
           <div className="absolute inset-0 z-10 flex items-center justify-center bg-[#f4f7fb]/80">
             <div className="h-6 w-6 animate-spin rounded-full border-4 border-[#18487d] border-t-[#3386bc]" />
