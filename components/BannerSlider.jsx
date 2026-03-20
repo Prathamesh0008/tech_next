@@ -160,9 +160,6 @@ const HealthAccordBanner = () => {
             onMouseEnter={() => setIsMapHovered(true)}
             onMouseLeave={() => setIsMapHovered(false)}
           >
-            <img
-              as={Image}
-            />
             <Image
               src="/world-map-blue.png"
               alt="World Map"

@@ -1,6 +1,6 @@
 export default function CompoundDetailsLoading() {
   return (
-      <div className="min-h-screen bg-[#f3f8fc] pt-24">
+      <div className="min-h-screen bg-white pt-24">
       <div className="mx-auto max-w-7xl px-4">
         <div className="grid gap-8 lg:grid-cols-[1.1fr_1fr]">
           <div>

@@ -34,7 +34,7 @@ export default function CompoundsPage() {
   }, [compounds, query, activeCategory]);
 
   return (
-    <div className="min-h-screen bg-[#f3f8fc] pt-20">
+    <div className="min-h-screen bg-white pt-20">
       <Breadcrumbs />
 
       <section className="relative overflow-hidden py-12 text-white">
@@ -93,8 +93,8 @@ export default function CompoundsPage() {
           </div>
         ) : (
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {filteredCompounds.map((compound) => (
-              <CompoundCard key={compound.id} compound={compound} />
+            {filteredCompounds.map((compound, idx) => (
+              <CompoundCard key={compound.id} compound={compound} priority={idx < 6} />
             ))}
           </div>
         )}

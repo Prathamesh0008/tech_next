@@ -3,7 +3,6 @@
 import { useEffect, useState, useRef } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import AOS from "aos";
 import "aos/dist/aos.css";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
@@ -90,10 +89,30 @@ export default function HomeClient() {
   const t = translations.home;
 
   useEffect(() => {
-    AOS.init({
-      duration: 1000,
-      once: true,
-    });
+    let mounted = true;
+
+    const initAOS = async () => {
+      if (!mounted) return;
+      if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+
+      const { default: AOS } = await import("aos");
+      if (!mounted) return;
+
+      AOS.init({
+        duration: 700,
+        once: true,
+      });
+    };
+
+    if ("requestIdleCallback" in window) {
+      window.requestIdleCallback(initAOS, { timeout: 1200 });
+    } else {
+      window.setTimeout(initAOS, 300);
+    }
+
+    return () => {
+      mounted = false;
+    };
   }, []);
 
   function handleCtrlClick(e, path) {
@@ -146,10 +165,7 @@ export default function HomeClient() {
 
       <div className="max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 -mt-12 overflow-x-hidden">
         {/* ✅ Hero */}
-        <section
-          className="relative py-14 sm:py-16 md:py-24 lg:py-28 overflow-hidden"
-          data-aos="fade-up"
-        >
+        <section className="relative py-14 sm:py-16 md:py-24 lg:py-28 overflow-hidden">
           {/* Background decorative elements */}
           <div className="absolute inset-0 -z-10">
             <div className="absolute top-10 left-10 w-56 h-56 sm:w-72 sm:h-72 bg-[#3386bc]/5 rounded-full blur-3xl"></div>

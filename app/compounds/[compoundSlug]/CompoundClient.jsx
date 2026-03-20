@@ -100,7 +100,7 @@ export default function CompoundClient({ compoundId }) {
 
   if (!compound) {
     return (
-      <div className="min-h-screen bg-[#f3f8fc] pt-28 text-center text-[#36597f]">
+      <div className="min-h-screen bg-white pt-28 text-center text-[#36597f]">
         Compound not found.
       </div>
     );
@@ -187,7 +187,7 @@ export default function CompoundClient({ compoundId }) {
   };
 
   return (
-    <div className="min-h-screen bg-[#f3f8fc] pt-20">
+    <div className="min-h-screen bg-white pt-20">
       <Breadcrumbs />
 
       <section className="relative overflow-hidden py-10 text-white">

@@ -238,7 +238,7 @@ export default function ProductsPage() {
             </div>
           ) : (
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-              {filteredProducts.map((p) => (
+              {filteredProducts.map((p, idx) => (
                 <motion.div
                   key={`${p.id}-${p.id}`}
                   initial={{ opacity: 0, y: 20 }}
@@ -246,6 +246,7 @@ export default function ProductsPage() {
                   transition={{ duration: 0.25 }}
                 >
                   <ProductCard
+                    priority={idx < 8}
                     product={{
                       ...p,
                       slug: slugify(p.id),

@@ -1,6 +1,6 @@
 export default function CompoundsLoading() {
   return (
-    <div className="min-h-screen bg-[#f3f8fc] pt-24">
+    <div className="min-h-screen bg-white pt-24">
       <div className="mx-auto max-w-7xl px-4">
         <div className="mb-8 h-10 w-64 animate-pulse rounded bg-[#dceaf6]" />
         <div className="mb-10 h-12 w-full max-w-2xl animate-pulse rounded-xl bg-[#e5f1fb]" />

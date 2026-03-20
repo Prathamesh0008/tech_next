@@ -5,6 +5,8 @@ import { LanguageProvider } from "../contexts/LanguageContext";
 import "flag-icons/css/flag-icons.min.css";
 import ScrollToTop from "../components/ScrollToTop";
 import Script from "next/script";
+import { cookies } from "next/headers";
+import InitialLoaderGate from "../components/InitialLoaderGate";
 
 
 
@@ -38,9 +40,33 @@ export const metadata = {
   },
 };
 
-export default function RootLayout({ children }) {
+const supportedLanguages = new Set([
+  "en",
+  "es",
+  "fr",
+  "de",
+  "it",
+  "pt",
+  "ar",
+  "ru",
+  "zh",
+  "ro",
+  "sq",
+  "el",
+  "bg",
+  "mk",
+  "sr",
+  "hr",
+  "bs",
+]);
+
+export default async function RootLayout({ children }) {
+  const cookieStore = await cookies();
+  const cookieLang = cookieStore.get("lang")?.value;
+  const initialLanguage = supportedLanguages.has(cookieLang) ? cookieLang : "en";
+
   return (
-    <html lang="en">
+    <html lang={initialLanguage} dir={initialLanguage === "ar" ? "rtl" : "ltr"}>
       <head>
         <meta
           name="keywords"
@@ -123,12 +149,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           }}
         />
 
-        <LanguageProvider>
-  <Navbar />
-  <main className="flex-1">{children}</main>
-  <ScrollToTop />
-  <Footer />
-</LanguageProvider>
+        <InitialLoaderGate>
+          <LanguageProvider initialLanguage={initialLanguage}>
+            <Navbar />
+            <main className="flex-1">{children}</main>
+            <ScrollToTop />
+            <Footer />
+          </LanguageProvider>
+        </InitialLoaderGate>
 
       </body>
     </html>

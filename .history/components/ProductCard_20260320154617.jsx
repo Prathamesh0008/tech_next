@@ -73,7 +73,7 @@ export default function ProductCard({ product, priority = false }) {
           </div>
         )}
         {imageUnavailable && !loading && (
-          <div className="absolute inset-0 z-10 flex flex-col items-center justify-center gap-2  text-[#6a88a8]">
+          <div className="absolute inset-0 z-10 flex filex-col items-center justify-center gap-2  text-[#6a88a8]">
             <svg
               viewBox="0 0 24 24"
               aria-hidden="true"
@@ -120,4 +120,3 @@ export default function ProductCard({ product, priority = false }) {
     </div>
   );
 }
-

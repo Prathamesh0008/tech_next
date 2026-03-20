@@ -42,18 +42,18 @@ const languages = {
 
 const LanguageContext = createContext(null);
 
-export function LanguageProvider({ children }) {
-  const [language, setLanguage] = useState("en");
+const isSupportedLanguage = (lang) => !!(lang && languages[lang]);
+
+export function LanguageProvider({ children, initialLanguage = "en" }) {
+  const [language, setLanguage] = useState(() =>
+    isSupportedLanguage(initialLanguage) ? initialLanguage : "en"
+  );
 
   useEffect(() => {
-    const savedLang = localStorage.getItem("lang");
-    if (savedLang && languages[savedLang]) {
-      setLanguage(savedLang);
-    }
-  }, []);
-
-  useEffect(() => {
-    localStorage.setItem("lang", language);
+    window.localStorage.setItem("lang", language);
+    document.cookie = `lang=${language}; path=/; max-age=31536000; samesite=lax`;
+    document.documentElement.lang = language;
+    document.documentElement.dir = language === "ar" ? "rtl" : "ltr";
   }, [language]);
 
   const translations = useMemo(() => languages[language] || languages.en, [language]);

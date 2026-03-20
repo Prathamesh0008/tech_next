@@ -64,12 +64,12 @@ export default function CompoundCard({ compound, priority = false }) {
 
         <div className="relative mt-4 h-44 w-full overflow-hidden rounded-xl bg-[#fff]">
           {loading && (
-            <div className="absolute inset-0 z-10 flex items-center justify-center bg-[#f4f7fb]/80">
+            <div className="absolute inset-0 z-10 flex items-center justify-center ">
               <div className="h-6 w-6 animate-spin rounded-full border-4 border-[#18487d] border-t-transparent" />
             </div>
           )}
           {imageUnavailable && !loading && (
-            <div className="absolute inset-0 z-10 flex flex-col items-center justify-center gap-2 bg-[#f4f7fb]/80 text-[#6a88a8]">
+            <div className="absolute inset-0 z-10 flex flex-col items-center justify-center gap-2  text-[#6a88a8]">
               <svg
                 viewBox="0 0 24 24"
                 aria-hidden="true"

@@ -68,12 +68,12 @@ export default function ProductCard({ product, priority = false }) {
     >
       <div className="relative mb-3 h-44 w-full overflow-hidden rounded-md bg-[#f]">
         {loading && (
-          <div className="absolute inset-0 z-10 flex items-center justify-center bg-[#f4f7fb]/80">
+          <div className="absolute inset-0 z-10 flex items-center justify-center ">
             <div className="h-6 w-6 animate-spin rounded-full border-4 border-[#18487d] border-t-[#3386bc]" />
           </div>
         )}
         {imageUnavailable && !loading && (
-          <div className="absolute inset-0 z-10 flex flex-col items-center justify-center gap-2 bg-[#f4f7fb]/80 text-[#6a88a8]">
+          <div className="absolute inset-0 z-10 flex flex-col items-center justify-center gap-2  text-[#6a88a8]">
             <svg
               viewBox="0 0 24 24"
               aria-hidden="true"
