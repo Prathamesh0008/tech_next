@@ -341,7 +341,7 @@ export default function HomeClient() {
             <div className="w-20 sm:w-24 h-1 bg-gradient-to-r from-[#18487d] to-[#3386bc] mx-auto mb-5 sm:mb-6 rounded-full"></div>
 
             <p className="text-gray-700 max-w-3xl mx-auto text-base sm:text-lg md:text-xl leading-relaxed px-2 sm:px-4">
-              {t.divisions?.description || "NovaTech Sciences specializes in two core pharmaceutical divisions precision-formulated Tablets and Injectables, designed to meet the highest standards of global healthcare and manufacturing excellence."}
+              {t.divisions?.description || "NovaTech Sciences specializes in two core pharmaceutical divisions — precision-formulated Tablets and Injectables, designed to meet the highest standards of global healthcare and manufacturing excellence."}
             </p>
           </div>
 
