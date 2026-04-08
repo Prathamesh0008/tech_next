@@ -98,9 +98,7 @@ const HealthAccordBanner = () => {
   ];
 
   return (
-    <section
-  className="text-white relative overflow-hidden"
->
+    <section className="text-white relative overflow-x-clip overflow-y-hidden">
       <div className="absolute inset-0 -z-9">
         <Image
           src="/bannernova.svg"
@@ -113,9 +111,9 @@ const HealthAccordBanner = () => {
       </div>
 
       {/* <WaveBackground></WaveBackground> */}
-      <div className="max-w-7xl mx-auto px-6 py-20 grid lg:grid-cols-2 gap-14 items-center">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-10 sm:py-20 grid lg:grid-cols-2 gap-8 sm:gap-14 items-center">
         {/* LEFT */}
-        <div className="space-y-8 z-10">
+        <div className="space-y-6 sm:space-y-8 z-10 min-w-0">
           <div className="inline-flex items-center gap-2 bg-blue-800/30 px-4 py-2 rounded-full border border-blue-500/30">
             <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
             <span className="text-sm text-blue-200">
@@ -123,30 +121,30 @@ const HealthAccordBanner = () => {
             </span>
           </div>
 
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight break-words">
             <span className="bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
               An Accord for
             </span>
             <br />a Healthier World
           </h1>
 
-          <p className="text-xl text-gray-300 leading-relaxed max-w-xl">
+          <p className="text-base sm:text-xl text-gray-300 leading-relaxed max-w-xl">
             Where people live shouldn't impact healthcare quality, and income
             shouldn't define health outcomes.
           </p>
 
     
 
-          <div className="grid grid-cols-2 gap-4 pt-8">
+          <div className="grid grid-cols-1 min-[420px]:grid-cols-2 gap-4 pt-4 sm:pt-8 min-w-0">
             {accordPrinciples.map((p, i) => (
               <div
                 key={i}
-                className="flex gap-3 bg-white/50 p-4 rounded-xl border border-white/10"
+                className="flex gap-3 bg-white/50 p-4 rounded-xl border border-white/10 min-w-0"
               >
-                <div className="text-black">{p.icon}</div>
-                <div>
-                  <h4 className="font-semibold text-black">{p.title}</h4>
-                  <p className="text-sm text-black">{p.description}</p>
+                <div className="text-black shrink-0">{p.icon}</div>
+                <div className="min-w-0">
+                  <h4 className="font-semibold text-black break-words">{p.title}</h4>
+                  <p className="text-sm text-black break-words">{p.description}</p>
                 </div>
               </div>
             ))}
@@ -154,9 +152,9 @@ const HealthAccordBanner = () => {
         </div>
 
         {/* RIGHT – MAP */}
-        <div className="relative cursor-pointer">
+        <div className="relative cursor-pointer min-w-0">
           <div
-            className="relative h-[480px] rounded-xl overflow-hidden bg-white/50"
+            className="relative h-[320px] sm:h-[480px] rounded-xl overflow-hidden bg-white/50"
             onMouseEnter={() => setIsMapHovered(true)}
             onMouseLeave={() => setIsMapHovered(false)}
           >
@@ -204,7 +202,7 @@ const HealthAccordBanner = () => {
 
             {/* SELECTED LOCATION CARD */}
             {selectedLocation && (
-              <div className="absolute top-4 right-4 w-64 bg-black/80 backdrop-blur-sm rounded-xl p-4 border border-white/20">
+              <div className="hidden sm:block absolute top-4 right-4 w-64 bg-black/80 backdrop-blur-sm rounded-xl p-4 border border-white/20">
                 <div className="flex items-center gap-2 mb-2">
                   <MapPin className="text-cyan-400" />
                   <h4 className="font-semibold">

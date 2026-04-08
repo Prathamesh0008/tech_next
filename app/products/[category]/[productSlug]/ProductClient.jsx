@@ -111,6 +111,8 @@ const product = products.find(
     .slice(0, 4);
 
   const faqs = product.faq || [];
+  const faqMidpoint = Math.ceil(faqs.length / 2);
+  const faqColumns = [faqs.slice(0, faqMidpoint), faqs.slice(faqMidpoint)];
 
   const canonicalUrl =
     product.seoCanonical ||
@@ -148,7 +150,7 @@ const product = products.find(
   };
 
   return (
-    <div className="min-h-screen pt-10 bg-gradient-to-b from-[#f5f9fb] via-[#f3f8fa] to-[#e8f3f8]">
+    <div className="min-h-screen pt-14 sm:pt-16 md:pt-20 bg-gradient-to-b from-[#f5f9fb] via-[#f3f8fa] to-[#e8f3f8]">
       
       {/* ===== SEO ===== */}
       <Head>
@@ -194,7 +196,7 @@ const product = products.find(
       )}
 
       {/* ===== HEADER ===== */}
-      <div className="bg-gradient-to-r from-[#0b1e39] mt-10 via-[#18487d] to-[#3386bc] text-white py-10 shadow-md mb-10">
+      <div className="bg-gradient-to-r from-[#0b1e39] via-[#18487d] to-[#3386bc] text-white py-10 shadow-md mb-10">
         {/* <div className="max-w-7xl mx-auto px-6">
           
         </div> */}
@@ -289,31 +291,46 @@ const product = products.find(
               Important Information & FAQs
             </h2>
 
-            <div className="flex flex-wrap gap-6">
-              {faqs.map((faq, i) => (
-                <div key={i} className="w-full md:w-[48%] bg-gray-50 p-5 rounded-lg">
-                  <button
-                    className="w-full flex justify-between font-semibold"
-                    onClick={() => setOpenFAQ(openFAQ === i ? null : i)}
-                  >
-                    {faq.question || faq.q}
-                    <motion.div animate={{ rotate: openFAQ === i ? 180 : 0 }}>
-                      <ChevronDown />
-                    </motion.div>
-                  </button>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {faqColumns.map((column, colIdx) => (
+                <div key={`faq-col-${colIdx}`} className="space-y-6">
+                  {column.map((faq, idx) => {
+                    const globalIdx = colIdx === 0 ? idx : idx + faqMidpoint;
+                    const faqId = `faq-${globalIdx}`;
+                    const isOpen = openFAQ === faqId;
 
-                  <AnimatePresence>
-                    {openFAQ === i && (
-                      <motion.div
-                        initial={{ opacity: 0, height: 0 }}
-                        animate={{ opacity: 1, height: "auto" }}
-                        exit={{ opacity: 0, height: 0 }}
-                        className="mt-3 text-gray-600"
-                      >
-                        {faq.answer || faq.a}
-                      </motion.div>
-                    )}
-                  </AnimatePresence>
+                    return (
+                      <div key={faqId} className="bg-gray-50 p-4 sm:p-5 rounded-lg">
+                        <button
+                          className="w-full flex items-start justify-between gap-3 text-left font-semibold"
+                          onClick={() => setOpenFAQ(isOpen ? null : faqId)}
+                        >
+                          <span className="flex-1 text-[18px] leading-snug sm:text-xl">
+                            {faq.question || faq.q}
+                          </span>
+                          <motion.div
+                            className="shrink-0 mt-0.5"
+                            animate={{ rotate: isOpen ? 180 : 0 }}
+                          >
+                            <ChevronDown />
+                          </motion.div>
+                        </button>
+
+                        <AnimatePresence>
+                          {isOpen && (
+                            <motion.div
+                              initial={{ opacity: 0, height: 0 }}
+                              animate={{ opacity: 1, height: "auto" }}
+                              exit={{ opacity: 0, height: 0 }}
+                              className="mt-3 text-gray-600"
+                            >
+                              {faq.answer || faq.a}
+                            </motion.div>
+                          )}
+                        </AnimatePresence>
+                      </div>
+                    );
+                  })}
                 </div>
               ))}
             </div>

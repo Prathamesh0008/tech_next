@@ -87,7 +87,7 @@ export default function Footer() {
         </div>
         {/* Countries */}
 {/* Countries - Badge Style */}
-<div>
+<div id="global-presence">
   <h3 className="font-semibold text-lg mb-3 text-[#b2e3e1]">
     Our Global Presence
   </h3>

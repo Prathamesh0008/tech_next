@@ -157,7 +157,7 @@ export default function HomeClient() {
 
   return (
     <div 
-  className="min-h-screen bg-gradient-to-b from-[#f5f9fb] via-[#f3f8fa] to-[#e8f3f8] mt-20"
+  className="min-h-screen bg-gradient-to-b from-[#f5f9fb] via-[#f3f8fa] to-[#e8f3f8] pt-14 sm:pt-16 md:pt-20"
   dir={currentLanguage === 'ar' ? 'rtl' : 'ltr'}
 >
       {/* ✅ Banner Section */}

@@ -8,8 +8,8 @@ import { HiMenu, HiX } from "react-icons/hi";
 import { useLanguage } from "../contexts/LanguageContext";
 import LanguageSwitcher from "./LanguageSwitcher";
 
-const logoDark = "/assets/dark.png";
-const logoLight = "/assets/light.png";
+const logoDark = "/assets/logolight.png";
+const logoLight = "/assets/logodark.png";
 
 export default function Navbar() {
   const { translations } = useLanguage();
@@ -63,28 +63,29 @@ export default function Navbar() {
           scrolled || menuOpen ? "bg-[#0b1e39]" : "bg-white"
         } ${scrolled ? "shadow-md" : ""}`}
       >
-        <div className="max-w-7xl mx-auto px-4 h-16 md:h-20 flex items-center justify-between">
+        <div className="max-w-7xl mx-auto px-3 sm:px-4 h-14 sm:h-16 md:h-20 flex items-center justify-between">
           {/* Logo */}
-          <button onClick={(e) => navigate(e, "/")} aria-label="Home">
+          <button onClick={(e) => navigate(e, "/")} aria-label="Home" className="flex items-center">
             <Image
               src={scrolled || menuOpen ? logoLight : logoDark}
               alt="NovaTech"
               width={140}
               height={60}
+              className="block h-11 sm:h-12 md:h-[56px] w-auto"
               priority
             />
           </button>
 
           {/* Desktop nav */}
         
-<div className="hidden md:flex items-center gap-8">
+<div className="hidden lg:flex items-center gap-8">
   {/* NAV LINKS WITH BORDER BOTTOM */}
-  <div className="relative flex gap-8">
+      <div className="relative flex gap-8">
     {links.map((l, i) => (
       <button
         key={l.path}
         onClick={(e) => navigate(e, l.path)}
-        className="relative pb-2"
+        className="relative pb-2 whitespace-nowrap"
       >
         <span
           className={`font-medium transition-colors ${
@@ -125,12 +126,12 @@ export default function Navbar() {
 </div>
 
           {/* Mobile menu button */}
-          <div className="md:hidden flex items-center gap-2">
+          <div className="lg:hidden flex items-center gap-1 sm:gap-2">
             <button
               type="button"
               aria-label={menuOpen ? "Close menu" : "Open menu"}
               onClick={() => setMenuOpen((v) => !v)}
-              className={`p-2 rounded ${
+              className={`p-2 rounded-md ${
                 menuOpen || scrolled ? "text-white" : "text-[#3386bc]"
               }`}
             >
@@ -144,7 +145,7 @@ export default function Navbar() {
       <AnimatePresence>
         {menuOpen && (
           <motion.div
-            className="fixed inset-0 bg-[#0b1e39] z-[60] md:hidden"
+            className="fixed inset-0 bg-[#0b1e39] z-[60] lg:hidden"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
