@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import dynamic from "next/dynamic";
 import {
@@ -19,6 +19,29 @@ const FlatWorldMap = dynamic(() => import("./FlatWorldMap"), {
 
 const HealthAccordBanner = () => {
   const [selectedLocation, setSelectedLocation] = useState(null);
+  const [showInteractiveMap, setShowInteractiveMap] = useState(false);
+
+  useEffect(() => {
+    let cancelled = false;
+
+    const enableMap = () => {
+      if (!cancelled) setShowInteractiveMap(true);
+    };
+
+    if (typeof window !== "undefined" && "requestIdleCallback" in window) {
+      const id = window.requestIdleCallback(enableMap, { timeout: 1200 });
+      return () => {
+        cancelled = true;
+        window.cancelIdleCallback(id);
+      };
+    }
+
+    const timeoutId = window.setTimeout(enableMap, 350);
+    return () => {
+      cancelled = true;
+      window.clearTimeout(timeoutId);
+    };
+  }, []);
 
   const accordPrinciples = [
     {
@@ -157,14 +180,25 @@ const HealthAccordBanner = () => {
         {/* RIGHT - MAP */}
         <div className="relative cursor-pointer min-w-0">
           <div className="relative h-[320px] sm:h-[480px] rounded-xl overflow-hidden bg-transparent">
-            <FlatWorldMap
-              locations={officeLocations}
-              selectedLocation={selectedLocation}
-              onSelectLocation={setSelectedLocation}
-            />
+            {showInteractiveMap ? (
+              <FlatWorldMap
+                locations={officeLocations}
+                selectedLocation={selectedLocation}
+                onSelectLocation={setSelectedLocation}
+              />
+            ) : (
+              <Image
+                src="/world-map-blue.png"
+                alt="World map preview"
+                fill
+                priority
+                sizes="(max-width: 1024px) 100vw, 50vw"
+                className="object-contain opacity-90"
+              />
+            )}
 
             {/* SELECTED LOCATION CARD */}
-            {selectedLocation && (
+            {showInteractiveMap && selectedLocation && (
               <div className="hidden sm:block absolute top-4 right-4 w-64 bg-black/80 backdrop-blur-sm rounded-xl p-4 border border-white/20">
                 <div className="flex items-center gap-2 mb-2">
                   <MapPin className="text-cyan-400" />

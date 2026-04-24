@@ -12,6 +12,7 @@ import ProductCard from "../../../../components/ProductCard";
 
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronDown, Download } from "lucide-react";
+import { getOptimizedImageUrl } from "../../../../lib/image-utils";
 
 const catalogue = "/assets/catalogue/Catalogue.pdf";
 
@@ -31,6 +32,12 @@ const getProductImages = (product) => {
     `/products/${category}/${product.imageKey}_3.jpg`,
   ];
 };
+
+const getMainImage = (src) =>
+  getOptimizedImageUrl(src, { width: 1200 });
+
+const getThumbImage = (src) =>
+  getOptimizedImageUrl(src, { width: 280 });
 
 /* ================= ZOOM IMAGE ================= */
 function ZoomImage({ src, alt }) {
@@ -71,6 +78,7 @@ export default function ProductDetails({
   initialRelated,
   category,
   productSlug,
+  initialLang = "en",
 }) {
   const { language } = useLanguage();
 
@@ -81,14 +89,20 @@ export default function ProductDetails({
 
   const productImages = useMemo(() => getProductImages(product), [product]);
   const [selectedImage, setSelectedImage] = useState(
-    productImages[0] || "/products/placeholder.jpg"
+    getMainImage(productImages[0]) || "/products/placeholder.jpg"
   );
 
   useEffect(() => {
-    setSelectedImage(productImages[0] || "/products/placeholder.jpg");
+    setSelectedImage(getMainImage(productImages[0]) || "/products/placeholder.jpg");
   }, [productImages]);
 
   useEffect(() => {
+    if (language === initialLang) {
+      setProduct(initialProduct || null);
+      setRelated(initialRelated || []);
+      return;
+    }
+
     let ignore = false;
 
     const loadLocalizedProduct = async () => {
@@ -114,7 +128,7 @@ export default function ProductDetails({
     return () => {
       ignore = true;
     };
-  }, [language, category, productSlug]);
+  }, [language, category, productSlug, initialLang, initialProduct, initialRelated]);
 
   if (!product) {
     return (
@@ -224,11 +238,11 @@ export default function ProductDetails({
               {productImages.map((img, idx) => (
                 <div
                   key={idx}
-                  onClick={() => setSelectedImage(img)}
+                  onClick={() => setSelectedImage(getMainImage(img))}
                   className="w-28 h-24 border rounded-lg overflow-hidden cursor-pointer"
                 >
                   <img
-                    src={img}
+                    src={getThumbImage(img)}
                     alt={`${product.name} ${idx + 1}`}
                     onError={(e) => {
                       e.currentTarget.style.display = "none";
@@ -365,8 +379,8 @@ export default function ProductDetails({
           </div>
 
           <div className="md:w-1/3 flex justify-center  mt-8 md:mt-0">
-            <img
-              src={productImages[0]}
+              <img
+              src={getMainImage(productImages[0])}
               alt={product.name}
               className="w-72 h-72 object-contain  rounded-xl shadow-md hover:scale-105 transition-transform duration-500"
             />

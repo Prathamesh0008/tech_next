@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import { cookies } from "next/headers";
 import {
   getProductBySlugLocalized,
   getRelatedProductsLocalized,
@@ -132,11 +133,13 @@ export async function generateMetadata({ params }) {
 
 export default async function ProductPage({ params }) {
   const { category, productSlug } = await params;
+  const cookieStore = await cookies();
+  const initialLang = cookieStore.get("lang")?.value || "en";
 
   const product = await getProductBySlugLocalized({
     category,
     slug: productSlug,
-    lang: "en",
+    lang: initialLang,
   });
 
   if (!product) return notFound();
@@ -144,7 +147,7 @@ export default async function ProductPage({ params }) {
   const related = await getRelatedProductsLocalized({
     category,
     slug: productSlug,
-    lang: "en",
+    lang: initialLang,
     limit: 4,
   });
 
@@ -154,6 +157,7 @@ export default async function ProductPage({ params }) {
       initialRelated={related}
       category={category}
       productSlug={productSlug}
+      initialLang={initialLang}
     />
   );
 }

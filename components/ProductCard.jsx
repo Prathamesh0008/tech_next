@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
 import { handleCtrlClick } from "../utils/openInNewTab";
+import { getOptimizedImageUrl } from "../lib/image-utils";
 
 export default function ProductCard({ product, priority = false }) {
   const router = useRouter();
@@ -26,13 +27,17 @@ export default function ProductCard({ product, priority = false }) {
     router.push(productURL);
   };
 
+  const prefetchProduct = () => {
+    router.prefetch(productURL);
+  };
+
   const hideLoader = () => {
     setLoading(false);
   };
 
   useEffect(() => {
     const nextSrc = product?.image || `/products/${product.category.toLowerCase()}/${imageKey}_1.jpg`;
-    setImageSrc(nextSrc);
+    setImageSrc(getOptimizedImageUrl(nextSrc, { width: 640 }));
     setLoading(true);
     setImageUnavailable(false);
   }, [product.category, imageKey, product.image]);
@@ -40,6 +45,8 @@ export default function ProductCard({ product, priority = false }) {
   return (
     <div
       onClick={handleClick}
+      onMouseEnter={prefetchProduct}
+      onFocus={prefetchProduct}
       className="flex cursor-pointer flex-col border border-gray-100 bg-white p-4 shadow-sm transition hover:scale-[1.02] hover:shadow-lg"
     >
       <div className="relative mb-3 h-44 w-full overflow-hidden rounded-md ">
