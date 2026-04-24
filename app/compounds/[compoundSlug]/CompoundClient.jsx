@@ -1,10 +1,9 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { ChevronDown, ShieldCheck, FlaskConical, FileText } from "lucide-react";
 import { getCompounds } from "../../../data/compounds";
-import { products } from "../../../data/products";
 import Breadcrumbs from "../../../components/Breadcrumbs";
 import CompoundCard from "../../../components/CompoundCard";
 
@@ -89,6 +88,7 @@ const isBulletLikeLine = (line = "") => {
 
 export default function CompoundClient({ compoundId }) {
   const compounds = useMemo(() => getCompounds(), []);
+  const [products, setProducts] = useState([]);
 
   const compound = useMemo(
     () => compounds.find((item) => item.id.toLowerCase() === compoundId.toLowerCase()),
@@ -97,6 +97,27 @@ export default function CompoundClient({ compoundId }) {
 
   const [activeFAQ, setActiveFAQ] = useState(null);
   const [activeImage, setActiveImage] = useState(0);
+
+  useEffect(() => {
+    let ignore = false;
+
+    const loadProducts = async () => {
+      try {
+        const res = await fetch("/api/products?lang=en", { cache: "force-cache" });
+        if (!res.ok) throw new Error("Failed to fetch products");
+        const data = await res.json();
+        if (!ignore) setProducts(Array.isArray(data.products) ? data.products : []);
+      } catch (_) {
+        if (!ignore) setProducts([]);
+      }
+    };
+
+    loadProducts();
+
+    return () => {
+      ignore = true;
+    };
+  }, []);
 
   if (!compound) {
     return (

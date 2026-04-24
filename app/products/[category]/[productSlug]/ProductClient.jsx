@@ -1,12 +1,10 @@
 "use client";
 
 // APP/PRODUCTS/[CATEGORY]/[PRODUCT]
-import React, { useState, useMemo } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
-import { useParams } from "next/navigation";
 import Head from "next/head";
 
-import { getProducts } from "../../../../data/products";
 import { useLanguage } from "../../../../contexts/LanguageContext";
 
 import Breadcrumbs from "../../../../components/Breadcrumbs";
@@ -19,6 +17,10 @@ const catalogue = "/assets/catalogue/Catalogue.pdf";
 
 /* ================= IMAGE HELPER ================= */
 const getProductImages = (product) => {
+  if (Array.isArray(product?.images) && product.images.length > 0) {
+    return product.images;
+  }
+
   if (!product?.category || !product?.imageKey) return [];
 
   const category = product.category.toLowerCase();
@@ -29,8 +31,6 @@ const getProductImages = (product) => {
     `/products/${category}/${product.imageKey}_3.jpg`,
   ];
 };
-
-
 
 /* ================= ZOOM IMAGE ================= */
 function ZoomImage({ src, alt }) {
@@ -66,32 +66,55 @@ function ZoomImage({ src, alt }) {
 }
 
 /* ================= PAGE ================= */
-export default function ProductDetails() {
-  // const { category, productSlug } = useParams();
+export default function ProductDetails({
+  initialProduct,
+  initialRelated,
+  category,
+  productSlug,
+}) {
   const { language } = useLanguage();
 
- const { category, productSlug } = useParams();
-
-// const { language } = useLanguage();
-
-const products = useMemo(() => getProducts(language), [language]);
-
-
-const product = products.find(
-  (p) =>
-    p.category?.toLowerCase() === category?.toLowerCase() &&
-    p.id === productSlug
-);
-
-
-  const productImages = useMemo(
-    () => getProductImages(product),
-    [product]
-  );
-
-  const [selectedImage, setSelectedImage] = useState(productImages[0]);
+  const [product, setProduct] = useState(initialProduct || null);
+  const [related, setRelated] = useState(initialRelated || []);
   const [activeTab, setActiveTab] = useState("indication");
   const [openFAQ, setOpenFAQ] = useState(null);
+
+  const productImages = useMemo(() => getProductImages(product), [product]);
+  const [selectedImage, setSelectedImage] = useState(
+    productImages[0] || "/products/placeholder.jpg"
+  );
+
+  useEffect(() => {
+    setSelectedImage(productImages[0] || "/products/placeholder.jpg");
+  }, [productImages]);
+
+  useEffect(() => {
+    let ignore = false;
+
+    const loadLocalizedProduct = async () => {
+      try {
+        const res = await fetch(
+          `/api/products?slug=${productSlug}&category=${category}&lang=${language}`,
+          { cache: "force-cache" }
+        );
+        if (!res.ok) return;
+
+        const data = await res.json();
+        if (!ignore) {
+          setProduct(data.product || null);
+          setRelated(Array.isArray(data.related) ? data.related : []);
+        }
+      } catch (_) {
+        // keep initial server data if request fails
+      }
+    };
+
+    loadLocalizedProduct();
+
+    return () => {
+      ignore = true;
+    };
+  }, [language, category, productSlug]);
 
   if (!product) {
     return (
@@ -101,14 +124,6 @@ const product = products.find(
       </div>
     );
   }
-
-  const related = products
-    .filter(
-      (p) =>
-        p.category?.toLowerCase() === product.category?.toLowerCase() &&
-        p.name !== product.name
-    )
-    .slice(0, 4);
 
   const faqs = product.faq || [];
   const faqMidpoint = Math.ceil(faqs.length / 2);
@@ -151,7 +166,6 @@ const product = products.find(
 
   return (
     <div className="min-h-screen pt-14 sm:pt-16 md:pt-20 bg-gradient-to-b from-[#f5f9fb] via-[#f3f8fa] to-[#e8f3f8]">
-      
       {/* ===== SEO ===== */}
       <Head>
         <title>{product.seoTitle || product.name}</title>
@@ -197,12 +211,8 @@ const product = products.find(
 
       {/* ===== HEADER ===== */}
       <div className="bg-gradient-to-r from-[#0b1e39] via-[#18487d] to-[#3386bc] text-white py-10 shadow-md mb-10">
-        {/* <div className="max-w-7xl mx-auto px-6">
-          
-        </div> */}
         <Breadcrumbs />
       </div>
-      
 
       {/* ===== CONTENT ===== */}
       <div className="max-w-7xl mx-auto px-4 md:px-6 space-y-12 pb-20">
@@ -211,30 +221,27 @@ const product = products.find(
           <div className="md:w-1/2">
             <ZoomImage src={selectedImage} alt={product.name} />
             <div className="flex gap-3 mt-4 justify-center flex-wrap">
-           {productImages.map((img, idx) => (
-  <div
-    key={idx}
-    onClick={() => setSelectedImage(img)}
-    className="w-28 h-24 border rounded-lg overflow-hidden cursor-pointer"
-  >
-    <img
-      src={img}
-      alt={`${product.name} ${idx + 1}`}
-      onError={(e) => {
-        e.currentTarget.style.display = "none";
-      }}
-      className="w-full h-full object-contain"
-    />
-  </div>
-))}
-
+              {productImages.map((img, idx) => (
+                <div
+                  key={idx}
+                  onClick={() => setSelectedImage(img)}
+                  className="w-28 h-24 border rounded-lg overflow-hidden cursor-pointer"
+                >
+                  <img
+                    src={img}
+                    alt={`${product.name} ${idx + 1}`}
+                    onError={(e) => {
+                      e.currentTarget.style.display = "none";
+                    }}
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+              ))}
             </div>
           </div>
 
           <div className="md:w-1/2 mt-8 md:mt-0">
-            <h1 className="text-3xl font-bold text-gray-800 mb-3">
-              {product.name}
-            </h1>
+            <h1 className="text-3xl font-bold text-gray-800 mb-3">{product.name}</h1>
             <p className="text-gray-600">{description}</p>
 
             <p className="mt-3">
@@ -259,10 +266,8 @@ const product = products.find(
             </div>
 
             <div className="mt-6 min-h-[120px]">
-              {activeTab === "indication" &&
-                renderMultiline(product.indication)}
-              {activeTab === "presentation" &&
-                renderMultiline(product.presentation)}
+              {activeTab === "indication" && renderMultiline(product.indication)}
+              {activeTab === "presentation" && renderMultiline(product.presentation)}
             </div>
 
             <div className="mt-6 flex gap-4 flex-wrap">
@@ -287,9 +292,7 @@ const product = products.find(
         {/* FAQ */}
         {faqs.length > 0 && (
           <div className="bg-white rounded-xl p-8 shadow-lg">
-            <h2 className="text-2xl font-bold mb-6">
-              Important Information & FAQs
-            </h2>
+            <h2 className="text-2xl font-bold mb-6">Important Information & FAQs</h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {faqColumns.map((column, colIdx) => (
@@ -336,40 +339,39 @@ const product = products.find(
             </div>
           </div>
         )}
-            {/* Precautions */}
+
+        {/* Precautions */}
         <div className="bg-white rounded-xl shadow-lg p-8 md:flex items-center gap-10">
-  <div className="md:w-2/3 space-y-4">
-    <h2 className="text-2xl font-bold text-gray-800">
-      Precautions & Contraindications
-    </h2>
+          <div className="md:w-2/3 space-y-4">
+            <h2 className="text-2xl font-bold text-gray-800">Precautions & Contraindications</h2>
 
-    {/* Precautions */}
-    {product.precautions && (
-      <>
-        <h3 className="text-lg font-semibold text-gray-800">Precautions</h3>
-        {renderBulletLines(product.precautions)}
-      </>
-    )}
+            {/* Precautions */}
+            {product.precautions && (
+              <>
+                <h3 className="text-lg font-semibold text-gray-800">Precautions</h3>
+                {renderBulletLines(product.precautions)}
+              </>
+            )}
 
-    {/* Contraindications */}
-    {product.contraindications && (
-      <>
-        <h3 className="text-lg font-semibold text-gray-800 mt-4">
-          Contraindications
-        </h3>
-        {renderBulletLines(product.contraindications)}
-      </>
-    )}
-  </div>
+            {/* Contraindications */}
+            {product.contraindications && (
+              <>
+                <h3 className="text-lg font-semibold text-gray-800 mt-4">
+                  Contraindications
+                </h3>
+                {renderBulletLines(product.contraindications)}
+              </>
+            )}
+          </div>
 
-  <div className="md:w-1/3 flex justify-center  mt-8 md:mt-0">
-    <img
-      src={productImages[0]}
-      alt={product.name}
-      className="w-72 h-72 object-contain  rounded-xl shadow-md hover:scale-105 transition-transform duration-500"
-    />
-  </div>
-</div>
+          <div className="md:w-1/3 flex justify-center  mt-8 md:mt-0">
+            <img
+              src={productImages[0]}
+              alt={product.name}
+              className="w-72 h-72 object-contain  rounded-xl shadow-md hover:scale-105 transition-transform duration-500"
+            />
+          </div>
+        </div>
 
         {/* RELATED */}
         {related.length > 0 && (
@@ -377,12 +379,8 @@ const product = products.find(
             <h2 className="text-2xl font-bold mb-6">Related Products</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
               {related.map((p) => (
-                <Link
-                  key={p.id}
-                 href={`/products/${category}/${p.id}`}
-
-                >
-                  <ProductCard product={p} />
+                <Link key={p.slug || p.id} href={`/products/${category}/${p.slug || p.id}`}>
+                  <ProductCard product={{ ...p, id: p.slug || p.id }} />
                 </Link>
               ))}
             </div>

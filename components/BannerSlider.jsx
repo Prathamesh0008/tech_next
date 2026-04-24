@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
+import dynamic from "next/dynamic";
 import {
-  ChevronRight,
   Globe,
   Heart,
   Shield,
@@ -9,8 +9,13 @@ import {
   MapPin,
   Navigation,
 } from "lucide-react";
-import WaveBackground from "./WaveBackground";
-import FlatWorldMap from "./FlatWorldMap";
+
+const FlatWorldMap = dynamic(() => import("./FlatWorldMap"), {
+  ssr: false,
+  loading: () => (
+    <div className="h-full w-full animate-pulse bg-white/10" aria-hidden="true" />
+  ),
+});
 
 const HealthAccordBanner = () => {
   const [selectedLocation, setSelectedLocation] = useState(null);

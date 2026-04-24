@@ -6,7 +6,6 @@ import "flag-icons/css/flag-icons.min.css";
 import ScrollToTop from "../components/ScrollToTop";
 import Script from "next/script";
 import { cookies } from "next/headers";
-import InitialLoaderGate from "../components/InitialLoaderGate";
 
 
 
@@ -149,14 +148,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           }}
         />
 
-        <InitialLoaderGate>
-          <LanguageProvider initialLanguage={initialLanguage}>
-            <Navbar />
-            <main className="flex-1">{children}</main>
-            <ScrollToTop />
-            <Footer />
-          </LanguageProvider>
-        </InitialLoaderGate>
+        <LanguageProvider initialLanguage={initialLanguage}>
+          <Navbar />
+          <main className="flex-1">{children}</main>
+          <ScrollToTop />
+          <Footer />
+        </LanguageProvider>
 
       </body>
     </html>

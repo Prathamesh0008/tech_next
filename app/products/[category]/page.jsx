@@ -1,9 +1,8 @@
 "use client";
 
-import React, { useState, useMemo } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import { useParams, useRouter } from "next/navigation";
 import { useLanguage } from "../../../contexts/LanguageContext";
-import { products } from "../../../data/products";
 import ProductCard from "../../../components/ProductCard";
 import Breadcrumbs from "../../../components/Breadcrumbs";
 import { motion, AnimatePresence } from "framer-motion";
@@ -12,23 +11,14 @@ import { Filter, X } from "lucide-react";
 /* ---------------- HELPERS ---------------- */
 
 const getProductImage = (product) => {
-  if (!product?.name || !product?.category) {
+  if (product?.image) return product.image;
+
+  if (!product?.imageKey || !product?.category) {
     return "/products/placeholder.jpg";
   }
 
-  const fileName = product.name
-    .toUpperCase()
-    .replace(/\s+/g, "_")
-    .replace(/[^A-Z0-9_]/g, "");
-
-  return `/products/${product.category.toLowerCase()}/${fileName}_1.jpg`;
+  return `/products/${product.category.toLowerCase()}/${product.imageKey}_1.jpg`;
 };
-
-const slugify = (name) =>
-  name
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-+|-+$/g, "");
 
 /* ---------------- PAGE ---------------- */
 
@@ -37,6 +27,9 @@ export default function ProductsPage() {
   const router = useRouter();
   const params = useParams();
   const { category } = params || {};
+
+  const [products, setProducts] = useState([]);
+  const [loadingProducts, setLoadingProducts] = useState(true);
 
   // Safety check
   if (!translations?.productsPage) return null;
@@ -54,21 +47,53 @@ export default function ProductsPage() {
   const [selectedMg, setSelectedMg] = useState("");
   const [mobileFilterOpen, setMobileFilterOpen] = useState(false);
 
+  useEffect(() => {
+    let ignore = false;
+
+    const loadProducts = async () => {
+      try {
+        setLoadingProducts(true);
+        const res = await fetch(`/api/products?lang=${currentLanguage}`, {
+          cache: "force-cache",
+        });
+        if (!res.ok) throw new Error("Failed to load products");
+        const data = await res.json();
+        if (!ignore) {
+          setProducts(Array.isArray(data.products) ? data.products : []);
+        }
+      } catch (_) {
+        if (!ignore) setProducts([]);
+      } finally {
+        if (!ignore) setLoadingProducts(false);
+      }
+    };
+
+    loadProducts();
+    return () => {
+      ignore = true;
+    };
+  }, [currentLanguage]);
+
   /* ---------------- FILTER OPTIONS ---------------- */
 
   const productOptions = useMemo(() => {
     if (!selectedCategory) return [];
-    return Array.from(
-      new Set(
-        products
-          .filter(
-            (p) =>
-              p.category?.toLowerCase() === selectedCategory.toLowerCase()
-          )
-          .map((p) => p.id)
-      )
-    ).sort();
-  }, [selectedCategory]);
+
+    const list = products.filter(
+      (p) => p.category?.toLowerCase() === selectedCategory.toLowerCase()
+    );
+
+    const uniq = new Map();
+    list.forEach((p) => {
+      if (!uniq.has(p.slug)) {
+        uniq.set(p.slug, { value: p.slug, label: p.name || p.slug });
+      }
+    });
+
+    return Array.from(uniq.values()).sort((a, b) =>
+      a.label.localeCompare(b.label)
+    );
+  }, [products, selectedCategory]);
 
   const mgOptions = useMemo(() => {
     const strengths = new Set();
@@ -76,15 +101,12 @@ export default function ProductsPage() {
 
     if (selectedCategory) {
       filtered = filtered.filter(
-        (p) =>
-          p.category?.toLowerCase() === selectedCategory.toLowerCase()
+        (p) => p.category?.toLowerCase() === selectedCategory.toLowerCase()
       );
     }
 
     if (selectedProduct) {
-      filtered = filtered.filter(
-        (p) => p.id.toLowerCase() === selectedProduct.toLowerCase()
-      );
+      filtered = filtered.filter((p) => p.slug === selectedProduct);
     }
 
     filtered.forEach((p) => {
@@ -92,23 +114,18 @@ export default function ProductsPage() {
       if (match) match.forEach((m) => strengths.add(m.toLowerCase()));
     });
 
-    return Array.from(strengths).sort(
-      (a, b) => parseFloat(a) - parseFloat(b)
-    );
-  }, [selectedCategory, selectedProduct]);
+    return Array.from(strengths).sort((a, b) => parseFloat(a) - parseFloat(b));
+  }, [products, selectedCategory, selectedProduct]);
 
   const filteredProducts = products.filter((p) => {
     const matchCategory =
       !selectedCategory ||
       p.category?.toLowerCase() === selectedCategory.toLowerCase();
 
-    const matchProduct =
-      !selectedProduct ||
-      p.id.toLowerCase() === selectedProduct.toLowerCase();
+    const matchProduct = !selectedProduct || p.slug === selectedProduct;
 
     const matchMg =
-      !selectedMg ||
-      p.description?.toLowerCase().includes(selectedMg.toLowerCase());
+      !selectedMg || p.description?.toLowerCase().includes(selectedMg.toLowerCase());
 
     return matchCategory && matchProduct && matchMg;
   });
@@ -160,8 +177,8 @@ export default function ProductsPage() {
         >
           <option value="">{t.filters?.all || "All"}</option>
           {productOptions.map((prod) => (
-            <option key={prod} value={prod}>
-              {prod}
+            <option key={prod.value} value={prod.value}>
+              {prod.label}
             </option>
           ))}
         </select>
@@ -192,9 +209,9 @@ export default function ProductsPage() {
   /* ---------------- RENDER ---------------- */
 
   return (
-    <div 
+    <div
       className="min-h-screen bg-gradient-to-b from-[#f5f9fb] to-[#e8f3f8] pt-14 sm:pt-16 md:pt-20"
-      dir={currentLanguage === 'ar' ? 'rtl' : 'ltr'}
+      dir={currentLanguage === "ar" ? "rtl" : "ltr"}
     >
       <Breadcrumbs />
 
@@ -232,7 +249,9 @@ export default function ProductsPage() {
 
         {/* PRODUCTS */}
         <main className="flex-1">
-          {filteredProducts.length === 0 ? (
+          {loadingProducts ? (
+            <div className="text-center text-gray-500 py-16">Loading products...</div>
+          ) : filteredProducts.length === 0 ? (
             <div className="text-center text-gray-500 py-16">
               {t.noProducts || "No products found."}
             </div>
@@ -240,7 +259,7 @@ export default function ProductsPage() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
               {filteredProducts.map((p, idx) => (
                 <motion.div
-                  key={`${p.id}-${p.id}`}
+                  key={p.slug}
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.25 }}
@@ -249,7 +268,7 @@ export default function ProductsPage() {
                     priority={idx < 8}
                     product={{
                       ...p,
-                      slug: slugify(p.id),
+                      id: p.slug,
                       image: getProductImage(p),
                     }}
                   />

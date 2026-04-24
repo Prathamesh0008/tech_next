@@ -1,37 +1,15 @@
 "use client";
 
 import { generateFaqSchema } from "../../../lib/schema/faqSchema";
-import { products } from "../../../data/products";
 import Link from "next/link";
 import Image from "next/image";
 import Breadcrumbs from "../../../components/Breadcrumbs";
-import {
-  Calendar,
-  ChevronDown,
-  ChevronUp,
-  ChevronLeft,
-  ChevronRight,
-} from "lucide-react";
+import { Calendar, ChevronDown, ChevronUp } from "lucide-react";
 import { useLanguage } from "../../../contexts/LanguageContext";
 import { getBlogs } from "../../../lib/getBlogs";
 import { notFound } from "next/navigation";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import FeaturedByCategory from "../../../components/FeaturedByCategory";
-
-/* ---------- HELPERS ---------- */
-
-const getProductImage = (product) => {
-  if (!product?.name || !product?.category) {
-    return "/products/placeholder.jpg";
-  }
-
-  const fileName = product.name
-    .toUpperCase()
-    .replace(/\s+/g, "_")
-    .replace(/[^A-Z0-9_]/g, "");
-
-  return `/products/${product.category.toLowerCase()}/${fileName}_1.jpg`;
-};
 
 /* ---------- COMPONENT ---------- */
 
@@ -44,29 +22,6 @@ export default function BlogDetailsClient({ id }) {
 
   const related = blogs.filter((b) => b.id !== blog.id).slice(0, 3);
   const [openFaqIndex, setOpenFaqIndex] = useState(null);
-
-  /* ---------- PRODUCT SLIDER LOGIC ---------- */
-
-  const PRODUCTS_PER_VIEW = 4;
-  const AUTO_SLIDE_TIME = 3000;
-
-  const [currentPage, setCurrentPage] = useState(0);
-  const totalPages = Math.ceil(products.length / PRODUCTS_PER_VIEW);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentPage((prev) =>
-        prev + 1 >= totalPages ? 0 : prev + 1
-      );
-    }, AUTO_SLIDE_TIME);
-
-    return () => clearInterval(interval);
-  }, [totalPages]);
-
-  const visibleProducts = products.slice(
-    currentPage * PRODUCTS_PER_VIEW,
-    currentPage * PRODUCTS_PER_VIEW + PRODUCTS_PER_VIEW
-  );
 
   const toggleFaq = (index) => {
     setOpenFaqIndex(openFaqIndex === index ? null : index);

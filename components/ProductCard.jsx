@@ -9,8 +9,9 @@ export default function ProductCard({ product, priority = false }) {
   const router = useRouter();
   const [loading, setLoading] = useState(true);
   const [imageUnavailable, setImageUnavailable] = useState(false);
+  const fallbackLocal = `/products/${product.category.toLowerCase()}/${(product?.imageKey || product?._baseName || "")}_1.jpg`;
   const [imageSrc, setImageSrc] = useState(
-    `/products/${product.category.toLowerCase()}/${(product?.imageKey || product?._baseName || "")}_1.jpg`
+    product?.image || fallbackLocal
   );
 
   const displayName = product?.name || "";
@@ -30,11 +31,11 @@ export default function ProductCard({ product, priority = false }) {
   };
 
   useEffect(() => {
-    const nextSrc = `/products/${product.category.toLowerCase()}/${imageKey}_1.jpg`;
+    const nextSrc = product?.image || `/products/${product.category.toLowerCase()}/${imageKey}_1.jpg`;
     setImageSrc(nextSrc);
     setLoading(true);
     setImageUnavailable(false);
-  }, [product.category, imageKey]);
+  }, [product.category, imageKey, product.image]);
 
   return (
     <div

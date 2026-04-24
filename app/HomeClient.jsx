@@ -2,14 +2,24 @@
 
 import { useEffect, useState, useRef } from "react";
 import Link from "next/link";
+import dynamic from "next/dynamic";
 import { useRouter } from "next/navigation";
 import "aos/dist/aos.css";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useLanguage } from "../contexts/LanguageContext";
-import DiseaseFeaturedSection from "../components/DiseaseFeaturedSection";
-
 import BannerSlider from "../components/BannerSlider";
+
+const DiseaseFeaturedSection = dynamic(
+  () => import("../components/DiseaseFeaturedSection"),
+  {
+    loading: () => (
+      <section className="my-20 min-h-[220px]" aria-hidden="true">
+        <div className="h-full w-full rounded-2xl bg-white/40 animate-pulse" />
+      </section>
+    ),
+  }
+);
 
 // ✅ Animated Count Component
 function CountUp({ target, suffix }) {
@@ -122,14 +132,6 @@ export default function HomeClient() {
     }
     router.push(path);
   }
-
-  const categories = [
-    { name: "Asthma", image: "/images/asthma.jpg", link: "/products" },
-    { name: "Thyrocare", image: "/images/thyrocare.jpg", link: "/products" },
-    { name: "Weight Loss", image: "/images/weightloss.jpg", link: "/products" },
-    { name: "High Sugar", image: "/images/highsugar.jpg", link: "/products" },
-    { name: "BP", image: "/images/bp.jpg", link: "/products" },
-  ];
 
   const banners = [
     {
