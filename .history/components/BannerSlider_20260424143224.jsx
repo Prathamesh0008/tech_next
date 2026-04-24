@@ -175,7 +175,7 @@ const HealthAccordBanner = () => {
           </div>
 
           {/* STATS */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 -mt-8">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 -mt-0">
             {globalImpactStats.map((s, i) => (
               <div key={i} className="bg-white/50 p-3 rounded-lg text-center">
                 <div className="text-2xl font-bold text-black">{s.value}</div>
