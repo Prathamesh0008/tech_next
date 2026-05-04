@@ -73,6 +73,8 @@ export default function DiseaseFeaturedSection() {
     router.push(path);
   };
 
+  const selectedCategoryPath = `/products/${selected.toLowerCase()}`;
+
   return (
     <section
       className="my-20"
@@ -142,9 +144,7 @@ export default function DiseaseFeaturedSection() {
       {/* ===== View All Button ===== */}
       <div className="mt-10 flex justify-center">
         <button
-          onClick={(e) =>
-            handleCtrlClick(e, `/products?category=${encodeURIComponent(selected)}`)
-          }
+          onClick={(e) => handleCtrlClick(e, selectedCategoryPath)}
           className="px-8 py-3 bg-[#314977] text-white rounded-lg font-medium shadow-md hover:bg-[#0d1b4b] hover:scale-105 hover:shadow-xl transition-all duration-300"
         >
           {t.viewAllProducts?.replace("{category}", selected) ||
