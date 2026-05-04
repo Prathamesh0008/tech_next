@@ -126,51 +126,51 @@ const HealthAccordBanner = () => {
   ];
 
   return (
-    <section className="text-white relative overflow-x-clip overflow-y-hidden">
-      <div className="absolute inset-0 -z-9">
+    <section className="text-white relative overflow-x-clip overflow-y-hidden bg-[#18487d] sm:bg-transparent">
+      <div className="absolute inset-0 -z-9 hidden sm:block">
         <Image
           src="/bannernova.svg"
           alt=""
           fill
           priority
           sizes="100vw"
-          className="object-cover object-center"
+          className="object-cover object-center scale-[1.35] sm:scale-100"
         />
       </div>
 
       {/* <WaveBackground></WaveBackground> */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-10 sm:py-20 grid lg:grid-cols-2 gap-8 sm:gap-14 items-center">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8 sm:py-12 lg:py-20 grid lg:grid-cols-2 gap-6 sm:gap-10 lg:gap-14 items-start lg:items-center">
         {/* LEFT */}
-        <div className="space-y-6 sm:space-y-8 z-10 min-w-0">
-          <div className="inline-flex items-center gap-2 bg-blue-800/30 px-4 py-2 rounded-full border border-blue-500/30">
+        <div className="space-y-5 sm:space-y-8 z-10 min-w-0">
+          <div className="inline-flex items-center gap-2 bg-blue-800/30 px-3 py-1.5 sm:px-4 sm:py-2 rounded-full border border-blue-500/30">
             <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
-            <span className="text-sm text-blue-200">
+            <span className="text-xs sm:text-sm text-blue-200">
               The Global Health Initiative
             </span>
           </div>
 
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight break-words">
+          <h1 className="text-2xl min-[400px]:text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight break-words">
             <span className="bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
               An Accord for
             </span>
             <br />a Healthier World
           </h1>
 
-          <p className="text-base sm:text-xl text-gray-300 leading-relaxed max-w-xl">
+          <p className="text-sm min-[400px]:text-base sm:text-xl text-gray-300 leading-relaxed max-w-xl">
             Where people live shouldn't impact healthcare quality, and income
             shouldn't define health outcomes.
           </p>
 
-          <div className="grid grid-cols-1 min-[420px]:grid-cols-2 gap-4 pt-4 sm:pt-8 min-w-0">
+          <div className="grid grid-cols-1 min-[420px]:grid-cols-2 gap-3 sm:gap-4 pt-2 sm:pt-8 min-w-0">
             {accordPrinciples.map((p, i) => (
               <div
                 key={i}
-                className="flex gap-3 bg-white/50 p-4 rounded-xl border border-white/10 min-w-0"
+                className="flex gap-3 bg-white/50 p-3 sm:p-4 rounded-xl border border-white/10 min-w-0"
               >
                 <div className="text-black shrink-0">{p.icon}</div>
                 <div className="min-w-0">
-                  <h4 className="font-semibold text-black break-words">{p.title}</h4>
-                  <p className="text-sm text-black break-words">{p.description}</p>
+                  <h4 className="font-semibold text-sm sm:text-base text-black break-words">{p.title}</h4>
+                  <p className="text-xs sm:text-sm text-black break-words">{p.description}</p>
                 </div>
               </div>
             ))}
@@ -179,7 +179,7 @@ const HealthAccordBanner = () => {
 
         {/* RIGHT - MAP */}
         <div className="relative cursor-pointer min-w-0">
-          <div className="relative h-[320px] sm:h-[480px] rounded-xl overflow-hidden bg-transparent">
+          <div className="relative h-[220px] min-[420px]:h-[260px] sm:h-[360px] lg:h-[480px] rounded-xl overflow-hidden bg-transparent">
             {showInteractiveMap ? (
               <FlatWorldMap
                 locations={officeLocations}
@@ -214,13 +214,25 @@ const HealthAccordBanner = () => {
           </div>
 
           {/* STATS */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 -mt-8">
+          <div className="relative mt-4 sm:-mt-8 rounded-xl p-2 sm:p-0 overflow-hidden">
+            <div className="absolute inset-0 sm:hidden bg-[#1e4f89]" />
+            <div className="absolute inset-0 sm:hidden z-0 opacity-80">
+              <Image
+                src="/bannernova.svg"
+                alt=""
+                fill
+                sizes="100vw"
+                className="object-cover object-center"
+              />
+            </div>
+            <div className="relative z-10 grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4">
             {globalImpactStats.map((s, i) => (
-              <div key={i} className="bg-white/50 p-3 rounded-lg text-center">
-                <div className="text-2xl font-bold text-black">{s.value}</div>
-                <div className="text-sm text-black">{s.label}</div>
+              <div key={i} className="relative z-10 bg-white/50 p-2.5 sm:p-3 rounded-lg text-center">
+                <div className="text-xl sm:text-2xl font-bold text-black">{s.value}</div>
+                <div className="text-xs sm:text-sm text-black">{s.label}</div>
               </div>
             ))}
+            </div>
           </div>
         </div>
       </div>
