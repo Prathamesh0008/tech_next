@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import dynamic from "next/dynamic";
 import Image from "next/image";
+import FlatWorldMap from "./FlatWorldMap";
 import {
   Globe,
   Heart,
@@ -9,11 +9,6 @@ import {
   MapPin,
   Navigation,
 } from "lucide-react";
-
-const FlatWorldMap = dynamic(() => import("./FlatWorldMap"), {
-  ssr: false,
-  loading: () => <div className="h-full w-full bg-transparent" aria-hidden="true" />,
-});
 
 const ACCORD_PRINCIPLES = [
   {

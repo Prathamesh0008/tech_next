@@ -4,6 +4,7 @@ import "./globals.css";
 import { LanguageProvider } from "../contexts/LanguageContext";
 import "flag-icons/css/flag-icons.min.css";
 import ScrollToTop from "../components/ScrollToTop";
+import InitialLoaderGate from "../components/InitialLoaderGate";
 import Script from "next/script";
 import { cookies } from "next/headers";
 
@@ -149,10 +150,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         />
 
         <LanguageProvider initialLanguage={initialLanguage}>
-          <Navbar />
-          <main className="flex-1">{children}</main>
-          <ScrollToTop />
-          <Footer />
+          <InitialLoaderGate>
+            <Navbar />
+            <main className="flex-1">{children}</main>
+            <ScrollToTop />
+            <Footer />
+          </InitialLoaderGate>
         </LanguageProvider>
 
       </body>
