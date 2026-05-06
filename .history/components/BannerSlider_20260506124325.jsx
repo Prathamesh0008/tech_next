@@ -126,21 +126,20 @@ const HealthAccordBanner = () => {
   ];
 
   return (
-    <section className="text-white relative overflow-hidden bg-[#18487d]">
-      <div className="absolute inset-0 z-0">
+    <section className="text-white relative overflow-hidden bg-[#18487d] sm:bg-transparent">
+      <div className="absolute inset-0 -z-9 hidden sm:block">
         <Image
           src="/bannernova.svg"
           alt=""
           fill
           priority
           sizes="100vw"
-          className="object-cover object-center"
+          className="object-cover object-center scale-[1.35] sm:scale-100"
         />
       </div>
-      <div className="absolute inset-0 z-0 bg-[#0f2d55]/35 sm:bg-[#0f2d55]/20" />
 
       {/* <WaveBackground></WaveBackground> */}
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 py-8 sm:py-12 lg:py-20 grid lg:grid-cols-2 gap-8 sm:gap-10 lg:gap-14 items-start lg:items-center">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8 sm:py-12 lg:py-20 grid lg:grid-cols-2 gap-8 sm:gap-10 lg:gap-14 items-start lg:items-center">
         {/* LEFT */}
         <div className="space-y-5 sm:space-y-8 z-10 min-w-0">
           <div className="inline-flex items-center gap-2 bg-blue-800/30 px-3 py-1.5 sm:px-4 sm:py-2 rounded-full border border-blue-500/30">
@@ -215,10 +214,21 @@ const HealthAccordBanner = () => {
           </div>
 
           {/* STATS */}
-          <div className="relative mt-4 sm:-mt-8 rounded-2xl p-2 sm:p-0 overflow-hidden isolate">
-            
-            
-           
+          
+        </div>
+      </div>
+      <div className="relative mt-4 sm:-mt-8 rounded-2xl p-2 sm:p-0 overflow-hidden isolate">
+            <div className="absolute inset-0 sm:hidden bg-[#1e4f89]" />
+            <div className="absolute inset-0 sm:hidden z-0 opacity-85">
+              <Image
+                src="/bannernova.svg"
+                alt=""
+                fill
+                sizes="100vw"
+                className="object-cover object-center"
+              />
+            </div>
+            <div className="absolute inset-0 sm:hidden z-0 bg-gradient-to-b from-[#1e4f89]/20 via-transparent to-[#1e4f89]/30" />
             <div className="relative z-10 grid grid-cols-2 md:grid-cols-4 gap-2.5 sm:gap-4">
             {globalImpactStats.map((s, i) => (
               <div key={i} className="relative z-10 bg-white/60 p-2.5 sm:p-3 rounded-lg text-center min-w-0">
@@ -228,8 +238,6 @@ const HealthAccordBanner = () => {
             ))}
             </div>
           </div>
-        </div>
-      </div>
     </section>
   );
 };

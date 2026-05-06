@@ -42,7 +42,10 @@ export default function Navbar() {
   }, [menuOpen]);
 
   useEffect(() => {
-    const index = links.findIndex((l) => l.path === pathname);
+    const index = links.findIndex((l) => {
+      if (l.path === "/") return pathname === "/";
+      return pathname === l.path || pathname.startsWith(`${l.path}/`);
+    });
     setActiveIndex(index >= 0 ? index : 0);
   }, [pathname]);
 

@@ -218,7 +218,7 @@ const HealthAccordBanner = () => {
           <div className="relative mt-4 sm:-mt-8 rounded-2xl p-2 sm:p-0 overflow-hidden isolate">
             
             
-           
+            <div className="absolute inset-0 sm:hidden z-0 bg-gradient-to-b from-[#1e4f89]/20 via-transparent to-[#1e4f89]/30" />
             <div className="relative z-10 grid grid-cols-2 md:grid-cols-4 gap-2.5 sm:gap-4">
             {globalImpactStats.map((s, i) => (
               <div key={i} className="relative z-10 bg-white/60 p-2.5 sm:p-3 rounded-lg text-center min-w-0">
