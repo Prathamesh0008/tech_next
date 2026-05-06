@@ -3,8 +3,10 @@
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
+import Lottie from "lottie-react";
 import { handleCtrlClick } from "../utils/openInNewTab";
 import { getOptimizedImageUrl } from "../lib/image-utils";
+import productOpeningAnimation from "../public/assets/json-animation/product-opening.json";
 
 export default function ProductCard({ product, priority = false }) {
   const router = useRouter();
@@ -27,7 +29,9 @@ export default function ProductCard({ product, priority = false }) {
     if (handleCtrlClick(e, productURL)) return;
     if (navigating) return;
     setNavigating(true);
-    router.push(productURL);
+    setTimeout(() => {
+      router.push(productURL);
+    }, 1000);
   };
 
   const prefetchProduct = () => {
@@ -49,11 +53,8 @@ export default function ProductCard({ product, priority = false }) {
     <>
       {navigating && (
         <div className="fixed inset-0 z-[999] flex items-center justify-center bg-[#0b1e39]/45 backdrop-blur-[1px]">
-          <div className="rounded-xl bg-white/95 px-6 py-5 shadow-xl">
-            <div className="flex items-center gap-3">
-              <div className="h-7 w-7 animate-spin rounded-full border-4 border-[#18487d] border-t-[#4bb2e5]" />
-              <p className="text-sm font-medium text-[#18487d]">Opening product...</p>
-            </div>
+          <div className="h-40 w-40">
+            <Lottie animationData={productOpeningAnimation} loop={true} />
           </div>
         </div>
       )}

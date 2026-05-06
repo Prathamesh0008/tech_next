@@ -124,3 +124,17 @@ body {
 .animate-waveSlow {
   animation: waveSlow 30s linear infinite;
 }
+
+.hero-banner-bg {
+  background-image: url("/bannernova-force-v3.svg?v=1");
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 639px) {
+  .hero-banner-bg {
+    background-image: url("/bannernova-force-v3.svg?v=1");
+    background-position: bottom center;
+  }
+}

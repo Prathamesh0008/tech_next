@@ -4,9 +4,7 @@ import {
   Globe,
   Heart,
   Shield,
-  Users,
-  MapPin,
-  Navigation,
+  Users
 } from "lucide-react";
 
 const FlatWorldMap = dynamic(() => import("./FlatWorldMap"), {
@@ -17,8 +15,6 @@ const FlatWorldMap = dynamic(() => import("./FlatWorldMap"), {
 });
 
 const HealthAccordBanner = () => {
-  const [selectedLocation, setSelectedLocation] = useState(null);
-
   const accordPrinciples = [
     {
       icon: <Globe className="w-6 h-6" />,
@@ -128,21 +124,6 @@ const HealthAccordBanner = () => {
             Where people live shouldn't impact healthcare quality, and income
             shouldn't define health outcomes.
           </p>
-
-          <div className="grid grid-cols-1 min-[420px]:grid-cols-2 gap-3 sm:gap-4 pt-2 sm:pt-8 min-w-0">
-            {accordPrinciples.map((p, i) => (
-              <div
-                key={i}
-                className="flex gap-3 bg-white/60 p-3 sm:p-4 rounded-xl border border-white/10 min-w-0"
-              >
-                <div className="text-black shrink-0">{p.icon}</div>
-                <div className="min-w-0">
-                  <h4 className="font-semibold text-sm sm:text-base text-black break-words">{p.title}</h4>
-                  <p className="text-xs sm:text-sm text-black break-words">{p.description}</p>
-                </div>
-              </div>
-            ))}
-          </div>
         </div>
 
         {/* RIGHT - MAP */}
@@ -150,39 +131,9 @@ const HealthAccordBanner = () => {
           <div className="relative h-[220px] min-[420px]:h-[260px] sm:h-[360px] lg:h-[480px] rounded-xl overflow-hidden bg-transparent">
             <FlatWorldMap
               locations={officeLocations}
-              selectedLocation={selectedLocation}
-              onSelectLocation={setSelectedLocation}
+              selectedLocation={null}
+              onSelectLocation={() => {}}
             />
-
-            {/* SELECTED LOCATION CARD */}
-            {selectedLocation && (
-              <div className="hidden sm:block absolute top-4 right-4 w-64 bg-black/80 backdrop-blur-sm rounded-xl p-4 border border-white/20">
-                <div className="flex items-center gap-2 mb-2">
-                  <MapPin className="text-cyan-400" />
-                  <h4 className="font-semibold">{selectedLocation.name}</h4>
-                </div>
-                <p className="text-sm text-gray-300 mb-3">{selectedLocation.type}</p>
-                <div className="flex items-center gap-2 text-sm text-gray-400">
-                  <Navigation className="w-4 h-4" />
-                  Global Network Hub
-                </div>
-              </div>
-            )}
-          </div>
-
-          {/* STATS */}
-          <div className="relative mt-4 sm:-mt-8 rounded-2xl p-2 sm:p-0 overflow-hidden isolate">
-            
-            
-           
-            <div className="relative z-10 grid grid-cols-2 md:grid-cols-4 gap-2.5 sm:gap-4">
-            {globalImpactStats.map((s, i) => (
-              <div key={i} className="relative z-10 bg-white/60 p-2.5 sm:p-3 rounded-lg text-center min-w-0">
-                <div className="text-lg min-[420px]:text-xl sm:text-2xl font-bold text-black">{s.value}</div>
-                <div className="text-[11px] min-[420px]:text-xs sm:text-sm text-black break-words">{s.label}</div>
-              </div>
-            ))}
-            </div>
           </div>
         </div>
       </div>

@@ -3,8 +3,9 @@
 import { useEffect, useState } from "react";
 
 const CRITICAL_IMAGES = [
-  "/bannernova.svg",
-  "/world-map-blue.png",
+  "/bannernova-force-v3.svg?v=1",
+  "/assets/logolight.png",
+  "/assets/logodark.png",
   "/assets/banners/1.jpg",
   "/assets/banners/2.jpg",
   "/assets/banners/3.jpg",
@@ -19,6 +20,16 @@ const preloadImage = (src) =>
     img.onload = () => resolve(true);
     img.onerror = () => resolve(false);
     img.src = src;
+  });
+
+const waitForFonts = () =>
+  new Promise((resolve) => {
+    if (typeof document === "undefined" || !document.fonts?.ready) {
+      resolve(true);
+      return;
+    }
+
+    document.fonts.ready.then(() => resolve(true)).catch(() => resolve(true));
   });
 
 export default function InitialLoaderGate({ children }) {
@@ -41,15 +52,24 @@ export default function InitialLoaderGate({ children }) {
       window.addEventListener("load", done, { once: true });
     });
 
-    const preloadCritical = Promise.all(CRITICAL_IMAGES.map(preloadImage));
-    const fallbackTimeout = new Promise((resolve) => setTimeout(resolve, 3500));
+    const preloadCritical = Promise.allSettled(CRITICAL_IMAGES.map(preloadImage));
+    const preloadBanner = preloadImage("/bannernova-force-v3.svg?v=1");
+    const waitMinLoader = new Promise((resolve) => setTimeout(resolve, 900));
+    const hardTimeout = new Promise((resolve) => setTimeout(resolve, 8000));
 
-    Promise.race([Promise.all([waitForWindowLoad, preloadCritical]), fallbackTimeout]).then(
-      () => {
-        if (!mounted) return;
-        setReady(true);
-      }
-    );
+    Promise.race([
+      Promise.all([
+        waitForWindowLoad,
+        waitForFonts(),
+        preloadCritical,
+        preloadBanner,
+        waitMinLoader,
+      ]),
+      hardTimeout,
+    ]).then(() => {
+      if (!mounted) return;
+      setReady(true);
+    });
 
     return () => {
       mounted = false;
@@ -69,4 +89,3 @@ export default function InitialLoaderGate({ children }) {
 
   return children;
 }
-

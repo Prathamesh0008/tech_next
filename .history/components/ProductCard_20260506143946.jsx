@@ -3,14 +3,19 @@
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
+import Lottie from "lottie-react";
 import { handleCtrlClick } from "../utils/openInNewTab";
+import { getOptimizedImageUrl } from "../lib/image-utils";
+import productOpeningAnimation from "../public/assets/json-animation/product-opening.json";
 
 export default function ProductCard({ product, priority = false }) {
   const router = useRouter();
   const [loading, setLoading] = useState(true);
+  const [navigating, setNavigating] = useState(false);
   const [imageUnavailable, setImageUnavailable] = useState(false);
+  const fallbackLocal = `/products/${product.category.toLowerCase()}/${(product?.imageKey || product?._baseName || "")}_1.jpg`;
   const [imageSrc, setImageSrc] = useState(
-    `/products/${product.category.toLowerCase()}/${(product?.imageKey || product?._baseName || "")}_1.jpg`
+    product?.image || fallbackLocal
   );
 
   const displayName = product?.name || "";
@@ -22,7 +27,13 @@ export default function ProductCard({ product, priority = false }) {
 
   const handleClick = (e) => {
     if (handleCtrlClick(e, productURL)) return;
+    if (navigating) return;
+    setNavigating(true);
     router.push(productURL);
+  };
+
+  const prefetchProduct = () => {
+    router.prefetch(productURL);
   };
 
   const hideLoader = () => {
@@ -30,18 +41,29 @@ export default function ProductCard({ product, priority = false }) {
   };
 
   useEffect(() => {
-    const nextSrc = `/products/${product.category.toLowerCase()}/${imageKey}_1.jpg`;
-    setImageSrc(nextSrc);
+    const nextSrc = product?.image || `/products/${product.category.toLowerCase()}/${imageKey}_1.jpg`;
+    setImageSrc(getOptimizedImageUrl(nextSrc, { width: 640 }));
     setLoading(true);
     setImageUnavailable(false);
-  }, [product.category, imageKey]);
+  }, [product.category, imageKey, product.image]);
 
   return (
-    <div
-      onClick={handleClick}
-      className="flex cursor-pointer flex-col border border-gray-100 bg-white p-4 shadow-sm transition hover:scale-[1.02] hover:shadow-lg"
-    >
-      <div className="relative mb-3 h-44 w-full overflow-hidden rounded-md ">
+    <>
+      {navigating && (
+        <div className="fixed inset-0 z-[999] flex items-center justify-center bg-[#0b1e39]/45 backdrop-blur-[1px]">
+          <div className="h-50 w-40">
+            <Lottie animationData={productOpeningAnimation} loop={true} />
+          </div>
+        </div>
+      )}
+
+      <div
+        onClick={handleClick}
+        onMouseEnter={prefetchProduct}
+        onFocus={prefetchProduct}
+        className="flex cursor-pointer flex-col border border-gray-100 bg-white p-4 shadow-sm transition hover:scale-[1.02] hover:shadow-lg"
+      >
+        <div className="relative mb-3 h-44 w-full overflow-hidden rounded-md ">
         {loading && (
           <div className="absolute inset-0 z-10 flex items-center justify-center ">
             <div className="h-6 w-6 animate-spin rounded-full border-4 border-[#18487d] border-t-[#3386bc]" />
@@ -88,11 +110,12 @@ export default function ProductCard({ product, priority = false }) {
         />
       </div>
 
-      <h3 className="text-lg font-semibold text-gray-800">{displayName}</h3>
-      <p className="mt-2 line-clamp-2 text-sm text-gray-600">{displayDesc}</p>
-      <div className="mt-3 text-sm font-semibold text-[#3386bc]">
-        CAS: {product?.cas || "N/A"}
+        <h3 className="text-lg font-semibold text-gray-800">{displayName}</h3>
+        <p className="mt-2 line-clamp-2 text-sm text-gray-600">{displayDesc}</p>
+        <div className="mt-3 text-sm font-semibold text-[#3386bc]">
+          CAS: {product?.cas || "N/A"}
+        </div>
       </div>
-    </div>
+    </>
   );
 }
