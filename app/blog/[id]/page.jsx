@@ -77,6 +77,26 @@ export async function generateMetadata({ params }) {
         "testosterone supplements benefits",
       ],
     },
+    "what-is-testosterone-importance-mens-health": {
+      title: "What Is Testosterone and Why Is It So Important for Men’s Health?",
+      keywords: [
+        "what is testosterone",
+        "testosterone importance",
+        "men's health hormones",
+        "low testosterone symptoms",
+        "testosterone and muscle growth",
+      ],
+    },
+    "testosterone-levels-too-low-or-too-high": {
+      title: "What Happens If Testosterone Levels Are Too Low or Too High?",
+      keywords: [
+        "low testosterone",
+        "high testosterone risks",
+        "testosterone imbalance",
+        "hormonal balance men",
+        "testosterone symptoms",
+      ],
+    },
   };
 
   const blogsArray = enBlogs.blogs || enBlogs;

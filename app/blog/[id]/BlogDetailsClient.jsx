@@ -93,6 +93,16 @@ export default function BlogDetailsClient({ id }) {
                         {block.heading}
                       </h2>
                     )}
+                    {block.image && (
+                      <div className="relative w-full h-[280px] rounded-lg overflow-hidden">
+                        <Image
+                          src={block.image}
+                          alt={block.heading || blog.title}
+                          fill
+                          className="object-cover"
+                        />
+                      </div>
+                    )}
                     {block.text && (
                       <p
                         className="text-gray-700 leading-relaxed"
