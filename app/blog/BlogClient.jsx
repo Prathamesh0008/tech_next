@@ -1,19 +1,38 @@
  
- "use client";
+"use client";
 
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import Breadcrumbs from "../../components/Breadcrumbs";
 import { Calendar, ArrowRight } from "lucide-react";
 import { useLanguage } from "../../contexts/LanguageContext";
-import { getBlogs } from "../../lib/getBlogs"; // ✅ NEW
 
 export default function BlogClient() {
-  const { translations, language  } = useLanguage(); // ✅ UPDATED
+  const { translations, language } = useLanguage();
+  const [blogs, setBlogs] = useState([]);
   if (!translations?.blog) return null;
 
   const t = translations.blog;
-  const blogs = getBlogs(language )?.blogs || []; // 🔥 LANGUAGE-BASED BLOG DATA
+
+  useEffect(() => {
+    let ignore = false;
+
+    async function loadBlogs() {
+      try {
+        const res = await fetch(`/api/blogs?lang=${language}`, { cache: "no-store" });
+        const data = await res.json();
+        if (!ignore) setBlogs(Array.isArray(data?.blogs) ? data.blogs : []);
+      } catch {
+        if (!ignore) setBlogs([]);
+      }
+    }
+
+    loadBlogs();
+    return () => {
+      ignore = true;
+    };
+  }, [language]);
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-[#f5f9fb] via-[#f3f8fa] to-[#e8f3f8] mt-20">

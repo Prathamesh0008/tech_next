@@ -6,9 +6,8 @@ import Image from "next/image";
 import Breadcrumbs from "../../../components/Breadcrumbs";
 import { Calendar, ChevronDown, ChevronUp } from "lucide-react";
 import { useLanguage } from "../../../contexts/LanguageContext";
-import { getBlogs } from "../../../lib/getBlogs";
 import { useRouter } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import FeaturedByCategory from "../../../components/FeaturedByCategory";
 
 /* ---------- COMPONENT ---------- */
@@ -16,9 +15,55 @@ import FeaturedByCategory from "../../../components/FeaturedByCategory";
 export default function BlogDetailsClient({ id }) {
   const { language } = useLanguage();
   const router = useRouter();
-  const blogs = getBlogs(language)?.blogs || [];
+  const [blog, setBlog] = useState(null);
+  const [related, setRelated] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [openFaqIndex, setOpenFaqIndex] = useState(null);
 
-  const blog = blogs.find((b) => b.id === id);
+  useEffect(() => {
+    let ignore = false;
+
+    async function loadBlogAndRelated() {
+      setLoading(true);
+      try {
+        const [blogRes, listRes] = await Promise.all([
+          fetch(`/api/blogs/${id}?lang=${language}`, { cache: "no-store" }),
+          fetch(`/api/blogs?lang=${language}`, { cache: "no-store" }),
+        ]);
+        const blogData = await blogRes.json();
+        const listData = await listRes.json();
+        const list = Array.isArray(listData?.blogs) ? listData.blogs : [];
+
+        if (!ignore) {
+          setBlog(blogRes.ok ? blogData?.blog || null : null);
+          setRelated(list.filter((b) => b.id !== id).slice(0, 3));
+          setLoading(false);
+        }
+      } catch {
+        if (!ignore) {
+          setBlog(null);
+          setRelated([]);
+          setLoading(false);
+        }
+      }
+    }
+
+    loadBlogAndRelated();
+    return () => {
+      ignore = true;
+    };
+  }, [id, language]);
+
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-gradient-to-b from-[#f5f9fb] via-[#f3f8fa] to-[#e8f3f8] pt-20">
+        <div className="max-w-3xl mx-auto px-6 py-16 text-center text-gray-600">
+          Loading article...
+        </div>
+      </div>
+    );
+  }
+
   if (!blog) {
     return (
       <div className="min-h-screen bg-gradient-to-b from-[#f5f9fb] via-[#f3f8fa] to-[#e8f3f8] pt-20">
@@ -37,9 +82,6 @@ export default function BlogDetailsClient({ id }) {
       </div>
     );
   }
-
-  const related = blogs.filter((b) => b.id !== blog.id).slice(0, 3);
-  const [openFaqIndex, setOpenFaqIndex] = useState(null);
 
   const toggleFaq = (index) => {
     setOpenFaqIndex(openFaqIndex === index ? null : index);

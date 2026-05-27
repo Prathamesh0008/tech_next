@@ -1,5 +1,5 @@
-import enBlogs from "../../../data/blog/en.json";
 import BlogDetailsClient from "./BlogDetailsClient";
+import { readBlogs } from "@/lib/blog-store";
 
 export async function generateMetadata({ params }) {
   const { id } = await params;
@@ -98,7 +98,7 @@ export async function generateMetadata({ params }) {
     },
   };
 
-  const blogsArray = enBlogs.blogs || enBlogs;
+  const { blogs: blogsArray } = await readBlogs("en");
   const blog = blogsArray.find((b) => b.id === id);
 
   if (!blog) {
