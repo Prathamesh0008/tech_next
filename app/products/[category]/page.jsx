@@ -28,8 +28,7 @@ export default function ProductsPage() {
   const params = useParams();
   const { category } = params || {};
 
-  const [products, setProducts] = useState([]);
-  const [loadingProducts, setLoadingProducts] = useState(true);
+  const [products, setProducts] = useState(null);
 
   // Safety check
   if (!translations?.productsPage) return null;
@@ -52,7 +51,6 @@ export default function ProductsPage() {
 
     const loadProducts = async () => {
       try {
-        setLoadingProducts(true);
         const res = await fetch(`/api/products?lang=${currentLanguage}`, {
           cache: "force-cache",
         });
@@ -63,8 +61,6 @@ export default function ProductsPage() {
         }
       } catch (_) {
         if (!ignore) setProducts([]);
-      } finally {
-        if (!ignore) setLoadingProducts(false);
       }
     };
 
@@ -77,7 +73,7 @@ export default function ProductsPage() {
   /* ---------------- FILTER OPTIONS ---------------- */
 
   const productOptions = useMemo(() => {
-    if (!selectedCategory) return [];
+    if (!selectedCategory || !products) return [];
 
     const list = products.filter(
       (p) => p.category?.toLowerCase() === selectedCategory.toLowerCase()
@@ -97,7 +93,7 @@ export default function ProductsPage() {
 
   const mgOptions = useMemo(() => {
     const strengths = new Set();
-    let filtered = products;
+    let filtered = products || [];
 
     if (selectedCategory) {
       filtered = filtered.filter(
@@ -117,7 +113,7 @@ export default function ProductsPage() {
     return Array.from(strengths).sort((a, b) => parseFloat(a) - parseFloat(b));
   }, [products, selectedCategory, selectedProduct]);
 
-  const filteredProducts = products.filter((p) => {
+  const filteredProducts = (products || []).filter((p) => {
     const matchCategory =
       !selectedCategory ||
       p.category?.toLowerCase() === selectedCategory.toLowerCase();
@@ -249,7 +245,7 @@ export default function ProductsPage() {
 
         {/* PRODUCTS */}
         <main className="flex-1">
-          {loadingProducts ? (
+          {products === null ? (
             <div className="text-center text-gray-500 py-16">Loading products...</div>
           ) : filteredProducts.length === 0 ? (
             <div className="text-center text-gray-500 py-16">

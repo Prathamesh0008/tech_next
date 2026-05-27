@@ -43,11 +43,6 @@ const getThumbImage = (src) =>
 function ZoomImage({ src, alt }) {
   const [pos, setPos] = useState({ x: 50, y: 50 });
   const [zoom, setZoom] = useState(false);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    setLoading(true);
-  }, [src]);
 
   const handleMove = (e) => {
     const { left, top, width, height } = e.target.getBoundingClientRect();
@@ -63,24 +58,15 @@ function ZoomImage({ src, alt }) {
       onMouseEnter={() => setZoom(true)}
       onMouseLeave={() => setZoom(false)}
     >
-      {loading && (
-        <div className="absolute inset-0 z-10 flex items-center justify-center bg-white/85">
-          <div className="h-8 w-8 animate-spin rounded-full border-4 border-[#18487d] border-t-[#4bb2e5]" />
-        </div>
-      )}
       <img
         src={src}
         alt={alt}
-        onLoad={() => setLoading(false)}
-        onError={() => setLoading(false)}
         style={{
           transformOrigin: `${pos.x}% ${pos.y}%`,
           transform: zoom ? "scale(2)" : "scale(1)",
           transition: "transform 0.3s ease-out",
         }}
-        className={`w-full h-[420px] object-contain select-none transition-opacity duration-200 ${
-          loading ? "opacity-0" : "opacity-100"
-        }`}
+        className="w-full h-[420px] object-contain select-none transition-transform duration-200"
       />
     </div>
   );
@@ -100,7 +86,6 @@ export default function ProductDetails({
   const [related, setRelated] = useState(initialRelated || []);
   const [activeTab, setActiveTab] = useState("indication");
   const [openFAQ, setOpenFAQ] = useState(null);
-  const [bottomImageLoading, setBottomImageLoading] = useState(true);
 
   const productImages = useMemo(() => getProductImages(product), [product]);
   const [selectedImage, setSelectedImage] = useState(
@@ -109,7 +94,6 @@ export default function ProductDetails({
 
   useEffect(() => {
     setSelectedImage(getMainImage(productImages[0]) || "/products/placeholder.jpg");
-    setBottomImageLoading(true);
   }, [productImages]);
 
   useEffect(() => {
@@ -396,17 +380,10 @@ export default function ProductDetails({
           </div>
 
           <div className="md:w-1/3 relative flex justify-center mt-8 md:mt-0">
-              {bottomImageLoading && (
-                <div className="absolute flex items-center justify-center w-72 h-72 rounded-xl bg-white/85">
-                  <div className="h-7 w-7 animate-spin rounded-full border-4 border-[#18487d] border-t-[#4bb2e5]" />
-                </div>
-              )}
-              <img
+            <img
               src={getMainImage(productImages[0])}
               alt={product.name}
               loading="lazy"
-              onLoad={() => setBottomImageLoading(false)}
-              onError={() => setBottomImageLoading(false)}
               className="w-72 h-72 object-contain  rounded-xl shadow-md hover:scale-105 transition-transform duration-500"
             />
           </div>

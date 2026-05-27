@@ -6,7 +6,6 @@ import { useEffect, useState } from "react";
 import { slugifyCompound } from "../lib/compounds";
 
 export default function CompoundCard({ compound, priority = false }) {
-  const [loading, setLoading] = useState(true);
   const [imageUnavailable, setImageUnavailable] = useState(false);
   const compoundTitle = compound.displayName || compound.name;
 
@@ -17,13 +16,8 @@ export default function CompoundCard({ compound, priority = false }) {
   useEffect(() => {
     const nextSrc = `/products/${compound.category.toLowerCase()}/${compound.imageKey}_1.jpg`;
     setImageSrc(nextSrc);
-    setLoading(true);
     setImageUnavailable(false);
   }, [compound.category, compound.imageKey]);
-
-  const hideLoader = () => {
-    setLoading(false);
-  };
 
   const compoundURL = `/compounds/${compound.slug || slugifyCompound(compound.id)}`;
 
@@ -38,12 +32,7 @@ export default function CompoundCard({ compound, priority = false }) {
         </div>
 
         <div className="relative mt-4 h-44 w-full overflow-hidden rounded-xl ">
-          {loading && (
-            <div className="absolute inset-0 z-10 flex items-center justify-center ">
-              <div className="h-6 w-6 animate-spin rounded-full border-4 border-[#18487d] border-t-transparent" />
-            </div>
-          )}
-          {imageUnavailable && !loading && (
+          {imageUnavailable && (
             <div className="absolute inset-0 z-10 flex flex-col items-center justify-center gap-2  text-[#6a88a8]">
               <svg
                 viewBox="0 0 24 24"
@@ -68,18 +57,14 @@ export default function CompoundCard({ compound, priority = false }) {
             priority={priority}
             quality={75}
             loading={priority ? "eager" : "lazy"}
-            onLoadingComplete={hideLoader}
             onError={() => {
               if (imageSrc !== "/products/placeholder.jpg") {
                 setImageSrc("/products/placeholder.jpg");
                 return;
               }
               setImageUnavailable(true);
-              hideLoader();
             }}
-            className={`h-full w-full object-contain transition-opacity duration-300 ${
-              loading ? "opacity-0" : "opacity-100"
-            }`}
+            className="h-full w-full object-contain"
           />
         </div>
 

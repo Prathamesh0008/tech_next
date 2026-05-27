@@ -7,7 +7,7 @@ import Breadcrumbs from "../../../components/Breadcrumbs";
 import { Calendar, ChevronDown, ChevronUp } from "lucide-react";
 import { useLanguage } from "../../../contexts/LanguageContext";
 import { getBlogs } from "../../../lib/getBlogs";
-import { notFound } from "next/navigation";
+import { useRouter } from "next/navigation";
 import { useState } from "react";
 import FeaturedByCategory from "../../../components/FeaturedByCategory";
 
@@ -15,10 +15,28 @@ import FeaturedByCategory from "../../../components/FeaturedByCategory";
 
 export default function BlogDetailsClient({ id }) {
   const { language } = useLanguage();
+  const router = useRouter();
   const blogs = getBlogs(language)?.blogs || [];
 
   const blog = blogs.find((b) => b.id === id);
-  if (!blog) return notFound();
+  if (!blog) {
+    return (
+      <div className="min-h-screen bg-gradient-to-b from-[#f5f9fb] via-[#f3f8fa] to-[#e8f3f8] pt-20">
+        <div className="max-w-3xl mx-auto px-6 py-16 text-center">
+          <h1 className="text-3xl font-bold text-gray-800">Article not found</h1>
+          <p className="mt-3 text-gray-600">
+            This blog article is unavailable in the selected language.
+          </p>
+          <button
+            onClick={() => router.push("/blog")}
+            className="mt-6 inline-flex items-center rounded-lg bg-[#18487d] px-5 py-3 text-white"
+          >
+            Back to Blog
+          </button>
+        </div>
+      </div>
+    );
+  }
 
   const related = blogs.filter((b) => b.id !== blog.id).slice(0, 3);
   const [openFaqIndex, setOpenFaqIndex] = useState(null);
@@ -92,16 +110,6 @@ export default function BlogDetailsClient({ id }) {
                       <h2 className="text-2xl font-semibold text-gray-800">
                         {block.heading}
                       </h2>
-                    )}
-                    {block.image && (
-                      <div className="relative w-full h-[280px] rounded-lg overflow-hidden">
-                        <Image
-                          src={block.image}
-                          alt={block.heading || blog.title}
-                          fill
-                          className="object-cover"
-                        />
-                      </div>
                     )}
                     {block.text && (
                       <p

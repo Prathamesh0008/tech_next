@@ -3,15 +3,11 @@
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
-import Lottie from "lottie-react";
 import { handleCtrlClick } from "../utils/openInNewTab";
 import { getOptimizedImageUrl } from "../lib/image-utils";
-import productOpeningAnimation from "../public/assets/json-animation/product-opening.json";
 
 export default function ProductCard({ product, priority = false }) {
   const router = useRouter();
-  const [loading, setLoading] = useState(true);
-  const [navigating, setNavigating] = useState(false);
   const [imageUnavailable, setImageUnavailable] = useState(false);
   const fallbackLocal = `/products/${product.category.toLowerCase()}/${(product?.imageKey || product?._baseName || "")}_1.jpg`;
   const [imageSrc, setImageSrc] = useState(
@@ -27,38 +23,21 @@ export default function ProductCard({ product, priority = false }) {
 
   const handleClick = (e) => {
     if (handleCtrlClick(e, productURL)) return;
-    if (navigating) return;
-    setNavigating(true);
-    setTimeout(() => {
-      router.push(productURL);
-    }, 1000);
+    router.push(productURL);
   };
 
   const prefetchProduct = () => {
     router.prefetch(productURL);
   };
 
-  const hideLoader = () => {
-    setLoading(false);
-  };
-
   useEffect(() => {
     const nextSrc = product?.image || `/products/${product.category.toLowerCase()}/${imageKey}_1.jpg`;
     setImageSrc(getOptimizedImageUrl(nextSrc, { width: 640 }));
-    setLoading(true);
     setImageUnavailable(false);
   }, [product.category, imageKey, product.image]);
 
   return (
     <>
-      {navigating && (
-        <div className="fixed inset-0 z-[999] flex items-center justify-center bg-[#0b1e39]/45 backdrop-blur-[1px]">
-          <div className="h-40 w-40">
-            <Lottie animationData={productOpeningAnimation} loop={true} />
-          </div>
-        </div>
-      )}
-
       <div
         onClick={handleClick}
         onMouseEnter={prefetchProduct}
@@ -66,12 +45,7 @@ export default function ProductCard({ product, priority = false }) {
         className="flex cursor-pointer flex-col border border-gray-100 bg-white p-4 shadow-sm transition hover:scale-[1.02] hover:shadow-lg"
       >
         <div className="relative mb-3 h-44 w-full overflow-hidden rounded-md ">
-        {loading && (
-          <div className="absolute inset-0 z-10 flex items-center justify-center ">
-            <div className="h-6 w-6 animate-spin rounded-full border-4 border-[#18487d] border-t-[#3386bc]" />
-          </div>
-        )}
-        {imageUnavailable && !loading && (
+        {imageUnavailable && (
           <div className="absolute inset-0 z-10 flex flex-col items-center justify-center gap-2  text-[#6a88a8]">
             <svg
               viewBox="0 0 24 24"
@@ -97,18 +71,14 @@ export default function ProductCard({ product, priority = false }) {
           priority={priority}
           quality={75}
           loading={priority ? "eager" : "lazy"}
-          onLoadingComplete={hideLoader}
           onError={() => {
             if (imageSrc !== "/products/placeholder.jpg") {
               setImageSrc("/products/placeholder.jpg");
               return;
             }
             setImageUnavailable(true);
-            hideLoader();
           }}
-          className={`h-full w-full object-contain transition-opacity ${
-            loading ? "opacity-0" : "opacity-100"
-          }`}
+          className="h-full w-full object-contain"
         />
       </div>
 

@@ -1,4 +1,3 @@
-import { notFound } from "next/navigation";
 import enBlogs from "../../../data/blog/en.json";
 import BlogDetailsClient from "./BlogDetailsClient";
 
