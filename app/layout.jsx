@@ -100,26 +100,138 @@ export default async function RootLayout({ children }) {
           }}
         />
 
-        {/* --- Organization Schema (FIXED LOGO) --- */}
+        {/* --- Structured Data Schema --- */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
-              "@type": "Organization",
-              "@id": "https://www.novatechsciences.com/#organization",
-              name: "Nova Techsciences",
-              url: "https://www.novatechsciences.com/",
-              description:
-                "Nova Techsciences delivers science-backed pharmaceutical, nutraceutical, and performance healthcare solutions worldwide.",
-              logo: "https://www.novatechsciences.com/apple-touch-icon.png",
-              sameAs: [
-                "https://www.facebook.com/profile.php?id=61583956722731",
-                "https://x.com/NovaTechScience",
-                "https://www.instagram.com/novatechsciences/",
-                "https://in.pinterest.com/novatechscience/",
-                "https://www.tumblr.com/novatechsciences/804353639006322688",
-                "https://medium.com/@novaseo59",
+              "@graph": [
+                {
+                  "@type": "Organization",
+                  "@id": "https://www.novatechsciences.com/#organization",
+                  name: "NovaTech Sciences",
+                  url: "https://www.novatechsciences.com/",
+                  logo: "https://www.novatechsciences.com/wp-content/uploads/logo.png",
+                  description:
+                    "NovaTech Sciences provides advanced international online technology & scientific services.",
+                  foundingDate: "2025",
+                  founders: [
+                    {
+                      "@type": "Person",
+                      name: "NovaTech Team",
+                    },
+                  ],
+                  sameAs: [
+                    "https://www.instagram.com/novatechsciences/",
+                    "https://www.facebook.com/profile.php?id=61583956722731",
+                    "https://x.com/NovaTechScience",
+                  ],
+                  contactPoint: [
+                    {
+                      "@type": "ContactPoint",
+                      contactType: "customer support",
+                      email: "support@novatechsciences.com",
+                      url: "https://www.novatechsciences.com/contact",
+                    },
+                  ],
+                  address: {
+                    "@type": "PostalAddress",
+                    addressCountry: "IN",
+                  },
+                },
+                {
+                  "@type": "WebSite",
+                  "@id": "https://www.novatechsciences.com/#website",
+                  url: "https://www.novatechsciences.com/",
+                  name: "NovaTech Sciences",
+                  publisher: {
+                    "@id": "https://www.novatechsciences.com/#organization",
+                  },
+                  inLanguage: "en",
+                  potentialAction: {
+                    "@type": "SearchAction",
+                    target:
+                      "https://www.novatechsciences.com/?s={search_term_string}",
+                    "query-input": "required name=search_term_string",
+                  },
+                },
+                {
+                  "@type": "WebPage",
+                  "@id": "https://www.novatechsciences.com/#webpage",
+                  url: "https://www.novatechsciences.com/",
+                  name: "NovaTech Sciences - Online Tech & Science Services",
+                  description:
+                    "Explore NovaTech Sciences — your destination for international online technology & science solutions tailored for global users.",
+                  isPartOf: {
+                    "@id": "https://www.novatechsciences.com/#website",
+                  },
+                  about: {
+                    "@id": "https://www.novatechsciences.com/#organization",
+                  },
+                  inLanguage: "en",
+                },
+                {
+                  "@type": "Service",
+                  "@id": "https://www.novatechsciences.com/#service",
+                  serviceType: "Online Technology & Science Services",
+                  provider: {
+                    "@id": "https://www.novatechsciences.com/#organization",
+                  },
+                  description:
+                    "Professional online technology and scientific services offered globally by NovaTech Sciences.",
+                  areaServed: [
+                    {
+                      "@type": "Country",
+                      name: "IN",
+                    },
+                    {
+                      "@type": "Country",
+                      name: "US",
+                    },
+                    {
+                      "@type": "Country",
+                      name: "GB",
+                    },
+                    {
+                      "@type": "Country",
+                      name: "CA",
+                    },
+                    {
+                      "@type": "Country",
+                      name: "AU",
+                    },
+                  ],
+                  availableChannel: {
+                    "@type": "ServiceChannel",
+                    serviceLocation: {
+                      "@type": "VirtualLocation",
+                      url: "https://www.novatechsciences.com/",
+                    },
+                  },
+                },
+                {
+                  "@type": "ItemList",
+                  "@id": "https://www.novatechsciences.com/#socialProfiles",
+                  itemListElement: [
+                    {
+                      "@type": "ListItem",
+                      position: 1,
+                      url: "https://www.instagram.com/novatechsciences/",
+                    },
+                    {
+                      "@type": "ListItem",
+                      position: 2,
+                      url:
+                        "https://www.facebook.com/profile.php?id=61583956722731",
+                    },
+                    {
+                      "@type": "ListItem",
+                      position: 3,
+                      url: "https://x.com/NovaTechScience",
+                    },
+                  ],
+                },
               ],
             }),
           }}
