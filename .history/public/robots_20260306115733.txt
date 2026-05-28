@@ -9,7 +9,6 @@ Allow: /wp-admin/admin-ajax.php
 # Sitemap location
 Sitemap: https://www.novatechsciences.com/sitemap.xml
 
-
 # --- Search Engine Bots ---
 User-agent: Googlebot
 Allow: /
@@ -69,8 +68,3 @@ User-agent: *
 Allow: /
 
 Sitemap: https://www.novatechsciences.com/sitemap.xml
-https://www.novatechsciences.com/page-sitemap.xml 
-https://www.novatechsciences.com/product-sitemap.xml 
-https://www.novatechsciences.com/compound-sitemap.xml 
-https://www.novatechsciences.com/post-sitemap.xml 
-https://www.novatechsciences.com/country-sitemap.xml 
