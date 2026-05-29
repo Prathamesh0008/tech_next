@@ -27,10 +27,10 @@ const countryGradients = {
   usa: "from-[#002868] via-[#BF0A30] to-[#FFFFFF]",
   slovakia: "from-[#0B4EA2] via-[#EE1C25] to-[#FFFFFF]",
   hungary: "from-[#436F4D] via-[#CD2A3E] to-[#FFFFFF]",
-  greece: "from-[#0D5EAF] via-[#FFFFFF] to-[#0D5EAF]",
-  italy: "from-[#009246] via-[#FFFFFF] to-[#CE2B37]",
-  netherlands: "from-[#21468B] via-[#FFFFFF] to-[#AE1C28]",
-  poland: "from-[#DC143C] via-[#FFFFFF] to-[#DC143C]",
+  greece: "from-[#0A3F73] via-[#0D5EAF] to-[#08325B]",
+  italy: "from-[#006B36] via-[#0A7C47] to-[#8F1C2B]",
+  netherlands: "from-[#163A74] via-[#21468B] to-[#7E1521]",
+  poland: "from-[#8F0F2F] via-[#B3133B] to-[#740C26]",
   belgium: "from-[#000000] via-[#FDDA24] to-[#FF0000]",
   germany: "from-[#000000] via-[#DD0000] to-[#FFCE00]",
   portugal: "from-[#006600] via-[#FF0000] to-[#FFFF00]",
@@ -140,6 +140,9 @@ export default function TestosteroneCountryClient({
   const sectionSpacing = compactSpacing
     ? "space-y-14 sm:space-y-16 lg:space-y-20 xl:space-y-24"
     : "space-y-24 sm:space-y-28 lg:space-y-32 xl:space-y-40";
+  const needsFlagContrastBoost = ["netherlands", "poland", "greece", "italy"].includes(
+    countrySlug
+  );
 
   // Get country gradient
   const countryGradient = countryGradients[countrySlug] || "from-[#0B1A33] via-[#0E1F3D] to-[#122B4A]";
@@ -162,12 +165,20 @@ export default function TestosteroneCountryClient({
       <section className={`relative bg-gradient-to-br ${countryGradient} text-white overflow-hidden`}>
         {/* Subtle pattern overlay */}
         <div className="absolute inset-0">
+          {needsFlagContrastBoost && <div className="absolute inset-0 bg-black/35"></div>}
           <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZD0iTSA2MCAwIEwgMCAwIDAgNjAiIGZpbGw9Im5vbmUiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjA1KSIgc3Ryb2tlLXdpZHRoPSIxIi8+PC9wYXR0ZXJuPjwvZGVmcz48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyaWQpIi8+PC9zdmc+')] opacity-10 md:opacity-20"></div>
           <div className="absolute top-1/4 -left-1/4 w-64 md:w-96 h-64 md:h-96 bg-white/20 rounded-full blur-3xl"></div>
           <div className="absolute bottom-1/4 -right-1/4 w-64 md:w-96 h-64 md:h-96 bg-white/10 rounded-full blur-3xl"></div>
         </div>
         
-        <div className={`relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ${heroPadding}`}>
+        <div
+          className={`relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ${heroPadding}`}
+          style={
+            needsFlagContrastBoost
+              ? { textShadow: "0 2px 6px rgba(0, 0, 0, 0.55)" }
+              : undefined
+          }
+        >
           <div className="max-w-4xl mx-auto lg:mx-0">
             {/* Breadcrumb */}
             <div className="flex items-center gap-1.5 sm:gap-2 text-xs sm:text-sm text-white/80 mb-4 sm:mb-6 overflow-x-auto pb-2 whitespace-nowrap scrollbar-hide">
