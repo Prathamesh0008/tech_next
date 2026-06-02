@@ -39,6 +39,165 @@ const getMainImage = (src) =>
 const getThumbImage = (src) =>
   getOptimizedImageUrl(src, { width: 280 });
 
+const INTERNAL_PRODUCT_LINKS = [
+  {
+    terms: ["Letrozole 2.5 mg", "Letrozole"],
+    href: "/compounds/letrozole",
+  },
+  {
+    terms: ["Tamoxifen Citrate 20 mg", "Tamoxifen Citrate"],
+    href: "/compounds/tamonova",
+  },
+  {
+    terms: ["Exemestane 25 mg", "Exemestane"],
+    href: "/compounds/aromanova",
+  },
+  {
+    terms: ["Enclomiphene Citrate 25 mg", "Enclomiphene Citrate"],
+    href: "/compounds/enclominova",
+  },
+  {
+    terms: ["Clomiphene Citrate 50 mg", "Clomiphene Citrate"],
+    href: "/compounds/clominova",
+  },
+  {
+    terms: ["multi-steroid blend injection"],
+    href: "/compounds/nova-gain-c",
+  },
+  {
+    terms: ["Testosterone Phenylpropionate"],
+    href: "/compounds/testosterone-phenylpropionate",
+  },
+  {
+    terms: ["Testosterone Propionate"],
+    href: "/compounds/testova-p",
+  },
+  {
+    terms: ["Testosterone Enanthate"],
+    href: "/compounds/testova-e",
+  },
+  {
+    terms: ["Testosterone Suspension"],
+    href: "/compounds/testova-base",
+  },
+  {
+    terms: ["Boldenone Undecylenate", "Boldenone"],
+    href: "/compounds/boldenova",
+  },
+  {
+    terms: ["strength support."],
+    href: "/compounds/methenolone-enanthate",
+  },
+  {
+    terms: ["Drostanolone Propionate"],
+    href: "/compounds/drostanolone-propionate",
+  },
+  {
+    terms: ["Trenbolone Hexa"],
+    href: "/compounds/trenbolone-hexa-hydrobenzylcarbonate",
+  },
+  {
+    terms: ["Trenbolone Enanthate"],
+    href: "/compounds/trenbolone-enanthate",
+  },
+  {
+    terms: ["Trenbolone Acetate"],
+    href: "/compounds/trenbolone-acetate",
+  },
+  {
+    terms: ["Nandrolone Phenylpropionate", "muscle recovery"],
+    href: "/compounds/nandrolone-phenylpropionate",
+  },
+  {
+    terms: ["TESTOVA C", "Testosterone Cypionate"],
+    href: "/compounds/testosterone-cypionate",
+  },
+  {
+    terms: ["Nandrolone Decanoate"],
+    href: "/compounds/nandrolone-decanoate",
+  },
+  {
+    terms: ["supporting balanced hormone levels"],
+    href: "/compounds/testosterone-blend",
+  },
+  {
+    terms: ["STANOVA 10"],
+    href: "/compounds/stanozolol-usp",
+  },
+  {
+    terms: ["Clenbuterol 40 mcg"],
+    href: "/compounds/clenbuterol-hydrochloride",
+  },
+  {
+    terms: ["Oxymetholone USP 50 mg"],
+    href: "/compounds/oxymetholone",
+  },
+  {
+    terms: ["Liothyronine Sodium T3 50 mcg"],
+    href: "/compounds/liothyronine-sodium-t3",
+  },
+  {
+    terms: ["Fluoxymesterone 5 mg"],
+    href: "/compounds/fluoxymesterone",
+  },
+  {
+    terms: ["Cabergoline 0.5 mg"],
+    href: "/compounds/cabergoline",
+  },
+  {
+    terms: ["Levothyroxine Sodium T4 50 mcg"],
+    href: "/compounds/levothyroxine-sodium-t4",
+  },
+  {
+    terms: [
+      "Chlorodehydromethyltestosterone 10 mg",
+      "Chlorodehydromethyltestosterone",
+    ],
+    href: "/compounds/chlorodehydromethyltestosterone",
+  },
+  {
+    terms: ["Anastrozole 1 mg"],
+    href: "/compounds/anastrozole",
+  },
+  {
+    terms: ["Metenolone Acetate"],
+    href: "/compounds/metenolone-acetate",
+  },
+  {
+    terms: ["Methyldrostanolone"],
+    href: "/compounds/methyldrostanolone",
+  },
+  {
+    terms: ["Telmisartan"],
+    href: "/compounds/telmisartan",
+  },
+  {
+    terms: ["Oxandrolone USP"],
+    href: "/compounds/oxandrolone",
+  },
+  {
+    terms: ["Mesterolone USP"],
+    href: "/compounds/mesterolone",
+  },
+  {
+    terms: ["Methandienone"],
+    href: "/compounds/methandienone",
+  },
+  {
+    terms: ["Stanozolol"],
+    href: "/compounds/stanozolol-roxonova",
+  },
+].flatMap(({ terms, href }) =>
+  terms.map((term) => ({
+    term,
+    href,
+    regex: new RegExp(term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "i"),
+  }))
+);
+
+const getNonSelfHref = (href, currentHref) =>
+  href === currentHref ? "/compounds" : href;
+
 /* ================= ZOOM IMAGE ================= */
 function ZoomImage({ src, alt }) {
   const [pos, setPos] = useState({ x: 50, y: 50 });
@@ -150,16 +309,72 @@ export default function ProductDetails({
   const description =
     product.seoDescription || product.shortDescription || product.description;
 
+  const currentProductHref = `/products/${String(category).toLowerCase()}/${productSlug}`;
+  const linkedProductHrefs = new Set();
+
+  const renderInternalLinks = (text, keyPrefix = "text") => {
+    if (!text) return text;
+
+    const parts = [];
+    let remaining = text;
+    let partIndex = 0;
+
+    while (remaining) {
+      const match = INTERNAL_PRODUCT_LINKS.reduce((best, link) => {
+        const href = getNonSelfHref(link.href, currentProductHref);
+        if (linkedProductHrefs.has(href)) return best;
+
+        const result = link.regex.exec(remaining);
+        if (!result) return best;
+
+        if (!best || result.index < best.index) {
+          return { ...link, href, index: result.index, text: result[0] };
+        }
+
+        if (result.index === best.index && result[0].length > best.text.length) {
+          return { ...link, href, index: result.index, text: result[0] };
+        }
+
+        return best;
+      }, null);
+
+      if (!match) {
+        parts.push(remaining);
+        break;
+      }
+
+      if (match.index > 0) {
+        parts.push(remaining.slice(0, match.index));
+      }
+
+      linkedProductHrefs.add(match.href);
+      parts.push(
+        <Link
+          key={`${keyPrefix}-${partIndex}`}
+          href={match.href}
+          className="font-semibold text-[#1f5f99] underline underline-offset-2"
+        >
+          {match.text}
+        </Link>
+      );
+
+      remaining = remaining.slice(match.index + match.text.length);
+      partIndex += 1;
+    }
+
+    return parts;
+  };
+
   const renderMultiline = (text) => {
     if (!text) return null;
     const lines = text.split(/\r?\n/).map((l) => l.trim()).filter(Boolean);
 
-    if (lines.length <= 1) return <p>{lines[0]}</p>;
+    if (lines.length <= 1) return <p>{renderInternalLinks(lines[0], "single-line")}</p>;
 
     return (
       <ul className="list-disc pl-6 space-y-1">
         {lines.map((line, idx) => (
-          <li key={idx}>{line}</li>
+          <li key={idx}>{renderInternalLinks(line, `multiline-${idx}`)}</li>
         ))}
       </ul>
     );
@@ -172,7 +387,7 @@ export default function ProductDetails({
     return (
       <ul className="list-disc pl-6 space-y-2 text-gray-700">
         {lines.map((line, idx) => (
-          <li key={idx}>{line}</li>
+          <li key={idx}>{renderInternalLinks(line, `bullet-${idx}`)}</li>
         ))}
       </ul>
     );
@@ -257,7 +472,7 @@ export default function ProductDetails({
 
           <div className="md:w-1/2 mt-8 md:mt-0">
             <h1 className="text-3xl font-bold text-gray-800 mb-3">{product.name}</h1>
-            <p className="text-gray-600">{description}</p>
+            <p className="text-gray-600">{renderInternalLinks(description, "description")}</p>
 
             <p className="mt-3">
               <strong>CAS Number:</strong> {product.cas}
@@ -342,7 +557,10 @@ export default function ProductDetails({
                               exit={{ opacity: 0, height: 0 }}
                               className="mt-3 text-gray-600"
                             >
-                              {faq.answer || faq.a}
+                              {renderInternalLinks(
+                                faq.answer || faq.a,
+                                `faq-answer-${globalIdx}`
+                              )}
                             </motion.div>
                           )}
                         </AnimatePresence>
