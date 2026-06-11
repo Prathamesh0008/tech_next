@@ -63,7 +63,7 @@ export default function BlogClient() {
                   src={blog.image}
                   alt={blog.title}
                   fill
-                  className="object-contain group-hover:scale-105 transition-transform duration-500"
+                  className=" group-hover:scale-105 transition-transform duration-500"
                 />
               </div>
 

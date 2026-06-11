@@ -96,6 +96,17 @@ export async function generateMetadata({ params }) {
         "testosterone symptoms",
       ],
     },
+    "novazole-tablets-anastrozole-cas-120511-73-1": {
+      title: "Novazole Tablets (Anastrozole) CAS 120511-73-1 | Nova Techsciences",
+      keywords: [
+        "novazole tablets",
+        "anastrozole cas 120511-73-1",
+        "anastrozole tablets",
+        "aromatase inhibitor tablets",
+        "pharmaceutical anastrozole manufacturer",
+        "nova techsciences novazole",
+      ],
+    },
   };
 
   const { blogs: blogsArray } = await readBlogs("en");

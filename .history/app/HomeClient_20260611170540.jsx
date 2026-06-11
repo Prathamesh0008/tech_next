@@ -201,7 +201,7 @@ export default function HomeClient() {
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#18487d] via-[#3386bc] to-[#4bb2e5]">
                 {t.hero.title || "Innovative Healthcare Solutions"}
               </span>
-            </h2>
+            </h1>
 
             {/* Subtitle */}
             <div className="relative inline-block mb-8 sm:mb-10">

@@ -197,11 +197,11 @@ export default function HomeClient() {
             </div>
 
             {/* Heading */}
-            <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-5 sm:mb-6 tracking-tight leading-tight">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-5 sm:mb-6 tracking-tight leading-tight">
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#18487d] via-[#3386bc] to-[#4bb2e5]">
                 {t.hero.title || "Innovative Healthcare Solutions"}
               </span>
-            </h2>
+            </h1>
 
             {/* Subtitle */}
             <div className="relative inline-block mb-8 sm:mb-10">
