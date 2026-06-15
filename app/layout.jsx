@@ -5,11 +5,7 @@ import { LanguageProvider } from "../contexts/LanguageContext";
 import "flag-icons/css/flag-icons.min.css";
 import ScrollToTop from "../components/ScrollToTop";
 import InitialLoaderGate from "../components/InitialLoaderGate";
-import Script from "next/script";
-import { cookies } from "next/headers";
-
-
-
+import { cookies, headers } from "next/headers";
 
 export const metadata = {
   alternates: {
@@ -21,15 +17,12 @@ export const metadata = {
       "x-default": "https://www.novatechsciences.com/",
     },
   },
-
   title: {
     default: "Nova Techsciences | Advanced Pharmaceutical & Performance Health",
     template: "%s ",
   },
-
   description:
     "Nova Techsciences is a science-driven pharmaceutical platform delivering high-quality supplements, performance healthcare products, and globally compliant formulations.",
-
   icons: {
     icon: [
       { url: "/favicon.ico", sizes: "48x48", type: "image/x-icon" },
@@ -38,6 +31,76 @@ export const metadata = {
     ],
     apple: "/apple-touch-icon.png",
   },
+};
+
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://www.novatechsciences.com/#organization",
+  name: "NovaTech Sciences",
+  alternateName: ["Nova Tech Sciences", "NovaTech Pharma", "Novatech Sciences"],
+  legalName: "NovaTech Sciences Pvt. Ltd.",
+  url: "https://www.novatechsciences.com",
+  logo: {
+    "@type": "ImageObject",
+    url: "https://www.novatechsciences.com/_next/image?url=%2Fassets%2Flogolight.png&w=256&q=75",
+    width: 256,
+    height: 80,
+  },
+  image:
+    "https://www.novatechsciences.com/_next/image?url=%2Fassets%2Flogolight.png&w=256&q=75",
+  description:
+    "NovaTech Sciences is a WHO-GMP and ISO certified pharmaceutical and nutraceutical manufacturer specializing in testosterone supplements, legal steroids, anabolic muscle builders, and performance healthcare products. Trusted globally across Asia, Europe, and the Middle East.",
+  foundingDate: "2020",
+  numberOfEmployees: {
+    "@type": "QuantitativeValue",
+    minValue: 50,
+    maxValue: 200,
+  },
+  slogan: "Science. Strength. Performance.",
+  knowsAbout: [
+    "Testosterone Supplements",
+    "Legal Steroids",
+    "WHO-GMP Pharmaceutical Manufacturing",
+    "Nutraceuticals",
+    "Anabolic Muscle Builders",
+    "Hormonal Preparations",
+    "Performance Healthcare Products",
+    "Pharmaceutical Grade Steroids",
+  ],
+  areaServed: [
+    { "@type": "Place", name: "Asia" },
+    { "@type": "Place", name: "Europe" },
+    { "@type": "Place", name: "Middle East" },
+  ],
+  hasCredential: [
+    {
+      "@type": "EducationalOccupationalCredential",
+      credentialCategory: "WHO-GMP Certification",
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      credentialCategory: "ISO Certification",
+    },
+  ],
+  contactPoint: [
+    {
+      "@type": "ContactPoint",
+      contactType: "customer service",
+      availableLanguage: ["English", "Hindi"],
+      contactOption: "TollFree",
+    },
+    {
+      "@type": "ContactPoint",
+      contactType: "sales",
+      availableLanguage: ["English"],
+    },
+  ],
+  sameAs: [
+    "https://www.instagram.com/novatechsciences/",
+    "https://www.facebook.com/profile.php?id=61583956722731",
+    "https://x.com/NovaTechScience",
+  ],
 };
 
 const supportedLanguages = new Set([
@@ -62,8 +125,14 @@ const supportedLanguages = new Set([
 
 export default async function RootLayout({ children }) {
   const cookieStore = await cookies();
+  const headerStore = await headers();
   const cookieLang = cookieStore.get("lang")?.value;
   const initialLanguage = supportedLanguages.has(cookieLang) ? cookieLang : "en";
+  const userAgent = headerStore.get("user-agent") || "";
+  const shouldSkipInitialLoader =
+    /bot|crawler|spider|crawling|google|bing|slurp|duckduckbot|baiduspider|yandex|gptbot|claudebot|perplexitybot|oai-searchbot/i.test(
+      userAgent
+    );
 
   return (
     <html lang={initialLanguage} dir={initialLanguage === "ar" ? "rtl" : "ltr"}>
@@ -84,7 +153,6 @@ export default async function RootLayout({ children }) {
           name="bingbot"
           content="index, follow, max-snippet:-1, max-image-preview:large"
         />
-        {/* Google Analytics */}
         <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-716DBKENPQ"
@@ -99,148 +167,15 @@ export default async function RootLayout({ children }) {
             `,
           }}
         />
-
-        {/* --- Structured Data Schema --- */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@graph": [
-                {
-                  "@type": "Organization",
-                  "@id": "https://www.novatechsciences.com/#organization",
-                  name: "NovaTech Sciences",
-                  url: "https://www.novatechsciences.com/",
-                  logo: "https://www.novatechsciences.com/wp-content/uploads/logo.png",
-                  description:
-                    "NovaTech Sciences provides advanced international online technology & scientific services.",
-                  foundingDate: "2025",
-                  founders: [
-                    {
-                      "@type": "Person",
-                      name: "NovaTech Team",
-                    },
-                  ],
-                  sameAs: [
-                    "https://www.instagram.com/novatechsciences/",
-                    "https://www.facebook.com/profile.php?id=61583956722731",
-                    "https://x.com/NovaTechScience",
-                  ],
-                  contactPoint: [
-                    {
-                      "@type": "ContactPoint",
-                      contactType: "customer support",
-                      email: "support@novatechsciences.com",
-                      url: "https://www.novatechsciences.com/contact",
-                    },
-                  ],
-                  address: {
-                    "@type": "PostalAddress",
-                    addressCountry: "IN",
-                  },
-                },
-                {
-                  "@type": "WebSite",
-                  "@id": "https://www.novatechsciences.com/#website",
-                  url: "https://www.novatechsciences.com/",
-                  name: "NovaTech Sciences",
-                  publisher: {
-                    "@id": "https://www.novatechsciences.com/#organization",
-                  },
-                  inLanguage: "en",
-                  potentialAction: {
-                    "@type": "SearchAction",
-                    target:
-                      "https://www.novatechsciences.com/?s={search_term_string}",
-                    "query-input": "required name=search_term_string",
-                  },
-                },
-                {
-                  "@type": "WebPage",
-                  "@id": "https://www.novatechsciences.com/#webpage",
-                  url: "https://www.novatechsciences.com/",
-                  name: "NovaTech Sciences - Online Tech & Science Services",
-                  description:
-                    "Explore NovaTech Sciences — your destination for international online technology & science solutions tailored for global users.",
-                  isPartOf: {
-                    "@id": "https://www.novatechsciences.com/#website",
-                  },
-                  about: {
-                    "@id": "https://www.novatechsciences.com/#organization",
-                  },
-                  inLanguage: "en",
-                },
-                {
-                  "@type": "Service",
-                  "@id": "https://www.novatechsciences.com/#service",
-                  serviceType: "Online Technology & Science Services",
-                  provider: {
-                    "@id": "https://www.novatechsciences.com/#organization",
-                  },
-                  description:
-                    "Professional online technology and scientific services offered globally by NovaTech Sciences.",
-                  areaServed: [
-                    {
-                      "@type": "Country",
-                      name: "IN",
-                    },
-                    {
-                      "@type": "Country",
-                      name: "US",
-                    },
-                    {
-                      "@type": "Country",
-                      name: "GB",
-                    },
-                    {
-                      "@type": "Country",
-                      name: "CA",
-                    },
-                    {
-                      "@type": "Country",
-                      name: "AU",
-                    },
-                  ],
-                  availableChannel: {
-                    "@type": "ServiceChannel",
-                    serviceLocation: {
-                      "@type": "VirtualLocation",
-                      url: "https://www.novatechsciences.com/",
-                    },
-                  },
-                },
-                {
-                  "@type": "ItemList",
-                  "@id": "https://www.novatechsciences.com/#socialProfiles",
-                  itemListElement: [
-                    {
-                      "@type": "ListItem",
-                      position: 1,
-                      url: "https://www.instagram.com/novatechsciences/",
-                    },
-                    {
-                      "@type": "ListItem",
-                      position: 2,
-                      url:
-                        "https://www.facebook.com/profile.php?id=61583956722731",
-                    },
-                    {
-                      "@type": "ListItem",
-                      position: 3,
-                      url: "https://x.com/NovaTechScience",
-                    },
-                  ],
-                },
-              ],
-            }),
+            __html: JSON.stringify(organizationSchema),
           }}
         />
-
       </head>
 
       <body className="min-h-screen flex flex-col">
-        {/* Google Tag Manager (noscript) */}
         <noscript>
           <iframe
             src="https://www.googletagmanager.com/ns.html?id=GTM-P78MRW5G"
@@ -250,7 +185,6 @@ export default async function RootLayout({ children }) {
           ></iframe>
         </noscript>
 
-        {/* Google Tag Manager */}
         <script
           dangerouslySetInnerHTML={{
             __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -262,14 +196,22 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         />
 
         <LanguageProvider initialLanguage={initialLanguage}>
-          <InitialLoaderGate>
-            <Navbar />
-            <main className="flex-1">{children}</main>
-            <ScrollToTop />
-            <Footer />
-          </InitialLoaderGate>
+          {shouldSkipInitialLoader ? (
+            <>
+              <Navbar />
+              <main className="flex-1">{children}</main>
+              <ScrollToTop />
+              <Footer />
+            </>
+          ) : (
+            <InitialLoaderGate>
+              <Navbar />
+              <main className="flex-1">{children}</main>
+              <ScrollToTop />
+              <Footer />
+            </InitialLoaderGate>
+          )}
         </LanguageProvider>
-
       </body>
     </html>
   );
