@@ -107,6 +107,28 @@ export async function generateMetadata({ params }) {
         "nova techsciences novazole",
       ],
     },
+    "nova-gain-c-testosterone-cypionate-guide-netherlands": {
+      title: "Nova Gain C (Testosterone Cypionate) Guide 2026 | Benefits, Uses, Dosage & Netherlands Market",
+      keywords: [
+        "nova gain c",
+        "testosterone cypionate guide",
+        "injectable testosterone netherlands",
+        "testosterone cypionate benefits",
+        "nova gain c review",
+        "long acting testosterone ester"
+      ]
+    },
+    "testova-pp-testosterone-phenylpropionate-netherlands-guide-2026": {
+      title: "Testova PP (Testosterone Phenylpropionate) CAS 1255-49-8 | Complete Netherlands Guide 2026",
+      keywords: [
+        "testova pp",
+        "testosterone phenylpropionate",
+        "cas 1255-49-8",
+        "testosterone phenylpropionate netherlands",
+        "testova pp review",
+        "medium acting testosterone ester"
+      ]
+    },
   };
 
   const { blogs: blogsArray } = await readBlogs("en");
