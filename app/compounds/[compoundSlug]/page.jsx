@@ -1,4 +1,4 @@
-import { notFound, redirect } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import { getCompounds } from "../../../data/compounds";
 import { slugifyCompound } from "../../../lib/compounds";
 import CompoundClient from "./CompoundClient";
@@ -35,7 +35,9 @@ export default async function CompoundDetailsPage({ params }) {
   );
 
   if (!compound) return notFound();
-  if (compound.slug !== compoundSlug) redirect(`/compounds/${compound.slug}`);
+  if (compound.slug !== compoundSlug) {
+    permanentRedirect(`/compounds/${compound.slug}`);
+  }
 
   const siteUrl = "https://www.novatechsciences.com";
   const compoundUrl = `${siteUrl}/compounds/${compound.slug}`;
