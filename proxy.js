@@ -1,9 +1,17 @@
 import { NextResponse } from "next/server";
 
 const PUBLIC_FILE_REGEX = /\/[^/]+\.[^/]+$/;
+const CANONICAL_HOST = "www.novatechsciences.com";
+const APEX_HOSTS = new Set(["novatechsciences.com"]);
 
 export function proxy(request) {
-  const { pathname, search } = request.nextUrl;
+  const { hostname, pathname, search } = request.nextUrl;
+
+  if (APEX_HOSTS.has(hostname)) {
+    const target = new URL(request.url);
+    target.hostname = CANONICAL_HOST;
+    return NextResponse.redirect(target, 301);
+  }
 
   if (
     pathname.length > 1 &&
