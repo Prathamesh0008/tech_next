@@ -1,13 +1,11 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import { useRouter } from "next/navigation";
+import Link from "next/link";
 import Image from "next/image";
-import { handleCtrlClick } from "../utils/openInNewTab";
 import { getOptimizedImageUrl } from "../lib/image-utils";
 
 export default function ProductCard({ product, priority = false }) {
-  const router = useRouter();
   const [imageUnavailable, setImageUnavailable] = useState(false);
   const fallbackLocal = `/products/${product.category.toLowerCase()}/${(product?.imageKey || product?._baseName || "")}_1.jpg`;
   const [imageSrc, setImageSrc] = useState(
@@ -21,15 +19,6 @@ export default function ProductCard({ product, priority = false }) {
 
   const productURL = `/products/${product.category.toLowerCase()}/${product.id}`;
 
-  const handleClick = (e) => {
-    if (handleCtrlClick(e, productURL)) return;
-    router.push(productURL);
-  };
-
-  const prefetchProduct = () => {
-    router.prefetch(productURL);
-  };
-
   useEffect(() => {
     const nextSrc = product?.image || `/products/${product.category.toLowerCase()}/${imageKey}_1.jpg`;
     setImageSrc(getOptimizedImageUrl(nextSrc, { width: 640 }));
@@ -37,13 +26,11 @@ export default function ProductCard({ product, priority = false }) {
   }, [product.category, imageKey, product.image]);
 
   return (
-    <>
-      <div
-        onClick={handleClick}
-        onMouseEnter={prefetchProduct}
-        onFocus={prefetchProduct}
-        className="flex cursor-pointer flex-col border border-gray-100 bg-white p-4 shadow-sm transition hover:scale-[1.02] hover:shadow-lg"
-      >
+    <Link
+      href={productURL}
+      prefetch={true}
+      className="flex h-full cursor-pointer flex-col border border-gray-100 bg-white p-4 shadow-sm transition hover:scale-[1.02] hover:shadow-lg"
+    >
         <div className="relative mb-3 h-44 w-full overflow-hidden rounded-md ">
         {imageUnavailable && (
           <div className="absolute inset-0 z-10 flex flex-col items-center justify-center gap-2  text-[#6a88a8]">
@@ -82,12 +69,11 @@ export default function ProductCard({ product, priority = false }) {
         />
       </div>
 
-        <h3 className="text-lg font-semibold text-gray-800">{displayName}</h3>
-        <p className="mt-2 line-clamp-2 text-sm text-gray-600">{displayDesc}</p>
-        <div className="mt-3 text-sm font-semibold text-[#3386bc]">
-          CAS: {product?.cas || "N/A"}
-        </div>
+      <h3 className="text-lg font-semibold text-gray-800">{displayName}</h3>
+      <p className="mt-2 line-clamp-2 text-sm text-gray-600">{displayDesc}</p>
+      <div className="mt-3 text-sm font-semibold text-[#3386bc]">
+        CAS: {product?.cas || "N/A"}
       </div>
-    </>
+    </Link>
   );
 }

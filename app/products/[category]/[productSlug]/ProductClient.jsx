@@ -613,9 +613,10 @@ export default function ProductDetails({
             <h2 className="text-2xl font-bold mb-6">Related Products</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
               {related.map((p) => (
-                <Link key={p.slug || p.id} href={`/products/${category}/${p.slug || p.id}`}>
-                  <ProductCard product={{ ...p, id: p.slug || p.id }} />
-                </Link>
+                <ProductCard
+                  key={p.slug || p.id}
+                  product={{ ...p, id: p.slug || p.id }}
+                />
               ))}
             </div>
           </section>
