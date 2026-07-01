@@ -5,6 +5,9 @@ const nextConfig = {
     "http://localhost:3000",
     "http://192.168.1.11:3000",
   ],
+  images: {
+    contentDispositionType: "inline",
+  },
 };
 
 module.exports = nextConfig;

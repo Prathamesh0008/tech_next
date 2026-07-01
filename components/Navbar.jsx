@@ -74,6 +74,7 @@ export default function Navbar() {
               alt="NovaTech"
               width={140}
               height={60}
+              unoptimized
               className="block h-11 sm:h-12 md:h-[56px] w-auto"
               priority
             />
@@ -155,7 +156,13 @@ export default function Navbar() {
           >
             <div className="h-16 px-4 flex items-center justify-between">
               <button onClick={(e) => navigate(e, "/")} aria-label="Home">
-                <Image src={logoLight} alt="NovaTech" width={120} height={50} />
+                <Image
+                  src={logoLight}
+                  alt="NovaTech"
+                  width={120}
+                  height={50}
+                  unoptimized
+                />
               </button>
 
               <div className="flex items-center gap-2">
