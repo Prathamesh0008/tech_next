@@ -7,17 +7,18 @@ import ProductCard from "../../../components/ProductCard";
 import Breadcrumbs from "../../../components/Breadcrumbs";
 import { motion, AnimatePresence } from "framer-motion";
 import { Filter, X } from "lucide-react";
+import { getLocalProductImagePath } from "../../../lib/local-image-paths";
 
 /* ---------------- HELPERS ---------------- */
 
 const getProductImage = (product) => {
-  if (product?.image) return product.image;
+  if (product?.image?.startsWith("/")) return product.image;
 
   if (!product?.imageKey || !product?.category) {
     return "/products/placeholder.jpg";
   }
 
-  return `/products/${product.category.toLowerCase()}/${product.imageKey}_1.jpg`;
+  return getLocalProductImagePath(product.category, product.imageKey, 1);
 };
 
 /* ---------------- PAGE ---------------- */

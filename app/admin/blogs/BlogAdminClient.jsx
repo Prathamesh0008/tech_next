@@ -68,8 +68,7 @@ export default function BlogAdminClient() {
     try {
       const fd = new FormData();
       fd.append("file", file);
-      fd.append("folder", "novatech/blogs");
-      const res = await fetch("/api/admin/cloudinary-upload", {
+      const res = await fetch("/api/admin/local-image-upload", {
         method: "POST",
         body: fd,
       });
@@ -182,7 +181,7 @@ export default function BlogAdminClient() {
       <div className="mx-auto max-w-7xl">
         <h1 className="text-3xl font-bold text-[#0f2f57]">Blog Manager</h1>
         <p className="mt-2 text-sm text-gray-600">
-          Create, edit, and delete blogs. Includes one image upload option.
+          Create, edit, and delete blogs. Uploaded images are saved in `public/blog`.
         </p>
 
         <div className="mt-6 grid gap-6 lg:grid-cols-3">
@@ -247,7 +246,7 @@ export default function BlogAdminClient() {
             </label>
 
             <label className="mt-2 block text-sm">
-              <div className="mb-1 font-medium">Upload Image</div>
+              <div className="mb-1 font-medium">Upload Local Image</div>
               <input type="file" accept="image/*" onChange={handleUpload} disabled={busy} />
             </label>
 

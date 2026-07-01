@@ -4,17 +4,22 @@ import Link from "next/link";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { slugifyCompound } from "../lib/compounds";
+import { getLocalProductImagePath } from "../lib/local-image-paths";
 
 export default function CompoundCard({ compound, priority = false }) {
   const [imageUnavailable, setImageUnavailable] = useState(false);
   const compoundTitle = compound.displayName || compound.name;
 
   const [imageSrc, setImageSrc] = useState(
-    `/products/${compound.category.toLowerCase()}/${compound.imageKey}_1.jpg`
+    getLocalProductImagePath(compound.category, compound.imageKey, 1)
   );
 
   useEffect(() => {
-    const nextSrc = `/products/${compound.category.toLowerCase()}/${compound.imageKey}_1.jpg`;
+    const nextSrc = getLocalProductImagePath(
+      compound.category,
+      compound.imageKey,
+      1
+    );
     setImageSrc(nextSrc);
     setImageUnavailable(false);
   }, [compound.category, compound.imageKey]);

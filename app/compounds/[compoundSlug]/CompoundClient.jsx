@@ -6,6 +6,7 @@ import { ChevronDown, ShieldCheck, FlaskConical, FileText } from "lucide-react";
 import { getCompounds } from "../../../data/compounds";
 import Breadcrumbs from "../../../components/Breadcrumbs";
 import CompoundCard from "../../../components/CompoundCard";
+import { getLocalProductImagePath } from "../../../lib/local-image-paths";
 
 const parseLines = (value) =>
   (value || "")
@@ -127,8 +128,8 @@ export default function CompoundClient({ compoundId }) {
     );
   }
 
-  const images = [1, 2, 3].map(
-    (index) => `/products/${compound.category.toLowerCase()}/${compound.imageKey}_${index}.jpg`
+  const images = [1, 2, 3].map((index) =>
+    getLocalProductImagePath(compound.category, compound.imageKey, index)
   );
   const compoundTitle = compound.displayName || compound.name;
 

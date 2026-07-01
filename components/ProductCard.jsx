@@ -3,13 +3,22 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { getOptimizedImageUrl } from "../lib/image-utils";
+import {
+  getLocalProductImagePath,
+  isLocalAssetPath,
+} from "../lib/local-image-paths";
 
 export default function ProductCard({ product, priority = false }) {
   const [imageUnavailable, setImageUnavailable] = useState(false);
-  const fallbackLocal = `/products/${product.category.toLowerCase()}/${(product?.imageKey || product?._baseName || "")}_1.jpg`;
+  const fallbackLocal = getLocalProductImagePath(
+    product.category,
+    product?.imageKey || product?._baseName || "",
+    1
+  );
+  const resolvedImage =
+    isLocalAssetPath(product?.image) ? product.image : fallbackLocal;
   const [imageSrc, setImageSrc] = useState(
-    product?.image || fallbackLocal
+    resolvedImage
   );
 
   const displayName = product?.name || "";
@@ -20,8 +29,10 @@ export default function ProductCard({ product, priority = false }) {
   const productURL = `/products/${product.category.toLowerCase()}/${product.id}`;
 
   useEffect(() => {
-    const nextSrc = product?.image || `/products/${product.category.toLowerCase()}/${imageKey}_1.jpg`;
-    setImageSrc(getOptimizedImageUrl(nextSrc, { width: 640 }));
+    const nextSrc = isLocalAssetPath(product?.image)
+      ? product.image
+      : getLocalProductImagePath(product.category, imageKey, 1);
+    setImageSrc(nextSrc);
     setImageUnavailable(false);
   }, [product.category, imageKey, product.image]);
 

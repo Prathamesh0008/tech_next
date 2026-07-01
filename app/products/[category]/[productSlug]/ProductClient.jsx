@@ -12,32 +12,32 @@ import ProductCard from "../../../../components/ProductCard";
 
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronDown, Download } from "lucide-react";
-import { getOptimizedImageUrl } from "../../../../lib/image-utils";
+import {
+  getLocalProductImages,
+  getLocalProductImagePath,
+  isLocalAssetPath,
+} from "../../../../lib/local-image-paths";
 
 const catalogue = "/assets/catalogue/Catalogue.pdf";
 
 /* ================= IMAGE HELPER ================= */
 const getProductImages = (product) => {
   if (Array.isArray(product?.images) && product.images.length > 0) {
-    return product.images;
+    const localImages = product.images.filter(isLocalAssetPath);
+    if (localImages.length > 0) return localImages;
   }
 
   if (!product?.category || !product?.imageKey) return [];
 
-  const category = product.category.toLowerCase();
-
-  return [
-    `/products/${category}/${product.imageKey}_1.jpg`,
-    `/products/${category}/${product.imageKey}_2.jpg`,
-    `/products/${category}/${product.imageKey}_3.jpg`,
-  ];
+  return getLocalProductImages(product.category, product.imageKey, 3);
 };
 
-const getMainImage = (src) =>
-  getOptimizedImageUrl(src, { width: 1200 });
+const getMainImage = (src, product) =>
+  src?.startsWith("/")
+    ? src
+    : getLocalProductImagePath(product?.category, product?.imageKey, 1);
 
-const getThumbImage = (src) =>
-  getOptimizedImageUrl(src, { width: 280 });
+const getThumbImage = (src, product) => getMainImage(src, product);
 
 const INTERNAL_PRODUCT_LINKS = [
   {
@@ -248,12 +248,14 @@ export default function ProductDetails({
 
   const productImages = useMemo(() => getProductImages(product), [product]);
   const [selectedImage, setSelectedImage] = useState(
-    getMainImage(productImages[0]) || "/products/placeholder.jpg"
+    getMainImage(productImages[0], product) || "/products/placeholder.jpg"
   );
 
   useEffect(() => {
-    setSelectedImage(getMainImage(productImages[0]) || "/products/placeholder.jpg");
-  }, [productImages]);
+    setSelectedImage(
+      getMainImage(productImages[0], product) || "/products/placeholder.jpg"
+    );
+  }, [product, productImages]);
 
   useEffect(() => {
     if (language === initialLang) {
@@ -453,11 +455,11 @@ export default function ProductDetails({
               {productImages.map((img, idx) => (
                 <div
                   key={idx}
-                  onClick={() => setSelectedImage(getMainImage(img))}
+                  onClick={() => setSelectedImage(getMainImage(img, product))}
                   className="w-28 h-24 border rounded-lg overflow-hidden cursor-pointer"
                 >
                   <img
-                    src={getThumbImage(img)}
+                    src={getThumbImage(img, product)}
                     alt={`${product.name} ${idx + 1}`}
                     loading="lazy"
                     onError={(e) => {
@@ -599,7 +601,7 @@ export default function ProductDetails({
 
           <div className="md:w-1/3 relative flex justify-center mt-8 md:mt-0">
             <img
-              src={getMainImage(productImages[0])}
+              src={getMainImage(productImages[0], product)}
               alt={product.name}
               loading="lazy"
               className="w-72 h-72 object-contain  rounded-xl shadow-md hover:scale-105 transition-transform duration-500"

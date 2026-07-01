@@ -3,28 +3,16 @@ const fs = require("fs");
 const path = require("path");
 const dotenv = require("dotenv");
 const mongoose = require("mongoose");
-const { v2: cloudinary } = require("cloudinary");
 
 dotenv.config({ path: path.join(process.cwd(), ".env.local") });
 
-const REQUIRED_ENV = [
-  "MONGODB_URI",
-  "CLOUDINARY_CLOUD_NAME",
-  "CLOUDINARY_API_KEY",
-  "CLOUDINARY_API_SECRET",
-];
+const REQUIRED_ENV = ["MONGODB_URI"];
 
 for (const key of REQUIRED_ENV) {
   if (!process.env[key]) {
     throw new Error(`Missing required env var: ${key}`);
   }
 }
-
-cloudinary.config({
-  cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
-  api_key: process.env.CLOUDINARY_API_KEY,
-  api_secret: process.env.CLOUDINARY_API_SECRET,
-});
 
 const ProductImageSchema = new mongoose.Schema(
   {
@@ -89,7 +77,6 @@ const INJECTABLES_DIR = path.join(
   "injectables"
 );
 
-const SHOULD_UPLOAD_IMAGES = process.env.SEED_UPLOAD_IMAGES !== "false";
 const CLEAN_STALE_PRODUCTS = process.env.SEED_CLEAN_STALE !== "false";
 
 function normalizeKey(value) {
@@ -142,20 +129,6 @@ function matchImagesByKey(imageKey, slug, files) {
     .sort((a, b) => a.name.localeCompare(b.name, undefined, { numeric: true }));
 }
 
-async function uploadImage(absPath, folder, publicId) {
-  const result = await cloudinary.uploader.upload(absPath, {
-    folder,
-    public_id: publicId,
-    overwrite: true,
-    resource_type: "image",
-  });
-
-  return {
-    url: result.secure_url,
-    publicId: result.public_id,
-  };
-}
-
 async function main() {
   const langFiles = fs
     .readdirSync(PRODUCTS_LANG_DIR)
@@ -189,8 +162,6 @@ async function main() {
   });
 
   let seededCount = 0;
-  let uploadCount = 0;
-
   for (const slug of Array.from(allSlugs).sort()) {
     const english = langData.en?.[slug] || null;
     const fallbackLang = Object.keys(langData).find((l) => langData[l]?.[slug]);
@@ -221,29 +192,14 @@ async function main() {
     const images = [];
     for (let i = 0; i < pickedLocalImages.length; i += 1) {
       const local = pickedLocalImages[i];
-      if (SHOULD_UPLOAD_IMAGES) {
-        const uploaded = await uploadImage(
-          local.absPath,
-          `novatech/products/${category === "other" ? "misc" : category}`,
-          `${slug}_${i + 1}`
-        );
-        uploadCount += 1;
-        images.push({
-          url: uploaded.url,
-          publicId: uploaded.publicId,
-          alt: base.name || slug,
-          sortOrder: i,
-          isPrimary: i === 0,
-        });
-      } else {
-        images.push({
-          url: local.absPath,
-          publicId: "",
-          alt: base.name || slug,
-          sortOrder: i,
-          isPrimary: i === 0,
-        });
-      }
+      const publicPath = `/assets/products/${category}/${local.name}`;
+      images.push({
+        url: publicPath,
+        publicId: "",
+        alt: base.name || slug,
+        sortOrder: i,
+        isPrimary: i === 0,
+      });
     }
 
     const translations = {};
@@ -290,7 +246,7 @@ async function main() {
 
   console.log(`\nSeed complete.`);
   console.log(`Products upserted: ${seededCount}`);
-  console.log(`Images uploaded to Cloudinary: ${uploadCount}`);
+  console.log(`Images linked from local files: complete`);
 
   if (CLEAN_STALE_PRODUCTS) {
     const keepSlugs = Array.from(allSlugs);

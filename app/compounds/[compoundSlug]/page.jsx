@@ -1,6 +1,7 @@
 import { notFound, permanentRedirect } from "next/navigation";
 import { getCompounds } from "../../../data/compounds";
 import { slugifyCompound } from "../../../lib/compounds";
+import { getLocalProductImagePath } from "../../../lib/local-image-paths";
 import CompoundClient from "./CompoundClient";
 
 export async function generateMetadata({ params }) {
@@ -41,7 +42,11 @@ export default async function CompoundDetailsPage({ params }) {
 
   const siteUrl = "https://www.novatechsciences.com";
   const compoundUrl = `${siteUrl}/compounds/${compound.slug}`;
-  const productImage = `${siteUrl}/products/${compound.category.toLowerCase()}/${compound.imageKey}_1.jpg`;
+  const productImage = `${siteUrl}${getLocalProductImagePath(
+    compound.category,
+    compound.imageKey,
+    1
+  )}`;
 
   const productSchema = {
     "@context": "https://schema.org",
