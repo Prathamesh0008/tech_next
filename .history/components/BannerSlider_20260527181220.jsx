@@ -113,7 +113,12 @@ const HealthAccordBanner = () => {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 py-8 sm:py-12 lg:py-20 grid lg:grid-cols-2 gap-8 sm:gap-10 lg:gap-14 items-start lg:items-center">
         {/* LEFT */}
         <div className="space-y-5 sm:space-y-8 z-10 min-w-0">
-          
+          <div className="inline-flex items-center gap-2 bg-blue-800/30 px-3 py-1.5 sm:px-4 sm:py-2 rounded-full border border-blue-500/30">
+            <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
+            <span className="text-xs sm:text-sm text-blue-200">
+              The Global Health Initiative
+            </span>
+          </div>
 
           <h1 className="text-2xl min-[400px]:text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.15] break-words">
             <span className="bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
