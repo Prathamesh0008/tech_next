@@ -1,0 +1,33 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="hero" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#180f24" />
+      <stop offset="1" stop-color="#5a2465" />
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1010 246) rotate(90) scale(240 240)">
+      <stop stop-color="#ff7a8e" stop-opacity="0.35" />
+      <stop offset="1" stop-color="#ff7a8e" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#180f24" />
+  <rect width="1200" height="630" rx="28" fill="url(#hero)" />
+  <circle cx="1010" cy="246" r="240" fill="url(#glow)" />
+  <circle cx="1140" cy="128" r="112" fill="#ffffff" opacity="0.07" />
+  <circle cx="64" cy="544" r="134" fill="#ff7a8e" opacity="0.18" />
+  <circle cx="1094" cy="438" r="124" fill="#ff7a8e" opacity="0.12" />
+  <rect x="52" y="54" width="132" height="28" rx="10" fill="#ffffff" opacity="0.12" />
+  <text x="68" y="73" fill="#f2f7ff" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="500">CAS 10161-34-9</text>
+  <text x="74" y="146" fill="#f7fbff" font-family="Georgia, Times New Roman, serif" font-size="30" font-weight="700">Trenova A</text>
+  <text x="74" y="202" fill="#f7fbff" font-family="Georgia, Times New Roman, serif" font-size="30" font-weight="700">Trenbolone Acetate</text>
+  <foreignObject x="74" y="248" width="470" height="110">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="color:#d7e3ef;font-family:Inter,Arial,sans-serif;font-size:18px;line-height:1.45;">
+      Advanced physique, training intensity, and performance-focused compound overview.
+    </div>
+  </foreignObject>
+  <rect x="74" y="394" width="126" height="4" rx="2" fill="#ff7a8e" />
+  <text x="74" y="434" fill="#ff7a8e" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="600">Nova Techsciences Blog</text>
+  <rect x="726" y="84" width="388" height="388" rx="44" fill="#ffffff" opacity="0.06" />
+  <rect x="768" y="126" width="304" height="304" rx="36" fill="#ffffff" opacity="0.08" />
+  <path d="M984 118L892 284H968L918 450L1090 246H1002L1080 118H984Z" fill="#ff7a8e" />
+  <path d="M1010 118L954 244H1016L986 338L1068 224H1018L1060 118H1010Z" fill="#ffd2d9" opacity="0.9" />
+</svg>

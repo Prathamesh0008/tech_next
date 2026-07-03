@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { resolveBlogImage } from "@/lib/blog-images";
 import { readBlogs, slugifyId, writeBlogs } from "@/lib/blog-store";
 
 export const runtime = "nodejs";
@@ -8,7 +9,7 @@ function normalizeBlogInput(input = {}) {
   const faqs = Array.isArray(input.faqs) ? input.faqs : [];
   const meta = input.meta && typeof input.meta === "object" ? input.meta : {};
 
-  return {
+  const blog = {
     id: slugifyId(input.id || input.title || ""),
     title: String(input.title || "").trim(),
     image: String(input.image || "").trim(),
@@ -19,6 +20,11 @@ function normalizeBlogInput(input = {}) {
     },
     content,
     faqs,
+  };
+
+  return {
+    ...blog,
+    image: resolveBlogImage(blog),
   };
 }
 

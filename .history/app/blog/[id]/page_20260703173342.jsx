@@ -141,39 +141,6 @@ export async function generateMetadata({ params }) {
         "Cabergoline guide"
       ]
     },
-    "drostanova-p-drostanolone-propionate-guide": {
-      title: "Drostanova P (Drostanolone Propionate) | Complete Guide to Lean Muscle Development",
-      keywords: [
-        "Drostanova P",
-        "Drostanolone Propionate",
-        "lean muscle preservation",
-        "physique enhancement",
-        "injectable performance compounds",
-        "Nova Techsciences drostanolone"
-      ]
-    },
-    "primonova-metenolone-acetate-guide": {
-      title: "Primonova (Metenolone Acetate) Guide | CAS 434-05-9 | Nova Techsciences",
-      keywords: [
-        "Primonova",
-        "Metenolone Acetate",
-        "CAS 434-05-9",
-        "pharmaceutical manufacturing quality",
-        "Nova Techsciences Metenolone",
-        "pharmaceutical tablet guide"
-      ]
-    },
-    "nova-t3-liothyronine-sodium-t3-guide": {
-      title: "Nova-T3 (Liothyronine Sodium T3) | CAS 55-06-1 | Complete Guide by Nova Techsciences",
-      keywords: [
-        "Nova-T3",
-        "Liothyronine Sodium",
-        "T3 CAS 55-06-1",
-        "pharmaceutical T3 guide",
-        "Nova Techsciences thyroid support",
-        "quality pharmaceutical manufacturing"
-      ]
-    },
   };
 
   const { blogs: blogsArray } = await readBlogs("en");

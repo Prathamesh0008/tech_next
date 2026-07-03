@@ -1,0 +1,33 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="hero" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0d1826" />
+      <stop offset="1" stop-color="#234a69" />
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1010 246) rotate(90) scale(240 240)">
+      <stop stop-color="#6fd1ff" stop-opacity="0.35" />
+      <stop offset="1" stop-color="#6fd1ff" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#0d1826" />
+  <rect width="1200" height="630" rx="28" fill="url(#hero)" />
+  <circle cx="1010" cy="246" r="240" fill="url(#glow)" />
+  <circle cx="1140" cy="128" r="112" fill="#ffffff" opacity="0.07" />
+  <circle cx="64" cy="544" r="134" fill="#6fd1ff" opacity="0.18" />
+  <circle cx="1094" cy="438" r="124" fill="#6fd1ff" opacity="0.12" />
+  <rect x="52" y="54" width="132" height="28" rx="10" fill="#ffffff" opacity="0.12" />
+  <text x="68" y="73" fill="#f2f7ff" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="500">CAS 62-90-8</text>
+  <text x="74" y="146" fill="#f7fbff" font-family="Georgia, Times New Roman, serif" font-size="30" font-weight="700">Nandrova P</text>
+  <text x="74" y="202" fill="#f7fbff" font-family="Georgia, Times New Roman, serif" font-size="30" font-weight="700">Nandrolone Phenylpropionate</text>
+  <foreignObject x="74" y="248" width="470" height="110">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="color:#d7e3ef;font-family:Inter,Arial,sans-serif;font-size:18px;line-height:1.45;">
+      Athlete-focused educational guide with recovery, performance, and product context.
+    </div>
+  </foreignObject>
+  <rect x="74" y="394" width="126" height="4" rx="2" fill="#6fd1ff" />
+  <text x="74" y="434" fill="#6fd1ff" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="600">Nova Techsciences Blog</text>
+  <rect x="726" y="84" width="388" height="388" rx="44" fill="#ffffff" opacity="0.06" />
+  <rect x="768" y="126" width="304" height="304" rx="36" fill="#ffffff" opacity="0.08" />
+  <path d="M822 342C872 276 920 250 968 250C1026 250 1058 304 1112 304C1134 304 1152 294 1170 280V406C1130 430 1096 442 1060 442C998 442 958 402 900 402C866 402 840 416 816 434L822 342Z" fill="#6fd1ff" opacity="0.92" />
+  <path d="M810 270C860 218 910 196 970 196C1030 196 1072 230 1116 230C1142 230 1160 224 1176 214" stroke="#dff8ff" stroke-width="8" stroke-linecap="round" opacity="0.8" />
+</svg>

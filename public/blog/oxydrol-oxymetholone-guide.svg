@@ -1,0 +1,36 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="hero" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1e1322" />
+      <stop offset="1" stop-color="#72353f" />
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1010 246) rotate(90) scale(240 240)">
+      <stop stop-color="#ffb26b" stop-opacity="0.35" />
+      <stop offset="1" stop-color="#ffb26b" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#1e1322" />
+  <rect width="1200" height="630" rx="28" fill="url(#hero)" />
+  <circle cx="1010" cy="246" r="240" fill="url(#glow)" />
+  <circle cx="1140" cy="128" r="112" fill="#ffffff" opacity="0.07" />
+  <circle cx="64" cy="544" r="134" fill="#ffb26b" opacity="0.18" />
+  <circle cx="1094" cy="438" r="124" fill="#ffb26b" opacity="0.12" />
+  <rect x="52" y="54" width="132" height="28" rx="10" fill="#ffffff" opacity="0.12" />
+  <text x="68" y="73" fill="#f2f7ff" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="500">EUROPE INSIGHT</text>
+  <text x="74" y="146" fill="#f7fbff" font-family="Georgia, Times New Roman, serif" font-size="30" font-weight="700">Oxydrol</text>
+  <text x="74" y="202" fill="#f7fbff" font-family="Georgia, Times New Roman, serif" font-size="30" font-weight="700">Oxymetholone</text>
+  <foreignObject x="74" y="248" width="470" height="110">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="color:#d7e3ef;font-family:Inter,Arial,sans-serif;font-size:18px;line-height:1.45;">
+      Detailed educational article on compound profile, manufacturing quality, and demand.
+    </div>
+  </foreignObject>
+  <rect x="74" y="394" width="126" height="4" rx="2" fill="#ffb26b" />
+  <text x="74" y="434" fill="#ffb26b" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="600">Nova Techsciences Blog</text>
+  <rect x="726" y="84" width="388" height="388" rx="44" fill="#ffffff" opacity="0.06" />
+  <rect x="768" y="126" width="304" height="304" rx="36" fill="#ffffff" opacity="0.08" />
+  <g transform="translate(904 170) rotate(-24 108 108)">
+    <rect x="20" y="44" width="176" height="128" rx="64" fill="#ffb26b" />
+    <path d="M108 44V172" stroke="#7b2633" stroke-width="10" opacity="0.5" />
+    <rect x="20" y="44" width="88" height="128" rx="64" fill="#ffd2b0" opacity="0.9" />
+  </g>
+</svg>
