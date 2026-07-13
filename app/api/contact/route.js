@@ -82,17 +82,32 @@ export async function POST(request) {
 
   const name = toSafeString(body?.name);
   const email = toSafeString(body?.email);
+  const countryCode = toSafeString(body?.countryCode);
+  const phone = toSafeString(body?.phone);
+  const country = toSafeString(body?.country);
   const message = toSafeString(body?.message);
 
-  if (!name || !email || !message) {
-    return Response.json({ error: "Name, email, and message are required." }, { status: 400 });
+  if (!name || !email || !countryCode || !phone || !country || !message) {
+    return Response.json(
+      { error: "Name, email, phone, country, and message are required." },
+      { status: 400 }
+    );
   }
 
   if (!isValidEmail(email)) {
     return Response.json({ error: "Please provide a valid email address." }, { status: 400 });
   }
 
-  if (name.length > 120 || message.length > 5000) {
+  if (!/^\+\d{1,4}$/.test(countryCode) || !/^\d{6,15}$/.test(phone)) {
+    return Response.json(
+      { error: "Please provide a valid country code and a phone number of 6 to 15 digits." },
+      { status: 400 }
+    );
+  }
+
+  const fullPhone = `${countryCode}${phone}`;
+
+  if (name.length > 120 || phone.length > 40 || country.length > 120 || message.length > 5000) {
     return Response.json({ error: "Input size limit exceeded." }, { status: 400 });
   }
 
@@ -103,6 +118,8 @@ export async function POST(request) {
     console.warn("Contact form submitted without EmailJS config; storing message only in logs.", {
       name,
       email,
+      phone: fullPhone,
+      country,
       message,
     });
 
@@ -124,6 +141,9 @@ export async function POST(request) {
     const baseTemplateParams = {
       name,
       email,
+      phone: fullPhone,
+      country_code: countryCode,
+      country,
       message,
       from_name: name,
       from_email: email,

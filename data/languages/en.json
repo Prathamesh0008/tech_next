@@ -26,6 +26,14 @@
         "label": "Your Email",
         "placeholder": "Enter your email address"
       },
+      "phone": {
+        "label": "Phone",
+        "placeholder": "Enter your phone number"
+      },
+      "country": {
+        "label": "Country",
+        "placeholder": "Enter your country"
+      },
       "message": {
         "label": "Your Message",
         "placeholder": "Tell us how we can help you"

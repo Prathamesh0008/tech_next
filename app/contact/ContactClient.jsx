@@ -5,6 +5,88 @@ import Breadcrumbs from "../../components/Breadcrumbs";
 import { Send, Mail } from "lucide-react";
 import { useLanguage } from "../../contexts/LanguageContext";
 
+const COUNTRY_CODES = [
+  { code: "+1", country: "US/CA" },
+  { code: "+7", country: "RU/KZ" },
+  { code: "+20", country: "EG" },
+  { code: "+27", country: "ZA" },
+  { code: "+30", country: "GR" },
+  { code: "+31", country: "NL" },
+  { code: "+32", country: "BE" },
+  { code: "+33", country: "FR" },
+  { code: "+34", country: "ES" },
+  { code: "+36", country: "HU" },
+  { code: "+39", country: "IT" },
+  { code: "+40", country: "RO" },
+  { code: "+41", country: "CH" },
+  { code: "+43", country: "AT" },
+  { code: "+44", country: "UK" },
+  { code: "+45", country: "DK" },
+  { code: "+46", country: "SE" },
+  { code: "+47", country: "NO" },
+  { code: "+48", country: "PL" },
+  { code: "+49", country: "DE" },
+  { code: "+51", country: "PE" },
+  { code: "+52", country: "MX" },
+  { code: "+53", country: "CU" },
+  { code: "+54", country: "AR" },
+  { code: "+55", country: "BR" },
+  { code: "+56", country: "CL" },
+  { code: "+57", country: "CO" },
+  { code: "+58", country: "VE" },
+  { code: "+60", country: "MY" },
+  { code: "+61", country: "AU" },
+  { code: "+62", country: "ID" },
+  { code: "+63", country: "PH" },
+  { code: "+64", country: "NZ" },
+  { code: "+65", country: "SG" },
+  { code: "+66", country: "TH" },
+  { code: "+81", country: "JP" },
+  { code: "+82", country: "KR" },
+  { code: "+84", country: "VN" },
+  { code: "+86", country: "CN" },
+  { code: "+90", country: "TR" },
+  { code: "+91", country: "IN" },
+  { code: "+92", country: "PK" },
+  { code: "+93", country: "AF" },
+  { code: "+94", country: "LK" },
+  { code: "+95", country: "MM" },
+  { code: "+98", country: "IR" },
+  { code: "+212", country: "MA" },
+  { code: "+213", country: "DZ" },
+  { code: "+234", country: "NG" },
+  { code: "+351", country: "PT" },
+  { code: "+352", country: "LU" },
+  { code: "+353", country: "IE" },
+  { code: "+354", country: "IS" },
+  { code: "+355", country: "AL" },
+  { code: "+356", country: "MT" },
+  { code: "+357", country: "CY" },
+  { code: "+358", country: "FI" },
+  { code: "+359", country: "BG" },
+  { code: "+370", country: "LT" },
+  { code: "+371", country: "LV" },
+  { code: "+372", country: "EE" },
+  { code: "+373", country: "MD" },
+  { code: "+374", country: "AM" },
+  { code: "+375", country: "BY" },
+  { code: "+376", country: "AD" },
+  { code: "+377", country: "MC" },
+  { code: "+380", country: "UA" },
+  { code: "+381", country: "RS" },
+  { code: "+382", country: "ME" },
+  { code: "+385", country: "HR" },
+  { code: "+386", country: "SI" },
+  { code: "+387", country: "BA" },
+  { code: "+389", country: "MK" },
+  { code: "+420", country: "CZ" },
+  { code: "+421", country: "SK" },
+  { code: "+971", country: "AE" },
+  { code: "+972", country: "IL" },
+  { code: "+974", country: "QA" },
+  { code: "+977", country: "NP" },
+];
+
 export default function ContactClient() {
   const { translations } = useLanguage();
 
@@ -15,13 +97,18 @@ export default function ContactClient() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
+    countryCode: "+91",
+    phone: "",
+    country: "",
     message: "",
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [status, setStatus] = useState({ type: "", message: "" });
 
   const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
+    const { name, value } = e.target;
+    const nextValue = name === "phone" ? value.replace(/\D/g, "").slice(0, 15) : value;
+    setFormData({ ...formData, [name]: nextValue });
   };
 
   const handleSubmit = async (e) => {
@@ -46,7 +133,14 @@ export default function ContactClient() {
         type: "success",
         message: data?.message || t.status.success,
       });
-      setFormData({ name: "", email: "", message: "" });
+      setFormData({
+        name: "",
+        email: "",
+        countryCode: "+91",
+        phone: "",
+        country: "",
+        message: "",
+      });
     } catch (error) {
       console.error("Contact form submit error:", error);
       setStatus({ type: "error", message: error.message || t.status.error });
@@ -98,6 +192,55 @@ export default function ContactClient() {
               placeholder={t.form.email.placeholder}
               className="w-full border px-4 py-2 rounded-lg"
             />
+
+            <div className="grid gap-5 sm:grid-cols-2">
+              <div className="flex">
+                <select
+                  name="countryCode"
+                  value={formData.countryCode}
+                  onChange={handleChange}
+                  disabled={isSubmitting}
+                  aria-label="Country calling code"
+                  className="w-28 rounded-l-lg border border-r-0 bg-gray-50 px-2 py-2"
+                >
+                  {COUNTRY_CODES.map(({ code, country }) => (
+                    <option key={`${country}-${code}`} value={code}>
+                      {country} {code}
+                    </option>
+                  ))}
+                </select>
+                <input
+                  type="tel"
+                  inputMode="numeric"
+                  pattern="[0-9]{6,15}"
+                  minLength={6}
+                  maxLength={15}
+                  name="phone"
+                  value={formData.phone}
+                  onChange={handleChange}
+                  disabled={isSubmitting}
+                  required
+                  autoComplete="tel-national"
+                  placeholder={t.form.phone?.placeholder || "Phone number"}
+                  aria-label={t.form.phone?.label || "Phone"}
+                  title="Enter 6 to 15 digits"
+                  className="min-w-0 flex-1 rounded-r-lg border px-4 py-2"
+                />
+              </div>
+
+              <input
+                type="text"
+                name="country"
+                value={formData.country}
+                onChange={handleChange}
+                disabled={isSubmitting}
+                required
+                autoComplete="country-name"
+                placeholder={t.form.country?.placeholder || "Enter your country"}
+                aria-label={t.form.country?.label || "Country"}
+                className="w-full border px-4 py-2 rounded-lg"
+              />
+            </div>
 
             <textarea
               name="message"
