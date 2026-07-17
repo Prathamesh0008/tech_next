@@ -144,14 +144,30 @@ export default function BlogDetailsClient({ id }) {
           )}
 
           {blog.content?.map((block, idx) => {
+            const previousBlock = blog.content[idx - 1];
+
             switch (block.type) {
               case "section":
+                // A section immediately following a heading sequence is the
+                // final item in that nested group, rather than a new section.
+                const SectionHeading = previousBlock?.type === "heading" ? "h5" : "h2";
                 return (
-                  <section key={idx} className="space-y-4">
+                  <section
+                    key={idx}
+                    className={
+                      SectionHeading === "h5" ? "space-y-4 !mt-2" : "space-y-4"
+                    }
+                  >
                     {block.heading && (
-                      <h2 className="text-2xl font-semibold text-gray-800">
+                      <SectionHeading
+                        className={
+                          SectionHeading === "h2"
+                            ? "text-2xl font-semibold text-gray-800"
+                            : "text-lg font-normal text-gray-800 list-item list-disc ml-5 pl-1"
+                        }
+                      >
                         {block.heading}
-                      </h2>
+                      </SectionHeading>
                     )}
                     {block.text && (
                       <p
@@ -172,10 +188,20 @@ export default function BlogDetailsClient({ id }) {
                 );
 
               case "heading":
+                // The first heading introduces a nested group; consecutive
+                // headings are the individual items within that group.
+                const HeadingTag = previousBlock?.type === "heading" ? "h5" : "h4";
                 return (
-                  <h3 key={idx} className="text-xl font-semibold text-gray-800">
+                  <HeadingTag
+                    key={idx}
+                    className={
+                      HeadingTag === "h4"
+                        ? "text-xl font-semibold text-gray-800"
+                        : "text-lg font-normal text-gray-800 !mt-2 list-item list-disc ml-5 pl-1"
+                    }
+                  >
                     {block.text}
-                  </h3>
+                  </HeadingTag>
                 );
 
               case "paragraph":

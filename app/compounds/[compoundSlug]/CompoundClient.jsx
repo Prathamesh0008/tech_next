@@ -2527,6 +2527,110 @@ function StanozololRoxonovaEditorialContent() {
   );
 }
 
+function TestosteronePropionateEditorialContent() {
+  const linkClass = "font-semibold text-[#1f5f99] underline underline-offset-2";
+  return (
+    <section className="mx-auto max-w-7xl px-4 pb-10">
+      <article className="rounded-3xl border border-[#d5e5f2] bg-white p-6 text-[#3f6289] shadow-sm md:p-8">
+        <div className="max-w-5xl space-y-8 leading-7">
+          <div className="space-y-4">
+            <p>
+              <strong className="text-[#123a6d]">Testosterone Propionate</strong> is an esterified form
+              of testosterone identified by CAS Number 57-85-2. It has the molecular{" "}
+              <a href="http://en.wikipedia.org/wiki/Testosterone_propionate" className={linkClass} target="_blank" rel="noopener noreferrer">formula C22H32O3</a>{" "}
+              and belongs to the androgen and anabolic-steroid class. The propionate ester gives this
+              substance a separate chemical identity from Testosterone Cypionate, Testosterone
+              Enanthate and unesterified testosterone.
+            </p>
+            <p>
+              This Nova Techsciences page provides neutral chemical, quality and safety information
+              about Testosterone Propionate. It should not replace authorised prescribing information,
+              an approved patient leaflet or individual assessment by a qualified healthcare professional.
+            </p>
+          </div>
+
+          <div className="space-y-4">
+            <h2 className="text-2xl font-bold text-[#123a6d]">Testosterone Propionate Overview</h2>
+            <ul className="list-disc space-y-2 pl-6">
+              <li><strong>Compound name:</strong>{" "}<a href="https://en.wikipedia.org/wiki/Testosterone_propionate" className={linkClass} target="_blank" rel="noopener noreferrer">Testosterone Propionate</a></li>
+              <li><strong>CAS Number:</strong> 57-85-2</li>
+              <li><strong>Molecular formula:</strong> C22H32O3</li>
+              <li><strong>Compound category:</strong> Esterified androgen</li>
+              <li><strong>Common pharmaceutical form:</strong> Injectable preparation</li>
+              <li><strong>Associated Nova Techsciences range:</strong>{" "}<Link href="/products/injectables/testova-p" className={linkClass}>TESTOVA-P</Link></li>
+            </ul>
+            <p>
+              The CAS number should remain consistent across the compound page, product page, packaging,
+              structured data, laboratory reports and Certificates of Analysis. This is particularly
+              important because several testosterone esters have similar names but different chemical
+              identifiers and formulation characteristics.
+            </p>
+          </div>
+
+          <div className="space-y-4">
+            <h2 className="text-2xl font-bold text-[#123a6d]">Chemical Identity and Documentation</h2>
+            <p>
+              Testosterone Propionate consists of testosterone linked to a propionate ester. Following
+              authorised administration, the ester is separated from the active testosterone molecule,
+              allowing testosterone to interact with androgen receptors. Any description of medical use
+              should be limited to indications supported by the authorised product information for the
+              relevant market.
+            </p>
+            <p>
+              A dependable Testosterone Propionate profile should be supported by appropriate analytical
+              and manufacturing records. These may include raw-material identification, active-compound
+              assay, impurity analysis, reference-standard comparison, sterility testing, particulate
+              assessment, stability data and container-closure integrity checks.
+            </p>
+            <p>
+              Every batch should carry a unique identification number linked to its manufacturing
+              history and laboratory-release results. Statements concerning pharmaceutical grade,
+              purity, quality testing or international compliance should only appear when current
+              supporting evidence is available.
+            </p>
+            <p>
+              For the United Kingdom, Netherlands and other European markets, Nova Techsciences should
+              clearly disclose the compound’s marketing-authorisation status, prescription category,
+              responsible organisation and adverse-event reporting procedure.
+            </p>
+          </div>
+
+          <div className="space-y-4">
+            <h2 className="text-2xl font-bold text-[#123a6d]">Safety and Responsible Presentation</h2>
+            <p>
+              Testosterone Propionate is not an ordinary wellness or sports supplement. Misuse of
+              anabolic steroids can cause serious cardiovascular, hormonal, reproductive, liver, kidney
+              and psychological effects. It may also lead to dependence. The compound should not be
+              presented for self-medication, use by minors, physique enhancement or unsupervised
+              athletic purposes.
+            </p>
+            <p>
+              Testosterone and other anabolic agents are prohibited in competitive sport under the 2026
+              World Anti-Doping Agency Prohibited List. Compound information should avoid performance
+              claims and emphasise professional medical supervision and country-specific legal requirements.
+            </p>
+          </div>
+
+          <div className="space-y-5">
+            <h2 className="text-2xl font-bold text-[#123a6d]">Related Nova Techsciences Compounds</h2>
+            <div className="space-y-1"><h3 className="text-lg font-semibold text-[#123a6d]">Testosterone Blend</h3><p>A <Link href="/compounds/testosterone-blend" className={linkClass}>Testosterone Blend</Link>{" "}combines more than one testosterone ester in a single formulation. Each ester and concentration should be identified independently because CAS Number 58-22-0 refers to the parent testosterone molecule rather than an entire multi-ester preparation.</p></div>
+            <div className="space-y-1"><h3 className="text-lg font-semibold text-[#123a6d]">Testosterone Cypionate</h3><p><Link href="/compounds/testosterone-cypionate" className={linkClass}>Testosterone Cypionate</Link>{" "}is an esterified testosterone compound identified by CAS Number 58-20-8. It has a different chemical structure from Testosterone Propionate and requires separate information covering formulation strength, sterile manufacturing, contraindications, endocrine monitoring and legal supply status.</p></div>
+            <div className="space-y-1"><h3 className="text-lg font-semibold text-[#123a6d]">Testosterone Enanthate</h3><p><Link href="/compounds/testosterone-enanthate" className={linkClass}>Testosterone Enanthate</Link>{" "}is identified by CAS Number 315-37-7. It is another distinct testosterone ester and should have independent batch documentation, formulation details, storage requirements, safety information and regulatory assessment rather than being treated as interchangeable with other testosterone preparations.</p></div>
+            <div className="space-y-1"><h3 className="text-lg font-semibold text-[#123a6d]">Boldenone Undecylenate</h3><p><Link href="/compounds/boldenone-undecylenate" className={linkClass}>Boldenone Undecylenate</Link>{" "}is an anabolic-androgenic steroid identified by CAS Number 13103-34-9. It is chemically different from testosterone medicines and requires separate information covering regulatory status, cardiovascular and reproductive risks, analytical testing and anti-doping restrictions.</p></div>
+            <div className="space-y-1"><h3 className="text-lg font-semibold text-[#123a6d]">Trenbolone Acetate</h3><p><Link href="/compounds/trenbolone-acetate" className={linkClass}>Trenbolone Acetate</Link>{" "}is an anabolic compound identified by CAS Number 10161-34-9. It is not a testosterone ester and has a distinct chemical, safety and regulatory profile. Its compound information should prioritise accurate identification, prominent risk communication and verifiable batch traceability.</p></div>
+          </div>
+
+          <p className="font-semibold text-[#123a6d]">
+            Testosterone Propionate should ultimately be presented through correct CAS identification,
+            transparent quality documentation, balanced safety information and clearly stated
+            regulatory limitations.
+          </p>
+        </div>
+      </article>
+    </section>
+  );
+}
+
 export default function CompoundClient({ compoundId }) {
   const compounds = useMemo(() => getCompounds(), []);
   const [products, setProducts] = useState([]);
@@ -2837,6 +2941,7 @@ export default function CompoundClient({ compoundId }) {
       {compoundId.toLowerCase() === "testova-pp" && <TestosteronePhenylpropionateEditorialContent />}
       {compoundId.toLowerCase() === "nandrova-p" && <NandrolonePhenylpropionateEditorialContent />}
       {compoundId.toLowerCase() === "roxonova" && <StanozololRoxonovaEditorialContent />}
+      {compoundId.toLowerCase() === "testova-p" && <TestosteronePropionateEditorialContent />}
 
       {faqs.length > 0 && (
         <section className="mx-auto max-w-7xl px-4 pb-8">

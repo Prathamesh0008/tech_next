@@ -118,7 +118,7 @@ function stripFaqPrefix(value) {
 
 function isLikelyHeading(text) {
   if (!text || text.length > 110) return false;
-  if (/^(Meta Title|Meta Description|Suggested URL|Recommended SEO URL|FAQ Schema)$/i.test(text)) {
+  if (/^(Meta Title|Meta Description|Suggested URL|Recommended SEO URL|FAQ Schema(?: \(JSON-LD\))?)$/i.test(text)) {
     return false;
   }
   if (text.startsWith("{") || text.startsWith('"')) return false;
@@ -293,7 +293,7 @@ function parseDoc(source) {
   const title = explicitTitle || paragraphs[cursor] || source.id;
   const afterTitle = paragraphs.slice(cursor + 1);
   const faqIndex = afterTitle.findIndex((p) => /^Frequently Asked Questions$/i.test(p));
-  const schemaIndex = afterTitle.findIndex((p) => /^FAQ Schema$/i.test(p));
+  const schemaIndex = afterTitle.findIndex((p) => /^FAQ Schema(?: \(JSON-LD\))?$/i.test(p));
 
   const bodyParagraphs = afterTitle.slice(
     0,
