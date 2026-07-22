@@ -157,6 +157,21 @@ export default async function ProductPage({ params }) {
   });
 
   const schemas = productSchemas[`${category}/${productSlug}`] || [];
+  const faqs = Array.isArray(product.faq) ? product.faq : [];
+  const faqSchema = faqs.length
+    ? {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: faqs.map((faq) => ({
+          "@type": "Question",
+          name: faq.question || faq.q,
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: faq.answer || faq.a,
+          },
+        })),
+      }
+    : null;
 
   return (
     <>
@@ -167,6 +182,12 @@ export default async function ProductPage({ params }) {
           dangerouslySetInnerHTML={{ __html: serializeJsonLd(schema) }}
         />
       ))}
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: serializeJsonLd(faqSchema) }}
+        />
+      )}
       <ProductClient
         initialProduct={product}
         initialRelated={related}
@@ -174,6 +195,7 @@ export default async function ProductPage({ params }) {
         productSlug={productSlug}
         initialLang={initialLang}
         hasDocumentSchemas={schemas.length > 0}
+        documentSchemas={schemas}
       />
     </>
   );

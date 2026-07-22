@@ -2939,6 +2939,7 @@ export default function ProductDetails({
   productSlug,
   initialLang = "en",
   hasDocumentSchemas = false,
+  documentSchemas = [],
 }) {
   const { language } = useLanguage();
 
@@ -2992,6 +2993,62 @@ export default function ProductDetails({
     };
   }, [language, category, productSlug, initialLang, initialProduct, initialRelated]);
 
+  const faqs = useMemo(
+    () => (Array.isArray(product?.faq) ? product.faq : []),
+    [product]
+  );
+
+  useEffect(() => {
+    const scriptId = "product-faq-jsonld";
+    const existingScript = document.getElementById(scriptId);
+
+    if (faqs.length === 0) {
+      existingScript?.remove();
+      return;
+    }
+
+    const faqSchema = {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: faqs.map((faq) => ({
+        "@type": "Question",
+        name: faq.question || faq.q,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: faq.answer || faq.a,
+        },
+      })),
+    };
+
+    const script = existingScript || document.createElement("script");
+    script.id = scriptId;
+    script.type = "application/ld+json";
+    script.textContent = JSON.stringify(faqSchema);
+    if (!existingScript) document.head.appendChild(script);
+
+    return () => script.remove();
+  }, [faqs]);
+
+  useEffect(() => {
+    const scriptPrefix = "product-document-jsonld-";
+    document
+      .querySelectorAll(`script[id^="${scriptPrefix}"]`)
+      .forEach((script) => script.remove());
+
+    if (!Array.isArray(documentSchemas) || documentSchemas.length === 0) return;
+
+    const scripts = documentSchemas.map((schema, index) => {
+      const script = document.createElement("script");
+      script.id = `${scriptPrefix}${index}`;
+      script.type = "application/ld+json";
+      script.textContent = JSON.stringify(schema);
+      document.head.appendChild(script);
+      return script;
+    });
+
+    return () => scripts.forEach((script) => script.remove());
+  }, [documentSchemas]);
+
   if (!product) {
     return (
       <div className="max-w-3xl mx-auto mt-8 text-center">
@@ -3001,7 +3058,6 @@ export default function ProductDetails({
     );
   }
 
-  const faqs = product.faq || [];
   const faqMidpoint = Math.ceil(faqs.length / 2);
   const faqColumns = [faqs.slice(0, faqMidpoint), faqs.slice(faqMidpoint)];
 
@@ -3121,24 +3177,6 @@ export default function ProductDetails({
             category: product.schemaCategory || product.category,
             sku: product.id,
             mpn: product.cas,
-          })}
-        </script>
-      )}
-
-      {/* FAQ JSON-LD */}
-      {!hasDocumentSchemas && faqs.length > 0 && (
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            mainEntity: faqs.map((f) => ({
-              "@type": "Question",
-              name: f.question || f.q,
-              acceptedAnswer: {
-                "@type": "Answer",
-                text: f.answer || f.a,
-              },
-            })),
           })}
         </script>
       )}
