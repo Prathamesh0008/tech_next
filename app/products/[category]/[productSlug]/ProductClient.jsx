@@ -2706,7 +2706,22 @@ function NovaCutMixEditorialContent() {
 }
 
 /* ================= IMAGE HELPER ================= */
+const PRODUCT_IMAGE_OVERRIDES = {
+  trenovahexa: [
+    "/assets/products/injectables/TRENOVAHEXA_1.jpg",
+    "/assets/products/injectables/TRENOVAHEXA_2.jpg",
+    "/assets/products/injectables/TRENOVA_HEXA_3.jpg",
+  ],
+};
+
 const getProductImages = (product) => {
+  const productSlug = String(product?.slug || product?.imageKey || "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]/g, "");
+  const imageOverride = PRODUCT_IMAGE_OVERRIDES[productSlug];
+
+  if (imageOverride) return imageOverride;
+
   if (Array.isArray(product?.images) && product.images.length > 0) {
     const localImages = product.images.filter(isLocalAssetPath);
     if (localImages.length > 0) return localImages;
@@ -2923,6 +2938,7 @@ export default function ProductDetails({
   category,
   productSlug,
   initialLang = "en",
+  hasDocumentSchemas = false,
 }) {
   const { language } = useLanguage();
 
@@ -3089,26 +3105,28 @@ export default function ProductDetails({
         <link rel="canonical" href={canonicalUrl} />
       </Head>
 
-      {/* Product JSON-LD */}
-      <script type="application/ld+json">
-        {JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "Product",
-          name: product.name,
-          image: productImages,
-          description: description,
-          brand: {
-            "@type": "Brand",
-            name: product.schemaBrand || "NovaTech Sciences",
-          },
-          category: product.schemaCategory || product.category,
-          sku: product.id,
-          mpn: product.cas,
-        })}
-      </script>
+      {/* Generic fallback for products not covered by the supplied schema document. */}
+      {!hasDocumentSchemas && (
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Product",
+            name: product.name,
+            image: productImages,
+            description: description,
+            brand: {
+              "@type": "Brand",
+              name: product.schemaBrand || "NovaTech Sciences",
+            },
+            category: product.schemaCategory || product.category,
+            sku: product.id,
+            mpn: product.cas,
+          })}
+        </script>
+      )}
 
       {/* FAQ JSON-LD */}
-      {faqs.length > 0 && (
+      {!hasDocumentSchemas && faqs.length > 0 && (
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",

@@ -5,6 +5,11 @@ import {
   getRelatedProductsLocalized,
 } from "@/lib/products-db";
 import ProductClient from "./ProductClient";
+import productSchemas from "@/data/product-schemas.json";
+
+function serializeJsonLd(schema) {
+  return JSON.stringify(schema).replace(/</g, "\\u003c");
+}
 
 export async function generateMetadata({ params }) {
   const { category, productSlug } = await params;
@@ -151,13 +156,25 @@ export default async function ProductPage({ params }) {
     limit: 4,
   });
 
+  const schemas = productSchemas[`${category}/${productSlug}`] || [];
+
   return (
-    <ProductClient
-      initialProduct={product}
-      initialRelated={related}
-      category={category}
-      productSlug={productSlug}
-      initialLang={initialLang}
-    />
+    <>
+      {schemas.map((schema, index) => (
+        <script
+          key={`product-schema-${index}`}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: serializeJsonLd(schema) }}
+        />
+      ))}
+      <ProductClient
+        initialProduct={product}
+        initialRelated={related}
+        category={category}
+        productSlug={productSlug}
+        initialLang={initialLang}
+        hasDocumentSchemas={schemas.length > 0}
+      />
+    </>
   );
 }
