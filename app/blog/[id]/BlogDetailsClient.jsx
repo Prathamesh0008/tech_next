@@ -165,9 +165,8 @@ export default function BlogDetailsClient({ id }) {
                             ? "text-2xl font-semibold text-gray-800"
                             : "text-lg font-normal text-gray-800 list-item list-disc ml-5 pl-1"
                         }
-                      >
-                        {block.heading}
-                      </SectionHeading>
+                        dangerouslySetInnerHTML={{ __html: block.heading }}
+                      />
                     )}
                     {block.text && (
                       <p
@@ -182,7 +181,10 @@ export default function BlogDetailsClient({ id }) {
                 return (
                   <ul key={idx} className="list-disc pl-6 space-y-2 text-gray-700">
                     {block.items?.map((item, i) => (
-                      <li key={i}>{item}</li>
+                      <li
+                        key={i}
+                        dangerouslySetInnerHTML={{ __html: item }}
+                      />
                     ))}
                   </ul>
                 );
@@ -199,16 +201,17 @@ export default function BlogDetailsClient({ id }) {
                         ? "text-xl font-semibold text-gray-800"
                         : "text-lg font-normal text-gray-800 !mt-2 list-item list-disc ml-5 pl-1"
                     }
-                  >
-                    {block.text}
-                  </HeadingTag>
+                    dangerouslySetInnerHTML={{ __html: block.text }}
+                  />
                 );
 
               case "paragraph":
                 return (
-                  <p key={idx} className="text-gray-700 leading-relaxed">
-                    {block.text}
-                  </p>
+                  <p
+                    key={idx}
+                    className="text-gray-700 leading-relaxed"
+                    dangerouslySetInnerHTML={{ __html: block.text }}
+                  />
                 );
 
               default:
@@ -242,9 +245,10 @@ export default function BlogDetailsClient({ id }) {
                   </button>
 
                   {openFaqIndex === index && (
-                    <div className="p-4 border-t text-gray-700">
-                      {faq.answer}
-                    </div>
+                    <div
+                      className="p-4 border-t text-gray-700"
+                      dangerouslySetInnerHTML={{ __html: faq.answer }}
+                    />
                   )}
                 </div>
               ))}
