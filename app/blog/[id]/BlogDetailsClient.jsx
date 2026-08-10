@@ -12,19 +12,24 @@ import FeaturedByCategory from "../../../components/FeaturedByCategory";
 
 /* ---------- COMPONENT ---------- */
 
-export default function BlogDetailsClient({ id }) {
+export default function BlogDetailsClient({
+  id,
+  initialBlog = null,
+  initialRelated = [],
+  customFaqSchema = null,
+}) {
   const { language } = useLanguage();
   const router = useRouter();
-  const [blog, setBlog] = useState(null);
-  const [related, setRelated] = useState([]);
-  const [loading, setLoading] = useState(true);
+  const [blog, setBlog] = useState(initialBlog);
+  const [related, setRelated] = useState(initialRelated);
+  const [loading, setLoading] = useState(!initialBlog);
   const [openFaqIndex, setOpenFaqIndex] = useState(null);
 
   useEffect(() => {
     let ignore = false;
 
     async function loadBlogAndRelated() {
-      setLoading(true);
+      if (!initialBlog) setLoading(true);
       try {
         const [blogRes, listRes] = await Promise.all([
           fetch(`/api/blogs/${id}?lang=${language}`, { cache: "no-store" }),
@@ -52,7 +57,7 @@ export default function BlogDetailsClient({ id }) {
     return () => {
       ignore = true;
     };
-  }, [id, language]);
+  }, [id, language, initialBlog]);
 
   if (loading) {
     return (
@@ -91,11 +96,13 @@ export default function BlogDetailsClient({ id }) {
     <div className="min-h-screen bg-gradient-to-b from-[#f5f9fb] via-[#f3f8fa] to-[#e8f3f8]">
 
       {/* FAQ SCHEMA */}
-      {blog.faqs?.length > 0 && (
+      {(customFaqSchema || blog.faqs?.length > 0) && (
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify(generateFaqSchema(blog.faqs)),
+            __html: JSON.stringify(
+              customFaqSchema || generateFaqSchema(blog.faqs)
+            ),
           }}
         />
       )}

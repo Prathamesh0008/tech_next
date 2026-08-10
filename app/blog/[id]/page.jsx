@@ -1,5 +1,16 @@
 import BlogDetailsClient from "./BlogDetailsClient";
 import { readBlogs } from "@/lib/blog-store";
+import { turinovaBlogSchema } from "@/lib/schema/turinovaBlogSchema";
+import { trenovaBlogSchema } from "@/lib/schema/trenovaBlogSchema";
+import { testovaCBlogSchema } from "@/lib/schema/testovaCBlogSchema";
+import { additionalBlogSchemas } from "@/lib/schema/additionalBlogSchemas";
+
+const CUSTOM_BLOG_SCHEMAS = {
+  "turinova-chlorodehydromethyltestosterone-guide": turinovaBlogSchema,
+  "trenova-a-trenbolone-acetate-guide": trenovaBlogSchema,
+  "testova-c-testosterone-cypionate-guide": testovaCBlogSchema,
+  ...additionalBlogSchemas,
+};
 
 export async function generateMetadata({ params }) {
   const { id } = await params;
@@ -233,5 +244,20 @@ export async function generateMetadata({ params }) {
 
 export default async function Page({ params }) {
   const { id } = await params;
-  return <BlogDetailsClient id={id} />;
+  const customSchema = CUSTOM_BLOG_SCHEMAS[id];
+  const customFaqSchema = customSchema?.["@graph"].find(
+    (entity) => entity["@type"] === "FAQPage"
+  );
+  const { blogs } = await readBlogs("en");
+  const initialBlog = blogs.find((blog) => blog.id === id) || null;
+  const initialRelated = blogs.filter((blog) => blog.id !== id).slice(0, 3);
+
+  return (
+    <BlogDetailsClient
+      id={id}
+      initialBlog={initialBlog}
+      initialRelated={initialRelated}
+      customFaqSchema={customFaqSchema}
+    />
+  );
 }

@@ -6,6 +6,22 @@ import "flag-icons/css/flag-icons.min.css";
 import ScrollToTop from "../components/ScrollToTop";
 import InitialLoaderGate from "../components/InitialLoaderGate";
 import { cookies, headers } from "next/headers";
+import { turinovaBlogSchema } from "@/lib/schema/turinovaBlogSchema";
+import { trenovaBlogSchema } from "@/lib/schema/trenovaBlogSchema";
+import { testovaCBlogSchema } from "@/lib/schema/testovaCBlogSchema";
+import { additionalBlogSchemas } from "@/lib/schema/additionalBlogSchemas";
+
+const BLOG_SCHEMAS_BY_PATH = {
+  "/blog/turinova-chlorodehydromethyltestosterone-guide": turinovaBlogSchema,
+  "/blog/trenova-a-trenbolone-acetate-guide": trenovaBlogSchema,
+  "/blog/testova-c-testosterone-cypionate-guide": testovaCBlogSchema,
+  ...Object.fromEntries(
+    Object.entries(additionalBlogSchemas).map(([id, schema]) => [
+      `/blog/${id}`,
+      schema,
+    ])
+  ),
+};
 
 export const metadata = {
   alternates: {
@@ -129,6 +145,16 @@ export default async function RootLayout({ children }) {
   const cookieLang = cookieStore.get("lang")?.value;
   const initialLanguage = supportedLanguages.has(cookieLang) ? cookieLang : "en";
   const userAgent = headerStore.get("user-agent") || "";
+  const pathname = headerStore.get("x-novatech-pathname") || "";
+  const blogSchema = BLOG_SCHEMAS_BY_PATH[pathname];
+  const blogSchemaWithoutFaq = blogSchema
+    ? {
+        ...blogSchema,
+        "@graph": blogSchema["@graph"].filter(
+          (entity) => entity["@type"] !== "FAQPage"
+        ),
+      }
+    : null;
   const shouldSkipInitialLoader =
     /bot|crawler|spider|crawling|google|bing|slurp|duckduckbot|baiduspider|yandex|gptbot|claudebot|perplexitybot|oai-searchbot/i.test(
       userAgent
@@ -173,6 +199,14 @@ export default async function RootLayout({ children }) {
             __html: JSON.stringify(organizationSchema),
           }}
         />
+        {blogSchemaWithoutFaq && (
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify(blogSchemaWithoutFaq),
+            }}
+          />
+        )}
       </head>
 
       <body className="min-h-screen flex flex-col">
