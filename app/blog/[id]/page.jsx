@@ -244,10 +244,6 @@ export async function generateMetadata({ params }) {
 
 export default async function Page({ params }) {
   const { id } = await params;
-  const customSchema = CUSTOM_BLOG_SCHEMAS[id];
-  const customFaqSchema = customSchema?.["@graph"].find(
-    (entity) => entity["@type"] === "FAQPage"
-  );
   const { blogs } = await readBlogs("en");
   const initialBlog = blogs.find((blog) => blog.id === id) || null;
   const initialRelated = blogs.filter((blog) => blog.id !== id).slice(0, 3);
@@ -257,7 +253,7 @@ export default async function Page({ params }) {
       id={id}
       initialBlog={initialBlog}
       initialRelated={initialRelated}
-      customFaqSchema={customFaqSchema}
+      hasServerSchema={Boolean(CUSTOM_BLOG_SCHEMAS[id])}
     />
   );
 }

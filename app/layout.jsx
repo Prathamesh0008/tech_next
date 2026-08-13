@@ -147,14 +147,6 @@ export default async function RootLayout({ children }) {
   const userAgent = headerStore.get("user-agent") || "";
   const pathname = headerStore.get("x-novatech-pathname") || "";
   const blogSchema = BLOG_SCHEMAS_BY_PATH[pathname];
-  const blogSchemaWithoutFaq = blogSchema
-    ? {
-        ...blogSchema,
-        "@graph": blogSchema["@graph"].filter(
-          (entity) => entity["@type"] !== "FAQPage"
-        ),
-      }
-    : null;
   const shouldSkipInitialLoader =
     /bot|crawler|spider|crawling|google|bing|slurp|duckduckbot|baiduspider|yandex|gptbot|claudebot|perplexitybot|oai-searchbot/i.test(
       userAgent
@@ -199,11 +191,11 @@ export default async function RootLayout({ children }) {
             __html: JSON.stringify(organizationSchema),
           }}
         />
-        {blogSchemaWithoutFaq && (
+        {blogSchema && (
           <script
             type="application/ld+json"
             dangerouslySetInnerHTML={{
-              __html: JSON.stringify(blogSchemaWithoutFaq),
+              __html: JSON.stringify(blogSchema),
             }}
           />
         )}

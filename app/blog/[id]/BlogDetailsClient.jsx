@@ -16,7 +16,7 @@ export default function BlogDetailsClient({
   id,
   initialBlog = null,
   initialRelated = [],
-  customFaqSchema = null,
+  hasServerSchema = false,
 }) {
   const { language } = useLanguage();
   const router = useRouter();
@@ -96,13 +96,11 @@ export default function BlogDetailsClient({
     <div className="min-h-screen bg-gradient-to-b from-[#f5f9fb] via-[#f3f8fa] to-[#e8f3f8]">
 
       {/* FAQ SCHEMA */}
-      {(customFaqSchema || blog.faqs?.length > 0) && (
+      {!hasServerSchema && blog.faqs?.length > 0 && (
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify(
-              customFaqSchema || generateFaqSchema(blog.faqs)
-            ),
+            __html: JSON.stringify(generateFaqSchema(blog.faqs)),
           }}
         />
       )}
